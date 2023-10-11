@@ -16,10 +16,9 @@ odir = str(sys.argv[2])
 
 # read the project xml file first
 # let's do this later in order to implement directory structure
-"""
-tree = ET.parse('SOB_CE.qproj')
+
+tree = ET.parse('SOA_444.qproj')
 root = tree.getroot()
-"""
 
 ifile = io.open(iname, 'rt', encoding='utf-16')
 
