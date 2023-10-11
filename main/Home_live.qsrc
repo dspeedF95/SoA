@@ -1,0 +1,231 @@
+# Home_live
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+minutes+=60
+my.energy-=5
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs "Energy_judgment"
+	'<div class="actions_menu">'
+		'<div class="action">'
+			if hour>=21 and $LY.available=0:'<a class="photo" href="exec:gt ''Home_live'',''ASMR''"><img class="img_stretch" src="images\items\ly1.png"></a>'else:'<a class="photo" data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\ly0.png"></a>'
+		'</div>'
+		!'<div class="action">'
+		!	if hour>=18:'<a class="photo" href="exec:gt ''Home_live'',''mina''"><img class="img_stretch" src="images\items\minad1.png"></a>'else:'<a class="photo"data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\minad0.png"></a>'
+		!'</div>'
+		'<div class="action">'
+			if 17>=hour and hour>=12:'<a class="photo" href="exec:gt ''Home_live'',''domestic''"><img class="img_stretch" src="images\items\cnd1.png"></a>'else:'<a class="photo"data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\cnd0.png"></a>'
+		'</div>'
+		'<div class="action">'
+			if hour>=22 or hour<=5:'<a class="photo" href="exec:gt ''Home_live'',''South Korea''"><img class="img_stretch" src="images\items\krd1.png"></a>'else:'<a class="photo" data-title="The anchor is not here" href="exec:"><img class="img_stretch" src="images\items\krd0.png"></a>'
+		'</div>'
+		
+
+	'</div>'
+'</div>'
+
+if $args[0] = '':
+	'<div class="show_menu">'
+		'<img src="images\place\电脑.jpg" width="854">'
+	'</div>'
+	
+	'<div class="button_menu">
+		<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>Let`s watch the stream for a while, it''s not live all the time afterall.</p>'
+	'</div>'
+End
+
+if $args[0] ='mina':
+	a=rand(0,7)
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\直播\直播-MINA-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">
+		<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺</p>'
+		'<p>Me: Holy shit (''o'') bump, the music was so loud it scared me!</p>'
+	'</div>'
+End
+
+if $args[0] ='domestic':
+	a=rand(0,9)
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\直播\直播-国-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">
+		<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺</p>'
+		'<p>Me: Wow!(๑´ڡ`๑)</p>'
+		if a=9:'<p>Female streamer: There''s more where that came from on the 18+ channel ☺</p>'
+	'</div>'
+End
+
+if $args[0] ='South Korea':
+	a=rand(0,17)
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\直播\直播-韩-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if a=0 and money>=100:'<div class="buttonG"><a href="exec: minutes+=30 & money-=100& gt ''Home_live'',''Korea rewards''">Give 100￥</a></div>'
+		if (a=11 or a=12 or a=14) and money>=100:'<div class="buttonG"><a href="exec: minutes+=30 & money-=100& gt ''Home_live'',''Korea rewards2''">Give 100￥</a></div>'
+		if (17>=a and a>=15) and money>=100:'<div class="buttonG"><a href="exec: minutes+=30 & money-=100& gt ''Home_live'',''Korea rewards2''">Fire up the cannon 100￥</a></div>'
+		
+		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺</p>'
+		'<p>Me: The scale of streamer studios abroad is really big!</p>'
+		if a=0:'<p>Female streamer: Oppa❤, do you want to watch our big show?</p>'
+	'</div>'
+End
+
+if $args[0] ='Korea rewards':
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\直播\直播-韩-0-1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>Female streamer: ❤...Thank you...❤... Thank you Oppa for the gift!!</p>'
+		'<p>Female streamer: ❤Oppa❤... please jerk off to our slutty nipples❤!</p>'
+	'</div>'
+End
+
+if $args[0] ='Korea rewards2':
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\直播\直播-韩-<<a>>-1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>Female streamer: ❤...Thank you...❤... Thank you Oppa for the gift!!</p>'
+	'</div>'
+End
+
+if $args[0] ='ASMR':
+
+	a=rand(0,2)
+ 
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\正常<<a>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+ 
+	'<div class="button_menu">'
+		if top1<100:'<div class="buttonR2"><a href="exec: ">Become number one on the list <<top1>>﹪</a></div>'else:'<div class="buttonG"><a href="exec:& gt ''Home_live'',''List One private message''">✈Send Private Message ￥</a></div>'
+		if money>=500:'<div class="buttonG"><a href="exec: money-=500 & top1+=rand(4,5) & gt ''Home_live'',''Thanks''">Boost the rocket 500￥</a></div>'
+		'<div class="buttonB1"><a href="exec: gt ''Home_live'',''Doze off''">Doze off</a></div>'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺</p>'
+		'<p>Female streamer: This is an ASMR sleep aid livestream, please slowly fall asleep to my tingle-inducing sounds.</p>'
+		if top1>=100:'<p>Female streamer: Big Brother #1! Take a look at the private message.</p>'
+	'</div>'
+End
+
+if $args[0] ='Thanks':
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\感谢礼物~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if top1<100:'<div class="buttonR2"><a href="exec: ">Become number one on the list <<top1>>﹪</a></div>'else:'<div class="buttonG"><a href="exec:& gt ''Home_live'',''List One private message''">✈Send Private Message ￥</a></div>'
+		if money>=500:'<div class="buttonG"><a href="exec: money-=500 & top1+=rand(2,5) & gt ''Home_live'',''Thanks''">Boost the rocket 500￥</a></div>'
+		'<div class="buttonB1"><a href="exec: gt ''Home_live'',''Doze off''">Doze off</a></div>'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>✈✈✈<<$Protagonist`s_name>>A rocket was sent out.</p>'
+		'<p>Female streamer: Wow!!! Thank you big brother for the big rocket! I love you~</p>'
+		'<p>·Favorability has risen!</p>'
+	'</div>'
+End
+
+
+if $args[0] ='List One private message':
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\求礼物~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if money>=50000:'<div class="buttonG"><a href="exec: money-=50000 & gt ''Home_live'',''Thanks2''">Send 100 rockets! 50000￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Brush her off!</a></div>'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Get the hell outta here! (''o'')</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++ 
+	'<div class="dialog_menu">'
+		'<p>"Private Message": Brother! Brother! My sister wants to move to that big city where the New Act is implemented, can you help by sending another 100 rockets T_T</p>'
+	'</div>'
+End
+
+
+if $args[0] ='Thanks2':
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\感谢礼物~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">exit</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>Female streamer: Wow! Brother #1''s 100 Burst of rockets! What a big deal!</p>'
+		'<p>"Private Message": Brother #1, I may not be able to broadcast live for a while. I will continue to broadcast live when I finish moving and settle down! This is my personal contact information! We are destined to see you again!</p>'
+		$LY.available=1
+		$LY.love=99
+	'</div>'
+End
+
+if $args[0] ='Doze off':
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\才艺~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=120 & gt ''sleep''">Zzzz</a></div>
+	</div>'
+	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>Me: It seems to be working... Zzzz... </p>'
+	'</div>'
+End
+
+--- Home_live ---------------------------------
+

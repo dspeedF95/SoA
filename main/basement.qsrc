@@ -1,0 +1,36 @@
+# basement
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+a=0
+q=0
+gs'menu_gif' 
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="Back Alley" href="exec:minutes+=5 & gt ''Deep_alley''"><img class="img_stretch" src="images\place\深巷.jpg"></a>
+		</div>'
+	'</div>'
+'</div>'
+
+	 '<div class ="show_menu"><img src="images\place\地下室.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		if 8>$HZ_Event_coser AND $HZ_Event_coser>=5:'<div class="buttonS"><a href="exec:minutes+=5 & gt ''President_Event'',''HZ_Fuck_Tuning''">Tuning<<$HZ.name>></a></div>'
+		if $LJ_Event_Steal>=3:'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Repeating_event'',''Catch''">Tuning<<$LJ.name>></a></div>'
+		if $Champion_event_chain=13:'<div class="buttonR"><a href="exec:minutes+=5 & gt ''Champion_event'',''GJ_Fuck_Tuning''">lesson<<$GJ.name>></a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·It only belongs to your basement, no matter what happens here, no one else will care.</p>'
+	'</div>'
+	
+--- basement ---------------------------------
+

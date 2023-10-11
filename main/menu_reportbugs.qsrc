@@ -1,0 +1,29 @@
+# menu_reportbugs
+cls
+gs'menu_time_calc'
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_mainnpc'
+	gs'menu_act_hidden'
+'</div>'
+
+
+'<div id="left-column998">'
+		'<p>First of all, I would like to sincerely thank you for your appreciation of playing my game. Everyone`s support and trust are my greatest motivation.'
+		'<p>In order to make everyone`s gaming experience smoother, I specially opened a new mailbox.If you encounter a technical problem in the gameBUG, Please don`t hesitate to report to me directlyBUGSummary mailbox：<span class =''red''>moutdvhfsssds@gmail.com</s>'
+		'<p>I will collect everyone`s reportsBUG, and fix them in the next version update.'
+		'<p>If thisBUGIt is difficult to reproduce or express, I will reply to you and hope you can send me your archive as an attachment so that I can investigate.<span class =''red''>In addition, I will not take the initiative to contact you, and this email address is only forBUGReport for use.</s>'
+		'<p>'
+		'<p>·————————'
+		'<p>In response to the problem in the previous version, I will respond in advance: I can`t find the rich woman hot spring→ Go directly at one o`clock on Saturday afternoon, without having to watch the meal process.；<<$ZX.name>>Can`t be triggered in the future→ It has been repaired and then go to the toilet to re-trigger it'
+		'<p>·————————'
+		'<p>Why is it open?BUGWhat about the mailbox?It`s because I never understood that everyone was right before<<$ZX.name>>Where is the card closed?Later, after detailed communication with several group friends, I discovered that there is indeed a situation that cannot be triggered.thisBUGThere are actually two versions, I`m sorry for everyone.'
+		'<p>PreviousBUGDuring the investigation, I never found out. I only regarded everyone`s feedback as the result of not completing the idol competition, and did not pay enough attention to it.In the last version, I also confidently claimed that the game has no hard and fastBUG, My convenience store jump code will not be leaked, but these are all slapped in the face.'
+		'<p>I am a person who is strict with myself and unwilling to disappoint others.Therefore, in the future, I will adopt a more rigorous work attitude and treat every player`s feedback and questions seriously and responsibly.I am very sorry for the inconvenience and trouble caused to you earlier.Here, please also forgive me for my previous negligence and mistakes.I will continue to work hard to provide you with a better gaming experience.'
+'</div>'
+
+'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
+
+--- menu_reportbugs ---------------------------------
+

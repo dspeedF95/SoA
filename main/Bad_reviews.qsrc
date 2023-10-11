@@ -1,0 +1,61 @@
+# Bad_reviews
+
+
+
+
+
+
+if $args[0]="Praise":
+KILLVAR '$Storeevaluationa',0 
+ $Storeevaluationa[6]='<font color="#33CC00">"☺"</font>'
+ end
+ 
+ 
+if $args[0]="Bad review":
+KILLVAR '$Storeevaluationa',0 
+ $Storeevaluationa[6]='<font color="#FF0000">"☹"</font>'
+end
+
+
+
+
+
+
+
+
+Totalpraise=0
+
+if $Storeevaluationa[0]='<font color="#33CC00">"☺"</font>':Totalpraise+=1
+if $Storeevaluationa[1]='<font color="#33CC00">"☺"</font>':Totalpraise+=1
+if $Storeevaluationa[2]='<font color="#33CC00">"☺"</font>':Totalpraise+=1
+if $Storeevaluationa[3]='<font color="#33CC00">"☺"</font>':Totalpraise+=1
+if $Storeevaluationa[4]='<font color="#33CC00">"☺"</font>':Totalpraise+=1
+if $Storeevaluationa[5]='<font color="#33CC00">"☺"</font>':Totalpraise+=1
+if $Storeevaluationa[6]='<font color="#33CC00">"☺"</font>':Totalpraise+=1
+
+
+if $args[0]="calculate":
+		if $Storeevaluationa[0]='<font color="#33CC00">"☺"</font>':$Storeevaluationa[0]='<font color="#FF0000">"☹"</font>' & Requiredpraise-=1
+		if Requiredpraise<=0:gt'Convenience_store'
+		if $Storeevaluationa[1]='<font color="#33CC00">"☺"</font>':$Storeevaluationa[1]='<font color="#FF0000">"☹"</font>' & Requiredpraise-=1
+		if Requiredpraise<=0:gt'Convenience_store'
+		if $Storeevaluationa[2]='<font color="#33CC00">"☺"</font>':$Storeevaluationa[2]='<font color="#FF0000">"☹"</font>' & Requiredpraise-=1
+		if Requiredpraise<=0:gt'Convenience_store'
+		if $Storeevaluationa[3]='<font color="#33CC00">"☺"</font>':$Storeevaluationa[3]='<font color="#FF0000">"☹"</font>' & Requiredpraise-=1
+		if Requiredpraise<=0:gt'Convenience_store'
+		if $Storeevaluationa[4]='<font color="#33CC00">"☺"</font>':$Storeevaluationa[4]='<font color="#FF0000">"☹"</font>' & Requiredpraise-=1
+		if Requiredpraise<=0:gt'Convenience_store'
+		if $Storeevaluationa[5]='<font color="#33CC00">"☺"</font>':$Storeevaluationa[5]='<font color="#FF0000">"☹"</font>' & Requiredpraise-=1
+		if Requiredpraise<=0:gt'Convenience_store'
+		if $Storeevaluationa[6]='<font color="#33CC00">"☺"</font>':$Storeevaluationa[6]='<font color="#FF0000">"☹"</font>' & Requiredpraise-=1
+		if Requiredpraise<=0:gt'Convenience_store'
+end
+
+
+
+
+
+gt 'Convenience_store'
+
+--- Bad_reviews ---------------------------------
+

@@ -1,0 +1,102 @@
+# Driving
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+
+close all
+if $TheCaraudioisturnedon=1:
+ PLAY 'mp3/car_<<rand(0,13)>>.ogg'
+else:
+ close all
+
+end
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	
+	
+'<div class="actions_menu_quick">
+	<p>
+		<a class="photo" href="exec:close all & gt ''home''">Home</a>
+		<a class="photo" href="exec:close all & gt ''Home_bedroom''">Bedroom</a>
+		<a class="photo" href="exec:close all & gt ''Residential_area''">Residential area</a>
+		<a class="photo" href="exec:close all & gt ''Town_house''">Town house</a>
+		<a class="photo" href="exec:close all & gt ''hospital''">Hospital</a>
+		<a class="photo" href="exec:close all & gt ''park''">Park</a>
+	</p>
+	<p>
+		<a class="photo" href="exec:close all & gt ''subway''">Subway</a>
+		<a class="photo" href="exec:close all & gt ''university''">University</a>
+		<a class="photo" href="exec:close all & gt ''Empire_Group''">Empire Group</a>
+		<a class="photo" href="exec:close all & gt ''Mugou_Pharmaceutical''">Mugou Pharmaceutical</a>
+		<a class="photo" href="exec:close all & gt ''company''">Company</a>
+		<a class="photo" href="exec:close all & gt ''City_hall''">City hall</a>
+	</p>
+	<p>
+		<a class="photo" href="exec:close all & gt ''Shopping_mall''">Shopping mall</a>
+		<a class="photo" href="exec:close all & gt ''Department_store''">Department store</a>
+		<a class="photo" href="exec:close all & gt ''gym''">Gym</a>
+		<a class="photo" href="exec:close all & gt ''restaurant''">Red Restaurant</a>
+		<a class="photo" href="exec:close all & gt ''4Sshop''">Car Shop</a>
+		<a class="photo" href="exec:close all & gt ''Hair_salon''">Hair salon</a>
+	</p>
+	<p>
+		<a class="photo" href="exec:close all & gt ''suburbs''">Suburbs</a>
+		<a class="photo" href="exec:close all & gt ''Hot_spring''">Hot Spring</a>
+		<a class="photo" href="exec:close all & gt ''Hot_Girl_Gang_Base''">Top of the mountain</a>
+		<a class="photo" href="exec:close all & gt ''mountainsR&M''">Mountains</a>
+		<a class="photo" href="exec:close all & gt ''West_coast''">West coast</a>
+		<a class="photo" href="exec:close all & gt ''Daily_life_in_prison'',''warning''">Prison</a>
+		<a class="photo" href="exec:close all & gt ''church''">Church</a>
+	</p>
+	<p>
+		<a class="photo" href="exec:close all & gt ''Kabukicho''">Kabukicho</a>
+		<a class="photo" href="exec:close all & gt ''The_night_is_fine''">Strip Club</a>
+		<a class="photo" href="exec:close all & gt ''Paradise_escorts''">Paradise escorts</a>
+		<a class="photo" href="exec:close all & gt ''Sex_doll''">Brothel</a>
+		<a class="photo" href="exec:close all & gt ''Eye_of_God''">Eye of God</a>
+		<a class="photo" href="exec:close all & gt ''Deep_alley''">Back Alley</a> 
+	</p>
+</div>'
+	
+	
+'</div>'
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\杂\Porsche_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+	 if $Caraudio=1:
+		if $TheCaraudioisturnedon!1:
+			'<div class="button"><a href="exec:$TheCaraudioisturnedon=1 & gt ''Driving''">Turn on the Caraudio</a></div>'
+		else:
+			'<div class="button"><a href="exec:gt ''Driving''">Cut song</a></div>'
+			'<div class="button"><a href="exec:$TheCaraudioisturnedon=0 & gt ''Driving''">Turn off the Caraudio</a></div>'
+		end
+	 end
+		'<div class="button"><a href="exec:close all & gt ''home''">Go home</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'	
+		'<p>·It doesn`t matter if you drive slowly,The family hopes you will return safely.</p>'
+		'<p>送给For all players who are playing❤</p>'
+	 if $Caraudio=1:'<p>——</p>'
+	 if $Caraudio=1:'<p>[In reality, I don`t have a car, so I don`t know what to put in the stereo. If you have a nice song, you can send it to me and I will add it for you]</p>'
+	'</div>'
+
+
+
+
+
+
+
+
+
+
+--- Driving ---------------------------------
+

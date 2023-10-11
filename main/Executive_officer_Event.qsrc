@@ -1,0 +1,1337 @@
+# Executive_officer_Event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+
+
+
+if $args[0]="ZXG_Fuck_Enforcement":
+	  $ZXG.available=1
+	  half=jings/2
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\ZXG\vids\强制1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!7 and q<=10:
+		'<div class="button_menu">'
+			if q=0:
+			'<div class="button"><a href="exec:a=0 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Line up</a></div>'
+			end
+			if a!1 and  q>=1:
+			'<div class="buttonR1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">FAP+1ml</a></div>'
+			end
+			if a!2 and q>=1:
+			'<div class="buttonR2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Licking eggs+2ml</a></div>'
+			end
+			if a!3 and q>=2:
+			'<div class="buttonR3"><a href="exec:a=3 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Flower work+3ml</a></div>'
+			end
+			if a!4 and q>=3:
+			'<div class="buttonR4"><a href="exec:a=4 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Oral sex+4ml</a></div>'
+			end
+			if a=4:
+			'<div class="buttonGn"><a href="exec:a=5 & jings-=half & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Shot half in her mouth-<<half>>ml</a></div>'
+			if $YDM_Event_free=1:'<div class="buttonB2"><a href="exec:a=5 & jings=0 & $YDM_Event_free=2 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Shot on her clothes</a></div>'
+			end
+			
+			if q>=3 and  $YDM_Event_free=6:'<div class="buttonB2"><a href="exec:a=0 & q=0 & gt ''One_generation_project_Event'',''Jailbreak''">Send jailbreak signal</a></div>'
+			
+			if a!6 and q>=3:
+			'<div class="buttonR5"><a href="exec:a=6 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Poisonous dragon+6ml</a></div>'
+			end
+			if a=6:
+			'<div class="buttonS"><a href="exec:a=7 & jings=0 & gt ''Executive_officer_Event'',''ZXG_Fuck_Enforcement''">Burst</a></div>'
+			end
+			
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				if q>10:'<div class="button"><a href="exec:minutes+=30 & jings=0 &a=0&q=0& gt ''Andrology_Event'',''NK_Fuck_check''">Substitution</a></div>'
+				if q<=10:'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_life_in_prison''">Go back</a></div>'
+			'</div>'
+	end
+
+	if q=0:
+		 '<div class="dialog_menu">'
+			 '<p>·Suddenly, several female prison guards handcuffed you.</p>'
+			 '<p><<$YJ.name>>:Ahem... those who haven`t ejaculated in the past few days are lined up!*Mutter:Damn, these semen indicators were robbed by the bitch of the ejaculation Administration again.</p>'
+		 '</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$ZXG.name>>:Be honest!I am the chief executive officer of this time!My patience is limited, please cooperate carefully.</p>'
+		 '</div>'
+	end
+
+	if 1<=a and a<=7:
+		 '<div class="dialog_menu">'
+			 '<p>·Accumulate semen volume：<<jings>>ml·Her patience:<<q>>/10</p>'
+			 if q>10:'<p><<$ZXG.name>>: I`ve had enough, call that bitch doctor!</p>'
+			 if a=5 and $YDM_Event_free=2:'<p><<$ZXG.name>>:Fuck!Look at what you have done!Come on!Give me a new one!</p>'
+		 '</div>'
+	end
+
+
+	if a=8:
+		 $HZ.bad+= q
+		 $HZ.love+= q+my.charm
+		 '<div class="dialog_menu">'
+		 	 '<p><<$HZ.name>>:Hehe~All the semen is gone~Where did they all go?</a></p>'
+			 '<p>I:Hey, don`t get sick.</p>'
+		 '</div>'
+	end
+
+ q+=1
+ jings+=a
+End
+
+
+if $args[0]="Executive officer_Fuck_P1pan":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\<<$m>>\vids\<<$m>>P1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonR1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Punishment begins </a></div>'
+            end
+
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonR1"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Interrupt </a></div>'
+            end
+            if a!3 and 2<=q and q<=7:
+            '<div class="buttonR2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Rear-entry insertion </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Back-entry orgasm </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonR3"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Change posture </a></div>'
+            end
+            if a!6 and 5<=q and q<=12:
+            '<div class="buttonR4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Vigorously pump </a></div>'
+            end
+            if a=6:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Ejaculation </a></div>'
+            end
+            if a=7:
+            '<div class="buttonGn"><a href="exec:a=8 & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">End of punishment</a></div>'
+            '</div>'
+    end
+
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$ma>>:Um...woo…</p>'
+             if a=1:'<p>I:I`m just acting on orders... don`t blame me for taking it too seriously.…</p>'
+             if a>=2:'<p><<$ma>>:<<$Panting>></p>'
+             if a=3:'<p>I:Fuck!So comfortable!See if I don`t fuck you!</p>'
+             if a>=3:'<p><<$ma>>:<<$words>></p>'
+             if a=4:'<p>·Convulsions spurted out lewd water in the flesh hole, and the convulsions reached a climax.</p>'
+             if a=7:'<p>I:Fuck!Shot!</p>'
+         '</div>'
+    end
+
+
+
+    if a=8:
+         '<div class="dialog_menu">'
+             '<p>I: Tell the camera the result of today`s punishment, as well as the rating of me.</p>'
+             if $ma=$DD.NAME:'<p><<$ma>>: Squirted2Time, it`s an orgasm3times…10Points!You are much better than other corrections officers❤</p>'& DDP1+=q+rand(15,20)
+             if $ma=$TJ.NAME:'<p><<$ma>>: Quite satisfied, it would be perfect if you could last a little longer ❤9.5points.</p>'& TJP1+=q+rand(10,15)
+             if $ma=$ZXG.NAME:'<p><<$ma>>: I don`t want to comment…</p>'& ZXGP1+=q+rand(5,15)
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_work1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\ZXG\vids\GZ1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!5:
+        '<div class="button_menu">'
+            if a!1 and 0<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work1''">Prostate examination </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work1''">Oral sex squeezing essence </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work1''">Mouth explosion </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS4"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work1''">end </a></div>'
+            end
+            if a=4:
+            '<div class="buttonS5"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work1''">rating </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:ZXGG1=100 & gt ''suburbs''">Passed the audit</a></div>'
+                if ZXGG1<100:'<div class="buttonR"><a href="exec:gt ''suburbs''">Do not pass</a></div>'
+            '</div>'
+    end
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I: I`m here to check whether you still have the ability to perform semen extraction, and I will rate your behavior.…</p>'
+             '<p><<$ZXG.name>>: Then you just watch it there!</p>'
+         '</div>'
+    end
+
+    if 4>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>prisoner: Executive officer... for me<<$DYZ.name>>Beg for mercy…</p>'
+             '<p><<$ZXG.name>>: Shut up!</p>'
+             if a>=2:'<p>prisoner: So...so comfortable…</p>'
+             if a>=2:'<p><<$ZXG.name>>: <<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=5:
+         '<div class="dialog_menu">'
+             '<p><<$ZXG.name>>: My ability to work has not been affected!right?</p>'
+             '<p>I: uh…</p>'
+             '<p><<$ZXG.name>>: Listen, that escape has nothing to do with me, it`s just a coincidence!</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_work2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\ZXG\vids\GZ2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Check one by one </a></div>'
+            end
+            if a=1:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Detain him! </a></div>'
+            end
+            if a=2:
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Observation review </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS4"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Oral sex </a></div>'
+            end
+            if a=4:
+            '<div class="buttonR3"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Oral ejaculation </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS2"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Post-mortem examination </a></div>'
+            end
+            if a=6:
+            '<div class="buttonR3"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Review score </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:ZXGG2=100 &gt ''suburbs''">Passed the audit</a></div>'
+               if ZXGG2<100:'<div class="buttonR"><a href="exec:gt ''suburbs''">Do not pass</a></div>'
+            '</div>'
+    end
+
+
+    if 1>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>I: In addition to prison work, I also need to review the usual arrangements for you.</p>'
+             '<p><<$ZXG.name>>: I said, that escape had nothing to do with me, it was just a coincidence!</p>'
+             if a=1:'<p>I: uh…</p>'
+             if a=1:'<p><<$ZXG.name>>: I don`t accept anyone questioning my ability to work!</p>'
+         '</div>'
+    end
+
+    if 6>=a and a>=2:
+         '<div class="dialog_menu">'
+             '<p>suspect: Executive officer... I... I was wrong, I haven`t ejaculated for more than ten days…</p>'
+             '<p><<$ZXG.name>>: Shut up!</p>'
+             if a>=3:'<p>suspect: So...so comfortable…</p>'
+             if a>=4:'<p><<$ZXG.name>>: <<$Panting2>></p>'
+             if a=6:'<p><<$ZXG.name>>: Looks like it`s already shot into the air…</p>'
+         '</div>'
+    end
+
+    if a=7:
+         '<div class="dialog_menu">'
+             '<p><<$ZXG.name>>: My judgment is the best in the team, there is no doubt about it.</p>'
+             '<p>I: uh…</p>'
+             '<p><<$ZXG.name>>: You`d better pass it to me, I need to patrol every afternoon to stabilize the law and order!</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_Ypan":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\<<$m>>\vids\<<$m>>Y1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">tease </a></div>'
+            end
+
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Get started </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Insert slowly </a></div>'
+            end
+            if a!4 and 3<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Speed up </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Change posture </a></div>'
+            end
+            if a!6 and 5<=q and q<=10:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Vigorously pump </a></div>'
+            end
+            if a!7 and 6<=q and q<=13:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Ejaculation </a></div>'
+            end
+            if a=7:
+            '<div class="buttonR"><a href="exec:a=8 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Increase the dose </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">End of training</a></div>'
+            '</div>'
+    end
+
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$ma>>:Um...woo...what is this…</p>'
+             '<p>I: Only after experiencing the most sensitive and excited state can the threshold in daily work be increased!</p>'
+             if a>=1:'<p><<$ma>>:<<$Panting>></p>'
+             if a>=3:'<p><<$ma>>:<<$words>></p>'
+             if a=7:'<p>I:Fuck!Shot!</p>'
+         '</div>'
+    end
+
+
+
+    if a=8:
+         '<div class="dialog_menu">'
+             '<p>I: It`s not working, McGovern`s power is not something that ordinary people can resist.……</p>'
+             '<p><<$ma>>:Woo...woo❤</p>'
+             if $ma=$DD.NAME:DDY1+=q+rand(35,40)
+             if $ma=$TJ.NAME:TJY1+=q+rand(30,45)
+             if $ma=$ZXG.NAME:ZXGY1+=q+rand(35,45)
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_Qpan":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\<<$m>>\vids\<<$m>>Q1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle begins </a></div>'
+            end
+
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Increase your efforts </a></div>'
+            end
+            if a!3 and 2<=q and q<=7:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Substitution </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Speed up </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Change posture </a></div>'
+            end
+            if a!6 and 5<=q and q<=10:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Go into battle in person </a></div>'
+            end
+            if a!7 and 6<=q and q<=13:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Fuck her </a></div>'
+            end
+            if a=7:
+            '<div class="buttonR"><a href="exec:a=8 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Ejaculation </a></div>'
+            end
+            if a=8:
+            '<div class="buttonR"><a href="exec:a=9 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Finished </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">Leave her to rest alone</a></div>'
+                !'<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Police_station''">Passed the assessment</a></div>'
+            '</div>'
+    end
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$ma>>:This is the last assessment, right?…</p>'
+             if a=0:'<p>I: Yes, I and other part-time corrections officers will rate you one by one!</p>'
+             if a>=1:'<p><<$ma>>:<<$Panting>></p>'
+             if a>=2:'<p><<$ma>>:<<$words>></p>'
+             if a>=6:'<p>I:It`s my turn again!</p>'
+             if a>=7:'<p><<$ma>>:<<$words2>></p>'
+             if a=8:'<p>I:Ah ah ah ah!Shot!</p>'
+         '</div>'
+    end
+
+
+
+    if a=9:
+         '<div class="dialog_menu">'
+             '<p>I: …...have you lost consciousness?</p>'
+             '<p><<$ma>>:Ah...❤Ah...❤</p>'
+             if $ma=$DD.NAME:DDQ1+=q+rand(15,40)
+             if $ma=$TJ.NAME:TJQ1+=q+rand(10,45)
+             if $ma=$ZXG.NAME:ZXGQ1+=q+rand(15,40)
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Chance encounter":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\ZXG\vids\OY0.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Chance encounter1''">Say hello</a></div>'
+        if tuc_level3=1:'<div class="buttonP"><a href="exec:ZXGcos=1 & gt ''Executive_officer_Event'',''Chance encounter1''">publicitycosAppointment hall</a></div>'
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+
+	'</div>'
+
+
+	'<div class="dialog_menu">'	
+		'<p><<$ZXG.name>>Random sampling of passers-by on the street…</p>'
+		'<p>I: ……</p>'
+	'</div>'
+End
+
+
+
+if $args[0]="Chance encounter1":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\ZXG\vids\OY1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_ask''">Go with her</a></div>'
+
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+
+	'</div>'
+
+
+	'<div class="dialog_menu">'	
+		'<p>I: Hi...?</p>'
+		'<p><<$ZXG.name>>: I told you that my judgment and intuition are the best in the team, right?</p>'
+		'<p>I: I remember.</p>'
+		'<p><<$ZXG.name>>: Then you come with me.</p>'
+	'</div>'
+End
+
+
+if $args[0]="Executive officer_Fuck_ask":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\ZXG\vids\OYZ1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!10:
+        '<div class="button_menu">'
+            '<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_ask''">Subject to interrogation </a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''suburbs''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I: What is this... what is this for?</p>'
+             '<p><<$ZXG.name>>: <<$YDM.name>>On the day of the escape, you happened to be receiving punishment for squeezing essence, right?</p>'
+             '<p>I: Yes, you did it for me, you are my alibi!</p>'
+         '</div>'
+    end
+
+    if 5>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a>=1:'<p><<$ZXG.name>>: The fugitive was wearing my clothes and fooled the guards... My memory is very good. A few days before she escaped, you dirty my clothes, right?</p>' 
+             if a>=2:'<p>I: Ah... this... I can`t remember……</p>'
+             if a>=3:'<p><<$ZXG.name>>: Don`t struggle, I know you are her accomplice.You must know her whereabouts.</p>'
+             if a>=4:'<p>I: I... I really don`t know... it`s none of my business…</p>'
+             if a=5:'<p><<$ZXG.name>>: Do you know why I want to have sex with you?</p>'
+         '</div>'
+    end
+
+    if 10>=a and a>=6:
+         '<div class="dialog_menu">'
+             if a>=6:'<p><<$ZXG.name>>: The lost uniform was found in the suburbs, did you know?</p>' 
+             if a>=7:'<p>I: What...wait...ah ah ah…</p>'
+             if a>=8:'<p><<$ZXG.name>>: Now that the semen sample has been extracted, as long as you compare the remaining semen on it... you can figure out if you did it.…</p>'
+             if a>=9:'<p>I: Wait... stop it...if it is...it`s just a coincidence...it has nothing to do with me.…</p>'
+             if a>=10:'<p><<$ZXG.name>>: Are you still hard-mouthed?I told you that my judgment and intuition are the best in the team!</p>'
+             if $Uniformfollowup=0:$Uniformfollowup=1
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_GZpan1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\<<$m>>\vids\<<$m>>GZ1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">start </a></div>'
+            end
+
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Prostate examination </a></div>'
+            end
+            if a!3 and 2<=q and q<=7:
+                if $m='DD':'<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Oral sex squeezing essence </a></div>'
+                if $m='TJ':'<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Testicular examination </a></div>'
+            end
+            if a!4 and 3<=q and q<=9:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Speed up </a></div>'
+            end
+            if a<5 and 4<=q and q<=11:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Intraoral emission </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">end </a></div>'
+            end
+            if a=6:
+            '<div class="buttonGn"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">rating </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                if $m='DD':
+				'<div class="buttonGn"><a href="exec:DDGZ1=100 & gt ''suburbs''">Passed the audit</a></div>'
+                if DDGZ1<100:'<div class="buttonR"><a href="exec:gt ''suburbs''">Not passed yet</a></div>'
+                end
+                if $m='TJ':
+                '<div class="buttonGn"><a href="exec:TJGZ1=100 & gt ''suburbs''">Passed the audit</a></div>'
+                if TJGZ1<100:'<div class="buttonR"><a href="exec:gt ''suburbs''">Not passed yet</a></div>'
+                end
+            '</div>'
+    end
+
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>I: I`m here to check whether you still have the ability to perform semen extraction, and I will rate your behavior.…</p>'
+             '<p><<$ma>>: Whatever you want, don`t disturb my work.</p>'
+             if a>=1:'<p>prisoner: Executive Officer... you are in much better shape than the one before ❤</p>'
+             if a>=2:'<p><<$ma>>: Shut up!</p>'
+             if a>=3:'<p>prisoner: So...so comfortable…</p>'
+             if a>=4:'<p><<$ma>>: <<$Panting2>></p>'
+         '</div>'
+    end
+
+
+
+    if a=7:
+         '<div class="dialog_menu">'
+             if $m='DD':'<p><<$ma>>:I hope you can give a fair evaluation.</p>'
+             if $m='TJ':'<p><<$ma>>:You too, don`t play tricks on me.</p>'
+             '<p>I: Ok…</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_understand":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TJ\vids\QQ1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:'<div class="buttonG2"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_understand''">Show sincerity </a></div>'
+            if a!0:'<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_understand''">Do it </a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Police_station''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>suspectA: Yo, this is not<<$TJ.name>>My lord!Thanks to you, the hospital did a full body examination for me and cleaned up my kidney stones!</p>'
+             '<p><<$TJ.name>>: I am here to ask you to drop the charges against me.</p>'
+             '<p>suspectB: accusation?Your injury to us was written in the injury report!We are absolutely not…</p>'
+             '<p>suspectA: brother!It seems<<$TJ.name>>Adults are asking for us!Might as well take a look at her sincerity first?</p>'
+         '</div>'
+    end
+
+    if 9>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a>=1:'<p><<$TJ.name>>: I know what you guys want to do…</p>' 
+             if a>=2:'<p>suspect: Then we`re welcome!</p>'
+             if a>=3:'<p><<$TJ.name>>: <<$Panting>></p>'
+             if a>=4:'<p>suspect: You have made us suffer a lot, and we haven`t repaid you well yet!</p>'
+             if a>=5:'<p><<$TJ.name>>: <<$words>></p>'
+             if a=7:'<p>suspectA: brother!Brother shot first!</p>'
+             if a=8:'<p>suspectB: Ah ah ah!I shot too!brother!</p>'
+             if a=9:'<p>suspectC: Everyone line up!Let`s play all night today!</p>'
+         '</div>'
+    end
+
+    if a=10:
+         '<div class="dialog_menu">'
+             '<p>suspectA: <<$TJ.name>>My lord, I have worked hard today!We will consider the letter of understanding!</p>'
+             '<p><<$TJ.name>>: …………</p>'
+             TJLJ1+=q+rand(20,40)
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_corruption":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TJ\vids\SJ2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!11:
+        '<div class="button_menu">'
+            if a=0:'<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Watch it </a></div>'
+            if a=1:'<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Don`t want to </a></div>'
+            if a>=2:'<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Motionless </a></div>'
+            if a=10:'<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Begging for mercy </a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Police_station''">Detain her</a></div>'
+            '</div>'
+    end
+
+
+
+    if 1>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$TJ.name>>: I have already checked the matter of you using the inferior semen handed over by the executives to sell to the Imperial Group to collect huge profits.</p>'
+             '<p>Taku Yoshimura: Unexpectedly, you still have this kind of ability, and you actually found it on my head.</p>'
+             if a>=1:'<p><<$TJ.name>>: <<$Protagonist`s_name>>, The bank card that accepted bribes was placed in the safe behind him.You help me control him!</p>' 
+             if a>=1:'<p>Taku Yoshimura: <<$Protagonist`s_surname>> Comrade, this matter can be completely reduced to small things, and small things can be reduced to small things.You help me hold her down, otherwise, I will kill you.</p>' 
+             if a>=1:'<p>I: What?pistol……</p>' 
+             if a>=1:'<p><<$TJ.name>>: <<$Protagonist`s_name>>！</p>' 
+             if a>=1:'<p>Taku Yoshimura: <<$Protagonist`s_surname>> Comrade, do you want to die?</p>' 
+         '</div>'
+    end
+
+    if 9>=a and a>=2:
+         '<div class="dialog_menu">'
+             if a>=2:'<p><<$TJ.name>>: <<$Protagonist`s_name>>！Let me go!</p>' 
+             if a>=2:'<p>Taku Yoshimura: <<$Protagonist`s_surname>> Comrade, well done!</p>' 
+             if a>=3:'<p><<$TJ.name>>: <<$Panting>></p>'
+             if a=3:'<p>Taku Yoshimura: Let me see, where did you hide the recording equipment?！</p>' 
+             if a=4:'<p>Taku Yoshimura: It doesn`t seem to be here either…</p>'
+             if a>=5:'<p>Taku Yoshimura: I will suspend you permanently in the name of slander and slander against your superiors!And you have to accept mandatory penalties within the organization!</p>'
+             if a>=6:'<p><<$TJ.name>>: <<$words>></p>'
+             if a=9:'<p>Taku Yoshimura: Accidentally shot too much... but it`s also a good thing for you to get used to it first.</p>'
+         '</div>'
+    end
+
+    if 11>=a and a>=10:
+         '<div class="dialog_menu">'
+             '<p><<$TJ.name>>: <<$Protagonist`s_name>>！You bastard!You actually defected!Do you think he will let you go?</p>'
+             '<p>I: Ah...what are you going to do!I was threatened with a gun!</p>'
+             if a>=11:'<p>Taku Yoshimura: I think，<<$Protagonist`s_surname>> Comrade is a good comrade. He found out the tax thief in the team for us today without our knowledge, right?</p>' 
+             if a>=11:'<p>I: …………</p>' 
+             if a>=11:'<p><<$TJ.name>>: I won`t let you go!<<$Protagonist`s_name>>！</p>' 
+             if a>=11:'<p>Taku Yoshimura: What are you nervous about，<<$Protagonist`s_surname>> Comrade, come and join me in detaining her back.</p>' & TJLJ2=100
+         '</div>'
+    end
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_mandatory":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TJ\vids\SJ3-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">violation </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Forced oral sex </a></div>'
+            end
+            if a!3 and 2<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Ejaculate one by one </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS4"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Continue to ejaculate </a></div>'
+            end
+            if a!5 and 4<=q and q<=12:
+            '<div class="buttonR3"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Sprint vigorously </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS2"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="buttonR3"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Police_station''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$TJ.name>>: listen!As long as you help me, we can unite……</p>'
+             if a>=1:'<p>Corrections officer: It sounds so troublesome... All I know is that we can join forces to fuck you now!</p>'
+             if a>=2:'<p><<$TJ.name>>: <<$Panting2>></p>'
+             if a>=5:'<p><<$TJ.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=7:
+         '<div class="dialog_menu">'
+             '<p><<$TJ.name>>: <<$Protagonist`s_name>>……</p>'
+             '<p>I: Uh... are you okay.</p>'
+             '<p><<$TJ.name>>: Before you have anything to do, I will be fine!</p>'
+              if TJLJ3<100:TJLJ3=100
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_supermarket":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TJ\vids\SJ1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            '<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_supermarket''">。。。 </a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonR"><a href="exec:gt ''Police_station''">Boom——</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$JY.name>>: Listen to me from the people inside!You are already surrounded!Put down your weapon immediately!</p>'
+             '<p><<$TJ.name>>: You are new here, right? These outlaws will not submit obediently.</p>'
+             '<p><<$JY.name>>: So...what should I do?</p>'
+             '<p><<$TJ.name>>: Look at me!</p>'
+         '</div>'
+    end
+
+    if 3>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a>=1:'<p>criminalA: Who?！Raise your hand!</p>' 
+             if a>=1:'<p><<$TJ.name>>: I... I`m a clerk…</p>'
+             if a>=2:'<p>criminalA: Boss!Found a fish that missed the net!</p>' 
+             if a>=3:'<p>Criminal leader: Is the chick in good shape?</p>'
+             if a>=3:'<p>criminalA: Boss!I think……</p>' 
+             if a>=3:'<p>Criminal leader: Spermatozoa will do bad things in the brain!Forget it, you make it quick!</p>'
+         '</div>'
+    end
+
+    if 7>=a and a>=4:
+         '<div class="dialog_menu">'
+             if a>=1:'<p>criminalA: Lick it well!That`s right!That`s it!</p>' 
+             if a>=5:'<p><<$TJ.name>>: <<$Panting>></p>'
+             if a=6:'<p>criminalA: Bitch, go deeper!</p>' 
+             if a=7:'<p>criminalA: dry!Your mouth is so cool!continue!continue!Ah~~~！</p>'
+         '</div>'
+    end
+
+    if a=8:
+         '<div class="dialog_menu">'
+             '<p>Criminal leader: Why has it been so long?Is the requested ransom in place?</p>'
+             '<p>…………</p>'
+             '<p>Criminal leader: ………………</p>'
+             TJtask=2
+         '</div>'
+    end
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_boyfriend":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\DD\vids\N-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a<9:
+        '<div class="button_menu">'
+            if a=0:'<div class="button"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_boyfriend''">Cheers </a></div>'
+            if a!0:'<div class="button"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_boyfriend''">Drunk </a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$DD.name>>: Honey, this is<<$Protagonist`s_name>>Sir, he is a part-time vigilante.</p>'
+             '<p>I: Hello!</p>'
+             '<p>boyfriend: Cut, didn`t I tell you?Don`t take other men home!</p>'
+             '<p><<$DD.name>>: Don`t be angry, never again.Come and try this is the dish I made for you myself.</p>'
+             '<p>boyfriend: emmmmmm！It`s much better than the food in the prison!</p>'
+         '</div>'
+    end
+
+    if 5>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a=1:'<p><<$DD.name>>: <<$Protagonist`s_name>>,<<$Protagonist`s_name>>?</p>' 
+             if a=2:
+                '<p>boyfriend: Leave him alone when he is drunk... I want it…</p>'
+                '<p><<$DD.name>>: <<$Protagonist`s_name>>It`s still here, isn`t it good??</p>' 
+                '<p>boyfriend: What are you afraid of... what if he sees it?When we do it in prison, we can be watched by all the prisoners. Have you forgotten?</p>' 
+             end
+             if a>=3:
+                '<p>boyfriend: Yo... woke him up?Let`s talk about it, has he ever fucked you?</p>'
+                '<p><<$DD.name>>: ……...I won`t say…</p>'
+                '<p>boyfriend: Not to mention that it is the default!You slut!</p>'  
+                '<p><<$DD.name>>: That`s because of you!I was punished... I`m not that kind of casual woman……</p>'
+             end
+             if a>=4:
+                '<p>boyfriend: Fart!Everyone I know has shot fine into your mouth!You are a bitch!</p>'
+                '<p><<$DD.name>>: <<$Panting>>...that`s my job…</p>'
+             end
+             if a>=5:'<p>boyfriend: Just let him watch it, it doesn`t matter to me anyway, I didn`t want to marry a woman like you who rides a thousand people.</p>'
+
+         '</div>'
+    end
+
+    if 9>=a and a>=6:
+         '<div class="dialog_menu">'
+             if a>=6:'<p><<$DD.name>>: What... wait... you said you would marry me?</p>' 
+             if a>=7:'<p>boyfriend: Yeah, wait for the next life!If I don`t say marry you, will you reduce my sentence?You stupid woman!</p>'
+             if a>=8:
+                '<p><<$DD.name>>: You lied to me…</p>'
+                '<p>boyfriend: Ah ah ah ah!Shot!</p>'
+             end
+             if a>=9:
+             '<p>boyfriend: call!I`m going to take a shower first!</p>'
+             '<p><<$DD.name>>: ………………</p>'
+             $DDboyfriend=1
+             end
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_Get in the car":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\DD\vids\GHO-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Strong stripping </a></div>'
+            '<div class="buttonGn"><a href="exec:gt ''Executive_officer_Event'',''Go to her house''">Go to her house</a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Order to lick me </a></div>'
+            end
+            if a!3 and 2<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Pull her to force </a></div>'
+            end
+            if a!4 and 3<=q and q<=7:
+            '<div class="buttonS4"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Order oral sex </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Ride up </a></div>'
+            end
+            if a!6 and 5<=q and q<=9:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Change posture </a></div>'
+            end
+            if a!7 and 6<=q and q<=10:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Vigorously pump </a></div>'
+            end
+            if a=7:
+            '<div class="buttonR3"><a href="exec:a=8 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Ejaculation </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Executive_officer_Event'',''Go to her house''">Go to her house</a></div>'
+                '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$DD.name>>: Is this your car?Quite magnificent…</p>'
+             '<p>I: (Her clothes are a bit strange... She`s not wearing underwear, is she? ...)</p>'
+             if a>=1:
+             '<p>I: Explain, is this your overalls?</p>'
+             '<p><<$DD.name>>: This... this is my sexual addiction, in fact, I am aM…</p>'
+             '<p>I: No wonder you will do what your ex-boyfriend says!</p>'
+             end
+             if a>=2:'<p><<$DD.name>>: <<$Panting2>></p>'
+             if a>=5:'<p><<$DD.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=8:
+         '<div class="dialog_menu">'
+             '<p><<$DD.name>>: <<$Protagonist`s_name>>...can you be more ruthless...this level is not enough at all?…</p>'
+             '<p>I: Uh...okay</p>'
+             $DDGetinthecar=1
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_DDoffice":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\DD\vids\BGS-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">Comfort me </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">Request footjob </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">Lactation </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">Ride up </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">Back position </a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">Fuck on the table </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">Ejaculation </a></div>'
+            end
+            if a=7:
+            '<div class="buttonR3"><a href="exec:a=8 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Police_station''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$DD.name>>: Why are you listless?</p>'
+             '<p>I: Guess what?</p>'
+             if a>=1:'<p><<$DD.name>>: Don`t jerk off... have more sex, do you hear me?</p>'
+             if a>=2:'<p><<$DD.name>>: <<$Panting2>></p>'
+             if a>=4:'<p><<$DD.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=8:
+         '<div class="dialog_menu">'
+             '<p><<$DD.name>>: <<$Protagonist`s_name>>...can you concentrate on your work now?</p>'
+             '<p>I: of course.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_DDordinary":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\DD\vids\DPT-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Finger insertion </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Rubbing the clitoris </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Fuck her </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Accelerate thrusting </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Top sprint </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Satisfied </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$DD.name>>: Don`t you eat first?</p>'
+             '<p>I: I want to feed you first.</p>'
+             if a>=1:'<p><<$DD.name>>: <<$Panting2>></p>'
+             if a>=2:'<p>I: Do you like it?</p>'
+             if a>=3:'<p><<$DD.name>>: like<<$words>></p>'
+
+         '</div>'
+    end
+
+    if a=7:
+         '<div class="dialog_menu">'
+             '<p><<$DD.name>>: <<$Protagonist`s_name>>...you...you are awesome…</p>'
+             '<p>I: It`s time for your physical fitness to be practiced, I`ll be fucked by you in three or two.…</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_DDCollar":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\DD\vids\DXQ-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a!1 and 0<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Take a walk </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Toying with </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Forced interjection </a></div>'
+            end
+            if a!4 and 3<=q and q<=8:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">After entering her </a></div>'
+            end
+            if a=4:
+            '<div class="buttonR3"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Spanking </a></div>'
+            end
+            if a!6 and 5<=q and q<=10:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Fan milk light </a></div>'
+            end
+            if a!7 and 7<=q and q<=12:
+            '<div class="buttonR4"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Spanking </a></div>'
+            end
+            if a!8 and 8<=q and q<=14:
+            '<div class="buttonS4"><a href="exec:a=8 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Play with breasts sprint </a></div>'
+            end
+            if a=8:
+            '<div class="buttonS5"><a href="exec:a=9 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Ejaculation </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>I: I know you like this, what should you call me next?</p>'
+             '<p><<$DD.name>>: Master, please vent freely❤</p>'
+             if a>=1:'<p><<$DD.name>>: <<$Panting2>></p>'
+             if a>=2:'<p>I: You are a bitch, right?</p>'
+             if a>=3:'<p><<$DD.name>>: That`s right<<$words>></p>'
+
+         '</div>'
+    end
+
+    if a=9:
+         '<div class="dialog_menu">'
+             '<p>I: From tomorrow, you will be waiting for my blessing in the...police station with a vibrating egg in your hand, do you understand?</p>'
+             '<p><<$DD.name>>: Got it，<<$Protagonist`s_name>>Master❤</p>'
+             '<p>I: But in front of outsiders, you still have to show a cold feeling. I know you like this sense of contrast.</p>'
+             '<p><<$DD.name>>: Ok❤</p>'
+             $DDCollar=1
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Executive officer_Fuck_DDBehind the collar":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\DD\vids\XQH-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''">Turn off the vibrating egg </a></div>'
+            if $Debtcollection=1:'<div class="buttonR"><a href="exec:a=0 & q=0 & Debtcollectionnumber=5 & gt ''Group_performation_event'',''Universal_Fuck_Debtcollection''">Violent collection</a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''">Oral sex by head </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''">Sucking testicles </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''">Lick chrysanthemum </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonR3"><a href="exec:a=5 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''">Forced oral sex </a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''">dialogue </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:gt ''Police_station''">Go back to work</a></div>'
+                if tuc_level3=1:'<div class="buttonP"><a href="exec:DDcos=1 & gt ''Police_station''">Wait for me in the photo studio</a></div>'
+                if HotspringOilPressureHall=1 and $WQ_HP=0:'<div class="buttonB3"><a href="exec:a=0 & q=0 & gt ''Hot_spring_event'',''WQ_Bureau stairs''">Sound on the stairs</a></div>'
+                if $Debtcollection=1:'<div class="buttonR"><a href="exec:a=0 & q=0 & Debtcollectionnumber=5 & gt ''Group_performation_event'',''Universal_Fuck_Debtcollection''">Violent collection</a></div>'
+            '</div>'
+    end
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p>I: Are you still wearing it?</p>'
+             if a=0:'<p><<$DD.name>>: Hmm❤Master, turn it off soon❤The little bitch can`t stand it anymore…</p>'
+
+             if a=1:'<p>I: Only a few hours?Really disappointed the owner!</p>'
+
+             if a>=2:'<p>I: Serve your master well!</p>'
+             if a>=3:'<p><<$DD.name>>: Yes<<$Panting>></p>'
+
+         '</div>'
+    end
+
+    if a=7:
+         '<div class="dialog_menu">'
+             '<p>I: Are you satisfied?</p>'
+             '<p><<$DD.name>>: The bitch is satisfied, thank you<<$Protagonist`s_name>>Master❤</p>'
+             '<p>I: This is the secret between the two of us❤</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Take her home":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\DD\vids\回家.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		if a=0:'<div class="button"><a href="exec:$DD.love+=5 & a=1 & gt ''Executive_officer_Event'',''Take her home''">Small talk</a></div>'
+
+		if a=1 and $DD.love<15:'<div class="buttonGr"><a href="exec:">Talk next time</a></div>'
+		
+		if $DD.love>=15:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Go to her house''">Go to her house</a></div>'
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'	
+		'<p><<$DD.name>>:  Hi，<<$Protagonist`s_name>>, Get off work, let`s go together.</p>'
+		'<p>I: Do you usually go home like this?</p>'
+		'<p><<$DD.name>>: Yeah, if you don`t have a car, you can only walk home, it`s not far anyway.</p>'
+		if $DD.love>=5:
+		'<p>I: It sounds like you are a little unhappy, is there anything wrong?</p>'
+		'<p><<$DD.name>>: In fact, I have recently fallen into some personal emotional problems, and I am very worried that this will affect my work.</p>'
+		end
+		if $DD.love>=10:
+		'<p>I: Is it because of this that you received the punishment?I believe you will make the right decision, you are a very smart person.</p>'
+		'<p><<$DD.name>>: Yes, you are right.I think I need some time to think about it.</p>'
+		'<p>I: Of course, if you need it, I can help you handle some work and reduce your burden.</p>'
+		end
+		if $DD.love>=15:
+		'<p><<$DD.name>>: I can handle it if I work.Can you teach me some cooking skills?I want to be a good wife…</p>'
+		end
+	'</div>'
+End
+
+if $args[0]="Take her home2":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\DD\vids\回家.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		if a=0:'<div class="button"><a href="exec:$DD.love+=5 & a=1 & gt ''Executive_officer_Event'',''Take her home2''">Small talk</a></div>'
+
+		if a=1 and $DD.love<25:'<div class="buttonGr"><a href="exec:">Talk next time</a></div>'
+		
+		if $DD.love>=25:
+			if Porsche=1:'<div class="button"><a href="exec:a=0 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Get in the car</a></div>'else:'<div class="buttonGr"><a href="exec:">I don`t have a vehicle</a></div>'
+		end
+			
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'	
+		'<p>I: emmmm...how are you and your boyfriend?</p>'
+		'<p><<$DD.name>>: It`s already broken up, and I really don`t understand what I liked about him in the first place.</p>'
+		if $DD.love>=20:
+		'<p>I: So what do you think now?</p>'
+		'<p><<$DD.name>>: Work hard, plan to buy a car, and it is also very hard to get to and from work in high heels every day.</p>'
+		end
+		if $DD.love>=25:
+		'<p>I: Can I give you a ride if it`s convenient?</p>'
+		end
+
+	'</div>'
+End
+
+if $args[0]="Go to her house":
+	 a=0 & q=0
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\DD\vids\家.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		if $DDboyfriend=0:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_boyfriend''">Don`t mind</a></div>'
+		if $DDboyfriend=1:
+		  '<div class="buttonS3"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Tease her</a></div>'
+		   if  $DDGetinthecar=1:'<div class="buttonS5"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Tie the collar</a></div>'else:'<div class="buttonGr"><a href="exec:">Tie the collar</a></div>'
+		end
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'	
+		'<p><<$DD.name>>:  <<$Protagonist`s_name>>, Stay and try my craft.</p>'
+		'<p>I: Extremely happy.</p>'
+		if $DDboyfriend=0:
+		'<p><<$DD.name>>:  <<$Protagonist`s_name>>, One more thing, my boyfriend will be here in a while, do you mind?</p>'
+		'<p>I: ……</p>'
+		end
+	'</div>'
+End
+
+
+--- Executive_officer_Event ---------------------------------
+

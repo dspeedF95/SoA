@@ -1,0 +1,88 @@
+# Universal_chat
+!	0  <div class="button"><a href="exec:$chat=''JM''& $Wheretogoout = ''home'' & addlove=0 &addbad=0 & gt ''Universal_chat''">interaction</a></div>
+!	25
+!	50
+!	100
+!	200
+!To be honest, it`s a bit stupid, it`s not convenient, I can`t even write functions.
+
+
+
+Sumofattitudes=0
+if $chat="JM":$PersonnameA=$JM.name & Sumofattitudes+=$JM.love & Sumofattitudes+=$JM.bad & $JM.love+= Addlove & $JM.love+= Addbad
+if $chat="JJ":$PersonnameA=$jj.name & Sumofattitudes+=$jj.love & Sumofattitudes+=$jj.bad & $jj.love+= Addlove & $jj.love+= Addbad
+if $chat="MM":$PersonnameA=$mm.name & Sumofattitudes+=$mm.love & Sumofattitudes+=$mm.bad & $mm.love+= Addlove & $mm.love+= Addbad
+if $chat="DZ":$PersonnameA=$DZ.name & Sumofattitudes+=$DZ.love & Sumofattitudes+=$DZ.bad & $DZ.love+= Addlove & $DZ.love+= Addbad
+if $chat="RION":$PersonnameA=$RION.name & Sumofattitudes+=$RION.love & Sumofattitudes+=$RION.bad & $RION.love+= Addlove & $RION.love+= Addbad
+
+$contentA[0]="life" & $contentA[1]="Gourmet" & $contentA[2]="movie" & $contentA[3]="music" & $contentA[4]="travel" & $contentA[5]="philosophy"
+$contentA[6]="New bill"&$contentA[7]="weather" & $contentA[8]="exercise" & $contentA[9]="First_love" & $contentA[10]="childhood"& $contentA[11]="future"
+$contentA[12]="dream" &$contentA[13]="ideal"& $contentA[14]="Epidemic"& $contentA[15]="philosophy"& $contentA[16]="hobby"& $contentA[17]="a badly translated QSP game"
+
+if Sumofattitudes<25:
+	$attitude=1
+	$TitleA="I am very busy now, to make a long story short."
+	elseif Sumofattitudes<50:
+	$attitude=2
+	$TitleA="<<$Protagonist`s_name>>, What`s the matter with me?"
+	elseif Sumofattitudes<100:
+	$attitude=3
+	$TitleA="❤Little cutie, did you come to me on purpose?"
+	elseif Sumofattitudes<200:
+	$attitude=4
+	$TitleA="Baby ❤ Miss me?"
+	elseif Sumofattitudes<400:
+	$attitude=5
+	$TitleA="Honey ❤What do you want to do to others?"
+	elseif Sumofattitudes>=400:
+	$attitude=6
+	$TitleA="Master ❤I am your bitch bitch, ❤do whatever you want to me ❤but ❤❤❤!"
+end
+
+
+
+
+
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+
+	'</div>'
+'</div>'
+	
+'<div class="show_menu">'
+	 '<video preload="metadata" autoplay loop height="480">
+	 <source src="images\NPC\<<$chat>>\vids\0态度_<<$attitude>>~1.webm" type=''video/webm;''></video></div>'
+'</div>'
+
+'<div class="button_menu">'
+	if $ARGS[0]!"Chatting":
+	'<div class="button"><a href="exec:addlove = RAND(1,my.charm) & minutes+=30 & gt ''Universal_chat'',''Chatting''">chat</a></div>'
+	if $chat="RION":
+		if RIONcos=0 and tuc_level3=1:'<div class="buttonPu1"><a href="exec: RIONcos=1 & gt ''company''">invitecosshooting</a></div>'
+	end
+	end
+	'<div class="button"><a href="exec:gt ''<<$Wheretogoout>>''">return</a></div>'
+'</div>'
+
+if $ARGS[0]!"Chatting":
+'<div class="dialog_menu">'
+	'<p><<$PersonnameA>> ： <<$TitleA>></p>'
+'</div>'
+end
+
+if $ARGS[0]="Chatting":
+'<div class="dialog_menu">'
+	'<p> Spent a little time and chatted a little about<<$contentA[RAND(0,17)]>>The topic.</p>'
+	'<p> Influenced by one`s own charm.<<my.charm>>▲, favorability has risen<<addlove>>↑</p>'
+	'<br>'
+	'<p>*The favorability bonus is floating when chatting, and one`s own charm is the theoretical maximum.'
+'</div>'
+end
+
+--- Universal_chat ---------------------------------
+

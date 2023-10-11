@@ -1,0 +1,135 @@
+# Kabukicho
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+a=0
+q=0
+my.energy-=1
+$Sledgehammergang=rand(0,15)
+if $Sledgehammergang>=14 and Bigvillaforthefirsttime>=3 and Sledgehammer<2:gt'Kabukicho','Kabukicho Fighting'
+
+gs'menu_gif'
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			'<a class="photo" data-title="Strip Club" href="exec:minutes+=5 & gt ''The_night_is_fine''"><img class="img_stretch" src="images\place\夜色精巢.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Paradise escorts" href="exec:minutes+=5 & gt ''Paradise_escorts''"><img class="img_stretch" src="images\place\天堂伴游.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Gay Bar" href="exec:minutes+=5 & gt ''Big_bird_turn_around''"><img class="img_stretch" src="images\place\大鸟转转转.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Empress Brothel" href="exec:minutes+=5 & gt ''Sex_doll''"><img class="img_stretch" src="images\place\女帝の性偶.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Eye of God" href="exec:minutes+=5 & gt ''Eye_of_God''"><img class="img_stretch" src="images\place\上帝之眼.gif"></a>'
+		'</div>'
+
+		'<div class="action">'
+			'<a class="photo" data-title="Back Alley" href="exec:minutes+=5 & gt ''Deep_alley''"><img class="img_stretch" src="images\place\深巷.jpg"></a>'
+		'</div>'
+		if $Haveseenthefloorplan>=3:
+		'<div class="action">'
+			'<a class="photo" data-title="Longkou Group" href="exec:minutes+=5 & gt ''Kabukicho'',''Longkou Group''"><img class="img_stretch" src="images\place\龙口组小图.jpg"></a>'
+		'</div>'
+		end
+		
+		'<div class="action">
+			<a class="photo" data-title="Residential area" href="exec:minutes+=5 & gt ''Residential_area''"><img class="img_stretch" src="images\place\居民区_<<$times_of_day>>.jpg"></a>
+		</div>'
+		
+	'</div>'
+'</div>'
+
+
+
+if $args[0] ='':
+	'<div class ="show_menu"><img src="images\place\歌舞伎町.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Kabukicho''">Kill time</a></div>'
+		if $camera_SS=1 and $JZ_Event_rape=50 and (hour>=21 or 1>=hour):	'<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''Guidelines''"><<$SS.name>>Incoming call</a></div>'
+		if Set_printing_card=1 and hour=22 and week_day =6:'<div class="buttonS"><a href="exec:Setprintingnumber=6 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversation with passersby❤</a></div>'
+		if Set_printing_card=1 and hour=21 and week_day =7:'<div class="buttonS"><a href="exec:Setprintingnumber=9 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversation with hot girls❤</a></div>'
+		if Set_printing_card=1 and hour=5 and week_day =5:'<div class="buttonS"><a href="exec:Setprintingnumber=10 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversation with hot girls❤</a></div>'
+		if Set_printing_card=1 and hour=0 and week_day =7:'<div class="buttonR3"><a href="exec:Set_printing_numberS=4 & gt ''Group_performation_event'',''Universal_Fuck_Set sealS''">❤Strike up a conversation with an acquaintance❤</a></div>'
+		if Missingmission=1 and hour=Lookingfortimenum:'<div class="buttonB3"><a href="exec:gt ''Group_performation_event'',''Group_performance_Fuck_case''">✮Search for missing women</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Tonight`s moon,Never sink.Only this dream,No longer awake.</p>'
+		'<p>·This street is full of blood spurting, exciting, dangerous and unknown.</p>'
+	'</div>'
+
+end
+
+
+
+
+
+if $args[0] ='Kabukicho Fighting':
+	'<div class ="show_menu"><img src="images\place\大别墅\歌舞伎町X.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if money>=5000:'<div class="buttonG"><a href="exec:money-=5000 & gt ''Kabukicho''">Pay obediently</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay obediently</a></div>'
+		if $Ilikeit_1>$Enemycombateffectiveness_1:'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Kabukicho'',''Kabukicho Fighting2''">If you don`t accept it, do it</a></div>'else:'<div class="buttonGr"><a href="exec:">Swallow it</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·I`m in trouble with you.</p>'
+		'<p>Sledgehammergang members: Hey, you look like a rich man!Tickets for Kabukicho are5,000So, I advise you to pay obediently. If you don`t buy it, you will have to suffer!</p>'
+		'<p>·——————·</p>'
+		$Ilikeit_1=my.intelligence+my.Physical_strength
+		'<p>·My intelligence：Lv<<my.intelligence>>; Physical fitness：Lv<<my.Physical_strength>>;Combat effectiveness=<<$Ilikeit_1>></p>'
+		$Enemycombateffectiveness_1=10+rand(1,10)
+		'<p>·Number of opponents：3; Comprehensive combat effectiveness=<<$Enemycombateffectiveness_1>></p>'
+		$Sledgehammerdroprate=100/($Ilikeit_1-$Enemycombateffectiveness_1)
+		$Numberofsledgehammersdropped=rand(5,100)
+		'<p>·Sledgehammerdroprate(<<$Sledgehammerdroprate>>%)=100/(Combat effectiveness difference)</p>'
+	'</div>'
+end
+
+if $args[0] ='Kabukicho Fighting2':
+	'<div class ="show_menu"><img src="images\place\大别墅\歌舞伎町X.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if $Numberofsledgehammersdropped<=$Sledgehammerdroprate:'<div class="button"><a href="exec:minutes+=15 & Sledgehammer+=1 & gt ''Kabukicho''">Confiscate the hammer</a></div>'
+		'<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·You will solve them in three or two clicks.</p>'
+		'<p>Sledgehammergang members: Damn it, you wait for me!</p>'
+		'<p>·——————·</p>'
+		'<p>·Sledgehammerdroprate(<<$Sledgehammerdroprate>>%)=100/(Combat effectiveness difference)</p>'
+		if $Numberofsledgehammersdropped<=$Sledgehammerdroprate:'<p>·In a hurry, they left behind a sledgehammer.</p>'else:'<p>·They fled quickly, leaving nothing behind.</p>'
+	'</div>'
+end
+
+if $args[0] ='Longkou Group':
+	'<div class ="show_menu"><img src="images\place\龙口组.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if $Haveseenthefloorplan=3:'<div class="buttonR3"><a href="exec:gt ''Widow_Incident'',''YS_Fuck_warehouse''">Call for help</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Kabukicho''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·The headquarters of the former Underworld Longkou Group is now the New Longkou Group.</p>'
+	'</div>'
+
+end
+
+
+--- Kabukicho ---------------------------------
+

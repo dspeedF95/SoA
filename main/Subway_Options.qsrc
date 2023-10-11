@@ -1,0 +1,11 @@
+# Subway_Options
+
+	if $MM_Event_idol=5 and hour =18:
+	'<div class="button"><a href="exec:minutes+=5 & gt ''Sister2_event'',''MM_Fuck_Front of the tram''">Familiar figure</a></div>'
+	end
+	'<div class="button"><a href="exec:minutes+=5 & gt ''subway''">Kill time</a></div>'
+	if Set_printing_card=1 and hour=13 and week_day =7:'<div class="buttonR3"><a href="exec:Set_printing_numberS=5 & gt ''Group_performation_event'',''Universal_Fuck_Set sealS''">❤Strike up a conversation with hot girls❤</a></div>'
+	if $Yuya_Mission=2:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_tram''">S20carriage</a></div>'
+	
+--- Subway_Options ---------------------------------
+

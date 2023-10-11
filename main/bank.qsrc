@@ -1,0 +1,91 @@
+# bank
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+minutes+=10
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			'<a class="photo" data-title="City Hall" href="exec:minutes+=15 & gt ''City_hall''"><img class="img_stretch" src="images\place\市政厅.jpg"></a>'
+		'</div>'
+	'</div>'
+'</div>'
+
+
+if $ARGS[0]="":
+
+	'<div class ="show_menu"><img src="images\place\银行大厅.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''bank'',''Stock trading''">Stock trading</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>·The financial center is formed with the development of the economic center, and it is also the highest form of the economic center.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Stock trading":
+	if $Stockstart=0:
+		stockPharmaceuticalO=430
+		stockentertainmentO=5500
+		stockhealthO=16500
+		stockenergyO=32700
+		stockWinecompanyO=170
+	end
+	
+	if Dailystockprice=0:
+		stockPharmaceuticalN=stockPharmaceuticalO+rand(-5,7)
+		stockentertainmentN=stockentertainmentO+rand(-15,15)
+		stockhealthN=stockhealthO+rand(-25,30)
+		stockenergyN=stockenergyO+rand(-50,50)
+		stockWinecompanyN=stockWinecompanyO+rand(-1,1)
+		Dailystockprice=1
+		if stockPharmaceuticalC>0 and stockPharmaceuticalN>stockPharmaceuticalB:stockPharmaceuticalN=stockPharmaceuticalB+rand(-1,2)
+	end
+	'<div class ="show_menu"><img src="images\place\银行股票.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''bank'',''Stock trading''">Stock trading</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>【Mugou Pharmaceutical】 Current Price：<<stockPharmaceuticalN>> Bid price：<<stockPharmaceuticalB>> Number of shares held：<<stockPharmaceuticalC>>' 
+		if stockPharmaceuticalC>0:'·<a href="exec:money+=stockPharmaceuticalN*stockPharmaceuticalC & stockPharmaceuticalC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
+		if money>=stockPharmaceuticalN: '·<a href="exec:stockPharmaceuticalC=money/stockPharmaceuticalN & money-=stockPharmaceuticalC*stockPharmaceuticalN & stockPharmaceuticalB=stockPharmaceuticalN  & gt ''bank'',''Stock trading''">Full warehouse￥</a>·'
+		'</p>'
+		
+		'<p>【Empire Entertainment】 Current Price：<<stockentertainmentN>> Bid price：<<stockentertainmentB>> </p>'
+		'<p>【Imperial Health】 Current Price：<<stockhealthN>> Bid price：<<stockhealthB>> </p>'
+		'<p>【Imperial Energy】 Current Price：<<stockenergyN>> Bid price：<<stockenergyB>> </p>'
+        '<p>【Contemplation Wine Company】 Current Price：<<stockWinecompanyN>> Bid price：<<stockWinecompanyB>> Number of shares held：<<stockWinecompanyC>>' 
+        if stockWinecompanyC>0:'·<a href="exec:money+=stockWinecompanyN*stockWinecompanyC & stockWinecompanyC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
+        if money>=stockWinecompanyN*100 and stockWinecompanyC=0: '·<a href="exec:stockWinecompanyC=100 & money-=stockWinecompanyN*100 & stockWinecompanyB=stockWinecompanyN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
+        '</p>'
+        
+		'<p>·———Still in production for the time being——— </p>'
+	'</div>'
+end
+
+
+
+
+
+
+
+
+
+
+
+--- bank ---------------------------------
+

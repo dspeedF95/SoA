@@ -1,0 +1,1473 @@
+# Judges_Event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+
+
+
+if $args[0]="PW_Fuck_Drink":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\喝酒1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!4:
+        '<div class="button_menu">'
+            if a!9:
+            '<div class="button"><a href="exec:a+=1 & gt ''Judges_Event'',''PW_Fuck_Drink''">Listen on </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Shopping_mall''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>？？？:Drink, drink, drink…</p>'
+             '<p><<$PW.name>>:Dear bosses... why didn`t the boss of the Empire Group come today?</p>'
+             '<p>？？？:What about her?Now her identity is different, and isn`t she being strictly investigated by the Inland Revenue Department now?Why is there still time to eat with us?</p>'
+             '<p><<$PW.name>>:Today... actually, I`m here to ask everyone for a favor. I have an idol drama that encountered a little bit of financial resistance.…</p>'
+             '<p>？？？:It`s not easy to help now. Our industrial chain has been emptied by the Imperial Group, alas.</p>'
+             '<p>？？？:That`s right!Except for the Imperial Group, everyone is having a hard time now.I really want to take down that bitch!</p>' 
+             '<p>I:(It seems that these bosses are out of money)</p>'
+         '</div>'
+    end
+
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>:Blame me, I shouldn`t have mentioned this, I`ll punish myself first.</p>'
+             '<p>？？？:Come on...let`s have a drink too!</p>'
+         '</div>'
+    end
+
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p>？？？:Do you remember the mansion that was shot by the court some time ago?</p>'
+             '<p><<$PW.name>>:The house of the former mayor?That`s a murder house. Who dares to shoot it!</p>'
+             '<p>？？？:The former mayor died strangely in that mansion, but you don`t know anything... It is rumored that the former mayor accepted a lot of benefits from the Imperial Group... and hid in a corner of that house.…</p>'
+             '<p><<$PW.name>>:Oh?Is the news reliable?</p>'
+             '<p>？？？:It was originally just a strange talk... But yesterday the Imperial Group publicly declared that it had no interest in the former mayor, and the group would not participate in the auction.In the afternoon, Kabukicho released the news that as long as someone can take it and transfer it to the Imperial Group, they are willing to pay three times the high price.…</p>'
+             '<p><<$PW.name>>:Then... how much can this mansion be photographed?</p>'
+             '<p>？？？:The original auction price was5000Ten thousand...but in this situation, there is no9000I don`t think it will work…</p>'
+         '</div>'
+    end
+
+    if a=3:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>:In that case... everyone here... why don`t we do it?</p>'
+             '<p>？？？:Hahahaha, you`re kidding. We all have interests with the Imperial Group. Now that the Inland Revenue Department is under strict investigation, we don`t want to take the lead.</p>'
+             '<p><<$PW.name>>:Then...leave it to me to do it?</p>'
+             '<p>？？？:What do you have in mind?</p>'
+             '<p><<$PW.name>>:You just need to fill it up5000Wan... which side of the city hall... I happen to have acquaintances…</p>'
+         '</div>'
+    end
+
+    if a=4:
+         '<div class="dialog_menu">'
+             '<p>？？？:Hahahaha，5000Ten thousand...is not a small number!</p>'
+             '<p><<$PW.name>>:Then...do you not believe me, or do you not believe the wind from the Imperial Group?</p>'
+             '<p>？？？:………</p>'
+             '<p><<$PW.name>>:I`ll do it first... you guys are going to chip in, without further ado.I will go to the city hall first.</p>'
+             $Sister_Hua_Event_Chain=2
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_Catwalk":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\走秀1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!1:
+        '<div class="button_menu">'
+            if a!9:
+            '<div class="button"><a href="exec:a+=1 & gt ''Judges_Event'',''PW_Fuck_Catwalk''">Listen on </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>:Dear leaders, this is the latest underwear I endorse... if you are interested... you can buy one for your lover.…</p>'
+             '<p>？？？:Pull it down, as soon as I got home and saw that yellow-faced woman, I was not interested!</p>'
+             '<p><<$PW.name>>:The material of this set of underwear is relatively special...If you don`t get started in person... you may not be able to experience the “raised design” of this underwear.</p>'
+             '<p>？？？:What is "raised design"?Come, come, let me take a look.</p>'
+         '</div>'
+    end
+
+
+    if a=1:
+		 $Sister_Hua_Event_Chain=3
+         '<div class="dialog_menu">'
+             '<p>？？？:Huh!This design is really unusual!Xiaoyu, try it too!</p>'
+             '<p><<$PW.name>>:Director Yu, I haven`t seen you before.</p>'
+             '<p>Director Yu:Thanks to my mother, I just transferred up soon... now in charge of judicial auctions and real estate transactions.…</p>'
+             '<p>？？？:Look at this material!This fabric!</p>'
+             '<p><<$PW.name>>:Director Yu, if it`s convenient, leave a contact information?</p>'
+             '<p>？？？:What are you still doing in a daze?Xiaoyu, if we give it to us, we will go to the next game. This is not a place to work.</p>'
+             '<p>Director Yu:Next game...?</p>'
+             '<p>？？？:Your level is not enough, you still need to exercise a lot... let`s go first!</p>'
+         '</div>'
+    end
+
+
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_secret":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\秘密1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!6:
+        '<div class="button_menu">'
+            if a<2:
+            '<div class="button"><a href="exec:a+=1 & gt ''Judges_Event'',''PW_Fuck_secret''">Watch it </a></div>'
+            else:
+            '<div class="button"><a href="exec:a+=1 & gt ''Judges_Event'',''PW_Fuck_secret''">Secretly photographed </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+			 '<p>·Shooting gap<<$PW.name>>In the lounge…</p>'
+             '<p><<$PW.name>>:The funds are already in place... Now it`s almost impossible for Director Yu to get it done... I can`t screw this up.…</p>'
+         '</div>'
+    end
+
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>:Director Yu, it`s a coincidence that you are here. Look at my underwear. How can it be considered sexy?</p>'
+             '<p>Director Yu:With...with your talent...it`s sexy no matter what……</p>'
+             '<p><<$PW.name>>:I can really say it with my mouth, aren`t you curious where we went to work in the next game that day?</p>'
+             '<p>Director Yu:Uh...uh...uh...I`m just here to give you the watch you left last time…</p>'
+         '</div>'
+    end
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>:Director Yu, I`m here, are you uncomfortable before you leave?</p>'
+             '<p>Director Yu:This...this...is not so good.</p>'
+             '<p><<$PW.name>>:Don`t worry...just give me your body... I`m still very confident in this regard.…</p>'
+         '</div>'
+    end
+
+    if a=3:
+         '<div class="dialog_menu">'
+             '<p>Director Yu:Ah, this...this...the door moved.…</p>'
+             '<p><<$PW.name>>:Director Yu, why are you so nervous?You`re not still a virgin, are you?</p>'
+         '</div>'
+    end
+
+    if a=4:
+         '<div class="dialog_menu">'
+             '<p>Director Yu:Ah<<$Panting>>This...this…</p>'
+         '</div>'
+    end
+
+    if a=5:
+         '<div class="dialog_menu">'
+             '<p>Director Yu:Ah ah ah ah ah ah!</p>'
+             '<p><<$PW.name>>:Haha... virgins are cute…</p>'
+         '</div>'
+    end
+
+    if a=6:
+		 $Sister_Hua_Event_Chain=4
+         '<div class="dialog_menu">'
+             '<p>Director Yu:I...I was impulsive...please forget about this.</p>'
+             '<p><<$PW.name>>:Director Yu, my memory has always been not very good, but I have an annoyance that I remember very clearly.…</p>'
+             '<p><<$PW.name>>:I took a fancy to the villa of the former mayor... But I am a bit tight now. If I bid, I may not be able to bid for others... Do you have any good ideas?</p>'
+             '<p>Director Yu:This...?This is easy to do, why don`t we just shoot it?Isn`t this idol draft competition being held now?Directly treat this villa as the prize for the first place!</p>'
+             '<p><<$PW.name>>:Director Yu, what do you mean…</p>'
+             '<p>Director Yu:It was held in the city hall itself, bypassing the French auction and directly by the organizer.5000The starting price of ten thousand is enough, and it will be given to the winner!</p>'
+             '<p><<$PW.name>>:The idea is not good, but it is not bad.Although there are still certain risks, it is better than raising money to bid again.…</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_thing1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\事1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!5:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_thing1''">What about attitude? </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_thing1''">Touch the bra </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_thing1''">Touch underwear </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_thing1''">Touch the lower body </a></div>'
+            end
+            if a!5 and 4<=q:
+            '<div class="buttonS2"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_thing1''">Enough </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I:<<$PW.name>>...miss?I heard that you have reached some kind of deal with the city hall?</p>'
+             '<p><<$PW.name>>: What are you talking nonsense about?Go away.</p>'
+             '<p>I:My eyes are not very clear, can you help me see what this is?</p>'
+             '<p><<$PW.name>>: <<$Protagonist`s_name>>...please get the fuck out of me!</p>'
+         '</div>'
+    end
+
+
+
+
+    if 4>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: What do you want... give me a happy word…</p>'
+             '<p>I: Don`t look reluctant…</p>'
+         '</div>'
+    end
+
+    if a=5:
+         $PW.love-=q
+         $PW.bad+=5
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Go to the police, don`t touch me again, I won`t accept your coercion!</p>'
+             '<p>I: ………</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_thing2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\事2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_thing2''">dialogue </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_thing2''">Let`s do it </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_thing2''">Mouth me </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_thing2''">Sit up </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS2"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_thing2''">Move by yourself </a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonS2"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_thing2''">Vigorously pump </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_thing2''">Ejaculation </a></div>'
+            end
+            if a=7:
+            '<div class="buttonS2"><a href="exec:a=8 & gt ''Judges_Event'',''PW_Fuck_thing2''">afterwards </a></div>'
+            end
+
+
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: What are you doing to me again?I said, if you have a photo, go to the police!Don`t bother me!</p>'
+             '<p>I:<<$PW.name>>...miss?What photo?</p>'
+             '<p><<$PW.name>>: Don`t pretend!You hid behind the door and took pictures of me and Director Yu that day, right?</p>'
+             '<p>I:Ah, why don`t you tell yourself?Do you know who promoted Director Yu behind him?You are in big trouble now!</p>'
+             '<p><<$PW.name>>: …………</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: ………</p>'
+             '<p>I:Think about it, such a young man can be in charge of the French shooting... the people behind him will definitely be furious!</p>'
+             '<p><<$PW.name>>: ………</p>'
+             '<p>I:Do you want to do it with me, or do you want to show the photos to everyone?</p>'
+             '<p><<$PW.name>>: …………</p>'
+         '</div>'
+    end
+
+
+
+    if 7>=a and a>=2:
+         '<div class="dialog_menu">'
+             '<p>I: That`s right... that`s right…</p>'
+             '<p><<$PW.name>>: ……</p>'
+         '</div>'
+    end
+
+    if a=8:
+         $PW.love-=q+my.charm
+         $PW.bad+=5
+         if $Sister_Hua_Event_Chain=4:$Sister_Hua_Event_Chain=5
+         '<div class="dialog_menu">'
+             '<p>I:Think about it clearly, do you want to do it with me, or show the photos to everyone?</p>'
+             '<p><<$PW.name>>: That`s enough... stop talking... I see…</p>'
+             '<p><<$PW.name>>: ………………</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Safe passage":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\口前.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & $Sister_Hua_Event_Chain=6 &  gt ''Daily_life_in_prison'',''Front of the prison''">！？！？</a></div>'
+            '</div>'
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I:What did you ask me to do here... (She can`t find out that the photo was<<$SSYY.name>>It`s easy to format it together...)</p>'
+             '<p><<$PW.name>>:I`ve thought about it, as long as you are willing to be here90Open one eye and close one eye in the sky, you can make conditions.</p>'
+             '<p>I:It seems you have succumbed?Let me think about it, not only do you want to do what I say, I also want you to give me the first position as an artist.</p>'
+             '<p><<$PW.name>>:Then you are dreaming.</p>'
+             '<p>I:Oh, then you can`t talk about it anymore?</p>'
+             '<p><<$PW.name>>:Then go and dream.</p>'
+             '<p>I:！？！？</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_thing3":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\事3-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!6:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_thing3''">Go where no one is </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_thing3''">Plug in to the end </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_thing3''">Lactation </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_thing3''">Going to shoot </a></div>'
+            end
+            if a=4:
+            '<div class="buttonS2"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_thing3''">Ejaculation </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS2"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_thing3''">dialogue </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">Let`s talk about it then</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: You... how did you get out?！</p>'
+             '<p>I:<<$PW.name>>Miss?It`s been a long time since I saw you, how are you?</p>'
+             '<p><<$PW.name>>: What are you doing?！I`m going to call someone!</p>'
+             '<p>I:Ah, be quiet!I`m on fire now!</p>'
+             '<p><<$PW.name>>: …………</p>'
+         '</div>'
+    end
+
+
+
+
+    if 5>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>I: I suffered a lot in prison... you have to compensate me.…</p>'
+             '<p><<$PW.name>>: ………</p>'
+             if a>=2:'<p><<$PW.name>>: About the photo... huh…</p>'
+             if a>=3:'<p>I: Well... let`s take a step back... I just need your body... as for that house, we have our own skills.…</p>'
+             if a>=4:'<p><<$PW.name>>: <<$Panting>></p>'
+             if a>=5:'<p>I: I worked hard in one go.…</p>'
+         '</div>'
+    end
+
+    if a=6:
+         $PW.love-=q+my.charm
+         $PW.bad+=q
+         if $Sister_Hua_Event_Chain=7:$Sister_Hua_Event_Chain=8
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: You delete it first... as long as you delete it... I will do what you say…</p>'
+             '<p>I: The temper is still so stinky... (It seems she doesn`t know it yet)</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_company":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\公司1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_company''">Toying with </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_company''">Look at the asshole </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_company''">Forced oral sex </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_company''">Forced insertion </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS2"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_company''">Change posture </a></div>'
+            end
+            if a!6 and 5<=q and q<=9:
+            '<div class="buttonS2"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_company''">Sit up </a></div>'
+            end
+            if a!7 and 6<=q :
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_company''">Accelerate the sprint </a></div>'
+            end
+            if a=7:
+            '<div class="buttonS2"><a href="exec:a=8 & gt ''Judges_Event'',''PW_Fuck_company''">Ejaculation </a></div>'
+            end
+            if a=8:
+            '<div class="buttonS2"><a href="exec:a=9 & gt ''Judges_Event'',''PW_Fuck_company''">warning </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I:It`s really scary, the air inside.</p>'
+             '<p><<$PW.name>>: What are you doing... there is still a meeting inside.</p>'
+             '<p>I:It`s similar to you, except that you are here to breathe, and I am here to force it.</p>'
+             '<p><<$PW.name>>: Not here…</p>'
+             '<p>I:What is the implication?Shall we go in and do it?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 8>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: You better hurry up……</p>'
+             if a>=2:'<p>I: You seem to be getting used to this kind of thing too…</p>'
+             if a>=4:'<p><<$PW.name>>: <<$Panting>></p>'
+         '</div>'
+    end
+
+    if a=9:
+         $PW.love-=q+my.charm
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p>I: If you don`t want to be ridden as a horse, you`d better know what you should do.…</p>'
+             '<p><<$PW.name>>: You don`t need to teach me how to do things…</p>'
+             '<p>I: Do it yourself.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+
+if $args[0]="Safe passage2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\口前.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+            '<div class="button_menu">'
+                '<div class="buttonS3"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth2''">Go to the toilet</a></div>'
+                if $PW.bad>=100:'<div class="buttonS4"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Wait until the meeting is over</a></div>'else:'<div class="buttonGr"><a href="exec:">wait?？？</a></div>'
+            '</div>'
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>:…………</p>'
+             '<p>I:How are you, do you know why I came to you?</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_mouth2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\口2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!5:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_mouth2''">Oral sex </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_mouth2''">Deep throat </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_mouth2''">Hurry up </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_mouth2''">Ejaculation </a></div>'
+            end
+            if a=4:
+            '<div class="buttonS2"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_mouth2''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I:In a good mood?</p>'
+             '<p><<$PW.name>>: I thought about it, it`s a big deal that we die together.</p>'
+         '</div>'
+    end
+
+
+
+
+    if 4>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Now we are grasshoppers on the same line... They can`t spare me... they will definitely not let you go.…</p>'
+             if a>=2:'<p>I: Makes sense... what do you want to do…</p>'
+             if a>=3:'<p><<$PW.name>>: Turning enemies into friends, there is no need for our relationship to be so rigid.</p>'
+             if a>=4:'<p>I: Can I trust the person who tied me to jail?</p>'
+         '</div>'
+    end
+
+    if a=5:
+         $PW.love+=q+my.charm
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: This is my sincerity... after it`s done... you delete the photo and I`ll give it to you again.50Ten thousand hush money…</p>'
+             '<p>I: ………...(Sounds good?）</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_mouth1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\口1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!3:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Oral sex </a></div>'
+            end
+            if a=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Ejaculation </a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Make a deal </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">Happy cooperation</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 2>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>I:It seems they adjourned the meeting without waiting for you…</p>'
+             '<p><<$PW.name>>: What are you waiting for me to do?I have done everything I can do…</p>'
+             if a>=1:'<p><<$PW.name>>: <<$Panting>>…</p>'
+         '</div>'
+    end
+
+    if a=3:
+         $PW.love+=q+my.charm
+         $PW.bad+=q
+         $CanGDrugged=1
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: In order to ensure... foolproof... I want you to help me solve it together<<$GJ.name>></p>'
+             '<p>I: she?reason?</p>'
+             '<p><<$PW.name>>: She is now in second place, and I heard that she is doing whatever it takes to collect<<$SSYY.name>>The black material.This woman will become a trouble.</p>'
+             '<p>I: She is indeed a hidden danger, so since you have the idea of dealing with her, would you also want to deal with the idol I brought in?</p>'
+             '<p><<$PW.name>>: How could it be? As long as you help me get rid of her together, I promise I won`t touch a hair of your hand.</p>'
+             '<p>I: Not enough, since you can put5000Wan`s villa is stuffed into the winning prize, then I want you to stuff a few things.…</p>'
+             '<p>·Then you reached an agreement [made public at the award ceremony]</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Maid application":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\女仆0.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:Sister_Hua_Maid=2 & gt ''Big_villa''">hire </a></div>'
+            '<div class="button"><a href="exec:gt ''Big_villa''">Not considered yet </a></div>'
+        '</div>'
+
+         '<div class="dialog_menu">'
+             '<p>·Opening the door can`t help but surprise you</p>'
+             '<p>I: How are you…</p>'
+             '<p><<$PW.name>>: How are you, I`m here to apply for a housemaid.</p>'
+             '<p>I: What are you... trying to do?Dignified big stars, actors, singers, and models came to be my maid?</p>'
+             '<p><<$PW.name>>: I am now carrying a lot of foreign debt and I am cornered.Isn`t it good to work here to pay off debts and pay for food and housing?</p>'
+             '<p>I: (If you want to hire her, I always feel that she has a bad plan.)…？</p>'
+         '</div>'
+
+End
+
+if $args[0]="PW_Fuck_Maid early":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\女仆1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!5:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_Maid early''">Of course </a></div>'
+            '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Big_villa'',''Master bedroom''">No need </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_Maid early''">Lactation </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_Maid early''">Arouse the spirit </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_Maid early''">Roll shot </a></div>'
+            end
+            if a=4:
+            '<div class="buttonS2"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_Maid early''">Ejaculation </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Big_villa'',''Master bedroom''">Get up</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I:Uh... what are you doing in my room……*Bleary-eyed</p>'
+             '<p><<$PW.name>>: Master...are you awake?！Do you need me to perform a wake-up service for you?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 4>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Rude…</p>'
+             if a>=2:'<p><<$PW.name>>: Is it comfortable...master…</p>'
+             if a>=3:'<p><<$PW.name>>: Master... the meat stick is really energetic!</p>'
+             if a>=4:'<p><<$PW.name>>: <<$Panting>></p>'
+         '</div>'
+    end
+
+    if a=5:
+         $PW.love+=q+my.charm/2
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Master, the way you ejaculate is so cute…</p>'
+             '<p>I: ……...(Did she act?）</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_Maid":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\女仆2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!6:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_Maid''">Taste mine </a></div>'
+            '<div class="button"><a href="exec:minutes+=45 & gt ''Big_villa''">No need </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_Maid''">insert </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_Maid''">Change posture </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS4"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_Maid''">accelerate </a></div>'
+            end
+            if a=4:
+            '<div class="buttonS5"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_Maid''">Ejaculation </a></div>'
+            end
+            if a=5:
+            '<div class="button"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_Maid''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=45 & gt ''Big_villa''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Master...I`m preparing lunch...do you want to try it?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 5>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>I: Is my meat stick delicious?</p>'
+             '<p><<$PW.name>>: Uh... the owner`s meat stick is salty…</p>'
+             if a>=2:'<p><<$PW.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=6:
+         $PW.love+=q+my.charm/2
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Master, are you going out this afternoon?</p>'
+             '<p>I: Not sure.........（ Why did she ask this?）</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_Maid night":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\女仆3-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_Maid night''">Come on </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_Maid night''">Oral sex </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_Maid night''">Sit up </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_Maid night''">Back position </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_Maid night''">Accelerate the sprint </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_Maid night''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="button"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_Maid night''">dialogue </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=1440 & hour=9 & gt ''Big_villa'',''Master bedroom rest''">Drink tea and sleep</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Master...did you ask me to do a sleep aid service?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 6>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Rude…</p>'
+             if a>=2:'<p><<$PW.name>>: Is it comfortable...master…</p>'
+             if a>=4:'<p><<$PW.name>>: <<$Panting>></p>'
+         '</div>'
+    end
+
+    if a=7:
+         $PW.love+=q+my.charm/2
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Master... after drinking the black tea I made for you, you can sleep with peace of mind!</p>'
+             '<p>I: ………</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+
+if $args[0]="Circular explanation":
+		my.energy+=10
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\偶像剧0.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+        '<div class="button_menu">'
+            if money>=1000000:'<div class="buttonG"><a href="exec:Sister_Hua_Cycle=1 & money-=1000000 & gt''Judges_Event'',''Circular explanation2''">Pay for her! </a></div>'else:'<div class="buttonGr"><a href="exec:">Pay for her </a></div>'
+            '<div class="button"><a href="exec:gt ''TV_station''">Pretend not to hear </a></div>'
+        '</div>'
+
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Can you accommodate it?Although my idol drama hasn`t finished filming yet, I believe we can do it while broadcasting.…</p>'
+             '<p><<$BD.name>>: Are you still unclear about your situation?I heard that the defeat of the competition made you owe a huge sum of money?As an untrustworthy artist, I`m afraid it will be difficult for us to cooperate with you.</p>'
+             '<p><<$PW.name>>: I understand, but am I going to accept my fate?How do you think I climbed to this position step by step!</p>'
+             '<p><<$TZ.name>>: Well, then I`ll help you. As long as you pay a deposit, I will agree to broadcast.1,000,000Not too much, right?</p>'
+             '<p><<$PW.name>>: You are embarrassing me!I am penniless now!</p>'
+         '</div>'
+End
+
+
+if $args[0]="Circular explanation2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\偶像剧1.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:gt ''TV_station''">Sign a deed of sale </a></div>'
+        '</div>'
+
+         '<div class="dialog_menu">'
+             '<p>I: Let me pay for you... but I have conditions.</p>'
+             '<p><<$PW.name>>: What are the conditions?！</p>'
+             '<p>I: This million is not only a security deposit, but also a copyright fee.I own the right to produce, distribute and broadcast the show, and receive all the proceeds from the show.</p>'
+             '<p><<$PW.name>>: You are dreaming!This is impossible!</p>'
+             '<p>I: I`m not finished yet. When you pay off the arrears, I will return the copyright to you.</p>'
+             '<p><<$PW.name>>: Give it back to me?This... sounds okay!Sign up now!You can`t go back!</p>'
+         '</div>'
+End
+
+if $args[0]="PW_Fuck_Villa room":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\别墅1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Tease her </a></div>'
+            if Sister_Hua_Cycle=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Go out''">Go out with me </a></div>'else:'<div class="buttonGr"><a href="exec:">Go out </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Serve me </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Move by yourself </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Change posture </a></div>'
+            end
+            if a!5 and 4<=q and q<=9:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Slow sprint </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Accelerate the sprint </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Ejaculation </a></div>'
+            end
+            if a=7:
+            '<div class="button"><a href="exec:a=8 & gt ''Judges_Event'',''PW_Fuck_Villa room''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Big_villa'',''Master bedroom''">Go back to the room</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Master... can I help you?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 7>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Don`t be so anxious…</p>'
+             if a>=2:'<p><<$PW.name>>: Master...are you comfortable?…</p>'
+             if a>=3:'<p><<$PW.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=8:
+         $PW.love+=q+my.charm/2
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: So cool, master... if you have travel arrangements, you can tell me in advance.…</p>'
+             '<p>I: Why are you asking this?</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Go out":
+		a=0 & q=0
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\外出.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+        '<div class="button_menu">'
+             '<div class="buttonS1"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Idol drama1''">Shooting idol dramas </a></div>'
+             '<div class="buttonS2"><a href="exec:gt ''Judges_Event'',''Initial cycle''">Record reality show </a></div>'
+             if tuc_level3=1 :'<div class="buttonS3"><a href="exec:PWcos=1 &  $m=''PW'' & $ma=$PW.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">invitecosplayshooting </a></div>'
+             if $PW.love>10:'<div class="buttonR3"><a href="exec:gt ''Judges_Event'',''PW_Fuck_support1''">Go to a private club  </a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability </a></div>'
+        '</div>'
+
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Where are we...going?</p>'
+             '<p>I: I arranged a little private work for you. Just being a housekeeper and maid, when will it be paid back?</p>'
+             '<p><<$PW.name>>: ………</p>'
+         '</div>'
+End
+
+if $args[0]="Initial cycle":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\循环前1-0.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+        '<div class="button_menu">'
+             '<div class="button"><a href="exec:gt ''Judges_Event'',''PW_Fuck_cycle1''">Don`t spray challenge </a></div>'
+        '</div>'
+
+         '<div class="dialog_menu">'
+             '<p>I: This is a brand new challenge program developed by the TV station, "Don`t Spray Challenge".</p>'
+             '<p><<$PW.name>>: ………</p>'
+             '<p>I: As the name suggests... the rules are simple... stick to it until the end.100,000The grand prize is very good, right?</p>'
+             '<p><<$PW.name>>: Huh-okay... I`ll give it a try!Will code me, right!</p>'
+         '</div>'
+End
+
+if $args[0]="PW_Fuck_cycle1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\循环1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_cycle1''">Turn up the vibration </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_cycle1''">Accept punishment </a></div>'
+            end
+            if a!3 and 2<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_cycle1''">Fuck </a></div>'
+            end
+            if a!4 and 3<=q and q<=7:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_cycle1''">Change posture </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_cycle1''">1Hours later </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_cycle1''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_cycle1''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Continue to challenge</a></div>'
+                '<div class="buttonGn"><a href="exec:minutes+=60& gt ''TV_station''">That`s it</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: This...this...doesn`t it seem difficult?</p>'
+             '<p>I: Ahem, all motors are fully on!Adjust to the maximum gear!</p>'
+         '</div>'
+    end
+
+
+
+
+    if 6>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a=1:'<p><<$PW.name>>: Huh huh huh huh huh?！</p>'
+             if a>=2:'<p><<$PW.name>>: What... is this punishment?hello!<<$Protagonist`s_name>>！you…</p>'
+             if a>=3:'<p><<$PW.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=7:
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p>I: If it fails, do you want to continue trying?</p>'
+             '<p><<$PW.name>>: It`s all fucked anyway... what do you think…</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_cycle2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\循环2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Challenge begins </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Turn up the power </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Accept punishment </a></div>'
+            end
+            if a!4 and 3<=q and q<=7:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Fuck her hard </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Change posture </a></div>'
+            end
+            if a!6 and 5<=q and q<=9:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Full firepower </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Ejaculation </a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Plug it back in </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Continue to challenge</a></div>'
+                '<div class="buttonGn"><a href="exec:minutes+=60& gt ''TV_station''">That`s it</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Sports...sports...but my strength…</p>'
+             '<p>I: Is that so?Do you often exercise with a masturbation stick in your hand?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 7>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a=1:'<p><<$PW.name>>: Already... getting used to it... I can……</p>'
+             if a=2:'<p>I: Adjust the power... forward four!</p>'
+             if a=3:'<p><<$PW.name>>: Wait...wait a minute... it was too intense just now... I didn`t hold back ah ah ah ah…</p>'
+             if a>3:'<p><<$PW.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=8:
+         $PW.love+=q
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p>I: I failed again this time. The meat holes were so fucked that they couldn`t be closed. Let me help you stuff them back and fill them in.</p>'
+             '<p><<$PW.name>>: Uh... ah, it`s a bigger masturbation stick again.……</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_cycle3":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\循环3-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Challenge begins </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_cycle3''">More poses </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Electric shock incontinence </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Start punishing </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Female upper fap </a></div>'
+            end
+            if a!6 and 5<=q and q<=9:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Back position FAP </a></div>'
+            end
+            if a!7 and 8<=q and q<=12:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Vigorously pump </a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Ejaculation </a></div>'
+            end
+            if a=8:
+            '<div class="buttonS5"><a href="exec:a=9 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Put it in again </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Judges_Event'',''PW_Fuck_cycle1''">Continue to challenge</a></div>'
+                '<div class="buttonGn"><a href="exec:minutes+=60& gt ''TV_station''">That`s it</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: <<$Panting>></p>'
+         '</div>'
+    end
+
+
+
+
+    if 8>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a=1:'<p><<$PW.name>>: Come on... I can……</p>'
+             if a=2:'<p><<$PW.name>>: Add...oil...I can<<$Panting>></p>'
+             if a=3:'<p><<$PW.name>>: It`s not working... it`s going to be sprayed... it`s going to be sprayed.…</p>'
+             if a>3:'<p><<$PW.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+    if a=9:
+         $PW.love+=(q+my.charm)*3
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Wait a minute!？！It`s not working anymore!Don`t stuff it in again!</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_support1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\支援1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!15:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_support1''">Break open the meat hole </a></div>'
+            end
+            if a!2 and 1<=q and q<=2:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_support1''">Swarming </a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonR4"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_support1''">Warn her </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonR3"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_support1''">Interrupt and forbid </a></div>'
+            end
+            if a!5 and 4<=q and q<=8:
+            '<div class="buttonR2"><a href="exec:a=5 & gt ''Judges_Event'',''PW_Fuck_support1''">Speechless </a></div>'
+            end
+            if a!6 and 5<=q and q<=9:
+            '<div class="buttonR1"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_support1''">Can`t plug in </a></div>'
+            end
+            if a!7 and 6<=q and q<=10:
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_support1''">Take turns to play with </a></div>'
+            end
+            if a!8 and 7<=q and q<=12:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Judges_Event'',''PW_Fuck_support1''">Pick it up and fuck </a></div>'
+            end
+            if a!9 and 8<=q and q<=13:
+            '<div class="buttonS5"><a href="exec:a=9 & gt ''Judges_Event'',''PW_Fuck_support1''">Let them fuck </a></div>'
+            end
+            if a!10 and 9<=q and q<=14:
+            '<div class="buttonPu2"><a href="exec:a=10 & gt ''Judges_Event'',''PW_Fuck_support1''">Take turns ejaculating </a></div>'
+            end
+            if a!11 and 10<=q and q<=15:
+            '<div class="buttonPu3"><a href="exec:a=11 & gt ''Judges_Event'',''PW_Fuck_support1''">Take turns ejaculating </a></div>'
+            end
+            if a!12 and 11<=q and q<=16:
+            '<div class="buttonPu4"><a href="exec:a=12 & gt ''Judges_Event'',''PW_Fuck_support1''">Take turns ejaculating </a></div>'
+            end
+            if a=12:
+            '<div class="buttonS3"><a href="exec:a=13 & gt ''Judges_Event'',''PW_Fuck_support1''">Finally fuck her </a></div>'
+            end
+            if a=13:
+            '<div class="buttonS4"><a href="exec:a=14 & gt ''Judges_Event'',''PW_Fuck_support1''">Interrupt ejaculation </a></div>'
+            end
+            if a=14:
+            '<div class="buttonS5"><a href="exec:a=15 & gt ''Judges_Event'',''PW_Fuck_support1''">Post-mortem dialogue </a></div>'
+            end
+
+
+
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Big_villa''">Take her away</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>Director Yu: We met again... where do you think you can hide?</p>'
+             '<p><<$PW.name>>: <<$Protagonist`s_name>>！What do you mean by bringing me here……</p>'
+             '<p>Director Yu: As I said, if things are messed up, I will treat you as a horse for everyone to ride.</p>'
+         '</div>'
+    end
+
+
+
+
+    if 12>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a>=1:'<p><<$PW.name>>: Asshole... stop it for me... It`s the Imperial Group that`s getting in the way.…</p>'
+             if a>=2:'<p>investor: I remember the money was sent to your account, right?You should be responsible for my money!</p>'
+             if a>=2:'<p><<$PW.name>>: Don`t you want to know the “secret” of that villa?I sue…</p>'
+             if a>=3:'<p>I: Did I allow you to mouth that dick?Have you forgotten that I am your master?</p>'
+             if a>=4:'<p>I: Before you are allowed to speak, just be a meat toilet obediently!</p>'
+             if a>=4:'<p><<$PW.name>>: <<$Panting2>></p>' 
+             if a>=8:'<p><<$PW.name>>: <<$words>></p>'  
+         '</div>'
+    end
+
+    if 14>=a and a>=13:
+         '<div class="dialog_menu">'
+            '<p>·Everyone has finished venting and stopped cooking, only you and her are left</p>'
+            '<p><<$PW.name>>: <<$Panting2>></p>' 
+            '<p>I: Why are you staring at me like this?Do you want to be dragged away from the villa by them?</p>'
+            '<p><<$PW.name>>: That`s what I planned, you idiot!So you can call the police and search thoroughly…</p>' 
+             if a>=14:'<p>I: You`d better shut up!</p>'
+         '</div>'
+    end
+
+
+
+    if a=15:
+         $PW.love+=q*3+my.charm
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p>Director Yu: <<$Protagonist`s_surname>> brother!Let`s go first!That rotten product will trouble you to "clean up"!</p>'
+             '<p>I: Well, if you have worked hard, I won`t send it away!</p>'
+             '<p><<$PW.name>>: …………</p>'
+             '<p>I: I won`t let you say it`s for your own good.If you leak that “secret”, I don`t think the Empire Group will spare you!</p>'
+             '<p><<$PW.name>>: I`m not afraid of them!Wait... are you worried about me?*Dodge eyes</p>'
+             '<p>I: Worried about you?Uh, sort of... (You are not afraid of them, I am afraid)</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="PW_Fuck_Idol drama1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\PW\vids\偶像剧1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!4:
+        '<div class="button_menu">'
+            if a=0:'<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_Idol drama1''">Change costumes </a></div>'
+            if a=1:'<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_Idol drama1''">Masturbate to me </a></div>'
+            if a=2:'<div class="buttonS1"><a href="exec:a=3 & gt ''Judges_Event'',''PW_Fuck_Idol drama1''">Masturbate to me </a></div>'
+            if a=3:'<div class="buttonS1"><a href="exec:a=4 & gt ''Judges_Event'',''PW_Fuck_Idol drama1''">Shoot her all over </a></div>'
+
+
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''TV_station''">Slip away</a></div>'
+            '</div>'
+    end
+
+
+
+
+    if 3>=a and a>=0:
+         '<div class="dialog_menu">'
+            '<p><<$PW.name>>: Although the TV series didn`t explode... but if you can rely on it to pay off your debt,……</p>'
+             if a>=1:'<p><<$PW.name>>: <<$Protagonist`s_name>>...what are you doing here?</p>'
+             if a>=1:'<p>I: Do I remember that I can`t check my property until you pay off the deposit I advanced?</p>'
+             if a>=2:'<p><<$PW.name>>: Really...hurry up……</p>'
+             if a>=3:'<p><<$PW.name>>: <<$Panting>></p>' 
+         '</div>'
+    end
+
+    if a=4:
+         $PW.love+=q
+         $PW.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$PW.name>>: Why did you shoot so much?Could it be that the previous rumors are true?</p>'
+             '<p>I: What rumors?</p>'
+             '<p><<$PW.name>>: Nothing…</p>'
+             '<p>I: say!If you don`t say anything, the filming of the TV series will be terminated immediately!</p>'
+             '<p><<$PW.name>>: All right, all right!I said!There are rumors that the drugs jointly developed by Imperial Group and Mugou Pharmaceutical once had this side effect... I don`t know any more.…</p>'
+             '<p>I: ………...(Could it be McGovern?！）</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+--- Judges_Event ---------------------------------
+

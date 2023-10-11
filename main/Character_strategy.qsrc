@@ -1,0 +1,248 @@
+# Character_strategy
+cls
+gs'menu_time_calc'
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs'menu_act_hidden'
+'</div>'
+
+!if $Strategyunlock<44 and $args[0]!'<<$YS.name>>':gt'Strategy_sponsorship'
+
+if $args[3]>$Strategyunlock:gt'Strategy_sponsorship'
+
+if $args[0]='<<$YS.name>>':
+ '<div class="charac_nps_info999">'
+	 '<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
+	 '<div id="left-column999">'
+			'<p><span class="bold"><font color="#FF8888">✎name:<<$args[0]>></font></p>'
+			'<span class="bold"><font color="#FF3939">♕ Favorability:<<$args[1]>></font>'
+			'<span class="bold"><font color="#FF00D2">Degree of depravity:<<$args[2]>></font></p>'
+			
+			'<font color="#FFE4B5">Pre-: You need to complete the convenience store indicator and start from<<$CT.name>>The office took over the task of acquiring the restaurant</p>'
+
+			if $rescuedYS=0:
+				if $YS.key=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'1You can meet her for the second time when communicating with the chef in the restaurant. After the conversation is completed, the town house area unlocks her residence.</p>'
+				if $Haveseenthefloorplan>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'2Going around to the back of the villa, we can finally see the complete drawing through peeping</p>'
+				if $Haveseenthefloorplan>=3:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'3After reading the drawings, you will meet a gangster wandering around the town house area, and then you will find the two arguing fiercely when you go to her house.</p>'
+				if $TrytorescueYS>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'4He told the chef about this, and he was discouraged.Go to the police station with<<$JZ.name>>Call the police, she said it didn`t matter.I can only go to Kabukicho alone-Ryukuchi Group-to try to rescue her</p>'
+				if $goldAK=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'5After understanding Ma Dongyu`s needs, she returned to her villa and bribed Ma Zi to enter the study. When the lights were turned off, clues would appear. Follow the prompts to open the secret compartment and take it away.AK</p>'
+				if $Haveseenthefloorplan>=4:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'6Go back to the Longkou group and useAKIn exchange for her, she will also surrender her heart to you and let go of her guard.</p>'
+			else:
+			'<font color="#BBFFBB">·Then she will appear in the living room during the day and in the bedroom at night</p>'
+			'·Interact with it in the bedroom, you can propose massage andCOSinvite</p>'
+			'·To talk to it in the living room, you can choose three revenge targets</p>'
+			'①The chef: Go to the restaurant to talk to him, return to her villa to trigger the plot, and then you can take care of his shares.(Remarks: She has20%;From the chef`s ex-wife40%You can go to the talent apartment to get custody)</p>'
+			'②The chief: Go to the police station to collude with her, and return to her villa to trigger the plot. After all the anger is gone, you can3P</p>'
+			'马Ma Dongmao: Currently unable to retaliate</p>'
+			'·The above is all the plot content</p>'
+			end
+	 '</div>'
+ '</div>'
+end
+
+if $args[0]='<<$QJ.name>>':
+ '<div class="charac_nps_info999">'
+	 '<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
+	 '<div id="left-column999">'
+			'<p><span class="bold"><font color="#FF8888">✎name:<<$args[0]>></font></p>'
+			'<span class="bold"><font color="#FF3939">♕ Favorability:<<$args[1]>></font>'
+			'<span class="bold"><font color="#FF00D2">Degree of depravity:<<$args[2]>></font></p>'
+			
+			'<font color="#FFE4B5">Front: Complete the red restaurant60%Share acquisition</p>'
+
+			if Restaurantmanagement>=2:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'1I met her for the first time in the red restaurant and participated in her civic proposal.</p>'
+			if $CT.home=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'2When she returned to the restaurant, she found that the restaurant business was properly managed by her.After returning to life, you can enter the mansion on the West coast.</p>'
+			if $YY.agree=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'3Entering the mansion on the West coast, the places where she can interact with her are the swimming pool, gym, and second bedroom. Our primary goal is to solve the swimming coach (after solving the swimming coach, you can salvage dead leaves and make cocktails at the underground bar.Note: There is not the only way to obtain plant raw materials here)</p>'
+			if $Airportprogress>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'5Back to the Empire Group100To assist and cooperate with her in the rectification of imperial flights</p>'
+			if $Airportprogress>=3:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'6After the investigation is completed, the air service will be submitted to the five-member meeting and approved.</p>'
+			if Internalschedule>=5:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'7After the proposal is passed, she will go back to the airport to deploy the reforms. After all the reforms are completed, she can be sent home at night. At this time, she can use cocktails to increase her attributes.</p>'
+			if Internalschedule>=5:
+			'<font color="#BBFFBB">·Now you can freely plan strategies, mainly by using cocktails to increase her favorability when sending her home in the early stage.</p>'
+			'①training guidance in the swimming pool and gym</p>'
+			'②You can be invited to the massage shop after the second bedroom massage</p>'
+			'③Blind date incident and follow-up face-to-faceNTR</p>'
+			'④Maid outfit needs to pass<<$CT.name>>unlock</p>'
+			'⑤After completion③, there will be the final event between her and the director in the second bedroom</p>'
+			end
+			
+			
+	 '</div>'
+ '</div>'
+end
+
+if $args[0]='<<$YY.name>>':
+ '<div class="charac_nps_info999">'
+	 '<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
+	 '<div id="left-column999">'
+			'<p><span class="bold"><font color="#FF8888">✎name:<<$args[0]>></font></p>'
+			'<span class="bold"><font color="#FF3939">♕ Favorability:<<$args[1]>></font>'
+			'<span class="bold"><font color="#FF00D2">Degree of depravity:<<$args[2]>></font></p>'
+			
+			'<font color="#FFE4B5">Front: Enter the Imperial mansion on the West Coast to unlock</p>'
+
+			if $ImperialSwimmingCoach>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'1Exercise power in the dressing room of the Imperial mansion and coerce to go to the park toilet.</p>'
+			if $YY.massage=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'2At night21Dot threatened again in the park toilet and took it back to the company for a massage.</p>'
+			if $YY.Homecanbeentered=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'3I took it back to the company and chose to go to her house after the massage. After learning that her husband is a waste wood, I unlocked her house.A202</p>'
+			if $YY.agree>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+			'4After a drink at her house, we agreed to go out for the next time.</p>'
+
+			if $YY.agree>=1:
+			'<font color="#BBFFBB">·This is followed by an optional event</p>'
+			'①Review the level by yourself5You can take her for review at or above the level</p>'
+			'② You can blindfold and lie to her husband to play</p>'
+			'③After the strategy, the Fitnesscoach in the Imperial mansion can make an appointment with them3P</p>'
+			'④You can invite her to come after you are doneCOS</p>'
+			'⑤After completing ②②, you can finish shootingCOSAfter going to her house to unlock the plot of the final husband`s former crime</p>'
+			end
+
+	 '</div>'
+ '</div>'
+end
+
+if $args[0]='<<$CT.name>>':
+ '<div class="charac_nps_info999">'
+	 '<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
+	 '<div id="left-column999">'
+			'<p><span class="bold"><font color="#FF8888">✎name:<<$args[0]>></font></p>'
+			'<span class="bold"><font color="#FF3939">♕ Favorability:<<$args[1]>></font>'
+			'<span class="bold"><font color="#FF00D2">Degree of depravity:<<$args[2]>></font></p>'
+			
+			'<font color="#FFE4B5">Front: Go to the airport to pick up after the welcome party in the big villa</p>'
+			if Blood_Relatives_Medal=0:
+				if $CTtest2>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'1Accept the task of operating a convenience store in the Empire Dome and complete the plan to make a profit</p>'
+				if $CT.home>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'2After returning to life, he took over the task of seizing the shares of the Red Restaurant, successfully acquired more than half of the shares and successfully operated.</p>'
+				if $EmpireFitnesscoach>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'3Entering the mansion on the West Coast, the place where she can interact with her is the underground gym and the master bedroom. Our primary goal is to solve the Fitnesscoach (after solving the Fitnesscoach, you can take the ladder and get the heterochromatic plant leaves in the living room and make cocktails at the underground bar)</p>'
+				if Heterochromatic_plant_Report>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'4When you have heterochromatic plant leaves, give<<$JJ.name>>Conduct multiple tests and obtain reports.</p>'
+
+				if Heterochromaticplantseeds>=1:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'5Check the report and return to the Imperial Mansion at this time<<$CT.name>>Will please you in the mountainsR&MSeedlings of Heterochromatic_plants cultivated on the plot</p>'
+				
+				if Handinseedlings>=15:'<font color="#D8BFD8">√'else:'<font color="#BBFFBB">'
+				'After obtaining the seedlings of Heterochromatic_plants, go to the Imperial Dome or the imperial mansion and deliver them to her.</p>'
+			end
+			
+			if Handinseedlings>=1:
+			'<font color="#BBFFBB">'
+			'·Now you can move freely, mainly through the master bedroom at the beginning18Use cocktails to increase favorability when ordering</p>'
+			'①The delivery of Heterochromatic_plant_seedlings can recommend others to serve as maids in the imperial mansion</p>'
+			'② After she personally serves as the maid, she can recommend itCOSshop</p>'
+			'③Massage can be performed if the attribute requirements are met at the Imperial Dome and it is recommended to enter the massage shop</p>'
+			'④After both mother and daughter have completed the maid incident, in18After ordering the side dishes, you can turn on the mother and daughter after eating together3P</p>'
+			'⑤After completing④, you can get a blood relative medal and move to a higher level.</p>'
+			end
+			if Blood_Relatives_Medal>=1:
+			'<font color="#BBFFBB">·Superstructure：</p>'
+			'·There are some inside stories in the office</p>'
+			'·The laboratory can force researchers to mass produce for you every time5McGovern</p>'
+			'·Drink it all at once in the project room5McGovern is done<<$CT.name>>All the plot, and can open a new room in your own company.</p>'
+			end
+	 '</div>'
+ '</div>'
+end
+
+if $args[0]='<<$XN.name>>':
+ '<div class="charac_nps_info999">'
+	 '<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
+	 '<div id="left-column999">'
+			'<p><span class="bold"><font color="#FF8888">✎name:<<$args[0]>></font></p>'
+			'<span class="bold"><font color="#FF3939">♕ Favorability:<<$args[1]>></font>'
+			'<span class="bold"><font color="#FF00D2">Degree of depravity:<<$args[2]>></font></p>'
+			'<font color="#FFE4B5">Front: Go to the church to unlock</font></p>'
+				if $XN.mark=1:'<font color="#BBFFBB">1After peeping at the process of the bishop`s rape of her; optional dialogue with the bishop during the day→2Dedication or→3Blasphemy</p>'
+				if $XN.mark=2:'<font color="#BBFFBB">2Dedication: Invite one by one<<$JM.name>>(Pharmaceutical company)；<<$JJ.name>>(Pharmaceutical company)；<<$MM.name>>(Home) Come to church to acceptNTR</p>'
+				if $XN.mark=3:'<font color="#BBFFBB">2Dedication: After witnessing the forced trial of the nun, he talked to the sitting man outside the church and took a polaroid.</font></p>'
+				if $XN.mark=10:'<font color="#BBFFBB">3Blasphemy: After spitting phlegm on his face, he talked to the sitting man outside the church and took a polaroid.</font></p>'
+				if $XN.mark=11:
+					'<font color="#BBFFBB">4Blasphemy: Go back to the church at night to take pictures of the bishop`s rape<<$XN.name>></font></p>'
+					if Evidenceone=1:'<font color="#BBFFBB">5Blasphemy: Talking to a sitting man outside the church to expose evil deeds</font></p>'
+				end
+				
+				if Polaroid>0 and ($XN.mark=12 or $XN.mark=4) and $XN.trial<2:
+					if $XN.mark=12:'<font color="#BBFFBB">Expose failure: Talk to the sitting man again outside the church.</font></p>'
+					'<font color="#BBFFBB">Collecting evidence: Go back to the church at night and ask the people in the correctional hall<<$XN.name>>It can be seen：</font></p>'
+					if $XN.asked=1:
+						if Evidenceone=0:'<font color="#BBFFBB">Evidence 1: Candid photo of the bishop`s rape<<$XN.name>></font></p>'else:'<font color="#D8BFD8"><s>Evidence 1: Candid photo of the bishop`s rape<<$XN.name>></s></font></p>'
+						if Evidencetwo=0:'<font color="#BBFFBB">Evidence two: Follow the bishop on Saturday night18:00Go to the restaurant</font></p>'else:'<font color="#D8BFD8"><s>Evidencetwo: Follow the bishop on Saturday night18:00Go to the restaurant</s></font></p>'
+						if Evidencethree=0:'<font color="#BBFFBB">Evidence three: Take pictures of the custom of the bishop patronizing the club on Friday.<<$SY.name>></font></p>'else:'<font color="#D8BFD8"><s>Evidencethree: Take pictures of the custom of the bishop patronizing the club on Friday.</s></font></p>'
+						if Evidencefour=0:'<font color="#BBFFBB">Evidence four: Follow the Bishop on Sunday afternoon13:00Go to the hot spring</font></p>'else:'<font color="#D8BFD8"><s>Evidencefour: Follow the Bishop on Sunday afternoon13:00Go to the hot spring</s></font></p>'
+						if Evidencefive=0:'<font color="#BBFFBB">Evidence 5: Candid photos of the bishop accepting the consecration of female believers during the day</font></p>'else:'<font color="#D8BFD8"><s>Evidence 5: Candid photos of the bishop accepting the consecration of female believers during the day</s></font></p>'
+						if Evidenceone*Evidencetwo*Evidencethree*Evidencefour*Evidencefive=1:'<font color="#BBFFBB">Completeevidence: dialogue with men outside the church</font></p>'
+					end
+				end
+				
+				if $XN.trial=2:
+					if $Mybishop=0:'<font color="#BBFFBB">The original leader was expelled and went back to the church to see the situation.</font></p>'
+					if $Mybishop=1:
+						'<font color="#BBFFBB">The original leader was expelled，<<$XN.name>>Yes, I was recommended to be the new bishop</p>'
+						'·After that, it is the free strategy stage</p>'
+						'·When taking her out, you can choose to take her to a hot spring or nightclub; after the value is up to standard, you can invite a massage andCOS</p>'
+						'·When taking her out, all purple and red options will increase her guilt.</p>'
+						'·When she feels guilty, she can choose to repent of her sins in the church, and each repentance will increase her depravity.</p>'
+						'·After repenting of sins to the final stage, you can become a private bitch and a church bitch.</p>'
+						'·After becoming a church bitch, you can participate in the auxiliary work of the confessional.</p>'
+						'·After completing the confession work of the four of them, you can unlock the final fallen nun ending.</p>'
+					 end
+				end
+				
+	 '</div>'
+ '</div>'
+end
+
+if $args[0]='<<$LEI.name>>':
+ '<div class="charac_nps_info999">'
+	 '<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
+	 '<div id="left-column999">'
+			'<p><span class="bold"><font color="#FF8888">✎name:<<$args[0]>></font></p>'
+			'<span class="bold"><font color="#FF3939">♕ Favorability:<<$args[1]>></font>'
+			'<span class="bold"><font color="#FF00D2">Degree of depravity:<<$args[2]>></font></p>'
+			'<font color="#FFE4B5">Preface: The trial is over<<$XN.name>></font></p>'
+				if $XN.trial<2:'<font color="#BBFFBB">Need to take down the dominance of the bishop first</font></p>'
+				if $XN.trial=2:
+				if $LEIVideo_event_chain=0:'<font color="#BBFFBB">Talk to your fiance outside the church first</p>'
+				if $LEIVideo_event_chain=0:'<font color="#BBFFBB">Then with<<$LEI.name>>Dialogue, accept the ring</p>'
+				end
+				if $LEIVideo_event_chain=1:'<font color="#BBFFBB">Return the engagement ring to the man outside the church and bet on him</p>'
+				if $LEIVideo_event_chain=2:'<font color="#BBFFBB">Go home and watch the gambling video ①</p>'
+				if $LEIVideo_event_chain=3:'<font color="#BBFFBB">After watching the video ①, go and<<$LEI.name>>dialogue</p>'
+				if $LEIVideo_event_chain=4:'<font color="#BBFFBB">He was photographed by a man, and he hopes to take another gamble.</p>'
+				if $LEIVideo_event_chain=5:'<font color="#BBFFBB">Go home and watch the gambling video ②</p>'
+				if $LEIVideo_event_chain=6:'<font color="#BBFFBB">give<<$LEI.name>>Massage to relax and introduce<<$JJ.name>></p>'
+				if $LEIVideo_event_chain=7:'<font color="#BBFFBB">He was photographed by a man again, and he hopes to take another gamble.</p>'
+				if $LEIVideo_event_chain=8:'<font color="#BBFFBB">First go home and watch the gambling video, and then go back to the church.</p>'
+				if $LEIVideo_event_chain=9:
+					'<font color="#BBFFBB">After her fiance was expelled, it was the stage of freedom raiders：</p>'
+					'1Celebrate this with her</p>'
+					'2After falling to the standard, he became a teaching assistant in the confessional.</p>'
+					'3Done in the confessional5people+Confession work</p>'
+					if $LEI.finally=1:'<font color="#FF1493">Finally, you can see the changes when she guides believers</p>'
+				end
+	 '</div>'
+ '</div>'
+end
+
+'<div class="options_back"><a href="exec:gt''menu_charac_nps''"><div class="settings_back_menu"></div></a></div>'
+
+--- Character_strategy ---------------------------------
+

@@ -1,0 +1,714 @@
+# Police_station
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+minutes+=10
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			'<a class="photo" data-title="City Hall" href="exec:minutes+=15 & gt ''City_hall''"><img class="img_stretch" src="images\place\市政厅.jpg"></a>'
+			'<a class="photo" data-title="Temporary detention center" href="exec:minutes+=15 & gt ''Police_station'',''Detention center''"><img class="img_stretch" src="images\place\看守所 (4).jpg"></a>'
+		'</div>'
+	'</div>'
+'</div>'
+
+if $ARGS[0]="":
+	if 100>$JZ_Event_gun and $JZ_Event_gun>=50:
+	'<div class ="show_menu"><img src="images\place\警察局2.jpg" width="854"></div>'
+	else:
+	'<div class ="show_menu"><img src="images\place\警察局.jpg" width="854"></div>'
+	end
+
+	'<div class="button_menu">'
+		'<div class="buttonPu5"><a href="exec:gt ''Police_station'',''Director`s Office''">Director General`s Office.</a></div>'
+		if $Inspector_event_chain>=2:'<div class="buttonPu4"><a href="exec:gt ''Police_station'',''Inspector Liyi''">督察Inspector`s Office☎</a></div>'
+		if $JY.available=1 and ($JZ_Event_gun<50 or $JZ_Event_gun>=100):'<div class="buttonPu3"><a href="exec:$jy_num=0 & $Policestationdialogue=0 & gt ''Police_station'',''Police officer standing painting''"><<$JY.name>></a></div>'
+		if $DDCollar=1:'<div class="buttonPu2"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDBehind the collar''"><<$DD.name>></a></div>'
+		if $Task_womenpolicejacket=1:'<div class="buttonPu1"><a href="exec:gt ''Police_station'',''Locker room''">Police locker room</a></div>'
+		if $Completeevidence=1 and $XN.trial=1:'<div class="buttonR4"><a href="exec:gt ''Nun_event'',''XN_Fuck_fishing''">Sue the bishop for crimes</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·After the reform of the regime, it was funded and sponsored by the Imperial Group, and it was nominally subordinate to the city council and the city, but considering the close relationship between the parliament and the Imperial Group, it is impossible to say that the police department has no contact with them at all.</p>'
+		'<p>·Although most citizens are worried about the future of the police department, a few police officers still stick to the duties of the badge they wear. Even in the chaos of the world, they still do their best to protect the safety of the citizens. .</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Director`s Office":
+	$JZ.available=1
+	if $weather='☂ Rainy' and $times_of_day='night' : gt'Director2_Event','Rainy day'
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\JZ\vids\警局局长开场~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:Directordialogue=0 & gt ''Police_station'',''Director Liyi''">dialogue</a></div>'
+		'<div class="buttonG1"><a href="exec:gt ''Police_station'',''Part-time vigilante''">Part-time vigilante</a></div>'
+		'<div class="buttonG2"><a href="exec:gt ''Police_station'',''Pro bono assistance''">Pro bono assistance</a></div>'
+		
+		if  $SS_arrest=1:'<div class="buttonR"><a href="exec:gt ''Killer_Event'',''SS_Event_interrogation''">interrogation<<$SS.name>></a></div>'
+		if $JZ.bad>=200:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_temptation''">Take out the cock</a></div>'else:'<div class="buttonGr"><a href="exec:">Take out the cock</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$JZ.name>>:You know I`m very busy.If you are not here to cooperate with the police to help solve the case free of charge, please leave immediately!</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Director Liyi":
+	$DirectorLiyi=rand(0,2)
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\JZ\vids\立绘<<$DirectorLiyi>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	'<div class="button_menu">'
+		if $Haveseenthefloorplan=3:'<div class="buttonPu3"><a href="exec:gt ''Widow_Incident'',''Alarm''">Illegal imprisonment of the underworld</a></div>'
+		if $Hellosheriff=1:
+			if $JZ.love>$my.charm*25:'<div class="buttonGn4"><a href="exec:gt ''Widow_Incident'',''Hellosheriff''">Collude in advance</a></div>'else:'<div class="buttonGr"><a href="exec:">Good need><<$my.charm*25>></a></div>'
+		end
+		if $Inspector_event_chain=1:'<div class="button"><a href="exec:Directordialogue=1 & gt ''Police_station'',''Director Liyi''">Critical medicine</a></div>'
+		if $Directorxuncle<=1:'<div class="buttonPu2"><a href="exec:gt ''Director2_Event'',''harassment''">Temporarily avoid</a></div>'
+		if $Directorxuncle>=3:
+		 '<div class="buttonR4"><a href="exec:gt ''Director2_Event'',''Aunt visits''">兴Xingshi asks the crime☠</a></div>'
+		 if $JZVideo!1 :
+			if $Vigilantepoints>=500:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''Diaoyu Method''">▲Diaoyu Method▲</a></div>'else:'<div class="buttonGr"><a href="exec:">At least500Vigilante points</a></div>'
+		 end
+		 if $JZ3P=1:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_Cooperate with the investigation''">▲Cooperate with the investigation▲</a></div>'
+		end
+		if $Thedirectorreceivedthemedicine=1:
+			if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Director2_Event'',''JZ_Fuck_MGF''">Take out McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+		end
+		if $JZ.love>=100:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_temptation2''">Touch her leg</a></div>'else:'<div class="buttonGr"><a href="exec:">Touch her leg</a></div>'
+		if $JZ.bad>=155:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_D1''">Reach into your underwear</a></div>'else:'<div class="buttonGr"><a href="exec:">Reach into your underwear</a></div>'
+		if $JZ.bad>=200 and JZcos!1:'<div class="buttonS"><a href="exec:JZcos=1 & $m=''JZ'' & $ma=$JZ.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">inviteCOS</a></div>'
+		if $Boss_event_chain=6 and $Thebosssuspendedtheinvestigation=0 :
+			if $JZ.love>=250:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_Suspension of investigation''">Suspension of investigation</a></div>'else:'<div class="buttonGr"><a href="exec:">Suspension of investigation-insufficient favorability</a></div>'
+		end
+		'<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		if Directordialogue=0:'<p><<$JZ.name>>: Ahem... what can I do for you?</p>'
+		if Directordialogue=1:
+			'<p><<$JZ.name>>: Sit down, I`ve been waiting for you for a long time.</p>'
+			'<p>I: Do you really know that I am back?</p>'
+			'<p><<$JZ.name>>: We have investigated you a long time ago, so I hope you can intervene in this case.</p>'
+			'<p>I: How to say?</p>'
+			'<p><<$JZ.name>>:A new medicine has emerged in Kabukicho, which can not only aphrodisiac, but the key problem is that it can also destroy the human mind and become a sex slave.</p>'
+			'<p>I: So serious?</p>'
+			'<p><<$JZ.name>>: You have the background resources of a pharmaceutical company. The inspector`s office is fully working on this case. We ask you to assist in handling the case. This is an order!</p>'
+			$Inspector_event_chain=2
+		end
+	'</div>'
+end
+
+
+
+if $ARGS[0]="Pro bono assistance":
+	$Policestationdialogue=0
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\JZ\vids\警局局长开场~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $JZ_Event_rape<=100:'<div class="button"><a href="exec:gt ''Police_station'',''Disappearance''">Case: Missing case<< $JZ_Event_rape>>﹪</a></div>'else:'<div class="buttonGn"><a href="exec:">Closed case: Missing case</a></div>'
+		if  $JZ_Event_gun<=100:'<div class="button"><a href="exec:gt ''Police_station'',''Murder license''">Case: Murder license<< $JZ_Event_gun>>﹪</a></div>'else:'<div class="buttonGn"><a href="exec:">Closed case: Murder license</a></div>'
+	    if $YDM_Event_free<11:'<div class="buttonGn"><a href="exec:">Insufficient conditions</a></div>'
+		if $YDM_Event_free>=11:
+		 if $Punishmentreward=0:'<div class="button"><a href="exec:gt ''Police_station'',''Internal punishment''">Case: Internal punishment</a></div>'else:'<div class="buttonGn"><a href="exec:gt ''Police_station'',''Internal punishment''">Closed case: internal punishment</a></div>'
+		end
+		'<div class="buttonG"><a href="exec:gt ''reward''">Old cases</a></div>'
+		'<div class="buttonGr"><a href="exec:gt ''Police_station''">No more cases</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$JZ.name>>:You know I`m very busy.If you are not here to cooperate with the police to help solve the case free of charge, please leave immediately!</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Disappearance":
+	'<div class ="show_menu"><img src="images\NPC\OX\vids\寻人.jpg" height="492"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:$Policestationdialogue=1 & $OX.available=1 & gt ''Police_station'',''Disappearance''">Guarantee the completion of the task</a></div>'
+		if $JZ_Event_rape>=10:'<div class="button"><a href="exec:$Policestationdialogue=2 & gt ''Police_station'',''Disappearance''">License plate number：IPZ-905</a></div>'else:'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
+		if $JZ_Event_rape>=100:'<div class="button"><a href="exec:$Policestationdialogue=3 & gt ''Police_station'',''Disappearance''">People have been rescued</a></div>'else:'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
+		if $Policestationdialogue=3:'<div class="buttonG"><a href="exec:$JZ_Event_rape+=50 & $JZ.love+=25 & gt ''Police_station'',''Director`s Office''">Confirm the closure of the case</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		if  $Policestationdialogue=0:
+		   '<p><<$JZ.name>>:This is currently publicly available information：</p>'
+			'<p>① Someone called the police and said that a woman was72He lost contact within an hour, and according to relatives and friends, he was going to meet with scouts in Kabukicho.</p>'
+			'<p>②The Japanese women`s photo idol SunsupoPSA member of the first phase of リート, he used to work in a maid-themed cafe in Akihabara, Japan.Age, height and weight are confidential.</p>'
+			'<p>③Due to the special jurisdiction of the backstreet, it is inconvenient for our police to go there.I hope you can go to investigate in your temporary capacity as an auxiliary police officer.Of course, this is completely your personal behavior, and the official police station will not recognize you.</p>'
+		 end
+		if  $Policestationdialogue=1:'<p>I:Ensure the completion of the task.</p><p><<$JZ.name>>:Very good, the greater the difficulty, the greater the glory.</p>'
+		if  $Policestationdialogue=2:
+			if $JZ_Event_rape=10:  $JZ_Event_rape=15
+			'<p>I:Chief!I have a major breakthrough!The suspect`s license plate number isIPZ-905！</p><p><<$JZ.name>>:Unfortunately, there is no information about this car in the traffic control system.It should be modified by a missing vehicleNGlove brand cars can`t be found at all.</p>'
+		 end
+		if  $Policestationdialogue=3:
+			'<p><<$JZ.name>>:People can actually be rescued from the fire by you, and you are also very good.It`s a pity that the number of male police officers under the [new policy] needs to be strictly controlled, otherwise it won`t be ruled out to give you a plainclothes Dangdang.</p>'
+			'<p><<$JZ.name>>:A total of four male corpses were found at the scene, which could not be identified because of the fire.</p>'
+			'<p>I:Four?How do I remember that there seem to be only three people?</p>'
+			'<p><<$JZ.name>>:Yes, a pistol was also found at the scene. The magic thing is that this pistol has your fingerprints on it.</p>'
+			'<p>I:me?My fingerprints?How is this possible?</p>'
+			'<p><<$JZ.name>>:It may have been accidentally encountered in the fire. We reacted to the smoke when you were unconscious.Your suspicion has been ruled out.</p>'
+			'<p><<$JZ.name>>:Stop thinking about it!As long as you confirm that it is correct, the case will be closed with “the gun went off and caused the explosion of the abandoned oil tank”.</p>'
+		end
+	'</div>'
+end
+
+if $ARGS[0]="Murder license":
+	'<div class ="show_menu"><img src="images\NPC\SS\pics\猎杀.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:$Policestationdialogue=1 & $JY.available=1 & gt ''Police_station'',''Murder license''">Guarantee the completion of the task</a></div>'
+		if $JZ_Event_gun=50:'<div class="button"><a href="exec:$Policestationdialogue=2 & gt ''Police_station'',''Murder license''">Undercover</a></div>'
+		if $JZ_Event_gun=90:'<div class="buttonR3"><a href="exec:$Policestationdialogue=3 & gt ''Police_station'',''Murder license''">Need reinforcements</a></div>'
+		if $Policestationdialogue=3:'<div class="buttonR5"><a href="exec:gt ''Police_incident'',''JY_Event_rescue''">One step ahead</a></div>'
+		if $JZ_Event_gun=100:'<div class="button"><a href="exec:$Policestationdialogue=4 & gt ''Police_station'',''Murder license''">Summary of closing cases</a></div>'
+		if $Policestationdialogue=4:'<div class="buttonR5"><a href="exec:$JZ_Event_gun+=50 & $JZ.love+=25 & gt ''Police_station'',''Director`s Office''">Confirm the closure of the case</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		if  $Policestationdialogue=0:
+		   '<p><<$JZ.name>>:This is currently publicly available information：</p>'
+			'<p>①According to reliable sources, a major incident is about to take place in Kabukicho in the lower city, which may be related to a killer from abroad.</p>'
+			'<p>②The police have requisitioned a high-rise building as a stalking point.However, due to the special jurisdiction of Kabukicho, it is inconvenient for us to act in a high-profile manner.</p>'
+			'<p><<$JZ.name>>:Just be in charge of the stalking group with the girl at the door, remember to report to her!Of course, this is completely your personal behavior, and the official police station will not recognize you.</p>'
+		 end
+		if  $Policestationdialogue=1:'<p>I:Ensure the completion of the task.</p><p><<$JZ.name>>:Very good, the greater the difficulty, the greater the glory.</p>'
+		
+		if  $Policestationdialogue=2:
+		   '<p>I:Already dispatched<<$JY.name>>, Undercover!</p>'
+			'<p><<$JZ.name>>:Is it related to the discovery of a large number of burned prohibited drugs and guns in the warehouse of the bombing?</p>'
+		   '<p>I:It`s still under investigation, and I will report any progress immediately!</p>'
+		   if $JZ_Event_gun=50: $JZ_Event_gun=60
+		 end
+		if  $Policestationdialogue=3:
+		   '<p>I:Chief!<<$JY.name>>There is danger!She got the key evidence but her identity was exposed!</p>'
+			'<p><<$JZ.name>>:Excuse me?But the location is in Kabukicho...We have no jurisdiction..</p>'
+		   '<p>I:Do you still care about territorial jurisdiction or personal jurisdiction at this time?It`s important to save people!I went first!If you can see death or not, you can`t save me!</p>'
+		 end
+		 
+		if  $Policestationdialogue=4:
+			'<p><<$JZ.name>>:Yes, this time it is another great achievement!Facing the internationalSIt`s amazing that a level killer can still take a gun empty-handed!</p>'
+		   '<p>I:What is she here for?</p>'
+			'<p><<$JZ.name>>:She has a lot of experience. As soon as she was arrested, she received an application for extradition from another country and wanted to bail her out.The people on the scene were miserable, a total of17People, except for those stupid trainees, all died!</p>'
+		   '<p>I:that....Do the police think she is connected to the previous bombing?</p>'
+			'<p><<$JZ.name>>:All right!Don`t think too much!As long as you confirm that it is correct, the case will be closed with “infighting among the underworld gangs”.After all...I don`t want to make too much noise above.</p>'
+		   '<p>I:that....Can I interrogate her?</p>'
+			'<p><<$JZ.name>>:emmmm, We just need someone to do this dirty work.Of course, I will turn a blind eye.</p>'
+		 end
+	'</div>'
+end
+
+
+
+if $ARGS[0]="Police officer standing painting":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\JY\vids\开幕<<$jy_num>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	'<div class="button_menu">'
+		if $jy_num=0:
+			if $JY.Onbase=1:'<div class="buttonS"><a href="exec:gt ''Police_incident'',''JY_Fuck_office''">Make a shot here</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		end
+		if $jy_num!0:
+			if $JY.bad>=30:'<div class="buttonS"><a href="exec:gt ''Police_incident'',''JY_Fuck_In the car''">Have a shot in the car</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		end
+	
+		'<div class="button"><a href="exec:$Policestationdialogue=1 & gt ''Police_station'',''Police officer standing painting''">Discussion: Disappearance case</a></div>'
+		'<div class="button"><a href="exec:$Policestationdialogue=2 & gt ''Police_station'',''Police officer standing painting''">Discussion: License to kill</a></div>'
+		if $Boss_event_chain>=6:'<div class="button"><a href="exec:$Policestationdialogue=4 & gt ''Police_station'',''Police officer standing painting''">Discussion: Fire in camping area</a></div>'
+		'<div class="button"><a href="exec:$Policestationdialogue=3 & gt ''Police_station'',''Police officer standing painting''">Fishing: Daily paddling</a></div>'
+		'<div class="buttonG3"><a href="exec:gt ''Police_incident'',''JY_Fuck_Hypnosis''">Job: Traffic program</a></div>'
+
+		
+		if $Policestationdialogue=3:'<div class="buttonP"><a href="exec:gt ''Police_station'',''Touch the fish''">OK</a></div>'else:'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+		
+	'</div>'
+	'<div class="dialog_menu">'
+		if $Policestationdialogue=0:
+			$jy_num=1
+			'<p>·The trainee police officer who just took office, with insufficient experience and ability, she looked at you expectantly!</p>'
+			'<p><<$JY.name>>:<<$Protagonist`s_name>>, You have to keep me safe every step of the way.</p>'
+		end
+		if $Policestationdialogue=1:
+			if $JZ_Event_rape<100:
+				'<p><<$JY.name>>: What?This case is the responsibility of the Missing persons Team, so it has nothing to do with me.~Kabukicho or something is too dangerous~</p>'
+				'<p>I: …...Well... (It seems that I can`t count on her anymore)</p>'
+				'<p><<$JY.name>>:If you want to investigate, I heard them say that it seems that they were accosted by some scout in a bar and their whereabouts are unknown....</p>'
+				'<p>I: I see, then I will investigate by myself.</p>'
+				'<p><<$JY.name>>:<<$Protagonist`s_name>>, Pay attention to safety!I can`t save you!</p>'
+			else:
+				'<p><<$JY.name>>: really!Don`t you want it?！Another fire, another big bang!I shouldn`t have asked you to investigate if I knew it!</p>'
+				'<p>I: ...isn`t this okay?</p>'
+				'<p><<$JY.name>>:Fight back hard!Humph!I don`t want to lose another partner!</p>'
+				'<p>I: Lose again...?</p>'
+				'<p><<$JY.name>>:Nothing...anyway!Your actions in the future must be approved by me!</p>'
+			end
+		 end
+		if $Policestationdialogue=2:
+			if $JZ_Event_gun=0:
+				'<p>I: How could it be your turn in this kind of case?What kind of overseas killer, aren`t you afraid?</p>'
+				'<p><<$JY.name>>: Of course I`m scared!But don`t you know?The sperm bank in the hospital was invaded, and it is said that some high-quality sperm have been contaminated!Now the main police forces have been mobilized for screening and investigation.</p>'
+				'<p>I: Are you going to visit the suspects?</p>'
+				'<p><<$JY.name>>:.....It`s for screening and re-archiving the sperm bank.,While there is no leader to take care of me, let`s paddle.I don`t want to go to a ghost place like Kabukicho.What other killero(╥﹏╥)o</p>'
+			end
+			if $JZ_Event_rape>=100 and $JZ_Event_gun<=10:
+				'<p><<$JY.name>>: Really unlucky!Obviously it`s none of my business!It`s all your fault!A large number of burned-out prohibited drugs and guns were found in the warehouse of the bombing. The mayor attaches great importance to it and asks us to investigate it clearly!</p>'
+				'<p>I: Can`t you rely on it now?</p>'
+				'<p><<$JY.name>>:..The leader`s arrangement is for me to go undercover, oh no, it`s us.</p>'
+				'<p>I: us?</p>'
+				'<p><<$JY.name>>:Isn`t the last bombing an abduction case under the name of a scout?The Department of Drug Enforcement suspects that they use drugs and guns to control their victims.But the little sister you rescued didn`t mention this, she was just raped blindly.....</p>'
+				'<p><<$JY.name>>:..Oh, it doesn`t matter, anyway, you can just play my agent, I`ll go back and dress up, what are we doing there?clubMeet inside.</p>'
+			  if $JZ_Event_gun=0:$JZ_Event_gun=10
+			end
+			if $JZ_Event_gun>=100:
+				'<p>I: really!How dangerous is it?！I was almost raped!I shouldn`t have asked you to investigate if I knew it!</p>'
+				'<p><<$JY.name>>: Isn`t this okay?Not only is the promotion and salary increase still a great achievement!</p>'
+				'<p>I: Don`t be hard-mouthed!Humph!</p>'
+				'<p><<$JY.name>>:Are you worried about me, fool.Hey?I seem to have heard this conversation somewhere....</p>'
+			end
+		end
+
+		if $Policestationdialogue=3:
+				'<p><<$JY.name>>: (＾ヮ＾)V Ok!Let`s go eat something delicious!</p>'
+			end
+		if $Policestationdialogue=4:
+				'<p>I: I heard that you caught the arsonist in the camping area yourself?！</p>'
+				'<p><<$JY.name>>: (＾ヮ＾)V Awesome!Praise me!</p>'
+				'<p>I: Then how did you judge that he set the fire at that time?！</p>'
+				'<p><<$JY.name>>: He is holding a large can of diesel in his hand, okay!</p>'
+				'<p>I: What else?</p>'
+				'<p><<$JY.name>>:And....It is the sixth sense of being an excellent police officer!Or intuition!</p>'
+				'<p>I: uh…</p>'
+				'<p><<$JY.name>>:Oh?Are you worried about me, fool.Hey?I seem to have heard this conversation somewhere....</p>'
+			end
+	'</div>'
+end
+
+
+if $ARGS[0]="Touch the fish":
+	'<div class ="show_menu"><img src="images\NPC\JY\pics\摸鱼<<rand(0,5)>>.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if $Gun_hunting_incident_chain<=4:'<div class="buttonR3"><a href="exec:gt ''Police_incident'',''The search for a gun begins''">"Big things are not good!</a></div>'
+		if $Thegunhuntisover=1:
+			'<div class="buttonP"><a href="exec:gt ''Police_incident'',''date''">date</a></div>'
+		end
+		'<div class="buttonGn"><a href="exec:gt ''subway''">disbanded</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$JY.name>>:Wow!This is delicious!(๑´ڡ`๑)</p>'
+		'<p>I:Then you eat more, what do you look like when you lose weight?…</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Part-time vigilante":
+
+	'<div class ="show_menu"><img src="images\place\兼职义警.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Police_station'',''Answer the call''">Answer the call</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station'',''Acting as a police officer''">Acting as a police officer</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station'',''Redemption of points''">Redemption of points</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>[The main job of part-time vigilantes]</p>'
+		'<p>·Answer the alarm call</p>'
+		'<p>·Acting as a police mission</p>'
+		'<p>·Assist in the arrest of suspects [not installed]</p>'
+		'<p>——————————</p>'
+		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+	'</div>'
+end
+
+if $ARGS[0]="Redemption of points":
+
+	'<div class ="show_menu"><img src="images\place\兼职义警.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if $Vigilantepoints>=10:'<div class="buttonG"><a href="exec: $Vigilantepoints-=10 & coins+=1 & gt ''Police_station'',''Redemption of points''">Labor certificate/10points</a></div>'else:'<div class="buttonGr"><a href="exec: ">Labor certificate/10points</a></div>'
+		if $Vigilantepoints>=1000 and $JZ.massage=1 and $JZ3P=1:'<div class="buttonG"><a href="exec: $Vigilantepoints-=1000 & gt ''Director2_Event'',''JZ_Fuck_Special rewards''">JuliaSpecial rewards/1000points</a></div>'else:'<div class="buttonGr"><a href="exec: ">1000points&Juliacondition</a></div>'
+
+		'<div class="button"><a href="exec:gt ''Police_station'',''Part-time vigilante''">return</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>[The main job of part-time vigilantes]</p>'
+		'<p>·Answer the alarm call</p>'
+		'<p>·Acting as a police mission</p>'
+		'<p>·Assist in the arrest of suspects [not installed]</p>'
+		'<p>——————————</p>'
+		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+		
+	'</div>'
+end
+
+
+
+if $ARGS[0]="Answer the call":
+	Incomingcallnum=rand(0,5)
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\JZ\vids\来电<<Incomingcallnum>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="buttonR3"><a href="exec:Incomingcallnum+=10 & gt ''Police_station'',''Answer the call to judge''">In case of emergency</a></div>'
+		'<div class="buttonGn"><a href="exec:gt ''Police_station'',''Answer the call to judge''">Not an emergency</a></div>'
+		'<div class="buttonR5"><a href="exec:gt ''City_hall''">Too stressful/Leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+		'<p>——————————</p>'
+		'<p>Please judge whether there is an emergency during the call from the public?</p>'		
+	'</div>'
+end
+
+if $ARGS[0]="Answer the call to judge":
+
+	'<div class ="show_menu"><img src="images\place\来电判断.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="buttonR4"><a href="exec:gt ''Police_station'',''Answer the call''">Answer the next call</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Please judge whether there is an emergency during the call from the public?</p>'		
+		'<p>——————————</p>'
+		if Incomingcallnum>=13 or Incomingcallnum<=2:
+		$Vigilantepoints+=100
+		$JZ.LOVE+=1
+		'<p>Judgment is successful, vigilante points+100</p>'		
+		'<p>——————————</p>'
+		else:
+		$Vigilantepoints-=200
+		'<p>Wrong judgment, vigilante points-200</p>'		
+		'<p>——————————</p>'
+		end
+		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+	'</div>'
+end
+
+if $ARGS[0]="Acting as a police officer":
+	'<div class ="show_menu"><img src="images\place\兼职义警.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if TJtask<=1 and TJQ1>=100:'<div class="button"><a href="exec:gt ''Police_station'',''Supermarket danger''">Supermarket danger</a></div>'
+		!'<div class="button"><a href="exec:gt ''Police_station'',''Cat lost case''">Cat lost case</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station'',''Late night disappearance''">Late night disappearance</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>[Acting for the police: Don`t worry, they are all small cases]</p>'
+		'<p>I: …………</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Late night disappearance":
+	Lookingforsomeonenum=rand(1,7)
+         if Lookingforsomeonenum=1:$m_sz='走失少女' & $Reporter='father'
+         if Lookingforsomeonenum=2:$m_sz='垫底辣妹' & $Reporter='mother'
+         if Lookingforsomeonenum=3:$m_sz='巨乳OL'& $Reporter='Fiance'
+         if Lookingforsomeonenum=4:$m_sz='贫乳妹'& $Reporter='husband'
+         if Lookingforsomeonenum=5:$m_sz='潮流辣妹'& $Reporter='stepfather'
+         if Lookingforsomeonenum=6:$m_sz='清纯学妹'& $Reporter='boyfriend'
+         if Lookingforsomeonenum=7:$m_sz='富家女'& $Reporter='uncle'
+	Missingtimenum=rand(12,24)
+	Missingmissiontimenum=rand(17,24)
+	if Missingmissiontimenum=24:Missingmissiontimenum=rand(0,2)
+	Lookingfortimenum=Missingtimenum+Missingmissiontimenum
+	if Lookingfortimenum>24:Lookingfortimenum-=24
+	if Lookingfortimenum>24:Lookingfortimenum-=24
+	if Lookingfortimenum=24:Lookingfortimenum=0
+	
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\寻人.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="buttonR5"><a href="exec:Missingmission=1 & gt ''City_hall''">Set off to find</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>[Reporter: Her<<$Reporter>>】【Description of the missing object：<<$m_sz>>】 【Lost contact time：<<Missingtimenum>>Hours】 </p>'
+		'<p>——————————</p>'
+		'<p>[Last meeting place: somewhere in Kabukicho]</p>'		
+		'<p>【Last meeting time：<<Missingmissiontimenum>>:00】</p>'		
+	'</div>'
+end
+
+if $ARGS[0]="Internal punishment":
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分0.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Police_station'',''Internal disciplinary action begins''">Transformation and punishment</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$JZ.name>>: This is the task given to us by the special department—Law Enforcement Section!Carry out severe reform and education for these three law enforcement officials who have seriously violated the law!</p>'
+		'<p>I: Ah...?At my disposal?</p>'
+		'<p><<$JZ.name>>: Internal processing would have left the handle of uneven punishment.Leaving it to an outsider like you can both avoid suspicion and avoid responsibility!What`s happened?Don`t you want to?</p>'
+		'<p>I: Leave it to me!</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Punishment reward":
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分01.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Police_station'',''Internal disciplinary action begins''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$JZ.name>>: Well done, it seems that they have all received the punishment they deserve, this is a reward for you!</p>'
+		'<p>I: Ah...?Are there any rewards?</p>'
+		'<p><<$JZ.name>>: 1000Point vigilante points!</p>'
+		'<p>I: ………</p>'
+		$Vigilantepoints+=1000
+		if $Punishmentreward=0:$Punishmentreward=1
+	'</div>'
+end
+
+if $ARGS[0]="Internal disciplinary action begins":
+	$TJ.available=1
+	$DD.available=1
+	if TJLJ3>=100 and ZXGQ1>=100 and DDQ1>=100 and $DDCollar=1:
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分01.jpg" width="854"></div>'
+	else:
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分1.jpg" width="854"></div>'
+	end
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Police_station'',''TJVertical painting''">✏<<$TJ.name>></a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station'',''ZXGVertical painting''">✒<<$ZXG.name>></a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station'',''DDVertical painting''">✑<<$DD.name>></a></div>'
+		if TJLJ3>=100 and ZXGQ1>=100 and DDQ1>=100 and $DDCollar=1 and $Punishmentreward=0:'<div class="buttonG"><a href="exec:gt ''Police_station'',''Punishment reward''">How to receive rewards</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·【File】<<$TJ.name>>——Modify the amount of ejaculation of the suspect without permission, the person is in shock!</p>'
+		'<p>·【File】<<$ZXG.name>>——The prisoner escaped due to negligence in his duties!</p>'
+		'<p>·【File】<<$DD.name>>——Have improper feelings with the prisoner and cover up the prisoner!</p>'
+		'<p>·✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪·</p>'
+		'<p>·The punishment is over：'
+		if TJLJ3>=100:'✓'else:'✗' 
+		if ZXGQ1>=100:'✓'else:'✗' 
+		if DDQ1>=100 and $DDCollar=1:'✓'else:'✗' 
+		'</p>'
+	'</div>'
+end
+
+if $ARGS[0]="TJVertical painting":
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分1A.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonR4"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Single punishment<<TJP1>>%</a></div>'
+		if TJP1>=100:'<div class="buttonR3"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Work assessment<<TJGZ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if TJGZ1>=100:
+		 if MGF>0:
+			'<div class="buttonR2"><a href="exec:MGF-=1 & $m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Threshold training<<TJY1>>%</a></div>'
+		 else:
+		 '<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+		 end
+		end
+		if TJY1>=100:'<div class="buttonR1"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<TJQ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if TJtask=2:'<div class="buttonR"><a href="exec:$m=''TJ'' & $ma=$TJ.name & TJVerticaldrawingnumber=1 & gt ''Police_station'',''TJPlease consult your superiors''">Please consult your superiors</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if TJLJ2>=100:'<div class="buttonR5"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Mandatory punishment</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if TJLJ3>=100:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·【File】<<$TJ.name>>——Modify the amount of ejaculation of the suspect without permission, the person is in shock!</p>'
+	'</div>'
+end
+
+if $ARGS[0]="TJPlease consult your superiors":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\TJ\vids\0<<TJVerticaldrawingnumber>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if TJVerticaldrawingnumber=1:'<div class="button"><a href="exec:TJVerticaldrawingnumber=2 & gt ''Police_station'',''TJPlease consult your superiors''">Violent law enforcement</a></div>'
+		if TJVerticaldrawingnumber=2:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_understand''">Apply for understanding<<TJLJ1>>%</a></div>'
+		if TJLJ1>=100:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Corruption incident<<TJLJ2>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Executive Director: I heard that you are still investigating internal corruption issues?You first solve the problem of punishment in the team!</p>'
+		'<p><<$TJ.name>>: My question?</p>'
+		if TJVerticaldrawingnumber=2:
+		'<p>Executive Director: Act arbitrarily and ignore orders!A number of suspects suffered casualties of varying degrees.If you can`t get their letter of understanding, you can only be removed from your post!</p>'
+		'<p><<$TJ.name>>: ……</p>'
+		end
+	'</div>'
+end
+
+
+if $ARGS[0]="ZXGVertical painting":
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分1B.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonR5"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Single punishment<<ZXGP1>>%</a></div>'
+		if ZXGP1>=100:'<div class="buttonR4"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_work1''">Work assessment<<ZXGG1>>%</a></div>'
+		if ZXGG1>=100:'<div class="buttonR3"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Field assessment<<ZXGG2>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if ZXGG2>=100:
+		 if MGF>0:
+			'<div class="buttonR2"><a href="exec:MGF-=1 & $m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Threshold training<<ZXGY1>>%</a></div>'
+		 else:
+		 '<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+		 end
+		end
+
+
+		if ZXGY1>=100:'<div class="buttonR1"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<ZXGQ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if ZXGQ1>=100:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·【File】<<$ZXG.name>>——The prisoner escaped due to negligence in his duties!</p>'
+	'</div>'
+end
+
+if $ARGS[0]="DDVertical painting":
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分1C.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonR5"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Single punishment<<DDP1>>%</a></div>'
+		if DDP1>=100:'<div class="buttonR3"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Work assessment<<DDGZ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if DDP1>=100:'<div class="buttonPu1"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Police_station'',''DDSupervision work''">Supervision work</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+
+		if DDGZ1>=100:
+		 if MGF>0:
+			'<div class="buttonR2"><a href="exec:MGF-=1 & $m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Threshold training<<DDY1>>%</a></div>'
+		 else:
+		 '<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+		 end
+		end
+		
+		if DDY1>=100:'<div class="buttonR5"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<DDQ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if DDQ1>=100 and $DDCollar=1:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else:'<div class="buttonGr"><a href="exec:">The event is not completed</a></div>'
+		
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·【File】<<$DD.name>>——Have improper feelings with the prisoner and cover up the prisoner!</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="Supermarket danger":
+	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\抢劫.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Police_station''">Set off now</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		TJtask=1
+		'<p>[Surveillance video: Listen to me!Get ready for an off-road vehicle!Add another 300 million in cash!]</p>'
+		'<p>I: …………</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="DDSupervision work":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\DD\vids\工作中.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if $DDboyfriend=0:
+		if hour>=17:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Take her home''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">It`s not time to get off work</a></div>'
+		end
+		if $DDboyfriend=1:
+		if hour>=17:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Take her home2''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">It`s not time to get off work</a></div>'
+		end
+		if $DDGetinthecar=1:'<div class="buttonS"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">officeSEX</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">Don`t bother her</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>I: She seemed to be whispering something…</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Inspector Liyi":
+	$DC.available=1
+	if $DC.love<=50:DCVerticalpaintingnum=0
+	if 50<=$DC.love and $DC.love<=100:DCVerticalpaintingnum=1
+	if $DC.love>100:DCVerticalpaintingnum=2
+	if $DC.bad>=200:DCVerticalpaintingnum=3
+	if $DC.Alien>=1:DCVerticalpaintingnum=4
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\DC\vids\立绘<<DCVerticalpaintingnum>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $DCHideprogress>=15 and $Inspector_event_chain<=3 :'<div class="buttonPu3"><a href="exec:gt ''Inspector_Event'',''Ready to close the net''">Ready to close the net</a></div>'
+		if $Inspector_event_chain=4:'<div class="buttonR3"><a href="exec:gt ''Inspector_Event'',''Interrogation''">Interrogation</a></div>'
+		if DCNTR=1:'<div class="buttonR"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_torture''">Continuous torture</a></div>'
+		if $Inspector_event_chain<7:'<div class="buttonS3"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Get in the car''">Set off to investigate</a></div>'
+		if $Inspector_event_chain>=7:'<div class="buttonR2"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Get in the car''">Continue to investigate</a></div>'
+		if $DC.love>=50:'<div class="buttonS2"><a href="exec:hour+=1 & gt ''Inspector_Event'',''Have a drink''">Have something to drink</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if Daily_survey=0:'<div class="buttonS1"><a href="exec:gt ''Inspector_Event'',''Visit and arrange''">Daily survey</a></div>'
+		if DCVerticalpaintingnum>=3:'<div class="buttonS3"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_office''">Have a shot</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		if $DC.love<50:'<p><<$DC.name>>: Are you the assistant the director said?What do you want to report?</p>'
+		if $DC.love>=50:'<p><<$DC.name>>: You are finally here. There are a lot of things to do today. I only dealt with it yesterday.<<$Inspector_event_chain>>pieces.</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="Locker room":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+	 	 <source src="images\NPC\JZ\vids\更衣室.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $Task_womenpolicejacket=1:'<div class="buttonPu2"><a href="exec:$Task_womenpolicejacket=2 & gt ''Police_station''">Take away the policewoman`s jacket</a></div>'
+		if $JZ.available=1 and  $Succubus_Energy>0:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & gt ''Director2_Event'',''Director of Hypnosis''"><font color="#FF00FF">Hypnosis<<$JZ.name>>❤</font></a></div>'else:'<div class="buttonGr"><a href="exec:">Hypnosis<<$JZ.name>><font color="#FF00FF">❤</font></a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>·In the locker room inside the police station, the coat of the policewoman`s jacket is here.</p>'
+		'<p>I: …………</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Detention center":
+	'<div class ="show_menu"><img src="images\place\看守所 (<<rand(1,4)>>).jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if  $SS_arrest=1:'<div class="buttonR"><a href="exec:gt ''Killer_Event'',''SS_Event_interrogation''">interrogation<<$SS.name>></a></div>'
+		if $Thethiefwascaught=1 or $Thethiefwascaught=2:'<div class="buttonR"><a href="exec:gt ''Group_performation_event'',''Group_performance_Fuck_thief4''">Tell Kizakiエマ (habitual thief)</a></div>'
+		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>·In the detention centers inside the police station, female suspects suspected of crimes are generally only symbolically detained for a few days as punishment.</p>'
+		'<p>·————————</p>'
+		'<p>·If the thief at home finishes the interrogation here, he will end up in (prison-with Soapkey-go to the arsonist interrogation room at night)</p>'
+		'<p>·I originally wanted to make a plan to catch the suspect and lock him up here for training, but there was no Internet or few at sea for a long time.KBI can`t download my plan at all, and the current inventory cannot support it... My stock center originally planned to use Xinggong Yihua, but now it can only be put on hold because there is no film before going to sea.</p>'
+	'</div>'
+end
+
+--- Police_station ---------------------------------
+

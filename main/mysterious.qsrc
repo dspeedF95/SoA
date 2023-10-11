@@ -1,0 +1,205 @@
+# mysterious
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0
+q=0
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+	
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''Θ''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(1,2)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''Ψ''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(3,5)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''η''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(6,7)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''ω''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(9,10)>>).gif"></a>'
+		'</div>'
+		! ###############################################################
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''φ''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(11,12)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''ς''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(13,15)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''Λ''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(16,18)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''▌''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(19,20)>>).gif"></a>'
+		'</div>'
+		! ###############################################################
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''Ω''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(21,23)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''ξ''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(24,25)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''▋''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(26,27)>>).gif"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:$Mysteriousstring+=''▋''  & gt ''mysterious''"><img class="img_stretch" src="images\videos\gif\N (<<RAND(28,30)>>).gif"></a>'
+		'</div>'
+		! ###############################################################
+
+		
+	'</div>'
+'</div>'
+
+
+
+
+
+
+
+
+
+
+
+if $ARGS[0]="":
+   if $Mysteriousstring='·—·ωηΨΘφΩξ▋▋▌Λς':gt'mysterious','Color code1'
+   if $Mysteriousstring='·—·▋▋▋':gt'mysterious','Color code2'			
+   if $Mysteriousstring='·—·ΘφΩξ▋▋ΛΨ':gt'mysterious','Color code3'			
+   if $Mysteriousstring='·—·ω▌ηςΨφΩξΛ▋▋':gt'mysterious','Color code4'	
+   if $Mysteriousstring='·—·ω▌ηςΨφΩξΛ▋Θ':gt'mysterious','Color code4_1'	
+   !#
+   if $Mysteriousstring='·—·ωη▌Λ▋▋ςΨφΩ':gt'mysterious','Color code4'	
+   if $Mysteriousstring='·—·ωη▌Λ▋▋ςΨφΘ':gt'mysterious','Color code4'	
+   !#
+	
+   
+	'<div class ="show_menu">'
+	'<img src="images\place\碎片.jpg" width="854">'
+	'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Through the brilliance reflected on the fragments, you seem to be watching a mysterious corner.…</p>'
+		'<p><<$Mysteriousstring>></p>'
+	'</div>'
+End
+
+if $ARGS[0]="Color code1":
+    $Mysteriousstring='【Please do not disclose the trigger method·Otherwise I will change it and no longer make it public】'
+	'<div class ="show_menu">'
+	'<img src="images\videos\gif\改变.gif" width="854" height="480">'
+	'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·<<$CJ.name>>The character tendency can be reset：</p>'
+		'<p>·<a href="exec:$CJ.tendency=0 &$CJ.tendencyG=0 & $CJ.tendencyB=0 & gt ''mysterious''">【Reset to0】</a></p>'
+	'</div>'
+End
+
+if $ARGS[0]="Color code2":
+	my.energy=-99999
+	'<div class ="show_menu">'
+	'<img src="images\place\碎片2.jpg" width="854">'
+	'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·The mysterious fragment suddenly appeared with mechanical tentacles?！</p>'
+		'<p>？？？: Curiosity will kill you.</p>'
+	'</div>'
+End
+
+if $ARGS[0]="Color code3":
+    $Mysteriousstring='【Please do not disclose the trigger method·Otherwise I will change it and no longer make it public】'
+	'<div class ="show_menu">'
+	'<img src="images\videos\gif\改变.gif" width="854" height="480">'
+	'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Citizens` Urbanconstructionsatisfaction can be rewritten：</p>'
+		'<p>·<a href="exec:Urbanconstructionsatisfaction=999 & gt ''mysterious''">【+999】</a></p>'
+		'<p>·<a href="exec:Urbanconstructionsatisfaction=0 & gt ''mysterious''">【Reset to0】</a></p>'
+		'<p>·<a href="exec:Urbanconstructionsatisfaction=-999 & gt ''mysterious''">【-999】</a></p>'
+	'</div>'
+End
+
+if $ARGS[0]="Color code4":
+    $Mysteriousstring='【Please do not disclose the trigger method·Otherwise I will change it and no longer make it public】'
+	'<div class ="show_menu">'
+	'<img src="images\videos\gif\改变.gif" width="854" height="480">'
+	'</div>'
+		
+	'<div class="button_menu">'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·The engine of an airliner was successfully re-ignited, and the fate of the passengers was rewritten.</p>'
+		'<p>·You changed the timeline<a href="exec:gt ''mysterious'',''Cai Airport''">·Go to the airport to check</a></p>'
+	'</div>'
+End
+
+if $ARGS[0]="Color code4_1":
+    $Mysteriousstring='【Please do not disclose the trigger method·Otherwise I will change it and no longer make it public】'
+	'<div class ="show_menu">'
+	'<img src="images\videos\gif\改变.gif" width="854" height="480">'
+	'</div>'
+		
+	'<div class="button_menu">'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·I can`t believe it, you did it, you were able to accomplish this feat.</p>'
+		$Thepersonwhorewritesthefuture='【✩Future Rewriter】'
+		if $Aircraftrewards=0:'<p>·As an appreciation for your indomitable perseverance, you will get1000Energy limit and special title rewards<a href="exec:$Aircraftrewards=1 & mymax[energy]+=1000 & gt ''mysterious'',''Color code4_1''">·Receive rewards</a></p>'
+		
+		'<p>·The engine of an airliner was successfully re-ignited, and the fate of the passengers was rewritten.</p>'
+		'<p>·You changed the timeline<a href="exec:gt ''mysterious'',''Cai Airport''">·Go to the airport to check</a></p>'
+	'</div>'
+End
+
+if $ARGS[0]="Cai Airport":
+	$LXS.available=1
+	'<div class ="show_menu">'
+	'<img src="images\NPC\LXS\pics\down.jpg" width="854" height="480">'
+	'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''airport''">Recommend deep alley</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$LXS.name>>: Scared me to death, I thought I was dead on the plane.</p>'
+		'<p>I: Hi, are you a foreigner?</p>'
+		'<p><<$LXS.name>>: Yes, I went to a lot of effort to be able to come here.First of all, I have to find a place to live. If you are a local, you should know where the rent is cheap, right?</p>'
+	'</div>'
+End
+
+
+
+
+
+
+
+
+--- mysterious ---------------------------------
+

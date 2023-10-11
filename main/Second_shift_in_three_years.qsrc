@@ -1,0 +1,38 @@
+# Second_shift_in_three_years
+
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="Class roster" href="exec:gt ''menu_charac_student'',''0''"><img class="img_stretch" src="images\place\名单.jpg"></a>
+		</div>'
+	'</div>'
+'</div>'
+
+
+
+
+if $args[0]="":
+	'<div class ="show_menu"><img src="images\place\三年二班.jpg"  height="480"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·This class is simply a completely depraved collective, and the enthusiasm of the students only exists outside the classroom.They ignore the importance of learning, indulge in and develop a variety of unlimited entertainment activities.As for how to ensure that the graduation rate of this school reaches the highest level, it has become a difficult problem for the principal.</p>'
+		'<p>·Not yet installed</p>'
+		'<p>·Not yet installed</p>'
+		'<p>·Not yet installed</p>'
+
+	'</div>'
+end
+
+--- Second_shift_in_three_years ---------------------------------
+

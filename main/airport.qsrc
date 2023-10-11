@@ -1,0 +1,115 @@
+# airport
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+minutes+=15
+a=0
+q=0
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+	
+	'</div>'
+'</div>'
+
+if $ARGS[0]="":
+	'<div class ="show_menu"><img src="images\place\机场.jpg" width="854"></div>'
+		
+	'<div class="button_menu">'
+		if $Orientationparty=1 and $CT.available=0:'<div class="buttonG"><a href="exec:gt ''Empire_Event'',''lounge''">VIP lounge</a></div>'
+		if 1<=$Airportprogress and $Airportprogress<=2:'<div class="buttonR3"><a href="exec:gt ''airport'',''Crew office''">Crew office</a></div>'
+		if $Airportprogress>=3:'<div class="buttonR3"><a href="exec:gt ''airport'',''Crew office2''">Crew office</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Due to the introduction of the new law, countless women have taken flights from all over the world to come here, and every woman can release her nature here.</p>'
+		'<p>——————————</p>'
+		if $LXS.available=0:'<p>·Passenger plane on fire<a href="exec:gt ''airport'',''Passenger plane on fire''">View</a></p>'
+	'</div>'
+End
+
+
+if $ARGS[0]="Passenger plane on fire":
+	'<div class ="show_menu"><img src="images\place\mayday2.jpg" width="854"></div>'
+		
+	'<div class="button_menu">'
+		'<div class="buttonGr"><a href="exec:">Can I save them?</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''airport''">R.I.P</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·LB615The flight failed twice due to unknown reasons, and contact with the tower has been lost.</p>'
+		'<p>·LB615For the content of the story, please visit the link below to download it separately↓No need to go over the wall, you can`t open it to change your browser</p>'
+		'<p><a href="https://airtable.com/appZwBEUmnRghFhgz/shrwhq3RAtOAfEDbo/tblnvavxTkHZgF3Vn"> https://airtable.com/appZwBEUmnRghFhgz/shrwhq3RAtOAfEDbo/tblnvavxTkHZgF3Vn</a></p>'
+		'<p>·Too lazy to play, you can also directly purchase the customs clearance code</p>'
+	'</div>'
+End
+
+if $ARGS[0]="Crew office":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\QJ\vids\开幕1-1.webm" type=''video/webm;''></video></div>'
+        '</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Empire_Event'',''Empire_Fuck_Disguise''">Secretly investigate</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$QJ.NAME>>:  First of all, we need to understand the root causes of the decline in passenger satisfaction and service attitude. Everyone doesn`t know you. Please go and investigate in disguise.</p>'
+		'<p>I:  I got it</p>'
+	'</div>'
+End
+
+if $ARGS[0]="Crew office2":
+		Internalschedule=Internallydeterminedcaptain+Internaleconomyclass+Internalsleeper+Internallydeterminedhotgirl+Internalcleaning
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\QJ\vids\机场办公_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+		
+	'<div class="button_menu">'
+		'<div class="buttonG3"><a href="exec:minutes+=15 & gt ''Empire_Event'',''Empire_Fuck_Stewardesstraining''">recruit&training<<$Trainingprogress>>/3</a></div>'
+		if $Airportprogress>=4 and $Trainingprogress>=3:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Internally selected candidates''">Select candidates within the inspection<<Internalschedule>>/5</a></div>'
+		if Internalschedule>=5:
+			if $times_of_day!'':'<div class="buttonS2"><a href="exec:$QJ.love+=1 & gt ''Empire_Event'',''Empire_Fuck_Take her home''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">Wait for her to finish</a></div>'
+			if $QJ.bad>=100+my.charm*15:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Female office1''">Close the door and fuck her</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*15+100>></a></div>'
+		end
+		'<div class="button"><a href="exec:minutes+=15 & gt ''airport''">return</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$QJ.NAME>>:  It seems that the meeting passed our proposal?Very good, then let`s start the next step.</p>'
+		'<p>I:  Please say.</p>'
+		'<p><<$QJ.NAME>>:  The first is to lay off flight attendants who are unwilling to provide sexual services.</p>'
+		'<p><<$QJ.NAME>>:  Secondly, recruit and train social women who are willing to work part-time.</p>'
+		'<p><<$QJ.NAME>>:  Finally, continuous unannounced visits to optimize the crew configuration, thereby improving passenger satisfaction and airline operating income.Through fine-grained staffing management, we can ensure that crew members can give full play to their advantages in different tasks and scenarios, provide excellent services and solutions, and win more praise and repeat customers for airlines.</p>'
+		if Internalschedule>=5:'<p>I:  It seems that things are almost done, and the satisfaction of passengers and the enthusiasm of the crew have increased significantly.</p>'
+	'</div>'
+End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- airport ---------------------------------
+

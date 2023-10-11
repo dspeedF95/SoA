@@ -1,0 +1,1029 @@
+# Study_abroad_Event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+if $args[0]="International student home":
+	  if  Interviewforinternationalstudents=1 and Internationalstudentschool=1:gt'Study_abroad_Event','home'
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LXS\vids\In front of home<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	   if $DialoguewithInternationalStudents=0:'<div class="button"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''International student home''">Small talk</a></div>'
+		'<div class="button"><a href="exec:gt ''Kabukicho''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $DialoguewithInternationalStudents=0:
+			'<p>I: Hi, it seems that you have found a place to stay, and I am worried that you will get lost.</p>'
+			'<p><<$LXS.name>>: Hi，<<$Protagonist`s_name>>！Nice to meet you.Although I have experienced an empty disaster before, my new life here has given me new courage and hope.I am gradually adapting to life in this city, full of curiosity and desire to explore the unknown world.</p>'
+		end
+		if $DialoguewithInternationalStudents=1:
+			'<p>I: Is there anything I can do for you?</p>'
+			'<p><<$LXS.name>>: As a foreigner, how can I gain a foothold here?</p>'
+			'<p>I: You have to do these things ① Pass the immigration review by the Immigration Administration.②Register as an international student at the school.③Find a part-time job</p>'
+			if Interviewforinternationalstudents=0:
+				'<p><<$LXS.name>>: Haha, doesn`t that sound difficult?Then I will go to the Immigration Bureau tomorrow to have a look. It just so happens that I have prepared a set of uniforms for the interview.</p>'
+				'<p>I: I wish you all the best.(I hope it`s me who interviewed you)</p>'
+			end
+			if Internationalstudentschool=0:
+				'<p><<$LXS.name>>: The school application is somewhat difficult for me, can you help me.</p>'
+				'<p>I: I can ask<<$XZ.name>>。</p>'
+			end
+			
+		end
+	'</div>'
+End
+
+
+if $args[0]="home":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LXS\vids\家<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	   if $DialoguewithInternationalStudents=0:'<div class="button"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''home''">Persuade her</a></div>'
+	   if $DialoguewithInternationalStudents=1:
+		   '<div class="buttonR3"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">Teach her a lesson</a></div>'
+		   if $LXS.love>=100:'<div class="buttonP"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Play with her</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+	   end
+	   if Porsche=1:'<div class="buttonG"><a href="exec: $DialoguewithInternationalStudents=0 & gt ''Study_abroad_Event'',''Get in the car''">Take her out to play</a></div>'
+		'<div class="button"><a href="exec:gt ''Kabukicho''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $DialoguewithInternationalStudents=0:
+			'<p>I: Hi, why do you play games at home all day long?</p>'
+			'<p><<$LXS.name>>: Oops，<<$Protagonist`s_name>>！This is called "God·The game of "Original" is so fun, video games are simply my ultimate candy!Every time I pick up the handle or keyboard, it`s like entering a magical dimension. I can become a superhero, an explorer, and transform into various characters in the virtual world.</p>'
+			'<p>I: ……</p>'
+			'<p><<$LXS.name>>: Every time I enter the world of Vatit, I will be fascinated by the beautiful scenery and fantasy adventures.I like to glide in the Longji snow-capped mountains, feel the howling of the wind, and have fun with my friends at the Flower and Wind Festival.Each character has unique skills and stories, which make me fall into it and can`t extricate myself.Come and explore the unknown secret realm with me, Shenyuan, start!</p>'
+		end
+		if $DialoguewithInternationalStudents=1:
+			'<p>I: Are you okay?You came by plane not far away... just to play "God"·Original"?</p>'
+			'<p><<$LXS.name>>: Hey, "God·Original "What`s wrong with you?You are not my father!You are so annoying!</p>'
+			'<p>I: I paid for your school choice fee!</p>'
+			'<p><<$LXS.name>>: "God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?"God·Original "What`s wrong with you?</p>'
+			$LXS.love-=10
+		end
+	'</div>'
+End
+
+
+
+if $args[0]="Study abroad_Fuck_Entry11":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\入境1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<12:
+        '<div class="button_menu">'
+            if q=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">I`ll review </a></div>'
+            end
+            if q=1 or q=2 or q=3 or q=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Check the ear points </a></div>'
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Check the acupuncture points </a></div>'
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Filled with fake milk? </a></div>'
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Check the small hole </a></div>'
+            end
+            if q=5:
+            '<div class="buttonS1"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">The inspection is complete </a></div>'
+            end
+            if q=6:
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Lick clean </a></div>'
+            end
+            if q=7:
+            '<div class="buttonR4"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">？！？！ </a></div>'
+            end
+
+            if 10>=q and  q>=8:
+            '<div class="buttonR3"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Intense tongue kiss </a></div>'
+            '<div class="buttonR4"><a href="exec:a=9 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Sit up on your ass </a></div>'
+            '<div class="buttonR5"><a href="exec:a=10 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Hit the uterine mouth </a></div>'
+            end
+            if q=11:
+            '<div class="buttonS3"><a href="exec:a=11 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Oral injection </a></div>'
+            end
+            if q=12:
+            '<div class="buttonR3"><a href="exec:a=12 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">Send her away</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Hello, auditor, I am from…</p>'
+             '<p>姓名Name: "Melody Marks"职业 Occupation: "Student"</p>'
+			 '<p>身高Height: "169CM"体重 Weight:"55KG"围 Measurements:"B94 W59 H87』</p>'
+             '<p>Auditor:Are you a student?It doesn`t look like it…</p>'
+             '<p><<$LXS.name>>:Ah, I took this suit from the plane.</p>'
+             '<p>Auditor:Took it?Didn`t you steal it?</p>'
+         '</div>'
+    end
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p>I:Ahem... I`ll do it, you go and rest.Tired all day.</p>'
+             '<p>Auditor:Ok.</p>'
+             '<p><<$LXS.name>>:Hi!<<$Protagonist`s_name>>！</p>'
+         '</div>'
+    end
+
+
+
+    if 7>=a and a>=2:
+         '<div class="dialog_menu">'
+         	 '<p>I:Don`t call it by its first name here, but by its official title.</p>'
+             '<p><<$LXS.name>>:Got it，<<$Hostlastname>>Auditor.</p>'
+             if a>=3:'<p>I:Do you know the process and steps of the review❤</p>'
+             if a>=4:'<p><<$LXS.name>>:Hmm<<$Panting2>></p>'
+         '</div>'
+    end
+    if a=8:
+         '<div class="dialog_menu">'
+             '<p>I:hey!What`s wrong with you?。</p>'
+             '<p><<$LXS.name>>:I can`t help it!<<$Protagonist`s_name>>！I want you!Fuck me!</p>'
+         '</div>'
+    end
+
+    if 11>=a and a>=9:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Fuck me<<$Panting2>></p>'
+             '<p>I:Is this a foreigner?…</p>'
+         '</div>'
+    end
+
+    if a>=12:
+    	 $LXS.love+=a+my.charm
+    	 $LXS.bad+=q+my.charm
+    	 Interviewforinternationalstudents=1
+         '<div class="dialog_menu">'
+             '<p>I:I have already passed the reviewed materials for you.</p>'
+             '<p><<$LXS.name>>:Well, thank you for your care❤</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Study abroad_Fuck_School application":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\XZ\vids\办公室B-1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonG"><a href="exec:money-=5000  & Internationalstudentschool=1 & gt ''university''">register：$5000</a></div>'
+		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+			'<p>I: Are there any conditions for international students to register?</p>'
+			'<p><<$XZ.name>>: Proof of income from the guardian, as well as a Test_report for asexual diseases, and school selection fees are required$2500</p>'
+			'<p>I: Is there a more convenient green channel?</p>'
+			'<p><<$XZ.name>>: Uh...you give me$5000...I can help you with it.</p>'
+	'</div>'
+End
+
+if $args[0]="Study abroad_Fuck_lesson":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\kun1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            if q=0 or q=1 or q=2 or q=3:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">Props to play with </a></div>'
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">Dick brushing his teeth </a></div>'
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">Forced deep throat </a></div>'
+            if q>=3:'<div class="buttonS4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">High-speed thrusting </a></div>'
+            end
+            if q=4:'<div class="buttonS5"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">Oral ejaculation </a></div>'
+            
+            if q=5:
+            '<div class="buttonR3"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Hey...what are you doing, let me go!</p>'
+             if a>=1:'<p>I:The bad boy will be taught a lesson!</p>'
+             if a>=2:'<p><<$LXS.name>>:I was wrong!<<$Protagonist`s_name>>！I was wrong!</p>'
+         '</div>'
+    end
+
+    if a>=6:
+    	 $LXS.love-= my.charm
+    	 $LXS.bad+= my.charm
+         '<div class="dialog_menu">'
+             '<p>I:Don`t forget, it cost me a lot of money to register for you.</p>'
+             '<p><<$LXS.name>>:Cut, really stingy.I don`t want to see you anymore, can you get out of here?！</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Study abroad_Fuck_Play with":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\jia1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<7:
+        '<div class="button_menu">'
+            if q=0 or q=1 or q=2 or q=3:
+            '<div class="buttonS1"><a href="exec:a=0 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Touch your ass </a></div>'
+            '<div class="buttonS2"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Mouth me </a></div>'
+            if q>0:'<div class="buttonS3"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Sit up </a></div>'
+            if a!4 and q>1:'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Parallel leg thrusting </a></div>'
+            if a=4 and q>1:'<div class="buttonR4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Separate the legs and insert </a></div>'
+            end
+
+            if q=4 or q=5:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Old man stroller </a></div>'
+            '<div class="buttonR4"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Pinch her throat </a></div>'
+            if a!4:'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Parallel leg thrusting </a></div>'
+            if a=4:'<div class="buttonR4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Separate the legs and insert </a></div>'
+            end
+            if q=6:
+            '<div class="buttonR3"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Inward shot out </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonG"><a href="exec:money-=648 & gt ''Kabukicho''">Give her money</a></div>'
+            '</div>'
+    end
+
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Didn`t you say you want to play with me?</p>'
+             '<p>I:That`s right, you play games, I play you❤</p>'
+             if a>=1:'<p><<$LXS.name>>:I can`t play like this<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a>=7:
+    	 $LXS.love+= my.charm+11
+    	 $LXS.bad+= my.charm
+         '<div class="dialog_menu">'
+             '<p>I:Huh---you won`t be pregnant, will you?</p>'
+             '<p><<$LXS.name>>:Put it aside if you are pregnant or not, can you give it to me$648Is it?I... I want to buy a new set of extracurricular books!</p>'
+             '<p>I:Really fakeO_o</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="School counseling":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LXS\vids\scstudy1-<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if $DialoguewithInternationalStudents=0:'<div class="button"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''School counseling''">Patient counseling</a></div>'
+		if $DialoguewithInternationalStudents=0:'<div class="button"><a href="exec: gt ''Study_abroad_Event'',''Check materials in the library''">Go to the library to check the information</a></div>'
+		!if Porsche=1:'<div class="buttonG"><a href="exec: $DialoguewithInternationalStudents=0 & gt ''Study_abroad_Event'',''Get in the car''">Take her out to play</a></div>'
+		if $DialoguewithInternationalStudents=1:'<div class="buttonS"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Here she is</a></div>'
+		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $DialoguewithInternationalStudents=0:
+			'<p><<$LXS.name>>: Oops，<<$Protagonist`s_name>>！This exercise is so difficult.</p>'
+			'<p>I: What topic?Let me see.</p>'
+			'<p><<$LXS.name>>: Suppose we have a character named Qin, and her basic attack power is1000Point, the critical strike rate is30%, Critical strike damage is50%, The skill magnification is200%, Elemental damage is increased to20%, So what is the average damage value of Qin when using skills to attack?</p>'
+			'<p>I: ……</p>'
+		end
+		if $DialoguewithInternationalStudents=1:
+		    $LXS.love+=15
+			'<p>I: Average damage = Basic attack power * Skill magnification * (1 + Elemental damage bonus) * (1 + Critical strike rate * Critical strike damage)</p>'
+			'<p><<$LXS.name>>: I see, the answer is2400！</p>'
+			'<p>I: By the way... is this really an exercise arranged by the school?</p>'
+			'<p><<$LXS.name>>:<<$Protagonist`s_name>>❤Why are your nipples scoliosis❤</p>'
+		end
+	'</div>'
+End
+
+if $args[0]="Check materials in the library":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LXS\vids\scbooks1-<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if $DialoguewithInternationalStudents=0:'<div class="button"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''Check materials in the library''">Peek at the bottom of the skirt</a></div>'
+		if Essential_oil>0:'<div class="buttonS"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Massage her</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient essential oils</a></div>'
+		if $DialoguewithInternationalStudents=1:'<div class="buttonR3"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_massage''">Pretend to fall</a></div>'
+		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $DialoguewithInternationalStudents=0:
+			'<p><<$LXS.name>>: I remember there should be a tutorial book here.</p>'
+		end
+		if $DialoguewithInternationalStudents=1:
+			'<p>I: Do you still need a tutorial book for this kind of topic?Let me see.</p>'
+		end
+	'</div>'
+End
+
+
+if $args[0]="Study abroad_Fuck_Supplementary studies":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\scf1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<9:
+        '<div class="button_menu">'
+            if q=0 or q=1:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Lick me </a></div>'
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Mouth me </a></div>'
+            end
+
+            if q=2:'<div class="buttonS3"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Sit up </a></div>'
+
+            if q=3 or q=4 or q=5 or q=6:
+            if a!4:'<div class="buttonS4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Front riding </a></div>'
+            if a=4:'<div class="buttonR4"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Turn around </a></div>'
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Old man stroller </a></div>'
+            '<div class="buttonR4"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Rapid thrusting </a></div>'
+            end
+
+
+            if q=7:
+            '<div class="buttonR3"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">Inward shot out </a></div>'
+            end
+            if q=8:
+            '<div class="button"><a href="exec:a=9 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Supplementary studies''">dialogue </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Hehe, do you want to do it here?</p>'
+             '<p>I:It`s not you who caused it❤</p>'
+             if a>=3:'<p><<$LXS.name>>:Blame me<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a>=9:
+    	 $LXS.love+= my.charm+q
+    	 $LXS.bad+= my.charm+q
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Will you come to pick me up every day after school, I don`t like to take the tram.</p>'
+             '<p>I:It depends on the situation.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+
+if $args[0]="Study abroad_Fuck_secretly":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\scntr1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<5:
+        '<div class="button_menu">'
+            '<div class="buttonS4"><a href="exec:a+=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_secretly''">Watch it </a></div>'
+            '<div class="button"><a href="exec:minutes+=60 & gt ''university''">Don`t watch it anymore</a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if 4>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Baby❤ Why are you here so late today?</p>'
+             '<p>？？？:Little foreign girl❤ Brother is here to satisfy you.</p>'
+             if a>=1:'<p><<$LXS.name>>:Brother fuck me<<$Panting2>></p>'
+             if a>=2:'<p>？？？:Is it your brother who makes you comfortable or<<$Protagonist`s_name>>Fuck you comfortably?</p>'
+             if a>=3:'<p><<$LXS.name>>:Of course it`s the baby`s big cock that is the most comfortable❤</p>'
+             if a>=4:'<p>？？？:Haha❤You little slut, pick up my brother`s essence for me❤</p>'
+         '</div>'
+    end
+
+    if a=5:
+         '<div class="dialog_menu">'
+         	 '<p>？？？:<<$Protagonist`s_name>>Do you know that you mess with different men every day?</p>'
+             '<p><<$LXS.name>>:Don`t tell him, it`s okay ❤ Besides, we are not boyfriend and girlfriend❤</p>'
+             '<p>I:Really fakeO_o</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Study abroad_Fuck_massage":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\sc按摩1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            '<div class="buttonS4"><a href="exec:a+=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_massage''">Press down </a></div>'
+            '<div class="button"><a href="exec:minutes+=60 & gt ''university''">Don`t press anymore</a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>I:Ah ah ah ah ah ah——*Puff</p>'
+             '<p><<$LXS.name>>:Didn`t it hurt to fall?Let me rub it for you.</p>'
+             '<p>I:Rub it?The place you rubbed is not right, right?It should be here ❤</p>'
+             if a>=1:'<p><<$LXS.name>>:Like this?<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=6:
+         '<div class="dialog_menu">'
+         	 '<p>I:Hard work.</p>'
+             '<p><<$LXS.name>>:It`s not hard❤ But I forgot, what was the topic I was looking for❤</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Study abroad_Fuck_Massage her":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\sc按摩2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<8:
+        '<div class="button_menu">'
+            if q=0 or q=1:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Breast massage </a></div>'
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Private massage </a></div>'
+            end
+
+            if q=2:'<div class="buttonS3"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Vibration mode </a></div>'
+
+            if q=3 or q=4 or q=5 or q=6:
+            if a!4:'<div class="buttonS4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">By the way, tell me </a></div>'
+            if a=4:'<div class="buttonR4"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Speed up </a></div>'
+            end
+
+
+            if q=7:
+            '<div class="buttonR3"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Oral ejaculation </a></div>'
+            end
+
+            if q=8:
+            '<div class="buttonR2"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Spit it out </a></div>'
+            end
+            if q=9:
+            '<div class="buttonR1"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+				if $LXS.Pressed=0:'<div class="button"><a href="exec:$LXS.Pressed=1 & gt ''university''">Invite to the massage parlor</a></div>'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Wow, this feels so weird.</p>'
+             '<p>I:I am confident in massage❤</p>'
+             if a>=1:'<p><<$LXS.name>>:I don`t believe it<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a>=8:
+    	 $LXS.love+= my.charm+q
+    	 $LXS.bad+= my.charm+q
+         '<div class="dialog_menu">'
+             '<p>I:How?Do you know how good I am?</p>'
+             '<p><<$LXS.name>>:It`s pretty amazing❤</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+
+
+if $args[0]="Get in the car":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LXS\vids\车<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	   if $DialoguewithInternationalStudents=0:
+			'<div class="buttonS1"><a href="exec:$DialoguewithInternationalStudents=2 & gt ''Study_abroad_Event'',''Get in the car''">Eat something good</a></div>'
+			'<div class="buttonS2"><a href="exec:$DialoguewithInternationalStudents=3 & gt ''Study_abroad_Event'',''Get in the car''">Take a picture and check in</a></div>'
+			'<div class="buttonPu4"><a href="exec:$DialoguewithInternationalStudents=4 & gt ''Study_abroad_Event'',''Get in the car''">Go to a nightclub</a></div>'
+			if $LXS.love<=100:'<div class="buttonP"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''Get in the car''">Touch her lower body</a></div>'
+			if $LXS.love>100:'<div class="buttonP"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Touch her lower body</a></div>'
+	  end
+	   if $DialoguewithInternationalStudents=2:
+	       '<div class="button"><a href="exec:gt ''Study_abroad_Event'',''Hot spring start''">Set off to the hot spring</a></div>'
+	  end
+	   if $DialoguewithInternationalStudents=3:
+	       '<div class="button"><a href="exec:gt ''company''">recommendCOSpavilion</a></div>'
+	  end
+	   if $DialoguewithInternationalStudents=4:
+	       if $LXS.bad>=my.charm*25:'<div class="button"><a href="exec:LXSNightclubwork=1 & gt ''The_night_is_fine''">Keep her as a custom girl</a></div>'else:'<div class="buttonGr"><a href="exec:">It takes depravity to be a custom girl><<my.charm*25>></a></div>'
+	  end
+		'<div class="button"><a href="exec:gt ''Residential_area''">respectively</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+	   if $DialoguewithInternationalStudents=0:
+			'<p><<$LXS.name>>: Ooh，<<$Protagonist`s_name>>！Your car is good.</p>'
+			'<p>I: Right... girls have feelings for me, just because I have…</p>'
+			'<p><<$LXS.name>>: Where are you going to take me?</p>'
+	   end
+	   if $DialoguewithInternationalStudents=1:
+			'<p><<$LXS.name>>: This is dangerous driving!<<$Protagonist`s_name>>！stop it!</p>'
+			'<p>I: Ok…</p>'
+			$LXS.love-=my.charm
+	   end
+	   if $DialoguewithInternationalStudents=2:
+			'<p><<$LXS.name>>: Wow, ramen is simply a bowl full of happiness!That soft noodle, with a rich soup base, is simply a work of art on the tip of the tongue.</p>'
+			'<p>I: Is it so exaggerated?…</p>'
+			'<p><<$LXS.name>>: Whether it`s chicken ramen, beef ramen, or various flavors of miso ramen, every bite can bring full satisfaction.Even if you just imagine the hot ramen, it can make me salivate.It`s really a bowl of heart-warming delicacy, which can bring unlimited comfort and satisfaction every time.Let`s applaud the food of ramen together!</p>'
+			'<p>I: Then eat and drink enough…</p>'
+	   end
+	   if $DialoguewithInternationalStudents=3:
+			LXSCOS=1
+			'<p><<$LXS.name>>: I seem to be able to feel its wisdom and comfort, as if smiling and telling us to be quiet and kind.When I took the photo, I was really moved, because this moment was a wonderful encounter with culture and faith.</p>'
+			'<p>I: Where is anyoneCOSCheng Genie took pictures in front of the Buddha statue.…</p>'
+			'<p><<$LXS.name>>: I like itCOSPALY, I want you to take care of it.</p>'
+	   end
+	   if $DialoguewithInternationalStudents=4:
+			'<p><<$LXS.name>>: The atmosphere here is really explosive, and it feels like the whole body is swinging to the rhythm.This dance floor is simply a stage full of energy, and I don`t want to leave anymore.</p>'
+			'<p>I: Let`s swing together…</p>'
+			'<p><<$LXS.name>>: I love this kind of carnival so much!Is there any work similar to what I can do here?</p>'
+	   end
+	'</div>'
+End
+
+
+if $args[0]="Study abroad_Fuck_Press her":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\che1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<4:
+        '<div class="button_menu">'
+            if q=0 :'<div class="buttonS2"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Blowjob for me </a></div>'
+			if q=1 :'<div class="buttonS3"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Suck hard </a></div>'
+            if q=2 :'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Blow her up </a></div>'
+			if q=3 :'<div class="buttonS5"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">dialogue </a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:$DialoguewithInternationalStudents=2 & gt ''Study_abroad_Event'',''Get in the car''">Take her to eat some staple food</a></div>'
+            '</div>'
+    end
+
+
+
+    if 3>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Hurry up, it`s all wet under people.</p>'
+             '<p>I:Don`t you reject it❤</p>'
+             if a>=1:'<p><<$LXS.name>>:It`s too late to like it<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a>=4:
+    	 $LXS.love+=q
+    	 $LXS.bad+=q
+         '<div class="dialog_menu">'
+             '<p>I:Is it bitter?Your expression just now was very painful.</p>'
+             '<p><<$LXS.name>>:Come on after all the hard work ❤ What should I eat after the appetizer❤</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+
+if $args[0]="Hot spring start":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LXS\vids\wq0.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonS1"><a href="exec:$StudyabroadhotSpringnum=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Do it here</a></div>'
+		if $LXS.bad>=my.charm*6:'<div class="buttonS3"><a href="exec:$StudyabroadhotSpringnum=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Do it in the hot spring</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*6>></a></div>'
+		if $LXS.bad>=my.charm*13:'<div class="buttonS5"><a href="exec:$StudyabroadhotSpringnum=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Go do it outdoors</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*13>></a></div>'
+		if HotspringOilPressureHall=1:
+				if $LXS.bad>=my.charm*20:'<div class="buttonG"><a href="exec:LSXHotspring=1 & gt ''Hot_spring_corridor''">Introduce working in the hydraulic hall</a></div>'else:'<div class="buttonGr"><a href="exec:">Work needs to be depraved><<my.charm*20>></a></div>'
+		end
+		'<div class="button"><a href="exec:gt ''Kabukicho''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+			a=0 
+			q=0
+			'<p>I: Do you like it here?</p>'
+			'<p><<$LXS.name>>: Of course, the hot spring is really a blessing from heaven. It is like a gentle embrace of nature, washing away all fatigue and worries one by one.Blended into the warm spring water, the body and mind seem to float in the soft clouds, and every drop of water is a warm greeting to the mind.</p>'
+			if HotspringOilPressureHall=1:
+			'<p>I: I have an oil pressure shop here, you can come here to work, but... I don`t worry that those guests will touch you.…</p>'
+			'<p><<$LXS.name>>: It`s okay... I will tell them fiercely, absolutely not!</p>'
+			end
+	'</div>'
+End
+
+
+if $args[0]="Study abroad_Fuck_Hot spring":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\wq<<$StudyabroadhotSpringnum>>-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<3:
+        '<div class="button_menu">'
+            if q=0 :'<div class="buttonS2"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Secretly insert </a></div>'
+			if q=1 :'<div class="buttonS3"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Accelerate thrusting </a></div>'
+            if q=2 :'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Ejaculation </a></div>'
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:a=0 & q=0 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Go to the room</a></div>'
+            '</div>'
+    end
+
+
+
+    if 2>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Want to do it here?No one will come, right?I`m a little... excited!</p>'
+             '<p>I:Shhh-no one will find out❤</p>'
+             if a>=1:'<p><<$LXS.name>>:Hmm<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a>=3:
+    	 $LXS.love+=q
+    	 $LXS.bad+=q
+         '<div class="dialog_menu">'
+             if $StudyabroadhotSpringnum=2:'<p><<$LXS.name>>:The pleasure of having sex in the hot spring is really indescribable!Stepping into the warm spring water, the body seems to be surrounded by gentle love, and every inch of skin is released from pressure.The temperature of the spring water is just right, making people feel comfortable and peaceful.Close your eyes and take a deep breath of the fresh air, as if you can feel the embrace of nature.</p>'
+             if $StudyabroadhotSpringnum=3:'<p><<$LXS.name>>:The straps of the yukata are covered with your semen, even if the styles and patterns of the yukata are diverse, whether it is flowers, animals or traditional Japanese patterns, they are not as good as you look when you are stained with semen.</p>'
+             if $StudyabroadhotSpringnum=1:'<p><<$LXS.name>>:Go, go, go!Someone is coming!</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+
+if $args[0]="Study abroad_Fuck_In the room":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\wq4-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<8:
+        '<div class="button_menu">'
+
+            if q=0:'<div class="buttonS1"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Masturbate to me </a></div>'
+
+            if q=1 or q=2 or q=3 or q=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Mouth me </a></div>'
+            if q>1:'<div class="buttonS3"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Sit up </a></div>'
+            if a!4 and q>2:'<div class="buttonS4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Old man stroller </a></div>'
+            if a=4 and q>2:'<div class="buttonR4"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Change the eight-shaped legs </a></div>'
+            end
+
+
+            if q=5:
+            '<div class="buttonR4"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Fuck and roll your eyes </a></div>'
+            end
+            if q=6:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Inward shot out </a></div>'
+            end
+            if q=7:
+            '<div class="button"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:Continue ❤I want more ❤Satisfy my hungry pussy❤</p>'
+             if a>=1:'<p>I:Masturbate to me❤</p>'
+             if a>=2:'<p><<$LXS.name>>:So big ❤ so hard<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a>=8:
+    	 $LXS.love+= my.charm+11
+    	 $LXS.bad+= my.charm
+         '<div class="dialog_menu">'
+             '<p>I:Huh-isn`t it a good feeling to travel to the hot spring?This kind of place is very suitable for couples❤</p>'
+             '<p><<$LXS.name>>:Hug each other gently in the spring water, listening to the sound of the spring water flowing, as if the soul is also resonating.The warmth of the hot spring not only melts fatigue, but also melts all kinds of troubles in our hearts. We are closer and closer to each other.Hot spring travel has become a beautiful witness to our relationship❤</p>'
+             '<p>I:Really fakeO_oYour language has improved by leaps and bounds.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Study abroad_Fuck_Pick up":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\接客1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<9:
+        '<div class="button_menu">'
+
+            if q=0:'<div class="buttonG1"><a href="exec:a=1 & money-=1888 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">More services$1888 </a></div>'
+            if q=0:'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+            if q=1 or q=2 or q=3 or q=4:
+            '<div class="buttonG2"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Whole body lubrication </a></div>'
+            '<div class="buttonG3"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Private massage </a></div>'
+            '<div class="buttonG4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Chest push </a></div>'
+            '<div class="buttonG5"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Oral sex </a></div>'
+            end
+
+
+            if q=5:
+            '<div class="buttonG4"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Sit up </a></div>'
+            end
+            if q=6 or q=7 or q=8:
+            if a!8: '<div class="buttonG5"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Turn your back </a></div>'
+            if a=8: '<div class="buttonG4"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Turn around </a></div>'
+            end
+
+            if q=9:
+            '<div class="buttonG"><a href="exec:a=9 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Pick up''">Ejaculation </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonG"><a href="exec:gt ''Kabukicho''">Checkout and leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:<<$Protagonist`s_name>>❤I am now a custom girl here, but you have to believe me, there is absolutely no service.</p>'
+             if a>=1:'<p>I:really?</p>'
+             if a>=2:'<p><<$LXS.name>>:Well, I don`t do it with guests<<$Panting2>></p>'
+         '</div>'
+    end
+    if 8>=a and a>=6:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:<<$Protagonist`s_name>>❤This is also a special service that only you have. You have to believe me, there is absolutely no such service.</p>'
+         '</div>'
+    end
+
+
+    if a>=9:
+    	 $LXS.love+= my.charm
+    	 $LXS.bad+= my.charm
+         '<div class="dialog_menu">'
+             '<p>I:It doesn`t matter if I don`t have a condom, right?</p>'
+             '<p><<$LXS.name>>:It`s okay❤ I got used to it a long time ago, now I take birth control pills as vitamins every day.</p>'
+             '<p>I:Hmm?O_o</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Tent dating":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LXS\vids\帐篷1-<<$Internationalstudenttent>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if $Internationalstudenttent=0:'<div class="button"><a href="exec:$Internationalstudenttent=1 & gt ''Study_abroad_Event'',''Tent dating''">Go make a fire</a></div>'
+		if $Internationalstudenttent=1:'<div class="button"><a href="exec:$Internationalstudenttent=2 & gt ''Study_abroad_Event'',''Tent dating''">Toasted marshmallows</a></div>'
+		if $Internationalstudenttent=1:'<div class="button"><a href="exec:$Internationalstudenttent=3 & gt ''Study_abroad_Event'',''Tent dating''">Grilled steak</a></div>'
+		if $Internationalstudenttent=3:
+			'<div class="buttonG3"><a href="exec:money-=200 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Fireworks￥200</a></div>'
+			if Maotai>0:'<div class="buttonR3"><a href="exec:Maotai-=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Drink red Maotai wine</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of Maotai wine</a></div>'
+		end
+		'<div class="button"><a href="exec:gt ''park''">Almost there</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $Internationalstudenttent=0:
+			'<p><<$LXS.name>>: I`m coming~Are you going camping this time?Okay, okay!</p>'
+		end
+		if $Internationalstudenttent=1:
+			'<p>I: Are you good at this?</p>'
+		end
+		if $Internationalstudenttent=2:
+			'<p><<$LXS.name>>:  The marshmallows are burnt……</p>'
+		end
+		if $Internationalstudenttent=3:
+			'<p><<$LXS.name>>:  Perfect five-point cooked steak!Great success</p>'
+		end
+	'</div>'
+End
+
+if $args[0]="Study abroad_Fuck_Tent wine":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\帐篷3-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            if q=0 or q=1 or q=2 or q=3:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Drunk blowjob </a></div>'
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Playing with Sao cunt </a></div>'
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Screaming after drinking </a></div>'
+            if q>=3:'<div class="buttonS4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Vigorously pump </a></div>'
+            end
+            if q=4:'<div class="buttonS5"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Drunk and violent thrusting </a></div>'
+            
+            if q=5:
+            '<div class="buttonR3"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Ejaculation </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">Take her home</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:What`s this?I have only drunk red wine.</p>'
+             '<p>I:Try this, the red Maotai wine.</p>'
+         '</div>'
+    end
+
+    if 5>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:I want it<<$Panting>></p>'
+             '<p>I:Is the wine so strong?</p>'
+             if a>=3:'<p><<$LXS.name>>:Oh Oh Oh Oh Oh Oh Oh also Oh Oh Oh Oh Oh Oh Oh Oh Oh Oh good Oh Oh Oh Oh Oh Oh Oh Oh Oh Oh give me Ah Ah Oh Oh Oh Oh Oh Oh Oh give me❤</p>'
+         '</div>'
+    end
+
+
+    if a>=6:
+    	 $LXS.love+=my.charm+q
+    	 $LXS.bad+=my.charm+q
+         '<div class="dialog_menu">'
+             '<p>I:Hello, Is there still consciousness?</p>'
+             '<p><<$LXS.name>>:I am, like, so happy right now, you have no idea.Ohhhh, never drinking again after tonight.</p>'
+             '<p>I:It seems to be in place.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="Study abroad_Fuck_Tent flower":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LXS\vids\帐篷2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<7:
+        '<div class="button_menu">'
+            if q=0:'<div class="buttonS1"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Rubbing tits </a></div>'
+            if q=1:'<div class="buttonS2"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Take off your pants </a></div>'
+            if q=2 or q=3:
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Hold my mouth </a></div>'
+            '<div class="buttonS4"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Touch the lower body </a></div>'
+            end
+            if q=4:'<div class="buttonS5"><a href="exec:a=5 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Insert her deeply </a></div>'
+            
+            if q=5:'<div class="buttonR3"><a href="exec:a=6 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Accelerate thrusting </a></div>'
+
+            if q=6:'<div class="buttonR3"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Ejaculation </a></div>'
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">Take her home</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$LXS.name>>:The sound of fireworks echoed gently in the night sky, as if adding a touch of mysterious music to the night.When the colored sparks bloom, I can almost feel their warmth and energy, as if it is a flame lit by nature for me.At the moment of the fireworks, I couldn`t help but revel in it, forgetting all my troubles, leaving only the joy and tranquility in my heart.</p>'
+             '<p>I:Seeing you say this, I am very relieved of your language level.</p>'
+         '</div>'
+    end
+
+    if 6>=a and a>=1:
+         '<div class="dialog_menu">'
+         	 '<p>I:Let`s do it, I can`t help it.</p>'
+             '<p><<$LXS.name>>:Is it here?<<$Panting>></p>'
+             if a>=5:'<p><<$LXS.name>>:Hmm<<$words>></p>'
+         '</div>'
+    end
+
+
+    if a>=7:
+    	 $LXS.love+=my.charm+q
+    	 $LXS.bad+=my.charm+q
+         '<div class="dialog_menu">'
+             '<p>I:Can you teach me a few words of English?</p>'
+             '<p><<$LXS.name>>:I am such a goofball.</p>'
+             '<p>I:What do you mean?</p>'
+             '<p><<$LXS.name>>:I am a handsome guy.</p>'
+             '<p>I:I am such a goofball.</p>'
+             '<p><<$LXS.name>>:Hahaha.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+--- Study_abroad_Event ---------------------------------
+

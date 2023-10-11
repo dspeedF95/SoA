@@ -1,0 +1,83 @@
+# Strategy_sponsorship2
+cls
+gs'menu_time_calc'
+
+Firstlinea1=rand(1,9)
+Secondlinea1=rand(1,8)
+Thirdlinea1=rand(1,5)
+
+'<div id="right-column">'
+    gs'menu_time'
+	gs'menu_status_show'
+    '<div class="actions_menu">'
+    
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Firstlinea1 & gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Firstlinea1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Firstlinea1+1&gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Firstlinea1+1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Firstlinea1+2 &gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Firstlinea1+2>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Firstlinea1+3 &gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Firstlinea1+3>>).jpg"></a>'
+        '</div>'
+        ! ###############################################################
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1 & gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Secondlinea1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1+1&gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Secondlinea1+1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1+2 &gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Secondlinea1+2>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1+3 &gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Secondlinea1+3>>).jpg"></a>'
+        '</div>'
+        ! ###############################################################
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1 & gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Thirdlinea1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1+1&gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Thirdlinea1+1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1+2 &gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Thirdlinea1+2>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1+3 &gt ''Strategy_sponsorship2''"><img class="img_stretch" src="images\videos\cheak\new\fpussy (<<Thirdlinea1+3>>).jpg"></a>'
+        '</div>'
+        ! ###############################################################
+
+        
+    '</div>'
+'</div>'
+
+
+if $ARGS[0]="":
+    q+=1
+	'<div class ="show_menu"><img src="images\place\猫咪密码2.jpg" width="854"></div>'
+        
+    '<div class="button_menu">'
+!ds        if q=6 and a=35:'<div class="buttonG"><a href="exec:$Strategyunlock=44 & gt $loc,$metka">Unlock strategy</a></div>'
+		if q=6:'<div class="buttonG"><a href="exec:$Strategyunlock=44 & gt $loc,$metka">Unlock strategy</a></div>'
+        if q>6: '<div class="buttonGr"><a href="exec:">Seeing this description has been clicked wrong</a></div>'
+        '<div class="buttonS2"><a href="exec:q-=1 & gt ''Strategy_sponsorship2''">No pattern·refresh</a></div>'
+        '<div class="button"><a href="exec: gt $loc,$metka">leave</a></div>'
+    '</div>'
+
+    '<div class="dialog_menu">'
+        '<p>·Thank you very much for your generous sponsorship. Your support is a great incentive for me.</p>'
+        '<p>·I`m too tired to update two versions in a row for a month, and I want to catch my breath a little bit.The picture above is a featured class plan a long time ago, used to complete Matsumoto Ichika(Minister`s daughter)Unlock later<<$JYB.name>>。But every time I think about it, I feel a headache. It feels very troublesome to do it. If you don`t do it, you feel that the film is in vain... If you have any ideas, you can download the submitted plot template.：https://gofile.io/d/4RDLyu</p>'
+        '<p>·——————————————————</p>'
+        '<p>·May need you to have a good look</p>'
+        '<p>·——————————————————</p>'
+		'<p><B><span class =''red''>note：126@The mailbox cannot receive my email reply, please change the mailbox</p>'
+        '<p>·The strategy is backward compatible, for examplev44.4After the version is unlocked, the previous one is coveredV42Will also be unlocked together</p>'
+    '</div>'
+End
+
+--- Strategy_sponsorship2 ---------------------------------
+

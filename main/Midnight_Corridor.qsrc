@@ -1,0 +1,207 @@
+# Midnight_Corridor
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+minutes+=30
+a=0 & q=0
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs'University_Map'
+'</div>'
+
+
+if $args[0]="":
+	 $corridornum=rand (0,4)
+	 if $Yuya_Event_Chain>=2:$corridornum=rand (0,3)
+	  '<div class ="show_menu"><img src="images\place\午夜走廊.jpg" width="854"></div>'
+
+	  
+	'<div class="button_menu">'
+		if $XZ_Event_ghost<=1:
+		'<div class="button"><a href="exec:minutes+=25 &$XZ_Event_ghost+=1& gt ''Midnight_Corridor'',''Ghost''">Ghosts in the distance</a></div>'
+		elseif $XZ_Event_ghost<=4:'<div class="button"><a href="exec:minutes+=25 &$XZ_Event_ghost+=1& gt ''Midnight_Corridor'',''Ghost''">Hide in the men`s room</a></div>'
+		elseif $XZ_Event_ghost=6:'<div class="button"><a href="exec:minutes+=25 & $XZ_Event_ghost=6  & gt ''Midnight_Corridor'',''Ghost2''">Slim shadow</a></div>'
+		elseif $XZ_Event_ghost>=7:'<div class="button"><a href="exec:minutes+=25 & $XZ_Event_ghost+=1& gt ''Midnight_Corridor'',''Ghost2''">Naked ketone body</a></div>'
+		end
+		if $Secretarialschoolcandidshot=1:'<div class="buttonPu3"><a href="exec:gt ''Secretary_event'',''MS_Fuck_school''">wait<<$MS.name>></a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>(There seems to be an eye staring at you at the end of the darkness)</p>'
+		if  $corridornum>=4 or $Yuya_Event_Chain=1:'<p>From upstairs<a href="exec:minutes+=5 &gt ''Midnight_Corridor'',''Groan''">Groan</a></p>'
+	'</div>'
+End
+
+
+if $args[0]="Ghost":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\XZ\vids\事件<<$XZ_Event_ghost>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 &$XZ.bad+=2& gt ''university''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $XZ_Event_ghost=1:'<p>...Who will it be...It`s not really a ghost, is it?.....In front is the men`s room...Do ghosts have to go to the toilet too?I have to seeTAThe true face.</p>'
+		if $XZ_Event_ghost=2:'<p>？！Actually it is<<$XZ.name>>？！What is she doing in the school`s men`s room so late?It seems that I have to investigate it well.</p>'
+		if $XZ_Event_ghost>=3:'<p>You hid behind the door, a pair of eyes appeared in the dark.....You observe<<$XZ.name>>Gradually took off his coat and showed a naked posture.You are both excited and scared.</p><p><<$XZ.name>>:Huh----Finally able to relax----this school belongs to me----now I can do whatever I want————</p>'
+		if $XZ_Event_ghost>=4:'<p><<$XZ.name>>:This kind of pleasure can`t be made by those sex doll toys....This is really cool.</p>'
+		if $XZ_Event_ghost>=5:
+			'<p><<$XZ.name>>:When those complaints are resolved, reward yourself for a bolder disclosure.</p>'
+		 $XZ_Event_ghost=5
+		 end 
+	'</div>'
+End
+
+if $args[0]="Ghost2":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\XZ\vids\事件<<$XZ_Event_ghost>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $XZ_Event_ghost.completed<2:
+			if  $XZ_Event_ghost>=9 and camera>0 and $XZ_Event_ghost.completed=0 :
+				'<div class="button"><a href="exec:minutes+=5 & $XZ_Event_ghost.completed=1 & gt ''university''">Take it down</a></div>'
+			 else:
+				'<div class="buttonGr"><a href="exec:">Need a camera+Handling new complaints</a></div>'
+			 end
+		 end
+		 
+		if  $XZ_Event_ghost.completed=2:
+			'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Principal_Event'',''XZ_Fuck_Early morning training''">Show up</a></div>'
+		 else:
+			'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		 end
+		
+		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $XZ_Event_ghost=6:
+			'<p><<$XZ.name>>:<<$Protagonist`s_name>>This guy is a bit reliable, so leave it to him next time.Ah-then reward yourself for masturbating here.</p>'
+			if  $LJ_Event_Steal=0: $LJ_Event_Steal=1
+		end
+		if $XZ_Event_ghost>=8:'<p><<$XZ.name>>:Huh---freely exposed freely in my school-the cold air makes my pussy shrink more intensely....</p>'
+		if $XZ_Event_ghost>=9:'<p>What she didn`t know was that there was an eye looking at her in the dark.I don`t know anything about her fate that is about to be at the mercy of others.</p>'& $XZ_Event_ghost=8
+	'</div>'
+End
+
+if $args[0]="Groan":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\videos\杂\走廊4~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+		'<div class="button_menu">'
+			if $Yuya_Event_Chain=1:'<div class="buttonPu3"><a href="exec:minutes+=5 & gt ''Yuya_Event'',''Peek in the hallway''">Peek</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
+		'</div>'
+	'<div class="dialog_menu">'
+		'<p>(Someone is actually fighting in the field in the safe passage, who will it be?...)</p>'
+	'</div>'
+End
+--- Midnight_Corridor ---------------------------------
+
+# mountainsR&M
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+gs "Energy_judgment"
+
+if plant_num>=100:
+	plant+=1
+	plant_num=0
+end
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="suburbs" href="exec:minutes+=30 & gt ''suburbs''"><img class="img_stretch" src="images\place\郊外_<<$times_of_day>>.jpg"></a>
+		</div>'
+	'</div>'
+'</div>'
+
+
+if $args[0]="":
+	'<div class ="show_menu"><img src="images\place\山峦R&M_<<$times_of_day>>.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonB3"><a href="exec:minutes+=120 & plant_num+=RAND(15,25) & my.energy-=RAND(15,25) & gt ''mountainsR&M''">Watering 2h</a></div>'
+		'<div class="buttonR3"><a href="exec:minutes+=180 & plant_num+=RAND(20,40) & my.energy-=RAND(20,35) & gt ''mountainsR&M''">Deworming 3h</a></div>'
+		if Jin_Kailuo>0:
+		'<div class="buttonG3"><a href="exec:minutes+=240 & Jin_Kailuo-=1 & plant_num+=RAND(49,79) & my.energy-=RAND(20,35) & gt ''mountainsR&M''">Fertilize 4h [Jin坷垃!】</a></div>'
+		end
+		if Heterochromaticplantseeds>0:'<div class="buttonGn3"><a href="exec:gt ''mountainsR&M'',''Cultivating Heterochromatic plants''">Cultivating Heterochromatic plants</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><font color="#99CC33">MountainsR&MArea 区域☣</font></p>'
+		'<p></p>'
+		'<p>Maturity：<<plant_num>> %</p>'
+		'<p></p>'
+		'<p>Currently ripe fruit：<<plant>> a</p>'
+		'<p></p>'
+		'<p>What exactly caused the variation of vegetation?</p>'
+	'</div>'
+end
+
+
+if $args[0]="Cultivating Heterochromatic plants":
+	'<div class ="show_menu"><img src="images\place\异色<<rand(0,4)>>.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if plantYS_num>=50:'<div class="buttonS"><a href="exec:gt ''mountainsR&M'',''Look around''">Look nearby</a></div>'
+		if hour=12 and $MS.bad>=200:'<div class="buttonG3"><a href="exec:a=0 & q=0 & gt ''Secretary_event'',''secretary_Fuck_Engage in the mountains''">There is an intruder</a></div>'
+		'<div class="buttonB3"><a href="exec:minutes+=120 &  plantYS_num+=RAND(10,20) & my.energy-=RAND(20,35) & gt ''mountainsR&M'',''Cultivating Heterochromatic plants''">Watering 2h</a></div>'
+		if plantYS_num>=100:'<div class="buttonGn4"><a href="exec:plantYS_num=0 & Heterochromatic_plant_seedlings+=1 & gt ''mountainsR&M'',''Cultivating Heterochromatic plants''">Harvesting plant seedlings</a></div>'
+
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><font color="#00ff00">你你You buckled the petri dish upside down on the land, and a surprising scene appeared☣☣</font></p>'
+		'<p>The air around you begins to get hot and dry, and you unconsciously feel a nameless lust in your heart.</p>'
+		'<p>·————————</p>'
+		'<p>Maturity：<<plantYS_num>> %</p>'
+	'</div>'
+end
+
+
+if $args[0]="Look around":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CT\vids\YZD1-<<rand(0,5)>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonS"><a href="exec:gt ''mountainsR&M'',''Look around''">Look nearby</a></div>'
+		'<div class="buttonGn1"><a href="exec:gt ''mountainsR&M'',''Cultivating Heterochromatic plants''">return</a></div>'
+		
+		
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·The men and women who came for a picnic nearby became so strange. Could it be that they were affected by that plant?</p>'
+	'</div>'
+end
+
+
+
+
+
+
+
+
+--- mountainsR&M ---------------------------------
+

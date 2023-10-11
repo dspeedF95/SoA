@@ -1,0 +1,68 @@
+# Opening
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+
+		</div>
+	</div>'
+'</div>'
+
+
+
+
+
+
+
+if year <=2010:
+'<div class ="show_menu"><img src="images\intro\intro.jpg" width="854"></div>'
+
+'<div class="button_menu">
+	<div class="button"><a href="exec:year+=23 & month=12 & gt ''Opening'' ">Enter your name</a></div>'
+'</div>'
+
+'<div class="dialog_menu">'
+	"I was a premature baby and my mother died due to a hemorrhage while giving birth to me.</p>"
+	"My father viewed me as a sinner because of it and ignored me from a young age, devoting himself to his career instead.</p>"
+	"</p>"
+
+'</div>'
+end
+
+if year >2020:
+$Protagonist_name = $TRIM(($input('My first name is:')))
+if $Protagonist_name="":$Protagonist_name="Name"
+$Protagonist`s_surname = $TRIM(($input('My last name is:')))
+if $Protagonist`s_surname="":$Protagonist`s_surname="Wei"
+$Protagonist`s_name="<<$Protagonist_name>> <<$Protagonist`s_surname>> "
+'<div class ="show_menu"><img src="images\intro\intro1.jpg" width="850"></div>'
+
+'<div class="button_menu">
+	<div class="buttonB"><a href="exec:intro_pick=1 & gt ''Opening_ceremony''">【Small Home Town】</a></div>
+	<div class="buttonR3"><a href="exec:intro_pick=2 & gt ''Opening_ceremony''">【Looks That Can Kill】</a></div>
+	<div class="buttonG"><a href="exec:intro_pick=3 & gt ''Opening_ceremony''">【Rich Playboy】</a></div>'
+	if Devils_Pupil=1:'<div class="buttonS"><a href="exec:intro_pick=4 & gt ''Opening_ceremony''">【Otherworlder】</a></div>'
+'</div>'
+
+'<div class="dialog_menu">'
+	"-My name is <<$Protagonist`s_name>>. In the blink of an eye more than twenty years have passed, and now I'm in my youth, an energetic young man.</p>"
+	"Different upbringing will determine which kind of person I become next.</p>"
+	"-They are: [Small Home Town] [Looks That Can Kill] [Rich Playboy]</p>"
+	"———————————————————————————————————————</p>"
+	"-Intelligence: The ability to learn</p>"
+	"-Charm: The bonus to favorability</p>"
+	"-Financial resources: The initial amount of money</p>"
+'</div>'
+
+end
+
+
+
+
+--- Opening ---------------------------------
+

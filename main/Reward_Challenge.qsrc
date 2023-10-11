@@ -1,0 +1,89 @@
+# Reward_Challenge
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+
+
+
+Firstlinea1=rand(1,9)
+Secondlinea1=rand(1,8)
+Thirdlinea1=rand(1,5)
+
+'<div id="right-column">'
+	gs'menu_time'
+	'<div class="actions_menu">'
+	
+		'<div class="action">'
+			'<a class="photo"  href="exec:a+=Firstlinea1 & gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Firstlinea1>>).jpg"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:a+=Firstlinea1+1&gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Firstlinea1+1>>).jpg"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:a+=Firstlinea1+2 &gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Firstlinea1+2>>).jpg"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo"  href="exec:a+=Firstlinea1+3 &gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Firstlinea1+3>>).jpg"></a>'
+		'</div>'
+		! ###############################################################
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1 & gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Secondlinea1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1+1&gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Secondlinea1+1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1+2 &gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Secondlinea1+2>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Secondlinea1+3 &gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Secondlinea1+3>>).jpg"></a>'
+        '</div>'
+		! ###############################################################
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1 & gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Thirdlinea1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1+1&gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Thirdlinea1+1>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1+2 &gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Thirdlinea1+2>>).jpg"></a>'
+        '</div>'
+        '<div class="action">'
+            '<a class="photo"  href="exec:a+=Thirdlinea1+3 &gt ''Reward_Challenge''"><img class="img_stretch" src="images\videos\cheak\new\cpussy (<<Thirdlinea1+3>>).jpg"></a>'
+        '</div>'
+		! ###############################################################
+
+		
+	'</div>'
+'</div>'
+
+
+if $ARGS[0]="":
+	q+=1
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\TS\vids\游戏开始.webm" type=''video/webm;''></video></div>'
+	'</div>'
+		
+	'<div class="button_menu">'
+!ds		if q=6 and a=35:'<div class="buttonG"><a href="exec:minutes+=15 & gt ''reward'',''Krypton cheating3''">Pass the test</a></div>'
+		if q=6:'<div class="buttonG"><a href="exec:minutes+=15 & gt ''reward'',''Krypton cheating3''">Pass the test</a></div>'
+		if q>6: '<div class="buttonGr"><a href="exec:">(This message is only here for patch simplicity, its fine, click Pass the test)</a></div>'
+		'<div class="buttonS2"><a href="exec:q-=1 & gt ''Reward_Challenge''">No pattern·refresh</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·——————————————————</p>'
+		!'<p>·the first<<q>>wheel：<<a>></p>'
+	'</div>'
+End
+
+
+
+
+
+
+--- Reward_Challenge ---------------------------------
+

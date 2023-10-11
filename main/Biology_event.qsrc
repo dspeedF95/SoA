@@ -1,0 +1,716 @@
+# Biology_event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=5
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+if $args[0]="Meet in the restaurant":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\餐厅<<a>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if a=0:'<div class="buttonG"><a href="exec:minutes+=15 & a+=1 & money-=149 & gt ''Biology_event'',''Meet in the restaurant''">Single package：149￥</a></div>'
+		if a=1:'<div class="button"><a href="exec:minutes+=15 & a+=1 & gt ''Biology_event'',''Meet in the restaurant''">Keep up</a></div>'
+		if a=2:'<div class="button"><a href="exec:minutes+=15 & a+=1 & a=0 & gt ''Biology_event'',''SW_Fuck_Adultery''">Peeping</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Shopping_mall''">leave</a></div>'
+	'</div>'
+
+		if a=0:
+		'<div class="dialog_menu">'
+			'<p><<$SW.name>>: Let me tell you, it was an accident last time!accident!！I won`t miss it this time!All right!Stop talking!See how my mother tied him up!</p>'
+			'<p>Waiter: Sir, what would you like?</p>'
+		'</div>'
+	end
+		if a=1:
+		'<div class="dialog_menu">'
+			'<p>·15Minutes later.....</p>'
+			'<p>Sure enough<<$SW.name>>His body appeared strange.The man picked up the phone and called a carUber。</p>'
+		'</div>'
+	end
+		if a=2:
+		'<div class="dialog_menu">'
+			'<p>·All the way from the end of the restaurant to the hotel, the man entered through the back door to avoid people`s eyes and ears.</p>'
+			'<p>Man: This bitch was finally fainted by me. She cheated so many of my brothers. See how I fuck your bitch hole!</p>'
+		'</div>'
+	end
+End
+
+if $args[0]="SW_Fuck_Adultery":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\迷<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a<10:
+		'<div class="button_menu">'
+			if a!1 and q<=3:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_Adultery''">Play with nipples</a></div>'
+			end
+			if a!2 and 1<=q and q<=5:
+			'<div class="button"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_Adultery''">Buckle hole</a></div>'
+			end
+			if a=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_Adultery''">Let her taste</a></div>'
+			end
+			if a!4 and 3<=q and q<=6:
+			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_Adultery''">Deep throat</a></div>'
+			end
+			if a!5 and 4<=q and a!9:
+			'<div class="button"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_Adultery''">Female upper</a></div>'
+			end
+			if a!6 and 5<=q and a!9:
+			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Adultery''">Back position</a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Adultery''">humiliation</a></div>'
+			end
+			if a!8 and q>=7 and a!9:
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_Adultery''">sprint</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Biology_event'',''SW_Fuck_Adultery''">Internal injection</a></div>'
+			end
+			if a=9:
+			'<div class="button"><a href="exec:a=10 & gt ''Biology_event'',''SW_Fuck_Adultery''">threat</a></div>'
+			end
+
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				if a=10 and camera>0 :'<div class="button"><a href="exec:a=11 & $SW_Event_fan=1 & gt ''Biology_event'',''SW_Fuck_Adultery''">Candid shot</a></div>'else:'<div class="buttonGr"><a href="exec:">Need HD camera</a></div>'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>Collapsed on the bed like a dead pig, muttering in his mouth“ "I really want to be fucked."....”</p>'
+			 '<p>man:Huh?Do you still want to be fucked when you are dizzy?Then I will fulfill you!</p>'
+		 '</div>'
+	end
+	if 9>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :*<<$Panting>>...The vague words in his mouth seemed to be begging for mercy.</p>'
+		 '</div>'
+	end
+
+
+	if a=10:
+		 '<div class="dialog_menu">'
+		 	 '<p>man:I`ll spare you once this time, bitch.I know your name, but I won`t be so lucky next time... I will call all my brothers to gang rape you!</p>'
+		 	 '<p><<$SW.name>> :I... I see……</p>'
+		 	 '<p>·With a puff, thick semen flowed out of the flabby vagina......</p>'
+		 	 '<p>·You want to take a photo of her appearance, but the phone can`t focus accurately.</p>'
+		 '</div>'
+	end
+
+	if a=11:
+		 '<div class="dialog_menu">'
+		 	 '<p>·You filmed the picture contentedly and quietly closed the door.</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_Tuning":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\20<<a>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!11:
+		'<div class="button_menu">'
+			if a=0:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_Tuning''">Kneel down</a></div>'
+			end
+			if a=1:
+			'<div class="button"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_Tuning''">Come here</a></div>'
+			end
+			if a=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_Tuning''">Rub it yourself</a></div>'
+			end
+			if a!4 and 3<=q and q<=6:
+			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_Tuning''">Pick your own holes</a></div>'
+			end
+			if a!5 and 4<=q and a!10:
+			'<div class="button"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_Tuning''">patience</a></div>'
+			end
+			if a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Tuning''">Licked is allowed</a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Tuning''">serve</a></div>'
+			end
+			if a!8 and q>=7 and a!10:
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_Tuning''">Oral sex</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Biology_event'',''SW_Fuck_Tuning''">Play with her</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=10 & gt ''Biology_event'',''SW_Fuck_Tuning''">Shoot in the mouth</a></div>'
+			end
+			if q>=3:
+			'<div class="button"><a href="exec:a=11 & gt ''Biology_event'',''SW_Fuck_Tuning''">end</a></div>'
+			end
+
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">Got it</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:Please, delete the photos, okay, the teacher is willing to do anything....Hurry up!The teacher is already wet, hurry up and pinch my mother`s neck to fuck!</p>'
+			 '<p>I:.......(Who is training who?..）</p>'
+		 '</div>'
+	end
+	if 10>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :<<$Panting>>…</p>'
+			 if a=5:'<p><<$SW.name>> :<<$Protagonist`s_name>>Master... I can`t stand it anymore... Hurry up... let my mother lick it.…</p>'
+		 '</div>'
+	end
+
+	if a=11:
+		 $SW.love+=q/2+my.charm
+		 $SW.bad+=q*3/4
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:<<$Protagonist`s_name>>Master... I hope the frequency of training is twice a day... If it is not up to it, my mother will have a little emotion.…</p>'
+			 '<p>I:………</p>'
+		 	 '<p>·The training is over</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_hotel":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\酒店1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!8:
+		'<div class="button_menu">'
+			if a=0:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_hotel''">serve</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_hotel''">Lick</a></div>'
+			end
+			if a!3 and 5>=q and q>=1:
+			'<div class="button"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_hotel''">Oral sex</a></div>'
+			end
+			if a!4 and 8>=q and q>=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_hotel''">Normal bit</a></div>'
+			end
+			if a!5 and 10>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_hotel''">ride</a></div>'
+			end
+			if a=4 or a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_hotel''">sprint</a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_hotel''">Internal injection</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_hotel''">dialogue</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:What the teacher wants to ask you is: please freely insert my bitch pussy and play with me as a sex product!！</p>'
+		 '</div>'
+	end
+	if 7>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :<<$Panting>>...like me to play with you like this...Oh no, played with by you</p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 $SW.love+=q/2+my.charm
+		 $SW.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:<<$Protagonist`s_name>>Master... I haven`t had enough fun yet…</p>'
+			 '<p>I:………</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_Go home":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\回家1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!8:
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_Go home''">masturbation</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_Go home''">Two-point masturbation</a></div>'
+			end
+			if a!3 and 5>=q and q>=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_Go home''">Oral sex</a></div>'
+			end
+			if a!4 and 8>=q and q>=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_Go home''">Back in</a></div>'
+			end
+			if a!5 and 10>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_Go home''">Anal sex</a></div>'
+			end
+			if a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Go home''">sprint</a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Go home''">Anal creampie</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_Go home''">afterwards</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''Residential_area''">leave</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+		 	 '<p>As soon as she got home, she separated her legs, and she could see the hot and soft pussy at a glance, and she had even soaked her underwear with a lot of lewd water.</p>'
+			 '<p><<$SW.name>>:Except for a few men who occasionally come to the teacher`s house, I live alone.~</p>'
+		 '</div>'
+	end
+	if 7>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :<<$Panting>>…</p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 $SW.love+=q*2+my.charm
+		 $SW.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p>·That kind of endless extreme pleasure made her lose all her sanity in the end, just like a sex prop specially made for men to vent, drinking all the semen.</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_Overtime":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\加班1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!8:
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_Overtime''">Licking milk</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_Overtime''">Lactation</a></div>'
+			end
+			if a!3 and 5>=q and q>=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_Overtime''">Oral sex</a></div>'
+			end
+			if a!4 and 8>=q and q>=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_Overtime''">Back in</a></div>'
+			end
+			if a!5 and 10>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_Overtime''">Open leg</a></div>'
+			end
+			if a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Overtime''">sprint</a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Overtime''">Internal injection</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_Overtime''">end</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=180 & gt ''university''">leave</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:I have to work overtime again, it`s really annoying..Oh?Are you here to help me deal with business, or are you here to deal with anger?</p>'
+		 '</div>'
+	end
+	if 7>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :<<$Panting>>…</p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 $SW.love+=q+my.charm
+		 $SW.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :<<$Panting>>...Okay, if I continue to do it, I will work overtime until dawn!Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
+			 '<p><<$SW.name>> :Oh?！Is it her?Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_Outside the classroom":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\上课00<<a>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!7:
+		'<div class="button_menu">'
+			if a!3 and 5>=q and q>=0:
+			'<div class="button"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Lick</a></div>'
+			end
+			if a!4 and 8>=q and q>=1:
+			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">serve</a></div>'
+			end
+			if a!5 and 20>=q and q>=2:
+			'<div class="button"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Oral sex</a></div>'
+			end
+			if a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Boo boo</a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Bukkake</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:I have to work overtime again, it`s really annoying..Oh?Are you here to help me deal with business, or are you here to deal with anger?</p>'
+		 '</div>'
+	end
+	if 6>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :What a coincidence, the teacher wanted it too…<<$Panting>>…</p>'
+		 '</div>'
+	end
+
+	if a=7:
+		 $SW.love+=q*2+my.charm
+		 $SW.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :<<$Panting>>...you are necrotic!Shot so many people.</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_Health room":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\和校教室开幕.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $XZ.bad>=150 and $XZ.love>=150:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Hands-on demonstration</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $XZ.bad>=200 and $XZ.love>=200 and SW_XZ>=1 :'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Principal experience</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if SW_XZ>=10:'<div class="buttonS5"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Go directly to open a room.</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">Not yet</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$XZ.name>>: Your view of "Characteristic Biology Class: Classroom Sex Experience" is very interesting, but it is difficult for all teachers and students to accept it, right?</p>'
+		'<p><<$SW.name>>: Just let the principal accept it，<<$Protagonist`s_name>>Classmate, do you have any good ideas?</p>'
+		'<p>Me: Hearing is better than seeing, and seeing is better than one line.I think……</p>'
+	'</div>'
+End
+
+
+
+if $args[0]="SW_Fuck_XZdemonstration":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\模拟-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!8:
+		'<div class="button_menu">'
+			if a=0:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Understand the chest</a></div>'
+			end
+			if a!2 and 1<=q and q<=10:
+			'<div class="buttonP"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Understanding the vagina</a></div>'
+			end
+			if a=2:
+			'<div class="buttonP"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Deep into the vagina</a></div>'
+			end
+			if a!4 and 3<=q and q<=7:
+			'<div class="buttonS"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Understanding the anus</a></div>'
+			end
+			if a=4:
+			'<div class="buttonS"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Deep into the anus</a></div>'
+			end
+			if a=3:
+			'<div class="buttonP"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Vaginal thrusting</a></div>'
+			end
+			if a=6 :
+			'<div class="buttonP"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Ejaculation</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">summary</a></div>'
+			end
+
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">Satisfied</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:Then we let<<$Protagonist`s_name>>Students come to do a demonstration，<<$XZ.name>>Just watch it on the side.</p>'
+			 '<p>I:no!<<$XZ.name>>If you feel it, you can participate. This is also part of the classroom interaction.</p>'
+			 '<p><<$SW.name>>:Right, right, right!</p>'
+		 '</div>'
+	end
+	if 7>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :<<$Panting>>...this is the first<<a>>lesson…</p>'
+			 '<p>I:<<$XZ.name>>It seems that this kind of teaching model is not rejected.</p>'
+			 '<p><<$XZ.name>> :………</p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 $SW.love+=q+my.charm
+		 $SW.bad+=q
+		 $XZ.love+=q+my.charm
+		 $XZ.bad+=q
+		 SW_XZ+=1
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:<<$XZ.name>>How about...?</p>'
+			 '<p>I:…<<$XZ.name>>…...ahem!</p>'
+			 '<p><<$XZ.name>> :Uh... it`s really good... I will consider it in the new curriculum reform…</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_XZ3P":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\和校教室-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!10:
+		'<div class="button_menu">'
+			if a=0:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_XZ3P''">dialogue</a></div>'
+			end
+			if a=1:
+			'<div class="buttonB"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_XZ3P''">let<<$SW.name>>Oral sex</a></div>'
+			end
+			if a=1:
+			'<div class="buttonP"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_XZ3P''">let<<$XZ.name>>Oral sex</a></div>'
+			end
+			if a!4 and 2<=q and q<=7:
+			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Touch force</a></div>'
+			end
+			if a!5 and 3<=q and q<=8:
+			'<div class="button"><a href="exec:a=5 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Lactation</a></div>'
+			end
+			if a!6 and a!7 and 4<=q and q<=15:
+			'<div class="buttonP"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_XZ3P''">fuck<<$XZ.name>></a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Move fast!</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Shoot her in the mouth</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=9 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Internal injection</a></div>'
+			end
+			if a>=8:
+			'<div class="button"><a href="exec:a=10 & gt ''Biology_event'',''SW_Fuck_XZ3P''">summary</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">Satisfied</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:This time<<$XZ.name>>Participate wholeheartedly!I have the right to have a say after experiencing it firsthand!</p>'
+			 '<p><<$XZ.name>> :…...then I`m welcome…</p>'
+		 '</div>'
+	end
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$XZ.name>> :……<<$Protagonist`s_name>>Classmate... can the teacher give you oral sex?</p>'
+			 '<p><<$SW.name>>:<<$XZ.name>>Actually asked you for advice?It`s really rare.</p>'
+		 '</div>'
+	end
+
+
+	if 9>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :...yes...that`s it，<<$XZ.name>>It turns out that I am used to having sex in school.</p>'
+			 '<p><<$XZ.name>> :……<<$Panting>>…</p>'
+		 '</div>'
+	end
+
+	if a=10:
+		 $SW.love+=q+my.charm
+		 $SW.bad+=q
+		 $XZ.love+=q+my.charm
+		 $XZ.bad+=q
+		 SW_XZ+=9
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:<<$XZ.name>>Seems very satisfied...?</p>'
+			 '<p>I:…<<$XZ.name>>…...ahem!</p>'
+			 '<p><<$XZ.name>> :That`s right...an excellent “mannequin”...can make the viewer... understand their depth...this is very important!</p>'
+			 '<p><<$SW.name>>:It seems that the new curriculum reform is a shoo-in...?</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="SW_Fuck_XZOpen a room":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SW\vids\KFC-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	if a!9:
+		'<div class="button_menu">'
+			if a=0:
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Lick together</a></div>'
+			end
+			if a=1:
+			'<div class="button"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Touch force</a></div>'
+			end
+			if a!3 and a!4:
+			'<div class="buttonB"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">let<<$SW.name>>demonstration</a></div>'
+			end
+			if a!6 and a!7:
+			'<div class="buttonP"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">let<<$XZ.name>>demonstration</a></div>'
+			end
+			if a=3 or a=6 :
+			'<div class="button"><a href="exec:a+=1 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Keep doing it</a></div>'
+			end
+			if a=4 or a=7 :
+			'<div class="button"><a href="exec:a+=1 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Internal injection</a></div>'
+			end
+			if a=5 or a=8 :
+			'<div class="button"><a href="exec:a=9 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">end</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=15 & gt ''Residential_area''">leave</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>I :…...I think you are already familiar with the teaching content... now the teacher is coming to evaluate you.…</p>'
+			 '<p><<$SW.name>>:No problem!</p>'
+			 '<p><<$XZ.name>> :…<<$Protagonist`s_name>>Classmate... okay…</p>'
+		 '</div>'
+	end
+
+
+	if 8>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>> :...yes...that`s it，<<$words>>…</p>'
+			 '<p><<$XZ.name>> :…<<$Panting>>……</p>'
+		 '</div>'
+	end
+
+	if a=9:
+		 $SW.love+=q+my.charm
+		 $SW.bad+=q
+		 $XZ.love+=q+my.charm
+		 $XZ.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$SW.name>>:<<$XZ.name>>, As long as you pass the curriculum reform, I will definitely vote for you in the general election!</p>'
+			 '<p>I:…<<$XZ.name>>…...ahem!</p>'
+			 '<p><<$XZ.name>> :That`s great. As long as the next principal is still me, then this curriculum reform will definitely pass!</p>'
+			 '<p><<$SW.name>>:Great!</p>'
+			 '<p>·This kind of nondescript teacher-student relationship has made their relationship closer!</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+--- Biology_event ---------------------------------
+

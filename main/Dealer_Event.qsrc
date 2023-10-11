@@ -1,0 +1,1875 @@
+# Dealer_Event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+if $args[0]="Self-recommendation":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\立绘0.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:$CHEvent_chain=3 & gt ''4Sshop''">Give it a try</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>I: I guess you need an excellent sale.</p>'
+		'<p><<$CH.name>>: sales?In fact, we are not short of people for sales positions.</p>'
+		'<p>I: Is that so?I mean the promotion of new products.</p>'
+		'<p><<$CH.name>>: I think, do you mean product marketing?This position requires the use of certain social resources to build a brand image: brand promotion, event influence, and event marketing.</p>'
+		'<p>I:This is my strength.</p>'
+		'<p><<$CH.name>>: Is that so?*Will believe and doubt</p>'
+	'</div>'
+End
+
+if $args[0]="Temporary studio":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\摄影棚1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if a=0:'<div class="button"><a href="exec:a=1 & gt ''Dealer_Event'',''Temporary studio''">Distracted</a></div>'
+		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Dealer_Event'',''Temporary studio''">Look at her</a></div>'
+		if a=2:
+			if $CH.Onbase=1:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Hold it on the table</a></div>'else:'<div class="buttonGr"><a href="exec:">Hold it on the table</a></div>'
+			'<div class="button"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_training0''">Car model practice</a></div>'
+			if $CH.Canbehired=1:'<div class="buttonG"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Interview car model''">Interview car model</a></div>'else:'<div class="buttonGr"><a href="exec:">Interview car model</a></div>'
+			
+		end
+		 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$CH.name>>: The time we can use is only one hour. Why hasn`t the scheduled car model arrived yet?</p>'
+		'<p>I: If you don`t have a concept of time, just change people.</p>'
+		'<p><<$CH.name>>: Do you have any recommended candidates?</p>'
+		if a>=1:'<p>I: uh……</p>'
+		if a>=2:
+			'<p><<$CH.name>>: What`s the matter?</p>'
+			'<p>I: Uh...why don`t...you make this car model?Give it a try!Let your brother be very happy to see you do it yourself!</p>'
+			'<p><<$CH.name>>: But...do you think I can do it?</p>'
+		end
+	'</div>'
+End
+
+if $args[0]="Car dealer_Fuck_training0":
+		$CH.Carmodel+=rand(4,6)
+		$CH.bad+=2
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\训练0-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if a=0:'<div class="button"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_training0''">Insert massage stick</a></div>'
+		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_training0''">Continue training</a></div>'
+		if a=2:
+			if $CH.Carmodel>=50:'<div class="buttonS1"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Pull open the panties</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient preparation</a></div>'
+			if $CH.Carmodel>=100 and $CH.Onbase=1:'<div class="buttonS2"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Advertising shooting</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient preparation</a></div>'
+			if $CH.advertising>=10 and $CH.booth=0:'<div class="buttonS4"><a href="exec:$CH.booth=1 & gt ''4Sshop''">Launch of motorcycle booth</a></div>'
+		end
+		 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$CH.name>>: You have to guide me, I don`t want to lose face in front of my brother.</p>'
+		'<p>I: No problem, you are just too formal.</p>'
+		if a>=1:'<p><<$CH.name>>: Why wear this?Is it too weird?！</p>'
+		if a>=2:
+			'<p>I: Come on, take two steps!</p>'
+			'<p><<$CH.name>>: <<$Panting>></p>'
+		end
+		'<p>·——————————</p>'
+		'<p>·Car model advertising preparation stage：<<$CH.Carmodel>>%</p>'
+		'<p>·Car model advertising market impact：<<$CH.advertising>>%</p>'
+	'</div>'
+End
+
+if $args[0]="Interview car model":
+	 if week_day =1 or week_day =3 or week_day =3 or week_day =5 or week_day =7:
+		$Carmodel.name='Wakana Nao(Double rest car model)'
+		$Carmodelnum='A'
+	 else:
+		$Carmodel.name='Miyuki Love(Single-off car model)'
+		$Carmodelnum='B'
+	 end
+
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\拍摄<<$Carmodelnum>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if $Carmodelnum='A':
+		'<div class="button"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_Interview carA1''">interview<<$Carmodel.name>></a></div>'
+		if $CH.CarmodelA=1:'<div class="button"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Go to the lounge and wait for her</a></div>'
+		end
+		if $Carmodelnum='B':
+		'<div class="button"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">interview<<$Carmodel.name>></a></div>'
+		if $CH.CarmodelB=1:'<div class="button"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Get closer</a></div>'
+		end
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>photographer: Can you look here?One more!</p>'
+		'<p><<$Carmodel.name>>: Ok❤</p>'
+	'</div>'
+End
+
+
+
+if $args[0]="Marketing":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\市场营销<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if a=0:'<div class="button"><a href="exec:a=1 & gt ''Dealer_Event'',''Marketing''">Marketing</a></div>'
+		if a=0 and CH.Desiretobuy1>=1 and money>=5000:'<div class="buttonG"><a href="exec:Money/=2 & a=1 & CH.Desiretobuy1+=2 & gt ''Dealer_Event'',''Marketing''">Smash money marketing<<Money/2>></a></div>'
+		if a=1:'<div class="button"><a href="exec:gt ''4Sshop''">End work</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if a=0:
+		'<p>Male employeeA: It`s really funny, even if the new energy vehicle is not enough, now it is going to launch a new energy motorcycle.</p>'
+		'<p><<$CH.name>>: ………</p>'
+		'<p>Male employeeB: Haha, new energy motorcycles are just toys for the rich.</p>'
+		'<p><<$CH.name>>: ………</p>'
+		'<p>I:Ahem…</p>'
+		'<p>Male employeeA: ！！！</p>'
+		end
+		if a=1:
+		CH.Desiretobuy2+=rand(15,55)
+		if CH.Desiretobuy2>=100:
+			CH.Desiretobuy2=rand(15,55)
+			CH.Desiretobuy1+=1
+		end
+		'<p><<$CH.name>>: I`m working very hard. Let me see the consumer`s desire to buy and make a visual table for me.</p>'
+		'<p>I:uh…</p>'
+		'<p><<$CH.name>>: Is it difficult?Do it to me now.</p>'
+		'<p>I:Ok…</p>'
+		'<p><<$CH.name>>: Potential consumers` desire to buy：<<CH.Desiretobuy1>>.<<CH.Desiretobuy2>>%……</p>'
+		if CH.Desiretobuy1>=15:
+		'<p>I:It`s not a way to keep throwing money in.…</p>'
+		'<p><<$CH.name>>: Do you have time recently at night?Accompany me to meet a few important customers…</p>'
+		'<p>I:When?</p>'
+		'<p><<$CH.name>>: Friday night18:00, Red restaurant.</p>'
+		if $CHEvent_chain=3:$CHEvent_chain=4
+		end
+		end
+	'</div>'
+End
+
+
+if $args[0]="Accompany dinner":
+		$CH.love+=1
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐对话.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if $CH.rice>=0:'<div class="buttonG1"><a href="exec:gt ''Dealer_Event'',''Raise your head1''">Meet investors</a></div>'
+		if $CH.rice>=1:'<div class="buttonS1"><a href="exec:gt ''Dealer_Event'',''Raise your head2''">appointment<<$TS.name>></a></div>'
+		if $CH.rice>=2:'<div class="buttonPu1"><a href="exec:gt ''Dealer_Event'',''Raise your head3''">appointment<<$NY.name>></a></div>'
+		if $CH.rice>=3:'<div class="buttonS"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">She takes your hand</a></div>'
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$CH.name>>: <<$Protagonist`s_name>>, Recite the product introduction again.</p>'
+		'<p>I: The new energy motorcycle is a kind of motorcycle that uses electrical energy, solar energy, hydrogen energy, etc. to replace traditional fuels. It has multiple advantages and broad prospects.First of all, because they do not produce harmful gases and pollutants, and meet the requirements of modern society for environmental protection, they have become an important direction for the development of motorcycles in the future.Secondly, with the continuous progress of battery technology and the improvement of battery life, the performance and reliability of new energy motorcycles are also constantly improving, and they have been able to meet the needs of daily use.In addition, new energy motorcycles also have the advantages of low noise and low maintenance costs, which can bring users a better experience and economic benefits.Although the price of new energy motorcycles is relatively high compared to traditional motorcycles, with the continuous maturity of technology and the gradual expansion of production scale, the price will gradually decrease.Therefore, it is foreseeable that the future prospects of new energy motorcycles are very broad and will become an important direction in the field of transportation in the future.</p>'
+		'<p><<$CH.name>>: Very good, look at my eyes and act next!</p>'
+	'</div>'
+End
+
+
+
+if $args[0]="Raise your head1":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐1.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if $CH.rice>=0:'<div class="buttonG1"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_meal1''">Negotiate alone</a></div>'
+		if $CH.mouth=1:'<div class="buttonS4"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Have dinner together</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $CH.rice=0:
+		'<p>Huang Yuzu (Rich Woman): Strange, I obviously know all the words on these contracts, but why can`t I understand them even when they are connected.</p>'
+		'<p><<$CH.name>>: Recently, our marketing plan has been subject to some restrictions. We need a sum of funds to continue the promotion. Are you interested in becoming our investor?</p>'
+		'<p>Investment advisor: How much investment do you need?What is the expected rate of return?</p>'
+		'<p><<$CH.name>>: Currently we need at least ￥5,000,000To support our marketing activities, including advertising, promotion, marketing and other expenses.</p>'
+		'<p>Investment advisor: ￥5,000,000？？？Are you kidding me?Miss, let`s go, this will not be a reasonable investment.</p>'
+		'<p>Huang Yuzu (Rich Woman): Okay, then let`s go directly to the hotel❤</p>'
+		'<p>I: uh……</p>'
+		else:
+		'<p>Investment advisor: Miss, do you really plan to invest?Do you need to be cautious about investment?！</p>'
+		'<p>Huang Yuzu (Rich Woman): It`s okay, it`s a trifle❤</p>'
+		'<p><<$CH.name>>: Many thanksI`ll invite you to dinner next time!</p>'
+		'<p>Huang Yuzu (Rich Woman): Thank me, forget it, thank you<<$Protagonist`s_name>>Oh❤</p>'
+		'<p><<$CH.name>>: Oh?！It seems that you are quite capable.</p>'
+		'<p>Investment advisor: Miss, just sign here.</p>'
+		'<p>Huang Yuzu (Rich Woman): Okay, then let`s go directly to the hotel❤</p>'
+		end
+	'</div>'
+End
+
+
+if $args[0]="Raise your head2":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐2.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if $CH.rice>=1:
+		if $TS.love>=my.charm*15:'<div class="buttonS3"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_meal2''">Negotiate privately</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability<<my.charm*15>></a></div>'
+		end
+		if $CH.mouth=1:'<div class="buttonS4"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Have dinner together</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $CH.rice=1:
+		'<p><<$TS.name>>:  What can I do to cooperate?</p>'
+		'<p><<$CH.name>>: We are looking for a place to shoot promotional videos and advertisements for new energy motorcycles. I know that your company has a large studio. Can I rent it?</p>'
+		'<p><<$TS.name>>:  Sorry, I can`t help you.Our company`s studio can only be used for internal activities and projects, and we will not rent it out to outsiders.</p>'
+		'<p><<$CH.name>>: Uh...but our promotional videos and advertisements are very important for the marketing of new energy motorcycles. We hope to be able to rent your company`s studio to complete this task.</p>'
+		'<p><<$TS.name>>:  Under normal circumstances, I would not do things that violate the group`s regulations.*Blink</p>'
+		'<p>I: uh……</p>'
+		else:
+		'<p><<$TS.name>>:  Uh-huh, I thought of a way for you, you can do it on [weekend afternoon13:00—14:00】 Click for temporary use.</p>'
+		'<p><<$CH.name>>: Really?Thank you so much, how about the rent?</p>'
+		'<p><<$TS.name>>:  If you use it for free, in case you get caught, I will not be responsible. If I collect the money, it will be difficult to characterize.</p>'
+		'<p>I: You are not only good-looking, but also smart.</p>'
+		'<p><<$TS.name>>:  Then your brain is active.*Take a look at you for nothing</p>'
+		'<p><<$CH.name>>: Anyway...thank you.*Looking at you suspiciously</p>'
+		end
+	'</div>'
+End
+
+
+if $args[0]="Raise your head3":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐3.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if $CH.rice>=2:
+		if $NY.bad>=my.charm*17:'<div class="buttonPu4"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_meal3''">Toilet negotiation</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*17>></a></div>'
+		end
+		if $CH.mouth=1:'<div class="buttonS4"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Have dinner together</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $CH.rice=2:
+		'<p><<$NY.name>>: Have something to say.</p>'
+		'<p><<$CH.name>>: Hello, regarding new energy motorcycles, I wonder if Imperial Energy can provide super fast charging or battery replacement to expand its business?I heard that your company is very experienced in this area. Can we cooperate?</p>'
+		'<p>Accompanying assistant: Sorry, I am very disgusted with this idea.Imperial Energy already has its own product line and customer base, and is not interested in cooperating with other companies.</p>'
+		'<p><<$CH.name>>: Uh...I understand what you think, but this is obviously a good and mutually profitable cooperative business. Charging services can attract more new energy motorcycles, and more new energy motorcycles will bring more charging profits. Why are you not interested?</p>'
+		'<p>Accompanying assistant:  I repeat, we do not have the time and energy to provide services to other companies.</p>'
+		'<p>I: uh……</p>'
+		else:
+		'<p><<$NY.name>>: Super fast charging or battery replacement to expand business... I will arrange it.</p>'
+		'<p>Accompanying assistant: Uh...why did your attitude change so quickly?</p>'
+		'<p>I: What else?！</p>'
+		'<p><<$NY.name>>: Imperial Energy will wholeheartedly provide quality service in order to reach in-depth cooperation with your company.</p>'
+		'<p><<$CH.name>>: Really?Great!</p>'
+		end
+	'</div>'
+End
+
+
+if $args[0]="Car dealer_Fuck_meal1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<5:
+        '<div class="button_menu">'
+
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_meal1''">Have a shot?</a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_meal1''">Oral sex</a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_meal1''">Press the head to insert</a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_meal1''">Ejaculation</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_meal1''">Discuss cooperation</a></div>'
+            end
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Reach cooperation</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 4>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:
+                '<p>Me: For you, that money shouldn`t be a problem, right?As long as it makes you happy. </p>'
+                '<p>Huang Yuzu (Rich woman): It`s really not much, it`s a trifle, Hehe.</p>'
+                '<p>Me: Squat down, I have something to make you happy, I know you like this. </p>'
+                '<p>Huang Yuzu (Rich Woman): Huh?How do you know?Hehe.</p>'
+             end
+             if a=1:'<p>Huang Yuzu (Rich Woman): Hehe... then you better really make me happy❤</p>'
+             if a=2:'<p>Me: No problem, slut. </p>'
+             if a=3:'<p>Huang Yuzu (Rich Woman)：<<$Panting>></p>'
+             if a=4:'<p>Me: Catch me with your mouth! </p>'
+         '</div>'
+    end
+
+    if a=5:
+		if $CH.rice=0:
+         '<div class="dialog_menu">'
+                '<p>Me: Investment……</p>'      
+                '<p>Huang Yuzu (Rich Woman): You let me think about it again ❤ </p>'
+                '<p>Me: Are you not satisfied?</p>'      
+                '<p>Huang Yuzu (Rich Woman): No, I feel dizzy now❤ </p>'
+                '<p>Me: One more time?</p>'      
+                '<p>Huang Yuzu (Rich Woman): Okay❤ </p>'
+                '<p>Me: Nice try, if you don`t agree to the capital injection, don`t think about it.</p>'      
+                '<p>Huang Yuzu (Rich Woman): Okay, it`s a trifle❤ </p>'
+         '</div>'
+         else:
+         '<div class="dialog_menu">'
+                '<p>Me: About the investment... thank you very much.</p>'      
+                '<p>Huang Yuzu (Rich woman): You`re welcome, it`s a trifle, we will cooperate often in the future❤ </p>'
+         '</div>'
+         end
+		if $CH.rice=0:$CH.rice=1&CH.Desiretobuy1+=30 & $CH.love+=15
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_meal2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<5:
+        '<div class="button_menu">'
+
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_meal2''">Have a shot?</a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_meal2''">Oral sex</a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_meal2''">Work hard</a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_meal2''">Ejaculation</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_meal2''">Discuss cooperation</a></div>'
+            end
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Of course it`s you ❤</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 4>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:
+                '<p><<$TS.name>>: The way you sit with her makes me uncomfortable.</p>'
+                '<p>Me: Are you jealous? </p>'
+                '<p><<$TS.name>>: This is your free will, I can`t interfere with you.</p>'
+                '<p>Me: Come here, don`t be angry. </p>'
+             end
+             if a=1:'<p><<$TS.name>>: I`m not angry, don`t you just want to fuck her?</p>'
+             if a=2:'<p>Me: Her skills are not as good as yours. </p>'
+             if a=3:'<p><<$TS.name>>: Come on<<$Panting>></p>'
+             if a=4:'<p>Me: It`s going to be shot! </p>'
+         '</div>'
+    end
+
+    if a=5:
+
+         '<div class="dialog_menu">'
+                '<p><<$TS.name>>: Let me ask you, who is beautiful between me and her? </p>'
+                '<p>Me: Why are you asking this?</p>'      
+                '<p><<$TS.name>>: Don`t you want to rent a studio for her?Can`t you ask a question? </p>'
+                '<p>Me: Let me think about it?</p>' 
+                '<p><<$TS.name>>: You still have to think about it, right? </p>'
+         '</div>'
+
+        if $CH.rice=1:$CH.rice=2 & CH.Desiretobuy1+=30 & $CH.love+=15
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_meal3":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐3-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<5:
+        '<div class="button_menu">'
+
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_meal3''">Kneel down!</a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_meal3''">Mouth me</a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_meal3''">Press the head</a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_meal3''">Ejaculation</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_meal3''">Discuss cooperation</a></div>'
+            end
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 4>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:
+                '<p>Me: Disobedient again? </p>'
+                '<p><<$NY.name>>: There were a lot of people outside just now, you have to give me face.</p>'
+                '<p>Me: What about now?</p>'
+             end
+             if a=1:'<p><<$NY.name>>: I see, can`t you be gentle?</p>'
+             if a=2:'<p>Me: Don`t be long-winded, get up for me! </p>'
+             if a=3:'<p><<$NY.name>>：<<$Panting>></p>'
+             if a=4:'<p>Me: Pick it up for me! </p>'
+         '</div>'
+    end
+
+    if a=5:
+
+         '<div class="dialog_menu">'
+                '<p>Me: The cooperation has been done for me, I will go out first, and you will wash it out by yourself.</p>'      
+                '<p><<$NY.name>>：………… </p>'
+         '</div>'
+
+        if $CH.rice=2:$CH.rice=3 & CH.Desiretobuy1+=30 & $CH.love+=15
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_meal4":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\餐4-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<5:
+        '<div class="button_menu">'
+
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">Small reward</a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">Mouth me</a></div>'
+            end
+            if a!3 and 2<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">Look at her</a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">Ejaculation</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">dialogue</a></div>'
+            end
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+            
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Leave together</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 4>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:
+                '<p><<$CH.name>>: You are so amazing, it`s all done!To be honest, I think you are full of charm now!</p>'
+                '<p>Me: Oh?So suddenly?</p>'
+                '<p><<$CH.name>>: I like people who work seriously and responsibly and are capable.</p>'
+                '<p>Me: Really?</p>'
+             end
+             if a=1:'<p>Me: Then guess what I like? </p>'
+             if a=2:'<p><<$CH.name>>: Unexpectedly, you are not bad here❤</p>' 
+             if a=3:'<p><<$CH.name>>：<<$Panting>></p>'
+             if a=4:'<p>Me: Shot! </p>'
+         '</div>'
+    end
+
+    if a=5:
+
+         '<div class="dialog_menu">'
+                '<p>Me: So, what is our relationship now?</p>'      
+                '<p><<$CH.name>>: Guess❤ </p>'
+         '</div>'
+		$CH.mouth=1
+        $CH.love+=q
+        $CH.bad+=3
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_Thanks0":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\感谢0-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<10:
+        '<div class="button_menu">'
+            if a=0 and $CH.rice>=1:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">Small reward</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 and $CH.rice>=2:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">kiss</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 and $CH.rice>=3:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">more</a></div>'
+            end
+            if a>=3 and $CH.rice>=3 and $CH.Onbase=1:
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">Mouth me</a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">Lick her</a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">insert</a></div>'
+            end
+            if a!7 and 6<=q and q<=9:
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">Change posture</a></div>'
+            end
+            if a!8 and 7<=q and q<=10:
+            '<div class="buttonS2"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">Face to face</a></div>'
+            end
+            if a!9 and 8<=q and q<=12:
+            '<div class="buttonS3"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">accelerate</a></div>'
+            end
+            if a=9:
+            '<div class="buttonS4"><a href="exec:a=10 & gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">Ejaculation</a></div>'
+            end
+            end
+            '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">That`s it</a></div>'
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">end</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 9>=a and a>=0:
+        $CH.love+=1
+        $CH.bad+=1
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$CH.name>>: How did you convince each other in the restaurant?Can you teach me your unique negotiation skills?</p>'
+             if a=1:'<p><<$CH.name>>: Come on ❤ What did you say to the investors?How did you fix her?</p>' 
+             if a=2:'<p><<$CH.name>>: You and<<$TS.name>>Do you know each other?Why do I feel that her eyes are ambiguous when she looks at you?</p>' 
+             if a=3:'<p><<$CH.name>>：<<$NY.name>>The change in attitude is because of you, right?You don`t have anything to do with her, do you?</p>' 
+             if a=4:'<p>Me: I will tell you when you are happy to serve me! </p>'
+             if a>4:'<p><<$CH.name>>：<<$Panting>></p>' 
+             if a>6:'<p><<$CH.name>>：<<$words>></p>' 
+         '</div>'
+    end
+
+    if a=10:
+
+         '<div class="dialog_menu">'
+                '<p><<$CH.name>>: Do you know what this will lead to ❤ </p>'
+                '<p>Me: What caused it?</p>'      
+                '<p><<$CH.name>>: My brother knows you are dead❤ </p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=3+my.charm
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_office1":
+	 if $CH.CarmodelB=1 and $CH.CarmodelA=1:$CH.phone=1
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\办公室1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<14:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonG1"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Work hard</a></div>'
+            if $CH.love>=100 and $CH.Comeon>=0:'<div class="buttonP"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Recommend a good place</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+            if CHMMS>0:'<div class="buttonPu1"><a href="exec:a=0 & q=0 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''"><<$MMS.name>>？</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+            end
+            if a!2 and 1<=q and q<=3 and $CH.rice>=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Small reward</a></div>'
+            end
+            if a=2: 
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Touch stockings</a></div>'
+            end
+            if a!4 and 3<=q and q<=5 and $CH.rice>=2:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Touch the thigh</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Play with breasts</a></div>'
+            end
+            if a!6 and 5<=q and q<=7 and $CH.rice>=3:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">kiss</a></div>'
+            end
+            if a!7 and 6<=q and q<=8 and $CH.mouth=1:
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Oral sex</a></div>'
+            end
+            if a!8 and 7<=q and q<=9:
+            '<div class="buttonS2"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Someone is coming</a></div>'
+            end
+			if a=8 and $CH.Comeon=0:
+            '<div class="buttonGr"><a href="exec:">Think of a way</a></div>'
+			end
+            if a!9 and 8<=q and q<=11 and $CH.Comeon=1:
+            '<div class="buttonS3"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Phone bell</a></div>'
+            end
+			if a=9 and $CH.phone=0:
+            '<div class="buttonGr"><a href="exec:">Solve car model advertising</a></div>'
+			end
+            if $CH.phone=1:
+            if a!10 and 9=q and q<=12:
+            '<div class="buttonS4"><a href="exec:a=10 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">insert</a></div>'
+            end
+            if a!11 and 10<=q and q<=13:
+            '<div class="buttonS1"><a href="exec:a=11 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Change posture</a></div>'
+            end
+            if a!12 and 11<=q and q<=14:
+            '<div class="buttonS2"><a href="exec:a=12 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Look at me</a></div>'
+            end
+            if a=12:
+            '<div class="buttonS3"><a href="exec:a=13 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Internal injection</a></div>'
+            end
+            if a=13:
+            '<div class="buttonS4"><a href="exec:a=14 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">dialogue</a></div>'
+            end
+            end
+            '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">That`s it</a></div>'
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">end</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 13>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:
+                '<p>staffA: How about we go for a drink after get off work?</p>'
+                '<p>staffB：<<$Protagonist`s_name>>？Are you together too?</p>'
+                '<p>Me: Uh……</p>'
+                '<p>staffA: Recently, my wife and I divorced, alas.If I divorce, I may be expelled from this city…</p>'
+                '<p>staffB: Then where will you live in the future?</p>'
+                '<p>staffA: Let`s talk while drinking…</p>'
+             end
+             if a=1:
+                CH.Desiretobuy1+=1
+                '<p><<$CH.name>>: I`m working very hard. Let me see the consumer`s desire to buy and make a visual table for me.</p>'
+                '<p>I:Ok…</p>'
+                '<p><<$CH.name>>: Potential consumers` desire to buy：<<CH.Desiretobuy1>>.<<CH.Desiretobuy2>>%……</p>'
+                '<p>I:The desire to buy has risen a lot compared to before…</p>'
+                '<p><<$CH.name>>: Thanks to you, isn`t it?</p>'
+             end
+             if a=2:'<p><<$CH.name>>: What do you think of that investor?My brother told me a lot of rumors about her.</p>' 
+             if a=3:'<p>Me: That rich woman looks like an upstart.</p>' 
+             if a=4:'<p><<$CH.name>>: Then you and<<$TS.name>>What is the relationship?</p>' 
+             if a=5:'<p>Me: We are...a cooperative relationship.</p>' 
+             if a=6:'<p><<$CH.name>>: What kind of cooperative relationship?and<<$NY.name>>Is this the same relationship?</p>' 
+             if a=7:'<p>Me: Uh...it`s different.</p>' 
+             if a=8:
+			 '<p>staffA: My wife actually locked me out of the door again. It seems that I can only spend the night in the company today, damn it.</p>' 
+             if $CH.Comeon=1:'<p>staffA: Huh, I went to find a stripper for a drink❤</p>' 
+             end
+             if a=9:'<p><<$CH.name>>：*The phone rang (Okay, I see, it seems that it can only end here, I have to have a meeting before the car model advertisement goes online)</p>' 
+             if a>9:'<p>Me: Okay, no one will bother us now.</p>' 
+             if a>10:'<p><<$CH.name>>: Um...brother<<$words>></p>' 
+
+         '</div>'
+    end
+
+    if a=14:
+
+         '<div class="dialog_menu">'
+                '<p>Me: Did you just call my brother?Do you like him very much?</p>'     
+                '<p><<$CH.name>>: Do I have it?I don`t remember ❤ </p>'
+                '<p><<$CH.name>>:My brother is an elite in the financial world, and his extraordinary charm makes me admire him so much.His elegant and calm pace, gentle conversation, wisdom and unique thinking❤ </p>'
+                '<p><<$CH.name>>: My brother is not only excellent at work, but also has excellent abilities in interpersonal communication.I was deeply moved by his kind and kind way of treating people and gentlemanly demeanor.Whether it is interacting with colleagues, friends or family, he can control the situation with ease, making people feel at ease and trusting❤ </p>'
+                '<p>I：…………</p>'
+                '<p>·This is the end of the character`s independent plot</p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=3+my.charm
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_oil1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\oil1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<7:
+        '<div class="button_menu">'
+            if a!0 and 0<=q and q<=3 :
+            '<div class="buttonP"><a href="exec:a=0 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Oiled</a></div>'
+            end
+            if a!1 and 0<=q and q<=3 :
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">massage</a></div>'
+            end
+            if a!2 and 2<=q and q<=5 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Finger and abdomen massage</a></div>'
+            end
+            if a!3 and 3<=q and q<=6 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Insert slowly</a></div>'
+            end
+            if a!4 and 4<=q and q<=7 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Change posture</a></div>'
+            end
+            if a!5 and 5<=q and q<=8 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Accelerate thrusting</a></div>'
+            end
+            if a=5 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Ejaculation</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">dialogue</a></div>'
+            end
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">It`s a deal</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$CH.name>>: I feel a little hot and dry in my body…</p>' 
+             if a>=1:'<p><<$CH.name>>: Great<<$Panting>></p>' 
+             if a>=3:'<p><<$CH.name>>: Brother<<$words>></p>' 
+         '</div>'
+    end
+
+    if a=7:
+
+         '<div class="dialog_menu">'  
+                '<p><<$CH.name>>: You are amazing ❤ Your technique can go to the shop❤ </p>'
+                '<p>Me: If I really had a massage parlor, would you come?</p>'     
+                '<p><<$CH.name>>: Of course❤ </p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=q+my.charm
+        $CH.Pressed=1
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_Night return1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\夜归1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<9:
+        '<div class="button_menu">'
+            if a!1 and 0<=q and q<=3 :
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">dialogue</a></div>'
+            end
+            if a!2 and 1<=q and q<=5 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Ask for a kiss</a></div>'
+            end
+            if a!3 and 1<=q and q<=6 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Play with breasts</a></div>'
+            end
+            if a!4 and 4<=q and q<=7 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Make_love</a></div>'
+            end
+            if $CH.Onbase=0 and a=4:'<div class="button"><a href="exec:gt ''Residential_area''">refuse</a></div>'
+            if $CH.Onbase=1:
+            if a!5 and 5<=q and q<=8 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Tear her down</a></div>'
+            end
+            if a!6 and 6<=q and q<=9 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Sit up</a></div>'
+            end
+            if a!7 and 7<=q and q<=10 :
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Face to face</a></div>'
+            end
+            if a=7 :
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Internal injection</a></div>'
+            end
+            if a=8:
+            '<div class="buttonS1"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">dialogue</a></div>'
+            end
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                if $CH.bad>=my.charm*10+300:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Go take a shower</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity><<my.charm*10+100>></a></div>'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$CH.name>>: Drink some water...Wake up and drink. You just worked hard to stop the wine for me.</p>' 
+             if a=1:'<p><<$CH.name>>: Do you have anything you want to ask?</p>' 
+             if a=2:'<p><<$CH.name>>: Why did you suddenly kiss me?</p>' 
+             if a=3:'<p><<$CH.name>>: If you rub me like this... I will be very comfortable❤</p>' 
+             if a=4:'<p><<$CH.name>>: No...This is not good...I am not such a casual person.</p>'
+             if a>=5:'<p><<$CH.name>>: Slow down<<$words>></p>'
+             if a=8:'<p><<$CH.name>>: Actually shot me inside?！You are screwed!I want to tell my brother!</p>'
+         '</div>'
+    end
+
+    if a=9:
+
+         '<div class="dialog_menu">'  
+                '<p>Me: What happens when your brother finds out?</p>'     
+                '<p><<$CH.name>>: He might kill you❤ </p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=q+my.charm
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_studio2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\摄影棚2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            if a!0 and 0<=q and q<=3 :
+            '<div class="buttonP"><a href="exec:a=0 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Passionate kiss</a></div>'
+            end
+            if a!1 and 0<=q and q<=3 :
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Footjob</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Homeopathic insertion</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Vigorously pump</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Riding position</a></div>'
+            end
+            if a=4 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Ejaculation</a></div>'
+            end
+            if a=5 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_studio2''">Get dressed</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Hurry up and escape</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p>Me: Of course, no one knows this car better than you.</p>' 
+             if a=1:'<p><<$CH.name>>: Stare at me to see if you want this?</p>' 
+             if a>=2:'<p><<$CH.name>>：<<$words>></p>' 
+         '</div>'
+    end
+
+    if a=6:
+
+         '<div class="dialog_menu">'  
+                '<p><<$OX.name>>：<<$Protagonist`s_name>>？Are you in there?I heard your voice.</p>'   
+                '<p>Me: Not good?！</p>'     
+                '<p><<$CH.name>>: What?！Hurry up and get dressed❤ </p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=q+my.charm
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_training1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\训练1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<8:
+        '<div class="button_menu">'
+
+            if a!1 and 0<=q and q<=3 :
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Plug in and walk</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">accelerate</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Stop pumping</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Vigorously pump</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Waist stability training</a></div>'
+            end
+            if a!6 and 5<=q and q<=8 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Leg lift and thrusting</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Ejaculation</a></div>'
+            end
+            if a=7 :
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">dialogue</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$CH.name>>: Do you want to insert it?But I`m not ready yet... okay❤</p>' 
+             if a>=1:'<p><<$CH.name>>: No way<<$Panting>></p>' 
+             if a>=3:'<p><<$CH.name>>：<<$words>></p>' 
+         '</div>'
+    end
+
+    if a=8:
+
+         '<div class="dialog_menu">'  
+                '<p><<$CH.name>>: I wasted another opportunity to practice, it`s all your fault❤ </p>'
+                '<p>Me: It`s okay, we have plenty of time.</p>'     
+         '</div>'
+        $CH.Onbase=1
+        $CH.love+=q
+        $CH.bad+=q
+    end
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_photography1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\摄影1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Shooting is over</a></div>'
+            end
+            if a!2 and 1<=q and q<=5 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Oral sex</a></div>'
+            end
+            if a!3 and 1<=q and q<=6 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Pick her</a></div>'
+            end
+            if a!4 and 4<=q and q<=7 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">insert</a></div>'
+            end
+
+            if a!5 and 5<=q and q<=8 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Pick it up and fuck</a></div>'
+            end
+            if a!6 and 6<=q and q<=9 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Back position</a></div>'
+            end
+            if a!7 and 7<=q and q<=10 :
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Vigorously pump</a></div>'
+            end
+            if a=7 :
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Bukkake</a></div>'
+            end
+            if a=8:
+            '<div class="buttonS1"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">dialogue</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p>Photographer: Come on, look here, it`s great!Let`s have another close-up!</p>' 
+             if a>=1:'<p><<$CH.name>>: Finally finished filming, I don`t know how the effect is.I have worked hard for you during these days.Before you take off this dress again, let me give you some rewards❤</p>' 
+             if a>=2:'<p><<$CH.name>>：<<$Panting>></p>' 
+             if a>=4:'<p><<$CH.name>>: Slow down<<$words>></p>'
+             if a=8:'<p>Me: I`m going to shoot!Open your mouth!</p>'
+         '</div>'
+    end
+
+    if a=9:
+
+         '<div class="dialog_menu">'  
+                '<p><<$CH.name>>: What should I do if my brother is not satisfied❤ </p>'
+                '<p>Me: Then I`ll find some other car models.</p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=q+my.charm
+        $CH.advertising+=rand(3,6)
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_overnight1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\过夜1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<11:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Caress</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Prime stock</a></div>'
+            end
+            if a!3 and 1<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">sex</a></div>'
+            end
+            if a!4 and 4<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Female upper</a></div>'
+            end
+            if a!5 and 5<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Back position</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Ejaculation</a></div>'
+            end
+            if a=6:
+            '<div class="buttonGn"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Hug afterwards</a></div>'
+            end
+            if a=7 :
+            '<div class="buttonB1"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Wake up the next day</a></div>'
+            end
+            if a=8:
+            '<div class="buttonB2"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">dialogue</a></div>'
+            end
+            if a=9 :
+            '<div class="buttonS5"><a href="exec:a=10 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Ejaculation</a></div>'
+            end
+            if a=10:
+            '<div class="buttonS1"><a href="exec:a=11 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Begging for mercy</a></div>'
+            end
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''4Sshop''">Go to the store together</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 10>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$CH.name>>: It`s finished... I... prepared a set of very sexy underwear today. What do you think?</p>' 
+             if 3>=a and a>=1:'<p><<$CH.name>>：<<$Panting>></p>' 
+             if 6>=a and a>=4:'<p><<$CH.name>>: Slow down<<$words>></p>'
+             if a=7:'<p><<$CH.name>>: Don`t leave tonight, will you stay with me?</p>'& my.energy+=150 & hour=6 & minutes+=1440
+             if a=8:'<p>·Early the next morning</p>'
+             if a=9:'<p><<$CH.name>>: Are you awake?Did you dream of me at night?</p>'
+             if a=10:'<p><<$CH.name>>: It`s great to be full of energy early in the morning❤</p>'  
+         '</div>'
+    end
+
+    if a=11:
+
+         '<div class="dialog_menu">'  
+                '<p>Me: Give me a break.</p>'
+                '<p><<$CH.name>>: Are you still interested in my brother?He will come to me to talk about things recently❤ </p>'
+                '<p>Me: What interest can I have in him?I like women.</p>'
+                '<p><<$CH.name>>: Then let`s go to the store together❤ </p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=q+my.charm
+        $CH.Pushbrother=1
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_hotel1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\旅馆1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Lost in a daze</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Mouth her</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Plug in from behind</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Female upper</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Slow thrusting</a></div>'
+            end
+            if a!6 and 5<=q and q<=8 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Be intense</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Internal injection</a></div>'
+            end
+            if a=7 :
+            '<div class="buttonS2"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">dialogue</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Hire someone else</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 7>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$CH.name>>: Huh?You are really heavy.</p>' 
+             '<p>Me: It`s all my fault, I`m sorry.</p>' 
+             if 3>=a and a>=1:'<p><<$CH.name>>: Stop talking, make love to me with your heart<<$Panting>></p>' 
+             if 7>=a and a>=4:'<p><<$CH.name>>: Don`t care<<$words>></p>'
+         '</div>'
+    end
+
+    if a=8:
+
+         '<div class="dialog_menu">'  
+                '<p>Me: It seems that the advertisement we took before will also be invalidated.</p>'
+                '<p><<$CH.name>>: It doesn`t matter, failure is the main theme of life.How can success be so simple!Cheer up❤ </p>'
+                '<p>Me: It seems that this is the only way.</p>'
+                '<p><<$CH.name>>: I will talk to him from my brother`s side, he won`t blame you ❤ Just work hard and then look for other car models❤</p>'
+                '<p>Me: Then I`ll think of a way to find other car models.</p>' 
+                '<p><<$CH.name>>: It`s okay❤ </p>'
+         '</div>'
+
+        $CH.love+=q+my.charm
+        $CH.bad+=q+my.charm
+        $CH.Canbehired=1
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_colleague1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\同事1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Please drink</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Have fun and entertain</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">enjoy</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Continue to enjoy</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Ejaculation</a></div>'
+            end
+            if a=5 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">dialogue</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$WN.name>>: Welcome, this is the first time I have seen this gentleman❤</p>' 
+             if a=1:'<p><<$WN.name>>: Don`t be so restrained when you come out to play, I`ll do it first!❤</p>' 
+             if a>=2:'<p>colleagueA: Fun fun ❤</p>' 
+             if a>=3:'<p>colleagueA: This is much more powerful than my wife❤</p>' 
+             if a>=4:'<p>Me: Then you can play as much as you like.</p>'
+         '</div>'
+    end
+
+    if a=6:
+
+         '<div class="dialog_menu">'  
+                '<p>Me: Not bad, right?</p>'
+                '<p>colleagueA: Thank you ❤One more time❤</p>' 
+                '<p><<$WN.name>>: If you add a clock, you have to ❤</p>' 
+                '<p>colleagueA: Not bad money!！</p>' 
+         '</div>'
+
+
+        $CH.Comeon=1
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_Interview carA1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\面试车A1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carA1''">Inquiry scale</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carA1''">Show off your figure</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carA1''">Touch her</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carA1''">Mouth me</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carA1''">Faster</a></div>'
+            end
+            if a=5 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carA1''">Ejaculation</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Arrange a booth</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$Carmodel.name>>: Hello, do you want to interview me again❤</p>' 
+             if a=1:'<p><<$Carmodel.name>>: What about my words, there is no scale problem❤</p>' 
+             if a>=2:'<p><<$Carmodel.name>>: As you like❤</p>' 
+             if a>=3:'<p>Me: Perfect.</p>' 
+             if a>=4:'<p><<$Carmodel.name>>: Thank you ❤</p>' 
+         '</div>'
+    end
+
+    if a=6:
+
+         '<div class="dialog_menu">'  
+                '<p><<$Carmodel.name>>: Do you think I can be qualified as a car model in the booth❤</p>' 
+                '<p>Me: It should be possible!</p>' 
+         '</div>'
+        $CH.CarmodelA=1
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_Interview carB1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\面试车B1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Inquiry scale</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Footjob</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Serve me</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Mouth me</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">insert</a></div>'
+            end
+            if a!6 and 5<=q and q<=8 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Female upper</a></div>'
+            end
+            if a!7 and 6<=q and q<=9 :
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Accelerate thrusting</a></div>'
+            end
+            if a=7 :
+            '<div class="buttonS3"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Ejaculation</a></div>'
+            end
+            if a=8 :
+            '<div class="buttonS4"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">dialogue</a></div>'
+            end
+
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Arrange a booth</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$Carmodel.name>>: What`s the matter?Do you think I`m not doing well❤</p>' 
+             if a=1:'<p><<$Carmodel.name>>: Or do you want to have sex with me❤</p>' 
+             if a>=2:'<p><<$Carmodel.name>>: Can you give me a raise<<$Panting>>❤</p>' 
+             if a>=3:'<p>Me: Are you really a car model?</p>' 
+             if a>=4:'<p><<$Carmodel.name>>: Thank you for your compliment<<$words>></p>' 
+         '</div>'
+    end
+
+    if a=9:
+
+         '<div class="dialog_menu">'  
+                '<p><<$Carmodel.name>>: I heard that there is still an empty job for the car model in the booth in the store❤</p>' 
+                '<p>Me: I will arrange it!</p>' 
+         '</div>'
+        $CH.CarmodelB=1
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_Near carB1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\近车B1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">End of shooting</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Get up</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Treat everyone</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Group sex</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Jerk off</a></div>'
+            end
+            if a!6 and 5<=q and q<=8 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Bukkake</a></div>'
+            end
+            if a!7 and 6<=q and q<=9 :
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">dialogue</a></div>'
+            end
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$Carmodel.name>>: Everyone wants to take a beautiful picture of me❤</p>' 
+             if a=1:'<p><<$Carmodel.name>>: Thank you for your hard work, the next step is reward time❤</p>' 
+             if a>=2:'<p><<$Carmodel.name>>: Come on, get closer<<$Panting>>❤</p>' 
+             if a>=6:'<p><<$Carmodel.name>>:Ah❤It`s so hot❤I like the hot semen so much❤</p>' 
+         '</div>'
+    end
+
+    if a=7:
+
+         '<div class="dialog_menu">'  
+                '<p><<$Carmodel.name>>: You will continue to shoot me next time ❤</p>' 
+                '<p>Photographers: No problem!</p>'  
+                '<p>Me: No wonder there are always so many photographers around her…</p>' 
+                $CH.advertising+=15
+         '</div>'
+       
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Car dealer_Fuck_carAM1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\车AM1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Sit over</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Serve me</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Oral work</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Deep throat</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Sit up</a></div>'
+            end
+            if a!6 and 5<=q and q<=8 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Move by yourself</a></div>'
+            end
+            if a!7 and 6<=q and q<=9 :
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Vigorously pump</a></div>'
+            end
+            if a=7 :
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Bukkake</a></div>'
+            end
+            if a=8 :
+            '<div class="buttonS2"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">dialogue</a></div>'
+            end
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$Carmodel.name>>：<<$Protagonist`s_surname>> Sir, you are looking for me❤</p>' 
+             if a=1:'<p>Me: Nothing else, just talk about your lateness last time ❤</p>' 
+             if a>=2:'<p><<$Carmodel.name>>: That`s someone else`s alarm clock is broken<<$Panting>>❤</p>' 
+             if a>=3:'<p>Me: It`s hard for me to believe you.</p>' 
+             if a>=4:'<p><<$Carmodel.name>>: Then what do you say to do<<$words>>❤</p>' 
+         '</div>'
+    end
+
+    if a=9:
+
+         '<div class="dialog_menu">'  
+                '<p>Me: Forget it this time... never again.</p>' 
+                '<p><<$Carmodel.name>>: Ok❤</p>' 
+                $CH.advertising+=1
+         '</div>'
+       
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_Shop carA1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\店车A1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">Wake up</a></div>'
+            if $Debtcollection=1:'<div class="buttonR"><a href="exec:a=0 & q=0 & Debtcollectionnumber=4 & gt ''Group_performation_event'',''Universal_Fuck_Debtcollection''">Violent collection</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">Serve me</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">Oral work</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">accelerate</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">Mouth explosion</a></div>'
+            end
+            if a=5 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">dialogue</a></div>'
+            end
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Shopping_mall''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$Carmodel.name>>：<<$Protagonist`s_surname>> Sir, what`s the matter with coming here❤</p>' 
+             if a=1:'<p>Me: Nothing else, you seem sleepy?</p>' 
+             if a>=2:'<p><<$Carmodel.name>>: That`s someone else`s alarm clock is broken❤</p>' 
+             if a>=3:'<p>Me: It`s hard for me to believe you.</p>' 
+             if a>=4:'<p><<$Carmodel.name>>: Then what do you say to do<<$Panting>>❤</p>' 
+         '</div>'
+    end
+
+    if a=6:
+
+         '<div class="dialog_menu">'  
+                '<p>Me: Forget it this time... never again.</p>' 
+                '<p><<$Carmodel.name>>: Ok❤</p>' 
+
+         '</div>'
+       
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_Shop carB1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\店车B1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<6:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">Take off your pants</a></div>'
+            end
+            if a!2 and 1<=q and q<=4 :
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">Lick me</a></div>'
+            end
+            if a!3 and 2<=q and q<=5 :
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">Oral work</a></div>'
+            end
+            if a!4 and 3<=q and q<=6 :
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">accelerate</a></div>'
+            end
+            if a!5 and 4<=q and q<=7 :
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">Bukkake</a></div>'
+            end
+            if a=5 :
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">dialogue</a></div>'
+            end
+
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Shopping_mall''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p><<$Carmodel.name>>：<<$Protagonist`s_surname>> Sir, if you buy it today ❤This is a bonus service❤</p>' 
+             if a=1:'<p>Me: What else?</p>' 
+             if a>=2:'<p><<$Carmodel.name>>: What else do you want ❤Package you are satisfied❤</p>' 
+             if a>=3:'<p>Me: I also get a three-year flash charge discount from Imperial Energy!</p>' 
+             if a>=4:'<p><<$Carmodel.name>>: Oh!Right, right, right<<$Panting>>❤</p>' 
+         '</div>'
+    end
+
+    if a=6:
+
+         '<div class="dialog_menu">'  
+                '<p><<$Carmodel.name>>: How is it ❤ Am I doing well?</p>' 
+                '<p>Me: Yes and<<$XS.name>>Compete.</p>' 
+
+         '</div>'
+       
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Car dealer_Fuck_Home visit1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\CH\vids\家访1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a<15:
+        '<div class="button_menu">'
+            if q=0:
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Rubbing tits</a></div>'
+            '<div class="buttonP"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Pinch buttocks</a></div>'
+            end
+            if q=1:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Take advantage of the situation and enter</a></div>'
+            '<div class="buttonS2"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Frame the legs on the shoulders</a></div>'
+            '<div class="buttonS2"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">MThe word is wide open</a></div>'
+            '<div class="buttonS2"><a href="exec:a=12 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Throw it on the floor to do</a></div>'
+            end
+            if q=2:
+            '<div class="buttonS3"><a href="exec:a+=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Ejaculation</a></div>'
+            end
+            if q=3:
+            '<div class="buttonS3"><a href="exec:a+=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Lick clean</a></div>'
+            end
+            if q=4:
+            '<div class="buttonS1"><a href="exec:a=15 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">dialogue</a></div>'
+            end
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Big_villa''">Send her away</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+
+    if 2>=q and q>=0:
+         '<div class="dialog_menu">'
+             if q=0:'<p><<$CH.name>>: Wait, this seems to be some kind of dungeon-like place, right?Are you ready to do something colorful?</p>' 
+             if q>=1:'<p><<$CH.name>>：<<$Panting>></p>' 
+             if q>=2:'<p><<$CH.name>>: Slow down<<$words>></p>'
+         '</div>'
+    end
+
+    if q=3:
+         '<div class="dialog_menu">'
+             '<p><<$CH.name>>: There is no set of internal shots again?Don`t be known by my brother!！</p>' 
+         '</div>'
+    end
+
+    if q=4:
+         '<div class="dialog_menu">'
+             '<p><<$CH.name>>: Yours is really big❤</p>' 
+         '</div>'
+    end
+
+
+    if q=5:
+         '<div class="dialog_menu">'  
+                '<p>Me: What are you looking for me for?</p>'     
+                '<p><<$CH.name>>: You seem to have caught my brother`s attention, you`d better be careful❤ </p>'
+                '<p>Me: Huh, what can your brother do if he knows?</p>'     
+                '<p><<$CH.name>>: He might kill you❤ </p>'
+         '</div>'
+        $CH.love+=q+my.charm
+        $CH.bad+=q+my.charm
+    end
+
+
+  q+=1
+End
+
+--- Dealer_Event ---------------------------------
+

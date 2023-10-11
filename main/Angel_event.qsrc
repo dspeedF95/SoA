@@ -1,0 +1,1806 @@
+# Angel_event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+if $args[0]="Big villa.":
+
+	 '<div class ="show_menu"><img src="images\NPC\TS\pics\大别墅1.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Angel_event'',''Big villa2''">Send her away</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$PW.name>>: What the hell... did you do?！How could the champion be you!</p>'
+		'<p><<$TS.name>>: With all due respect, I have no comment, this is now the property of the Empire Group!Please leave.</p>'
+		'<p><<$PW.name>>: Damn it!Do you know how much debt I have now?</p>'
+		'<p><<$TS.name>>: I repeat it again!This is now the property of the Empire Group!Please leave!</p>'
+		'<p><<$PW.name>>: We`ll see.</p>'
+	'</div>'
+End
+
+if $args[0]="Big villa2":
+
+	 '<div class ="show_menu"><img src="images\NPC\TS\pics\大别墅2.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:Bigvillaforthefirsttime=1 & gt ''Big_villa''">OK</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$TS.name>>: This idol competition was a great success. It was decided to use this villa as the idol training base of [Empire Entertainment], and you will be the chief person in charge of the base.</p>'
+		'<p>I: The person in charge?That`s great!</p>'
+		'<p><<$TS.name>>: This is<<$SSYY.name>>！Heard her being<<$PW.name>>We signed her as soon as we heard the news of the listing and sale.</p>'
+		'<p><<$SSYY.name>>: halo！<<$Protagonist`s_name>>, We meet again!*She deliberately squeezed out her cleavage.</p>'
+		'<p><<$TS.name>>: You seem to be quite familiar... Then I won`t introduce much. This is the key. You have contributed a lot this time. Let`s have dinner together another day.</p>'
+		'<p><<$TS.name>>: That`s right，BOSSSpecifically explained, before she returned home，<B><span class =''red''>Never destroy the walls.</p>'
+	'</div>'
+End
+
+if $args[0]="TS_Fuck_event1":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\事件1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_event1''">Cheers </a></div>'
+            end
+            if a=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_event1''">Have a few more drinks </a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_event1''">Look at her </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=0 & q=0 & gt ''Angel_event'',''TS_Fuck_event2''">Relax </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:This restaurant is really suitable for my taste. Your vision of choosing a restaurant is as accurate as when you look at people.</p>'
+             '<p>I:Haha, thank you for your compliment. In fact, I am also a picky eater, but this restaurant is really great.</p>'
+             '<p><<$TS.name>>:If there is no such excellent talent as you, I really don`t know what Empire Entertainment should do.Thanks to you, the prospects of Empire Entertainment are now very good!</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Cheers!By the way, how did you put<<$SSYY.name>>Poached from the corner?</p>'
+             '<p>I:I didn`t dig her…</p>'
+             '<p><<$TS.name>>:Is your mouth so tight to me?Don`t worry, I won`t tell anyone.</p>'
+             '<p>I:Really not, I thought you operated it behind the scenes.</p>'
+             '<p><<$TS.name>>:If you don`t want to say it, I won`t force you.</p>'
+         '</div>'
+    end
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:The body is so hot, is the air conditioner in this restaurant broken?</p>'
+             '<p>I:How are you?</p>'
+             '<p><<$TS.name>>:In fact, I feel very relaxed and comfortable every time I communicate with you. I think you are a very talented and charming person.</p>'
+             '<p>I:I think you are also a very capable and charming woman.</p>'
+         '</div>'
+    end
+
+    if a=3:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Do you have any plans after dinner?Are there any other arrangements for going home?</p>'
+             '<p>I:I listen to you.</p>'
+             '<p><<$TS.name>>:The original plan was to go back to the studio to continue recording songs, but if you want, can we go and relax together?</p>'
+             '<p>I:What do you mean by relaxing?</p>'
+             '<p><<$TS.name>>:Don`t ask so many questions.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_event2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\事件2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_event2''">relax </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_event2''">Lick her </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_event2''">Serve me </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_event2''">Have sex with her </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_event2''">Holding hands </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_event2''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_event2''">dialogue </a></div>'
+            end
+            if a=7:
+            '<div class="button"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_event2''">Organize clothing </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">separate</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>·She led you to a hotel…</p>'
+             '<p><<$TS.name>>:I thought you would get drunk if you were too drunk, so I booked a hotel suite in advance, but now it seems...we can enjoy a relaxing night together.</p>'
+         '</div>'
+    end
+
+
+
+
+    if 6>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>·Your fiery eyes are intertwined</p>'
+             if a>=2:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a=3:'<p><<$TS.name>>:Do you like it?</p>'
+             if a>=4:'<p><<$TS.name>>:<<$words>></p>'
+             if a>=6:'<p>I:Ah ah ah!Shot!</p>' 
+         '</div>'
+    end
+
+    if a=7:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Do you think I am a casual woman?</p>'
+             '<p>I:I... we have known each other for so long, and I can see that you are not a casual woman.</p>' 
+             '<p><<$TS.name>>:That`s good.</p>'
+         '</div>'
+    end
+
+
+
+    if a=8:
+         $TS.bad+=q/2
+         $TS.love+=20
+         $Angel_event_chain=2
+         '<div class="dialog_menu">'
+             '<p>I: So...what is our relationship now?</p>'
+             '<p><<$TS.name>>: Clam?Is this a thank you...or a reward?Don`t think too much... our relationship will not change because of the last time I slept with you.</p>'
+             '<p><<$TS.name>>: Although I appreciate your ability to work and your charm and figure, our relationship is still a relationship between subordinates, which allows us to do our work better.</p>'
+             '<p>I: …………</p>'
+             '<p><<$TS.name>>: Okay, I`m going back.There are still a lot of things to do in the recording studio.</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_event3":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\事件2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_event3''">relax </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_event3''">Lick her </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_event3''">Serve me </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_event3''">Have sex with her </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_event3''">Holding hands </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_event3''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_event3''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Back to the villa</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Let`s... enjoy this relaxing evening together❤</p>'
+         '</div>'
+    end
+
+
+
+
+    if 6>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>·Your fiery eyes are intertwined</p>'
+             if a>=2:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a=3:'<p><<$TS.name>>:Do you like it?</p>'
+             if a>=4:'<p><<$TS.name>>:<<$words>></p>'
+             if a>=6:'<p>I:Ah ah ah!Shot!</p>' 
+         '</div>'
+    end
+
+
+
+
+
+    if a=7:
+         $TS.bad+=q+my.charm
+         $TS.love+=q+my.charm
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>: Do you remember what you asked me the last time you came?</p>'
+             '<p>I: Uh... let me see... what kind of relationship are we now?</p>'
+             '<p><<$TS.name>>: Now I tell you, you are everything to me ❤</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Feed the cat together":
+	'<div class ="show_menu"><img src="images\NPC\TS\pics\证据<<a>>.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Angel_event'',''Feed the cat together''">？？？</a></div>'
+		if a=2:'<div class="button"><a href="exec:a=2 & gt ''Angel_event'',''Game on''">protect her</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if a=1:
+		'<p>I: Why are you here?</p>'
+		'<p><<$TS.name>>: I just finished my work, so come and have a look at them.</p>'
+		'<p>I: Don`t worry, they are well taken care of by me.</p>'
+		'<p><<$TS.name>>: Hmm!You are such a caring person!</p>'
+		'<p>？？？: My angel!Do you remember me?</p>'
+		end
+		
+		if a=2:
+		'<p>I: Who is this weirdo?</p>'
+		'<p><<$TS.name>>: What?！Qingshui Jun?！Why are you here?！Didn`t you get taken away by a mental hospital?</p>'
+		'<p>？？？: My angel!I`m not crazy!Do you remember how much I love you?</p>'
+		'<p><<$TS.name>>: Shimizu Jun... you need treatment…</p>'
+		'<p>Jerome: Qingshui Jun is dead!This is...Jerome!</p>'
+		'<p><<$TS.name>>: Okay, Jerome... can we talk?</p>'
+		'<p>Jerome: It`s too late!My angel!Woohoo!It`s too late!now!Just let the show... Hee hee hee hee!Let`s stage it!</p>'
+		end
+	'</div>'
+End
+
+if $args[0]="Game on":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\游戏开始.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Bomb_school''">Break free from bondage</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>Jerome: I have a small question for you: how much do you love the world and the people around you?！</p>'
+		'<p><<$TS.name>>: Let me go!</p>'
+		'<p>I: Damn it!What exactly are you going to do?！</p>'
+		'<p>Jerome: You need to dismantle the bomb before dawn, otherwise you will be at your own risk.But be aware that this is not an easy task.This bomb is not an ordinary bomb, it has many organs and traps.If you want to dismantle it within a limited time, you need to search around the school to find hidden clues and hints.Only in this way can you dismantle the bomb and rescue everyone.</p>'
+		'<p>I: Are you sick?！</p>'
+		'<p>Jerome: My friend, are you ready to meet the challenge?Time is running out, you need to act right away.Don`t forget, if you fail, the consequences will be unimaginable.I will be watching you from the side, Hehehehe!</p>'
+	'</div>'
+End
+
+
+if $args[0]="TS_Fuck_school":
+	 my.energy+=3
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\学校1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_school''">enter </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_school''">jump down </a></div>'
+            end
+            if a=2:
+            '<div class="buttonB3"><a href="exec:a=10 & gt ''Angel_event'',''TS_Fuck_school''">Dive down </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_school''">Passionate kiss </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_school''">Ashore </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_school''">Oral sex </a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_school''">insert </a></div>'
+            end
+            if a!7 and 6<=q and q<=9:
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_school''">Accelerate thrusting </a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_school''">Ejaculation </a></div>'
+            end
+            if a=8:
+            '<div class="button"><a href="exec:a=9 & gt ''Angel_event'',''TS_Fuck_school''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Bomb_school''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+			'<p>[Campus radio]: Hehehe, it seems that the weather has become a little unfriendly. I guess you may have been drenched by the rain now, right?This situation is not very good, because you now have to deal with not only my challenge, but also this bad weather.It seems that you are really a badass!</p>'
+			'<p><<$TS.name>>: Can you promise me... not to tell me what happened today?</p>'
+			'<p>I: No problem.</p>'
+         '</div>'
+    end
+
+
+
+
+    if 8>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Anyway, it`s drenched, so jump down too!</p>'
+             if a>=2:'<p><<$TS.name>>:Have you heard of the suspension bridge effect?The more nervous people are, the more they have a good impression of the people around them!</p>'
+             if a=3:'<p><<$TS.name>>:Do you like it?</p>'
+             if a>=4:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a>=5:'<p><<$TS.name>>:Qingshui Jun!Look at it<<$words>></p>' 
+             if a>=8:'<p>I:Ah ah ah!Shot!</p>' 
+         '</div>'
+    end
+
+    if a=9:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:My dear, your meat stick makes me so satisfied……</p>'
+             '<p>I:You... are you sure this will lead to……</p>' 
+             '<p>[Campus Radio]: Hahahaha!My angel!Do you think this will stimulate me?I`m not Qingshui Jun anymore!This is Jerome!Hahaha!</p>'
+             '<p>I:It seems...it`s invalid?</p>' 
+         '</div>'
+    end
+
+    if a=10:
+         '<div class="dialog_menu">'
+            if TSVideo2=0: '<p>·There is a video tape at the bottom of the pool<a href="exec:TSVideo2=1">-Pick it up</a></p>'
+            '<p><<$TS.name>>:What did you find?</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Video1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\录像1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!10:
+        '<div class="button_menu">'
+            if a!999:
+            '<div class="button"><a href="exec:a+=1 & gt ''Angel_event'',''TS_Fuck_Video1''">Fast forward </a></div>'
+            end
+            if a!0:
+            '<div class="buttonGn"><a href="exec:a-=1 & gt ''Angel_event'',''TS_Fuck_Video1''">back off </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Bomb_school''">Write down the code</a></div>'
+            '</div>'
+    end
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p>？？？:Hey hey!You get out of here!</p>'
+             if a=0:'<p><<$TS.name>>:Qingshui Jun... save me……</p>'
+             '<p>Shimizu Jun:You... stop it!I have recorded the evidence of your crime!</p>' 
+             if a>=1:'<p>？？？:Your girlfriend likes big ones, right?！You can`t satisfy her at all!I saw it all!She didn`t feel it at all!</p>'
+             if a=2:'<p><<$TS.name>>:Qingshui Jun... don`t look at me…</p>'
+             if a=3:'<p>？？？:Hey hey!You cooperate with me!Otherwise, I don`t want to intervene in you!</p>'
+             if a>=4:'<p><<$TS.name>>:Ah<<$Panting>></p>' 
+             if a>=5:'<p>Shimizu Jun:Ah ah ah ah ah!I fight with you……</p>' 
+             if a>=6:'<p>？？？:You`d better get to know each other. Look at your woman`s appearance. Is she worth a beating?！</p>'
+             if a>=7:'<p>Shimizu Jun:…………</p>' 
+         '</div>'
+    end
+
+    if a=9:
+         '<div class="dialog_menu">'
+             '<p>？？？:Get out of here!I have a few more rounds to fuck her!Do you hear me?！</p>'
+             '<p>Shimizu Jun:…………</p>' 
+             '<p>？？？:Do you want to be beaten?！</p>'
+             '<p>·The sound of closing the door</p>' 
+         '</div>'
+    end
+
+    if a=10:
+         '<div class="dialog_menu">'
+             '<p>In-picture sound:Yo, you poor guy, why are you bothering me again?Do you want to hear me talking to myself?Okay, then I`ll talk to you.Did you know that I have always felt that I am too weak, both mentally and physically, I feel that I am too fragile.</p>'
+             '<p>In-picture sound:Sometimes I think, it would be great if I had someone who could guard me and make me feel safe.It`s a pity that no one in this world can be completely trusted, including those who have been kind to me.</p>'
+             '<p>In-picture sound:Ok.</p>'
+             '<p>In-picture sound:I know this looks strange. I`m not trying to make you feel uncomfortable. I don`t know why everyone is so rude. I don`t know why you are like this. I don`t want anything from you except a little warmth, a hug, or understanding!</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Video2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\录像2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!13:
+        '<div class="button_menu">'
+            if a!999:
+            '<div class="button"><a href="exec:a+=1 & gt ''Angel_event'',''TS_Fuck_Video2''">Fast forward </a></div>'
+            end
+            if a!0:
+            '<div class="buttonGn"><a href="exec:a-=1 & gt ''Angel_event'',''TS_Fuck_Video2''">back off </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Bomb_school''">Write down the code</a></div>'
+            '</div>'
+    end
+
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             if a=0:'<p>Former principal:I heard you want to start an idol club?！</p>'
+             if a=0:'<p><<$TS.name>>:Yes...it`s my dream to be an idol…</p>'
+             if a=0:'<p>Vice Principal:Is the student`s vocation to study?Don`t forget!</p>'
+             if a=0:'<p><<$TS.name>>:I haven`t forgotten, but if the school can add one…</p>'
+             if a=1:'<p>Vice Principal:Haven`t forgotten?！Stop lying!I`ve heard all about it, are you in puppy love?Answer me!</p>'
+             if a=1:'<p>Shimizu Jun:You... don`t embarrass her!</p>'
+             if a=2:'<p>Vice Principal:you are…CIs it clear water in the class?What are you doing here!</p>'
+             if a=2:'<p>Shimizu Jun:You... don`t embarrass her!</p>'
+             if a=3:'<p>Former principal:Why do you speak for her, what kind of person she is, do you know very well?</p>'
+             if a=3:'<p>Shimizu Jun:I...i……</p>'
+             if a>=4:'<p>Former principal:Take a good look at me!Aha!Sure enough, it`s the same as the physical education teacher said!</p>'
+             if a>=5:'<p>Vice Principal:It turns out that it was you he hooked up with recently?！I heard you like big ones!</p>'
+             if a>=6:'<p>Former principal:Come on, tell it to your boyfriend!If your boyfriend has no opinion, I will agree to add an idol club!</p>'
+             if a>=6:'<p><<$TS.name>>:Qingshui Jun, please let the principal satisfy me with his big cock!</p>'
+             if a>=6:'<p>Shimizu Jun:But...ah!But...but…</p>' 
+         '</div>'
+    end
+
+
+    if 12>=a and a>=7:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Come on<<$Panting>></p>'
+             '<p>Shimizu Jun:………*The sound of crying</p>'
+             if a>=9:'<p><<$TS.name>>:Ah<<$words>></p>'
+             if a>=11:'<p>Former principal:Catch me with your face!</p>'
+             if a>=12:'<p><<$TS.name>>:Shimizu Jun... sorry…</p>'
+         '</div>'
+    end
+
+
+
+
+
+    if a=13:
+         '<div class="dialog_menu">'
+             '<p>In-picture sound:Ahhahahahahahahahahahahahahahahahahahaha!</p>'
+             '<p>In-picture sound:Maybe I should be grateful to those who once made me feel lonely and vulnerable. It is precisely because of them that I have become stronger!Maybe this is the truth of life.We must learn to be independent and learn to face our own weaknesses and fears.I also have to admit that my weaknesses sometimes become my motivation.</p>'
+             '<p>In-picture sound:You are not listening, are you?Let me ask you, how is your life recently?Are you in love with you?Are there any negative thoughts?Why don`t you do what you want to do?</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Video3":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\录像3-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a!999:
+            '<div class="button"><a href="exec:a+=1 & gt ''Angel_event'',''TS_Fuck_Video3''">Fast forward </a></div>'
+            end
+            if a!0:
+            '<div class="buttonGn"><a href="exec:a-=1 & gt ''Angel_event'',''TS_Fuck_Video3''">back off </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Bomb_school''">Write down the code</a></div>'
+            '</div>'
+    end
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>？？？:The leader is here?！Is the camera hidden?Tomorrow I will secretly stuff it into Qingshui Jun`s school bag!</p>'
+             '<p><<$TS.name>>:My members... today is the day to pay the club`s funds again.</p>'
+             '<p>？？？:Don`t worry, Master Leader, the richest person in the whole school is us in the photography department!</p>'
+             if a>=1:'<p><<$TS.name>>:Then let`s get started…</p>'
+             if a>=1:'<p>？？？:Okay, okay!Then we are welcome!</p>'
+             if a>=2:'<p><<$TS.name>>:Oh<<$Panting>></p>'
+             if a=3:'<p>？？？:The leader of the group is really an angel coming to the mortal world, it feels great!</p>'
+             if a>=4:'<p><<$TS.name>>:Hmm<<$words>></p>'
+             if a=5 or a=8:'<p>？？？:come on!Three, two, one!</p>'
+             if a=5 or a=8:'<p><<$TS.name>>:Eggplant!</p>'
+         '</div>'
+    end
+
+
+
+
+
+
+
+    if a=9:
+         '<div class="dialog_menu">'
+             '<p>In-picture sound:Ahhahahahahahahahahahahahahahahahahahaha!</p>'
+             '<p>In-picture sound:I suspect I`m crazy?That`s so interesting!Because, you know, it`s not a bad thing to go crazy.Going crazy makes you more free, makes you no longer bound, and allows you to do what you want!</p>'
+             '<p>In-picture sound:If I die on the street, you won`t even care about me.So, don`t be afraid of going crazy, don`t be afraid of going crazy!Madness is the true freedom, and it is the power that makes you truly aware of your heart!</p>'
+             '<p>In-picture sound:So, let go of your heart, let the crazy power be released, and make you stronger!Hahahahahahahahahahahahahahahahahahahaha!</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Universal":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\<<$Universallocation>>-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a<fxnum:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection1>> </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection2>> </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection3>> </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection4>> </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection5>> </a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection6>> </a></div>'
+            end
+            if a!7 and 6<=q and q<=9:
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection7>> </a></div>'
+            end
+            if a!8 and 7<=q and q<=10:
+            '<div class="buttonS4"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection8>> </a></div>'
+            end
+            if a=8:
+            '<div class="buttonS5"><a href="exec:a=9 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection9>> </a></div>'
+            end
+            if a=9:
+            '<div class="buttonS5"><a href="exec:a=10 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection10>> </a></div>'
+            end
+            if a=10:
+            '<div class="buttonS5"><a href="exec:a=11 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection11>> </a></div>'
+            end
+            if a=11:
+            '<div class="buttonS5"><a href="exec:a=12 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection12>> </a></div>'
+            end
+            if a=12:
+            '<div class="buttonS5"><a href="exec:a=13 & gt ''Angel_event'',''TS_Fuck_Universal''"><<$Generalselection13>> </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+				if $Universallocation='电梯1':'<div class="button"><a href="exec:a=0 & q=0 & gt ''Angel_event'',''Face itBOSS''">Face itBOSS</a></div>'
+                '<div class="button"><a href="exec:gt ''<<$Panleave>>''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+            '<p><<$TS.name>>: <<$Pandialogue1>></p>'
+            '<p>I: <<$Pandialogue2>></p>'
+         '</div>'
+    end
+
+
+
+
+    if fxnum-1>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:<<$Pandialogue3>></p>'
+             if a>=2:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a>=5:'<p><<$TS.name>>:<<$words>></p>'
+         '</div>'
+    end
+
+    if a=fxnum:
+         $TS.love+=q+my.charm
+         $TS.bad+=q+my.charm/2
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:<<$Pandialogue4>></p>'
+             '<p>I:<<$Pandialogue5>></p>' 
+         '</div>'
+    end
+
+
+
+
+  q+=1
+End
+
+if $args[0]="Face itBOSS":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\上报1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!6:
+        '<div class="button_menu">'
+            if a=0 or a=2 or a=4:
+            '<div class="button"><a href="exec:a+=1 & gt ''Angel_event'',''Face itBOSS''">Look down </a></div>'
+            end
+            if a=1 or a=3 or a=5:
+            '<div class="buttonS1"><a href="exec:a+=1 & gt ''Angel_event'',''Face itBOSS''">Look up </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">Nod and leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>: President, the current prospects of Empire Entertainment are very good!</p>'
+             '<p>？？？: I know this, is there any work to report?I`m overseas and the signal is not very good.</p>'
+             '<p><<$TS.name>>: The album I recorded has received strong market feedback!I hope to... make a comeback!</p>'
+             '<p>？？？: If you make a comeback, what about the daily affairs of Empire Entertainment?</p>'
+             '<p>I: President, please allow me to recommend myself, I am…</p>'
+             '<p>？？？: <<$Protagonist`s_name>>, I know you, since<<$TS.name>>Unintentional management, then you are responsible.</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p>I:No... what are you doing?</p>'
+             '<p><<$TS.name>>:Celebration ceremony.</p>'
+             '<p>I:This is too dangerous…</p>'
+             '<p><<$TS.name>>:It`s okay, you are a male employee of the Empire Group, and it`s your job to provide me with services.</p>'
+         '</div>'
+    end
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p>I: Uh, where did you say?</p>'
+             '<p>？？？: Because you are a male, the name of the chief operating officer cannot be given to you.</p>'
+             '<p>I: I don`t care about it…</p>'
+             '<p>？？？: The chief operating officer needs to assume a wide range of responsibilities and tasks to ensure that the company`s business operations are efficient, orderly and successful.</p>'
+         '</div>'
+    end
+
+    if a=3:
+         '<div class="dialog_menu">'
+             '<p>I: Is it almost there?I`m almost...going to...shoot…</p>'
+             '<p><<$TS.name>>:<<$Panting>></p>'
+         '</div>'
+    end
+
+    if a=4:
+         '<div class="dialog_menu">'
+             '<p>I: You continue, I am listening.</p>'
+             '<p>？？？: Here are someCOOResponsibilities that usually need to be assumed：</p>'
+             '<p>？？？: COOIt is necessary to establish and manage an efficient team to ensure smooth cooperation between the various artists of the company and achieve common goals. </p>'
+             '<p>？？？: In addition, it is necessary to manage the daily operations of the company, including the daily lives of artists, diet and personal services, etc., to ensure that artists are in a smooth mood, work efficiently and sustainably.</p>'
+             '<p>I: Oh oh oh…</p>'
+             '<p>？？？: What`s happened?</p>'
+         '</div>'
+    end
+    
+    if a=5:
+         '<div class="dialog_menu">'
+             '<p>I: Uh uh uh……</p>'
+             '<p><<$TS.name>>: Shot a full mouth, you are amazing!</p>'
+         '</div>'
+    end
+    
+    if a=6:
+         '<div class="dialog_menu">'
+             '<p>？？？: Do you understand?</p>'
+             '<p>I: Hmm!Taking care of the private lives of artists has always been my strength!</p>'
+             '<p>？？？: <<$TS.name>>You can also move into that villa and familiarize him with the work.</p>'
+             '<p><<$TS.name>>: Hmm!No problem!</p>'
+             '<p>？？？: <<$Protagonist`s_name>>, Don`t blame me for not reminding you that there are obvious problems with the structure of that villa. If you move the walls, you will cause big trouble.</p>'
+             $TS.room=1
+         '</div>'
+    end
+    
+  q+=1
+End
+
+if $args[0]="TS_Fuck_white":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\白1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!6:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_white''">Buckle spray her </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_white''">Strong insertion </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_white''">Female upper </a></div>'
+            end
+            if a!4 and 3<=q and q<=6:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_white''">Accelerate thrusting </a></div>'
+            end
+            if a!5 and 4<=q and q<=7:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_white''">Ejaculation </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_white''">Lick clean </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">separate</a></div>'
+            '</div>'
+    end
+
+
+
+    if 5>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Hurry up, people seem to want…</p>'
+             '<p>I:Started complaining in broad daylight?</p>' 
+             if a>=1:'<p><<$TS.name>>:<<$words>></p>'
+         '</div>'
+    end
+
+
+    if a=6:
+         $TS.bad+=q
+         $TS.love+=q
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>: Great, I just like big dicks.</p>'
+             '<p>I: …………</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+
+if $args[0]="Selection of jobs":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\工作选择1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+        
+	'<div class="button_menu">'
+		if a!1:'<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''Selection of jobs''">Help her put on shoes</a></div>'
+		if a=1:'<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''Selection of jobs''">Choose by mouth</a></div>'
+		'<div class="buttonG1"><a href="exec:a=0 & gt ''Angel_event'',''Bring new people''">Bring new people on the show</a></div>'
+		if $TS.Multifaceted>=20:'<div class="buttonG2"><a href="exec:a=0 & $Panshot=''拍摄1'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Album cover</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
+		if $TS.Multifaceted>=25:'<div class="buttonG3"><a href="exec:a=0 & $Panshot=''拍摄2'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">shootingMV</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
+		if $TS.Multifaceted>=30:'<div class="buttonG4"><a href="exec:a=0 & $Panshot=''拍摄3'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Promotional poster</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
+		
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$TS.name>>: Now you are the chief agent again, and mine againCOO, You have the final say in what work I arrange to do.</p>'
+		'<p>I: Then let`s take it step by step.</p>'
+		if a=1:
+		'<p><<$TS.name>>: High heels are hard to wear, right?</p>'
+		'<p>I: Indeed, girls are really hardworking.</p>'
+		end
+		
+		if a=2:
+		'<p><<$TS.name>>: You choose slowly, I`m not in a hurry.…</p>'
+		end
+		
+	'</div>'
+End
+
+if $args[0]="TS_Fuck_Universal shooting":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\<<$Panshot>>-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!3:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Sneak a shot </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+				if $Panshot='shooting3':
+				'<div class="buttonS2"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Hurry up </a></div>'
+				else:
+				'<div class="buttonS2"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Ejaculation </a></div>'
+				end
+            end
+            
+            if a!3 and 2<=q and q<=6:
+				if $Panshot='shooting3':
+				'<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Shoot in the mouth </a></div>'
+				else:
+				'<div class="buttonGn"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Clean up </a></div>'
+				end
+            end
+            
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''TV_station'',''Powder room''">leave</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>·<<$TS.name>>Cooperating with photography work…</p>'
+             '<p>I:This is almost the last set of shots, right?</p>' 
+             '<p><<$TS.name>>:Hmm!Wait a minute and it`s over!</p>' 
+             '<p>staffA:Tsk Tsk, you see, their relationship doesn`t seem to be easy…</p>' 
+             '<p>staffB:Keep your voice down…</p>' 
+			 '<p>Wukong got paid and accumulated some fans</p>'
+			 OMoney+=TS_fans*$TS.Multifaceted
+			 TS_fans+=rand(5,15)
+    end
+
+    if 2>=a and a>0:
+         '<div class="dialog_menu">'
+             '<p>I:It`s easy to get wet if you do it in front of the camera…</p>' 
+             '<p><<$TS.name>>:Hmm<<$Panting>></p>' 
+         '</div>'
+    end
+
+
+
+    if a=3:
+         $TS.bad+=q+my.charm
+         $TS.love+=q
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>: After charging, I am full of energy again!</p>'
+             '<p>I: What is your limit load?</p>'
+             '<p><<$TS.name>>: Secret❥(^_-)</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Strong medicine":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\Y1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Test effect </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Interrupt </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Buckle spray her </a></div>'
+            end
+            if a!4 and 3<=q and q<=10:
+            '<div class="buttonR2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Ruthless thrusting </a></div>'
+            end
+            if a=4:
+            '<div class="buttonR2"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Pull it out </a></div>'
+            end
+            if a!6 and 5<=q and q<=10:
+            '<div class="buttonR3"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Accelerate thrusting </a></div>'
+            end
+            if a=6:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Top to the uterus </a></div>'
+            end
+            if a!8 and 8<=q:
+            '<div class="buttonR4"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">really·Extreme sprint </a></div>'
+            end
+            if a=8:
+            '<div class="buttonR4"><a href="exec:a=9 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Ejaculation </a></div>'
+            end
+            if a=9:
+            '<div class="buttonS"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Insert again </a></div>'
+            '<div class="button"><a href="exec:a=10 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Check status </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Go back to the room</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:What`s this?</p>'
+             '<p>I: Something that can make you feel good.</p>'
+             '<p><<$TS.name>>: Is it medicine?Why are you not afraid that I will squeeze you when I drink it?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 9>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>·Her eyes gradually blurred</p>'
+             if a>=2:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a=3:'<p>I:Your pussy is so tight, my fingers are completely wrapped in you!</p>'
+             if a>=4:'<p><<$TS.name>>:<<$words>></p>'
+             if a=5 or a=7 or a=9:'<p><<$TS.name>>:Huh----ah ah ah ah ah ah!！！</p>'
+
+         '</div>'
+    end
+
+
+    if a=10:
+         $TS.bad+=q+q+my.charm
+         $TS.love+=q+q+my.charm
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>She screamed and twisted her body on the bed, her thighs were constantly convulsing and shaking, and waves of extreme pleasure almost made her unconscious.</p>'
+             '<p>I: A bit too much fun……</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="Bring new people":
+	'<div class ="show_menu"><img src="images\NPC\TS\pics\带新人<<a>>.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if a=0:
+			'<div class="buttonB1"><a href="exec:a=4 & SSYY_fans+=rand(15,20) & gt ''Angel_event'',''Bring new people''">Bring<<$SSYY.name>></a></div>'
+			'<div class="buttonB2"><a href="exec:a=2 & SF_fans+=rand(15,20) & gt ''Angel_event'',''Bring new people''">Bring<<$SF.name>></a></div>'
+			'<div class="buttonB3"><a href="exec:a=1 & QB_fans+=rand(15,25) & gt ''Angel_event'',''Bring new people''">Bring<<$QB.name>></a></div>'
+			if $TS.Multifaceted>=30:'<div class="buttonB4"><a href="exec:a=3 & MM_fans+=rand(15,35) & gt ''Angel_event'',''Bring new people''">Bring<<$MM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">Ability is not enough to bring<<$MM.name>></a></div>'
+			if $TS.Multifaceted>=35:'<div class="buttonB5"><a href="exec:gt ''Angel_event'',''TS_Fuck_Full staff''">Bring all the staff</a></div>'else:'<div class="buttonGr"><a href="exec:">The ability is not enough to bring all the staff</a></div>'
+		end
+		if a!0:
+			'<div class="buttonS"><a href="exec:a=0  & gt ''Angel_event'',''TS_Fuck_Thanks''">Thank her</a></div>'
+			if a=3:'<div class="buttonS"><a href="exec:a=0  &  gt ''Angel_event'',''TS_Fuck_Mbackstage''">Behind the scenes</a></div>'
+			'<div class="button"><a href="exec:a=0  & gt ''TV_station'',''Powder room''">leave</a></div>'
+		end
+	'</div>'
+
+	'<div class="dialog_menu">'
+
+		if a=0:
+		'<p><<$TS.name>>: <<$Protagonist`s_name>>, Who do you want me to take?</p>'
+		end
+		if a!0:
+		'<p>in<<$TS.name>>With the help of, her number of fans quickly accumulated…</p>'
+		end
+	'</div>'
+End
+
+if $args[0]="TS_Fuck_Thanks":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\WC1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!4:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Thanks''">You know </a></div>'
+            end
+            if a=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Thanks''">Oral sex </a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Thanks''">Mouth explosion </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_Thanks''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Angel_event'',''Go on a date''">Go on a date</a></div>'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Go back to the villa together</a></div>'
+            '</div>'
+    end
+
+
+
+    if 3>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Why did you bring me here?</p>'
+             if a>=1:'<p>I:Reward you with a big meat stick to eat.</p>'
+             if a>=2:
+             '<p><<$TS.name>>:<<$Panting>></p>'
+             end
+         '</div>'
+    end
+
+
+    if a=4:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Do you have any other plans for a while?Are there any other arrangements for going home?</p>'
+             '<p>I:I listen to you.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+
+if $args[0]="Go on a date":
+	 a=0 & q=0
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\约会.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Angel_event'',''TS_Fuck_bathroom''">Go open a room</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·and<<$TS.name>>Have a great time!Sweating all over!</p>'
+		$TS.love+=my.charm
+	'</div>'
+End
+
+if $args[0]="TS_Fuck_bathroom":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\浴室1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!5:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_bathroom''">Clean the glans </a></div>'
+            end
+            if a=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_bathroom''">Clean the balls </a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_bathroom''">Can`t hold it anymore </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_bathroom''">Bukkake </a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_bathroom''">afterwards </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Angel_event'',''TS_Fuck_event3''">Go back to the room</a></div>'
+            '</div>'
+    end
+
+
+
+    if 4>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>·You knocked on the bathroom glass and she knelt down like a puppy</p>'
+             '<p>I:Do you want it?…</p>'
+             if a>=1:'<p><<$TS.name>>:<<$Panting>></p>'
+         '</div>'
+    end
+
+
+    if a=5:
+         $TS.LOVE+=q+my.charm
+         $TS.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>Stroking her delicate body, all she thought about was the smell in her mouth just now.</p>'
+         '</div>'
+    end
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Company mouth":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\公司口1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!9:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Company mouth''">enjoy </a></div>'
+            end
+            if a!2 and 1<=q and q<=3:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Company mouth''">Mouth me </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Company mouth''">Hurry up </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_Company mouth''">Mouth explosion </a></div>'
+            end
+            if a=4:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_Company mouth''">Show semen </a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_Company mouth''">Sit up </a></div>'
+            end
+            if a!7 and 6<=q and q<=10:
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_Company mouth''">After entering her </a></div>'
+            end
+            if a!8 and 7<=q and q<=12:
+            '<div class="buttonS4"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_Company mouth''">Move fast </a></div>'
+            end
+            if a=8:
+            '<div class="buttonS4"><a href="exec:a=9 & gt ''Angel_event'',''TS_Fuck_Company mouth''">Ejaculation </a></div>'
+            end
+
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Went back</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+    if 8>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:It`s not bad in the dead of night ❤ It just refreshes me❤</p>'
+             if a>=1:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a<=5:'<p>I:Your oral work is awesome, do you want me to force your little nen to be too close... I will satisfy you.…</p>'
+             if a=5:'<p><<$TS.name>>:Do you like it?That must satisfy me❤</p>'
+             if a>=6:'<p><<$TS.name>>:<<$words>></p>'
+             if a>=8:'<p>I:Ah ah ah!I can`t help it!Why are you so good at twisting today?</p>' 
+         '</div>'
+    end
+
+
+
+
+
+    if a=9:
+         $TS.bad+=q+my.charm
+         $TS.love+=q+my.charm
+         '<div class="dialog_menu">'
+             '<p>I: Looking so pure... I`m a little slut in my bones…</p>'
+             '<p><<$TS.name>>: Hehe.She smiled obsessively, and the semen she vomited was expecting a more intense fuck❤</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Full staff":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\团1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Full staff''">Take a group photo </a></div>'
+            end
+            if a=1:
+            '<div class="buttonS"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Full staff''">Doze off </a></div>'
+            end
+            if a!3 and 2<=q and q<=8:
+            '<div class="buttonS1"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Full staff''">Lick me together </a></div>'
+            end
+            if a!4 and 3<=q and q<=12:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_Full staff''">fuck<<$TS.name>> </a></div>'
+            end
+            if a!5 and 3<=q and q<=12:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_Full staff''">fuck<<$SF.name>> </a></div>'
+            end
+            if a!6 and 3<=q:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_Full staff''">fuck<<$SSYY.name>> </a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_Full staff''">Ejaculation </a></div>'
+            end
+            if a=7:
+            '<div class="button"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_Full staff''">dialogue </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 &  gt ''Big_villa''">Go back together</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:come on!Is everyone ready?</p>'
+             '<p>I: Everyone is here?</p>'
+             '<p><<$TS.name>>:Well, I also brought a few trainees so that they could also meet the world.</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>: That`s goodEveryone is full of energy!</p>'
+             '<p>I: Empire Entertainment seems to be full of talents…</p>'
+         '</div>'
+    end
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>: <<$Protagonist`s_name>>, If you doze off here, you will catch a cold❤</p>'
+             '<p><<$SSYY.name>>: Yes ❤ If you want to sleep, you can go home and sleep with me，<<$Protagonist`s_surname>> Broker❤</p>'
+             '<p>I: …………*Lost in a daze</p>'
+             '<p><<$SF.name>>: Let`s wake you up together❤</p>'
+         '</div>'
+    end
+
+
+    if 7>=a and a>=3:
+         '<div class="dialog_menu">'
+             '<p>·They are happy to launch an offensive against you❤</p>'
+             if a=4:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a=5:'<p><<$SF.name>>:<<$words>></p>'
+             if a=6:'<p><<$SSYY.name>>:<<$words2>></p>'
+             if a=7:'<p>I:Shot----ah ah ah ah ah!！！</p>'
+
+         '</div>'
+    end
+
+
+    if a=8:
+         $SSYY.bad+=q+q+my.charm
+         $SSYY.love+=q+q+my.charm
+         '<div class="dialog_menu">'
+             '<p><<$SSYY.name>>Looking at the second daughter proudly,Declared that he had won the fertilization in the three-person competition</p>'
+             '<p>I: Is this the desire of popular idols to win or lose?</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Mbackstage":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\后台1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!4:
+        '<div class="button_menu">'
+            if a!0:
+            '<div class="buttonS2"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Mbackstage''"><<$MM.name>>Oral sex </a></div>'
+            end
+            if a!2:
+            '<div class="buttonS3"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Mbackstage''"><<$TS.name>>Oral sex </a></div>'
+            end
+            if a=2:
+            '<div class="buttonS"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Mbackstage''">Ejaculation </a></div>'
+            end
+            if a=3:
+            '<div class="buttonS"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_Mbackstage''">Lick clean</a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 &  gt ''TV_station'',''Powder room''">Leave first</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:What is your intention to ask us to a place like this❤</p>'
+             '<p><<$MM.name>>:The stupid brother is full of astringent thoughts!</p>'
+             '<p>I: Are you trying to do something?</p>'
+
+         '</div>'
+    end
+
+    if 3>=a and a>=1:
+         '<div class="dialog_menu">'
+             if a=1:'<p><<$MM.name>>: <<$Panting>></p>'
+             if a=2:'<p><<$TS.name>>: <<$Panting2>></p>'
+             if a=3:'<p><<$TS.name>>: <<$Panting2>></p>'
+         '</div>'
+    end
+
+
+
+    if a=4:
+         $TS.bad+=q+q+my.charm
+         $mm.bad+=q+q+my.charm
+         TSMM=1
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>: It`s a pity that we have to continue shooting❤</p>'
+             '<p><<$MM.name>>: Otherwise, stupid brother, don`t want to walk out of this door today❤</p>'
+             '<p>I: Who is afraid of who, I will fuck you when I get home!</p>'
+             '<p><<$MM.name>>: Yo❤ then me and<<$TS.NAME>>Waiting for you at home!</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_TSM1":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\TSM1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!14:
+        '<div class="button_menu">'
+            if a!1 and q<=3:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_TSM1''">Lick me together </a></div>'
+            end
+            if a!2 and 1<=q and q<=4:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_TSM1''">Pull<<$MM.name>> </a></div>'
+            end
+            if a!3 and 2<=q and q<=4:
+            '<div class="buttonS4"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_TSM1''">Pull<<$TS.name>> </a></div>'
+            end
+            if a!4 and 3<=q and q<=5:
+            '<div class="buttonS2"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_TSM1''">lick<<$MM.name>> </a></div>'
+            end
+            if a!5 and 4<=q and q<=6:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_TSM1''">lick<<$TS.name>> </a></div>'
+            end
+            if a!6 and 5<=q and q<=8:
+            '<div class="buttonR2"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_TSM1''">Attack up and down </a></div>'
+            end
+
+            if a!7 and 6<=q and a!9:
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_TSM1''">fuck<<$MM.name>> </a></div>'
+            end
+            if a!8 and 7<=q:
+            '<div class="buttonS4"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_TSM1''">fuck<<$TS.name>> </a></div>'
+            end
+
+            if a=7 or a=8:
+            '<div class="buttonS3"><a href="exec:a+=2 & gt ''Angel_event'',''TS_Fuck_TSM1''">Change posture </a></div>'
+            end
+
+            if a=9:
+            '<div class="buttonR3"><a href="exec:a=11 & gt ''Angel_event'',''TS_Fuck_TSM1''">put<<$MM.name>>Fuck clothes </a></div>'
+            end
+
+            if a=11:
+            '<div class="buttonR5"><a href="exec:a=12 & gt ''Angel_event'',''TS_Fuck_TSM1''">Hot fucking and squirting </a></div>'
+            end
+
+            if a=10:
+            '<div class="buttonS"><a href="exec:a=13 & gt ''Angel_event'',''TS_Fuck_TSM1''">Ejaculation </a></div>'
+            end
+
+            if a=13:
+            '<div class="buttonS"><a href="exec:a=14 & gt ''Angel_event'',''TS_Fuck_TSM1''">Lick clean </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonS"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_TSM1''">Blow me hard! </a></div>'
+                '<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Residential_area''">Sneak out</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Are you so courageous?Actually asked me to come home with your sister3P, Are you afraid of being heard by your family?</p>'
+             '<p><<$MM.name>>:Stupid brother, I`m going to let you go out on your knees today…</p>'
+             '<p>I: Oh really?</p>'
+         '</div>'
+    end
+
+
+
+
+    if 13>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p><<$MM.name>>:Come on, let`s see who we get to the next stage first today(^_-)</p>'
+             '<p><<$TS.name>>:<<$Panting2>></p>'
+             if a>=7:'<p><<$MM.name>>:<<$words2>></p>'
+             if a>=8:'<p><<$TS.name>>:<<$words>></p>'
+             if a=11:'<p>I:Brother, I`m going to work hard!You fucking sister, bear with me!</p>'
+             if a=12:'<p><<$MM.name>>:Ah ah ah<$Panting>>It`s not working anymore!！</p>'
+             if a=13:'<p>I:Shot--!</p>'
+         '</div>'
+    end
+
+
+    if a=14:
+         $TS.bad+=q+my.charm
+         $TS.love+=q+my.charm
+         $MM.bad+=q+my.charm
+         $MM.love+=q+my.charm
+         angelCD=0
+         '<div class="dialog_menu">'
+             '<p><<$MM.name>>:The boss is horny!This is my brother`s meat stick, how can you keep holding it and not give it to me!？</p>'
+             '<p><<$TS.name>>:Great, I just like your brother`s big dick... when you are away, he belongs to me.(^_-)</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_TSM2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\TSM2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!13:
+        '<div class="button_menu">'
+            if a!1 and q<=3:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_TSM2''"><<$MM.name>>Oral sex </a></div>'
+            end
+            if a!8 and q<=3:
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_TSM2''"><<$TS.name>>Oral sex </a></div>'
+            end
+            if a!2 and 2<=q :
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_TSM2''">fuck<<$MM.name>> </a></div>'
+            end
+            if a!8 and 2<=q :
+            '<div class="buttonS2"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_TSM2''">fuck<<$TS.name>> </a></div>'
+            end
+            if a=2 or a=8:
+            '<div class="buttonR2"><a href="exec:a+=1 & gt ''Angel_event'',''TS_Fuck_TSM2''">Auxiliary thrusting </a></div>'
+            end
+            if a=3 or a=9:
+            '<div class="buttonS"><a href="exec:a+=1 & gt ''Angel_event'',''TS_Fuck_TSM2''">Shoot her inside </a></div>'
+            end
+            if a=4 or a=10:
+            '<div class="buttonR3"><a href="exec:a+=1 & gt ''Angel_event'',''TS_Fuck_TSM2''">Fuck again </a></div>'
+            end
+            if a=5:
+            '<div class="buttonR4"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_TSM2''">Fuck spray<<$MM.name>> </a></div>'
+            end
+            if a=11:
+            '<div class="buttonR4"><a href="exec:a=12 & gt ''Angel_event'',''TS_Fuck_TSM2''">Bukkake<<$TS.name>> </a></div>'
+            end
+
+            if a=12:
+            '<div class="buttonR5"><a href="exec:a=13 & gt ''Angel_event'',''TS_Fuck_TSM2''">Almost there </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonS"><a href="exec:a=rand(2,11) & gt ''Angel_event'',''TS_Fuck_TSM2''">Can fight again! </a></div>'
+                '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Fight again another day!</a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:Do you know what we are waiting for?</p>'
+             '<p><<$MM.name>>: Did the stupid brother forget us?</p>'
+             '<p>I: Spread handso(╥﹏╥)o</p>'
+         '</div>'
+    end
+
+
+
+
+    if 12>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>·Their hungry eyes make your mouth dry</p>'
+             '<p><<$MM.name>>:<<$Panting>></p>'
+             '<p><<$TS.name>>:<<$Panting2>></p>'
+             if a>=2:'<p><<$MM.name>>:<<$words2>></p>'
+             if a>=8:'<p><<$TS.name>>:<<$words>></p>'
+             if a=11 or a=5:'<p>I:Huh----ah ah ah ah ah ah!！！</p>'
+         '</div>'
+    end
+
+
+    if a=13:
+         $TS.bad+=q+my.charm
+         $TS.love+=q+my.charm
+         $MM.bad+=q+my.charm
+         $MM.love+=q+my.charm
+         angelCD=0
+         '<div class="dialog_menu">'
+             '<p><<$MM.name>>:Brother is awesome, he will definitely be able to fight again, right?</p>'
+             '<p><<$TS.name>>:He must not be able to do it, let him go back and rest</p>'
+             '<p>I: ……………………</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Big group":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\大团1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!10:
+        '<div class="button_menu">'
+            if a!999:
+            '<div class="buttonS1"><a href="exec:a+=1 & gt ''Angel_event'',''TS_Fuck_Big group''">Show one after another </a></div>'
+            end
+            '<div class="buttonS1"><a href="exec:a=10 & gt ''Angel_event'',''TS_Fuck_Big group''">Skip the show </a></div>'
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Angel_event'',''TS_Fuck_Big group2''">Officially started </a></div>'
+            '</div>'
+    end
+
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I: I heard that a lot of new people have been recruited?Let`s show it.</p>'
+             '<p><<$TS.name>>: <<$LY.name>>and<<$SF.name>>He was absent from this meeting due to filming work and personal reasons.</p>'
+             '<p>I: It`s okay, let`s get started.</p>'
+         '</div>'
+    end
+
+
+
+
+    if 9>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>I:It`s a new model for the old band... it`s better to help newcomers than to join forces.…</p>'
+             if a=4:'<p><<$TS.name>>:<<$Protagonist`s_name>>, If you have any comments, just let me know.</p>'
+             if a=6:'<p><<$QB.name>>:<<$Protagonist`s_surname>> Agent, when are you free?Come to my room tonight.</p>'
+             if a=8:'<p><<$MM.name>>:Stupid brother!Only you are allowed to see me!</p>'
+             if a>8:'<p>I:Why are you the only one?！</p>'
+             if a>8:'<p><<$SSYY.name>>:I don`t want to bring a drag bottle, you also know my abilities!</p>'
+         '</div>'
+    end
+
+
+    if a=10:
+         '<div class="dialog_menu">'
+             '<p>I:It`s almost there, can the official kinky party begin?</p>'
+             '<p><<$SSYY.name>>:Got it❥(^_-)</p>'
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+if $args[0]="TS_Fuck_Big group2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\TS\vids\大团2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    if a!13:
+        '<div class="button_menu">'
+
+            if a!1 and a!5:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''TS_Fuck_Big group2''">Oral sex→<<$TS.name>> </a></div>'
+            end
+            if a=1:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Angel_event'',''TS_Fuck_Big group2''">Start operation→<<$TS.name>> </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_Big group2''">Internal injection→<<$TS.name>> </a></div>'
+            end
+
+
+            if a!2 and a!7:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Big group2''">Oral sex→<<$SSYY.name>></a></div>'
+            end
+            if a=2:
+            '<div class="buttonS3"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_Big group2''">Start operation→<<$SSYY.name>> </a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_Big group2''">Internal injection→<<$SSYY.name>> </a></div>'
+            end
+
+
+
+
+
+
+            if a!3 and a!9:
+            '<div class="buttonS1"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Big group2''">Oral sex→<<$MM.name>></a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=9 & gt ''Angel_event'',''TS_Fuck_Big group2''">Start operation→<<$MM.name>></a></div>'
+            end
+            if a=9:
+            '<div class="buttonS5"><a href="exec:a=10 & gt ''Angel_event'',''TS_Fuck_Big group2''">Internal injection→<<$MM.name>></a></div>'
+            end
+
+
+
+            if a!4 and a!12:
+            '<div class="buttonS1"><a href="exec:a=4 & gt ''Angel_event'',''TS_Fuck_Big group2''">Oral sex→<<$QB.name>></a></div>'
+            end
+            if a=4:
+            '<div class="buttonS3"><a href="exec:a=11 & gt ''Angel_event'',''TS_Fuck_Big group2''">Start operation→<<$QB.name>></a></div>'
+            end
+            if a=12:
+            '<div class="buttonS5"><a href="exec:a=12 & gt ''Angel_event'',''TS_Fuck_Big group2''">Internal injection→<<$QB.name>></a></div>'
+            end
+            if a!0 and 1<=q and q<=5:
+            '<div class="buttonS1"><a href="exec:a=0 & gt ''Angel_event'',''TS_Fuck_Big group2''">Jiuchi Meat Forest </a></div>'
+            end  
+
+            if q>=13 or a=12:
+            '<div class="buttonGn"><a href="exec:a=13 & gt ''Angel_event'',''TS_Fuck_Big group2''">The end of obscenity </a></div>'
+            end
+
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Go back to your room to rest</a></div>'
+            '</div>'
+    end
+
+
+
+
+
+    if 12>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$TS.name>>:The newcomers will all stand down and observe. Your little tender force can`t stand this kind of destruction. Let us be old... old employees❤</p>'
+             if a=1 or a=5 or a=6:'<p><<$TS.name>>:<<$Panting>></p>'
+             if a=2 or a=7 or a=8:'<p><<$SSYY.name>>:<<$Panting2>></p>'
+             if a=3 or a=9 or a=10:'<p><<$mm.name>>:<<$Panting>></p>'
+             if a=4 or a=11 or a=12:'<p><<$QB.name>>:<<$Panting2>></p>'
+             if a=6 or a=8 or a=10 or a=12:'<p>I:shoot!shoot!shoot!Shot into the depths of the uterus!</p>' 
+         '</div>'
+    end
+
+
+
+
+
+    if a=13:
+		 $Orientationparty=1
+         '<div class="dialog_menu">'
+             '<p>I: It`s almost... it`s time to end……</p>'
+             '<p><<$TS.name>>: Hard work❤</p>'
+             '<p><<$MM.name>>: Stupid brother is tired❤</p>'
+             '<p><<$QB.name>>: See you tonight❤</p>'  
+             '<p><<$SSYY.name>>: Okay, let`s all do our own things❤</p>'  
+         '</div>'
+    end
+
+
+  q+=1
+End
+
+--- Angel_event ---------------------------------
+

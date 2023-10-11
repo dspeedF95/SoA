@@ -1,0 +1,1457 @@
+# Anchor_event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+		if $camera_LY=0 and icamera>0 and $args[0]="kitchen":
+		'<div class="action">
+			<a class="photo" data-title="Install the camera" href="exec:$camera_LY=1 & icamera-=1 & gt ''Anchor_event'',''kitchen''"><img class="img_stretch" src="images\place\需要摄像头.jpg"></a>
+		</div>'
+		end
+'</div>'
+
+
+
+if $args[0]="LY_Event_Pre_entry":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\入境0-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!3:
+		'<div class="button_menu">'
+			if a>=0:
+			'<div class="button"><a href="exec:a+=1 & gt ''Anchor_event'',''LY_Event_Pre_entry''">continue</a></div>'
+			end
+
+		'</div>'
+		else:
+			'<div class="button_menu">'
+			 	'<div class="button"><a href="exec:minutes+=15 &q=0 & a=0 & gt ''Anchor_event'',''LY_Event_Entry''">Separate review</a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>man: As long as the actress pass is successfully processed, you can live with me!</p>'
+			 '<p>woman: Hmm!I didn`t expect my dream to come true so soon!Where will we live in the future?(How could it be such a bad old man?I thought he was at least a middle-aged divorced rich man with a successful career.）</p>'
+			 '<p>man:Uh, not in a hurry.If you want to eat the meal one by one, first go to the Immigration Bureau to get the pass and talk about it! </p>'
+			 '<p>woman: You are right!But I walked all the way down from the MRT station, and I said that the driver was sick. You don`t even have a car, do you?</p>'
+			 '<p>I: Are you here to get an actress pass?Why does she look a little familiar.</p>'
+		 '</div>'
+	end
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p>man: Uh uh...These are all the materials..</p>'
+			 '<p>Material auditor: No, why did the flow of funds suddenly increase so much in the short term?And the bust is onlyAThe cup is still filled with fake milk.Who are you fooling!</p>'
+			 '<p>man:Ah..this...I really don`t know..Ha ha ha..Why don`t you just go online and have a party when we are all locals! </p>'
+			 '<p>Material auditor: This is not okay, our subject auditor is here.</p>'
+			 '<p>I: The materials are suspicious, and the income is unclear, right?Let`s control people first.</p>'
+		 '</div>'
+	end
+
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p>woman: Let me go, don`t touch me, you stinky dogs!</p>'
+			 '<p>man: Eh eh?！Dear officials, this is none of my business.My little brother has other urgent matters, so let`s go first!</p>'
+			 '<p>Material auditor: Hold her down!</p>'
+		 '</div>'
+	end
+
+	if a=3:
+		 '<div class="dialog_menu">'
+			 '<p>Material auditor: Let`s be honest now!</p>'
+			 '<p>I: You all go, I want to conduct a separate physical review of her!</p>'
+			 '<p>·Everyone glanced at you strangely, but based on you and<<$RION.name>>I didn`t say much about the relationship.</p>'
+		 '</div>'
+		 $LY_Event_Pre_entry=1
+	end
+  q+=1
+End
+
+if $args[0]="LY_Event_Entry":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\入境1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a<10:
+		'<div class="button_menu">'
+			if a!1 and q<=3:
+			'<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_Entry''">Face check </a></div>'
+			end
+			if a!2 and 1<=q and q<=3: 
+			'<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_Entry''">Bust check </a></div>'
+			end
+			if a!3 and 2<=q and q<=5: 
+			'<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_Entry''">Hip examination </a></div>'
+			end
+			if a!4 and 3<=q and q<=7: 
+			'<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_Entry''">Private parts inspection </a></div>'
+			end
+			if a!5 and a>=4 and 9>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_Entry''">Vaginal depth </a></div>'
+			end
+			if a!6 and a>=4 and 9>=q and q>=4:
+			'<div class="button"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_Entry''">Pump hard </a></div>'
+			end
+			if a!7 and a>=4 and 10>=q and q>=5:
+			'<div class="button"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_Entry''">Oral examination </a></div>'
+			end
+			if a=7:
+			'<div class="buttonP"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_Entry''">continue </a></div>'
+			end
+			if a=8:
+			'<div class="buttonS"><a href="exec:a=9 & gt ''Anchor_event'',''LY_Event_Entry''">Ejaculation </a></div>'
+			end
+			if a=9:
+			'<div class="button"><a href="exec:a=10 & gt ''Anchor_event'',''LY_Event_Entry''">Audit results </a></div>'
+			end
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				if a=10:'<div class="buttonP"><a href="exec:a=11 & gt ''Anchor_event'',''LY_Event_Entry''">Sign the actress pass </a></div>'
+				if a=10:'<div class="buttonB"><a href="exec:a=11 & gt ''City_hall''">Suspension of processing </a></div>'
+				if a=11:'<div class="buttonB"><a href="exec:a=11 & gt ''City_hall''">leave </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>I: I hope you understand your position, you are suspected of flouting the Women`s Leadership Act!Attack public servants!If you don`t cooperate with the physical review anymore!We have the right to give you a stern warning,And expelled from the city!</p>'
+			 '<p>·(We are a fart public servant..It`s just to scare you.）</p>'
+		 '</div>'
+	end
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p>I: The face is acceptable, with traces of plastic surgery.</p>'
+
+		 '</div>'
+	end
+
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p>I: Tsk tsk, what are you shy about? Your body report has already stated that it is silicone-filled fake milk.</p>'
+		 '</div>'
+	end
+
+	if a=3:
+		 '<div class="dialog_menu">'
+			 '<p>I: It`s not enough, and the amount of meat is not enough.</p>'
+		 '</div>'
+	end
+
+	if a=4:
+		 '<div class="dialog_menu">'
+			 '<p>I: The labia minora is already black, and it seems that there is a lot of sexual experience.The overall apartment is acceptable, and the depth needs to be measured.</p>'
+		 '</div>'
+	end
+
+	if a=5:
+		 '<div class="dialog_menu">'
+			 '<p>woman: ..Okay, it`s already plugged in.It`s reaching the mouth of the uterus, and my body is going to tremble....</p>'
+		 '</div>'
+	end
+
+	if a=6:
+		 '<div class="dialog_menu">'
+			 '<p>woman: ....Can`t do it anymore...Can`t do it anymore....Help!..Going to be lost..</p>'
+		 '</div>'
+	end
+
+	if a=7:
+		 '<div class="dialog_menu">'
+			 '<p>I: Open your mouth wide!Hold it to the end in one breath!</p>'
+		 '</div>'
+	end
+
+	if 9>=a and a>=8:
+		 '<div class="dialog_menu">'
+			 '<p>woman:<<$Panting>></p>'
+		 '</div>'
+	end
+	if a=10:
+		 '<div class="dialog_menu">'
+			 '<p>woman: ...Have you checked carefully enough!....What about the results of my review..？！</p>'
+		 '</div>'
+	end
+	if a=11:
+		 '<div class="dialog_menu">'
+			 '<p>I: After confirming that the personal information is correct, sign here.</p>'
+			 '<p><<$LY.name>>: ..Finally solved...The next step is to find a house to live in. Where is the cheap rent?</p>'
+			 '<p>I: There are many deep alleys in Kabukicho.*You casually replied</p>'
+			 '<p><<$LY.name>>: Okay, I see.</p>'
+			 '<p>I: (You look familiar, have I seen you somewhere?）</p>'
+			 $LY_Event_Pre_entry=2
+			 $LY.room=1
+		 '</div>'
+	end
+  q+=1
+End
+
+if $args[0]="room":
+ if $LYFirsttimerental=0:gt'Anchor_event','First sight'
+ if $times_of_day='night':gt'Anchor_event','Late return'
+ if $times_of_day='':gt'Anchor_event','During the day'
+end
+
+
+if $ARGS[0]="First sight":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\租房~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>landlord :Hey, this is not easy to do.I made it clear when I rented it to you.This is a single room!</p>'
+		'<p>man :Please, be accommodating!This is my new girlfriend, she just came here.</p>'
+		'<p>landlord :Overcharged you for rent50%, If you don`t agree, just move away!</p>'
+		'<p>man :Oh, okay then.It`s all because I don`t have a house by myself, so you have to squeeze in here with me.</p>'
+		'<p><<$LY.name>> : Honey, you are so kind to me, I don`t dislike it.</p>'
+		'<p>I:(Oh?Changed again?But the vision is not very good, all the people caught are poor ghosts)</p>'
+		$LYFirsttimerental=1
+	'</div>'
+end
+
+if $ARGS[0]="During the day":
+	$Random_number=rand(0,100)
+	if $LY.Finishedmonitoring=1:
+		if $LY.customs=1 and $Random_number<=30:gt 'Anchor_event','Go out'
+		if $LY.Monitoringtwofinishedreading=0 and $Random_number<=50:gt 'Anchor_event','Lock tightly2'
+		if $LY.Monitoringtwofinishedreading=1 and week_day =7 :gt 'Anchor_event','LY_Event_groupP2'
+		gt 'Anchor_event','LY_Event_transaction2'
+	end
+	'<div class ="show_menu"><img src="images\NPC\LY\pics\无人.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>The door was locked tightly and no one was at home.</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="Late return":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\交易0-0~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: gt ''Anchor_event'',''apologize''">Say hello</a></div>'
+		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$LY.name>> :...It`s really unlucky, everything is not going well, is it against the water?...Big cities are really not easy to mix.</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="apologize":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\交易1-0~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if money>=500:'<div class="buttonG"><a href="exec:money-=500 & a=0 & q=0 & gt ''Anchor_event'',''LY_Event_transaction''">agree500￥</a></div>'else:'<div class="buttonGr"><a href="exec:">500￥</a></div>'
+		if $LY.customs>=1 and $Realityshowfront=1:'<div class="buttonP"><a href="exec:gt ''Anchor_event'',''Reality show invitation''">Reality show invitation</a></div>'
+		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I :Hey, I recognize you.Remember who brushed it for you100A rocket?</p>'
+		'<p><<$LY.name>> :Yes...it`s you!You are actually in this city too!</p>'
+		'<p>I :Uh, what happened before……</p>'
+		'<p><<$LY.name>> :Don`t take it to heart... Na, my financial pressure is a bit high now... do you want to offer me?The price of one rocket at a time... this is the best price on the list!</p>'
+	'</div>'
+end
+
+if $args[0]="LY_Event_transaction":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\交易1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!8:
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_transaction''">Lick cock </a></div>'
+			end
+			if a!2 and 1<=q and q<=3: 
+			'<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_transaction''">Poisonous dragon </a></div>'
+			end
+			if a!3 and 2<=q and q<=5: 
+			'<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_transaction''">Oral sex </a></div>'
+			end
+			if a!4 and 3<=q and q<=7: 
+			'<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_transaction''">Female upper </a></div>'
+			end
+			if a!5 and 9>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_transaction''">Back position </a></div>'
+			end
+			if a<6 and q>=5:
+			'<div class="buttonP"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_transaction''">sprint </a></div>'
+			end
+			if a=6:
+			'<div class="buttonS"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_transaction''">Ejaculation </a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_transaction''">dialogue </a></div>'
+			end
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				if $LY_Event_Gas_valve=0 or $camera_LY=0: '<div class="button"><a href="exec:a=11 & gt ''Anchor_event'',''kitchen''">Go to the kitchen </a></div>'
+				'<div class="button"><a href="exec:a=11 & gt ''Deep_alley''">leave </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: You are still reliable...Go inside.I..Roommate is still working...*Alas, in the end, I still have to rely on myself</p>'
+		 '</div>'
+	end
+
+	if 3>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$Panting>></p>'
+		 '</div>'
+	end
+	if 7>=a and a>=4:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$words>></p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 $LY.love+=q+my.charm-5
+		 $LY.bad+=q*2
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: Bring the money!We can continue to maintain this relationship....</p>'
+			 '<p>I: When will it be replayed?</p>'
+			 '<p><<$LY.name>>: Are you still not satisfied with the female anchor offline??The economic pressure is a bit high now, let`s wait a while.</p>'
+			 '<p>I: Ok.</p>'
+			 if $LY_Event_Gas_valve=0 or $camera_LY=0:'<p><<$LY.name>>: Hey, can you fix the Gas_valve?The Gas_valve in the kitchen always fails.</p>'
+		 '</div>'
+	end
+  q+=1
+End
+
+if $args[0]="LY_Event_transaction2":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\交易2-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!9:
+		'<div class="button_menu">'
+			if a!1 and q<=3:
+			'<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_transaction2''">hug </a></div>'
+			end
+			if a!2 and 1<=q and q<=3: 
+			'<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_transaction2''">serve </a></div>'
+			end
+			if a!3 and 2<=q and q<=5: 
+			'<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_transaction2''">Poisonous dragon </a></div>'
+			end
+			if a!4 and 3<=q and q<=7: 
+			'<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_transaction2''">Oral sex </a></div>'
+			end
+			if a!5 and 10>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_transaction2''">Female upper pumping </a></div>'
+			end
+			if a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_transaction2''">Squirting </a></div>'
+			end
+			if a!7 and q>=5:
+			'<div class="buttonP"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_transaction2''">Sprint in the back position </a></div>'
+			end
+			if a=7:
+			'<div class="buttonS"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_transaction2''">Ejaculation </a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Anchor_event'',''LY_Event_transaction2''">afterwards </a></div>'
+			end
+			if a=0:'<div class="button"><a href="exec:a=11 & gt ''Deep_alley''">leave </a></div>'
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:a=11 & gt ''Deep_alley''">leave </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: Come in, he`s going to work.I don`t charge during the day…</p>'
+			 '<p>I:…...(Seems to be more open since being raped like that?）</p>'
+		 '</div>'
+	end
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: Do you usually miss me?*Alas, how can I get close to you.What I want is not just the relationship between the client and the prostitute...</p>'
+		 '</div>'
+	end
+
+	if 4>=a and a>=2:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$Panting>></p>'
+		 '</div>'
+	end
+
+	if 8>=a and a>=5:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$words>></p>'
+		 '</div>'
+	end
+
+	if a=9:
+		 $LY.love+=q+my.charm
+		 $LY.bad+=q*5/2
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: That`s amazing!I shot so much, much better than my boyfriend..</p>'
+			 '<p>I: Your skills are also good. If you work in a custom shop, you should be able to make a lot of money.</p>'
+			 '<p><<$LY.name>>: Custom shop……?Is it here too??</p>'
+			 $LY.customs=1
+		 '</div>'
+	end
+  q+=1
+End
+
+if $args[0]="kitchen":
+	'<div class ="show_menu"><img src="images\NPC\LY\pics\厨房.jpg" width="854"></div>'
+		'<div class="button_menu">'
+			if Gas_valve>0:'<div class="button"><a href="exec:$LY_Event_Gas_valve=1 & Gas_valve-=1 &gt ''Anchor_event'',''kitchen''">Repair Gas_valve</a></div>'else:'<div class="buttonGr"><a href="exec:">Need a Gas_valve</a></div>'
+			if icamera=0:'<div class="buttonGr"><a href="exec:">Need a invisible camera</a></div>'
+			'<div class="button"><a href="exec:gt ''Deep_alley''">leave</a></div>'
+		'</div>'
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>> :I heard that this building has this problem.My roommate can`t do anything, so the boss can help me.(｡ŏ﹏ŏ)</p>'
+			 '<p>I :I went to the store for a walk.(You noticed an inconspicuous dead corner of the field of vision, which is a good place to install the camera.）</p>'
+			 if $LY_Event_Gas_valve=1: '<p>·【The Gas_valve has been repaired】</p>'
+		 '</div>'
+End
+
+if $args[0]="Kitchen monitoring":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\监控1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!8:
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:a+=1 & gt ''Anchor_event'',''Kitchen monitoring''">Fast forward▶▶▶ </a></div>'
+			if a!0:'<div class="button"><a href="exec:a-=1 & gt ''Anchor_event'',''Kitchen monitoring''">Back▶▶▶ </a></div>'
+			if $Customwork=1:	'<div class="buttonR1"><a href="exec:gt ''Anchor_event'',''LY_Event_groupP1''">One afternoon</a></div>'else:'<div class="buttonGr"><a href="exec:">Not triggered</a></div>'
+			'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: Why did you drink so much?Are you the line chief?Thank you for sending him back...</p>'
+			 '<p>Team leader: The length of the assembly line?I am the leader of the production team!</p>'
+			 '<p><<$LY.name>>: I`m really bothering you, team leader, I`ll pour a glass of water!</p>'
+		 '</div>'
+	end
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: ？！！？！！</p>'
+			 '<p>Team leader: Shhh, be quiet, don`t make a sound and you won`t get hurt.</p>'
+		 '</div>'
+	end
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p>Team leader: I have heard him brag about having a girlfriend a long time ago, and this time he is finally going to break up.Why don`t you let me taste it first!</p>'
+		 '</div>'
+	end
+
+	if a=3:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: ？！You can`t rub it so vigorously....Stop it!</p>'
+		 '</div>'
+	end
+
+	if a=4:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: Help~！Wake up!Get up quickly!I`m going to be raped in front of you!He has an erection!</p>'
+		 '</div>'
+	end
+
+	if a=5:
+		 '<div class="dialog_menu">'
+			 '<p>Team leader: Hehe.Let me tell you, with his cowardly character, he will continue to pretend to be asleep even when he is awake.Instead of following this kind of loser, you might as well follow me and be my woman!</p>'
+		 '</div>'
+	end
+
+	if a=6:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: Help!~！Get up for me, you trash!！He`s raping me..I was fucked to death by him!！Wake up quickly!！</p>'
+		 '</div>'
+	end
+
+	if a=7:
+		 '<div class="dialog_menu">'
+			 '<p>Team leader: What, a goblin leaked before it was pulled out.Hey hey!You have to know that the government is now buying high-quality Jingyuan at a high price!</p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 '<div class="dialog_menu">'
+			 '<p>Team leader: You should be an outsider, right?It is because of you so many foreign women that I am squeezed out of work!I should have been the chief engineer!</p>'
+			 '<p><<$LY.name>>: Woohoo………………</p>'	 
+			 '<p>Team leader: You can try to tell him and see what happens to him.It`s easy to control him in the factory.</p>'
+			 $LY.Finishedmonitoring=1
+		 '</div>'
+	end
+  q+=1
+End
+
+if $ARGS[0]="Go out":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\外出~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if $LY.customs>=1 and $Realityshowfront=1:'<div class="buttonP"><a href="exec:gt ''Anchor_event'',''Reality show invitation''">Reality show invitation</a></div>'
+		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I :Hi.</p>'
+		'<p><<$LY.name>> :Hi~I am planning to go out, the weather is really nice today.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Reality show invitation":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\真人秀.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if money>=3000:'<div class="buttonG"><a href="exec: $Realityshowfront=2 & money-=3000 & gt ''Anchor_event'',''Reality show invitation2''">Pay to shoot3000￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay to shoot3000￥</a></div>'
+		'<div class="button"><a href="exec: gt ''suburbs''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I :You have experience working as an anchor and a fashion store. These professional experiences should be the best candidates to complete such a reality show!</p>'
+		'<p><<$LY.name>> :...how do I need to act?？</p>'
+		'<p>I :No need to act!Reality TV, the most important thing is “real”!Our reality show is called "Stick to it if you are a man10Minutes", you use various means to seduce male guests!</p>'
+		'<p><<$LY.name>> :...I see, what about the reward, I think￥3000…...is it okay?</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Reality show invitation2":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\news\TV\真人秀1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: gt ''suburbs''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$LY.name>> :Since you are so loving, you should be able to accept the test, right?"Insist if you are a man10Minutes》</p>'
+		'<p>Male guest :of course!10minutes?20I can do it in minutes!</p>'
+		'<p>·It didn`t take long for the shooting to end…</p>'
+		'<p>I should give the filmed material to<<$BD.name>>, Let her edit it.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="customs":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\LY\vids\风俗.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="buttonG"><a href="exec:minutes+=15 & gt ''Anchor_event'',''LY_Event_customs''">Fast food788￥</a></div>'
+		'<div class="buttonG"><a href="exec:minutes+=15 & gt ''Anchor_event'',''LY_Event_customs2''">Full set1688￥</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>Human-like manager :brother!You are here, this is our latest prostitute.We support cash credit card loans here. Do you want to make you a pot of tea first?</p>'
+		'<p>I :She really came to work here……</p>'
+		$Customwork=1
+	'</div>'
+end
+
+if $args[0]="LY_Event_customs":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\风俗1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!10:
+		'<div class="button_menu">'
+			if a!1 and q<=3:
+			'<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_customs''">serve </a></div>'
+			end
+			if a!2 and 1<=q and q<=3: 
+			'<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_customs''">Oral sex </a></div>'
+			end
+			if a!3 and 2<=q and q<=5 and a<6: 
+			'<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_customs''">accelerate </a></div>'
+			end
+			if a!4 and 3<=q and q<=7 and a<6:
+			'<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_customs''">Mouth explosion </a></div>'
+			end
+			if a=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_customs''">Discuss the price </a></div>'
+			end
+			if a=5:
+			'<div class="buttonG"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_customs''">continue500￥ </a></div>'
+			end
+			if a=5:
+			'<div class="buttonG"><a href="exec:money-=788 & gt ''The_night_is_fine'',''Custom area''">checkout788￥ </a></div>'
+			end
+			if a!7 and a>=6:
+			'<div class="buttonS"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_customs''">Fuck </a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_customs''">sprint </a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Anchor_event'',''LY_Event_customs''">Ejaculation </a></div>'
+			end
+			if a=9:
+			'<div class="button"><a href="exec:a=10 & gt ''Anchor_event'',''LY_Event_customs''">dialogue </a></div>'
+			end
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="buttonG"><a href="exec:money-=1288 & gt ''The_night_is_fine'',''Custom area''">checkout1288￥ </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>I:You are really here……</p>'
+			 '<p><<$LY.name>>: What about you?... are you here to take care of my business??</p>'
+		 '</div>'
+	end
+
+
+	if 4>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a=5:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: If you want to insert it, you have to add extra money.</p>'
+			 '<p>I:What about the preferential price of the top one?…?</p>'
+			 '<p><<$LY.name>>: Now I`m not an anchor, you`re just a prostitute who came to fuck me.</p>'
+		 '</div>'
+	end
+
+	if 9>=a and a>=6:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>:<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=10:
+		 $LY.love+=q+my.charm
+		 $LY.bad+=q*2
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: By the way, don`t tell me about my work here... my roommate.</p>'
+			 '<p>I: How long are you going to hide it from him?</p>'
+			 '<p><<$LY.name>>: At least when I have saved enough money, I will finish paying off the loan.</p>'
+		 '</div>'
+	end
+  q+=1
+End
+
+if $args[0]="LY_Event_customs2":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\风俗2-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!7:
+		'<div class="button_menu">'
+			if a!1 and q<=3:
+			'<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_customs2''">Lick cock </a></div>'
+			end
+			if a!2 and 1<=q and q<=3: 
+			'<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_customs2''">Oral sex </a></div>'
+			end
+			if a!3 and 2<=q and q<=5 : 
+			'<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_customs2''">Fuck </a></div>'
+			end
+			if a!4 and 3<=q and q<=7 :
+			'<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_customs2''">Vigorously pump </a></div>'
+			end
+			if a!5 and 10>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_customs2''">Accelerate the sprint </a></div>'
+			end
+			if a=5:
+			'<div class="buttonS"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_customs2''">Bukkake </a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_customs2''">Lick clean </a></div>'
+			end
+
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="buttonG"><a href="exec:money-=1688 & gt ''The_night_is_fine'',''Custom area''">checkout1688￥ </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>I:I`m here to take care of your business. Your ass has tilted a lot.</p>'
+			 '<p><<$LY.name>>: It`s not something the bosses figure out every day.</p>'
+		 '</div>'
+	end
+
+
+	if 2>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$Panting>>Boss, your dick is getting salty.</p>'
+		 '</div>'
+	end
+
+
+
+	if 6>=a and a>=3:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>:<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=7:
+		 $LY.love+=q+my.charm
+		 $LY.bad+=q*5/2
+		 '<div class="dialog_menu">'
+			 '<p>I: It`s not easy in a big city, is it?</p>'
+			 '<p><<$LY.name>>: If I hadn`t been deceived by the black intermediary, maybe I would have lived a good life. I originally wanted to be a teacher or something.</p>'
+		 '</div>'
+	end
+  q+=1
+End
+
+if $args[0]="LY_Event_groupP1":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\群P1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!6:
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:a+=1 & gt ''Anchor_event'',''LY_Event_groupP1''">Fast forward▶▶▶ </a></div>'
+			if a!0:'<div class="button"><a href="exec:a-=1 & gt ''Anchor_event'',''LY_Event_groupP1''">Back▶▶▶ </a></div>'
+
+			'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>Team leader: Today, that waste was arranged by me to work compulsory overtime, and he actually asked me and the deputy team leader to take care of you!</p>'
+			 '<p><<$LY.name>>: I don`t believe it, I want to call him!</p>'
+			 '<p>Deputy team leader:  Haha!We lied to you, he didn`t ask us to take care of you, he asked us to fuck you!</p>'
+		 '</div>'
+	end
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: ？！Want to...rape...me again!This time...absolutely!？Stop it!！</p>'
+			 '<p>Team leader: Shhh, be quiet, don`t make a sound and you won`t get hurt.</p>'
+			 '<p>Deputy team leader:  Team leader, you come first!</p>'
+		 '</div>'
+	end
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p>Team leader: Why is your pussy getting looser and looser, do you think you are fucking with him all day?！</p>'
+		 '</div>'
+	end
+
+	if a=3:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: ？！No, it`s not... stop it...!</p>'
+		 '</div>'
+	end
+
+	if a=4:
+		 '<div class="dialog_menu">'
+			 '<p>Deputy team leader:  Yo West!Now it`s my turn, I will stab your semen harder into your womb!</p>'
+		 '</div>'
+	end
+
+	if a=5:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: ...don`t...shoot in...oh...please...!</p>'
+		 '</div>'
+	end
+
+
+	if a=6:
+		 '<div class="dialog_menu">'
+			 '<p>Team leader: Sao forced, are you happy to be fucked by us?！</p>'
+			 '<p><<$LY.name>>: Woohoo………………</p>'	 
+			 '<p>Team leader: It doesn`t seem to be satisfied, then I will take the whole group to fuck you on Sunday, okay?Remember to take birth control pills in advance!</p>'
+			 $LY.Monitoringtwofinishedreading=1
+		 '</div>'
+	end
+  q+=1
+End
+
+if $ARGS[0]="Lock tightly2":
+	'<div class ="show_menu"><img src="images\NPC\LY\pics\无人.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>There was a groan in the room. If a camera was installed, it should be able to capture the picture.</p>'
+	'</div>'
+end
+
+if $args[0]="LY_Event_groupP2":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\群P2-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!8:
+		'<div class="button_menu">'
+			if a<=1:
+			'<div class="buttonS2"><a href="exec:a+=1 & gt ''Anchor_event'',''LY_Event_groupP2''">Gang rape </a></div>'
+			end
+			if a=2:
+			'<div class="buttonS2"><a href="exec:a=0 & gt ''Anchor_event'',''LY_Event_groupP2''">Gang rape </a></div>'
+			end
+			if a!3 and q>=3 : 
+			'<div class="buttonR2"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_groupP2''">Anal sex </a></div>'
+			end
+			if a=3 :
+			'<div class="buttonR4"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_groupP2''">Anal creampie </a></div>'
+			end
+			if a!5 and q>=4:
+			'<div class="buttonS1"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_groupP2''">Insert force </a></div>'
+			end
+			if a=5:
+			'<div class="buttonS2"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_groupP2''">Gang rape </a></div>'
+			end
+			if a=6:
+			'<div class="buttonS3"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_groupP2''">Internal injection </a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_groupP2''">Lick clean </a></div>'
+			end
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:money-=1688 & gt ''Deep_alley''">Don`t watch it anymore </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>·You observe the house through the window glass</p>'
+			 '<p>Team leader:Do you mind if I show you a demonstration?Let me fuck her to show you. Women want men to be rougher in their bones. If you can`t bear to treat her too rough, you don`t have to come to work tomorrow!</p>'
+			 '<p><<$LY.name>>: <<$Panting>>Don`t...it will make me leak out all at once...ah... don`t…</p>'
+		 '</div>'
+	end
+
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p>Deputy team leader:When a woman says no, she is actually asking a man to give her more. Remember this feeling for me. If you can recognize me from the crowd in a while, you will do a great job.</p>'
+			 '<p><<$LY.name>>: <<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p>Team member:Don`t look like you`ve been played badly, miss, the show hasn`t officially started yet.</p>'
+			 '<p><<$LY.name>>: <<$Panting>>Woo...too much...don`t shoot in again...ah ah...too comfortable……</p>'
+		 '</div>'
+	end
+
+	if 7>=a and a>=3:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>:<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 '<div class="dialog_menu">'
+			 '<p>Team member:Boss, what if she calls the police and says we raped her?The new law is a felony...</p>'
+			 '<p>Team leader: Haha!Did the forced woman lick you clean like this?</p>'
+			 '<p><<$LY.name>>: …...you scum...if you don`t leave, I`ll call the police.…</p>'
+			 '<p>Team member: Are women so wrong-mouthed?</p>'
+		 '</div>'
+	end
+  q+=1
+End
+
+if $args[0]="LY_Fuck_warehouse":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\仓库<<LYwarehouse>>-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!2:
+		'<div class="button_menu">'
+			if a!0:
+			'<div class="button"><a href="exec:a=0 & gt ''Anchor_event'',''LY_Fuck_warehouse''">Hold down and fuck </a></div>'
+			end
+			if a!1 and q>=0: 
+			'<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Fuck_warehouse''">Vigorously pump </a></div>'
+			end
+			if a!2 and q>=2: 
+			'<div class="buttonS"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Fuck_warehouse''">Ejaculation </a></div>'
+			end
+
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:gt ''TV_station''">leave </a></div>'
+			'</div>'
+	end
+
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>I:Then prostitute here!</p>'
+			 '<p><<$LY.name>>: <<$Panting>></p>'
+		 '</div>'
+	end
+
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$words>>You are going to fuck me to death!</p>'
+		 '</div>'
+	end
+
+
+	if a=2:
+		 $LY.love+=2
+		 $LY.bad+=2
+		 '<div class="dialog_menu">'
+			 '<p>I: Comfortable.</p>'
+			 '<p><<$LY.name>>: Huh----I feel back.</p>'
+		 '</div>'
+	end
+ q+=1
+End
+
+if $args[0]="LY_Fuck_Director`s Room":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\LY\vids\台长室1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!5:
+		'<div class="button_menu">'
+			if a!0 and 3>=q and q>=0: 
+			'<div class="button"><a href="exec:a=0 & gt ''Anchor_event'',''LY_Fuck_Director`s Room''">Oral sex </a></div>'
+			end
+			if a!1 and 4>=q and q>=0: 
+			'<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Fuck_Director`s Room''">Pull force </a></div>'
+			end
+			if a!2 and 5>=q and q>=2: 
+			'<div class="buttonR3"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Fuck_Director`s Room''">Squirting </a></div>'
+			end
+			if a!3 and 6>=q and q>=3: 
+			'<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Fuck_Director`s Room''">Open operation </a></div>'
+			end
+			if a!4 and q>=4: 
+			'<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Fuck_Director`s Room''">Accelerate thrusting </a></div>'
+			end
+			if a=4: 
+			'<div class="buttonS"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Fuck_Director`s Room''">Ejaculation </a></div>'
+			end
+		'</div>'
+
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:gt ''TV_station''">leave </a></div>'
+			'</div>'
+	end
+
+
+	if 1>=a and a>=0:
+		 '<div class="dialog_menu">'
+			 '<p>I:The stage has grown out, isn`t it exciting to have sex here?！</p>'
+			 '<p><<$LY.name>>: <<$Panting>>Let`s make it quick…</p>'
+		 '</div>'
+	end
+
+
+	if 4>=a and a>=2:
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$words>></p>'
+			 if a=2:'<p>I:How can you?！It`s sprayed everywhere... it`s over.…</p>'
+		 '</div>'
+	end
+
+
+	if a=5:
+		 $LY.love+=q
+		 $LY.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$LY.name>>: <<$Panting>></p>'
+			 '<p>I:Wipe away the lewd water and semen you spewed out, and I will go outside to help you watch the wind.</p>'
+		 '</div>'
+	end
+ q+=1
+End
+
+if $args[0]="LY_Event_maid":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LY\vids\女仆1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_maid''">Ability to apply </a></div>'
+            end
+            if a!2 and 1<=q and q<=3: 
+            '<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_maid''">Take off your pants </a></div>'
+            end
+            if a!3 and 2<=q and q<=5 : 
+            '<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_maid''">Oral sex </a></div>'
+            end
+            if a!4 and 3<=q and q<=7 : 
+            '<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_maid''">Lick the balls </a></div>'
+            end
+            if a=4:
+            '<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_maid''">Lift up the skirt </a></div>'
+            end
+            if a=5:
+            '<div class="buttonS"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_maid''">Playing with small holes </a></div>'
+            end
+            if a=5 or a=6 or a=8:
+            '<div class="buttonS"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_maid''">Sao forced straight plug </a></div>'
+            end
+            if a=7:
+            '<div class="button"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_maid''">Open legs </a></div>'
+            end
+            if a=8:
+            '<div class="button"><a href="exec:a=9 & gt ''Anchor_event'',''LY_Event_maid''">Accelerate the sprint </a></div>'
+            end
+            if a=9:
+            '<div class="button"><a href="exec:a=10 & gt ''Anchor_event'',''LY_Event_maid''">Ejaculation </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Big_villa''">Let`s do it first </a></div>'
+            '</div>'
+    end
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I:Oh?</p>'
+             '<p><<$LY.name>>: hello?Is anyone there?I`m here to apply for a maid!</p>'
+             '<p>I:I was thinking about you working in a TV station during the day and going to a custom shop at night. How could you think of being a housemaid for me?</p>'
+             '<p><<$LY.name>>: Hi, it`s not that there is not enough money to spend!</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: How`s it going, can I do basic hygiene?</p>'
+             '<p>I:It`s not enough to clean the surface well……</p>'
+         '</div>'
+    end
+
+
+    if 9>=a and a>=2:
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: <<$Panting>></p>'
+             if a>=3:'<p>I:Very capable…</p>'
+             if a>=7:'<p><<$LY.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+
+    if a=10:
+         $LY.love+=q+my.charm
+         $LY.bad+=q*2
+         if Bluetooth_maid=0:Bluetooth_maid=1
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: By the way, don`t tell me about my work here... my roommate.</p>'
+             '<p>I: Your roommate?I almost forgot that there is such a thing. How long do you plan to hide it from him?</p>'
+             '<p><<$LY.name>>: Let`s talk about it.</p>'
+         '</div>'
+    end
+  q+=1
+End
+
+if $args[0]="LY_Event_Housing commission":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LY\vids\女仆2-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_Housing commission''">Talk later </a></div>'
+            end
+            if a!2 and 1<=q and q<=3: 
+            '<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_Housing commission''">Straight to the end </a></div>'
+            end
+            if a!3 and 2<=q and q<=5 : 
+            '<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_Housing commission''">Please me </a></div>'
+            end
+            if a!4 and 3<=q and q<=7 : 
+            '<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_Housing commission''">Do it yourself </a></div>'
+            end
+            if a!5 and 4<=q and q<=8 : 
+            '<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_Housing commission''">Accelerate thrusting </a></div>'
+            end
+            if a=5:
+            '<div class="button"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_Housing commission''">Ejaculation </a></div>'
+            end
+            if a=6:
+            '<div class="button"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_Housing commission''">What`s the matter? </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn"><a href="exec:Bluetooth_maid=2 & gt ''Big_villa'',''Master bedroom''">Promise her </a></div>'
+                '<div class="button"><a href="exec:gt ''Big_villa'',''Master bedroom''">Let`s talk about it </a></div>'
+            '</div>'
+    end
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>I:Hmm?Why are you so proactive?</p>'
+             '<p><<$LY.name>>: I have a personal matter I want to ask you!</p>'
+         '</div>'
+    end
+
+
+
+    if 6>=a and a>=1:
+         '<div class="dialog_menu">'
+             '<p>I:Don`t talk about private matters in a hurry, let`s do private matters first…</p>'
+             '<p><<$LY.name>>: Hmm<<$Panting>></p>'
+             if a>=3:'<p>I:You know what to do!</p>'
+             if a>=3:'<p><<$LY.name>>: <<$words>></p>'
+         '</div>'
+    end
+
+
+    if a=7:
+         $LY.love+=q+my.charm
+         $LY.bad+=q*2
+         '<div class="dialog_menu">'
+             '<p>I: Come on, what`s the matter?</p>'
+             '<p><<$LY.name>>: You are very familiar with Empire Entertainment, right... I want to...join Empire Entertainment, can you be my introducer?</p>'
+             '<p>I: This matter?It`s too late today... I need to rest first…</p>'
+             '<p><<$LY.name>>: Don`t!Then tomorrow afternoon, let`s eat and talk in the red restaurant.…</p>'
+         '</div>'
+    end
+  q+=1
+End
+
+if $args[0]="LY_Event_Invitation":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LY\vids\邀约1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!2:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_Invitation''">What about my benefits? </a></div>'
+            end
+            if a=1: 
+            '<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_Invitation''">Ejaculation </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:a=0 & q=0 & gt ''Anchor_event'',''LY_Event_Ninterview''">Departure interview </a></div>'
+            '</div>'
+    end
+
+
+    if 1>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p>I:Let`s talk about it specifically, why did you suddenly want to enter Empire Entertainment?</p>'
+             '<p><<$LY.name>>: You know, I was originally an anchor, and now I am also in charge of the reality show sector... Just consider entering an entertainment company and developing towards a regular artist!</p>'
+             if a>=1:'<p>I:My help is not blindly helping!</p>'
+             if a>=1:'<p><<$LY.name>>: I understand<<$Panting>></p>'
+         '</div>'
+    end
+
+
+
+    if a=2:
+         $LY.love+=q+my.charm
+         $LY.bad+=q*2
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: In private, I am your meat toilet. You can fuck me anytime, anywhere. From now on, you will be my master... You can do whatever you want me to do, and I will do it with whoever you want me to do!</p>'
+             '<p>I: This condition is not bad…</p>'
+         '</div>'
+    end
+  q+=1
+End
+
+if $args[0]="LY_Event_Ninterview":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LY\vids\面试O1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Anchor_event'',''LY_Event_Ninterview''">Relieve tension </a></div>'
+            end
+            if a=1:
+            '<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_Ninterview''">Go up for an interview </a></div>'
+            end
+            if a!3 and 2<=q and q<=6 : 
+            '<div class="buttonS1"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_Ninterview''">Order to please me </a></div>'
+            end
+            if a!4 and 3<=q and q<=8 : 
+            '<div class="buttonS1"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_Ninterview''">Mouth me </a></div>'
+            end
+            if a!5 and 4<=q and q<=9 : 
+            '<div class="buttonS2"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_Ninterview''">Lick with your heart! </a></div>'
+            end
+            if a!6 and 5<=q and q<=10 : 
+            '<div class="buttonS3"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_Ninterview''">Sucking testicles </a></div>'
+            end
+            if a!7 and 6<=q and q<=11 : 
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_Ninterview''">Enjoy oral sex </a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_Ninterview''">Ejaculation </a></div>'
+            end
+
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Empire_Group''">leave </a></div>'
+            '</div>'
+    end
+
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: It should be successful, right?You and<<$TS.name>>The relationship is super good!</p>'
+             '<p>I:Uh...okay?Don`t be too nervous. It should be fine.</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p>I:Hello?What are you doing?</p>'
+             '<p><<$LY.name>>: Relieve tension!It contains your semen. Every time I`m nervous, I just take it out and lick it a few times.……</p>'
+             '<p>I:Is it really effective?</p>'
+             '<p><<$LY.name>>: Do you want to give it a try?Now I take it with me as an amulet…</p>'
+         '</div>'
+    end
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p>·15Minutes later</p>'
+             '<p>I:How?Is it going well?</p>'
+             '<p><<$LY.name>>: OK！It`s over once!</p>'
+             '<p>I:cool~</p>'
+         '</div>'
+    end
+
+
+    if 7>=a and a>=3:
+         '<div class="dialog_menu">'
+             '<p>I:According to the conditions, now I want you to let me shoot out here!</p>'
+             '<p><<$LY.name>>: Good master<<$Panting>></p>'
+             if a>=5:'<p>I:Why didn`t you find that your oral work is so good before?</p>'
+             if a>=5:'<p><<$LY.name>>: It`s the master`s constant training.<<$words>></p>'
+         '</div>'
+    end
+
+
+    if a=8:
+         $LY.love+=q+my.charm
+         $LY.bad+=q*2
+         if Bluetooth_maid=2:Bluetooth_maid=3
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: The owner shoots so much, the little bitch is so happy!</p>'
+             '<p>I: Is your mouth a lot sweeter?…</p>'
+             '<p><<$LY.name>>: <<$MM.name>>In the same practice room as me!I will take care of her!</p>'
+         '</div>'
+    end
+  q+=1
+End
+
+if $ARGS[0]="Sister cycle0":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LY\vids\妹双1-0.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    '<div class="button_menu">'
+        '<div class="buttonB1"><a href="exec:a=3 & q=3 & gt ''Anchor_event'',''LY_Event_Ninterview''">called<<$LY.name>>Come out</a></div>'
+        '<div class="buttonS2"><a href="exec:minutes+=60 & gt ''Anchor_event'',''Sister cycle1''">Peeping at them</a></div>'
+        if Sisterdoublecomplete=1:'<div class="buttonS4"><a href="exec:minutes+=60 & gt ''Anchor_event'',''LY_Event_Sister engage''">Give them gifts</a></div>'else:'<div class="buttonGr"><a href="exec:">They are not familiar enough</a></div>'
+        '<div class="button"><a href="exec:minutes+=60 & gt ''Empire_Entertainment''">leave</a></div>'
+    '</div>'
+
+    '<div class="dialog_menu">'
+        '<p><<$MM.name>>:Although you are older than me, you are my first younger generation!Don`t worry, I will take good care of you!</p>'
+        '<p><<$LY.name>>:Then we are commensurate with good sisters?</p>'
+        '<p>I:…... (I got along with my sister so quickly)</p>'
+    '</div>'
+end
+
+if $ARGS[0]="Sister cycle1":
+     Sisterpairnum+=1
+     if Sisterpairnum>=6:Sisterdoublecomplete=1 & Sisterpairnum=1
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LY\vids\妹双1-<<Sisterpairnum>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+    
+    '<div class="button_menu">'
+        if q=0:'<div class="buttonP"><a href="exec:minutes+=60 & gt ''Anchor_event'',''Sister cycle1''">Watch for a while</a></div>'else:'<div class="buttonGr"><a href="exec:">Let`s take a look next time</a></div>'
+        '<div class="button"><a href="exec:minutes+=60 & gt ''Empire_Entertainment''">leave</a></div>'
+    '</div>'
+
+    '<div class="dialog_menu">'
+        '<p>·It seems that their relationship is very good</p>'
+    '</div>'
+    q+=1
+end
+
+if $args[0]="LY_Event_Sister engage":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\LY\vids\妹搞1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!10:
+        '<div class="button_menu">'
+            if 5>=a and a>=0:
+            '<div class="button"><a href="exec:a+=1 & gt ''Anchor_event'',''LY_Event_Sister engage''">Watch it </a></div>'
+            end
+            if a=6:
+            '<div class="button"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_Sister engage''">Don`t watch it anymore </a></div>'
+            end
+            if a=7:
+            '<div class="button"><a href="exec:a=8 & gt ''Anchor_event'',''LY_Event_Sister engage''"><<$LY.name>>The information </a></div>'
+            end
+            if a=8:
+            '<div class="button"><a href="exec:a=9 & gt ''Anchor_event'',''LY_Event_Sister engage''">There is new news </a></div>'
+            end
+            if a=9:
+            '<div class="button"><a href="exec:a=10 & gt ''Anchor_event'',''LY_Event_Sister engage''"><<$MM.name>>The information </a></div>'
+            end
+        '</div>'
+
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Empire_Group''">Laugh without saying a word </a></div>'
+            '</div>'
+    end
+
+
+
+
+
+    if 6>=a and a>=0:
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: What`s this?Is it a gift from the fan group?</p>'
+             '<p><<$MM.name>>: Let me see...“I guess this is something you will like, I wish you a good time.”</p>'
+             if a>=1:'<p><<$MM.name>>: What?！Why is it a big box of sex toys?！It`s too much!</p>'
+             if a>=1:'<p><<$LY.name>>: You, do you want to try it?</p>'
+             if a>=1:'<p><<$MM.name>>: Oh?</p>'
+             if a>=2:'<p><<$MM.name>>: <<$Panting>></p>'
+             if a>=3:'<p><<$LY.name>>: <<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=7:
+         '<div class="dialog_menu">'
+             '<p>·Just a few steps out, the phone rang</p>'
+         '</div>'
+    end
+
+
+
+    if a=8:
+         '<div class="dialog_menu">'
+             '<p><<$LY.name>>: Master, I take good care of your sister, please rest assured.We get along very happily.</p>'
+         '</div>'
+    end
+
+    if a=9:
+         '<div class="dialog_menu">'
+             '<p>·Just put down the phone, the bell rang again</p>'
+         '</div>'
+    end
+
+    if a=10:
+         '<div class="dialog_menu">'
+             '<p><<$MM.name>>: hey!Stupid brother!I have a new younger generation!How`s it going, is her figure not as good as mine?I know you love watching this!Shhh-don`t tell her I took it!</p>'
+         '</div>'
+    end
+  q+=1
+End
+--- Anchor_event ---------------------------------
+

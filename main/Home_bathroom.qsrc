@@ -1,0 +1,31 @@
+# Home_bathroom
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs'Home_map'
+'</div>'
+
+
+
+'<div class ="show_menu"><img src="images\place\家_浴室.jpg" width="854"></div>'
+
+
+'<div class="button_menu">'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_bathroom''">Kill Time (30m)</a></div>'
+'</div>'
+
+
+'<div class="dialog_menu">'
+	'<p>...</p>'
+'</div>'
+
+ 
+--- Home_bathroom ---------------------------------
+

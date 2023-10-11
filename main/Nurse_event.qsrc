@@ -1,0 +1,281 @@
+# Nurse_event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+if $args[0]="HS_Fuck_Oral sex":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\前台口交<<hsa>>-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!4:
+		'<div class="button_menu">'
+			if a!0 and a!3:
+			'<div class="button"><a href="exec:a-=1 & gt ''Nurse_event'',''HS_Fuck_Oral sex''">Slow down</a></div>'
+			end
+			if a!2 and a!3:
+			'<div class="button"><a href="exec:a+=1 & gt ''Nurse_event'',''HS_Fuck_Oral sex''">Hurry up</a></div>'
+			end
+			if a=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Nurse_event'',''HS_Fuck_Oral sex''">Ejaculation</a></div>'
+			end
+			if a=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Nurse_event'',''HS_Fuck_Oral sex''">Semen test</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				if hsa=2 or hsa=4:
+				'<div class="buttonS"><a href="exec:minutes+=30 &a=0 &q=0&gt ''Nurse_event'',''HS_Fuck_Oral sexSEX''">Tease her</a></div>'
+				end
+				'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_drug_test''">Go back to your room to rest</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:Okay, let`s deal with it nearby.Please take a deep breath and relax your lower body, and leave the rest to me.</p>'
+		 '</div>'
+	end
+
+
+
+	if 3>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:<<$Panting>></p>'
+		 '</div>'
+	end
+
+
+	if a=4:
+		 $HS.love+=q+my.charm
+		 $HS.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p>I:Thank you for your hard work.</p>'
+			 '<p><<$HS.name>>:I just finished shooting and need to rest and recover. I will send you back to rest.<<$Protagonist`s_surname>> Sir, you are really a gentle person.</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="HS_Fuck_Oral sexSEX":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\前台口交SEX<<hsa>>-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!5:
+		'<div class="button_menu">'
+			if a!0 and a!4:
+			'<div class="button"><a href="exec:a-=1 & gt ''Nurse_event'',''HS_Fuck_Oral sexSEX''">Slow down</a></div>'
+			end
+			if a!3 and a!4:
+			'<div class="button"><a href="exec:a+=1 & gt ''Nurse_event'',''HS_Fuck_Oral sexSEX''">Hurry up</a></div>'
+			end
+			if a=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Nurse_event'',''HS_Fuck_Oral sexSEX''">Internal injection</a></div>'
+			end
+			if a=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Nurse_event'',''HS_Fuck_Oral sexSEX''">Express love</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=120 & gt ''Daily_drug_test''">rest</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:Ah..In this case..Me too...Will feel...</p>'
+		 '</div>'
+	end
+
+
+
+	if 4>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:<<$words>></p>'
+		 '</div>'
+	end
+
+
+	if a=5:
+		 $HS.love+=q+q+my.charm
+		 $HS.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p>I:Thank you for your hard work.</p>'
+			 '<p><<$HS.name>>:I`ve only done this to you....Everyone else uses their hands and mouths....Only for you.......Is special..</p>'
+			 '<p>I:I know, you are the best to me.</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="HS_Fuck_Room blowjob":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\口罩1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!1:
+		'<div class="button_menu">'
+			if a=0:
+			if $HS.Massageparlorinvitation=0:'<div class="buttonP"><a href="exec:a+=1 & $HS.Massageparlorinvitation=1 & gt ''Nurse_event'',''HS_Fuck_Room blowjob''">Massage shop recommendation</a></div>'
+			'<div class="button"><a href="exec:a+=1 & gt ''Nurse_event'',''HS_Fuck_Room blowjob''">Please</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="buttonP"><a href="exec:minutes+=30 &a=1 &q=0&gt ''Nurse_event'',''HS_Fuck_Oral sex in the room is not picked''">Do not pick</a></div>'
+				'<div class="buttonP"><a href="exec:minutes+=30 &a=1 &q=0&gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Picked</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:I`m coming~Your exclusive oral sex nurse~Are you going to have oral sex?(The patient with the headache has disappeared, so it`s a lot easier to work.~）</p>'
+		 '</div>'
+	end
+
+
+	if a=1:
+		 $HS.love+=q+my.charm
+		 $HS.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:Ok<<$Protagonist`s_surname>> Mr.,Do I need to take off my mask?There are also patients who like not to pick them, and they always look like they are obscene to me.~</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="HS_Fuck_Oral sex in the room is not picked":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\口罩1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!3:
+		'<div class="button_menu">'
+			if a=1:
+			'<div class="buttonP"><a href="exec:a=1 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room is not picked''">Continue to mouth</a></div>'
+			end
+			if a=1:
+			'<div class="buttonP"><a href="exec:a=2 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room is not picked''">Shoot in the mouth</a></div>'
+			end
+			if a=2:
+			'<div class="buttonP"><a href="exec:a=3 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room is not picked''">Clean up</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=120 & gt ''Daily_drug_test''">rest</a></div>'
+			'</div>'
+	end
+
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:<<$Panting>></p>'
+		 '</div>'
+	end
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:You are so amazing, your ejaculation volume is the same as that of your peers2-3Times it!</p>'
+		 '</div>'
+	end
+
+	if a=3:
+		 $HS.love+=q+q+my.charm
+		 $HS.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:I will keep the semen well in the laboratory, please rest assured.I won`t bother you, just take a good rest after shooting.</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="HS_Fuck_Oral sex in the room":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\口交1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!7:
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="buttonP"><a href="exec:a=1 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Slow down</a></div>'
+			end
+			if a!2 and 0<=q and q<=3:
+			'<div class="buttonP"><a href="exec:a=2 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Hurry up</a></div>'
+			end
+			if a!3 and 2<=q and q<=5:
+			'<div class="buttonP"><a href="exec:a=3 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Complete blowjob</a></div>'
+			end
+			if a!4 and 3<=q and q<=8:
+			'<div class="buttonP"><a href="exec:a=4 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Front riding</a></div>'
+			end
+			if a!5 and 4<=q and q<=9:
+			'<div class="buttonP"><a href="exec:a=5 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Side mount ride</a></div>'
+			end
+			if a!6 and q>=5:
+			'<div class="buttonP"><a href="exec:a=6 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Back riding</a></div>'
+			end
+			if a=6:
+			'<div class="buttonP"><a href="exec:a=7 & gt ''Nurse_event'',''HS_Fuck_Oral sex in the room''">Ejaculation</a></div>'
+			end
+
+
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="buttonP"><a href="exec:minutes+=30 & gt ''Daily_drug_test''">zzZ</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:Okay, no problem.Is this speed too slow?</p>'
+		 '</div>'
+	end
+
+
+	if 6>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>: <<$words>></p>'
+		 '</div>'
+	end
+
+
+	if a=7:
+		 $HS.love+=q+q+my.charm
+		 $HS.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$HS.name>>:I will keep the semen well in the laboratory, please rest assured.I won`t bother you, just take a good rest after shooting.</p>'
+		 '</div>'
+	end
+  q+=1
+End
+
+--- Nurse_event ---------------------------------
+

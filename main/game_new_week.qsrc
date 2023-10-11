@@ -1,0 +1,45 @@
+# game_new_week
+
+if arrpos('$week_label','dvor_uborka') = -1:$character_Мария['relationship']-=10
+if arrpos('$week_label','uborka_pool') = -1:$character_Мария['relationship']-=10
+if arrpos('$week_label','mysor') = -1:$character_Мария['relationship']-=10
+if arrpos('$week_label','mysor1') = -1:$character_Мария['relationship']-=10
+
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] <= -10:$character_Ева['relationship']+=45 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -9:$character_Ева['relationship']-=5 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -8:$character_Ева['relationship']-=10 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -7:$character_Ева['relationship']-=20 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -6:$character_Ева['relationship']-=30 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -5:$character_Ева['relationship']-=40 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -4:$character_Ева['relationship']-=50 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -3:$character_Ева['relationship']-=70 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -2:$character_Ева['relationship']-=80 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -1:$character_Ева['relationship']-=90 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] =0 :$character_Ева['relationship']-=100 & $data['гг_truant'] = 0 & $week_label[]='test'
+
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] <= -10:$character_Ева['relationship']+=45 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -9:$character_Ева['relationship']-=5 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -8:$character_Ева['relationship']-=10 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -7:$character_Ева['relationship']-=20 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -6:$character_Ева['relationship']-=30 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -5:$character_Ева['relationship']-=40 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -4:$character_Ева['relationship']-=50 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -3:$character_Ева['relationship']-=70 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -2:$character_Ева['relationship']-=80 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -1:$character_Ева['relationship']-=90 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] =0 :$character_Ева['relationship']-=100 & $data['гг_truant'] = 0 & $week_label[]='test'
+
+
+
+KILLVAR 'week_label'
+
+
+
+
+
+
+
+
+
+--- game_new_week ---------------------------------
+

@@ -1,0 +1,103 @@
+# Shopping_mall
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+minutes+=10
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="Department store" href="exec:minutes+=5 & gt ''Department_store''"><img class="img_stretch" src="images\place\百货商店.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Gym" href="exec:minutes+=5 & gt ''gym''"><img class="img_stretch" src="images\place\健身房.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Red Restaurant" href="exec:minutes+=5 & gt ''restaurant''"><img class="img_stretch" src="images\place\餐厅.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Car shop" href="exec:minutes+=5 & gt ''4Sshop''"><img class="img_stretch" src="images\place\4S店.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Residential area" href="exec:minutes+=5 & gt ''Residential_area''"><img class="img_stretch" src="images\place\居民区_<<$times_of_day>>.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Hair Salon" href="exec:minutes+=5 & gt ''Hair_salon''"><img class="img_stretch" src="images\place\美发店.jpg"></a>
+		</div>'
+	'</div>'
+'</div>'
+
+if $ARGS[0]="":
+	$Shopping_mall_num=RAND(1,14)
+	$Shopping_mall_n=1
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images/videos/杂/商场<<$Shopping_mall_num>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=30 & gt ''Shopping_mall''">Kill time</a></div>'
+		if $auditlevel>1:
+			if 8>=$Shopping_mall_num and $Shopping_mall_num>=6:'<div class="button"><a href="exec:minutes+=5 & $Shopping_mall_nu=1 & gt ''Shopping_mall'',''trailing''">Follow her</a></div>'
+			if 10>=$Shopping_mall_num and $Shopping_mall_num>=9:'<div class="button"><a href="exec:minutes+=5 & $Shopping_mall_nu=2& gt ''Shopping_mall'',''trailing''">Follow her</a></div>'
+			if $Shopping_mall_num =11:'<div class="button"><a href="exec:minutes+=5 & $Shopping_mall_nu=3& gt ''Shopping_mall'',''trailing''">Follow her</a></div>'
+			if $Shopping_mall_num =12:'<div class="button"><a href="exec:minutes+=5 & $Shopping_mall_nu=3& gt ''Shopping_mall'',''trailing''">Follow her</a></div>'
+			if $Shopping_mall_num =13:'<div class="button"><a href="exec:minutes+=5 & $Shopping_mall_nu=4& gt ''Shopping_mall'',''trailing''">Follow her</a></div>'
+			if $Shopping_mall_num =14:'<div class="button"><a href="exec:minutes+=5 & $Shopping_mall_nu=5& gt ''Shopping_mall'',''trailing''">Follow her</a></div>'
+		end
+		if hour>=17 and $LJ_Event_Steal=2:'<div class="buttonGn"><a href="exec:minutes+=5 & gt ''Repeating_event'',''meet''">leave</a></div>'
+		if Set_printing_card=1 and hour=16 and week_day =1:'<div class="buttonS"><a href="exec:Setprintingnumber=1 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversation with passersby❤</a></div>'
+		if Set_printing_card=1 and hour=13 and week_day =4:'<div class="buttonS"><a href="exec:Setprintingnumber=4 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversation with passersby❤</a></div>'
+		if Set_printing_card=1 and hour=11 and week_day =1:'<div class="buttonR3"><a href="exec:Set_printing_numberS=2 & gt ''Group_performation_event'',''Universal_Fuck_Set sealS''">❤Strike up a conversation with an acquaintance❤</a></div>'
+	    if $QBEvent_chain=1:'<div class="button"><a href="exec:gt ''Hashimoto_Event'',''Convenience store''">Convenience store</a></div>'
+	    if $QBEvent_chain=2:'<div class="button"><a href="exec:gt ''Hashimoto_Event'',''Convenience store2''">Convenience store</a></div>'
+	    if BGHEvent_chain=1 and hour=16:'<div class="button"><a href="exec:gt ''House_next_door_event'',''Chance encounter in the mall''"><<$BGH.name>></a></div>'
+	    if Bossdialogue=1 and hour=13 and week_day =7:'<div class="buttonR3"><a href="exec:gt ''Boss_event'',''boss_Fuck_date1''"><<$LB.name>></a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>24A large shopping mall that is open hourly.</p>'
+		'<p>The only way to commute is to have a lot of people at any time, tsk tsk.</p>'
+		'<p>Wow~Feast your eyes!</p>'
+	'</div>'
+End
+ 
+ 
+ 
+if $ARGS[0]="trailing":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images/videos/杂/商场尾<<$Shopping_mall_nu>>~<<$Shopping_mall_n>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $Shopping_mall_n=1:
+			if $auditlevel>=2:'<div class="buttonP"><a href="exec:minutes+=5 &  $Shopping_mall_n=2 & gt ''Shopping_mall'',''trailing''">Touch it</a></div>'
+			else:
+			if $Shopping_mall_nu<=2 :  if $auditlevel>=4:'<div class="buttonP"><a href="exec:minutes+=5 &  gt ''Group_performation_event'',''Shopping mall_Fuck_Quick check''">Body search</a></div>'else:'<div class="buttonGr"><a href="exec:">No body search permission</a></div>'
+			if $Shopping_mall_nu>=3 :  if $auditlevel>=6:'<div class="buttonS"><a href="exec:minutes+=5 &   gt ''Group_performation_event'',''Shopping mall_Fuck_Scheck''">Come with me!</a></div>'else:'<div class="buttonGr"><a href="exec:">No higher authority</a></div>'
+			
+			end
+		'<div class="button"><a href="exec:minutes+=5 &  gt ''Shopping_mall''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+	  if $Shopping_mall_n=1:'<p>You have looked around a lot, now is a good opportunity to do it!</p>'
+		'<p>If I had the authority to search and inspect residents, I would be able to do more…</p>'
+	'</div>'
+End
+
+
+
+
+
+--- Shopping_mall ---------------------------------
+

@@ -1,0 +1,1266 @@
+# Sister_event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=10
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+
+if $args[0]="Secretly trading":
+
+	$JJ.event_shopping=0
+	money+=100
+	$jj.love+=RAND(3,5)
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\研究001~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>:Urea 1.1Kg, general calcium 3.17kg, potassium sulfate 3.17kg, magnesium sulfate 0.45 Yes, it`s great. The materials are all available!</p>'
+		'<p><<$jj.name>>:Brother, thank you!Just put it here!</p>'
+		'<p><<$jj.name>>:This is the errand fee for you!100￥</p>'
+	'</div>'
+	
+end
+
+if $args[0]="Autologous cycle":
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\研究<<$args[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if $args[1]!"005" and q<=6:
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Autologous cycle'',''005''">Prime stock</a></div>'
+			end
+			if $args[1]!"006" and q<=6:
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Autologous cycle'',''006''">Roll it out</a></div>'
+			end
+			if $args[1]!"004" and 6>=q and q>1:
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Autologous cycle'',''004''">Oral sex</a></div>'
+			end
+			if $args[1]!"008" and 9>=q and q>3:
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Autologous cycle'',''008''">insert</a></div>'
+			end
+			if $args[1]!"009" and  q>=5:
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Autologous cycle'',''009''">Sprint in the back position</a></div>'
+			end
+			if $args[1]="009":
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Autologous cycle'',''010'',''结束''">External shot</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec: gt ''Mugou_Pharmaceutical''">leave</a></div>'
+			'</div>'
+	end
+	if $args[1]="005":
+		 '<div class="dialog_menu">'
+			 '<p><<$jj.name>>:Very well, when the dose is reduced to one thousandth, there will be no problem of enlargement of the scrotum!</p>'
+			 '<p><<$jj.name>>:Next is the stress test!</p>'
+		 '</div>'
+	end
+		
+	if $args[1]="010":
+		 $JJ.bad+=q
+		 $JJ.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$jj.name>>:Ah..So hot...Hot semen..All shot on my sister`s ass.....The experiment was successful..No adverse reactions!</p>'
+		 '</div>'
+	end
+		
+	q+=1
+end
+
+if $args[0]="Ejaculation test":
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\<<$args[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''Ejaculation test'',''巨诱惑1挑逗''">High heelsplay</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''Ejaculation test'',''巨诱惑2挑逗2''">Open leg masturbation</a></div>'
+			end
+			if a!3 and 5>=q and q>=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''Ejaculation test'',''巨诱惑3口交''">Pout buttocks and knead acupuncture points</a></div>'
+			end
+			if a!4 and 8>=q and q>=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Sister_event'',''Ejaculation test'',''巨诱惑4sex''">Ready to launch</a></div>'
+			end
+			if a=4:
+			'<div class="button"><a href="exec:a=7 & gt ''Sister_event'',''Ejaculation test'',''巨诱惑7射''">Shoot her in the face!</a></div>'
+			end
+			if a=7 and q<=11:
+			'<div class="button"><a href="exec:a=7 & gt ''Sister_event'',''Ejaculation test'',''巨诱惑7射''">Shoot until you are satisfied!</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Sister_event'',''Ejaculation test'',''巨大化8结束'',''结束''">end</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec: minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+				'<div class="button"><a href="exec: minutes+=30 & gt ''subway''">Take the subway and leave</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>My sister pointed to the McGovern extract on the side, and you swallowed it without thinking about it.</p>'
+			 '<p><<$JJ.name>>:Wow!What`s going on?！Is the scrotum bulging so big?！Could it be that the dose is too large?！</p>'
+			 '<p><<$JJ.name>>:Don`t be afraid, my sister will help you reduce the swelling!！</p>'
+		 '</div>'
+	end
+
+	if 6>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p>Me: Sister, you take it off like this....？</p>'
+			 '<p><<$JJ.name>>:Does it matter?！Is it a shame to dedicate yourself to science as a scientist?！</p>'
+			 '<p><<$JJ.name>>:You are one of my sister`s most important research subjects!</p>'
+		 '</div>'
+	end
+
+
+	if a=7:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>Ah..So hot...Hot semen..All shot in my sister`s face..But use smelly brother`s sperm facial cleanser....Great...</p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 $JJ.bad+=q
+		 $JJ.love+= q+my.charm
+
+		 '<div class="dialog_menu">'
+			 '<p>I:@！￥@！￥#%！#%！@！￥</p>'
+			 '<p><<$JJ.name>>It`s too exaggerated!Is this the gold content of McGovern?It seems that I am going to give it an infinitely long affix~</p>'
+			 '<p><<$JJ.name>>I`m such a genius...Now you can study McGovern`s body retention rate by analyzing his brother`s semen.....Sister loves you more and more~</p>'
+			 '<p>----------------------------------------</p>'
+		 '</div>'
+	end
+		
+	q+=1
+end
+
+if $args[0]="JJ_Fuck_Huge":
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\<<$args[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化1挑逗''">Lick the balls</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化2挑逗2''">With glans</a></div>'
+			end
+			if a!3 and 5>=q and q>=2:
+			'<div class="button"><a href="exec:a=3 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化3口交''">Oral sex</a></div>'
+			end
+			if a!4 and 8>=q and q>=3:
+			'<div class="button"><a href="exec:a=4 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化4sex''">Back in</a></div>'
+			end
+			if a!5 and 9>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化5sex''">Lift thighs</a></div>'
+			end
+			if a<6 and  q>=5:
+			'<div class="button"><a href="exec:a=6 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化6冲刺sex''">Accelerate the sprint</a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=7 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化7射''">Ejaculation</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化8结束'',''结束''">end</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec: gt ''Mugou_Pharmaceutical''">leave</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$jj.name>>:w(oД0)w What`s going on...The semen in the scrotum is being made frantically?Good brother!Hurry up and shoot it out!These are all essences, the ultimate essences synthesized by the highest-quality McGovern human body filtration!！！</p>'
+		 '</div>'
+	end
+	
+	if 3>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$jj.name>>:<<$Panting>>！</p>'
+		 '</div>'
+	end
+
+	if 6>=a and a>=4:
+		 '<div class="dialog_menu">'
+			 '<p><<$jj.name>>:<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=7:
+		 '<div class="dialog_menu">'
+			 '<p><<$jj.name>>:wow~~The uterus was all shot full..Ah...It`s all squirted out.....！</p>'
+			 '<p>I:big sister.！The effect of the medicine is still so powerful, it`s still so good.......</p>'
+		 '</div>'
+	end
+	
+	if a=8:
+		 $JJ.bad+=q
+		 $JJ.love+= q+my.charm
+		 MGF+=2
+		 '<div class="dialog_menu">'
+			 '<p><<$jj.name>>:Hmm?Then she didn`t let you go, and let you shoot a few bags of semen full of condoms....Sister loves you more and more~！</p>'
+			 '<p>----------------------------------------</p>'
+			 '<p>Before leaving, my sister secretly handed it to you2Small bottle of McGovern Essence....</p>'
+		 '</div>'
+	end
+	q+=1	
+	my.energy-=12
+	minutes+=15
+end
+
+
+if $args[0]="JJ_Fuck_Giant do":
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\<<$args[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做1挑逗''">Lick the balls</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做2挑逗2''">Sucking glans</a></div>'
+			end
+			if a!3 and 5>=q and q>=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做3口交''">Oral sex</a></div>'
+			end
+			if a!4 and 8>=q and q>=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做4撸射''">Roll shot</a></div>'
+			end
+			if a!5 and 9>=q and q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做5sex''">Violent back entry</a></div>'
+			end
+			if a!6 and q>=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做6冲刺sex''">Accelerate the sprint</a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=7 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做7射''">Bukkake!</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做8结束'',''结束''">end</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec: minutes+=15 & my.energy+=15 & gt ''Mugou_Pharmaceutical''">Leave after a break</a></div>'
+				'<div class="button"><a href="exec: minutes+=30 & gt ''subway''">Take the subway and leave</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>You swallowed all the medicines on the table impatiently, and came to the room with a huge scrotum filled with semen and prostate fluid....</p>'
+			 '<p><<$JJ.name>>:Wow!The scrotum is bulging so big, awesome!Does my sister`s feet smell good?Today, my sister must finish squeezing it all at once!！Did my sister`s beautiful legs make my smelly brother horny?...</p>'
+		 '</div>'
+	end
+
+	if 3>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if 6>=a and a>=4:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=7:
+		 '<div class="dialog_menu">'
+			 '<p>Accompanied by a strong pleasure~~~~~</p>'
+			 '<p><<$JJ.name>>:There are so many more?！Can you still shoot me in the face?Brother hurry up....Let me suffocate by your semen....</p>'
+		 '</div>'
+	end
+	
+	if a=8:
+		 $JJ.bad+=q
+		 $JJ.love+= q+my.charm
+
+		 '<div class="dialog_menu">'
+			
+			 '<p>----------------------------------------</p>'
+			 '<p>Then she didn`t let you go, wrapped her legs around your waist and filled her uterus....She was convulsed and trembling in endless pleasure...</p>'
+			 '<p><<$JJ.name>>Awesome, my good brother, sister really loves you so much.You have to feed your sister, do you hear me?~</p>'
+			 '<p><<$JJ.name>>My good brother, sister loves you more and more~</p>'
+
+		 '</div>'
+	end
+	
+	q+=1
+	
+end
+
+!template
+if $args[0]="Sister_bathroom":
+		q+=1
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q=1 and $jj.bad>=10 :
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''Sister_bathroom'',''浴室1''">Touch your ass</a></div>'
+			end
+			if a!2 and q=2 and $jj.bad>=50 :
+			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''Sister_bathroom'',''浴室2''">Oral sex</a></div>'
+			end
+			if a!3 and q=3 and $jj.bad>=100 :
+			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''Sister_bathroom'',''浴室3''">Shoot</a></div>'
+			end
+			if a=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Sister_event'',''Sister_bathroom'',''浴室4''">Ejaculation</a></div>'
+			end
+			if a=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Sister_event'',''Sister_bathroom'',''浴室5'',''结束''">Watching her take a bath</a></div>'
+			end
+			if a=4 and $jj.love>=100:
+			'<div class="button"><a href="exec:a=5 & gt ''Sister_event'',''Sister_bathroom'',''浴室6'',''结束''">Wash with her</a></div>'
+			end
+			'<div class="button"><a href="exec:a=0 & q=0 & gt ''home''">Leave obediently</a></div>'
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec: minutes+=30 & gt ''home''">Go out</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>Ah~My sister screamed.</p>'
+			 '<p><<$JJ.name>>:brother!！My sister is using the bathroom, so you can go out and wait for me for a while.</p>'
+		 '</div>'
+	end
+
+	if 3>a and a>0:
+		 '<div class="dialog_menu">'
+			 '<p>Ah~Ah~Ah~My sister couldn`t help but started to moan...</p>'
+			 '<p><<$JJ.name>>:brother!Just spare your sister...Just this time...</p>'
+		 '</div>'
+	end
+
+	if a=3:
+		 '<div class="dialog_menu">'
+			 '<p>…...can`t stand it...ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh！！...</p>'
+		 '</div>'
+	end
+
+	if a=4:
+		 '<div class="dialog_menu">'
+			 '<p>Accompanied by a strong pleasure~~~~~</p>'
+			 '<p><<$JJ.name>>:Well, it`s what my sister should do to help my brother deal with his libido. Go out, my sister is going to take a shower.</p>'
+		 '</div>'
+	end
+	
+	if a=5:
+		 $JJ.love+= q +my.charm
+		 $JJ.bad+= q
+		 '<div class="dialog_menu">'
+			 '<p>~~~~~</p>'
+			 '<p><<$JJ.name>>:You are really necrotic!</p>'
+		 '</div>'
+	end
+
+	$JJ.bad+=RAND(0,1)
+
+end
+
+
+
+if $ARGS[0] ="Night attack":
+	if $ARGS[1] ="":
+	'<div class ="show_menu"><img src="images\NPC\JJ\pics\姐姐睡觉.jpg" width="854"></div>'
+	else:
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	end
+	
+	
+	
+	'<div class="button_menu">'
+		if my.ethics<0 and a<1:
+		'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''Night attack'',''夜袭揉胸''">Rubbing tits</a></div>'
+		end
+		if my.ethics<=-10 and a<2:
+		'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''Night attack'',''夜袭脱内''">Take off your underwear</a></div>'
+		end
+		if my.ethics<=-20 and a<3:
+		'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''Night attack'',''夜袭舔逼''">Lick pussy</a></div>'
+		end
+		if my.ethics<0 and a=3 and $jj.love>=80 and $jj.bad>=100:
+		'<div class="button"><a href="exec:a=0 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭0开幕''">Wake up and have sex</a></div>'
+		end
+		'<div class="button"><a href="exec:my.ethics-=a & $jj.bad+= a & gt ''Home_bedroom''">Go back to the room and fap</a></div>'
+
+	'</div>'
+
+	'<div class="dialog_menu">'
+		
+		'<p><<$jj.name>>Hmm...na..Hmm..na..*Faint moan....</p>'
+		if $ARGS[1] ="Night attack off the inside":
+		'<p><<$jj.name>>Hmm..na..Hmm.tutor...You are in a hurry...Hmm..Hmm...*Shortness of breath...</p>'
+		end
+		if $ARGS[1] ="Night attack licking force":
+		'<p><<$jj.name>>Hmm.na..Hmm.Hmm..na..Hmm.do not...Tutor, don`t....Hmm..Hmm...*Moan strongly....</p>'
+		end
+	'</div>'
+end
+
+
+if $args[0]="JJ_Fuck_Night attacksex":
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2 :
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭1挑逗''">Toying with</a></div>'
+			end
+			if a!2 and q<=3 :
+			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭2挑逗2''">serve</a></div>'
+			end
+			if a!3 and  5>= q and q>=2 :
+			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭3口交''">Oral sex</a></div>'
+			end
+			if a!4 and  q>=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭4sex''">Riding position</a></div>'
+			end
+			if a!5 and  q>=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭5sex''">Rear entry</a></div>'
+			end
+			if a!6 and q>=5 :
+			'<div class="button"><a href="exec:a=6 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭6冲刺sex''">sprint</a></div>'
+			end
+			if 7>a and a>=4 and q>=7:  
+			'<div class="button"><a href="exec:a=7 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭7射''">External shot</a></div>'
+			end
+			if a=6 and q>=10: 
+			'<div class="button"><a href="exec:a=8 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭8内''">Internal injection</a></div>'
+			end
+			if a=7 or  a=8: 
+			'<div class="button"><a href="exec:a=9 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭9结束'',''结束''">end</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+			  suiji=rand(1,100)
+				if  suiji >=50 and $mm.love+$mm.bad>=300:
+				'<div class="buttonS"><a href="exec: minutes+=30 &a=0 &q=0 & my.energy+=50  & gt ''Sister2_event'',''MM_Fuck_Counter night attack''">？？？</a></div>'
+				else:
+				'<div class="button"><a href="exec: minutes+=15 &a=0 &q=0 & my.energy+=100  & hour=8 & gt ''Home_sister`s_room''">Sleep together until dawn</a></div>'
+				end
+				'<div class="button"><a href="exec: minutes+=15 &gt ''home''">leave</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>My sister opened her eyes dimly and screamed in a daze.</p>'
+			 '<p><<$JJ.name>>:Humph!brother!！I knew it was you!What do you want to do to your sister if you don`t sleep at night?</p>'
+		 '</div>'
+	end
+
+	if 6>=a and a>=4 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=7 or a=8:
+		 '<div class="dialog_menu">'
+			 '<p>Accompanied by a strong pleasure~~~~~</p>'
+			 '<p><<$JJ.name>>:I don`t bring a condom every time. What should I do if I get shot? Everyone will know about the incest of our siblings.I won`t be embarrassed by then!</p>'
+		 '</div>'
+	end
+	
+	if a=9:
+		 $JJ.bad+=q
+		 $JJ.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>Ok~Don`t leave so late, you can sleep in my room tonight.Did you hear that?~</p>'
+			 '<p><<$JJ.name>>It`s really a harmful spirit, and I`m going to lack sleep again. Every time I have sex with you, it`s so tormenting.~，~</p>'
+			 '<p>----------------------------------------</p>'
+		 '</div>'
+	end
+		
+ q+=1
+
+end
+
+if $args[0]="JJ_Fuck_Mother_and_sister":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JJ\vids\母姐1-<<a>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a!10:
+		'<div class="button_menu">'
+			if a<7 and q>=3:
+			'<div class="button"><a href="exec:a+=1 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">Keep fucking</a></div>'
+			end
+			if a=9:
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">Keep fucking</a></div>'
+			end
+			if a=0 or (8>=a and a>=5):
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">fuck<<$jm.name>></a></div>'
+			end
+			if a=0 or (4>=a and a>=1):
+			'<div class="button"><a href="exec:a=5 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">fuck<<$jj.name>></a></div>'
+			end
+			if a!4 and (8>a and a>=1):
+			'<div class="button"><a href="exec:a+=1 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">Change posture</a></div>'
+			end
+			if a=4 or a=8:
+			'<div class="button"><a href="exec:a+=5 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">Ejaculation</a></div>'
+			end
+			if a=9 or a=13: 
+			'<div class="button"><a href="exec:a=10 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">One hour later</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=15 & gt ''Mugou_Pharmaceutical''">end</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$jm.name>>...I didn`t expect such a day..Our mother and daughter are going to do this kind of thing....</p>'
+			 '<p><<$jj.name>>..Why does mom have a jealous expression on her face?.....Could it be that mom was also influenced by McGovern?....</p>'
+		 '</div>'
+	end
+
+
+	if 4>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>>..</p>'
+		 '</div>'
+	end
+
+	if 8>=a and a>=5 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>>..</p>'
+		 '</div>'
+	end
+
+	if a=9 or a=13:
+		 '<div class="dialog_menu">'
+			 '<p>*Sticky semen poured out and dripped on their delicate faces, and the fiery fishy smell made their libido rise again.</p>'
+		 '</div>'
+	end
+	
+
+
+	if a=10:
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 $JJ.bad+= q
+		 $JJ.love+= q+my.charm
+		 JM_JJ+=1
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: My good daughter listened to her mother and said that she should concentrate on her research. If she disturbs you, she will not be able to do so....Just let him come to my office.....</p>'
+			 '<p><<$JJ.name>>: You want to eat your brother alone, right?！I don`t allow it!</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $args[0]="JJ_Fuck_At home":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\姐姐卧室-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	if  a!9:
+		'<div class="button_menu">'
+			if a=0:
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_At home''">Help me roll</a></div>'
+			end
+			if a=1 and $JJ.bad>=55:
+			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''JJ_Fuck_At home''">Oral sex</a></div>'
+			end
+			if a=2 :
+			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''JJ_Fuck_At home''">Ejaculation</a></div>'
+			end
+			if a=3 and $JJ.bad>=60:
+			'<div class="button"><a href="exec:a=4 & gt ''Sister_event'',''JJ_Fuck_At home''">Touch force</a></div>'
+			end
+			if a=4 and $JJ.bad>=70:
+			'<div class="button"><a href="exec:a=5 & gt ''Sister_event'',''JJ_Fuck_At home''">insert</a></div>'
+			end
+			if a=5 and $JJ.bad>=80:
+			'<div class="button"><a href="exec:a=6 & gt ''Sister_event'',''JJ_Fuck_At home''">sprint</a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=7 & gt ''Sister_event'',''JJ_Fuck_At home''">Ejaculation</a></div>'
+			end
+			if a=7 and $JJ.bad>=100:
+			'<div class="button"><a href="exec:a=8 & gt ''Sister_event'',''JJ_Fuck_At home''">Keep fucking!</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Sister_event'',''JJ_Fuck_At home''">Internal injection</a></div>'
+			end
+			if $JJ.bad<100:
+			'<div class="buttonS"><a href="exec:">？？？</a></div>'
+			end
+			'<div class="button"><a href="exec:minutes+=30 & $JJ.love+=q+my.charm & $JJ.bad+=q & gt ''home''">That`s it</a></div>'
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">end</a></div>'
+			'</div>'
+	end
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>I:Sister, is it the McGovern plant that has side effects?Does its leaves have radiation?！My scrotum has been uncomfortable for several days!</p>'
+			 '<p><<$JJ.name>>:Oh?Get your dick erect soon and let me check the semen!</p>'
+		 '</div>'
+	end
+
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$FXZ.name>>:The penis has a normal erection, is there anything unusual?It seems that you only need to release the pressure!</p>'
+		 '</div>'
+	end
+
+
+	if 3>=a and a>=2:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Then sister will help you speak out?！Chi Chi Chi Chi-sucking hard.</p>'
+		 '</div>'
+	end
+
+	if 6>=a and a>=4:
+		 '<div class="dialog_menu">'
+			 '<p>I:Sister, I want to plug in!That will definitely be able to shoot enough!</p>'
+			 '<p><<$JJ.name>>:have..Makes sense!Enough samples can do the most adequate analysis!You fast<<$Panting>> </p>'
+		 '</div>'
+	end
+
+
+	if a=7:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:<<$Panting>>！Shot so much, enough......</p>'
+		 '</div>'
+	end
+
+
+	if a=8:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:<<$Panting>>！brother!Why do you still have to fuck your sister?！Where`s the cover?If you shoot your sister inward, you will get pregnant!</p>'
+		 '</div>'
+	end
+
+
+	if a=9:
+		 $JJ.love+=q+my.charm
+		 $JJ.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:I really can`t do anything with you, I actually shot it in it......</p>'
+		 '</div>'
+	end
+
+
+ q+=1
+
+End
+
+if $args[0]="JJ_Fuck_senior":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\和男友1-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	if  a!5:
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:a+=1 & gt ''Sister_event'',''JJ_Fuck_senior''">Watch it</a></div>'
+			'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				if $JJ.bad>=400-$JJ.love:'<div class="buttonS"><a href="exec:a=0&q=0 & gt ''Sister_event'',''JJ_Fuck_senior3P''">enter</a></div>'else:'<div class="buttonGr"><a href="exec:">enter</a></div>'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">end</a></div>'
+			'</div>'
+	end
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Senior, let`s go to the hotel!</p>'
+			 '<p>senior:Are you afraid?Didn`t you scream very happily when we were doing it in the lab before?</p>'
+		 '</div>'
+	end
+
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:<<$Panting>></p>'
+		 '</div>'
+	end
+
+
+	if 3>=a and a>=2:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Senior, you know Mai Gao……</p>'
+			 '<p>senior:Shut up and don`t talk about work when you have sex.</p>'
+		 '</div>'
+	end
+
+	if 5>=a and a>=4:
+		 '<div class="dialog_menu">'
+			 '<p>senior:<<$DZ.name>>Also work with you?Shall we get together another day?</p>'
+			 '<p><<$JJ.name>>:<<$Panting>>You want to get her drunk!</p>'
+		 '</div>'
+	end
+
+
+ q+=1
+
+End
+
+if $args[0]="JJ_Fuck_senior3P":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\和男友3P1-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	if  a!13:
+		'<div class="button_menu">'
+			if a=0:
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_senior3P''">dialogue</a></div>'
+			end
+			if a>=1 :
+			'<div class="button"><a href="exec:a+=1 & gt ''Sister_event'',''JJ_Fuck_senior3P''">Do it</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+			'</div>'
+	end
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Ah ah ah ah, why did you come in without knocking on the door.</p>'
+			 '<p>I:Sister, sorry, I didn`t notice......</p>'
+		 '</div>'
+	end
+
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Brother, are you looking for me, uh, is there anything wrong?</p>'
+			 '<p>I:Sister, i...I`m bloated badly, a side effect of McGovern....</p>'
+			 '<p><<$JJ.name>>:How could it be?After my debugging, the side effects should have been eliminated!</p>'
+			 '<p><<$JJ.name>>:Senior, you happen to be here, let me show you my research results.</p>'
+		 '</div>'
+	end
+
+
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Then sister will help you speak out?！Senior, this is the utility of McGovern extract.</p>'
+			 '<p>senior:Is this your brother?Is it okay?</p>'
+			 '<p><<$JJ.name>>:Well, my brother and I have already<<$Panting>>I have done it many times.</p>'
+		 '</div>'
+	end
+	if a=3:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Compared with his younger brother, the senior`s meat stick is very good....generally. </p>'
+			 '<p>senior:How could it be?</p>'
+		 '</div>'
+	end
+	if a=4 or a=5:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Look at my brother<<$Panting>>As long as McGovern is ingested all the time, the improvement in sexual performance will be immediate. </p>'
+			 '<p>senior:Ahem, give me a little bit of McGovern too, what kind of McGovern?</p>'
+		 '</div>'
+	end
+
+	if a=6:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:<<$Panting>>！Senior, your fingers are great.</p>'
+		 '</div>'
+	end
+	if a=7:
+		 '<div class="dialog_menu">'
+			 '<p>senior:Are you like this now?I really underestimate you!</p>'
+			 '<p><<$JJ.name>>:<<$words>>！</p>'
+		 '</div>'
+	end
+
+	if a=8:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Senior!Your meat stick is really rubbish.Not half as good as my brother at all.</p>'
+			 '<p>senior:Damn it!I`m going to shoot</p>'
+		 '</div>'
+	end
+
+	if a=9:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Shot?Senior!？The staying power is not half as good as my brother.It`s really rubbish.</p>'
+			 '<p>senior:fuck.</p>'
+		 '</div>'
+	end
+	if 12>=a and a>=10:
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Brother, you are still the best!<<$words>></p>'
+			 '<p>I:Does my sister like it?</p>'
+			 '<p><<$JJ.name>>:<<$Panting>>Shoot me.</p>'
+		 '</div>'
+	end
+
+	if a=13:
+		 $JJ.love+=q+my.charm
+		 $JJ.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$JJ.name>>:Senior is gone... it`s all your fault... you know you bullied your sister... bad brother…</p>'
+			 '<p>I:Then I`m leaving too.</p>'
+			 '<p><<$JJ.name>>:Don`t……</p>'
+		 '</div>'
+	end
+ q+=1
+
+End
+
+ 
+--- Sister_event ---------------------------------
+
+# Sister`s_office
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs "Mugou_Pharmacy_map"
+
+'</div>'
+
+if $args[0]="":
+	'<div class ="show_menu"><img src="images\place\姐姐办公室.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Sister`s_office''">Kill time</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>In the office, there are a lot of cup noodles and takeaways in the trash can. It seems that my sister works very late every day!</p>'
+	'</div>'
+end
+
+
+
+if $args[0]="Sister`s office conversation":
+	if $JJ.bad<30:
+	'<div class ="show_menu"><img src="images\NPC\JJ\pics\姐姐办公室.jpg" width="854"></div>'
+	end
+	
+	if 30<=$JJ.bad and $JJ.bad<60:
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\101~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	end
+	
+	if 60<=$JJ.bad:
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\102~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	end
+	
+	if $JJ.event_Entrust=0:
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=5 & $JJ.event_Entrust=1 & gt ''Sister`s_office'',''Sister`s office conversation''">agree</a></div>'
+		'</div>'
+
+		'<div class="dialog_menu">'
+			'<p>-<<$jj.name>>: Brother!You came just in time!I have something to ask you!I need you to help me with my researchC-137project!</p>'
+			'<p>-Me: Uh，C-137What is the item?</p>'
+			'<p>-<<$jj.name>>: This is my first major discovery after returning home!C-137The research result of the project is to extract a kind of McGovern from natural plants.(MacGuffin)The substance.Oddly enough, only [mountainsR&MOnly plants in the area extract this substance.</p>'
+			'<p>-<<$jj.name>>: But<<$JM.name>>Know I`m studying McGovern(MacGuffin)After that, the research project was stopped immediately, and now I can only ask for your help.</p>'
+			'<p>-Me: So what do you want me to do?</p>'
+			'<p>-<<$jj.name>>: I will give you some experimental strains, I need you to secretly go to [mountainsR&MGrow in the area] and bring back the ripe fruits.I will give you some remuneration.</p>'
+		'</div>'
+	end 
+	
+	if $JJ.event_Entrust=1:
+		'<div class="button_menu">'
+			if $JJ.event_shopping=2:
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Secretly trading''">Secretly trading</a></div>'
+			end
+			
+			if Inseminationroomopen=1 and $JJ.bad>=200 and $JJ.Insemination=0:'<div class="buttonS"><a href="exec:$JJ.Insemination=1 & gt ''Sister`s_office''">Invite artificial insemination</a></div>'
+			
+			if Heterochromatic_plant_Report=0 and Heterochromatic_plants>0 and Heterochromatic_progress=0:'<div class="buttonGn5"><a href="exec:Heterochromatic_plants-=1 & gt ''Sister`s_office'',''Detection of Heterochromatic_plants''">Detection of Heterochromatic_plants</a></div>'
+			if Heterochromatic_plant_Report=0 and Heterochromatic_progress>0:'<div class="buttonGn5"><a href="exec:gt ''Sister`s_office'',''Detection of Heterochromatic_plants2''">Detection of Heterochromatic_plants</a></div>'
+			
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Hand in plant fruits''">Hand in plant fruits</a></div>'
+			
+			'<div class="buttonB1"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Fruit research and development status''">Fruit research and development status</a></div>'
+			
+			if $jj.bad>=100:
+			'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Ask for McGovern extract''">Ask for McGovern extract</a></div>'
+			end
+			
+			if plant_Numberofstudies>=30:
+			'<div class="buttonR3"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Human experiment''">Human experiment</a></div>'
+			end
+			
+			if $jj.bad>=200 and $jj.love>=200 and $jm.love>=200 and $jm.bad>=200:
+			'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Mother-daughter experiment''">Mother-daughter experiment</a></div>'
+			end
+			
+			if JJ.confession=0 and Bishopschoice=1:'<div class="buttonG2"><a href="exec:JJ.confession=1 & $m=''JJ'' & $ma=$JJ.name & gt ''Nun_event'',''XN_Fuck_confession''">Invitation to church for baptism</a></div>'
+			
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+		'</div>'
+
+		'<div class="dialog_menu">'
+			'<p>-<<$jj.name>>: Brother!How many plant fruits have been collected?</p>'
+			'<p>-Me: Now I have<<plant>>A plant fruit.</p>'
+			'<p>-<<$jj.name>>: I`ll give you some more experimental strains, I need you in [ShanluanR&MGrow in the area] and bring back the ripe fruits.I will give you some remuneration.</p>'
+			'<p></p>'
+			if 30<=$JJ.bad:'<p>-<<$jj.name>>: Give you a little reward,Can it make you work harder?~</p>'
+			if 60<=$JJ.bad:'<p>-<<$jj.name>>: or....Just stare at my sister....Is it sister here?...Can`t it attract you?</p>'
+		'</div>'
+	end 
+	
+end
+
+
+!ok
+if $args[0]="Hand in plant fruits":
+	money+=plant*100
+	plant_Numberofstudies+=plant
+	$jj.love+=plant
+	$jj.bad+=plant * 2
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\上缴~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>I:Turned in<<plant>>One, got it<<plant>> X 100The cash!</p>'
+		'<p><<$jj.name>>:Has been handed in cumulatively<<plant_Numberofstudies>>a......Come on!Let`s work hard together!</p>'
+	'</div>'
+	plant=0
+	
+end
+
+!ok
+if $args[0]="Fruit research and development status":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\上缴2~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if plant_Numberofstudies>=5:
+		'<div class="buttonB1"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''001''">Preliminary research5tree</a></div>'
+		else:
+		'<div class="buttonGr"><a href="exec:">Preliminary research5tree</a></div>'
+		end
+		if plant_Numberofstudies>=15:
+		'<div class="buttonB2"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''002''">In-depth research 15tree</a></div>'
+		else:
+		'<div class="buttonGr"><a href="exec:">Need to study 15tree</a></div>'
+		end
+		if plant_Numberofstudies>=30:
+		'<div class="buttonB3"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''003''">Clinical research 30tree</a></div>'
+		else:
+		'<div class="buttonGr"><a href="exec:">Need to study 30tree</a></div>'
+		end
+		if plant_Numberofstudies>=50:
+		'<div class="buttonB4"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''007''">Clinical trials 50tree</a></div>'
+		else:
+		'<div class="buttonGr"><a href="exec:">Need to study 50tree</a></div>'
+		end
+		if $JJ.love>=30 and plant_Numberofstudies>=5 and $DZ.event_meet=0:'<div class="buttonG3"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Geological meeting''">Conjecture</a></div>'
+		if $DZ.event_meet!0:'<div class="buttonGr"><a href="exec:">Conjecture·Has been proposed</a></div>'
+		
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>:Thanks to you, I have accumulated research<<plant_Numberofstudies>>One piece!You can ask me any questions you have!But let me sort out the information first.</p>'
+	'</div>'
+	
+end
+
+!ok
+if $args[0]="General research":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\研究<<$args[1]>>~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if plant_Numberofstudies>=5:
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''001''">Preliminary research5tree</a></div>'
+		end
+		if plant_Numberofstudies>=15:
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''002''">In-depth research15tree</a></div>'
+		end
+		if plant_Numberofstudies>=30:
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''003''">Clinical research30tree</a></div>'
+		end
+		if plant_Numberofstudies>=50:
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''General research'',''007''">Clinical trials50tree</a></div>'
+		end
+		if $args[1]=007:
+		'<div class="button"><a href="exec:minutes+=5 &a=0 & q=0 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化0开幕''">Challenge: Research Enhanced Edition!</a></div>'
+		end
+	'</div>'
+
+		
+	'<div class="dialog_menu">'
+		if $args[1]=001:
+		'<p><<$jj.name>>:Preliminary report: When the amount of extraction was small, I combined McGovern with oxytocin and was surprised to find that it solved the problem of excessive administration, causing tonic or spasmodic uterine contraction, leading to heavy bleeding in pregnant women and hypoxia in the fetus.</p>'
+		end
+		if $args[1]=002:
+		'<p><<$jj.name>>:In-depth research report: After purification, it is a solid white powder and has a certain hormonal stimulating effect.It is mainly manifested in euphoria and excitement, changes in sensory consciousness, and increased appetite.Hmm?The more I look at you now, the more pleasing to the eye, you look very to my sister`s taste~~</p>'
+		end
+		if $args[1]=003:
+		'<p><<$jj.name>>:Preclinical studies have found that it is volatile when it is in liquid form and has extremely high solubility.Its essence is a transformed, strong natural central stimulant...Just being looked at like this by you..Not good..Sister is getting more and more excited now...！My good brother!</p>'
+		end
+		if $args[1]=007:
+		'<p><<$jj.name>>:I did a clinical experiment with myself and ingested it every day1gMcGovern(MacGuffin), Found that it has a certain addictive nature...！</p>'
+		'<p><<$jj.name>>:I`m curious now...McGovern(MacGuffin)What is the transformation in the human body?Oh, my sister can`t wait to study you...！</p>'
+		end
+	'</div>'
+	
+end
+
+!ok
+if $args[0]="Human experiment":
+	q=0
+	a=0
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\研究007~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+
+	'<div class="button_menu">'
+	
+		'<div class="buttonB1"><a href="exec:minutes+=5 & q=0 &gt ''Sister_event'',''Ejaculation test'',''巨诱惑0开幕''">Swallowing test</a></div>'
+		
+		if $jj.bad>=75:
+		'<div class="buttonB2"><a href="exec:minutes+=5 & q=0 &gt ''Sister_event'',''Autologous cycle'',''005''">Swallow Lightweight Edition</a></div>'
+		end
+		
+		if $jj.bad>=100:
+		'<div class="buttonR3"><a href="exec:minutes+=5 & q=0 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化0开幕''">Challenge: Swallow the Enhanced Version</a></div>'
+		end
+		
+		if $jj.bad>=150 and $jj.love>=150:
+		'<div class="buttonS"><a href="exec:minutes+=5 & q=0 &gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做0开幕''">Sex test</a></div>'
+		end
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>:Hurry up McGovern(MacGuffin)After drinking the essence extract, let my sister see its conversion rate after circulating in the body.It is said that people with a high assimilation rate can ejaculate without restriction...！</p>'
+		'<p><<$jj.name>>:My sister will use you as the first male experiment.....Female experimental body..It`s my sister!</p>'
+	'</div>'
+	
+end
+
+
+if $args[0]="Ask for McGovern extract":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\药~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 &a=0 & q=0 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化0开幕''">Challenge: Swallow the enhanced crystal</a></div>'
+		
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>:This is an enhanced version of McGovern that I extracted through technology.(MacGuffin)Crystallization, you try it quickly.！</p>'
+		'<p>·Sister, can I have some McGovern extract?·</p>'
+		'<p><<$jj.name>>:Yes, but you have to test the enhanced McGovern for me first(MacGuffin)The effect of crystallization!I am sure this will be the Nobel Prize in the future!</p>'
+		'<p><<$jj.name>>:but!！If you don`t make it to the end, I won`t give it to you!</p>'
+	'</div>'
+	
+end
+
+
+if $args[0]="Geological meeting":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\研究001~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">Write down and leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>I:Why is it only in 【mountainsR&MThis kind of McGovern can only be extracted from plants in the area.(MacGuffin)The substance?</p>'
+		'<p><<$jj.name>>:This has always been my research!</p>'
+		'<p>I:Is it related to geology and landform?By the way, I saw a green light in the soil during the fertilization process.....</p>'
+		'<p><<$jj.name>>:The soil is exposed to radiation, so the plants mutate?！But soil is not my field of research....By the way, I know an expert in geological research!I asked her to meet, just in time to take you to get to know her!</p>'
+		'<p><<$jj.name>>:afternoon1I`m waiting for you in the restaurant of the mall!She is a woman who is preoccupied with time, don`t be late!</p>'
+		$DZ.event_meet=1
+	'</div>'
+	
+end
+
+if $args[0]="Mother-daughter experiment":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\母姐1-0~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:a=0 &q=0 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">Participate in the experiment (start operation)</a></div>'
+	'</div>'
+
+ if JM_JJ<5:
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>:I just happen to be free today, come and see you...of..research..result...Oh?..<<$Protagonist`s_name>>Also here...？</p>'
+		'<p><<$jj.name>>:Mom!Please!Just help me~~McGovern, I really want to study!！</p>'
+		'<p><<$jm.name>>:Do you have a good relationship..？...Why are you looking at me straight?...？</p>'
+		'<p><<$jj.name>>:This is the result of my research!(*Whisper: Mom`s eyes....Sure enough, the sound I heard outside the door last time was real....You took them all down a long time ago, didn`t you?)</p>'
+	'</div>'
+	end
+ if JM_JJ>=5:
+ 	'<div class="dialog_menu">'
+		'<p><<$jj.name>>:Mom!Please!Just help me~~McGovern, I really want to study!！</p>'
+		'<p><<$jm.name>>:It`s not impossible to help you, let me check your research results first.....<<$Protagonist`s_name>>..Humph!Why did you take off your pants?！</p>'
+		'<p><<$jj.name>>:good!brother!Shall we finish it with our mother in a while and go home to do it with our sister?I asked my sister to suck your dick, and you shot all the semen in my mouth.</p>'
+	'</div>'
+	end
+end
+
+if $args[0]="Detection of Heterochromatic_plants":
+	Heterochromatic_progress+=rand(10,25)
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\研究001~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>I:Sister, do you have time to help me test the composition of this heterochromatic plant?</p>'
+		'<p><<$jj.name>>:I see, you can put it in this drawer. I`ll take a look for you when you have time.</p>'
+		'<p>·————·</p>'
+		!'<p>Research progress·<<Heterochromatic_progress>>%</p>'
+	'</div>'
+end
+
+if $args[0]="Detection of Heterochromatic_plants2":
+	
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JJ\vids\研究001~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if Heterochromatic_plants>0:'<div class="buttonGn1"><a href="exec:Heterochromatic_progress+=rand(10,20) & Heterochromatic_plants-=1 & gt ''Sister`s_office'',''Detection of Heterochromatic_plants2''">Natural Heterochromatic_plants</a></div>'else:'<div class="buttonGr"><a href="exec:">Natural Heterochromatic_plants</a></div>'
+		if Heterochromatic_progress>99:'<div class="buttonGn3"><a href="exec:Heterochromatic_plant_Report+=1 & gt ''Mugou_Pharmaceutical''">Receive report</a></div>'
+		if $jj.bad>=100:
+		'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Ask for McGovern extract''">Ask for McGovern extract</a></div>'
+		end
+		if $jj.bad>=200 and $jj.love>=200 and $jm.love>=200 and $jm.bad>=200:
+		'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Sister`s_office'',''Mother-daughter experiment''">Summon mother and daughter Donburi</a></div>'
+		end
+		if $jj.love>=200 and $jj.bad>=200 and $DZ.love>=200 and $DZ.bad>=200:
+		'<div class="buttonS"><a href="exec: gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P0开幕''">Summon girlfriends</a></div>'
+		end
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>I:Sister, how is the progress of the research on the composition of Heterochromatic_plants?</p>'
+		'<p><<$jj.name>>:I still need more plant samples and bring more leaves.</p>'
+		'<p>·————·</p>'
+		'<p>Research progress·<<Heterochromatic_progress>>%</p>'
+	'</div>'
+end
+
+--- Sister`s_office ---------------------------------
+

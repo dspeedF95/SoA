@@ -1,0 +1,352 @@
+# 4Sshop
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+minutes+=5
+a=0 & q=0
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs "Shopping_mall_map"
+'</div>'
+
+if $ARGS[0] ="":
+	'<div class ="show_menu"><img src="images\place\4S店内.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''dialogue''">dialogue</a></div>'
+		if Porsche=1:'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''VIP lounge''">VIP lounge</a></div>'
+		if $CH.booth=1:'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''Motorcycle booth''">Motorcycle booth</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>·As soon as I entered the showroom, several salesmen began to look at you from top to bottom.</p>'
+	'</div>'
+
+end
+
+ 
+if $ARGS[0] ="dialogue":
+	$XS.available=1
+	'<div class ="show_menu"><img src="images\place\4S店内.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		if $sales_Event_Buyacar=0:'<div class="buttonG"><a href="exec:minutes+=5 & gt ''4Sshop'',''Talk in the car''"><<Year>> Style 718</a></div>'
+		if $sales_Event_Buyacar=2:'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''Continue to choose''">Continue to choose</a></div>'
+		if $sales_Event_Buyacar=3:'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''Pay the balance''">Pay the balance</a></div>'
+		if $sales_Event_Buyacar=4:'<div class="button"><a href="exec:minutes+=5 & gt ''Sales_event'',''Sales_carting''">Pick up the car</a></div>'
+		if $sales_Event_Buyacar=5:'<div class="button"><a href="exec:minutes+=5 & gt ''Sales_event'',''sales_Fuck_Inside the car''">Introducing the vehicle</a></div>'
+		
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">It`s okay</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		if $sales_Event_Buyacar=0:
+		'<p><<$XS.NAME>>:Hello sir ❤ Let me introduce you to several models below.</p>'
+		'<p><<$XS.NAME>>:718 Cayman It is a popular medium-sized sports car with a high-performance engine and a complex body structure, which can provide excellent power performance and high turning sensitivity. There are a variety of engine options, including2.0Liter four-cylinder turbocharged engine and 4.0Liter six-cylinder turbocharged engine.Their maximum power is 300 Horsepower and 414 brakehorsepower…</p>'
+		end
+		if 3>=$sales_Event_Buyacar and $sales_Event_Buyacar>=1:
+		'<p>I:Can I pick up the car?</p>'
+		'<p><<$XS.NAME>>:Sir...don`t worry, the procedures are under review...when the boss comes back...I will call you to let you know.</p>'
+		if  $Salescall1=1 and $sales_Event_Buyacar=1:'<p><<$XS.name>>*Suddenly whispered:?I said on the phone... let you know21Meet at the red restaurant after ordering…</p>'
+		
+		
+		end
+		if $sales_Event_Buyacar=4:
+		'<p>I:Can I pick up the car?</p>'
+		'<p><<$XS.NAME>>:We are ready for you!Please follow me toVIProom.</p>'
+		end
+	'</div>'
+end
+ 
+ 
+ 
+ 
+if $ARGS[0] ="Talk in the car":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\XS\vids\讲解.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonG"><a href="exec:minutes+=5 & gt ''4Sshop'',''Full purchase''">Consider buying in full</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">Too expensive</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$XS.NAME>>:Sir, your vision is so good❤718The interior uses high-quality materials, including leather, aluminum and high-grade soft fabrics.The seats in the car are equipped with electric adjustment and heating functions, which can help you stay comfortable in different climatic conditions.…</p>'
+		'<p>I:Can I test drive?</p>'
+		'<p><<$XS.NAME>>:Under normal circumstances, you need to sign a test drive agreement first, and then conduct a test drive under the guidance of the dealer, but if you have the intention to purchase... I can make an exception for you to skip the process and test drive directly❤</p>'
+		'<p>I:You don`t say that to every guest, do you?</p>'
+		'<p><<$XS.NAME>>:How could it be ❤Do you have any intention to buy ❤Currently<<Year>>Style718The guide price is ￥718,000❤Now we have a discount, you can enjoy it when you book a car today40%What about the discount ❤</p>'
+	'</div>'
+end
+ 
+ 
+if $ARGS[0] ="Full purchase":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\XS\vids\讲解.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if money>=70000:'<div class="buttonG"><a href="exec:minutes+=5 & money-=70000 & gt ''4Sshop'',''Payment of deposit''">Payment of deposit</a></div>'else:'<div class="buttonGr"><a href="exec:">Payment of deposit</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">Let`s talk about it</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$XS.NAME>>:Uh...full payment?Sir❤I didn`t expect you to be young❤...successful in your career❤</p>'
+		'<p>I:Then let`s sign the contract.</p>'
+		'<p><<$XS.NAME>>:Sir ❤ Our boss is not here today, so why don`t you pay the deposit first... when the boss comes back...I will call you.</p>'
+		'<p>I:How much is the deposit?</p>'
+		'<p><<$XS.NAME>>:The deposit is ￥70,000❤Pay today and get a free car refrigerator❤</p>'
+	'</div>'
+end
+
+if $ARGS[0] ="Payment of deposit":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\XS\vids\谈.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$XS.NAME>>:Ok!<<$Protagonist`s_surname>> Sir, please fill in your complete personal information. Once the boss comes back...I will call you.</p>'
+		'<p>I:Ok.</p>'
+		$sales_Event_Buyacar=1
+	'</div>'
+end
+ 
+if $ARGS[0] ="Continue to choose":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\XS\vids\讲解.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Sales_event'',''temptation''">Go home with her to get it</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$XS.NAME>>:<<$Protagonist`s_surname>> Sir!I`m really sorry... I forgot the previous selection list at home!</p>'
+		'<p>I:I don`t blame you, after all, you drank too much.</p>'
+		'<p><<$XS.NAME>>:<<$Protagonist`s_surname>> Sir!If you don`t delay, please go home with me to get it.</p>'
+	'</div>'
+end
+ 
+ 
+if $ARGS[0] ="Pay the balance":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\XS\vids\支付尾款.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if money>=415000:'<div class="buttonG"><a href="exec:money-=415000 & gt ''Sales_event'',''Sales_payment''">Pay ￥415,000</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay ￥415,000</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">Pay next time</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>Store manager:<<$Protagonist`s_surname>> Sir!Just got off the plane!Poor hospitality!Poor hospitality!</p>'
+		'<p><<$XS.NAME>>:<<$Protagonist`s_surname>> Sir!The total balance is...￥415,000！It contains5000￥VIPValue-added services</p>'
+		'<p>Store manager:<<$XS.NAME>>！Well done!You are getting more and more proficient in your business…*Yawn</p>'
+	'</div>'
+end
+ 
+ 
+
+if $ARGS[0] ="VIP lounge":
+		if $CHEvent_chain=1:gt'4Sshop','Event one'
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\CH\vids\立绘0.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+		
+		'<div class="button_menu">'
+			if $Caraudio=0 and money>=50000:'<div class="buttonG"><a href="exec:$Caraudio=1 & money-=50000 & gt ''Driving''">Upgrade the sound system￥50,000</a></div>'
+			if $CH.available=0:'<div class="button"><a href="exec:$CH.available=1 & gt ''4Sshop'',''VIP lounge''">Say hello</a></div>'
+			if ($CH.available=1 and  $CHEvent_chain<=2) or $CH.rice>=1:'<div class="buttonP"><a href="exec: gt ''4Sshop'',''Dealer dialogue''">dialogue</a></div>'
+			if $CHEvent_chain>=3 and $CH.rice=0:'<div class="buttonG1"><a href="exec: gt ''Dealer_Event'',''Marketing''">Marketing</a></div>'
+			
+			if $CHEvent_chain>=3 and $CH.rice>=1:'<div class="buttonS2"><a href="exec: gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Marketing</a></div>'
+			if $CH.phone=1:'<div class="buttonS2"><a href="exec: gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Essential_oil massage</a></div>'
+
+
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">leave</a></div>'
+		'</div>'
+
+
+		'<div class="dialog_menu">'
+			if $CH.available=0:
+			'<p><<$CH.NAME>>: I am the acting person in charge of this car dealership, and this is my temporary office.</p>'
+			else:
+			'<p>I: Hi~</p>'
+			'<p><<$CH.name>>: <<$Protagonist`s_surname>> Sir!You are a distinguished Porsche owner, what can I do for you?</p>'
+			if $CHEvent_chain>=3:'<p>I: Don`t say that, I still have an identity as your subordinate.</p>'
+			end
+		'</div>'
+end
+
+
+if $ARGS[0] ="Dealer dialogue":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\CH\vids\立绘1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+		
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">It`s okay</a></div>'
+			if $Caraudio=0 and money>=50000:'<div class="buttonG"><a href="exec:$Caraudio=1 & money-=50000 & gt ''Driving''">Upgrade the sound system￥50,000</a></div>'
+			if $CHEvent_chain=2:'<div class="button"><a href="exec:gt ''Dealer_Event'',''Self-recommendation''">Self-recommendation</a></div>'
+			if $CH.rice>=1:'<div class="button"><a href="exec:gt ''Dealer_Event'',''Car dealer_Fuck_Thanks0''">Negotiation skills</a></div>'
+			if $CH.advertising>=10:'<div class="buttonS"><a href="exec:$CH.booth=1 & gt ''4Sshop''">Launch of motorcycle booth</a></div>'
+		'</div>'
+
+
+		'<div class="dialog_menu">'
+			'<p><<$CH.name>>: <<$Protagonist`s_surname>> Sir, what`s the matter?</p>'
+			if  $CHEvent_chain=0:$CHEvent_chain=1
+		'</div>'
+end
+
+if $ARGS[0] ="Event one":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\CH\vids\对话.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+		
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">No more eavesdropping</a></div>'
+		'</div>'
+
+
+		'<div class="dialog_menu">'
+			'<p><<$CH.name>>: What does dad mean?</p>'
+			'<p>secretary: What the boss means is that if [New Energy Motorcycle] cannot be successfully promoted, then your brother will take over the entire car dealer business.</p>'
+			'<p><<$CH.name>>: Would you please give me a little more time?</p>'
+			'<p>secretary: Miss, I am also very embarrassed by you like this.</p>'
+			'<p><<$CH.name>>: Please!</p>'
+			'<p>secretary: Then I will give you a few more weeks of grace. Now you can only hope for the sales of [New Energy motorcycles].</p>'
+			'<p><<$CH.name>>: I will work hard!</p>'
+			if  $CHEvent_chain=1:$CHEvent_chain=2
+		'</div>'
+end
+
+if $ARGS[0] ="Motorcycle booth":
+	 if week_day =1 or week_day =3 or week_day =3 or week_day =5 or week_day =7:
+		$Carmodel.name='Wakana Nao(Double rest car model)'
+		$Carmodelnum='A'
+	 else:
+		$Carmodel.name='Miyuki Love(Single-off car model)'
+		$Carmodelnum='B'
+	 end
+
+	 if $CH.CarmodelA=1 and $Carmodelnum='A':
+		'<div class ="show_menu"><img src="images\NPC\CH\pics\摩托展台A.jpg" width="854"></div>'
+		
+		'<div class="button_menu">'
+			'<div class="buttonB3"><a href="exec:minutes+=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">Go to the safe passage</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">leave</a></div>'
+		'</div>'
+
+		'<div class="dialog_menu">'
+			'<p><<$Carmodel.name>>: The new energy motorcycle is a kind of motorcycle that uses electrical energy, solar energy, hydrogen energy, etc. to replace traditional fuels. It has multiple advantages and broad prospects.…*Yawn.</p>'
+			'<p>I: The work is really paddling.</p>'
+		'</div>'
+	end
+
+	 if $CH.CarmodelB=1 and $Carmodelnum='B':
+		'<div class ="show_menu"><img src="images\NPC\CH\pics\摩托展台B.jpg" width="854"></div>'
+		
+		'<div class="button_menu">'
+			'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">Simulate signing</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">leave</a></div>'
+		'</div>'
+
+		'<div class="dialog_menu">'
+			'<p><<$Carmodel.name>>: A new energy motorcycle is a motorcycle that uses electrical energy, solar energy, hydrogen energy, etc. to replace traditional fuels... You can enjoy a three-year flash charge discount from Imperial Energy when you place an order this week.</p>'
+			'<p>I: I didn`t expect to work very hard.</p>'
+		'</div>'
+	end
+
+	 if $CH.CarmodelA=0  or $CH.CarmodelB=0:
+		'<div class ="show_menu"><img src="images\NPC\CH\pics\摩托展台.jpg" width="854"></div>'
+		
+		
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''The person behind''">The person behind</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">leave</a></div>'
+		'</div>'
+
+
+		'<div class="dialog_menu">'
+			'<p><<$CH.name>>: The new energy motorcycle is a kind of motorcycle that uses electrical energy, solar energy, hydrogen energy, etc. to replace traditional fuels. It has multiple advantages and broad prospects.First of all, because they do not produce harmful gases and pollutants, and meet the requirements of modern society for environmental protection, orders placed this week can enjoy a three-year flash charge discount from Imperial Energy.</p>'
+			'<p>I: You are on the platform in person, you are so dedicated.</p>'
+			'<p><<$CH.name>>: Ah!？brother!</p>'
+		'</div>'
+	end
+end
+
+
+if $ARGS[0] ="The person behind":
+		'<div class ="show_menu"><img src="images\NPC\CH\pics\maleB.jpg" height="480"></div>'
+		
+		
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''Go for a drink''">Ok</a></div>'
+		'</div>'
+
+
+		'<div class="dialog_menu">'
+			'<p>Patrick Bateman: Who made you dress like this?</p>'
+			'<p><<$CH.name>>: Ah!？brother!Don`t you like it?</p>'
+			'<p>Patrick Bateman: You know, I`m really disappointed.Your irresponsible dress and unprofessional behavior really make me feel very dissatisfied.I need you to be able to treat this job with a professional attitude, and always maintain a high degree of vigilance and responsibility.</p>'
+			'<p>I: Uh...it was my idea.</p>'
+			'<p>Patrick Bateman: I can`t tolerate your stupid idea causing any negative impact on my sister, stop immediately, otherwise I will not hesitate to find someone else to complete this task.</p>'
+			'<p><<$CH.name>>: brother!！What you said is too much!</p>'
+			'<p>Patrick Bateman: Hurry up and put on your clothes!This is an order!</p>'
+		'</div>'
+end
+
+
+if $ARGS[0] ="Go for a drink":
+		'<div class ="show_menu"><img src="images\NPC\CH\pics\喝酒.jpg" width="854"></div>'
+		
+		
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Drink spirits</a></div>'
+		'</div>'
+
+		'<div class="dialog_menu">'
+			'<p><<$CH.name>>: Are you okay?My brother, uh.That`s how he speaks, don`t take it to heart, it`s not your fault.I volunteered.</p>'
+			'<p>I: Sorry, you were hated by your brother.</p>'
+			'<p><<$CH.name>>: I am his favorite sister, how can he hate me?Hey, let`s not talk about this, cheers!</p>'
+			'<p>I: You don`t drink alcohol.</p>'
+			'<p><<$CH.name>>: Lied to you!My drinking is very good❤</p>'
+		'</div>'
+end
+
+
+
+--- 4Sshop ---------------------------------
+

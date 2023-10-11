@@ -1,0 +1,72 @@
+# game_new_day
+my.basement-=1
+if my.basement<=0:my.basement=0
+
+Dailydraw=0
+Dailyneighborbed=0
+Pickupthegoodsdaily=0
+Dailyrollcall=0
+Parttimetechnician=0
+Dailycoldknowledge=0
+Dailyweather=0
+Daily_tram=0
+Dailyfootball=0
+Dailyeditoranddirector=0
+Daily_chores=0
+Daily_survey=0
+Dailystockprice=0
+Daily_Succubus=0
+
+daily_TZ_WQ=0
+
+if QT.reply>=1:QT.reply+=1
+
+if XMVideotape>=2:$XMNumberofdaysthevideohasnotbeenwatched+=1
+
+if $Countdowntothecompetition=1:$Remainingdatesofthecompetition-=1
+
+if Bigvillaforthefirsttime>0 and $SSYY.love>=200: YuyaCD+=1
+if Bigvillaforthefirsttime>0 and $QB.love>=200: HashimotoCD+=1
+if Bigvillaforthefirsttime>0 and $SF.love>=200: XunguoCD+=1
+if $TS.ROOM>0 and TSMM>0: angelCD+=1
+if $MMS.love>5: SuccubusCD+=1
+
+if $Enteringaconveniencestoreforthefirsttime=1:
+	!if $FW.enthusiasm>=$FW.Upperlimitofenthusiasm:$FW.enthusiasm=$FW.Upperlimitofenthusiasm
+	if Nightshift.enthusiasm>=$FW.Upperlimitofenthusiasm:Nightshift.enthusiasm=$FW.Upperlimitofenthusiasm
+	if Typesofconveniencestoreproducts>=150:Typesofconveniencestoreproducts=150
+	if Conveniencestoreenvironment>=$FW.Upperlimitofinternalenvironment:Conveniencestoreenvironment=$FW.Upperlimitofinternalenvironment
+	
+	Conveniencestoreserviceattitudestatistics=$FW.enthusiasm+Nightshift.enthusiasm
+	Conveniencestoreserviceattitude=Conveniencestoreserviceattitudestatistics/2 
+	Conveniencestoreenvironment=(Typesofconveniencestoreproducts+Conveniencestoreenvironment)/2
+	
+	Numberofcustomersyesterday=22*Conveniencestoreserviceattitude*Conveniencestoreenvironment+rand(5,250)+Numberofadditionalcustomers
+	
+	Yesterdaysextraprofitandloss=Additionalprofitandloss
+	Additionalprofitandloss=0
+	
+	Yesterdaysprofit=Numberofcustomersyesterday*Commodityprofitmargin/100+Yesterdaysextraprofitandloss
+	!if Yesterdaysprofit<=0:Yesterdaysprofit=0
+	if Numberofcustomersyesterday<0:Numberofcustomersyesterday=rand(5,25)
+	
+	My_mental_power+=Yesterdaysprofit
+	Significant_cumulative_profit_this_month=My_mental_power+1
+	
+	$Thief1Entertheroom2-=1
+	$Thief2Entertheroom2-=1
+	$PrincipalNightclub+=1
+	$DeanNightclub+=1
+	$QBStoremanager-=1
+end
+
+
+
+
+
+KILLVAR 'day_label'
+
+
+
+--- game_new_day ---------------------------------
+

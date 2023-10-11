@@ -1,0 +1,49 @@
+# menu_Updatelog
+cls
+gs'menu_time_calc'
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_mainnpc'
+	gs'menu_act_hidden'
+'</div>'
+
+
+'<div id="left-column998">'
+		'
+		Version log：V44.4<p>
+		<Plot><p>
+		1.The new plot of the overhaul of the church, including355+video，15+event<p>
+		2.The new plot of the trainee nun, including90+video，6+event<p>
+
+		<repair><p>
+		1.Increased the number of heterochromatic plants obtained after handling the ladder<p>
+		2.TIAJump at homeBUG<p>
+		3.Intruders in the mountain area are abnormalBUG<p>
+
+		【Note：126@The mailbox cannot receive the email reply, please change the mailbox]<p>
+		---------------------------------------------------------------------<p>
+		
+		
+		Version log：V42.2<p>
+		<Plot><p>
+		1.The new plot of the widow of the underworld, including121+video，10+event<p>
+		2.The new plot of the President of the Empire, including506+video，30+event<p>
+		3.The new plot of the daughter of the Empire, including240+video，15+event<p>
+		4.The swimming coach submitted the plot, including120+video，8+event<p>
+
+		<repair><p>
+		1.The trigger conditions of the plastic surgeon in the toilet have been relaxed. There is no need to replay, just play the game directly. In the previous version (those who complete her first and then complete the idol competition) can go again.23It`s triggered to click on the public toilet!<p>
+		2.Optimized the favor menu page (because there are already too many roles) and added a button to filter out the new roles in the current version.<p>
+		3.Optimized the sorting of backpack pages and the color of buttons.<p>
+		4.Adjusted the cheating pictures of convenience stores; reduced the number of praise required for convenience store praise redemption, and increased the growth rate after redemption.<p>
+		5.The strategy of the new characters is built into the game, and the progress of the strategy can be viewed in real time.<p>
+		'
+		
+		
+'</div>'
+
+'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
+
+--- menu_Updatelog ---------------------------------
+

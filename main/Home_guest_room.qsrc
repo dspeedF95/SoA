@@ -1,0 +1,296 @@
+# Home_guest_room
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs "Home_map"
+'</div>'
+
+if $ARGS[0]="":
+	'<div class ="show_menu"><img src="images\place\客房.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if $JM_Event_grandpa=2:
+		'<div class="button"><a href="exec:minutes +=5 & Light_bulb-=1 & $JM_Event_grandpa=3 & gt ''home'' ">Change the light bulb</a></div>'
+		end
+		'<div class="button"><a href="exec:minutes +=5 & gt ''home'' ">Leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		 "-The Light bulb in the room is broken, I should go to the store to buy a new one and replace it.</p>"
+		 if $JM_Event_grandpa>=3:
+		 "	——</p>"
+		 "-The Light bulb has been changed, and the room suddenly has a new look to it.</p>"
+			end
+	'</div>'
+end
+
+if $ARGS[0]="Grandpa1":
+	'<div class ="show_menu"><img src="images\place\紧闭的门.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if 12<=hour and hour<=16 and week_day <6:
+		 '<div class="button"><a href="exec:minutes +=5 & gt ''Stepmom_event'',''Grandpa raped'',''强奸1''">Eavesdrop on the argument</a></div>'
+		end
+		'<div class="button"><a href="exec:minutes +=5 & gt ''home'' ">Leave</a></div>'
+	'</div>'
+	
+		if 12<=hour and hour<=16 and week_day <6:
+		'<div class="dialog_menu">'
+			 "<p>-$#%#@@Grandpa, let me explain%@%@</p>"
+			 "<p>-$#%#@@You're a real piece of work.%@%@</p>"
+		'</div>'
+		else:
+		'<div class="dialog_menu">'
+			 "<p>-Grandpa: About this matter, let's discuss it. It's not that we won't do it, but it's also not like we've said that we must do it in a specific way. Isn't that right? We deal with things pragmatically, and we can find solutions. So, let's postpone this for a bit, okay? 
+				  When the time comes, we'll take a look at it, alright? I'll brief you on this matter later, alright? That's it for now.</p>"
+			 "<p>-$#%#@%@%@@</p>"
+			 "<p>-Grandpa: Alright! I won't waste more time talking with you. Let me finish dealing with things here, and then we can talk again.</p>"
+			 "<p>-Doodle doodle..</p>"
+		'</div>'
+			end
+end
+
+if $ARGS[0]="Bitter plan":
+	'<div class ="show_menu"><img src="images\place\紧闭的门.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=5 & gt ''Home_guest_room'',''Bitter plan2'' ">Push the door and peek inside</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-<<$jm.name>>: Dad! I want to talk to you one last time!</p>"
+		 "<p>-Grandpa: This is an agreement to sever the relationship between father and daughter, and this is a property liquidation agreement. If you have no objection, sign it.</p>"
+		 "<p>-<<$jm.name>>: Dad! Don`t do this.... I was really forced...</p>"
+		 "Bang--! *Slamming desk*"
+	'</div>'
+end
+
+
+if $ARGS[0]="Bitter plan2":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\行动~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=5 & gt ''Home_guest_room'',''Bitter plan3'' ">Keep watching</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-<<$jm.name>>：...</p>"
+		 "<p>-Grandpa: Shut up! There is no more room for you to speak here! Do as I say ... or else...</p>"
+		 "<p>-<<$jm.name>>：⋯⋯⋯⋯⋯⋯ </p>"
+		 "Bzzz———— *Phone ringing"
+	'</div>'
+end
+
+
+if $ARGS[0]="Bitter plan3":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\行动0~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=5 & gt ''Home_guest_room'',''Bitter plan4'' ">Keep watching</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-？？？: Honey, what's taking you so long? Do you want me to drive there and pick you up...？</p>"
+		 "<p>-<<$jm.name>>: I`m fine! And didn't I say that you are not allowed to call me that?</p>"
+		 "<p>-Grandpa: And which bastard are you fooling around with now? Does he know that you are a bitch who has incestous sex with her biological father?</p>"
+		 "<p>-<<$jm.name>>: I will be back soon! I'm hanging up!</p>"
+		 "<p>-Grandpa: Ignoring me? I'll give you a taste of my power! You fucking slut! You're just like your mother! Let me tell you a secret, your mother didn`t die in a shipwreck! She was a whore!</p>"
+		 "<p>-Grandpa: A nasty, dirty whore! I feel sorry for you because you are my own flesh and blood! Otherwise, I would have pushed you into the Atlantic Ocean together with your mother!</p>"
+	'</div>'
+end
+
+if $ARGS[0]="Bitter plan4":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\行动1~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=15 & gt ''Home_guest_room'',''Bitter plan5'' ">The time is right!</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-Grandpa: Now start being a good girl and suck my dick just like your mother did, you little bitch!</p>"
+		 "<p>-<<$jm.name>> lost focus in her eyes and shed tears while trembling as she dropped to her knees...</p>"
+		 "<p>- It`s time, it`s my turn.</p>"
+	'</div>'
+end
+
+
+if $ARGS[0]="Bitter plan5":
+	'<div class ="show_menu"><img src="images\place\继母办公室.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=15 & gt ''Home_guest_room'',''Bitter plan6'' ">Follow him</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-You collided with a hurried figure, and upon closer inspection it was the temporary worker.</p>"
+		 "<p>-Me: Are the documents ready? If you don't give them to me, it's going to be hard for me to deliver it to the top executives!</p>"
+		 "<p>-Temporary worker: What documents? Oh, I see now. Our chairman is currently fetching them at home... </p>"
+		 "<p>-Me: A female boss is really unreliable! Do you know where her house is? I'll just go there and get them directly. </p>"
+		 "<p>-Temporary worker: I know, but I won't allow you to insult her like this! If you don`t apologize... I will kill you! </p>"
+		 "<p>-Me: Okay, I'm Sorry! Please lead the way. It's an emergency!  *You look at the time </p>"
+		 
+	'</div>'
+end
+
+if $ARGS[0]="Bitter plan6":
+	'<div class ="show_menu"><img src="images\place\家.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=5 & gt ''Home_guest_room'',''Bitter plan7'' ">Break in</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+
+		 "<p>-Me: Why is the door open?！ Watch out for burglars!</p>"
+ 		 "<p>-*Just before leaving, you deliberately didn`t lock the door…</p>"
+		 "<p>-？？？: *Crying*</p>"
+		 "<p>-Temporary worker：<<$jm.name>>?! Honey?! where are you?!.... </p>"
+		 "<p>-Me: It's coming from this room!</p>"
+
+	'</div>'
+end
+
+if $ARGS[0]="Bitter plan7":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\行动1~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=5 & gt ''Home_guest_room'',''Bitter plan71'' ">Go towards the sound</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-The scene in front of him made his pupils tremble....！！Without thinking, he started swinging his fists!</p>"
+		 "<p>-Temporary worker: You old fucking bastard! Hah, hah, hah, ahhhhhh!</p>"
+	'</div>'
+end
+
+
+if $ARGS[0]="Bitter plan71":
+	'<div class ="show_menu"><img src="images\place\blood.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=5 & gt ''Home_guest_room'',''Bitter plan81'' ">Rescue her and call the police</a></div>'
+		'<div class="button"><a href="exec:minutes +=5 & gt ''Home_guest_room'',''Bitter plan8'' ">Alarm</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-Beyond your expectations, even though Grandpa had already fallen to the ground, the temporary worker still continued beating him and even started to stomp on his dick> Blood sprayed all over the place.</p>"
+		 "<p>-Temporary: HAh Ah Ah Ah--Ah Hah Ah Ah--Ah Ahhhhh Ah Ah--Ah Ah Ah Ah Ah!Ah Hah Ah Hah--Ah Ah Ah Ah--Ah Ah Ah Ah--Ah Hah Ah Ah Ah!</p>"
+	'</div>'
+end
+
+if $ARGS[0]="Bitter plan81":
+	'<div class ="show_menu"><img src="images\place\警察局.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=15 & gt ''Home_guest_room'',''Bitter plan9'' ">...</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "Inside the Police Station"
+		 "<p>-Policewoman: I`m sorry that your father did that to you. News has come from the hospital that your father had an intracranial hemorrhage.....It has caused him to get Alzheimer`s... The suspect ended up confessing to his crimes.</p>"
+		 "<p>-<<$jm.name>>: That... What did he... What did he say? (Nervous)</p>"
+		 "<p>-Policewoman: He said it was because your father hindered the marriage between you and him. He held a grudge because of that and launched a deliberate attack... OS: Stop it, you still have sperm on the corners of your mouth... What a perverted family...</p>"
+		 "<p>-<<$jm.name>>: Ah, yes yes yes. Can I go and meet him?</p>"
+		 "<p>-Policewoman: You've got 30 minutes before we transfer him to a detention center in another city. You guys can have a nice chat in that time.</p>"
+	'</div>'
+end
+
+if $ARGS[0]="Bitter plan8":
+	'<div class ="show_menu"><img src="images\place\警察局.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=15 & gt ''Home_guest_room'',''Bitter plan9'' ">...</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "Inside the Police Station"
+		 "<p>-Policewoman: I`m sorry that your father did that to you. News has come from the hospital that your father had an intracranial hemorrhage.....It has caused him to get Alzheimer`s... The suspect ended up confessing to his crimes.</p>"
+		 "<p>-<<$jm.name>>: That... What did he... What did he say? (Nervous)</p>"
+		 "<p>-Policewoman: He said it was because your father hindered the marriage between you and him. He held a grudge because of that and launched a deliberate attack... OS: Stop it, you still have sperm on the corners of your mouth... What a perverted family...</p>"
+		 "<p>-<<$jm.name>>: Ah, yes yes yes. Can I go and meet him?</p>"
+		 "<p>-Policewoman: You've got 30 minutes before we transfer him to a detention center in another city. You guys can have a nice chat in that time.</p>"
+	'</div>'
+end
+
+
+
+if $ARGS[0]="Bitter plan9":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\离开~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=150 & gt ''Home_guest_room'',''Bitter plan10'' ">Leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "Inside the Police Station"
+		 "<p>-<<$jm.name>>: Thank you... I have nothing to say... I was violated by my father...</p>"
+		 "<p>-Temporary worker: Honey! Of course, I would do anything to maintain your holiness! You will wait for me to get out of jail, right? Shall we get married when I get out of prison? Will you wait for me? I will fight for a reduced sentence, maybe I can get it down to 50 years!</p>"
+		 "<p>-<<$jm.name>>: Of course, I am willing to wait for you. You saved me from my father`s clutches, you are my hero! OS: Wishful thinking, hero... so sad.</p>"
+	'</div>'
+end
+
+if $ARGS[0]="Bitter plan10":
+	'<div class ="show_menu"><img src="images\place\客房.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=15 & gt ''Home_guest_room'',''Bitter plan11'' ">Kiss her</a></div>'
+		'<div class="button"><a href="exec:minutes +=15 & gt ''home'' ">Leave with a smile</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-<<$jm.name>>: Can you believe it... A few hours ago... Father was standing here in good health... You went too far.</p>"
+		 "<p>-Me: Sorry, I didn`t expect him to beat your father like that...</p>"
+		 "<p>-<<$jm.name>>: ... But... Thank you...</p>"
+		 "<p>-Me: Stepmother, do you feel guilty? (You used this title for the first time)</p>"
+		 "<p>-<<$jm.name>>：...I don`t know, my father has always been my pillar.....</p>"
+		 $JM.LOVE+=20
+		 $JM_Event_grandpa=7
+	'</div>'
+end
+
+
+if $ARGS[0]="Bitter plan11":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\吻~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes +=15 & gt ''home'' ">The coming days are long</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		 "<p>-You kiss her...</p>"
+		 "<p>-Me: Then let me be your pillar...</p>"
+		 "<p>-<<$jm.name>>：... How can you... You are my son...</p>"
+		 "<p>-Despite her protest, she didn`t push you away, as if she was glad...</p>"
+		 "<p>-Me: We...</p>"
+		 $JM.BAD+=25
+	'</div>'
+end
+
+ 
+--- Home_guest_room ---------------------------------
+

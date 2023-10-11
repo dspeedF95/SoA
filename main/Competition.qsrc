@@ -1,0 +1,463 @@
+# Competition
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+minutes+=15
+if $Countdowntothecompetition=0:$Remainingdatesofthecompetition=90&$Countdowntothecompetition=1
+if $Sister_Hua_Event_Chain=6 and jailday>0:gt"Prison_Compulsory_rest"
+if QB.pressure<0:QB.pressure=0
+if QB.pressure>=10 and $QBEvent_chain=0:gt'Hashimoto_Event','pressure'
+if QB.pressure>=13+$QBEvent_chain and $QBEvent_chain>=4:gt 'Hashimoto_Event','pressure2'
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+
+		
+		'<div class="action">'
+			'<a class="photo" data-title="TV station" href="exec:gt ''TV_station''"><img class="img_stretch" src="images\place\电视台.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Competition stage" href="exec:gt ''Competition''"><img class="img_stretch" src="images\place\竞演\竞演.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Real-time ranking" href="exec:gt ''Competition'',''Competition ranking''"><img class="img_stretch" src="images\place\竞演\竞演2.gif"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Underground transportation" href="exec:minutes+=15 & gt ''subway''"><img class="img_stretch" src="images\place\地铁.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			if $QBEvent_chain=0  or $QBEvent_chain>=4:'<a class="photo" data-title="<<$QB.name>>" href="exec:gt ''Competition'',''Hashimoto Tachie''"><img class="img_stretch" src="images\place\竞演\QB1.jpg"></a>'
+		'</div>'
+	
+		'<div class="action">'
+			if $Champion_event_chain!13:
+				'<a class="photo" data-title="<<$GJ.name>>" href="exec:gt ''Competition'',''Champion Liyi''"><img class="img_stretch" src="images\place\竞演\GJ1.jpg"></a>'
+			else:
+				'<a class="photo" data-title="Lost contact" ><img class="img_stretch" src="images\place\竞演\GJ2.jpg"></a>'
+			end
+		'</div>'
+	
+		'<div class="action">'
+			'<a class="photo" data-title="<<$SSYY.name>>" href="exec:gt ''Competition'',''Yuya Liyi''"><img class="img_stretch" src="images\place\竞演\YY1.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="<<$PW.name>>" href="exec:gt ''Competition'',''SisterHuaLiyi''"><img class="img_stretch" src="images\place\竞演\PW1.jpg"></a>'
+		'</div>'
+		
+	'</div>'
+'</div>'
+
+
+if $ARGS[0]="":
+	$Competitionscenenum=rand(0,3)
+	'<div class ="show_menu"><img src="images\place\竞演\竞演现场<<$Competitionscenenum>>.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		!'<div class="button"><a href="exec:gt ''Competition'',''SisterHuaLiyi''">contact<<$PW.name>></a></div>'
+		!'<div class="button"><a href="exec:gt ''Competition'',''Yuya Liyi''">view<<$SSYY.name>></a></div>'
+		!if $Champion_event_chain!13:'<div class="button"><a href="exec:gt ''Competition'',''Champion Liyi''">view<<$GJ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:"><<$GJ.name>>Lost contact</a></div>'
+		'<div class="buttonPu1"><a href="exec:gt ''Competition'',''Xunguo Liyi''">view<<$SF.name>></a></div>'
+		!'<div class="button"><a href="exec:gt ''Competition'',''Hashimoto Tachie''">contact<<$QB.name>></a></div>'
+		if $Champion_event_chain=10 or $Champion_event_chain=11:'<div class="buttonR4"><a href="exec:gt ''Competition'',''Sister Liyi''"><<$MM.name>>Call for help!</a></div>'else:'<div class="buttonS2"><a href="exec:gt ''Competition'',''Sister Liyi''">contact<<$MM.name>></a></div>'
+		'<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">leave</a></div>'
+		if $Finalpreparation=2:'<div class="buttonG"><a href="exec:minutes+=30 & gt ''Group_performation_event'',''Group performance_Event_Awards''">Finals&Award ceremony</a></div>'else:'<div class="buttonGr"><a href="exec:">Finals&Award ceremony</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		if $Competitionscenenum=0:'<p>Me: What, the poster completely blocked other people……</p>'
+		if $Competitionscenenum=1:'<p>·The host position of the camera is always facing<<$SSYY.name>>...Others don`t have a camera at all…</p>'
+		if $Competitionscenenum=2:'<p>·<<$SSYY.name>>In every performance, it is the mainCbit…</p>'
+		if $Competitionscenenum=3:
+			'<p><<$GJ.name>>: The camera used by the goddess and female celebrities is only 28,000 yuan!It`s a pity not to buy it!</p>'
+			'<p><<$SSYY.name>>: It`s a pity not to buy it!The photos are taken one by one, without wrinkles, they don`t look like vicissitudes of life at all!</p>'
+			'<p><<$BD.name>>: Click--!The word is mispronounced!Read according to the manuscript!</p>'
+			'<p><<$GJ.name>>: …...why are you robbing my words?“It`s a pity not to buy it!”It`s my line!</p>'
+			'<p><<$SSYY.name>>: Why?I`m just slowly getting back what belongs to me, the lines that belong to the “champion”, and the “position” that belongs to the champion.</p>'
+			'<p><<$GJ.name>>: Really audacious!I entered the competition this time just to beat you again!</p>'
+			'<p><<$SSYY.name>>: We`ll see, your "backstage" is not as hard as mine.</p>'
+			$GJ.available=1
+		end
+		'<p>【There is still time left before the end of the draft competition<font color="#ff1493"><<$Remainingdatesofthecompetition>>day</font>】</p>'
+		if $Remainingdatesofthecompetition<=0:'<p><font color="#ff1493">[The countdown is just to scare you (◉ω◉)Have you been fooled】</font></p>'
+		'<p><B><span class =''red''>【-Bitter-Hand-press-button-】<a href="exec:gt ''Competition'',''Skip the idol contest''">-Skip the idol contest</a></p>'
+	'</div>'
+end
+
+if $ARGS[0]="Competition ranking":
+	'<div class ="show_menu"><img src="images\NPC\TS\pics\A0.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if $QBEvent_chain!8 and $Champion_event_chain!15:'<div class="button"><a href="exec:$rankingnu=1 & gt ''Competition'',''Competition ranking2''">1-4First name</a></div>'
+		if $Champion_event_chain>=15:'<div class="button"><a href="exec:$rankingnu=3 & $Finalpreparation=1 & gt ''Competition'',''Competition ranking2''">now1-4First name</a></div>'
+		if $QBEvent_chain>=8:'<div class="button"><a href="exec:$rankingnu=2 & gt ''Competition'',''Competition ranking2''">before1-4First name</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Me: The popularity of virtual idols is so high now... times have changed.…</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Competition ranking2":
+	'<div class ="show_menu"><img src="images\NPC\TS\pics\A<<$rankingnu>>.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Competition'',''Competition ranking''">5-8First name</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Me: I have to think of a way, but I can`t end up being a stepping stone for her.…</p>'
+		'<p>I：<<$SF.name>>...is the ranking so high?It seems she really has some strength…</p>'
+	'</div>'
+end
+
+
+
+
+if  $args[0]="SisterHuaLiyi":
+	$Donotrepeat=$SisterHuaLiyi
+	$SisterHuaLiyi=rand(0,3)
+	if $Sister_Hua_Event_Chain>=8:$SisterHuaLiyi=rand(0,4)
+	if $SisterHuaLiyi=$Donotrepeat:gt 'Competition','SisterHuaLiyi'
+	if $Sister_Hua_Event_Chain<=1:$SisterHuaLiyi=rand(-1,3)
+	if $Sister_Hua_Event_Chain=3:gt'Judges_Event','PW_Fuck_secret'
+	
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\PW\vids\立绘<<$SisterHuaLiyi>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''SisterHuaLiyi''">Wait a moment</a></div>'
+		if $SisterHuaLiyi=-1:'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''SisterHuaLiyi''">Secretly write down</a></div>'
+
+		if $SisterHuaLiyi=3:
+			if $Sister_Hua_Event_Chain=4 or $Sister_Hua_Event_Chain=5:
+				'<div class="buttonR1"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing1''">Communicate privately</a></div>'
+				if $PW.bad>=10:'<div class="buttonR2"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing2''">In-depth communication</a></div>'else:'<div class="buttonGr"><a href="exec:">？？communication</a></div>'
+				if $Sister_Hua_Event_Chain=5 and $PW.love<=-100 and $Thephoneisformatted=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage''">Safe passage</a></div>'else:'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
+			end
+		end
+		if $Sister_Hua_Event_Chain>=7 and $SisterHuaLiyi!4:'<div class="buttonR3"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing3''">Strong communication</a></div>'
+		if $SisterHuaLiyi=4:
+			'<div class="buttonR3"><a href="exec:gt ''Judges_Event'',''PW_Fuck_company''">Intercept her outside the door</a></div>'
+			if $PW.bad>=70:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage2''">Intercept her in a safe passage</a></div>'else:'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
+		end
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $SisterHuaLiyi=-1:
+		'<p>·Shooting gap<<$PW.name>>In the lounge…</p>'
+		'<p><<$PW.name>>: I actually lost so much... It seems that the idol drama project plan is going to be stranded... No... I have to find them to raise some money at night.…</p>'
+		'<p><<$PW.name>>: After all, this is directly related to the boss of the Empire Group... let`s set it in a crowded place like the Red Restaurant.…</p>'
+		$Sister_Hua_Event_Chain =1
+		end
+		if $SisterHuaLiyi=0:
+		'<p>·<<$PW.name>>Shooting magazine covers…</p>'
+		end
+		if $SisterHuaLiyi=1:
+		'<p>·<<$PW.name>>The judges` catwalk show is in progress…</p>'
+		end
+		if $SisterHuaLiyi=2:
+		'<p>·<<$PW.name>>Receiving an exclusive interview with the media…</p>'
+		end
+		if $SisterHuaLiyi=3:
+		'<p><<$PW.name>>: Tsk tsk... Those who train hard are not as good as those who have a high starting point, those who are talented are not as good as those who have a topic, and those who can bear it are not as good as those who can cry... While I am free now, what are you looking for me for?</p>'
+		end
+		if $SisterHuaLiyi=4:
+		'<p>Director Yu: Let`s discuss the procedures for the transfer of the house again... first of all<<$PW.name>>If you invest in the purchase of the property rights of the house, the application procedures for the first prize in Taiwan should be fine, right?</p>'
+		'<p><<$TZ.name>>: Well, don`t worry about this.If there is such a big award, the ratings this time will definitely go all the way to the red!I will definitely fully support it.</p>'
+		'<p>Director Yu: uh…<<$PW.name>>？Are you okay?My mother wants to give you a big horse, which means that the horse is successful.</p>'
+		'<p><<$PW.name>>: Malaysia?I have no place to raise it!</p>'
+		'<p>Director Yu: It`s okay... My mother also said that it`s useless, so I sent it to the circus and let everyone ride it!</p>'
+		'<p><<$PW.name>>: Uh...I... suddenly felt a little chest tightness and wanted to get some air.…</p>'
+		end
+		
+	'</div>'
+End
+
+if  $args[0]="Yuya Liyi":
+	$Donotrepeat=$YuyaLiyi
+	$YuyaLiyi=rand(0,2)
+	if $Yuya_Event_Chain<=1:$YuyaLiyi=rand(-1,2)
+	if $YuyaLiyi=$Donotrepeat:gt 'Competition','Yuya Liyi'
+	
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\SSYY\vids\立绘<<$YuyaLiyi>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''Yuya Liyi''">Wait a moment</a></div>'
+		if $YuyaLiyi=2:
+			if $Yuya_Event_Chain=2 or $Yuya_Event_Chain=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Take out a candid photo</a></div>'
+			if $Yuya_Event_Chain=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Stop shooting, go open a room</a></div>'
+			if $Yuya_Event_Chain=4 or $Yuya_Event_Chain=5:'<div class="buttonR"><a href="exec:gt ''Yuya_Event'',''I can`t do anything with her''">What about the photos?！</a></div>'
+			if $Yuya_Event_Chain=5:'<div class="buttonR2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">What did you see?</a></div>'
+		end
+		if $SSYY.love>=200 and $SSYY.love>=200:'<div class="buttonS2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Make an appointment to the hotel</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $Yuya_Event_Chain>=7:'<div class="buttonS3"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_toilet''">Pull to the toilet for a shot</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $SSYY.love>=250 and $SSYY.love>=250:'<div class="buttonS4"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_massage''">Massage to relieve fatigue</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $Finalpreparation>=1:'<div class="buttonG"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_Before the end''">Come to the final </a></div>'
+		
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $YuyaLiyi=-1:
+		'<p>·<<$SSYY.name>>Separate personal practice room…</p>'
+		'<p><<$SSYY.name>>: Good dog... miss the owner?Hehe, then I`ll see you in the old place.</p>'
+		'<p>Phone: ... aren`t you competing in a competition?…</p>'
+		'<p><<$SSYY.name>>: It`s okay, I`ve been there so many times... no one will find us…</p>'
+		'<p>Phone: ... also... who would go to school in the middle of the night?…</p>'
+		$Yuya_Event_Chain=1
+		end
+		if $YuyaLiyi=0:
+		'<p>·<<$SSYY.name>>Showing dance…</p>'
+		'<p>Me: She has the strength to become a popular idol…</p>'
+		end
+		if $YuyaLiyi=1:
+		'<p>·<<$SSYY.name>>Singing a solo single…</p>'
+		'<p>Me: It`s over, why can she do anything?…</p>'
+		end
+		if $YuyaLiyi=2:
+		'<p>·<<$SSYY.name>>Filming a live-action comic-book movie promotional poster…</p>'
+		'<p>Me: I really deserve to be a popular idol…</p>'
+		end
+	'</div>'
+End
+
+if  $args[0]="Xunguo Liyi":
+	$XunguoLiyi=rand(0,1)
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\SF\vids\立绘<<$XunguoLiyi>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''Xunguo Liyi''">Wait a moment</a></div>'
+		'<div class="buttonPu4"><a href="exec:minutes+=5  &gt ''Young_woman_event'',''SF_Fuck_Toilet conception''">Wait for her in the toilet</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $XunguoLiyi=0:
+		'<p>·<<$SF.name>>The electric guitar detonated the audience... the entire stage was about to be overturned by her!</p>'
+		'<p>·You saw the light in her eyes…</p>'
+		end
+		if $XunguoLiyi=1:
+		'<p>·<<$SF.name>>Promotional materials are being prepared, and it looks like a set of sexy photos.</p>'
+		end
+	'</div>'
+End
+
+if  $args[0]="Hashimoto Tachie":
+	QB.pressure+=1
+	'<div class ="show_menu"><img src="images\NPC\QB\pics\桥本立绘.jpg" width="854"></div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''Hashimoto Tachie''">Wait a moment</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''Discuss countermeasures''">Discuss countermeasures</a></div>'
+		if $QBEvent_chain=5 :'<div class="button"><a href="exec:minutes+=15 & gt ''Hashimoto_Event'',''QB_Fuck_ask''">About the toilet</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·You two look at each other</p>'
+		'<p><<$QB.name>>: broker^_^#So what are we performing?</p>'
+		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+	'</div>'
+End
+
+if  $args[0]="Champion Liyi":
+	if $Champion_event_chain=0: gt 'Champion_event','Eavesdropping'
+	if $Champion_event_chain=2 and $Yuya_Event_Chain>=2: gt 'Champion_event','Eavesdropping2'
+	if $Champion_event_chain=4: gt  'Champion_event','GJ_Fuck_mouth1'
+	if $Champion_event_chain<14:
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\GJ\vids\立绘0.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		else:
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\GJ\vids\下药1-0.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		end
+		
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''Champion Liyi''">Wait a moment</a></div>'
+		if 6>=$Champion_event_chain and $Champion_event_chain>=5: '<div class="button"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_mouth2''">Private discussion</a></div>'
+		if 7>=$Champion_event_chain and $Champion_event_chain>=6 and $Thephoneisformatted=1: '<div class="button"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_mouth3''">About “that thing”</a></div>'
+		if $Champion_event_chain=8 or $Champion_event_chain=9:
+			'<div class="button"><a href="exec:minutes+=15 & a=2 & q=2 & gt ''Champion_event'',''GJ_Fuck_hotel''">Make an appointment to the hotel</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_office''">Test her here</a></div>'
+		end
+		if $Champion_event_chain=11 or $Champion_event_chain=12 :'<div class="buttonR4"><a href="exec:minutes+=15 & gt ''Champion_event'',''angry''">Ask about my sister</a></div>'
+		if $Champion_event_chain>=14 :'<div class="button"><a href="exec:$GDruggednum=1 & gt ''Competition'',''Close''">Close</a></div>'
+		
+		
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $Champion_event_chain<14:
+			'<p>·I: …... (She doesn`t sing very well... It`s hard to imagine that she was the champion of the last time...)</p>'
+			else:
+			'<p>·<<$GJ.name>>I dyed my blond hair after I came back from the loss of contact... my clothes were even more exposed.…</p>'
+			end
+		if $Champion_event_chain=7:'<p>·I: ...The candid photos have been<<$SSYY.name>>Deleted... it`s impossible to take pictures again... (Is there anyone who does what I say to accompany me to do a scene?)</p>'
+	'</div>'
+End
+
+if  $args[0]="Sister Liyi":
+		if $Champion_event_chain=10 or $Champion_event_chain=11:
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\NPC\MM\vids\竞演2.webm" type=''video/webm;''></video></div>'
+			'</div>'
+			
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=15 & $Champion_event_chain=11 & gt ''Competition''">Push him away!</a></div>'
+		'</div>'
+
+		'<div class="dialog_menu">'
+			'<p><<$MM.name>>: What are you going to do?！Ah ah ah?！Help!</p>'
+			'<p>？？？: Someone sent me to teach you a lesson!You convey it to your brother, if he doesn`t cooperate honestly, your whole family will wait to be arranged by me one by one!</p>'
+			'<p>I: stop it!You let her go for me!</p>'
+			'<p>？？？: Huh, Lao Tzu has plenty of opportunities, can you protect them for the rest of your life?！Hahahaha!</p>'
+		'</div>'
+		else:
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\NPC\MM\vids\竞演0.webm" type=''video/webm;''></video></div>'
+			'</div>'
+			
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Sister2_event'',''MM_Fuck_Competition''">Meet privately</a></div>'
+		'</div>'
+
+		'<div class="dialog_menu">'
+			'<p>·<<$MM.name>>Shooting a promotional video</p>'
+			'<p><<$MM.name>>: Please support me a lot!My fans!You have to vote for me too!</p>'
+		'</div>'
+		end
+End
+
+if $ARGS[0]="Close":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\GJ\vids\下药1-<<$GDruggednum>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+        
+	'<div class="button_menu">'
+		if $GDruggednum=1:
+			if $CanGDrugged=1 and $QBEvent_chain=8 and $Yuya_Event_Chain>=7 :'<div class="buttonS"><a href="exec:$GDruggednum=2 & gt ''Competition'',''Close''">Sprinkle in McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">The time is immature</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Competition''">leave</a></div>'
+		end
+		if $GDruggednum=2:'<div class="button"><a href="exec:$GDruggednum=3 & gt ''Competition'',''Close''">Cheers</a></div>'
+		if $GDruggednum=3:
+			if $Champion_event_chain>=14 :'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_DL''">After a while</a></div>'
+			if $Champion_event_chain>=15 :'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_DL2''">❤❤❤</a></div>'
+		end
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		if $CanGDrugged=1:'<p>Me: according to<<$PW.name>>The instructions…</p>'
+		if $CanGDrugged!1:'<p>Me: There is no need to do this for the time being... Ask more, who doesn`t want her?…</p>'
+	'</div>'
+end
+
+if  $args[0]="Discuss countermeasures":
+	QB.pressure+=1
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QB\vids\讨论.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & $QBmaterial=3 & gt ''Competition'',''Promotional materials''">Shooting promotional materials</a></div>'
+		if $QB.bad>=25 and $Hashimotogoodnight!1:'<div class="button"><a href="exec:gt ''Hashimoto_Event'',''Support transaction''">Support transaction</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$QB.name>>: I don`t have any good ideas... what do fans like?…</p>'
+		'<p>I: Let me think about it……</p>'
+		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+	'</div>'
+End
+
+if  $args[0]="Promotional materials":
+		QB.pressure+=2+$QBmaterial
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QB\vids\宣传物料<<$QBmaterial>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		if $QBEvent_chain>=6 and $HashimotoSleepAid!1:'<div class="buttonS1"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Sleep aid''">Take a sleep aid video</a></div>'
+		if $QBEvent_chain>=7 and $Hashimotoistempting!1:'<div class="buttonS5"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Seductive''">Take a seductive photo</a></div>'
+		
+		if $HashimotoSleepAid=1:'<div class="buttonS1"><a href="exec:$QBmaterial=2 & gt ''Competition'',''Promotional materials''">Sleep aid video</a></div>'else:'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
+		if $Hashimotogoodnight=1:'<div class="buttonS3"><a href="exec:$QBmaterial=1 & gt ''Competition'',''Promotional materials''">Bedside photography</a></div>'else:'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
+		if $Hashimotoistempting=1:'<div class="buttonS5"><a href="exec:$QBmaterial=0 & gt ''Competition'',''Promotional materials''">Seductive photo</a></div>'else:'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
+		if $HashimotoSleepAid=1 and $Hashimotogoodnight=1 and $Hashimotoistempting=1:'<div class="button"><a href="exec:$rankingnu=1 & gt ''Competition'',''Ranking rise''">Ranking up!</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$QB.name>>: Broker... is this okay?I listen to you…</p>'
+		if $QBmaterial=3:
+		'<p><<$BD.name>>: What the hell?Why are you again?Change someone to shoot!This guy is a broom star!We have to hide away!</p>'
+		'<p>I: Oh... why are you talking so heavily?…</p>'
+		else:
+		'<p>·Her popularity has risen!</p>'
+		end
+		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+	'</div>'
+End
+
+
+if  $args[0]="Ranking rise":
+	'<div class ="show_menu"><img src="images\NPC\TS\pics\A<<$rankingnu>>.jpg" width="854"></div>'
+		
+	'<div class="button_menu">'
+		if $rankingnu=1:'<div class="button"><a href="exec:minutes+=15 & $rankingnu=2 & gt ''Competition'',''Ranking rise''">Update ranking</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>I: By the way, who is this third place?.. It`s a bit familiar... she still took the initiative to abandon the game.…</p>'
+		if $rankingnu>=2:
+			'<p><<$QB.name>>: broker!！Great!We actually squeezed into the top three!Could it be said?！We are really going to make our debut!</p>'
+			'<p>I: Do my best to listen to destiny... It`s time for me to do the job of a competitor…</p>'
+			$QBEvent_chain=8
+		end
+	'</div>'
+End
+
+if  $args[0]="Skip the idol contest":
+	'<div class ="show_menu"><img src="images\place\彩排室.jpg" width="854"></div>'
+		
+	'<div class="button_menu">'
+		'<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Competition''">Do not press</a></div>'
+		'<div class="buttonGr"><a href="exec:">-Think-clear-clear-</a></div>'
+		'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Group_performation_event'',''Group performance_Event_Awards''">press·Skip the idol contest</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Warning: This button isV37.7Temporarily added after the version</p>'
+		'<p>·Warning: It is aimed at players who have completed the idol contest in the previous version and</p>'
+		'<p>·Warning: Players who are unable to complete the idol contest alone</p>'
+		'<p>·——————·</p>'
+		'<p>·Warning: After pressing this button, you will instantly skip all the plots of the idol contest.</p>'
+		'<p>·Warning: Since there is no actual test, everything that appears after the jumpBUGirresponsible.</p>'
+	'</div>'
+End
+
+
+--- Competition ---------------------------------
+

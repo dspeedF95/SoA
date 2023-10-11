@@ -1,0 +1,405 @@
+# Daily_review
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+minutes+=10
+now_time=year*365+month*30+day
+if Lockreview=1:
+	$Auditname1[0]="Zhao"
+	$Auditname1[1]="money"
+	$Auditname1[2]="Lee"
+	$Auditname1[3]="king"
+	$Auditname1[4]="Song"
+	$Auditname1[5]="Xu"
+	$Auditname1[6]="Ning"
+	$Auditname1[7]="willow"
+	$Auditname1[8]="Joe"
+	$Auditname1[9]="Chen"
+	$Auditname1[10]="Jiang"
+	$Auditname1[11]="Korea"
+	$Auditname1[12]="car"
+	$Auditname1[13]="Cao"
+	$Auditname1[14]="ginger"
+	$Auditname1[15]="Sun"
+	$Auditname1[16]="Cui"
+	$Auditname1[17]="SunPark"
+	$Auditname1[18]="Zheng"
+	$Auditname1[19]="Ai"
+	$Auditname1[20]="gold"
+	$Auditname1[21]="Miura"
+	$Auditname1[22]="Hirose"
+	$Auditname1[23]="Ouyang"
+	$Auditname1[24]="Miyano"
+	$Auditname1[25]="Nail palace"
+	$Auditname1[26]="Amuro"
+	$Auditname1[27]="Tanaka"
+
+	$Auditname2[0]="good"
+	$Auditname2[1]="Bei"
+	$Auditname2[2]="Huan"
+	$Auditname2[3]="dream"
+	$Auditname2[4]="Yue"
+	$Auditname2[5]="Jiao"
+	$Auditname2[6]="Jia"
+	$Auditname2[7]="Na"
+	$Auditname2[8]="Hyun"
+	$Auditname2[9]="poem"
+	$Auditname2[10]="Xin"
+	$Auditname2[11]="profit"
+	$Auditname2[12]="Yi"
+	$Auditname2[13]="Hui"
+	$Auditname2[14]="Philippines"
+	$Auditname2[15]="Xiao"
+	$Auditname2[16]="Yun"
+	$Auditname2[17]="Min"
+	$Auditname2[18]="Ni"
+	$Auditname2[19]="show"
+	$Auditname2[20]="Yan"
+	$Auditname2[21]="Jing"
+	$Auditname2[22]="art"
+	$Auditname2[23]="Xi"
+	$Auditname2[24]="Ru"
+	$Auditname2[25]="know"
+	$Auditname2[26]="Wan"
+	$Auditname2[27]="Ting"
+	$Auditname2[28]="Nai"
+	$Auditname2[29]="month"
+	$Auditname2[30]="color"
+	$Auditname2[31]="well"
+
+
+	$Auditname3[0]="good"
+	$Auditname3[1]="Bei"
+	$Auditname3[2]="Huan"
+	$Auditname3[3]="dream"
+	$Auditname3[4]="Yue"
+	$Auditname3[5]="Jiao"
+	$Auditname3[6]="Jia"
+	$Auditname3[7]="Qi"
+	$Auditname3[8]="Ying"
+	$Auditname3[9]="sound"
+	$Auditname3[10]="Xin"
+	$Auditname3[11]="profit"
+	$Auditname3[12]="Yi"
+	$Auditname3[13]="benefit"
+	$Auditname3[14]="Philippines"
+	$Auditname3[15]="Ling"
+	$Auditname3[16]="Yun"
+	$Auditname3[17]="Lei"
+	$Auditname3[18]="Ni"
+	$Auditname3[19]="child"
+	$Auditname3[20]="Yan"
+	$Auditname3[21]="Jing"
+	$Auditname3[22]="Hee"
+	$Auditname3[23]="Ru"
+	$Auditname3[24]="Anthracene"
+	$Auditname3[25]="Lin"
+	$Auditname3[26]="Yeon"
+	$Auditname3[27]="Ya"
+	$Auditname3[28]="Nai"
+	$Auditname3[29]="month"
+	$Auditname3[30]="Sete"
+	$Auditname3[31]="Mori"
+	$Auditname3[32]="island"
+	$Auditname3[33]=""
+	$Auditname3[34]=""
+	$Auditname3[35]=""
+
+
+	$location[0]="Yanan"
+	$location[1]="Idonia"
+	$location[2]="Harlan City"
+	$location[3]="Raccoon City"
+	$location[4]="Luo Shengdu"
+	$location[5]="Gotham City"
+	$location[6]="Wuhu City"
+	$location[7]="Orgrema"
+	$location[8]="Magic City"
+	$location[9]="Capital"
+	$location[10]="Fog City"
+	$location[11]="Sakuramai Town"
+	$location[12]="Mihua Town"
+	$location[13]="Lake Toya"
+	$location[14]="Xihong City"
+	$location[15]="Ashtozka"
+	$location[16]="Metropolitan city"
+	$location[17]="Sokovia"
+
+	$purpose[0]="Settle down"
+	$purpose[1]="Visiting relatives"
+	$purpose[2]="learn"
+	$purpose[3]="work"
+	$purpose[4]="travel"
+	$purpose[5]="Business activities"
+	$purpose[6]="Labor dispatch"
+	$purpose[7]="Temporary residence"
+	$purpose[8]="Business trip"
+	$purpose[9]="Visit"
+	$purpose[10]="Visiting friends"
+
+	$Occupation[0]="Female reporter"
+	$Occupation[1]="Tender mold"
+	$Occupation[2]="Car model"
+	$Occupation[3]="Actress"
+	$Occupation[4]="Business model"
+	$Occupation[5]="Stewardess"
+	$Occupation[6]="nurse"
+	$Occupation[7]="Female secretary"
+	$Occupation[8]="Porn actor"
+	$Occupation[9]="Sex worker"
+	$Occupation[10]="Peripheral female"
+	$Occupation[11]="College students"
+
+	$Sensitivepoint[0]="lips"
+	$Sensitivepoint[1]="tongue"
+	$Sensitivepoint[2]="Earlobes"
+	$Sensitivepoint[3]="Back neck"
+	$Sensitivepoint[4]="Clavicle"
+	$Sensitivepoint[5]="back"
+	$Sensitivepoint[6]="Nipple"
+	$Sensitivepoint[7]="Inner thigh"
+	$Sensitivepoint[8]="Clitoris"
+	$Sensitivepoint[9]="Labia"
+	$Sensitivepoint[10]="Inner wall of vagina"
+	$Sensitivepoint[11]="Uterine mouth"
+	$Sensitivepoint[12]="toe"
+	$Sensitivepoint[13]="Bundle"
+	$Sensitivepoint[14]="Derailment"
+	$Sensitivepoint[15]="Abused"
+	$Sensitivepoint[16]="Abuse"
+	$Sensitivepoint[17]="Squirting"
+	$Sensitivepoint[18]="Asshole"
+	$Sensitivepoint[19]="Bukkake"
+	$Sensitivepoint[20]="Appointment"
+	$Sensitivepoint[21]="incest"
+	$Sensitivepoint[22]="Internal injection"
+	$Sensitivepoint[23]="Sex toys"
+	$Sensitivepoint[24]="Role-playing"
+	$Sensitivepoint[25]="none"
+	$Sensitivepoint[26]="Swallow sperm"
+	$Sensitivepoint[27]="affair"
+	$Sensitivepoint[28]="Promiscuity"
+	$Sensitivepoint[29]="Promiscuity"
+	rj_num=rand(1,140)
+	pussy_num=rand(1,250)
+	$rj_name=$Auditname1[rand(0,27)]+$Auditname2[rand(0,31)]+$Auditname3[rand(0,35)]
+	$rj_job=$Occupation[rand(0,11)]
+	$rj_sex=$Sensitivepoint[rand(0,29)]
+	rj_daysex=rand(1,10)
+	rj_weeksex=rj_daysex*2
+	rj_sextimes=rj_daysex*rj_daysex*6-rj_daysex-3+rand(0,4)
+	rj_pregnant= rand(0,10)
+	$rj_height=rand(160,180)
+	$rj_weight=($rj_height-100)*75/100+rand(0,4)
+	$rj_B=$rj_height*55/100+rand(0,3)
+	$rj_W=$rj_height*35/100+rand(0,1)
+	$rj_H=$rj_height*52/100+rand(0,2)
+	Auditcity=rand(0,17)
+	$rj_city=$location[Auditcity]
+	$rj_reason=$purpose[rand(0,10)]
+	rj_day=day
+	rj_day-=rand(1,20)
+	rj_month=month
+	rj_year=year
+	if rj_day<=0:
+		rj_day+=30
+		rj_month-=1
+		if rj_month<=0:
+			rj_month+=12
+			rj_year-=1
+		end
+	 end
+end
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			'<a class="photo" data-title="City Hall" href="exec:minutes+=15 & gt ''City_hall''"><img class="img_stretch" src="images\place\市政厅.jpg"></a>'
+		'</div>'
+	'</div>'
+'</div>'
+
+
+
+
+
+
+
+if $ARGS[0]="":
+	'<div class ="show_menu"><img src="images\place\检查室.jpg" width="854"></div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=10 &  gt ''Daily_review'',''Officially started''">Review submission materials</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+	
+		'<p>《<<Year>> "Immigration Regulations"</p>'
+		'<p>The following areas are not allowed to enter the country: Idonia,Harlan City,Raccoon City,Luo Shengdu,Gotham City,Yanan.</p>'
+		'<p>·Reason: The epidemic prevention level and epidemic risk level of the above-mentioned areas cannot be assessed.</p>'
+		'<p>The following occupations are not allowed to enter the country: Female reporter, athlete. Reason: There are already enough sprinters.</p>'
+		'<p>You are not allowed to enter the country for the following reasons:1. The nucleic acid certificate has expired (Translation note: The cert expires 14 days after issue). Reason: Cooperate in the prevention of the epidemic.</p>'
+		'<p>Supplementary instructions# salary: <<Month>> - Starting from this month, the basic salary of male auditors is 200/Time; if the work error is caused by negligence or misbehavior at work, the salary will be cancelled and the decision will be made. 500/The amount of the penalty.</p>'
+	'</div>'
+
+end
+
+if $ARGS[0]="Officially started":
+	Lockreview=2
+	'<div class ="show_menu2"><img src="images\入境\character\入境人员<<rj_num>>.jpg" height="492"></div>'
+	'<div class="button_menu">'
+		'<div class="buttonB"><a href="exec:minutes+=15 & Reviewandjudgment=1 & gt ''Daily_review'',''judgment''">pass</a></div>'
+		'<div class="buttonR"><a href="exec:minutes+=15 & Reviewandjudgment=2 & gt ''Daily_review'',''judgment''">Rejected</a></div>'
+		if $auditlevel>=2:'<div class="buttonS1"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Close-up of vagina''">Authority:Close-up of vagina</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=3:'<div class="buttonS2"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Oral examination''">Authority:Oral examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=4:'<div class="buttonS3"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Anal examination''">Authority:Anal examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=5:'<div class="buttonS4"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Vaginal examination''">Authority:Vaginal examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=6:'<div class="buttonS5"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Two-point examination''">Authority:Two-point examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+
+
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>姓名Name: "<<$rj_name>>"职业 Occupation:"<<$rj_job>>』</p>'
+		'<p>身高Height: "<<$rj_height>>CM"体重 Weight:"<<$rj_weight>>KG"围 Measurements:"B<<$rj_B>>  W<<$rj_W>>  H<<$rj_H>>』</p>'
+		'<p>入境City of entry: "<<$rj_city>>" ➤ Reason for entry:"<<$rj_reason>>』</p>'
+		'<p>☑Proof of natural nucleic acid:"Health" ➤Issue date: "<<rj_day>>\<<rj_Month>>\<<rj_Year>>"</p>'
+		'<p>自慰Number of masturbations per week: "<<rj_weeksex>>Times" ➤Number of specific experience: "<<rj_sextimes>>People "次数 Number of intrauterine pregnancies:"<<rj_pregnant>>Times"</p>'
+		'<p>性高潮Orgasm point: "<<$rj_sex>>』</p>'
+		Truejudgment=1
+		if Auditcity<=5:Truejudgment=2
+		if $rj_job="Female reporter":Truejudgment=2
+		if $rj_reason="Settle down":Truejudgment=2
+		if now_time>14+(rj_Year*365+rj_Month*30+rj_day):Truejudgment=2
+	'</div>'
+end
+
+
+if $ARGS[0]="judgment":
+	if Truejudgment=Reviewandjudgment:
+		'<div class="show_menu2">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\videos\cheak\检查成功~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	else:
+		'<div class="show_menu2">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\videos\cheak\检查失败~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	end
+	
+	
+	'<div class="button_menu">'
+		'<div class="buttonP"><a href="exec:minutes+=15 & Lockreview=1 & gt ''Daily_review'',''Officially started''">Next</a></div>'
+		if $Numberofreviewers>10 and $Correctback>Netcorrectnumberoftimes+$Errorback-1:'<div class="buttonG"><a href="exec:minutes+=15 & Lockreview=1 & $auditlevel+=1 & gt ''Daily_review'',''Officially started''">promotion</a></div>'else:'<div class="buttonGr"><a href="exec:">promotion:Insufficient conditions</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''City_hall''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		if Auditcity<=5:Truejudgment=2 & '<p>入境This area is not allowed to enter the country!</p>'
+		if $rj_job="Female reporter":Truejudgment=2 &'<p>✘This occupation is not allowed to enter the country!</p>'
+		if $rj_reason="Settle down":Truejudgment=2 &'<p>不可Entry is not allowed for this reason!</p>'
+		if now_time>14+(rj_Year*365+rj_Month*30+rj_day):Truejudgment=2 &'<p>✘This nucleic acid certificate has expired</p>'
+		if Truejudgment=Reviewandjudgment:
+			'<p><<$RION.name>>:☺You are doing well, there is no problem.*Got a basic salary200￥.Favorability has risen.</p>'
+			$RION.love+=5
+			$money+=200
+			$Correctback+=1
+			$Numberofreviewers+=1
+		end
+		if Truejudgment!Reviewandjudgment:
+			'<p><<$RION.name>>:☹ You made a mistake,She disappeared into the sea of people in strides.*Money was deducted500￥.</p>'
+			$money-=500
+			$Errorback+=1
+			$Numberofreviewers+=1
+		end
+		 
+		 Netcorrectnumberoftimes=$auditlevel*5
+			'<p>░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</p>'
+			'<p>责任Responsibility Statistics权限权限权限Authority level:<<$auditlevel>>level</p>'
+			'<p>░Numberofreviewers:<<$Numberofreviewers>>The person is right back:<<$Correctback>>Back✔出错Errorback:<<$Errorback>>Back 回░</p>'
+			'<p>晋升Promotion requirements ①Numberofreviewers>10②The number of net correct times><<Netcorrectnumberoftimes>>░</p>'
+	'</div>'
+end
+
+
+
+if $ARGS[0]="Close-up of vagina":
+	'<div class ="show_menu2"><img src="images\入境\pussy\PUSSY (<<pussy_num>>).jpg"  height="480"></div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=10 &  gt ''Daily_review'',''Officially started''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:Please consciously open your labia and accept my examination!</p>'
+		'<p>·The other party is not very willing, but he also cooperated with your order.Her lower body was exposed at a glance.</p>'
+	'</div>'
+
+end
+
+if $ARGS[0]="Oral examination":
+		$Oralcavitynum=rand(1,13)
+		'<div class="show_menu2">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\入境\口腔\检查口腔<<$Oralcavitynum>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=10 &  gt ''Daily_review'',''Officially started''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:Please prove that you are not carrying contraband, we will use it if necessaryXThe optical machine is inspected.(Although the immigration regulations do not have restrictions on contraband, this is also my privilege....)</p>'
+		'<p>·The other party is not very willing, but he also cooperated with your order.</p>'
+		'<p>I:Very good, it seems that there are no contraband in your throat.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Anal examination":
+		$Anusnum=rand(1,19)
+		'<div class="show_menu2">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\入境\肛门\检查肛门<<$Anusnum>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=10 &  gt ''Daily_review'',''Officially started''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:Please prove that you are not carrying contraband, we will use it if necessaryXThe optical machine is inspected.(Although the immigration regulations do not have restrictions on contraband, this is also my privilege....)</p>'
+		'<p>·The other party is not very willing, but he also cooperated with your order.</p>'
+		'<p>I:Very good, it seems that there are no contraband in your anus.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Vaginal examination":
+		$vaginanum=rand(1,40)
+		'<div class="show_menu2">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\入境\阴道\检查阴道<<$vaginanum>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=10 &  gt ''Daily_review'',''Officially started''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:Please prove that you are not carrying contraband, we will use it if necessaryXThe optical machine is inspected.(Although the immigration regulations do not have restrictions on contraband, this is also my privilege....)</p>'
+		'<p>·The other party is not very willing, but he also cooperated with your order.</p>'
+		'<p>I:Very good, it seems that there are no contraband in your room.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Two-point examination":
+		$Twoholesnum=rand(1,21)
+		'<div class="show_menu2">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\入境\二穴\检查二穴<<$Twoholesnum>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=10 &  gt ''Daily_review'',''Officially started''">return</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:Please prove that you are not carrying contraband, we will use it if necessaryXThe optical machine is inspected.(Although the immigration regulations do not have restrictions on contraband, this is also my privilege....)</p>'
+		'<p>·The other party is not very willing, but he also cooperated with your order.</p>'
+	'</div>'
+end
+
+--- Daily_review ---------------------------------
+

@@ -1,0 +1,221 @@
+# gs_first
+
+$clock['hours'] =8
+$clock['status']='on'
+$gg['age'] = 19
+$gg['incentive'] = 40
+$gg['figure'] = 85
+$gg['energy'] = 1000
+$gg['cooking'] = 0
+$gg['University_courses'] = 1
+$gg['Grade'] = 0
+$gg['meeting'] = 0
+$gg['alcohol'] = 0
+$gg['Be_a_courier'] = 0
+$gg['tennis'] = 0
+$gg['astronomy'] = 0
+$gg['intelligence'] = 0
+$gg['Dominance'] = 0
+$gg['Cunnilingus'] = 0
+$gg['Make_love'] = 0
+
+
+$week_label[]='ava_grade'
+$week_label[]='test'
+$week_label[]='mysor'
+
+
+
+
+
+
+$data['гг_truant'] = 0
+$data['Course photos'] = 0
+$data['competition'] = 0
+
+
+
+$data['First_conversation'] = 0
+$data['The_first_dialogy_sister'] = 0
+
+$data['event_momma_dress'] =0
+$data['Event_momma_red_wine'] = 0
+$data['Quarrel_momma_photos'] = 0
+$data['Quarrel_mom_auntie'] = 0
+$data['Quarrel_momma_photos'] = 0
+$data['compensation'] = 0
+$data['Mom_and_aunt_massage'] = 0
+
+
+$data['Event_sister_picnic'] = 0
+$data['EVENT_SISTER_TV'] = 0
+$data['Incident_sister_sultry4'] = 0
+$data['Incident_sister_sultry2'] = 0
+
+$data['event_sisterporn']  = 0
+$data['sister_sex']  = 0
+$data['event_sister_dialogue'] = 0
+$data['Sister_dream'] =0
+
+
+$data['event_elena_sex'] = 0
+$data['event_elena_dinner'] = 0
+$data['event_elena_Anal_sex'] = 0
+$data['event_elena_suck'] = 0
+$data['event_elena_photo'] = 0
+$data['Rest in nature'] = 0
+$data['event_elena_fashionable'] = 0
+$data['event_elena_kiss']=0
+$data['event_elena_gg_Caress'] = 0
+$data['event_elena_n_sex'] = 0
+$data['event_elena_cream'] = 0
+$data['event_elena_Cunnilingus_Bullet'] = 0
+$data['event_elena_Blowjob_pool'] = 0
+$data['event_elena_Cunnilingus_beath'] = 0
+$data['event_elena_Blowjob_Takeabath'] = 0
+$data['event_elena_Blowjob_Picnic'] = 0
+$data['event_elena_Cunnilingus_Picnic'] = 0
+$data['event_elena_Cunnilingus_Takeabathinthemorning'] =0
+$data['event_elena_Blowjob_restaurant'] = 0
+$data['event_elena_Cunnilingus_Hall'] = 0
+$data['event_elena_Cunnilingus_bedroom'] = 0
+$data['event_elena_Pedicure'] = 0
+$data['event_elena_dialogue'] = 0
+$data['event_elena_dialogue_days'] = 0
+$data['event_elena_First_sex'] = 0
+$data['Perverted'] = 0
+$data['event_elena_option1'] = 0
+$data['event_elena_option2'] = 0
+
+$data['Start_communication_anya'] = 0
+$data['Event_anya_Certificate'] = 0
+$data['Anya_joke'] = 0
+$data['Anya_water_Salt'] = 0
+$data['First_love'] = 0
+
+$data['Startadialogy_anastasia'] = 0
+$data['Incident_Mom_Anya_trolling'] = 0
+$data['Event_momma_anya'] = 0
+$data['event_momma_sexuality'] = 0
+
+
+$data['event_Eva_photo'] = 0
+$data['event_Eva_shower'] = 0
+$data['event_Eva_Sultry'] = 0
+$data['event_Eva_Sultry2'] = 0
+$data['event_Eva_Take a bath'] = 0
+$data['event_Eva_chest'] = 0
+$data['event_Eva_massage'] = 0
+$data['event_Eva_check'] = 0
+$data['Eva_member'] = 0
+$data['Eva_SEX'] = 0
+$data['event_Eva_NoneedtofakeJJ'] = 0
+$data['Eva_SEX_quantity'] = 0
+
+$data['Event_vika_Seek'] = 0
+$data['Event_vika_Open'] = 0
+$data['Event_vika_Mobilephone'] = 0
+$data['Event_vika_tefend']  = 0
+$data['Event_vika_Spanking']  = 0
+$data['Event_vika_evening']  = 0
+$data['Event_vika_Hall']  = 0
+$data['Event_vika_Select']  = 0
+
+$data['Startadialogy_nalia'] = 0
+ 
+$data['Startadialogy_masha'] = 0 
+$data['Martha_tennis'] = 0
+$data['Martha_kiss'] = 0
+$data['Martha_hand'] = 0 
+$data['Martha_Photo'] = 0 
+$data['Martha Del'] = 0 
+$data['Martha_wa'] = 0 
+
+$data['Event_twins'] = 0
+$data['Tag_twins'] = 0
+$data['gg_sex_fuse'] = 0
+
+$data['speak'] = 0
+
+$characters[] = 'Maria'
+$character_Мария['Last_name'] = 'Dickinson-Protagonist`s House'
+$character_Мария['Middle_name'] = ''
+$character_Мария['age'] = 41
+$character_Мария['relationship'] = 400
+$character_Мария['Depravity'] = 200
+
+
+
+$characters[] = 'Julia'
+$character_Юля['Last_name'] = 'Dickinson-Protagonist`s House'
+$character_Юля['Middle_name'] = ''
+$character_Юля['age'] = 18
+$character_Юля['relationship'] = 350
+$character_Юля['Depravity'] = 400
+
+
+
+$characters[] = 'Elena'
+$character_Елена['Last_name'] = ''
+$character_Елена['Middle_name'] = ''
+$character_Елена['age'] = 44
+$character_Елена['relationship'] = 550
+$character_Елена['Depravity'] = 400
+
+
+
+$characters[] = 'Еva'
+$character_Ева['Last_name'] = 'Alexandrovna'
+$character_Ева['Middle_name'] = 'Alexandrovna'
+$character_Ева['age'] = 39
+$character_Ева['relationship'] = 300
+$character_Ева['Depravity'] = 600
+
+
+
+
+$characters[] = 'Anya'
+$character_Аня['Last_name'] = ''
+$character_Аня['Middle_name'] = ''
+$character_Аня['age'] = 18
+$character_Аня['relationship'] = 300
+$character_Аня['Depravity'] = 600
+
+
+
+
+$characters[] = 'Anastasia'
+$character_Анастасия['Last_name'] = ''
+$character_Анастасия['Middle_name'] = 'Pavlovna'
+$character_Анастасия['age'] = 49
+$character_Анастасия['relationship'] = 300
+$character_Анастасия['Depravity'] = 300
+
+	
+$characters[] = 'Vika'
+$character_Вика['age'] = 19
+$character_Вика['relationship'] = 1000
+$character_Вика['Depravity'] = 750
+
+$characters[] = 'Dasha'
+$character_Даша['age'] = 19
+$character_Даша['relationship'] = 800
+$character_Даша['Depravity'] = 600
+
+$characters[] = 'Natasha'
+$character_Наташа['age'] = 19
+$character_Наташа['relationship'] = 800
+$character_Наташа['Depravity'] = 700
+
+$characters[] = 'Martha'
+$character_Маша['age'] = 18
+$character_Маша['relationship'] = 500
+$character_Маша['Depravity'] = 200
+
+$characters[] = 'Louise'
+$character_Луиза['age'] = 39
+$character_Луиза['relationship'] = 700
+$character_Луиза['Depravity'] = 500
+
+--- gs_first ---------------------------------
+

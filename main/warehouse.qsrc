@@ -1,0 +1,41 @@
+# warehouse
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+a=0 & q=0
+gs'menu_gif'
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs "Mugou_Pharmacy_map"
+		if $Camera_warehouse=0 and icamera>0:
+		'<div class="action">
+			<a class="photo" data-title="Install the camera" href="exec:$Camera_warehouse=1 & icamera-=1 & gt ''warehouse''"><img class="img_stretch" src="images\place\需要摄像头.jpg"></a>
+		</div>'
+		end
+'</div>'
+
+
+'<div class ="show_menu"><img src="images\place\仓库.jpg" width="854"></div>'
+
+
+'<div class="button_menu">'
+	'<div class="button"><a href="exec:minutes+=5 & gt ''warehouse''">Kill time</a></div>'
+	if $jj.love>=200 and $jj.bad>=200 and $DZ.love>=200 and $DZ.bad>=200:
+	'<div class="button"><a href="exec: gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P0开幕''">Summon girlfriends</a></div>'
+	end
+'</div>'
+
+
+'<div class="dialog_menu">'
+	if $Camera_warehouse=0:'<p>This pitch-black warehouse seems to be the perfect place to install cameras. Its dark environment provides an ideal place to spy and monitor.</p>'
+	if Bigvillaforthefirsttime>=1 and Pharmaceuticalhammer=0:'<p>·Someone forgot a [sledgehammer] in an inconspicuous corner of the warehouse.<a href="exec:Sledgehammer+=1 & Pharmaceuticalhammer=1 &  gt ''warehouse''">-Take it away</a></p>'
+	'<p>Me: Is it so dark here?</p>'
+'</div>'
+
+
+ 
+--- warehouse ---------------------------------
+

@@ -1,0 +1,105 @@
+# Residential_area
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+a=0 & q=0
+gs'menu_gif'
+
+$Random_number=rand(0,100)
+
+if $Champion_event_chain=7 and hour=16 and week_day =6:gt 'Champion_event','GJ_Fuck_hotel'
+
+if $Yuya_Event_Chain=6  and $Random_number>=70:gt'Yuya_Event','Yuya_Mission'
+
+if 5<= $Inspector_event_chain and $Inspector_event_chain<=6 and hour>=21 and $Random_number>=50:gt 'Inspector_Event','Act privately'
+
+if $Random_number<=4 and 8<=hour and hour<=15:gt 'Task_event','Policewoman jacket'
+if 10<=$Random_number and $Random_number<=15 and 7<=hour and hour<=12:gt 'Task_event','Fat buttocks anal plug'
+if $Random_number>=95 and  (hour>=22 or hour<=4) and Devils_Pupil>0:gt 'Task_event','Succubus_Incident'
+if 35<=$Random_number and $Random_number<=40 and 12<=hour and hour<=16:gt 'Task_event','Male passerby'
+if $ZXApproximatelyresidentialarea=1 and week_day >5 and 13<=hour and hour<=14 and $Random_number<50:gt 'Plasticity_event','Street encounter'
+if $Caesar_works_part_time=1 and $times_of_day='' and 50<=$Random_number and $Random_number<=55:gt 'Task_event','Hunting_passersby'
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="Go home" href="exec:minutes+=5 & gt ''home''"><img class="img_stretch" src="images\place\回家_小图.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Town house" href="exec:minutes+=5 & gt ''Town_house''"><img class="img_stretch" src="images\place\联排别墅_<<$times_of_day>>.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Shopping mall" href="exec:minutes+=5 & gt ''Shopping_mall''"><img class="img_stretch" src="images\place\商场.jpg"></a>
+		</div>'
+		
+		'<div class="action">
+			<a class="photo" data-title="Private hospital" href="exec:minutes+=5 & gt ''hospital''"><img class="img_stretch" src="images\place\医院小图.jpg"></a>
+		</div>'
+
+		'<div class="action">
+			<a class="photo" data-title="Underground transportation" href="exec:minutes+=5 & gt ''subway''"><img class="img_stretch" src="images\place\地铁.jpg"></a>
+		</div>'
+
+		'<div class="action">
+			<a class="photo" data-title="Central Park" href="exec:minutes+=5 & gt ''park''"><img class="img_stretch" src="images\place\park_<<$times_of_day>>.jpg"></a>
+		</div>'
+		
+		if $times_of_day="night":
+		'<div class="action">
+			<a class="photo" data-title="Kabukicho" href="exec:minutes+=5 & gt ''Kabukicho''"><img class="img_stretch" src="images\place\歌舞伎町.jpg"></a>
+		</div>'
+		end
+		
+	'</div>'
+'</div>'
+
+if  $Random_number<=5 and hour>=21:
+		 '<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\videos\杂\彩蛋1.webm" type=''video/webm;''></video></div>'
+		 '</div>'
+else:
+	'<div class ="show_menu"><img src="images\place\居民区_<<$times_of_day>>.jpg" width="854"></div>'
+end
+
+
+
+
+
+'<div class="button_menu">'
+	if Catfeedingtask=1 and hour=Catfeedingtime:'<div class="buttonPu1"><a href="exec:minutes+=30 & gt ''Task_event'',''Feed the cat''">Meow meow meow</a></div>'
+
+	if  hour=21 and $JM_MGF>0  and $Random_number>80:'<div class="buttonS"><a href="exec:  gt ''Stepmom_event'',''First medicine encounter''"><<$JM.name>>The figure</a></div>'
+
+	if ZXGG2>=100 and 17>=hour and hour>=13 and $Random_number>80:'<div class="buttonR4"><a href="exec:  gt ''Executive_officer_Event'',''Chance encounter''"><<$ZXG.name>>The figure</a></div>'
+
+	if Set_printing_card=1 and hour=21 and week_day =5 and $Frontofnewsprogram>=1:'<div class="buttonS"><a href="exec:Setprintingnumber=5 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversation with passersby❤</a></div>'
+	if Set_printing_card=1 and hour=8 and week_day =7:'<div class="buttonS"><a href="exec:Setprintingnumber=7 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversation with passersby❤</a></div>'
+	if Set_printing_card=1 and hour=22 and $weather='☂ Rainy':'<div class="buttonS"><a href="exec:Setprintingnumber=2 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversationOL❤</a></div>'
+	if Set_printing_card=1 and hour=16 and $weather='☀ Sunny':'<div class="buttonR3"><a href="exec:Set_printing_numberS=1 & gt ''Group_performation_event'',''Universal_Fuck_Set sealS''">❤Strike up a conversation with an acquaintance❤</a></div>'
+	if $Task_womenpolicejacket=2 and $times_of_day!"night":'<div class="buttonPu2"><a href="exec:gt ''Task_event'',''Policewoman jacket''">Looking for policewoman</a></div>'
+	if hour=22 and $Caesar_Event_Chain=2:'<div class="buttonR3"><a href="exec:gt ''Champion_event'',''GJ_Fuck_encounter''"><<$GJ.name>>？！</a></div>'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Kill time</a></div>'
+'</div>'
+
+
+'<div class="dialog_menu">'
+	'<p>The residential areas with simple folk customs will become another look at night.</p>'
+	'<p>☄</p>'
+	'<p>World knowledge:<<	$Coldknowledge>></p>'
+'</div>'
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+--- Residential_area ---------------------------------
+

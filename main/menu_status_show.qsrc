@@ -1,0 +1,35 @@
+# menu_status_show
+
+
+
+'<div class="status_menu">'
+
+	
+if my.energy < 100:'<p>Focus on energy: <span class =''red''><<my.energy>>/<<$DisplayfineMAX>></span>'
+if my.energy >= 100 and my.energy < 300:'<p>Focus on energy:<span class =''blue''><<my.energy>>/<<$DisplayfineMAX>></span>'	
+if my.energy >= 300:'<p>Focus on energy: <span class =''green''><<my.energy>>/<<$DisplayfineMAX>></span>'
+
+if $Succubus_Contract=1:	
+    if $Succubus_Energy=0:'     <font color="#FF00FF">♈</font><font color="#FFCCCC">❤❤❤</font>'
+    if $Succubus_Energy=1:'     <font color="#FF00FF">♈❤</font><font color="#FFCCCC">❤❤</font>'
+    if $Succubus_Energy=2:'     <font color="#FF00FF">♈❤❤</font><font color="#FFCCCC">❤</font>'
+    if $Succubus_Energy=3:'     <font color="#FF00FF">♈❤❤❤</font><font color="#FFCCCC"></font>'
+end
+
+	if money>0:
+		'<p>$cash:<span class ="green"><<money>></span> '
+	else:
+		'<p>$cash:<span class ="red"><<money>></span> '
+	end
+		
+	if Cmoney>0:
+		' Company Balance:<span class ="green"><<Cmoney>></span></p>'
+	else:
+		' Company Balance:<span class ="red"><<Cmoney>></span></p>'
+	end
+
+'</div>'
+
+
+--- menu_status_show ---------------------------------
+

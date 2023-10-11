@@ -1,0 +1,29 @@
+# Shopping_mall_map
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="Department store" href="exec:minutes+=5 & gt ''Department_store''"><img class="img_stretch" src="images\place\百货商店.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="gym" href="exec:minutes+=5 & gt ''gym''"><img class="img_stretch" src="images\place\健身房.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="restaurant" href="exec:minutes+=5 & gt ''restaurant''"><img class="img_stretch" src="images\place\餐厅.jpg"></a>
+		</div>'
+		'<div class="action">
+			<a class="photo" data-title="4Sshop" href="exec:minutes+=5 & gt ''4Sshop''"><img class="img_stretch" src="images\place\4S店.jpg"></a>
+		</div>'
+
+		
+		
+		
+		'<div class="action">
+			<a class="photo" data-title="Shopping mall" href="exec:minutes+=5 & gt ''Shopping_mall''"><img class="img_stretch" src="images\place\商场.jpg"></a>
+		</div>'
+		
+		'<div class="action">
+			<a class="photo" data-title="Hair salon" href="exec:minutes+=5 & gt ''Hair_salon''"><img class="img_stretch" src="images\place\美发店.jpg"></a>
+		</div>'
+	'</div>'
+
+--- Shopping_mall_map ---------------------------------
+

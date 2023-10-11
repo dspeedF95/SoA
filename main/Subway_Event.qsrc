@@ -1,0 +1,74 @@
+# Subway_Event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=2
+minutes+=10
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs'Subway_Map'
+'</div>'
+
+if $ARGS[0]="Subway harassment0":
+!This is a judgment
+ Tram_random_number=rand(4,55) 
+ if $Tram_role='A': 
+	if tramA_Builtinnum>=Tram_random_number:gt 'Subway_Event','Subway harassment2'
+	if tramA_Builtinnum<=Tram_random_number:gt 'Subway_Event','Subway harassment1'
+ end
+ if $Tram_role='B': 
+	if tramB_Builtinnum>=Tram_random_number:gt 'Subway_Event','Subway harassment2'
+	if tramB_Builtinnum<=Tram_random_number:gt 'Subway_Event','Subway harassment1'
+ end
+ 
+end
+
+if $ARGS[0]="Subway harassment1":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\videos\underground\电车<<$Tram_role>>2-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+
+	'<div class="button_menu">'
+		if a!4:'<div class="buttonP"><a href="exec:a+=1 & my.ethics-=3 & gt ''Subway_Event'',''Subway harassment1''">It`s my turn</a></div>'
+		gs'Subway_Options'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>I:She seems to be the type who won`t resist……</p>'
+		if $Tram_role='A': tramA_Builtinnum+=1
+		if $Tram_role='B': tramB_Builtinnum+=1
+	'</div>'
+end
+
+if $ARGS[0]="Subway harassment2":
+		a=0
+		q=0
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\videos\underground\电车<<$Tram_role>>3-0.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+
+	'<div class="button_menu">'
+		 if $Tram_role='A': '<div class="buttonP"><a href="exec:gt ''Group_performation_event'',''Group_performance_Fuck_subwayA''">Take her away</a></div>'
+		 if $Tram_role='B': '<div class="buttonS"><a href="exec:gt ''Group_performation_event'',''Group_performance_Fuck_subwayB''">Go with her</a></div>'
+		gs'Subway_Options'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>I:It`s her……</p>'
+		'<p>Female student:It`s you……</p>'
+		'<p>·The moment you two looked at each other... as if you understood it.…</p>'
+	'</div>'
+end
+
+
+
+--- Subway_Event ---------------------------------
+

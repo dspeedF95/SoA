@@ -1,0 +1,102 @@
+# Multi_ability_judgment
+
+DatecountJun+=1
+
+if Thereisnotriggerdatecount=0:
+	$ongload ='ongload'
+	DatecountJun=0
+	Thereisnotriggerdatecount=1
+end
+
+if V44check=0:
+	if my.charm>=30:my.charm=9
+	!5+2+2+5+3=17
+	V44check=1
+end
+
+$figure[0]="vase" & $figure[1]="Weak can`t help the wind" & $figure[2]="Skinny monkey" & $figure[3]="Thin dog" & $figure[4]="Mao Rui" & $figure[5]="Fitness person"
+$figure[6]="strong" & $figure[7]="Burly" & $figure[8]="Mr. Bodybuilder" & $figure[9]="Bodybuilding star" & $figure[10]="Olympic champion" & $figure[11]="？？？" 
+$figure[12]="？？？" & $figure[13]="？？？" & $figure[14]="？？？" & $figure[15]="？？？" & $figure[16]="？？？" 
+needExp_figure=my.Physical_strength *my.Physical_strength +3
+
+if Exp_figure>= needExp_figure:
+	Exp_figure-= needExp_figure
+	my.Physical_strength+=1
+	  if my.Physical_strength>=15:
+		 my.Physical_strength=15
+		end
+end
+
+
+$intelligence[0]="Imbecile" & $intelligence[1]="idiot" & $intelligence[2]="Normal person" & $intelligence[3]="Be smart" & $intelligence[4]="Alert" & $intelligence[5]="Wisdom"
+$intelligence[6]="Little genius" & $intelligence[7]="genius" & $intelligence[8]="Just a little bit" & $intelligence[9]="See and know" & $intelligence[10]="Brilliant insight" & $intelligence[11]="？？？" 
+$intelligence[12]="？？？" & $intelligence[13]="？？？" & $intelligence[14]="？？？" & $intelligence[15]="？？？" & $intelligence[16]="？？？" 
+needExp_intelligence=my.intelligence *my.intelligence*my.intelligence +9*my.intelligence
+
+if Exp_intelligence>= needExp_intelligence:
+	Exp_intelligence-= needExp_intelligence
+	my.intelligence+=1
+	  if my.intelligence>=15:
+		 my.intelligence=15
+		end
+end
+
+$cooking[0]="Not mastered" & $cooking[1]="①Cooking novice" & $cooking[2]="② Instant noodles old bird" & $cooking[3]="3 Egg fried rice novice" & $cooking[4]="4E gg fried rice master" & $cooking[5]="⑤Four dishes and one soup"
+$cooking[6]="6 Kitchen master" & $cooking[7]="7 Master cook" & $cooking[8]="8 Executive Chef" & $cooking[9]="9 Premium chef" & $cooking[10]="Michelin Star" & $cooking[11]="Michelin Star" 
+$cooking[12]="Michelin Star" & $cooking[13]="Michelin Star" & $cooking[14]="Michelin Star" & $cooking[15]="Michelin Star" & $cooking[16]="Michelin Star" 
+
+needExp_cooking=my.cooking *my.cooking*my.cooking +9*my.cooking
+
+if Exp_cooking>= needExp_cooking:
+    Exp_cooking-= needExp_cooking
+    my.cooking+=1
+      if my.cooking>=15:
+         my.cooking=15
+        end
+end
+
+if Empirelevel>=1:
+	 exp=Empirelevel*12-10
+	 if xp>=exp:
+		xp-=exp
+		Empirelevel+=1
+	 end
+end
+
+if Porsche=1 and Porsche_Bonus=0:
+	my.charm+=2
+	Porsche_Bonus=1
+end
+
+if Duck_King_Medal=1 and Duck_King_Meda_Bonus=0:
+	my.charm+=2
+	Duck_King_Meda_Bonus=1
+end
+
+if Devils_Pupil=1 and Devils_Pupil_Bonus=0:
+	my.charm+=5
+	my.intelligence+=5
+	my.Physical_strength+=5
+	mymax[energy]+=299
+	$Returnfromadifferentworld="【Return from a Different world】"
+	Devils_Pupil_Bonus=1
+end
+
+if $Succubus_Energy>=3:$Succubus_Energy=3
+
+if my.charm>=25:
+	$Charismaticanomaly="【Those with abnormal charm】"
+end
+
+if mymax[energy]>9999:
+	$Abnormalenergy="【Those with abnormal energy】"
+end
+
+$DisplayfineMAX=mymax[energy]+1
+$Showcharm=my.charm+1
+
+
+!$Showthecharm=my.charm
+
+--- Multi_ability_judgment ---------------------------------
+

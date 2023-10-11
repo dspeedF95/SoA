@@ -1,0 +1,39 @@
+# Hot_Girl_Gang_Base
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+
+a=0
+q=0
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			if $HZ_Event_goods=1:'<a class="photo" data-title="Enter the Hot girl Gang" href="exec:minutes+=5 & gt ''Hot_girl_Gang''"><img class="img_stretch" src="images\place\辣妹帮一楼.jpg"></a>'
+			'<a class="photo" data-title="suburbs" href="exec:minutes+=5 & gt ''suburbs''"><img class="img_stretch" src="images\place\郊外_<<$times_of_day>>.jpg"></a>'
+		'</div>'
+	'</div>'
+'</div>'
+
+
+
+
+'<div class ="show_menu"><img src="images\place\辣妹帮基地.jpg" width="854"></div>'
+
+'<div class="button_menu">'
+	
+	if $HZ_Event_goods=1 and Pickupthegoodsdaily=0:'<div class="buttonP"><a href="exec:minutes+=15 & Pickupthegoodsdaily=1 & Freshingredients+=1 &gt ''Hot_Girl_Gang_Base''">Take the goods</a></div>'
+	'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+'</div>'
+
+'<div class="dialog_menu">'
+	'<p>·In a villa on the outskirts, the pink rabbits on the building seem to be familiar with each other.</p>'
+	if $HZ_Event_goods=1 and Pickupthegoodsdaily=0:'<p>·There is a large box of fresh food on the ground. The address is the university where my sister is in class. The consignee is<<$HZ.name>>。</p>'
+'</div>'
+
+--- Hot_Girl_Gang_Base ---------------------------------
+

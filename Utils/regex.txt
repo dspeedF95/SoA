@@ -1,0 +1,14 @@
+VS Code Regex patterns
+Find lines with unmatched apostrophes mid sentence
+.+(\w'\w{1,}) .+(/p>'|$)
+
+Find lines that are enclosed by short or long dashes and replace with double quotes
+('?)(-|–) (.+?) (-|–) (.+)
+$1"$3" $5
+
+Tested in Notepad++/Atom
+Find Russian characters
+[А-я]
+
+Fuzzy match button text
+(?<=>)(.*?)(?=<)

@@ -1,0 +1,55 @@
+# Home_bedroom
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+
+if $sales_Event_Buyacar=1 and $Salescall1=0:gt'Sales_event','phone1'
+if  3>=XMVideotape and XMVideotape>=2 and $XMNumberofdaysthevideohasnotbeenwatched>=14:gt'Killer_Event','phone1'
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="Go to the lobby" href="exec:minutes+=5 & gt ''home''"><img class="img_stretch" src="images\place\家.jpg"></a>
+		</div>
+		
+		<div class="action">
+			<a class="photo" data-title="computer" href="exec:minutes+=5 & gt ''Home_computer''"><img class="img_stretch" src="images\place\电脑.jpg"></a>
+		</div>'
+		
+		if TVset>=1:
+			'<div class="action">
+				<a class="photo" data-title="Plasma TV" href="exec:minutes+=5 & gt ''HOME_TV''"><img class="img_stretch" src="images\place\电视.jpg"></a>
+			</div>'
+		end
+		
+	'</div>'
+'</div>'
+
+
+
+'<div class="show_menu">'
+		'<img src="images\place\房间_<<$times_of_day>>.jpg" width="854">'
+'</div>'
+
+
+
+'<div class="button_menu">
+	<div class="button"><a href="exec:minutes+=60  & a=0 & q=0 & my.energy+=12 & gt ''Home_bedroom''">Take a Nap (1h)</a></div>
+	<div class="button"><a href="exec:minutes+=480  & gt ''sleep''">Sleep (8h)</a></div>'
+	if $Yuya_Mission=4:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Invite<<$SSYY.name>></a></div>'
+'</div>'
+
+
+
+'<div class="dialog_menu">'
+	'<p>My bedroom is stunning.</p>'
+'</div>'
+
+ 
+--- Home_bedroom ---------------------------------
+

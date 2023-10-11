@@ -1,0 +1,160 @@
+# NPCEvent_chain
+!<b><font color="#FF0000"> RED</font> </b>
+
+$Camera_warehouse=0
+$JM_Event_grandpa=0
+!0 1=Pick up  2=Buy a Light_bulb 3=Change it  4=People are here  5=End of rape 6=Bitter plan 7=end
+$JM_Event_new=0
+!1=discover
+$JM_Event_store=0
+!1=discover 2=Received 3=Disassemble the machine 4=Hand in the task
+$JM_Event_mgf=0
+$JM_Event_mgfs=0
+!Status and number of times
+$JM_Event_date=0
+$JM_Event_3p=0
+
+$MM_Event_idol=0
+!1=Pick up 2=angel 3=Sister becomesdol 4=Angel agrees with porn idol 5=Choose a sister
+mm_fans
+
+$HS_Event_trouble=0
+!1=Finished speaking 10=Sent away
+$SF_Event_gold=0
+!1=Know it`s gone 2=Buy it back 10=ok
+$XZ_Event_3t=0
+$XZ_Event_3tf=0
+!1=Take the task 3An introduction
+$Picket_mission=0
+!1=Vice Principal
+$XZ_Event_ghost=0
+!5= Need to complete the aid task
+$XZ_Event_ZL=0
+!1=Pick upZLtask
+$ZL_Event_face=0
+!Plastic surgery task 1=Pick up2=Do well
+$LJ_Event_Steal=0
+!1=Trigger front 2=Take the task from the principal 3=imprisonment 4=No more stealing
+ 
+ $XZ_Event_ghost.completed=0
+ !1=photographed 2=Successful blackmail
+ $FXZ_Event_counseling=0
+ !1=counseling 2=Complete the competition
+$FXZ_Event_daughter=0
+!1=Can see my daughter 2=My daughter accepts me for reference
+ $FXZ_Event_SW=0
+ 
+ $XY_Event_bag=0
+ !1=Take the task
+ 
+$SW_Event_fan=0
+!1=photographed !2=Contract√
+ $HZ_Event_coser=0
+! 1=Take the task to school 2=After the first shooting 4=After brushing the navy 5=imprisonment 6=Black history 8=Let it out (loveShould be>100）
+ 
+$LY_Event_Pre_entry=0
+!2=Successful entry
+$LY_Event_Gas_valve=0
+
+ $RION_interview=0
+ !1=1level 3=done
+ 
+ $JZ_Event_rape=0
+ !Kidnapping percentage
+ $JZ_Event_gun=0
+  !Percentage of murder license
+ $SS_Event_Gas_valve=0
+ 
+$YDM_Event_free=0
+!1=Take the task 10=done 11=Take the ransom
+$EDM_Event_friend=0
+!1=Become a best friend
+$YDM_Event_XZ=0
+!1=OK
+$NY_Event_imprisonment=0
+!2=end
+$school_Event_hope=0
+!2=Pre-completion
+
+$sales_Event_Buyacar=0
+!1=Pay the deposit 2=Touched her 4=Pay the balanceOK 5=After picking up the car
+$Front_desk_Event_throat=0
+!1=Understand the situation 2=Go ask the secretary 3=Secretary top shiftOK 4=Secretary in the top shift 5=Treatment is complete
+
+$QBContract_chain=0
+!1=See her crying  2=Take away the contract 3=Appointment and removal contract 4=Take her away 7=Live in a dormitory
+
+$Draft_event_chain=0
+!1=Talk to angels !2=Buy a guitar 3=Send the guitar 4=Hashimoto agreed 5=Start the competition
+
+$Yuya_Event_Chain=0
+!1=Can go to the corridor !2=The corridor is finished 3=The photo is finished  4=Thephoneisformatted 5=Discover and do with sister 6=Recognize the lord 7=Surrender
+
+$Champion_event_chain=0
+!1=After eavesdropping !2=Hot spring1After peeking 3=2After eavesdropping  4=Hot spring2After peeking  5=First meeting in a restaurant 6=Finished the second time 7=Propose to trade outside 8=After handing in the fake photo 9=go3Hot spring 10=Whole sister 11Found that my sister was fucked 12AvailableTIA 13=Training begins
+!14=After training 15=Sister Hua finished filming 16=Finale
+
+$Sister_Hua_Event_Chain=0
+!1=You can go to the restaurant 2=After listening to the restaurant, go to the city hall 3=After listening to the city hall, go to the lounge 4=The lounge is finished $5=The second conversation is over 6=Go to jail 7=Let it out 8=Let it out. The first conversation is over.
+$QBEvent_chain=0
+!1=escape  5=Found masturbation 6=Showdown jumping egg 7=3After training 8=Ranking rise
+$Angel_event_chain=0
+!1=Make an appointment for dinner 2=After dinner
+
+$Chain_of_lost_hometown_events=0
+!1=Make an appointment to Shenxiang 2=After dinner
+
+$Inspector_event_chain=0
+!2=Vertical painting open 3=Receiving the net 4=The network is completed 5=The torture is complete 6=Go to the big bird for a turn to support 7=event1end
+
+$Directorxuncle=0
+!1=Harassment is over 3=2The rainy night is over 4=Aunt finished reading
+$Directorxhome=0
+!1=Unlock home
+
+$Gun_hunting_incident_chain=0
+!1=Started looking !5=end
+
+$CHEvent_chain=0
+!1=Started !2=Start the motorcycle!3=Can work 4=You can go to the restaurant
+$ZXEvent_chain=0
+!1=After reading the photos in the toilet 2=approximately23Point Park 3=Toilet pass 4=Can go to the toilet2
+$Caesar_Event_Chain=0
+!1=Unlock the paradise room !2=But I met the former champion by chance 3=Can be referred after communication 4=After the introduction, the patience value 5=If the conditions are reached, you can have a facelift. 6=Plastic surgery completed
+
+$Boss_event_chain=0
+!1=Accept park survey 2=Understand who it is 3=Reply finished 4=Start planning 5=On fire 6=After reading it, it`s on fire
+
+$LEIVideo_event_chain=0
+!1=Accept the ring 2=Harvest videotape1  3=Watched the video1, Start taking pictures 4=Take the first time 5=Harvest video2 6=After watching the video2 7=Was photographed for the second time 8=After watching the video3 9=He expelled
+
+icamera=0
+Maotai=0
+Essential_oil=0
+
+Light_bulb=0
+camera=0
+Test_report=0
+
+$JJ.event_Entrust=0
+$JJ.event_shopping=0 
+!0 1accept 2Bought
+
+Jin_Kailuo=0
+plant=0
+MGF=0
+plant_num=0
+plant_Numberofstudies=0
+
+mm_fans=0
+
+$DZ.event_meet=0
+!0 1Meet in the restaurant 2Know 10=end
+$DZ.event_Restaurant_date=0
+
+$DZ.event_equipment=0
+
+$RION.available=0
+
+--- NPCEvent_chain ---------------------------------
+

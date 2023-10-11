@@ -1,0 +1,16 @@
+# Energy_judgment
+if my.energy<=0:
+	if medicine=1:gt"Daily_drug_test"
+	if jailday>0:gt"Prison_Compulsory_rest"
+	if $Attheidolshouse>0:my.energy = mymax[energy] & gt"Idol_Event",'Wake up'
+	if $ChoreographerLienZhan>0:my.energy = mymax[energy] & gt"Choreographing_event",'The next day'
+	if $Wakeupinthebigvilla>0:my.energy = mymax[energy] & gt"Big_villa",'Master bedroom rest'
+	gt"Compulsory_rest"
+end
+
+if my.energy >= mymax[energy]:
+	my.energy = mymax[energy]
+end
+
+--- Energy_judgment ---------------------------------
+

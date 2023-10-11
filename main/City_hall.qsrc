@@ -1,0 +1,226 @@
+# City_hall
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+minutes+=10
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			'<a class="photo" data-title="Mayor`s Office" href="exec:gt ''Mayor`s_Office''"><img class="img_stretch" src="images\place\市长办公室.jpg"></a>'
+		'</div>'
+
+		'<div class="action">'
+			'<a class="photo" data-title="Immigration Administration" href="exec:minutes+=5 & gt ''Immigration_Administration''"><img class="img_stretch" src="images\place\出入境管理局.jpg"></a>'
+		'</div>'
+
+		'<div class="action">'
+			if year>=2024:
+			'<a class="photo" data-title="Police station" href="exec:minutes+=5 & gt ''Police_station''"><img class="img_stretch" src="images\place\警察局小图.jpg"></a>'
+			else:
+			'<a class="photo" data-title="【The police station is under renovation·30Open in Tin Hau】"><img class="img_stretch" src="images\place\警察局小图.jpg"></a>'
+			end
+		'</div>'
+		'<div class="action">'
+			'<a class="photo" data-title="TV station" href="exec:gt ''TV_station''"><img class="img_stretch" src="images\place\电视台.jpg"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo" data-title="Underground transportation" href="exec:minutes+=15 & gt ''subway''"><img class="img_stretch" src="images\place\地铁.jpg"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo" data-title="Financial center" href="exec:gt ''bank''"><img class="img_stretch" src="images\place\银行大厅.jpg"></a>'
+		'</div>'
+	'</div>'
+'</div>'
+
+if $ARGS[0]="":
+	if $Front_desk_Event_throat=4:gt'City_hall','In the top class'
+	
+	if 20>hour and hour>=8 and $QT.job!2:
+	'<div class ="show_menu"><img src="images\NPC\QT\pics\市政厅前台.jpg" width="854"></div>'
+	else: 
+	'<div class ="show_menu"><img src="images\place\市政大厅.jpg" width="854"></div>'
+	end
+	
+	'<div class="button_menu">'
+		if 20>hour and hour>=8 and $QT.job!2:
+		'<div class="button"><a href="exec:gt ''City_hall'',''Front desk vertical painting''">dialogue</a></div>'
+		end
+		if $Sister_Hua_Event_Chain=2:'<div class="button"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Catwalk''">Secret meeting room</a></div>'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·Municipal office opening hours：8:00——21:00 Open all year round</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="Front desk vertical painting":
+		$QT.available=1
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QT\vids\接待0~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''City_hall'',''Front desk appointment''">date</a></div>'
+		if week_day >5 and $QT.date=1 and  hour <= 16:'<div class="buttonB3"><a href="exec:gt ''Foreground_Event'',''Go to the beach''">Go to the beach</a></div>'
+		if $Front_desk_Event_throat=1 or $Front_desk_Event_throat=2:'<div class="buttonR4"><a href="exec:gt ''City_hall'',''Vocal cord problems''">Vocal cord problems</a></div>'
+		if $Front_desk_Event_throat=3:'<div class="buttonR4"><a href="exec:gt ''City_hall'',''Top shift''">Top shift</a></div>'
+		if hour=19 and minutes>=30:'<div class="button"><a href="exec:gt ''Foreground_Event'',''Accompany her off work''">Accompany her off work</a></div>'else:'<div class="buttonGr"><a href="exec:">Wait for her to get off work</a></div>'
+		if $Front_desk_Event_throat=5:'<div class="buttonR4"><a href="exec:gt ''City_hall'',''Apply for an announcer''">Apply for an announcer</a></div>'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">It`s okay</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		if  $Front_desk_Event_throat=5:
+			'<p><<$QT.name>>:<<$Protagonist`s_name>>！Thank you!My vocal cords feel much better now!Recovering!</p>'
+			else:
+			'<p><<$QT.name>>:Ahem, who are you looking for?</p>'
+			end
+	'</div>'
+end
+
+if $ARGS[0]="Front desk appointment":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QT\vids\接待1~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">ok</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:Are you busy lately?I heard that there is a nice restaurant in the mall. Would you like to go together on weekends?</p>'
+		if $QT.LOVE<20:
+		'<p><<$QT.name>>:Ahem, sorry, I don`t have time.</p>'
+		else:
+		'<p><<$QT.name>>:Well, but... I want to go to the beach.</p>'
+		'<p>I:Then let`s go to the beach this weekend!I`m here to pick you up!</p>'
+		'<p><<$QT.name>>:Hey?！really?Great!</p>'
+		$QT.date=1
+		end
+	'</div>'
+end
+
+
+if $ARGS[0]="Vocal cord problems":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QT\vids\接待1~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">ok</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:Are you still coughing?</p>'
+		'<p><<$QT.name>>:Ahem, how are you...ahem.The doctor said it was a problem with nodules in the vocal cords.Although the effect of surgical treatment is obvious, it is generally possible to make a complete recovery.But I need an operation fee... and I don`t have a public holiday…</p>'
+		'<p>I:Just find someone to help you top the shift…</p>'
+		'<p><<$QT.name>>:Ahem... who are you looking for?The people who are watching this position want to kick me out of the top position.…</p>'
+				if $Front_desk_Event_throat=1:$Front_desk_Event_throat=2
+	'</div>'
+end
+
+
+if $ARGS[0]="Top shift":
+	'<div class ="show_menu"><img src="images\NPC\MS\pics\市政大厅顶班.jpg" width="854"></div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">Temporary top shift</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>I:This is the secretary of my company…</p>'
+		'<p><<$MS.name>>:Hello, the boss arranged for me to assist you in your work.</p>'
+		'<p><<$QT.name>>:Ahem…<<$Protagonist`s_name>>！...who do you think you are?Why make a decision for me?</p>'
+		'<p>I:...sorry...i…</p>'
+		'<p><<$MS.name>>:The boss is also for your own good. If you want to become an announcer, you must have a clear and smooth voice.I can assure you that I have no intention of watching your post.You can go for surgery with confidence.</p>'
+		'<p><<$QT.name>>:Ahem...Ahem...then...I`ll ask the leader for advice.…</p>'
+		'<p>·after that<<$QT.name>>Taught<<$MS.name>>Some basic work processes...the secretarial ability has risen!</p>'
+		if $Front_desk_Event_throat=3:$Front_desk_Event_throat=4
+		MS.power+=10
+	'</div>'
+end
+
+
+if $ARGS[0]="In the top class":
+	if 20>hour and hour>=8:
+	'<div class ="show_menu"><img src="images\NPC\MS\pics\市政大厅顶班.jpg" width="854"></div>'
+	else: 
+	'<div class ="show_menu"><img src="images\place\市政大厅.jpg" width="854"></div>'
+	end
+	'<div class="button_menu">'
+		if 20>hour and hour>=8:
+		'<div class="button"><a href="exec:gt ''City_hall'',''Standing painting of the top shift at the front desk''">dialogue</a></div>'
+		end
+		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p>·City hall opening hours：8:00——20:00 Open all year round</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="Standing painting of the top shift at the front desk":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\MS\vids\市政大厅顶班.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">It`s okay</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$MS.name>>:<<$Protagonist`s_surname>> boss，<<$QT.name>>Is the treatment going well?Don`t worry about me, the work here is very simple.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Apply for an announcer":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QT\vids\接待1~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">Pay attention to you</a></div>'
+		if $QT.job=1:'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall'',''Apply for an announcer2''">Audition opportunity</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$QT.name>>: Recently, I enrolled in a broadcast tutoring class. The teacher praised my speech speed and pronunciation, which are the best in the class.</p>'
+		'<p>I: That`s amazing!It seems that you are one step closer to your dream!</p>'
+		'<p><<$QT.name>>: Alas, but the TV station is full of turnips and pits, where will there be my place?……</p>'
+		'<p>I: Don`t worry, patience, waiting, and persistence are all qualities that must be possessed if you want to succeed.</p>'
+	'</div>'
+end
+
+
+if $ARGS[0]="Apply for an announcer2":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QT\vids\试音~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">leave</a></div>'
+	'</div>'
+	'<div class="dialog_menu">'
+		'<p><<$QT.name>>: Hello, listeners and friends, next is the hot topic of the week…</p>'
+		'<p>·Smooth and playful hosting style…</p>'
+		'<p><<$QT.name>>: ...The above is this week`s news express, let`s see you next time!</p>'
+		'<p><<$BD.name>>: Not bad, clear-mouthed and responsive.Director, what do you think?</p>'
+		'<p><<$TZ.name>>: Very well, it was decided that it was her.You can take her to the personnel department to go through the entry procedures.</p>'
+		'<p><<$BD.name>>:  Ok.</p>'
+		$QT.job=2
+		$QT.name='Aizawa Minami (Broadcasting Director)'
+	'</div>'
+end
+
+
+
+
+--- City_hall ---------------------------------
+

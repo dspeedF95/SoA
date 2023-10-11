@@ -1,0 +1,9 @@
+# items_eb
+$item['энергетик'] -=1
+$gg['energy'] += 200
+if $gg['energy']>1000: $gg['energy']=1000
+
+gt 'menu_items'
+
+--- items_eb ---------------------------------
+

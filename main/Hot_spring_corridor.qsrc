@@ -1,0 +1,344 @@
+# Hot_spring_corridor
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+minutes+=15
+a=0
+q=0
+Hotspringcomfort-=1
+Randomnumber=rand(0,100)
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		!'<div class="action">'
+		!	'<a class="photo" data-title="Go back to the room to rest" href="exec:minutes+=15 & gt ''Hot_spring'',''suite''"><img class="img_stretch" src="images\place\温泉双人房.jpg"></a>'
+		!'</div>'
+		'<div class="action">'
+			'<a class="photo" data-title="Hot spring corridor" href="exec:minutes+=15 & gt ''Hot_spring_corridor''"><img class="img_stretch" src="images\NPC\WQ\pics\温泉走廊.jpg"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo" data-title="Outdoor hot spring" href="exec:minutes+=15 & gt ''Hot_spring_corridor'',''Outdoor hot spring''"><img class="img_stretch" src="images\NPC\WQ\pics\室外温泉.jpg"></a>'
+		'</div>'
+		'<div class="action">'
+			'<a class="photo" data-title="<<$WQ.name>>room" href="exec:minutes+=15 & gt ''Hot_spring_event'',''Fang Liyi''"><img class="img_stretch" src="images\NPC\WQ\pics\主屋_<<$times_of_day>>.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			if HotspringOilPressureHall=0:
+				if $WQ.shareholder=0:
+					'<a class="photo" data-title="No equity" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+				else:
+					if money>=250000 :'<a class="photo" data-title="Hydraulic hall￥250k" href="exec:money-=250000 & HotspringOilPressureHall=1 & gt ''Hot_spring_corridor''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Hydraulic hall￥250k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+				end
+				
+			end
+			if HotspringOilPressureHall=1:'<a class="photo" data-title="HotspringOilPressureHall" href="exec:minutes+=30 & gt ''Hot_spring_corridor'',''HotspringOilPressureHall''"><img class="img_stretch" src="images\NPC\WQ\pics\按摩.jpg"></a>'
+		'</div>'
+		
+		
+
+		
+		'<div class="action">'
+			if Randomnumber>=80 and $WQ.LG=1:'<a class="photo" data-title="room101(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_corridor'',''101room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			if Randomnumber<80 or $WQ.LG=0:'<a class="photo" data-title="room101(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			if 60<=Randomnumber and Randomnumber<80 and $WQ.Photodestruction=1:
+				'<a class="photo" data-title="room102(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_event'',''102room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			else:
+				'<a class="photo" data-title="room102(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+			end
+		'</div>'
+		
+		'<div class="action">'
+			if 70<=Randomnumber and Randomnumber<90 and Hotspringcomfort>=50:
+				'<a class="photo" data-title="room103(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_event'',''103room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			else:
+				'<a class="photo" data-title="room103(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+			end
+		'</div>'
+		
+		'<div class="action">'
+			if 50<=Randomnumber and Randomnumber<80 and Hotspringcomfort>=59:
+				'<a class="photo" data-title="room104(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_event'',''104room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			else:
+				'<a class="photo" data-title="room104(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+			end
+		'</div>'
+		
+	 if $WQ.shareholder!0:
+		'<div class="action">'
+			if WQroom201=0:
+			if money>=10000 :'<a class="photo" data-title="Extended room￥10k" href="exec:money-=10000 & WQroom201=1 & gt ''Hot_spring_corridor''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Extended room￥10k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+			else:
+		
+			if 50<=Randomnumber and Randomnumber<80 and Hotspringcomfort>=69 :
+				'<a class="photo" data-title="room201(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_event'',''201room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			else:
+				'<a class="photo" data-title="room201(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+			end
+			end
+		'</div>'
+		
+		'<div class="action">'
+			if WQroom202=0:
+			if money>=20000 :'<a class="photo" data-title="Extended room￥20k" href="exec:money-=20000 & WQroom202=1 & gt ''Hot_spring_corridor''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Extended room￥20k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+			else:
+			if 50<=Randomnumber and Randomnumber<80 and Hotspringcomfort>=79:
+				'<a class="photo" data-title="room202(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_event'',''202room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			else:
+				'<a class="photo" data-title="room202(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+			end
+			end
+		'</div>'
+		'<div class="action">'
+			if WQroom203=0:
+			if money>=30000 :'<a class="photo" data-title="Extended room￥30k" href="exec:money-=30000 & WQroom203=1 & gt ''Hot_spring_corridor''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Extended room￥30k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+			else:
+			if 50<=Randomnumber and Randomnumber<80 and Hotspringcomfort>=89:
+				'<a class="photo" data-title="room203(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_event'',''203room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			else:
+				'<a class="photo" data-title="room203(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+			end
+			end
+		'</div>'
+		
+		'<div class="action">'
+			if WQroom204=0:
+			if money>=40000 :'<a class="photo" data-title="Extended room￥40k" href="exec:money-=40000 & WQroom204=1 & gt ''Hot_spring_corridor''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Extended room￥40k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+			else:
+			if 50<=Randomnumber and Randomnumber<80 and Hotspringcomfort>=99:
+				'<a class="photo" data-title="room204(Someone)" href="exec:minutes+=15 & gt ''Hot_spring_event'',''204room''"><img class="img_stretch" src="images\NPC\WQ\pics\房门_<<$times_of_day>>.jpg"></a>'
+			else:
+				'<a class="photo" data-title="room204(No one)" ><img class="img_stretch" src="images\NPC\WQ\pics\房门.jpg"></a>'
+			end
+			end
+		'</div>'
+	 end
+		
+	'</div>'
+'</div>'
+
+if $args[0]="":
+	'<div class ="show_menu"><img src="images\NPC\WQ\pics\温泉走廊.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Hot_spring_corridor'',''Hot spring front desk''">Hot spring front desk</a></div>'
+		'<div class="buttonGn"><a href="exec:minutes+=60 & my.energy+=30 & gt ''Hot_spring'',''suite''">Go back to the room to rest</a></div>'
+		if $WQEvent_chain>=5 and Hotspringcomfort<=100:'<div class="buttonGn"><a href="exec:minutes+=60 & my.energy-=99 & Hotspringcomfort+=11 & gt ''Hot_spring_corridor''">Cleaning</a></div>'
+		
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·With a corridor with underfloor heating, everyone wants to do something after taking a bath…</p>'
+		'<p>——————————</p>'
+		'<p>·Hotspringcomfort：<<Hotspringcomfort>>/100（MAX）</p>'
+	'</div>'
+
+end
+
+if $args[0]="Hot spring front desk":
+	
+	if $XY.Hotspringfrontdesk!1:
+	'<div class ="show_menu"><img src="images\NPC\WQ\pics\前台.jpg" width="854"></div>'
+	else:
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WQ\vids\XWBZC0-<<rand(0,1)>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+	end
+	'<div class="button_menu">'
+		if $XY.Hotspringfrontdesk!1:'<div class="buttonGr"><a href="exec:minutes+=60 & gt ''Hot_spring_corridor'',''Hot spring front desk''">Who should be recruited?</a></div>'else:'<div class="buttonS"><a href="exec:minutes+=60 & gt ''Hot_spring_corridor'',''Hot spring front desk2''">Press the switch</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>I: ………</p>'
+	'</div>'
+
+end
+
+if $args[0]="Hot spring front desk2":
+
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WQ\vids\XWBZC0-2.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonS"><a href="exec:minutes+=60 &  gt ''Hot_spring_event'',''Hot spring_Fuck_WQCollar''">Go where no one is</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$XY.name>>: Turn it off quickly!I knew it!You must not be at ease!</p>'
+		'<p>I: Hehe</p>'
+	'</div>'
+
+end
+
+
+if $args[0]="Outdoor hot spring":
+	if Randomnumber>=50 and $WQ.manpower202=1:
+		$DSJ_NUM=rand(1,7)
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WQ\vids\DSJ-<<$DSJ_NUM>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+	else:
+		if Randomnumber<=25:
+		    '<div class="show_menu">'
+				'<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WQ\vids\混浴1-<<rand(0,5)>>~1.webm" type=''video/webm;''></video></div>'
+        '</div>'
+		else:
+			'<div class ="show_menu"><img src="images\NPC\WQ\pics\室外温泉.jpg" width="854"></div>'
+		end
+	end
+	
+	'<div class="button_menu">'
+		if $DSJ_NUM>=5:'<div class="buttonB2"><a href="exec:minutes+=60 & gt ''Hot_spring_event'',''Clean the room''">Clean the room</a></div>'
+		if Randomnumber>=80 and $LJ.BAD>=300 and HotspringOilPressureHall=1:'<div class="buttonB3"><a href="exec:minutes+=60 & gt ''Hot_spring_event'',''Indoor sound3''">Familiar voice</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Outdoor hot spring or mixed bath…</p>'
+		
+	'</div>'
+
+end
+
+
+
+if $args[0]="101room":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WQ\vids\t_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=60 & my.energy+=30 & gt ''Hot_spring'',''suite''">Go back to the room to rest</a></div>'
+		if $times_of_day!'':'<div class="button"><a href="exec:minutes+=60 & gt ''Hot_spring_corridor'',''The other side''">Go around to the other side</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if $times_of_day='':
+		'<p>Guest (101Room): My wife will be back soon, it`s almost there.</p>'
+		'<p><<$WQ.name>>: Your time is getting shorter and shorter…</p>'
+		else:
+		'<p>Guest (101Room): wife!wife!wife!wife!</p>'
+		'<p>Female guest (101Room):What`s the matter, husband?Why are you so motivated?</p>'
+		end
+		'<p>I: ………</p>'
+		
+	'</div>'
+
+end
+
+if $args[0]="The other side":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WQ\vids\偷窥后入~1.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=60 & my.energy+=30 & gt ''Hot_spring'',''suite''">Go back to the room to rest</a></div>'
+		if $WQ.photo!1:'<div class="button"><a href="exec:minutes+=60 & gt ''Hot_spring_corridor'',''The other side2''">Take it down</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>Guest (101Room): wife!wife!wife!wife!I love you so much!</p>'
+		'<p><<$WQ.name>>: Oh oh<<$Panting>></p>'
+		'<p>I: ………</p>'
+	'</div>'
+
+end
+
+if $args[0]="The other side2":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WQ\vids\偷窥正常激烈~1.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=60 & my.energy+=30 & gt ''Hot_spring'',''suite''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$WQ.name>>: orgasm<<$words>></p>'
+		'<p>I: *Kacha——</p>'
+		$WQ.photo=1
+	'</div>'
+
+end
+
+
+if $args[0]="HotspringOilPressureHall":
+	'<div class ="show_menu"><img src="images\NPC\WQ\pics\按摩.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if $WQEvent_chain>=5:'<div class="buttonS"><a href="exec:minutes+=60 &  gt ''Hot_spring_event'',''WQ_Fuck_WSPA''"><<$WQ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:"><<$WQ.name>></a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><HotspringOilPressureHall>·Hotspringcomfort：<<Hotspringcomfort>>/100（MAX）</p>'
+		if Randomnumber>=20 and Hotspringcomfort>=40:
+			'<p>①【In service】-Value appearance<a href="exec:$wqspa=1 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>①【Empty bed】-Waiting for guests</a></p>'
+		end
+		if Randomnumber>=30 and Hotspringcomfort>=50:
+			'<p>②【In service】-Like blond hair<a href="exec:$wqspa=2 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>②【Empty bed】-Waiting for guests</a></p>'
+		end
+		if Randomnumber>=40  and Hotspringcomfort>=60:
+			'<p>③【In service】-Like a wife<a href="exec:$wqspa=3 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>③【Empty bed】-Waiting for guests</a></p>'
+		end
+		if Randomnumber>=50  and Hotspringcomfort>=70:
+			'<p>④【In service】-Like mature<a href="exec:$wqspa=4 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>④【Empty bed】-Waiting for guests</a></p>'
+		end
+		if Randomnumber>=60  and Hotspringcomfort>=80:
+			'<p>⑤【In service】-Like big tits<a href="exec:$wqspa=5 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>⑤【Empty bed】-Waiting for guests</a></p>'
+		end
+		if Randomnumber>=70  and Hotspringcomfort>=90:
+			'<p>⑥【In service】-Value service<a href="exec:$wqspa=6 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>⑥【Empty bed】-Waiting for guests</a></p>'
+		end
+		if $WQ_HP=1  :
+			'<p>㊛【In service】-Like Taimei<a href="exec:$wqspa=7 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>㊛【There are guests】-Like Taimei-No one to serve</a></p>'
+		end
+		if $WQ_LJ=1  :
+			'<p>㊛【In service】-Like poor breasts<a href="exec:$wqspa=8 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>㊛【There are guests】-Like poor breasts-no one to serve</a></p>'
+		end
+		if $WQ_MMS=1  :
+			'<p>㊛【In service】-Like to try early adopters<a href="exec:$wqspa=9 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>㊛【There are guests】-Like to try early adopters-no one to serve</a></p>'
+		end
+		if LSXHotspring=1 :
+			'<p>㊛【In service】-Like Yanmar<a href="exec:$wqspa=10 & gt ''Group_performation_event'',''Universal_Fuck_Hot springSPA''">-Supervision work</a></p>'
+		else:
+			'<p>㊛【There are guests】-Like Yanmar-No one to serve</a></p>'
+		end
+	'</div>'
+
+end
+
+
+--- Hot_spring_corridor ---------------------------------
+

@@ -1,0 +1,302 @@
+# Home_residentiary_Institute
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			'<a class="photo" data-title="Go to the bedroom" href="exec:minutes+=5 & gt ''Home_bedroom''"><img class="img_stretch" src="images\place\房间_<<$times_of_day>>.jpg"></a>
+		</div>'
+
+		'<div class="action">'
+			'<a class="photo" data-title="Test_Item" href="exec:minutes+=5 & gt ''Test_Item''"><img class="img_stretch" src="images\place\房间_<<$times_of_day>>.jpg"></a>
+		</div>
+
+	</div>'
+'</div>'
+
+
+
+
+'<div class ="show_menu">'
+	if ceshi=0:
+		'<img src="images\place\研究所.jpg" width="854"></div>'
+	elseif ceshi=1:
+		'<img src="images\place\研究所_1.jpg" width="854"></div>'
+	elseif ceshi=2:
+		'<img src="images\place\研究所_2.jpg" width="854"></div>'
+	elseif ceshi=3:
+		'<img src="images\place\研究所_3.jpg" width="854"></div>'
+	else:
+		'<img src="images\place\研究所_4.jpg" width="854"></div>'
+	end
+'</div>'
+
+
+
+'<div class="button_menu">'
+	if ceshi<=3:
+		'<div class="button"><a href="exec:ceshi+=1 & gt ''Home_residentiary_Institute''">Next one</a></div>'
+	elseif ceshi=4:
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Home_bedroom'',''There was an explosion after leaving''">leave</a></div>'
+	end
+'</div>'
+
+gs "Big test"
+
+!'<div class="dialog_menu">'
+!	'<p>The hall is clean and tidy</p>'
+!	'<p>..[bigmoney]<<$bigmoney>>.<<$answer>>..</p>'
+!'</div>'
+
+--- Home_residentiary_Institute ---------------------------------
+
+# Home_sister`s_room
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+	a=0
+	q=0
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs'Home_map'
+'</div>'
+
+if $ARGS[0] ="":
+	'<div class ="show_menu"><img src="images\place\姐姐房间.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister`s_room''">Kill time</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>....</p>'
+	'</div>'
+end
+
+if $ARGS[0] ="Sister_sleep":
+	a=0
+	q=0
+	'<div class ="show_menu"><img src="images\NPC\JJ\pics\姐姐睡觉.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if my.ethics<0:
+		'<div class="button"><a href="exec:gt ''Sister_event'',''Night attack''">Night attack</a></div>'
+		end
+		
+		
+		
+		'<div class="button"><a href="exec:gt ''home''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>Sleeping....What should I be able to do if I`m evil enough....</p>'
+	'</div>'
+end
+
+
+
+if $ARGS[0] ="Sister`s weekend room":
+	a=0
+	q=0
+	'<div class ="show_menu"><img src="images\NPC\JJ\pics\姐姐房间.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:$chat=''JJ''& $Wheretogoout = ''home'' & addlove=0 &addbad=0 & gt ''Universal_chat''">interaction</a></div>'
+		if  $jj.bad>=50 and plant_Numberofstudies>=15:'<div class="buttonGn"><a href="exec:  gt ''Sister_event'',''JJ_Fuck_At home''">Release pressure</a></div>'else:'<div class="buttonGr"><a href="exec:">release?？</a></div>'
+		if $JJ.event_shopping!3:
+		'<div class="button"><a href="exec:minutes+=60 & $JJ.event_shopping=1 & gt ''home''">Daily tasks</a></div>'
+		end
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>After washing up, she was about to go to the office. She only went to the office an hour later than usual on weekends. It seemed that scientific research work was very important to her.</p>'
+		if $JJ.event_shopping!3:
+		'<p>————————————————Daily tasks———————</p>'
+		'<p><<$jj.name>>:brother!Can you help me go to the mall to buy urea1.1Kg, general calcium3.17kg, potassium sulfate3.17kg, magnesium sulfate0.45Kilograms?</p>'
+		'<p><<$jj.name>>:By the way, don`t tell anyone about this.After buying it, secretly go to my office and give it to me.</p>'
+		'<p>————————————————Daily tasks———————</p>'
+		end
+	'</div>'
+end
+
+if $ARGS[0] ="Sister`s room at night":
+	$Random_number=rand(1,100)
+	 if  $jj.bad>=50 and $Random_number<=15:gt'Sister_event','JJ_Fuck_senior'
+	'<div class ="show_menu"><img src="images\NPC\JJ\pics\姐姐房间.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+	  if  $jj.bad>=50 and plant_Numberofstudies>=15:'<div class="buttonS"><a href="exec:  gt ''Sister_event'',''JJ_Fuck_At home''">Release pressure</a></div>'else:'<div class="buttonGr"><a href="exec:">release?？</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''home''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$jj.name>>Reading "Scientific Research" in the bedroom, it seems that work is very important to her.</p>'
+	'</div>'
+end
+
+ 
+--- Home_sister`s_room ---------------------------------
+
+# Home_sister2`s_room
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0
+q=0
+
+suiji=rand(0,2)
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs'Home_map'
+'</div>'
+
+if $args[0]="":
+	'<div class ="show_menu"><img src="images\place\妹妹房间.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2`s_room''">Kill time</a></div>'
+	if $Yuya_Mission=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">appointment<<$SSYY.name>></a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+	'<p>Empty....</p>'
+	'</div>'
+End
+
+if $args[0]="Room conversation":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\MM\vids\辅导开幕<<suiji>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	 '<div class="button"><a href="exec:$chat=''MM''& $Wheretogoout = ''home'' & addlove=0 &addbad=0 & gt ''Universal_chat''">Interact</a></div>'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2`s_room'',''Tutoring homework''">Help with homework</a></div>'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2`s_room'',''Become an idol''">Wish: To become an idol</a></div>'
+	if hour >=22 and hour<23 and $MM.love>=150 and $MM.bad>=150 and  $jj.love>=150 and $jj.bad>=150:
+	'<div class="buttonS"><a href="exec:minutes+=30 & gt ''Sister2_event'',''MM_Fuck_sister''">Sister counseling</a></div>'
+	end
+	if $mm.love>=320-$mm.bad:
+	'<div class="buttonS4"><a href="exec:minutes+=30 &  gt ''Sister2_event'',''MM_Fuck_hall''">Just fuck her!</a></div>'
+	if TSMM=1:'<div class="buttonS5"><a href="exec:minutes+=30 &  gt ''Angel_event'',''TS_Fuck_TSM1''">*Shake* <<$TS.NAME>>!</a></div>'
+	end
+	
+	if MM.confession=0 and Bishopschoice=1:'<div class="buttonG1"><a href="exec:MM.confession=1 & $m=''MM'' & $ma=$MM.name & gt ''Nun_event'',''XN_Fuck_confession''">Invitation to church for baptism</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+	'<p>Me: What time is it, why don`t you sleep yet?....？</p>'
+	'<p><<$mm.name>>: Are you an old man?Go to bed so early.Do you understand the work and rest of young people?</p>'
+	'</div>'
+End
+
+if $args[0]="sleep":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\MM\vids\睡觉~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	if my.ethics<-10 and $mm.love>=-$mm.bad+220:
+	'<div class="button"><a href="exec:minutes+=30 & a=5 &gt ''Sister2_event'',''MM_Fuck_Night attack''">Break in</a></div>'
+	end 
+	'<div class="button"><a href="exec:minutes+=5 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+	'<p>·It`s normal to masturbate at this age...I still don`t bother her...?</p>'
+	'</div>'
+End
+
+if $args[0]="Tutoring homework":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\MM\vids\辅导开幕<<suiji>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+	'<p><<$mm.name>>: This question..Oh...Neither can you?....</p>'
+	'<p><<$mm.name>>: There is still this question...emmmmmmWhere are your eyes looking?！...</p>'
+	'<p>Tutored homework for a while....Although it didn`t teach anything, the favorability has risen!</p>'
+	'</div>'
+	$MM.love+=RAND(1,my.charm)
+End
+
+if $args[0]="Become an idol":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\MM\vids\辅导开幕3~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	if $MM_Event_idol>=2:
+	'<div class="button"><a href="exec:minutes+=5 & gt ''Home_sister2`s_room'',''Good news''">Good news</a></div>'
+	end
+	'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+	'<p><<$mm.name>>: Because of the new policy, the number of male students enrolled has plummeted.I suddenly thought of a trick-to become an idol!As long as I become an idol, the reputation of the school will increase, and the number of students enrolled will also rise!</p>'
+	'<p>Me: Wow!...</p>'
+	'<p><<$mm.name>>: My sister`s wish is my brother`s wish!You have to help me too!</p>'
+	'<p>Me: What are your strengths?(This is notloveliveThe plot?）</p>'
+	'<p><<$mm.name>>: Act according to intuition and on a whim, and once you decide, you will bury your head and rush.In the face of difficulties, you can break through one by one with your natural super optimistic spirit.!</p>'
+	'<p>Me: Uh....Ok....Then I`ll help you find out where to recruit idol trainees....</p>'
+	'</div>'
+	if $MM_Event_idol=0:
+		$MM_Event_idol=1
+		end
+End
+
+if $args[0]="Good news":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\MM\vids\辅导开幕3~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+	'<p><<$mm.name>>: What?really?I was [Empire Entertainment]<<$ts.name>>Directly recruited?！</p>'
+	'<p>Me: Yes, although only as a trainee..</p>'
+	'<p><<$mm.name>>：<<$ts.name>>But my idol!Her appearance on the screen is completely angelic.!</p>'
+	'<p>Me: Then you have to follow her example and try to become an idol like her.</p>'
+	'<p><<$mm.name>>: Good!After school is over and on weekends, I will go to the dance room to practice!</p>'
+	'</div>'
+	if $MM_Event_idol=2:
+		$MM_Event_idol=3
+		end
+End
+
+ 
+--- Home_sister2`s_room ---------------------------------
+

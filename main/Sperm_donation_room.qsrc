@@ -1,0 +1,94 @@
+# Sperm_donation_room
+ cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">
+			<a class="photo" data-title="Private hospital" href="exec:minutes+=5 & gt ''hospital''"><img class="img_stretch" src="images\place\医院小图.jpg"></a>
+		</div>'
+	'</div>'
+'</div>'
+
+if $args[0]="":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SS\vids\医院~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="buttonPu1"><a href="exec:minutes+=5 & $Killerdialogue=1 & gt ''Sperm_donation_room''">Why are you here?</a></div>'
+		'<div class="buttonPu2"><a href="exec:minutes+=5 & gt ''Killer_Event'',''SS_Fuck_Sperm donation''">Free sperm donation</a></div>'
+		if hour>=20:'<div class="buttonPu3"><a href="exec:minutes+=5 & gt ''Killer_Event'',''SS_Event_Hospital judgment''">Pick you up home</a></div>'
+		if hour>=21:'<div class="buttonPu4"><a href="exec:minutes+=5 &  gt ''Sperm_donation_room'',''Eavesdropping''">Eavesdropping on conversations</a></div>'
+		if XMVideotape=1:'<div class="buttonPu5"><a href="exec:gt ''Killer_Event'',''Please follow''">Please follow<<$XM.name>></a></div>'
+		if $Champion_event_chain=12:'<div class="buttonR"><a href="exec:gt ''Killer_Event'',''lessonGJ''">lesson<<$GJ.name>></a></div>'
+		if Inseminationroomopen=1 and $SS.bad>=200 and $SS.Insemination=0:'<div class="buttonG1"><a href="exec:$SS.Insemination=1 & gt ''company''">Invite artificial insemination</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''hospital''">It`s okay</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>nurse: Go back and have a good rest，<<$SS.name>>The doctor is really amazing!Even patients with impotence can be cured!Next one!</p>'
+		if hour>=20:'<p><<$SS.name>>: Oh?<<$Protagonist`s_name>>husband!Are you here to pick me up home?</p>'
+		if hour>=20:'<p>nurse: <<$SS.name>>doctor!Then I`ll get off work first!</p>'
+		if $Killerdialogue=1:
+		'<p><<$SS.name>>: I have a doctorate in neuroscience, and I am really talented as a doctor in the sperm donation room in this third-rate hospital with cosmetic plastic surgery as its primary project.</p>'
+		'<p>I: Really or not.</p>'
+        '<p><<$SS.name>>: Don`t expose my identity!Otherwise..(Made a throat-cutting action)</p>'
+		end
+	'</div>'
+End
+
+if $args[0]="Eavesdropping":
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SS\vids\医院外~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Sperm_donation_room'',''Voyeur experiment''">Voyeur experiment</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''hospital''">return</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>·An inconspicuous location outside</p>'
+		'<p><<$SS.name>>: Yes, I have been in contact with the target person, please indicate.In addition, the hospital`s independent password has been deciphered, which is the dean`s measurements.：935888</p>'
+        '<p>？？？: Is it actually the dean`s measurements?....935888...It`s really unexpected!</p>'
+		'<p>I: ………</p>'
+		if  $SS_Event_free>=4:'<p><<$SS.name>>: I have successfully sneaked into the experimental group of the Jingyuan project and waited for the next instructions.</p><p>？？？: Don`t move for the time being!</p>'
+	'</div>'
+End
+
+if $args[0]="Voyeur experiment":
+	$PeepingSSexperiment=0
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SS\vids\实验~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+	
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & $PeepingSSexperiment=1 & gt ''Killer_Event'',''SS_Event_hospital3''">Watch it</a></div>'
+		if medicine=1:'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_drug_test''">return</a></div>'
+		if medicine!1:'<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>Jingyuan Project Director: Are all indicators still normal?Increase the dose and see!Didn`t you hear me?Increase the dose!</p>'
+		'<p><<$SS.name>>: <<$Panting>></p>'
+	'</div>'
+End
+
+
+
+
+--- Sperm_donation_room ---------------------------------
+

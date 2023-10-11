@@ -1,0 +1,551 @@
+# Big_villa
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+a=0 & q=0
+gs'menu_gif'
+minutes+=15
+Largevillavilla=rand(0,100)
+
+if $Yuya_Event_Chain=6:$Yuya_Event_Chain=7
+if Bigvillaforthefirsttime=0: gt 'Angel_event','Big villa.'
+
+if Numberoffanscorrection=0:
+	QB_fans=2733 & $QB.Multifaceted=5
+	SSYY_fans=4193 & $SSYY.Multifaceted=10
+	SF_fans=723 & $SF.Multifaceted=3
+	TS_fans=4563 & $TS.Multifaceted=20
+	Numberoffanscorrection=1
+end
+
+if  SuccubusCD>=27: gt'Succubus_event','Succubus_Fuck_daily'
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			if area11=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area11=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="Secret office"  href="exec: Secretofficedialogue=0 & gt ''Big_villa'',''Secret office''"><img class="img_stretch" src="images\place\大别墅\大别墅.jpg"></a>'
+			end
+			
+			'<a class="photo" data-title="Main hall" href="exec: gt ''Big_villa''"><img class="img_stretch" src="images\place\大别墅\大别墅.jpg"></a>'
+			if Porsche=1:
+				'<a class="photo" data-title="Driving"href="exec:minutes+=5 & gt ''Driving''"><img class="img_stretch" src="images\place\车.jpg"></a>'
+			else:
+				'<a class="photo" data-title="Residential area" href="exec:minutes+=5 & gt ''Residential_area''"><img class="img_stretch" src="images\place\居民区_<<$times_of_day>>.jpg"></a>'
+			end
+		'</div>'
+		
+		'<div class="action">'
+			'<a class="photo" data-title="Master bedroom" href="exec: gt ''Big_villa'',''Master bedroom''"><img class="img_stretch" src="images\place\大别墅\主卧.jpg"></a>'
+			'<a class="photo" data-title="corridor" href="exec: gt ''Big_villa'',''corridor''"><img class="img_stretch" src="images\place\大别墅\走廊.jpg"></a>'
+			
+			if area32=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area32=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="basement" href="exec: gt ''Big_villa'',''basement''"><img class="img_stretch" src="images\place\大别墅\地下室.jpg"></a>'
+			end
+		'</div>'
+		
+		'<div class="action">'
+			if area13=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area13=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="Private massage room"  href="exec:gt ''Big_villa'',''Private massage room''"><img class="img_stretch" src="images\place\大别墅\私人按摩室.jpg"></a>'
+			end
+			if area23=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area23=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="Fun infirmary"  href="exec:gt ''Big_villa'',''Fun infirmary''"><img class="img_stretch" src="images\place\大别墅\情趣医务室.jpg"></a>'
+			end
+			if area33=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area33=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="Training room"  href="exec:gt ''Big_villa'',''Training room''"><img class="img_stretch" src="images\place\大别墅\调教室.jpg"></a>'
+			end
+		'</div>'
+		
+		'<div class="action">'
+			if area14=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area14=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="A brick wall" ><img class="img_stretch" src="images\place\大别墅\金墙.jpg"></a>'
+			end
+			
+			if area24=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area24=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="Fun classroom"  href="exec:gt ''Big_villa'',''Fun classroom''"><img class="img_stretch" src="images\place\大别墅\情趣教室.jpg"></a>'
+			end
+			
+			if area34=0:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area34=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else:
+				'<a class="photo" data-title="？？？"  href="exec:gt ''Big_villa'',''Summoning ceremony''"><img class="img_stretch" src="images\place\大别墅\召唤仪式.jpg"></a>'
+			end
+		'</div>'
+		
+	'</div>'
+'</div>'
+
+if $args[0] ='':
+	if YuyaCD>=30 and Largevillavilla>=75:gt 'Yuya_Event','SSYY_Fuck_Physiology'
+	!PLAY 'mp3/surf.mp3'
+	'<div class ="show_menu"><img src="images\place\大别墅\大别墅.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if Sister_Hua_Maid=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Judges_Event'',''Maid application''">Doorbell</a></div>'
+		if Sister_Hua_Maid>=2 and Bluetooth_maid=0 and Largevillavilla<20:'<div class="buttonB3"><a href="exec:minutes+=5 & gt ''Anchor_event'',''LY_Event_maid''">Doorbell</a></div>'
+		if Sister_Hua_Maid>=2 and hour=12:'<div class="buttonS"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Maid''">maid: Lunch time</a></div>'
+		if Bluetooth_maid>=1 and 8<=hour and hour<=12 and Largevillavilla<30:'<div class="buttonB2"><a href="exec:a=1 & q=1 & gt ''Anchor_event'',''LY_Event_maid''">maid: Indoor cleaning</a></div>'
+		if Largevillavilla>=80 and $times_of_day='':'<div class="buttonG<<rand(1,5)>>"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Visitordoorbell<<rand(-2,10)>>''">Visitor doorbell</a></div>'
+		if CHWQbefore>=100 and hour=18:'<div class="buttonG"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Visitordoorbell9''">Fierce doorbell</a></div>'
+		if day=30 and  hour=19:'<div class="buttonG"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Water meter''">Fierce doorbell</a></div>'
+		if Bluetooth_maid>=3 and TSMM=1 and $TS.Multifaceted>=40:'<div class="buttonS"><a href="exec:gt ''Angel_event'',''TS_Fuck_Big group''">Empire Entertainment (Xinhui</a></div>'else:'<div class="buttonGr"><a href="exec:">Hold a new meeting</a></div>'
+		if 25<=Largevillavilla and Largevillavilla<=30 and $times_of_day='':'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Group_performance_Fuck_Three women4P2''">Laughter and laughter</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>传闻The rumored villa of the former mayor…</p>'
+		'<p>①Take care of the diet and personal life of the artists.</p>'
+		'<p>②Enhance the multi-faceted abilities of artists and cultivate their cooperative sexual behavior with each other.</p>'
+		'<p>③The Great Empire GroupBOSSSpecifically, before she returned home，<B><span class =''red''>Never destroy the walls.</p>'
+		if $Clown_letter=0 and $TS.room=1:'<p>Someone stuffed a letter in the crack of the door<a href="exec:$Clown_letter=1 & gt''Big_villa'',''Open the letter''">-Open it</a></p>'
+		if $Clown_letter=1 and Largevillavilla<=5:'<p>Someone stuffed another letter in the crack of the door<a href="exec:$Clown_letter=1 & gt''Big_villa'',''Open the letter''">-Open it</a></p>'
+		if $Orientationparty=1 and $CT.available=0:'<p><B><span class =''red''>It`s the big of the Empire Group BOSS Will be back within three days, please go to the airport to prepare for the pick-up.</p>'
+	'</div>'
+end
+
+if $args[0] ='Master bedroom':
+	if 14>=hour and hour>=8 and angelCD>20:gt 'Angel_event','TS_Fuck_TSM2'
+	if hour=7 and Largevillavilla<=15:gt 'Hashimoto_Event','QB_Fuck_Get up early'
+	if hour=7 and Largevillavilla>=90:gt 'Yuya_Event','SSYY_Fuck_Early attack'
+	if hour=7 and Sister_Hua_Maid>=2:gt'Judges_Event','PW_Fuck_Maid early'
+	if HashimotoCD>=30 and Largevillavilla<=50:gt 'Hashimoto_Event','Room attack'
+	if hour>22 and XunguoCD>=20:gt 'Young_woman_event','SF_Fuck_Night attack'
+	if hour=21 and (Bluetooth_maid=1 or Bluetooth_maid=2)and Largevillavilla<=50:gt 'Anchor_event','LY_Event_Housing commission'
+	
+	'<div class ="show_menu"><img src="images\place\大别墅\主卧.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=45  & my.energy+=20 & gt ''Big_villa'',''Master bedroom''">Take a break 1h</a></div>'
+		'<div class="button"><a href="exec:minutes+=465  & gt ''Big_villa'',''Master bedroom rest''">Adequate sleep 8h</a></div>'
+		if Sister_Hua_Maid>=2 and hour>=22:'<div class="buttonS"><a href="exec: gt ''Judges_Event'',''PW_Fuck_Maid night''">Maid: Sleep Aid service</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·It deserves to be the former mayor`s house... with a view of the entire city.</p>'
+		if $Wakeupinthebigvilla=0:'<p>Where I woke up after I was exhausted: [home] <a href="exec:$Wakeupinthebigvilla=1 & gt ''Big_villa'',''Master bedroom''">switch</a></p>'else:'<p>Where I woke up after I was exhausted: [here] <a href="exec:$Wakeupinthebigvilla=0 & gt ''Big_villa'',''Master bedroom''">switch</a></p>'
+	'</div>'
+end
+
+if $args[0] ='corridor':
+	'<div class ="show_menu"><img src="images\place\大别墅\走廊.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonS3"><a href="exec:gt ''Big_villa'',''Three upper rooms''"><<$SSYY.name>>room</a></div>'
+		if Sister_Hua_Maid>=2:'<div class="buttonS2"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Villa room''"><<$PW.name>>room</a></div>'else:'<div class="buttonGr"><a href="exec:">Empty room</a></div>'
+		'<div class="buttonS1"><a href="exec:gt ''Big_villa'',''Hashimoto Room''"><<$QB.name>>room</a></div>'
+		'<div class="buttonS2"><a href="exec:gt ''Big_villa'',''Xunguo Room''"><<$SF.name>>room</a></div>'
+		if $TS.ROOM=1:'<div class="buttonS3"><a href="exec:gt ''Big_villa'',''Angel Room''"><<$TS.name>>room</a></div>'else:'<div class="buttonGr"><a href="exec:">Empty room</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·There are a lot of empty rooms in the villa. In the future, I can find more artists to live in.…</p>'
+	'</div>'
+end
+
+if $args[0] ='basement':
+	'<div class ="show_menu"><img src="images\place\大别墅\地下室.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if Bigvillaforthefirsttime=1:'<div class="button"><a href="exec:Bigvillaforthefirsttime=2 & Sledgehammer+=1 & gt ''Big_villa'',''basement''">Pick up the hammer</a></div>'
+		if $times_of_day='':'<div class="buttonP"><a href="exec:$m=''SF'' & $ma=$SF.name &  gt ''Young_woman_event'',''SF_Fuck_basement''">Name<<$SF.name>></a></div>'
+		'<div class="buttonPu2"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_basement''">Name<<$SSYY.name>></a></div>'
+        '<div class="buttonPu3"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_basement''">Name<<$QB.name>></a></div>'
+        if Largevillavilla<=50 and $TS.room=1:'<div class="buttonPu4"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_basement''">Name<<$TS.name>></a></div>'
+       
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Basement... I like the decoration style very much!</p>'
+		if Bigvillaforthefirsttime=1:'<p>·For some reason, a hammer was hidden under the sofa, and there was an invoice from a department store at the end of the handle.</p>'
+	'</div>'
+end
+
+if $args[0] ='Secret office':
+	'<div class ="show_menu"><img src="images\place\大别墅\秘密办公室.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if Sister_Hua_Maid=0:'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Big_villa'',''Recruitment of maids''">❤Recruitment of maids❤</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=1 & gt ''Big_villa'',''Secret office''">① Lease agreement</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=2 & gt ''Big_villa'',''Secret office''">②public mail</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=3 & gt ''Big_villa'',''Secret office''">Damaged accessories</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=4 & gt ''Big_villa'',''Secret office''">快递Courier receipt</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=5 & gt ''Big_villa'',''Secret office''">⑤Search record</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=6 & gt ''Big_villa'',''Secret office''">⑥Personnel changes 【Unread】</a></div>'
+		if OMoney>0:'<div class="buttonG"><a href="exec:minutes+=5 & Secretofficedialogue=7 & gt ''Big_villa'',''Secret office''">经纪人Broker commission</a></div>'else:'<div class="buttonGr"><a href="exec:">经纪人Broker commission</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if Secretofficedialogue=0:'<p>·It seems that this is the secret office area of the former mayor…</p>'
+		if Secretofficedialogue=1:
+			'<p><Contract: Lease agreement></p>'
+			'<p>·The Municipal Government Department of this city has confirmed that it will provide Party B with 【MountainsR&MArea] As the right to use the land for commercial development, the lease term is15year.Party B shall be solely responsible for the maintenance and maintenance of all facilities and equipment of the landmark during the lease period.Party B shall pay Party A before signing this agreement【1000The deposit of 10,000 yuan], the deposit will be returned to Party B after the expiration of the lease.</p>'
+			'<p>·Start date：2015year1month1day</p>'
+		end
+		if Secretofficedialogue=2:
+			'<p><Private mail></p>'
+			'<p>·Dear Lord Mayor, how have you slept recently?I found that [Mugou Pharmaceutical] has serious violations, and they are planning to mine the mountains in violation of the law.R&MHowever, if you still want to continue to “rest easy”, please follow the instructions on the attachment and remember to destroy it afterwards.</p>'
+			'<p>·Mail date：2019year4month1day</p>'
+			'<p>·————·</p>'
+			'<p><reply></p>'
+			'<p>·Thank you, Lord Mayor, for your help. The political contributions owed to you have been offered to you.In the future, our government and enterprises will continue to cooperate to achieve prosperity and win-win situation!</p>'
+			'<p>·Mail date：2019year4month2day</p>'
+		end
+		if Secretofficedialogue=3:
+			'<p>▌▋▋▨▧▦▎</p>'
+			'<p>▌▋▋▨▧▦▎▌▋▋▨▧▦▎▌▋▋▨▧▦▎▌▋▋▨▧▦▎</p>'
+			'<p>▌▋▋▨▧▦▎▌▋▋▨▧▦▎▋▋▨▧▦▌</p>'
+		end
+		if Secretofficedialogue=4:
+			'<p><Courier receipt></p>'
+			'<p>Item description: Weight of medical drug items：10 gram</p>'
+			'<p>Date of receipt：2019year3month1day</p>'
+			'<p>Item description: Weight of building materials：50 kilogram</p>'
+			'<p>Date of receipt：2019year4month2day</p>'
+			'<p>Item description: Weight of medical drug items：20 gram</p>'
+			'<p>Date of receipt：2019year9month9day</p>'
+			'<p>Item description: Weight of medical drug items：50 gram</p>'
+			'<p>Date of receipt：2019year12month20day</p>'
+		end
+		if Secretofficedialogue=5:
+			'<p><Search history></p>'
+			'<p>Search content: recruitment of secretaries, recruitment of maids, recruitment of chefs</p>'
+			'<p>Search date：2019year2month19day</p>'
+			'<p>Search content: Insomnia, headache, auditory hallucinations, delusions?</p>'
+			'<p>Search date：2019year2month25day</p>'
+			'<p>Search content: illegal mining, ecological destruction, penalties and regulations</p>'
+			'<p>Search date：2019year4month1day</p>'
+			'<p>Search content: Atheism, demons, hallucinations, hazards of drug abuse</p>'
+			'<p>Search date：2019year12month20day</p>'
+		end
+		if Secretofficedialogue=6:
+			'<p><To: All City Hall administrative staff></p>'
+			'<p>·Unfortunately, our mayor passed away yesterday.</p>'
+			'<p>·Here, on behalf of the municipal government, I would like to express my condolences for his death!</p>'
+			'<p>·The mayor`s dedication to civic service and his great contribution to the development of the city will never be forgotten.In order to ensure the stable operation of the city and ensure the services of citizens, the municipal government has appointed the next mayor.</p>'
+			'<p>·Please believe that the new mayor will serve the citizens with the highest efficiency and sincerity, and strive to promote the development of the city.We hope that the public can provide strong support for the appointment of the new mayor.</p>'
+			'<p>·Thank you!</p>'
+			'<p>Date of receipt：2019year12month21day</p>'
+		end
+		if Secretofficedialogue=7:
+		 	TXM=MS.power*100/(100+MS.power)
+			'<p><Business remuneration of artists under his command></p>'
+			'<p>·total：<<OMoney>>￥</p>'
+			'<p>·————————————</p>'
+			'<p>☺Based on the ability of the secretary【<<MS.power>>】 Can legally avoid taxes and transfer<<TXM>>%To personal account.</p>'
+			'<p>▌<a href="exec:money+=OMoney*TXM/100  & OMoney=0 & gt ''Big_villa'',''Secret office''">【Withdrawal】</a></p>'
+		end
+		
+		
+	'</div>'
+end
+
+if $args[0] ='Private massage room':
+	'<div class ="show_menu"><img src="images\place\大别墅\私人按摩室.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if Largevillavilla>=75:'<div class="buttonP"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$SSYY.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 45<=Largevillavilla and Largevillavilla<=80:'<div class="buttonP"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$QB.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 20<=Largevillavilla and Largevillavilla<=55:'<div class="buttonP"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$SF.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonP"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$TS.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+		'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Private massage room, it`s finally my turn to enjoy…</p>'
+	'</div>'
+end
+
+if $args[0] ='Fun infirmary':
+	'<div class ="show_menu"><img src="images\place\大别墅\情趣医务室.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if Largevillavilla>=75:'<div class="buttonGn"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$SSYY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">She is not free</a></div>'
+        if 50<=Largevillavilla and Largevillavilla<=75:'<div class="buttonGn"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$QB.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 25<=Largevillavilla and Largevillavilla<=50:'<div class="buttonGn"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$SF.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonGn"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$TS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+
+		'<div class="buttonGn"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·In the infirmary, it`s strange why there is such a place.…</p>'
+	'</div>'
+end
+
+if $args[0] ='Fun classroom':
+	'<div class ="show_menu"><img src="images\place\大别墅\情趣教室.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if Largevillavilla>=70:'<div class="buttonS2"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$SSYY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">She is busy</a></div>'
+        if 50<=Largevillavilla and Largevillavilla<=80:'<div class="buttonS2"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$QB.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 25<=Largevillavilla and Largevillavilla<=50:'<div class="buttonS2"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$SF.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonS2"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$TS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Fun classroom, it seems that the former mayor “took classes” here.…</p>'
+	'</div>'
+end
+
+if $args[0] ='Training room':
+	'<div class ="show_menu"><img src="images\place\大别墅\调教室.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonR4"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·In the training room, I didn`t expect the former mayor to have this kind of hobby.…</p>'
+		if $SSYY.Restraint=1:'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SSYY.name>>】</a></p>'else:'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+        if $QB.Restraint=1:'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$QB.name>>】</a></p>'else:'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+        if $SF.Restraint=1:'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SF.name>>】</a></p>'else:'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+        if $TS.room=1:
+			if $TS.Restraint=1:'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$TS.name>>】</a></p>'else:'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+		end
+	'</div>'
+end
+
+if $args[0] ='Summoning ceremony':
+	'<div class ="show_menu"><img src="images\place\大别墅\召唤仪式.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		if year>=2024 and DatecountJun>=20:'<div class="buttonS"><a href="exec:gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">？？？</a></div>'
+		if $MMS.available=1:'<div class="buttonS"><a href="exec:Succubus_Dialogue=0 & gt ''Big_villa'',''Succubus vertical painting''">Summon her</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·Some kind of summoning ceremony, you will feel dizzy after watching it for a long time…</p>'
+	'</div>'
+end
+
+if $args[0] ='Recruitment of maids':
+	'<div class ="show_menu"><img src="images\place\电脑.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:Sister_Hua_Maid=1 & gt ''Big_villa'',''Secret office''">Post recruitment information</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·We are looking for a passionate, responsible, organized and housework-capable maid.This maid will be responsible for the operation and maintenance of the daily affairs of the family. We hope that this maid has the following skills and qualities：</p>'
+		'<p>·Proficient in housework, including laundry, cooking, cleaning, etc.</p>'
+		'<p>·Able to provide efficient, professional and thoughtful private services</p>'
+		'<p>·Have good communication and interpersonal skills, and can maintain good relations with villa members and visitors</p>'
+		'<p>·If you are interested in this position, please submit your resume and cover letter.The salary is paid by Empire Entertainment, and we look forward to your joining!</p>'
+	'</div>'
+end
+
+if $args[0] ='Open the letter':
+	'<div class ="show_menu"><img src="images\NPC\TS\pics\照片.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Big_villa''">。。。</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+	'</div>'
+end
+
+if $args[0] ='Master bedroom rest':
+	my.energy = mymax[energy]
+	'<div class ="show_menu"><img src="images\place\睡觉.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: gt ''Big_villa'',''Master bedroom''">Wake up</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·I entered a sweet dreamland.....</p>'
+	'</div>'
+end
+
+if $args[0] ='Three upper rooms':
+	 YuyaCD=0
+	 if hour<=4:gt'Yuya_Event','SSYY_Fuck_sleep'
+	 if hour=7:gt'Yuya_Event','SSYY_Fuck_Brushyourteeth'
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\SSYY\vids\房间_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		if $times_of_day='':
+			'<div class="buttonS1"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Eatinthevilla''">Eat sausage </a></div>'
+			'<div class="buttonS2"><a href="exec:gt ''Yuya_Event'',''Selection of jobs''">Selection of jobs</a></div>'
+			if Essential_oil>0:'<div class="buttonS3"><a href="exec:Essential_oil-=1 & gt ''Yuya_Event'',''SSYY_Fuck_Villa massage''">Essential oil massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of essential oils</a></div>'
+			if $QB.bad+$SSYY.bad>=my.charm*50:'<div class="buttonS4"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Double''">find<<$QB.name>>❤</a></div>'
+			if SSYYcos=0 and tuc_level3=1:'<div class="buttonS5"><a href="exec: SSYYcos=1 & gt ''company''">invitecosshooting</a></div>'
+		else:
+			if $SSYY.love>=my.charm*20:'<div class="buttonPu1"><a href="exec:minutes+=120 & gt ''Yuya_Event'',''SSYY_Fuck_Late_attack''">Exercise before going to bed</a></div>'else:'<div class="buttonPu1"><a href="exec:">Lack of favorability</a></div>'
+			'<div class="buttonPu2"><a href="exec:minutes+=120 & gt ''Yuya_Event'',''SSYY_Fuck_sleep''">Wait for her to fall asleep</a></div>'
+		end
+		
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Big_villa''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$SSYY.name>>: The current working environment is much easier than before, and the treatment is better. It is indeed the right decision!</p>'
+	'</div>'
+end
+
+if $args[0] ='Hashimoto Room':
+	 HashimotoCD=0
+	 if hour=7:
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QB\vids\早房间0.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	 else:
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\QB\vids\房间_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	end
+	
+	'<div class="button_menu">'
+		if $times_of_day='':
+			'<div class="buttonGn"><a href="exec:gt ''Hashimoto_Event'',''Selection of jobs''">Wait for her to make up</a></div>'
+			'<div class="buttonS1"><a href="exec:minutes+=120 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Let`s start first</a></div>'
+			if $QB.bad+$SSYY.bad>=my.charm*50:'<div class="buttonS4"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Double''">find<<$SSYY.name>>❤</a></div>'
+		else:
+			'<div class="buttonPu1"><a href="exec:minutes+=120 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Have a shot</a></div>'
+		end
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Big_villa''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$QB.name>>: I actually won the championship!In retrospect, it feels like a dream.(#^_^#)</p>'
+	'</div>'
+end
+
+if $args[0] ='Xunguo Room':
+	 $XunguoRoomnum=rand(0,1)
+	 XunguoCD=0
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\SF\vids\房间_<<$times_of_day>><<$XunguoRoomnum>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	
+	'<div class="button_menu">'
+		if $times_of_day='':
+			'<div class="buttonG"><a href="exec:gt ''Young_woman_event'',''Work shooting''">Work shooting</a></div>'
+			'<div class="buttonR"><a href="exec:minutes+=120 & gt ''Young_woman_event'',''SF_Fuck_Uninvited guest''">Uninvited guest</a></div>'
+		else:
+			'<div class="buttonPu1"><a href="exec:minutes+=120 & a=1 & gt ''Young_woman_event'',''SF_Fuck_Have a shot''">❤Fuck her❤</a></div>'
+		end
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Big_villa''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$SF.name>>: I used to fantasize about marrying a rich man, but now I`m starting to fantasize about marrying someone who understands me.…</p>'
+	'</div>'
+end
+
+if $args[0] ='Angel Room':
+	  	 angelCD=0
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\TS\vids\房间_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		if $times_of_day='':
+			'<div class="buttonS1"><a href="exec:gt ''Angel_event'',''TS_Fuck_white''">Have a shot </a></div>'
+			'<div class="buttonS2"><a href="exec:gt ''Angel_event'',''Selection of jobs''">Preparation</a></div>'
+			if TSMM=1:'<div class="buttonS3"><a href="exec:gt ''Angel_event'',''TS_Fuck_TSM2''">and<<$MM.name>>training</a></div>'else:'<div class="buttonGr"><a href="exec:">and<<$MM.name>>training</a></div>'
+		else:
+			'<div class="buttonPu4"><a href="exec:$Universallocation=''晚1'' & fxnum=8 & 
+            $Generalselection1=''Serve me'' & $Generalselection2=''Interrupt'' & $Generalselection3=''Play with her'' & $Generalselection4=''Thrusting in front of the window'' &
+            $Generalselection5=''Train lunch'' & $Generalselection6=''About to launch'' & $Generalselection7=''Ejaculation'' & $Generalselection8=''Lick clean'' &
+            $Generalselection9=''Back position'' & $Generalselection10=''Accelerate thrusting'' & $Generalselection11=''Bukkake'' & $Generalselection12=''Lick clean'' &
+            $Pandialogue1=''After drinking before going to bed, you still need a high-quality sex to help you sleep!'' & $Pandialogue2=''Don`t be fainted by me.''& $Pandialogue3=''Come on, then fuck me out, you`re amazing❤''&
+            $Pandialogue4=''So cool ❤ You are awesome, dear❤''& $Pandialogue5=''You too ❤''&
+            $Panleave=''Big_villa'' & gt ''Angel_event'',''TS_Fuck_Universal''">Have a drink</a></div>'
+		end
+		
+		if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Use McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+		
+		
+		
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Big_villa''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p><<$TS.name>>: Finally, I can unload the burden of this position and concentrate on developing my acting career!</p>'
+		'<p>I: Congratulations!</p>'
+	'</div>'
+end
+
+if $args[0] ='Succubus vertical painting':
+	 if day=7 or  day=17 or  day=27:gt'Succubus_event','Succubus_Fuck_Estrus'
+	 
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\MMS\vids\对话<<rand(0,2)>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		if Succubus_Dialogue!1:'<div class="buttonR3"><a href="exec:Succubus_Dialogue=1 & gt ''Big_villa'',''Succubus vertical painting''">Contract content</a></div>'
+		if Succubus_Dialogue=1 and $Succubus_Contract!1:'<div class="buttonR5"><a href="exec:Succubus_Dialogue=2 & gt ''Big_villa'',''Succubus vertical painting''">Sign a contract</a></div>'
+		if $Succubus_Contract=1:'<div class="buttonR5"><a href="exec:gt ''Succubus_event'',''Offer a tribute''">Offer a tribute</a></div>'
+		if $MMS.bad>=5 and MGF>0:'<div class="buttonS"><a href="exec:gt ''Succubus_event'',''Succubus_Fuck_MGF''">Try McGovern</a></div>'
+		if $MMS.love>=200 and $Succubus_custom=0:'<div class="buttonP"><a href="exec:Succubus_Dialogue=3 & gt ''Big_villa'',''Succubus vertical painting''">Go out to play</a></div>'
+		if Succubus_Dialogue=3:'<div class="buttonP"><a href="exec:gt ''Succubus_event'',''Set off now''">Set off now</a></div>'
+		'<div class="button"><a href="exec:gt ''Big_villa''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		if Succubus_Dialogue=0:
+			'<p><<$MMS.name>>: I am a dream-making demon!With collecting lustful energy as his karma, he is good at manipulating the strongest hypnotic magic!</p>'
+			'<p>I: uh…</p>'
+			'<p><<$MMS.name>>: Are you scared by my momentum?Ahahaha!The holy lust gradually extinguished, and the king disappeared.People who are surrounded by the flame of desire, make a supreme contract with me.!  </p>'
+		 end
+		if Succubus_Dialogue=1:
+			'<p>I: What is the content of the contract?  </p>'
+			'<p><<$MMS.name>>: As long as I keep collecting human semen, I can break the boundary between me and the three dimensions and become a member of mankind like them.But...humans are too cunning!I was afraid of being tricked into doing human experiments again... that`s why I kept hiding here to recover...until you touched the magic array. </p>'
+			'<p>I: I am not interested in unilateral slave contracts.</p>'
+			'<p><<$MMS.name>>: Like Lord Devil, whenever you offer a tribute [man], I will give you a certain ability to temporarily use my strongest hypnotic magic!</p>'
+		 end
+		if Succubus_Dialogue=2:
+			'<p><<$MMS.name>>: You accept my contract in the midst of this fire. Tonight, bloody roses bloom, demons and beasts wail, Luoshen Wushuang sighs, I am also right and evil, and hundreds of ghosts walk at night, wreaking havoc on the boundless. You should offer endless sacrifices and never die!</p>'
+			'<p>·You glanced at time, and suddenly a breathtaking fishy smell pierced into your consciousness, as if you had established some kind of connection with her in the dark.</p>'
+			$Succubus_Contract=1
+		 end
+		if Succubus_Dialogue=3:
+			'<p>I: Isn`t it boring to stay in the room all the time?Is there any place you want to go?  </p>'
+			'<p><<$MMS.name>>: Let me think about it!I want to go to a nightclub!I have a hunch that that place... is full of sexual energy❤</p>'
+			'<p>I: Then I will accompany you.  </p>'
+			'<p><<$MMS.name>>: Then let`s go now❤</p>'
+		 end
+		 
+	'</div>'
+end
+
+
+
+--- Big_villa ---------------------------------
+

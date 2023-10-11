@@ -1,0 +1,117 @@
+# UniversalNPCmenu
+cls
+gs'menu_time_calc'
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs'menu_act_hidden'
+    if $args[0]='<<$YS.name>>':'<a href="exec:gt ''Character_strategy'',''<<$YS.name>>'',''<<$YS.love>>'',''<<$YS.bad>>''"><div class="option_gonglue"data-title="Character strategy"></div></a>'
+	if $args[0]='<<$CT.name>>':'<a href="exec:gt ''Character_strategy'',''<<$CT.name>>'',''<<$CT.love>>'',''<<$CT.bad>>''"><div class="option_gonglue"data-title="Character strategy"></div></a>'
+    if $args[0]='<<$YY.name>>':'<a href="exec:gt ''Character_strategy'',''<<$YY.name>>'',''<<$YY.love>>'',''<<$YY.bad>>''"><div class="option_gonglue"data-title="Character strategy"></div></a>'
+    if $args[0]='<<$QJ.name>>':'<a href="exec:gt ''Character_strategy'',''<<$QJ.name>>'',''<<$QJ.love>>'',''<<$QJ.bad>>''"><div class="option_gonglue"data-title="Character strategy"></div></a>'
+	if $args[0]='<<$XN.name>>':'<a href="exec:gt ''Character_strategy'',''<<$XN.name>>'',''<<$XN.love>>'',''<<$XN.bad>>'',''44''"><div class="option_gonglue"data-title="Character strategy"></div></a>'
+    if $args[0]='<<$LEI.name>>':'<a href="exec:gt ''Character_strategy'',''<<$LEI.name>>'',''<<$LEI.love>>'',''<<$LEI.bad>>'',''44''"><div class="option_gonglue"data-title="Character strategy"></div></a>'
+'</div>'
+
+
+
+
+
+!#--------------------------------------------------------------------------------------------------
+'<div class="charac_nps_info">'
+
+	 '<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
+		
+	 '<div id="left-column2">'
+		'<p><span class="bold"><font color="#FF8888">✎name:<<$args[0]>></font></p>'
+		'<span class="bold"><font color="#FF3939">♕ Favorability:<<$args[1]>>		'
+
+		if $args[1] <0:'Disgust'
+		if $args[1]=0 :'neutral'
+		if 0<$args[1] and $args[1]<15 :'I have a slight impression'
+		if 15<=$args[1] and $args[1]<30 :'❤Kind of like it'
+		if 30<=$args[1] and $args[1]<50 :'❤My heart beats faster every day'
+		if 50<=$args[1] and $args[1]<75 :'❤❤I like it so much'
+		if 75<=$args[1] and $args[1]<100 :'❤❤დLove brain'
+		if 100<=$args[1] and $args[1]<200 :'❤❤❤Loved one'
+		if 200<=$args[1] and $args[1]<300 :'❤❤❤My love is like a tide'
+		if 300<=$args[1] and $args[1]<400 :'❤❤❤❤Infatuated'
+		if 400<=$args[1] and $args[1]<500 :'❤❤❤❤The city has completely fallen'
+		if 500<=$args[1] and $args[1]<600 :'❤❤❤❤❤Dedication℠'
+		if 600<=$args[1] and $args[1]<700 :'❤❤❤❤❤Dedicate yourself to love ❤❤'
+		if 700<=$args[1] and $args[1]<800 :'❤❤❤❤❤Dedicate yourself to love ❤❤❤'
+		if 800<=$args[1] and $args[1]<900 :'❤❤❤❤❤Dedicate yourself to love ❤❤❤❤'
+		if 900<=$args[1] and $args[1]<1000 :'❤❤❤❤❤Dedicate yourself to love ❤❤❤❤❤'
+		if 1000<=$args[1] and $args[1]<2000 :'❤❤❤❤❤Dedicate yourself to love ❤❤❤❤❤❤'
+		if 2000<=$args[1] :
+			 if $args[1]='confidentiality' :' '
+			 if $args[1]!'confidentiality' :'❤❤❤❤❤ Until death渝渝'		
+		end
+		
+		'</font></span></p>'
+			
+		 
+		'<span class="bold"><font color="#FF00D2">Degree of depravity:<<$args[2]>>		'	
+
+		if $args[2] <0:'integrity'
+		if $args[2] =0:'neutral'
+		if 0<$args[2] and $args[2]<15 :'I masturbate occasionally'
+		if 15<$args[2] and $args[2]<30 :'I masturbate often'
+		if 30<=$args[2] and $args[2]<50 :'My libido is high'
+		if 50<=$args[2] and $args[2]<75 :'I am dissatisfied with my desire'
+		if 75<=$args[2] and $args[2]<100 :'ⒷⒾ◌ Sex hunger and thirst'
+		if 100<=$args[2] and $args[2]<200 :'痴痴痴 crazy girl'
+		if 200<=$args[2] and $args[2]<300 :'性爱性爱性爱性爱Sex addiction'
+		if 300<=$args[2] and $args[2]<400 :'淫淫淫淫 promiscuous bitch'
+		if 400<=$args[2] and $args[2]<500 :'性欲性欲性欲性欲性欲Libido slave'
+		if 500<=$args[2] and $args[2]<600 :'私人私人私人私人私人Private bitch私人'
+		if 600<=$args[2] and $args[2]<700 :'专属专属专属专属Exclusive bitch专属专属'
+		if 700<=$args[2] and $args[2]<800 :'专属专属专属专属专属Exclusive bitch专属专属专属'
+		if 800<=$args[2] and $args[2]<900 :'专属专属专属专属专属Exclusive bitch专属专属专属专属'
+		if 900<=$args[2] and $args[2]<1000 :'专属专属专属专属专属Exclusive bitch专属专属专属专属专属'
+		if 1000<=$args[2] and $args[2]<2000 :'专属专属专属专属专属Exclusive bitch专属专属专属专属专属专属'
+		if 2000<=$args[2]  :
+			if $args[2]='confidentiality' :' '
+			if $args[2]!'confidentiality' :'奴奴奴奴奴Slave under the crotch奴奴'
+		end
+		
+		'</font></span></p>'
+		
+	    if $args[4]!0:
+		'<span class="bold"><font color="#ff7300">❀Number of fans:<<$args[4]>>k		'	
+		'</font></span></p>'
+		end
+		
+	    if $args[5]!0:
+		'<span class="bold"><font color="#FF3939">* Multi_faceted_ability:<<$args[5]>>		'	
+		'</font></span></p>'
+		end
+		
+	    if $args[6]!0:
+		'<span class="bold"><font color="#ff7300">Average score of each subject:<<$args[6]>>points	'	
+		'</font></span></p>'
+		end
+		
+	    if $args[7]=1:
+		'<span class="bold"><font color="#008000">Goku is very healthy		'	
+		'</font></span></p>'
+		end
+		
+	    if $args[7]=2:
+		'<span class="bold"><font color="#FF3939">㊡Pregnant-exemption from exams	'	
+		'</font></span></p>'
+		end
+		
+	 '<div class ="charac_quest_txt1">'
+		'<p>※<<$args[3]>></p>'
+	 
+	 '</div>'
+	 '</div>'
+'</div>'
+'<div class="options_back"><a href="exec:gt''menu_charac_nps''"><div class="settings_back_menu"></div></a></div>'
+
+
+--- UniversalNPCmenu ---------------------------------
+

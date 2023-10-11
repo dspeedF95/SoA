@@ -1,0 +1,151 @@
+# coserAppointmenthall
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+
+a=0
+q=0
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs'Company_map'
+'</div>'
+
+
+ if tuc<10:$tuc_name="Few people know"
+ if 10<=tuc and tuc<25:$tuc_name="Little famous"
+ if 25<=tuc and tuc<50:$tuc_name="Fame"
+ if 50<=tuc and tuc<75:$tuc_name="Famous"
+ if 75<=tuc and tuc<100:$tuc_name="Famous for a while"
+ if 100<=tuc and tuc<10000:$tuc_name="One in a hundred"
+ if 10000<=tuc:$tuc_name="Become famous"
+ m1_1=rand(0,1)
+ m1_2=rand(2,3)
+ m2_1=rand(10,11)
+ m2_2=rand(12,13)
+ m3_1=rand(20,23)
+ 
+if  $args[0]="":
+	'<div class ="show_menu"><img src="images\place\私房照<<rand(1,7)>>.jpg" width="854"></div>'
+
+ if Approximatelythenumberofpagesofthemuseum=1:
+	'<div class="button_menu">'
+		!'<div class="button"><a href="exec:minutes+=15 & gt ''company''">leave</a></div>'
+		if secretarycos=1: '<div class="button"><a href="exec:$m=''MS'' & $ma=$MS.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">㊙<<$MS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">㊙？？？</a></div>'
+        if ZJcos=1   : '<div class="button"><a href="exec:$m=''ZJ'' & $ma=$ZJ.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①<<$ZJ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①？？？</a></div>'
+        if ZLcos=1 : '<div class="button"><a href="exec:$m=''ZL'' & $ma=$ZL.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">②<<$ZL.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②？？？</a></div>'
+        if HZcos=1 : '<div class="button"><a href="exec:$m=''HZ'' & $ma=$HZ.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">③<<$HZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">③？？？</a></div>'
+        if WNcos=1: '<div class="button"><a href="exec:$m=''WN'' & $ma=$WN.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">④<<$WN.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">④？？？</a></div>'
+        if OXcos=1 : '<div class="button"><a href="exec:$m=''OX'' & $ma=$OX.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">⑤<<$OX.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑤？？？</a></div>'
+ 
+		'<div class="button"><a href="exec:Approximatelythenumberofpagesofthemuseum=2 & gt ''coserAppointmenthall''">▶Next page</a></div>'
+	'</div>'
+ end
+
+ if Approximatelythenumberofpagesofthemuseum=2:
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:Approximatelythenumberofpagesofthemuseum=1 & gt ''coserAppointmenthall''">▶Previous page</a></div>'
+        if RIONcos=1 : '<div class="button"><a href="exec:$m=''RION'' & $ma=$RION.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">⑥<<$RION.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑥？？？</a></div>'
+        if SSYYcos=1 : '<div class="button"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">⑦<<$SSYY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑦？？？</a></div>'
+        if DYZcos=1 : '<div class="button"><a href="exec:$m=''DYZ'' & $ma=$DYZ.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">⑧<<$DYZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑧？？？</a></div>'
+        if PWcos=1 : '<div class="button"><a href="exec:$m=''PW'' & $ma=$PW.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">⑨<<$PW.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑨？？？</a></div>'
+        if SScos=1 : '<div class="button"><a href="exec:$m=''SS'' & $ma=$SS.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">⑩<<$SS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑩？？？</a></div>'
+		'<div class="button"><a href="exec:Approximatelythenumberofpagesofthemuseum=3 & gt ''coserAppointmenthall''">▶Next page</a></div>'
+	'</div>'
+ end
+
+ if Approximatelythenumberofpagesofthemuseum=3:
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:Approximatelythenumberofpagesofthemuseum=2 & gt ''coserAppointmenthall''">▶Previous page</a></div>'
+        if SXcos=1 : '<div class="button"><a href="exec:$m=''SX'' & $ma=$SX.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①⓪<<$SX.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⓪？？？</a></div>'
+        if JZcos=1 : '<div class="button"><a href="exec:$m=''JZ'' & $ma=$JZ.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①①<<$JZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①①？？？</a></div>'
+        if ZXGcos=1 : '<div class="button"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①②<<$ZXG.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①②？？？</a></div>'
+        if DDcos=1 : '<div class="button"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①③<<$DD.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①③？？？</a></div>'
+        if SYcos=1 : '<div class="button"><a href="exec:$m=''SY'' & $ma=$SY.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①④<<$SY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①④？？？</a></div>'
+		'<div class="button"><a href="exec:Approximatelythenumberofpagesofthemuseum=4 & gt ''coserAppointmenthall''">▶Next page</a></div>'
+	'</div>'
+ end
+
+ if Approximatelythenumberofpagesofthemuseum=4:
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:Approximatelythenumberofpagesofthemuseum=3 & gt ''coserAppointmenthall''">▶Previous page</a></div>'
+        if ZXcos=1 : '<div class="button"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①⑤<<$ZX.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑤？？？</a></div>'
+        if LXScos=1 : '<div class="button"><a href="exec:$m=''LXS'' & $ma=$LXS.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①⑥<<$LXS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑥？？？</a></div>'
+        if YScos=1 : '<div class="button"><a href="exec:$m=''YS'' & $ma=$YS.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①⑦<<$YS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑦？？？</a></div>'
+        if YYcos=1 : '<div class="button"><a href="exec:$m=''YY'' & $ma=$YY.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①⑧<<$YY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑧？？？</a></div>'
+        if CTcos=1 : '<div class="button"><a href="exec:$m=''CT'' & $ma=$CT.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">①⑨<<$CT.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑨？？？</a></div>'
+		if XNcos=1 : '<div class="button"><a href="exec:$m=''XN'' & $ma=$XN.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">②⓪<<$XN.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②⓪？？？</a></div>'
+	'</div>'
+ end
+
+
+	'<div class="dialog_menu">'
+		'<p>·coserAppointmenthall: Talking about private photographers andcoserThe appointment will always cause people to misunderstand and associate.</p>'
+		'<p>·The current reputation of the auction house is：<<tuc>> 处于 In<<$tuc_name>>stage.</p>'
+		'<p>·The cumulative income of the auction house is：<<Cmoney_Appointment>>￥➤<a href="exec: gt ''coserAppointmenthall'',''Withdraw''">Withdraw</a></p>'
+		'<p>———Appointment list———</p>'
+         if m1_1=0:$m='Good girl'
+         if m1_1=1:$m='Short haircosmother'
+		'<p>
+		♀<a href="exec: m=m1_1 & gt ''Group_performation_event'',''Group_performance_Fuck_coser''"><<$m>></a>'
+         if m1_2=2:$m='coslovers'
+         if m1_2=3:$m='DCpowder'
+		'♀<a href="exec: m=m1_2 & gt ''Group_performation_event'',''Group_performance_Fuck_coser''"><<$m>></a>'
+		'</p>'
+		
+		if tuc_level2=0 and tuc<25:'<p>————Scale up</a><<tuc>>/25————</p>'
+		if tuc_level2=0 and tuc>=25:'<p>————<a href="exec: tuc_level2=1 & gt ''coserAppointmenthall''">Scale up</a><<tuc>>/25————</p>'
+		
+		
+		if tuc_level2=1:
+			'<p>———Advanced appointment———</p>'
+			 if m2_1=10:$m='Uniform control'
+			 if m2_1=11:$m='News host'
+			'<p>
+			♀<a href="exec: m=m2_1 & gt ''Group_performation_event'',''Group_performance_Fuck_coser''"><<$m>></a>'
+			 if m2_2=12:$m='Physical education student'
+			 if m2_2=13:$m='Tomboy'
+			'♀<a href="exec: m=m2_2 & gt ''Group_performation_event'',''Group_performance_Fuck_coser''"><<$m>></a>'
+			'</p>'
+		end
+		
+		if tuc_level3=0 and tuc<100:'<p>————Invite private shooting</a><<tuc>>/100————</p>'
+		if tuc_level3=0 and tuc>=100:'<p>————<a href="exec: tuc_level3=1 & gt ''coserAppointmenthall''">Invite private shooting</a><<tuc>>/100————</p>'
+		
+		if tuc_level3=1:
+			'<p>———Invited private shooting———</p>'
+			 if m3_1=20:$m='Blond international student'
+			 if m3_1=21:$m='Gel coat maid'
+			 if m3_1=22:$m='SHot girl'
+			 if m3_1=23:$m='Exotic dancer'
+			'<p>
+			♀<a href="exec: m=m3_1 & gt ''Group_performation_event'',''Group_performance_Fuck_coser''"><<$m>></a>'
+			'</p>'
+		end
+	'</div>'
+
+end
+
+if  $args[0]="Withdraw":
+    TXM=MS.power*100/(100+MS.power)
+    '<div class ="show_menu"><img src="images\place\钱.jpg" width="854"></div>'
+
+    '<div class="button_menu">'
+        '<div class="button"><a href="exec:minutes+=15 & money+=TXM*Cmoney_Appointment/100  & Cmoney+=Cmoney_Appointment-10000 & Cmoney_Appointment=0 & gt ''coserAppointmenthall'',''Withdraw''">Withdraw</a></div>'
+        '<div class="button"><a href="exec:minutes+=15 & gt ''company''">leave</a></div>'
+    '</div>'
+
+    '<div class="dialog_menu">'
+        '<p>·The cumulative income of the auction house is：<<Cmoney_Appointment>>￥</p>'
+        '<p>·Withdrawal rules, each time you withdraw, you can only withdraw more than1The amount of 10,000￥ is lower than1The amount of 10,000 ￥ will be used as a corporate tax to support pensions for female staff in the city hall.</p>'
+        '<p>☺Based on the ability of the secretary【<<MS.power>>】 Can legally avoid taxes and transfer<<TXM>>%To personal account.</p>'
+    '</div>'
+
+end
+
+
+--- coserAppointmenthall ---------------------------------
+

@@ -1,0 +1,38 @@
+# Strategy_sponsorship
+cls
+gs'menu_time_calc'
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs'menu_act_hidden'
+'</div>'
+
+
+if $args[0] ='':
+	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
+	'<div class="show_menu">'
+		'<img src="images\place\对话.jpg" width="854">'
+	'</div>'
+	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: gt $loc,$metka">leave</a></div>'
+		'<div class="buttonG"><a href="exec:gt ''Strategy_sponsorship2''">Activate strategy</a></div>'
+	'</div>'
+	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>First of all, thank you for your continued support and love for me.I sincerely thank you for your trust and favor.</p>'
+		'<p>Since everyone doesn`t like it very muchPDFI also find it troublesome to get all kinds of messy barcodes.so：</p>'
+		'<p>inV40After the version, I will take this brand new approach-directly add the new<span class="bold"><font color="#FF3939">Character_strategy integrated into the game</font></p>'
+		'<p><font color="#019435">On the one hand, you can view the progress of the Character_strategy in real time；</font><font color="#b00522">On the other hand, I`m investigatingBUGYou can see more clearly when you are there</font></p>'
+		'<p>·————</p>'
+		'<p>·<<$YS.name>>The Character_strategy is free and open, you can take a look at the specific mode.</p>'
+		'<p>Players who have previously participated in sponsorship can contact<font color="#FF3939">Email address provided after sponsorship</font>, Attach a simple proof to receive the strategy activation pattern.</p>'
+		'<p><B><span class =''red''>note：126@The mailbox cannot receive my email reply, please change the mailbox</p>'
+	'</div>'
+End
+
+
+--- Strategy_sponsorship ---------------------------------
+

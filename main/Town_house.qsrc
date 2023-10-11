@@ -1,0 +1,72 @@
+# Town_house
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+a=0 & q=0
+$Random_number=rand(0,100)
+gs'menu_gif'
+
+
+if $Caesar_works_part_time=1 and $times_of_day='' and 50<=$Random_number and $Random_number<=55:gt 'Task_event','Hunting_passersby'
+if $Haveseenthefloorplan=1 and $Random_number<=40:gt 'Widow_Incident','The second-in-command returns'
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	'<div class="actions_menu">'
+		'<div class="action">'
+			if $FXZ.key=1 :
+			'<a class="photo" data-title="<<$FXZ.name>>home" href="exec:minutes+=5 & gt ''Vice_Principals_house''"><img class="img_stretch" src="images\place\副校长家小图.jpg"></a>'
+			else:
+			'<a class="photo" data-title="【Lock】" href="exec:"><img class="img_stretch" src="images\place\副校长家.jpg"></a>'
+			end
+		'</div>'
+		'<div class="action">'
+			if $NY.key=1:
+			'<a class="photo" data-title="<<$NY.name>>home" href="exec:minutes+=5 & gt ''Energy_event'',''NY_home''"><img class="img_stretch" src="images\place\NY家小图.jpg"></a>'
+			else:
+			'<a class="photo" data-title="【Lock】" href="exec:"><img class="img_stretch" src="images\place\NY家.jpg"></a>'
+			end
+		'</div>'
+		
+		'<div class="action">'
+			if $TalentApartment=0:'<a class="photo" data-title="【Under construction】" href="exec: gt ''Group_performation_event'',''Construction villa''"><img class="img_stretch" src="images\place\施工别墅.jpg"></a>'
+			if $TalentApartment=1:'<a class="photo" data-title="Talent Apartment" href="exec: gt ''Talent_Apartment''"><img class="img_stretch" src="images\place\人才公寓.jpg"></a>'
+		'</div>'
+		
+		'<div class="action">'
+			if $Thecompetitionbegins=999:
+			'<a class="photo" data-title="Big_villa" href="exec:minutes+=5 & gt ''Big_villa''"><img class="img_stretch" src="images\place\竞演\别墅1.jpg"></a>'
+			else:
+			'<a class="photo" data-title="【Lock】" ><img class="img_stretch" src="images\place\竞演\别墅0.jpg"></a>'
+			end
+		'</div>'
+		'<div class="action">'
+			if $YS.key=1:
+			'<a class="photo" data-title="<<$YS.name>>home" href="exec:gt ''Widow`s_house''"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
+			else:
+			'<a class="photo" data-title="【Lock】" href="exec:"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
+			end
+		'</div>'
+			
+			
+			
+
+	'</div>'
+'</div>'
+
+'<div class ="show_menu"><img src="images\place\联排别墅_<<$times_of_day>>.jpg" width="854"></div>'
+
+'<div class="button_menu">'
+	'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
+'</div>'
+
+'<div class="dialog_menu">'
+	'<p>The high-end villa area is a residential area that only people of a certain social status can buy.</p>'
+	if HundredDaysBanquet!0 and day=13 and hour=13:'<p>·A [HundredDaysBanquet Bus] stopped here<a href="exec:gt ''Group_performation_event'',''Rich woman_Fuck_GM1''">-Get in the car</a></p>'
+'</div>'
+
+--- Town_house ---------------------------------
+

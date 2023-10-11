@@ -1,0 +1,235 @@
+# Independent_front_desk
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+minutes+=15
+my.energy-=1
+
+
+
+
+'<div id="right-column">'
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+if $args[0]="":
+	if $HS.available=0:
+		 if HSintroduction=1:
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\NPC\HS\vids\介绍~1.webm" type=''video/webm;''></video></div>'
+			'</div>'
+			
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=5 &$HS.available=1 & gt ''Independent_front_desk''">Got it</a></div>'
+			'</div>'
+			'<div class="dialog_menu">'
+				'<p><<$HS.name>>: You are a second-level experimenter，<<$Protagonist`s_surname>> Sir, as long as you press this button, there will be24An hour-long dedicated oral sex nurse will assist you in ejaculating.</p>'
+			'</div>'
+		 end
+		 
+		 if HSintroduction=0:
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\NPC\HS\vids\前台11~1.webm" type=''video/webm;''></video></div>'
+			'</div>'
+			
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=5 &HSintroduction=1& gt ''Independent_front_desk''">Hello</a></div>'
+			'</div>'
+			'<div class="dialog_menu">'
+				'<p><<$HS.name>>: Hello，<<$Protagonist`s_surname>> Sir, I am in charge of the second-level patient/Experimenter`s24Hour exclusive oral sex nurse!You can call me<<$HS.name>>。</p>'
+			'</div>'
+		 end
+	End
+	
+		if  0<= hour and hour <=5:hsa=0
+		if  6<= hour and hour <=10:hsa=1
+		if  11<= hour and hour <=13:hsa=2
+		if  14<= hour and hour <=17:hsa=3
+		if  18<= hour and hour <=24:hsa=4
+
+	 if $HS_Event_trouble!10 :
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\前台0<<hsa>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Independent_front_desk'',''Looking for a voice''">Looking for a voice</a></div>'
+			'<div class="buttonB"><a href="exec:minutes+=15 & gt ''Daily_drug_test'',''Relatives and friends visit''">↑Relatives and friends visit</a></div>'
+			if $Q="二级":'<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Group_performation_event'',''hospital_Fuck_Doctor`s_examination2level''">←<<$Q>>Physical examination</a></div>'
+			if 18>=hour and hour>=13:'<div class="button"><a href="exec:minutes+=5 & gt ''Independent_front_desk'',''310room''">310Room→</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test'',''Nurse station''">返回Back↓</a></div>'
+		'</div>'
+		'<div class="dialog_menu">'
+			'<p>310Patient: Ahem!Hey, little nurse, my ass is itchy. Can you come over for a while?*cough</p>'
+			'<p><<$HS.name>>: I`ll be right there, please..Please don`t do this.......Alas, he came to harass me again.</p>'
+			'<p>Me: I have been serving him and I don`t have time to serve me anymore!</p>'
+		'</div>'
+	 end
+	 
+	 if $HS_Event_trouble=10 :
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\前台1<<hsa>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Nurse_event'',''HS_Fuck_Oral sex''">Oral sex request</a></div>'
+			if $Q="二级":'<div class="button"><a href="exec:minutes+=15 & gt ''Group_performation_event'',''hospital_Fuck_Doctor`s_examination2level''">←Physical examination</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test'',''Nurse station''">返回Back↓</a></div>'
+		'</div>'
+		'<div class="dialog_menu">'
+			'<p><<$HS.name>>：310The patient was discharged from the hospital without saying a word. Although he was quite excessive, he didn`t know if he could live alone.~</p>'
+		'</div>'
+	 end
+End
+
+if $args[0]="Looking for a voice":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\前台后续0<<hsa>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=45 & gt ''Daily_drug_test'',''Nurse station''">返回Back↓</a></div>'
+		'</div>'
+		'<div class="dialog_menu">'
+			'<p>310Patient: What is your attitude?！Ahem!Isn`t it your job to do semen examinations for secondary patients?*cough</p>'
+			'<p><<$HS.name>>: Please be gentle.....*Woohoo*</p>'
+		'</div>'
+End
+
+if $args[0]="310room":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\交涉~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''310room'',''Peeping handwritten letter''">Peeping handwritten letter</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''310room'',''Try to talk''">Try to talk</a></div>'
+			if $args[1]="Try to talk":
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''310Room selection''">Staring at you</a></div>'
+			end
+		'</div>'
+		'<div class="dialog_menu">'
+			'<p>310Patient: What`s the matter with you?What kind of goods are you?Get out of here!*cough</p>'
+			if $args[1]="Peeping handwritten letter":
+			'<p>Gonggong`s neat handwriting: To his dead wife: The former glory has faded, and now I am ruined.In the past, my prospects were bleak and I didn`t want to hurt you.But I don`t know why, every day after losing you has been listless.</p>'
+			'<p>Intermittent handwriting: There are always countless choices in life, but I have to bear heavy damage for my kindness.All this is that woman`s conspiracy.....Now my primary Parkinson`s disease is incurable and I can no longer hold a scalpel.....</p>'
+			'<p>Vague handwriting: Last night, I dreamed of you, you have gray hair and said you want to take me to the elephant tower in your dreams.....</p>'
+			end
+			if $args[1]="Try to talk":
+			'<p>Me: The nurses and doctors here are very responsible. Has your illness improved?</p>'
+			'<p>310Patient: The most important pathological change in Parkinson`s disease is dopamine in the melanoplasm of the midbrain (dopamine, DA) Degeneration and death of energy neurons, which causes the striatumDAThe content is significantly reduced and the disease is caused.The exact cause of this pathological change is still unclear. Genetic factors, environmental factors, age aging, oxidative stress, etc. may be involved.PDThe degeneration and death process of dopaminergic neurons.</p>'
+			'<p>310Patient: Tell me how to get better?*cough</p>'
+			'<p>Me: Don`t be so pessimistic...Maybe there are already special medicines now.....</p>'
+			end
+		'</div>'
+End
+
+if $args[0]="310Room selection":
+	 $HS_Event_trouble=1
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\交涉~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''310Room selection'',''Regal''">Save the rich</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''310Room selection'',''Tramp''">Save the homeless</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk''">leave</a></div>'
+		'</div>'
+		'<div class="dialog_menu">'
+			'<p>310Patient: Hehe, let me ask you.When you rescued a homeless man with organ failure caused by alcoholism, you sent a rich man with a sudden cerebral hemorrhage. Your boss asked you to be rich first.What do you do?</p>'
+			if $args[1]="Regal":
+			'<p>Me: From the point of view of its value to society, let`s be rich.</p>'
+			'<p>310Patient: Life is unequal, right?Why do you think an old man like me uses special medicines?*cough</p>'
+			'<p>310Patient: Get out of here!I have other things to do!I don`t need your help!*cough*God is good, the god I have seen with my own eyes.....No matter if you are the god I have seen with my own eyes.....Whether you are a god or a demon, please come again...Fulfill my wish...Let me go.....</p>'
+			end
+			if $args[1]="Tramp":
+			'<p>Me: First come first served, I will choose the homeless.</p>'
+			'<p>310Patient: Haha, after the homeless were treated, they ran away to escape the high medical expenses, while the rich became vegetative because the treatment was not timely.</p>'
+			'<p>Me: That`s just bad luck.</p>'
+			'<p>310Patient: Bad luck comes at a price!What do you know!！How can there be any luck!Everyone deserves it!*cough</p>'
+			'<p>Me: So you are the doctor?</p>'
+			'<p>310Patient: It`s none of your business.*He stared at his trembling hands.Hateful new policy reform!！My reputation!status!She took everything from me!!I shouldn`t have saved him!I want to destroy this hospital and make it our grave!</p>'
+			'<p>310Patient: Get out of here!I have other things to do!I don`t need your help!*cough*The god I have seen with my own eyes.....Whether you are a god or a demon, please come again...Fulfill my wish...Let me go.....</p>'
+			end
+		'</div>'
+End
+
+
+if $args[0]="310Patient treatment":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\HS\vids\交涉~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''310Patient treatment'',''Insomnia''">Insomnia</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''310Patient treatment'',''Parkinsonism''">Parkinsonism</a></div>'
+			if $args[1]="Parkinsonism":'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''Departure''">Go with him</a></div>'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test''">leave</a></div>'
+		'</div>'
+		'<div class="dialog_menu">'
+			'<p>Me: Can you come for a while?</p>'
+			'<p>310Patient: No!I didn`t sleep all night last night!Annoying to death!Get out of here!</p>'
+			'<p>Me: That instrument is.....Specialized treatment..</p>'
+			if $args[1]="Insomnia":
+			'<p>Me: It specializes in the treatment of insomnia!</p>'
+			'<p>310Patient: I don`t have insomnia!I just asked that little nurse to give me a mouth all night.*cough</p>'
+			'<p>310Patient: Get out of here!I have other things to do!I don`t need your help!*cough*The god I have seen with my own eyes.....Whether you are a god or a demon, please come again...Fulfill my wish...Let me go.....</p>'
+			end
+			if $args[1]="Parkinsonism":
+			'<p>Me: Specializing in the treatment of Parkinson`s!</p>'
+			'<p>310Patient: Impossible!This is absolutely impossible!</p>'
+			'<p>Me: You are lucky this time!It just so happens that the doctors are out now!</p>'
+			'<p>310Patient: Really?Are you going to lie to me too?Is the current technology so developed?</p>'
+			'<p>Me: You can just give it a try.</p>'
+			end
+		'</div>'
+End
+
+if $args[0]="Departure":
+		 '<div class ="show_menu"><img src="images\place\医院场景\病房左转.jpg" width="854"></div>'
+	 
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:minutes+=15 & gt ''Independent_front_desk'',''Departure'',''Give him a doctor`s uniform''">Give him a doctor`s uniform</a></div>'
+			if $args[1]!"Give him a doctor`s uniform":'<div class="button"><a href="exec:minutes+=15 &  gt ''Independent_front_desk'',''Departure'',''Lie''">Lying: no doctor`s uniform</a></div>'
+			if $args[1]!"":'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test''">leave</a></div>'
+		'</div>'
+		'<div class="dialog_menu">'
+			'<p>AIwarning：J3Non-researchers on the way have been detected in the area, please leave the area quickly.</p>'
+			'<p>*You suddenly remembered that there is only one doctor uniform.Means only one person can pass....</p>'
+			'<p>310Patient: Bring it!I know you secretly hid a doctor`s uniform!</p>'
+			if $args[1]="Give him a doctor`s uniform":
+			'<p>Me: Put this on.Go straight first, then turn left.......</p>'
+			'<p>310Patient: Boy.*Looking back at you... I am more familiar with this place than your home!*cough</p>'
+			'<p>·····His back disappeared at the end</p>'
+			'<p>·····The door closed heavily</p>'
+			'<p>·····Slowly, the cry of a man came from the room at the end</p>'
+			'<p>·····You have a feeling that he won`t come back</p>'
+			uniform=0
+			$HS_Event_trouble=10
+			end
+			if $args[1]="Lie":
+			'<p>310Patient: Neuropathy, waste my time!You, like them, are all liars!</p>'
+			end
+		'</div>'
+End
+
+
+
+
+
+
+
+
+
+
+
+--- Independent_front_desk ---------------------------------
+

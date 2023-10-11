@@ -1,0 +1,2101 @@
+# Stepmom_event
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+my.energy-=3
+minutes+=15
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+if $ARGS[0]="Eavesdropping":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\电话~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>-<<$JM.name>>: I miss you too.</p>'
+		'<p>-？？？: When can I do it?</p>'
+		'<p>-<<$JM.name>>: Okay, don`t make trouble, I`m still menstruating, so go to bed early.</p>'
+		'<p>-<<$JM.name>>: (It`s really annoying, just show it a little bit and you have to push it forward.....）</p>'
+		'<p>-It seems<<$JM.name>>Have a troublesome lover...?</p>'
+	'</div>'
+
+end
+
+if $args[0]="Grandpa raped":
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q=0 :
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''Grandpa raped'',''强奸2''">...</a></div>'
+			end
+			if a!2 and q=1 :
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''Grandpa raped'',''强奸3''">...</a></div>'
+			end
+			if a!3 and q=2 :
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''Grandpa raped'',''强奸4''">...</a></div>'
+			end
+			if a!4 and q=3 :
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''Grandpa raped'',''强奸5''">...</a></div>'
+			end
+			if a!5 and q=4 :
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''Grandpa raped'',''强奸6'',''结束''">...</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:$JM_Event_grandpa=5 & gt ''home''">Wow, the amount of information is so large...</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>Grandpa:I worked hard to raise you by myself, spent money to send you to the best universities abroad, and taught you to run the company hand in hand. As a result, this is how you repay me?！</p>'
+			 '<p><<$JM.name>>:Dad, listen to me explain, it`s not what you think..What?！Can`t...Dad, stop it....No way!You are rape!Rapists are to be physically castrated!</p>'
+		 '</div>'
+	end
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p>Grandpa:Rapist?！Are those board members also rapists?Is my business partner also a rapist?！You really lost my face!</p>'
+			 '<p><<$JM.name>>:what..what....</p>'
+			 '<p>Grandpa:Stop pretending!He kept saying that he was cold, but as a result, he was tied up and fucked as a sandbag for a broken vein?</p>'
+		 '</div>'
+	end
+	if a=2:
+		 '<div class="dialog_menu">'
+			 '<p>Grandpa:You lowly meat toilet, you are not worthy of being my daughter. Since you have given up being a human being, who is not the same as you?！</p>'
+			 '<p><<$JM.name>>:Dad, I was wrong....Stop it....Listen to me....</p>'
+		 '</div>'
+	end
+	if a=3:
+		 '<div class="dialog_menu">'
+			 '<p>Grandpa:I don`t have a daughter like you!</p>'
+			 '<p><<$JM.name>>:Dad, absolutely not, absolutely not, I`m your daughter....</p>'
+		 '</div>'
+	end
+	if a=4:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>:No, dad`s dick is so weird, I`m going to be fucked to orgasm by dad`s dick...I`m going to be fucked to orgasm by dad`s dick...</p>'
+		 '</div>'
+	end
+	if a=5:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>:Why shoot in it?we...It`s a family!!</p>'
+			 '<p>Grandpa:Who is your family, I am going to court to sever the father-daughter relationship!I want to take back the right to operate the pharmaceutical factory!You can`t take another cent from me!</p>'
+		 '</div>'
+	end
+
+		
+ q+=1
+
+end
+
+
+if $args[0]="Warehouse monitoring":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$B>><<C>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		if C ! 6 :
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:C+=1 & gt ''Stepmom_event'',''Warehouse monitoring''">...</a></div>'
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:gt ''Home_computer''">leave</a></div>'
+			'</div>'
+		end
+	end
+
+
+	if C=1:
+		 '<div class="dialog_menu">'
+			 '<p>-man:Quickly hold you bitch for me, if you don`t want things to come to light, you`d better know each other a little bit. </p>'
+		 '</div>'
+	end
+	if C=2:
+		 '<div class="dialog_menu">'
+			 '<p>man:Pretend to be pitiful.....Your mouth should have tasted a lot of cock!    </p>'
+		 '</div>'
+	end
+	if C=3:
+		 '<div class="dialog_menu">'
+			 '<p>man:....What`s the sound?....Forget it, hurry up and get me wet and I`m about to fuck you soon!    </p>'
+		 '</div>'
+	end
+	if C=4:
+		 '<div class="dialog_menu">'
+			 '<p>man:  Yes, hold it for me and stuff it in your throat!Yes, a little deeper..  </p>'
+		 '</div>'
+	end
+	if C=5:
+		 '<div class="dialog_menu">'
+			 '<p>man:  I`ve been fucked so many times...If your subordinates knew that you were a bitch who let others commit adultery, what would they think?  </p>'
+		 '</div>'
+	end
+	if C=6:
+		 '<div class="dialog_menu">'
+			 '<p>man:  Give me a drop and drink it all, you bitch!  </p>'
+			 '<p>Wow, the amount of information is so large..<<$jm.name>>Actually coerced...Do this kind of thing?！  </p>'
+			 $JM_Event_store=1
+		 '</div>'
+	end
+		
+end
+
+if $ARGS[0]="Saturday warehouse":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\仓库0~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $JM_Event_store=2 :
+			'<div class="button"><a href="exec:minutes += 60 & gt ''Stepmom_event'',''Warehouse waiting''">Be patient</a></div>'
+		 end
+		'<div class="button"><a href="exec:minutes += 30 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- <<$Panting>></p>'
+		'<p>- Man: You have to come over to satisfy me at this time of week!If you don`t want things to come to light....</p>'
+		'<p>- Looks like someone is having sex..I still don`t want to go in..It should be recorded in the surveillance camera....</p>'
+	'</div>'
+
+end
+
+if $ARGS[0]="Warehouse waiting":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\仓库6~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes += 60 & gt ''Bad_room''">Follow him</a></div>'
+		'<div class="button"><a href="exec:minutes += 30 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- Hide aside and watch quietly....</p>'
+		'<p>- <<$Panting>></p>'
+		'<p>- Man: You stinky bitch, why are you so wet today?Is there a water pipe inserted below?...Say, are you a slut?</p>'
+		'<p>- <<$jm.name>>: Yes....I`m a slut...As long as you put 【B-137】The original document of the project...Give it back to me..</p>'
+		'<p>- Man: Huh?You gave it to me yourself!Want to go back now?Stop dreaming!As long as it is still there, you will always be my slave!</p>'
+	'</div>'
+
+end
+
+if $args[0]="Temporary worker":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$B>><<C>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		if C ! 1 :
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:C+=1 & gt ''Stepmom_event'',''Temporary worker'',''结束''">...</a></div>'
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes +=60  & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+			'</div>'
+		end
+	end
+
+	if C=0:
+		 '<div class="dialog_menu">'
+			 '<p>-Temporary worker: Boss, since I saw you for the first time, my head has been empty like a blank piece of paper. I want to make an eachother to you, and I will absolutely listen to every word you say. </p>'
+			 '<p>-<<$jm.name>>: I am a man with a husband....Can`t...  </p>'
+			 '<p>-Temporary worker: Most of him won`t survive. Besides, the one-wife multi-husband system will be implemented. It`s okay!  </p>'
+			 '<p>-  Kissed in spite of everything! </p>'
+			 '<p>-<<$jm.name>>: No way..That`s it...   </p>'
+		 '</div>'
+	end
+	
+	if C=1:
+		 '<div class="dialog_menu">'
+			 '<p>-Temporary worker: Boss, if you don`t promise me!I will die for you to see!I will jump from here!</p>'
+			 '<p>-<<$jm.name>>: Ok ok....But before I officially divorced....Our relationship can only end here......(Let`s reluctantly agree to him first, I heard he is an impulsive person..The last company deleted all the databases in angrily.....I`m afraid of doing something extreme..） </p>'
+			 '<p>-Temporary worker: Really?Great, I am willing to give everything I have for you!I am willing to die even if I die! </p>'
+			 '<p>-  It seems that there is a troublesome temporary worker who needs to be solved... </p>'
+			 $JM_Event_new=1
+		 '</div>'
+	end
+		
+end
+
+if $ARGS[0]="Deal with trouble":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\公司开场~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes += 15 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- Me: You must have a lot of troubles, right?A conspiracy in the first dynasty, two Taoists killed three soldiers!Who can do this?You said quietly.</p>'
+		'<p>- <<$jm.name>>: What are you talking about?What does it matter to you?！</p>'
+		'<p>- Me: I know that you are being entangled by three men for some reason. I am here to talk about remuneration.I need you to promise me unconditionally after it`s done3A request.</p>'
+		'<p>- <<$jm.name>>:Dreaming!I can handle my own affairs by myself, and I don`t need you to teach me how to do things! (Could it be that this kid discovered all these shit?Impossible...）</p>'
+		'<p>- Me: Are you sure?I have a way to get these three people out of your life forever, so think about it.</p>'
+		'<p>- <<$jm.name>>: You don`t need to worry about my affairs, take care of yourself. </p>'
+		'<p>-<b><font color="#FF0000"> It seems that I have to solve a problem alone before I can convince her.</font> </b></p>'
+		$JM_Event_store=2
+	'</div>'
+	
+
+
+end
+
+if $ARGS[0]="Take credit":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\HM交谈~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- You shook a hard drive in front of her.</p>'
+		'<p>-<<$JM.name>>: What are you doing...Could it be that..？ </p>'
+		'<p>-You opened the folder skillfully, and her eyes widened unconsciously.</p>'
+		'<p>-<<$JM.name>>: This....Are there any other backups? (She lowered her voice)</p>'
+		'<p>-Me: You will know soon...</p>'
+		'<p>————————</p>'
+		'<p>*Noise-sir!Sir, you can`t go in!</p>'
+		'<p>Male voice: Do you dare to stop me?You entered the company or I interviewed you!<<$jm.name>>！good!You fucking bitch!Play this hand!！You wait for me!You wait for me!I want to tell everyone!I will never let you go in my life!</p>'
+		'<p>-Me: If he still has hole cards, is he so angry?Next, just think of a way to kick him out of this city, and you will be able to rest easy from now on.</p>'
+		'<p>-<<$JM.name>>: Huh, it`s not bad.I have someone to take care of me at the Entry-exit Administration. I can do this by myself! </p>'
+		'<p>-Me: According to the agreement, three requirements......</p>'
+		'<p>-<<$JM.name>>: I got it, I got it, I still have a video conference to be held, I`ll talk later!</p>'
+		$JM.LOVE+=10
+		$JM_Event_store=4
+	'</div>'
+
+end
+
+if $args[0]="The first requirement":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$B>><<C>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		if C ! 3 :
+		'<div class="button_menu">'
+			'<div class="button"><a href="exec:C+=1 & gt ''Stepmom_event'',''The first requirement''">...</a></div>'
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:gt ''Mugou_Pharmaceutical''">leave</a></div>'
+			'</div>'
+		end
+	end
+
+	if C=0:
+		 '<div class="dialog_menu">'
+			 '<p>-<<$jm.name>>: (surprised)....What?We are mother and son!You change to a different one! </p>'
+			 '<p>-I:  But you didn`t treat me like a son, did you? You really don`t believe what you say.Obviously promised me.....Then help me get it out of the head office, right?  </p>'
+			 '<p>-<<$jm.name>>: (silence)...that...good....OS: Men are really the same...Hurry up and shoot it out.</p>'
+			 '<p>-I:  The stimulation is not enough.(You stretch out your hand and hold her head)  </p>'
+		 '</div>'
+	end
+	if C=1:
+		 '<div class="dialog_menu">'
+			 '<p>-<<$jm.name>>: (surprised)....Woo..Woo...OS: Is it that long??It`s all up to the throat. There are so many outside..... </p>'
+		 '</div>'
+	end
+	if C=2:
+		 '<div class="dialog_menu">'
+			 '<p>-I:  Oh, my god, your oral work is so amazing!I`m about to disarm!    </p>'
+		 '</div>'
+	end
+	if C=3:
+		 '<div class="dialog_menu">'
+			 '<p>-<<$jm.name>>：...Woo..That`s it..... </p>'
+			 '<p>-I:  Hehe, yes.Mom, you are amazing~    </p>'
+			 '<p>-<<$jm.name>>A little shy....An inexplicable emotion throbbed in her heart.... </p>'
+			 $jm.bad+=3
+		 '</div>'
+	end
+End
+
+if $ARGS[0]="Stepmom_bathroom":
+	$Stepmom_bathroomNUM=RAND(0,2)
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\浴室<<$Stepmom_bathroomNUM>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if $JM.BAD>=100:
+			if $Stepmom_bathroomNUM=0:
+			'<div class="buttonS"><a href="exec:minutes+=15 & a=1 & gt ''Stepmom_event'',''Quick bathroom''">Force her in</a></div>'
+			else:
+			'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''shower0''">Go in</a></div>'
+			end
+		end
+		'<div class="button"><a href="exec:minutes+=15 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- <<$jm.name>>In the bathroom....</p>'
+	'</div>'
+
+end
+
+if $ARGS[0]="Quick bathroom":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\快速洗澡1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if a=1:'<div class="button"><a href="exec:minutes+=15 & $JM.BAD+=5 & a+=1 & gt ''Stepmom_event'',''Quick bathroom''">Leave when you`re done</a></div>'
+		if a=2:'<div class="button"><a href="exec:minutes+=15 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- <<$jm.name>>:<<$Panting>></p>'
+	'</div>'
+
+end
+
+if $args[0]="JM_Fuck_On the phone":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\电话时1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a<6:
+		'<div class="button_menu">'
+			if a!1  and q<=2 and $JM.love>=100:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">Molest her</a></div>'
+			end
+			if a!2  and 1<=q :
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">insert</a></div>'
+			end
+			if a=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">Vigorously pump</a></div>'
+			end
+			if a!4 and 3<=q :
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">Back in</a></div>'
+			end
+			if a=4:
+			'<div class="buttonS1"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">sprint</a></div>'
+			end
+			if a=5:
+			'<div class="buttonS2"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">Ejaculation</a></div>'
+			end
+			'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>He was lying on the bed, holding a mobile phone to make a call.There was a concerned expression on her face, and she kept saying something in her mouth.It sounds like she is discussing something important with the person on the phone.</p>'
+			 '<p><<$JM.name>>: Okay, I will arrange for someone to go to the next docking work…</p>'
+		 '</div>'
+	end
+
+
+
+	if 3>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：<<$Panting>></p>'
+			 '<p><<$JM.name>>: No... it`s okay, I...I`m just doing exercise…</p>'
+		 '</div>'
+	end
+	if 5>=a and a>=4:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：<<$words>></p>'
+		 '</div>'
+	end
+	if a=6:
+		 $JM.love+=q+my.charm
+		 $JM.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：<<$Panting>></p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $ARGS[0]="In the bedroom":
+	$bedroomnum=rand(1,2)
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\卧室内<<$bedroomnum>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if $JM.bad>=110:'<div class="buttonS"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Go in and fuck her</a></div>'else:'<div class="buttonGr"><a href="exec:">Go in and fuck her</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- <<$jm.name>>Change clothes in the bedroom.</p>'
+	'</div>'
+
+end
+
+if $ARGS[0]="Eat":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\吃饭1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if $JM.bad>=110 and a!3:'<div class="buttonS"><a href="exec:a+=1 &gt ''Stepmom_event'',''Eat''">I want to eat too</a></div>'else:'<div class="buttonGr"><a href="exec:">It`s okay</a></div>'
+		'<div class="button"><a href="exec:minutes+=45 & gt ''home''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		if a=0:'<p>- <<$jm.name>>Lunch is being eaten.</p>'
+		if a>0:'<p>- <<$jm.name>>:<<$Panting>></p>'
+	'</div>'
+
+end
+
+if $args[0]="JM_Fuck_In the bedroom":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\房间内1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a<9:
+		'<div class="button_menu">'
+			if a!1  and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Pull force</a></div>'
+			end
+			if a!2  and 1<=q and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Oral sex</a></div>'
+			end
+			if a!3  and 2<=q and q<=4:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Open operation</a></div>'
+			end
+			if a!4 and 3<=q and q<=6:
+			'<div class="buttonS1"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Leg lift</a></div>'
+			end
+			if a!5 and 4<=q :
+			'<div class="buttonS2"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Back into the sprint</a></div>'
+			end
+			if a=5:
+			'<div class="buttonR1"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Fuck her</a></div>'
+			end
+			if a=6:
+			'<div class="buttonS4"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Keep fucking her</a></div>'
+			end
+			if a=7:
+			'<div class="buttonS5"><a href="exec:a=8 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Ejaculation</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">afterwards</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Wait, mom is changing clothes!</p>'
+		 '</div>'
+	end
+
+
+
+	if 3>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：<<$Panting>></p>'
+		 '</div>'
+	end
+	if 8>=a and a>=4:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：<<$words>></p>'
+		 '</div>'
+	end
+	if a=9:
+		 $JM.love+=q+my.charm
+		 $JM.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: I was fucked by my son again... I`m such a bitch stepmother……</p>'
+		 '</div>'
+	end
+ q+=1
+
+End
+
+if $args[0]="Stepmom_room_hug":
+	if $JM.bad>= a*8+25:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''Stepmom_room_hug'',''吻''"">kiss</a></div>'
+			end
+			if a!2 and q<=2:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上1挑逗''">Rub your chest</a></div>'
+			end
+			if a!3 and q<=3:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上2舔她''">Lick her</a></div>'
+			end
+			if a!3 and 1<=q and q<=3 :
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上3挑逗2''">Lick me</a></div>'
+			end
+			if a=3:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上4口交''">Oral sex</a></div>'
+			end
+			if a=4:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上5sex''">Sit up</a></div>'
+			end
+			if a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上6冲刺sex''">Fuck her to death</a></div>'
+			end
+			if a=6 :
+			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上7射''">Bukkake</a></div>'
+			end
+			if a=7: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上8结束'',''结束''">Stay with her for a while</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>You hug her and bury your face in her chest...</p>'
+			 '<p><<$JM.name>>: Such a big person, what are you still messing around with?....</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q+2
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	if 4>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: No way....No way...We are mother and child...<<$Panting>></p>'
+			  '<p>I have no intention of stopping, on the contrary，<<$JM.name>>The panting makes me very excited....</p>'
+		 '</div>'
+	end
+
+	if 9>=a and a>=5 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>></p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: What the hell am I doing...My son`s delicious sperm is all in my mouth.....(I`m such a bitch mother, I actually did this kind of thing with my son, it shouldn`t matter if I`m not my own son!)</p>'
+		 	 '<p>Me: I really can`t help you~</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $args[0]="Stepmom_company_day":
+	if $JM.bad>= a*8+35:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=1:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常1''">accelerate</a></div>'
+			end
+			if a=1:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常2''">Shot in her mouth</a></div>'
+			end
+			if a=2:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常3''">Let her eat</a></div>'
+			end
+			if a=3 and 2<=q and q<7:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常4''">Direct back entry</a></div>'
+			end
+			if a!5 and 3<=q and q<8:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常5''">Front riding</a></div>'
+			end
+			if a!6 and 4<=q and q<9:
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常6''">Riding on the back</a></div>'
+			end
+			if a<7 and q>=5:
+			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''Stepmom_company_day'',''HM菊花''">Break open the asshole</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常7''">Anal sex sprint</a></div>'
+			end
+			if a=8 :
+			'<div class="button"><a href="exec:a=9 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常8''">Ejaculation</a></div>'
+			end
+			if a=9: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常9'',''结束''">Clean up</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>You gave her a look, and she immediately closed the door.</p>'
+			 '<p><<$JM.name>>She started to serve you very naturally.....</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	if 4>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=5 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>The Sao cunt has been inserted out of the white pulp, let`s change the hole..</p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: What the hell am I doing...My son`s delicious sperm is all in my mouth.....(I`m such a bitch mother, I actually did this kind of thing with my son, it shouldn`t matter if I`m not my own son!)</p>'
+		 	 '<p>Me: I really can`t help you~</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $args[0]="JM_Fuck_After drinking":
+	if $JM.bad>= a*1+25:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后0开幕''">temptation</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后2挑逗2''">Sucking balls</a></div>'
+			end
+			if a!3 and 2<=q and q<5:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后3口交''">Oral sex</a></div>'
+			end
+			if a!4 and 3<=q and q<8:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后4sex''">Back position</a></div>'
+			end
+			if a!5 and 4<=q and q<9:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后5sex''">Normal bit</a></div>'
+			end
+			if a!6 and 5<=q :
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后6冲刺sex''">Leg lift sprint</a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后7射''">Ejaculation</a></div>'
+			end
+
+			if a=7: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后8结束'',''结束''">end</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>When you looked at each other, you noticed that her eyes were blurred.</p>'
+			 '<p>suddenly...<<$JM.name>>Deliberately spilled wine on you......Then I started licking it.....</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q+5
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	if 3>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=4 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>..</p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q+10
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: It`s delicious. Sure enough, my son`s smelly semen is the best dessert after drinking.~~Huh?~The wine is coming up...I`m going to squint for a while.</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $args[0]="JM_Fuck_Essential oil":
+	if $JM.bad>= a*10+33:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油1挑逗''">Tease up and down</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油2挑逗2''">Buckle</a></div>'
+			end
+			if a!3 and 2<=q and q<=5:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油3喷水''">Forced water spray</a></div>'
+			end
+			if a!4 and 3<=q and q<8:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油4sex''">Orgasm in the back position</a></div>'
+			end
+			if a!5 and 4<=q and q<9:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油5sex''">Normal orgasm</a></div>'
+			end
+			if a!6 and 5<=q :
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油6冲刺sex''">Accelerate the sprint</a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油7射''">Ejaculation</a></div>'
+			end
+
+			if a=7: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油8结束'',''结束''">Let her lick it clean</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p>Me: Mom, I`ve been working for a day, so relax.You shook the Essential_oil in your hand.</p>'
+			 '<p><<$JM.name>>She glanced at you ambiguously....I understand your mind...</p>'
+			 '<p><<$JM.name>>: So hot...itchy....What kind of Essential_oil are you...OS: My heart beats so fast when I was touched by my son, I want to have sex....</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q+2
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	if 3>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=4 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>..</p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q+5
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: I am such a lascivious woman, I was fucked by my stepson and sprayed all over the place....</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $ARGS[0]="Go out and have a shot":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\出门前~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=60 & $JM.LOVE+=10 & gt ''Mugou_Pharmaceutical''">Send her to the company</a></div>'
+		'<div class="button"><a href="exec: minutes+=60 & gt ''home''">Send her out</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>-<<$JM.name>>: Don`t do this....I will be late~！ </p>'
+		'<p>-Although she said so, she still rode on you skillfully.</p>'
+		'<p>-<<$JM.name>>： <<$words>></p>'
+		'<p>-<<$JM.name>>： <<$Panting>></p>'
+		$JM.BAD+=10
+	'</div>'
+
+end
+
+if $args[0]="JM_Fuck_First medicine":
+	$JM_Event_mgf=0
+	if $JM.bad>= a*10+20:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药1''">Strong kiss</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药2''">Touch down</a></div>'
+			end
+			if a!3 and 2<=q and q<=4:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药3''">Forced water spray</a></div>'
+			end
+			if a!4 and 3<=q and q<=5:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药4''">Forced oral sex</a></div>'
+			end
+			if a!5 and 4<=q and q<=6:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药5''">Forced insertion</a></div>'
+			end
+			if a!6 and 5<=q and q<=8:
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药6''">Orgasm in the back position</a></div>'
+			end
+			if a!7 and 6<=q and q<=10:
+			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药7''">Riding position orgasm</a></div>'
+			end
+			if a!8 and q>=8:
+			'<div class="button"><a href="exec:a=8 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药8''">Sprint again</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药9''">Bukkake</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=10 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药10''">External shot</a></div>'
+			end
+			if a>=9: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药11'',''结束''">Admire her show</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">Take her home to rest</a></div>'
+
+			'</div>'
+	end
+
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p>You took her into a hotel.</p>'
+			 '<p><<$JM.name>>Uhhhhhhhhhhhh，..My mouth is blocked and I can`t make a sound at all..</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q+5
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: No way....Stop it.....She suddenly woke up~</p>'
+		 '</div>'
+	end
+	if 5>=a and a>=2 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=6 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>..</p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q+5
+		 $JM.love+= q+my.charm
+		 $JM_Event_mgfs+=1
+		 $JM_MGF=1
+		 '<div class="dialog_menu">'
+			 '<p><<$Panting>>Due to McGovern`s influence, her eyes fell to the ground in confusion....The remaining orgasms washed her consciousness again and again...</p>'
+			 '<p><<$Panting2>>I still want.....Now you start to guess what happened on the board of directors....</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+
+if $ARGS[0]="First medicine encounter":
+	'<div class ="show_menu"><img src="images\NPC\JM\pics\下班.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+	    '<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药1''">Take her to rest</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''home''">Go home alone</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>- <<$jm.name>>Walking on the side of the road in a daze.....It should be McGovern`s role....</p>'
+	'</div>'
+
+end
+
+if $args[0]="JM_Fuck_bathroom":
+	if $JM.bad>= a*10+35:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''淋浴1''">tease</a></div>'
+			end
+			if a=1:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''淋浴2''">Play with her</a></div>'
+			end
+			if a!3 and 2<=q and q<=4:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''淋浴3''">Kneel down and have oral sex</a></div>'
+			end
+			if a!4 and 3<=q and q<=5:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''淋浴4''">Fuck her</a></div>'
+			end
+			if a!5 and 4<=q and q<=6:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''淋浴5''">Bukkake</a></div>'
+			end
+			if a=5: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''淋浴6'',''结束''">leave</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''Home_bedroom''">Go back to the room</a></div>'
+				if $JM_Event_mgfs>=3:
+				'<div class="button"><a href="exec:minutes+=60 & q=0 &a=2& gt ''Stepmom_event'',''JM_Fuck_McGovern'',''Bathroom accessories''">Let her follow you</a></div>'
+				end
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><She watched you come in in a daze, but didn`t make any sound.....</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	if 3>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=4 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>..</p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p>..She looked at you leaving, as if she was a little lonely....</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $args[0]="JM_Fuck_McGovern":
+	if $JM.bad>= a*10+35:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=1:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬1''">Pull her to force</a></div>'
+			end
+			if a!2 and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬2''">Start fucking her</a></div>'
+			end
+			if a!3 and 2<=q and q<=8:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬3''">Fuck her to orgasm</a></div>'
+			end
+			if a!4 and 3<=q and q<=9:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬4''">Fuck her out of her mind</a></div>'
+			end
+			if a!5 and a!6 and 4<=q :
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬5''">Crazy thrusting</a></div>'
+			end
+			if a=5:
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬6''">Bukkake</a></div>'
+			end
+			if a=5:
+			'<div class="buttonS"><a href="exec:a=8 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬8''">Internal injection</a></div>'
+			end
+			if a=6 or a=8: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬7'',''结束''">One hour later</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$jm.name>>...I want..I want..Give it to me....The way she is dissatisfied with her desire makes you get an erection all of a sudden......</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	if 2>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=3 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>..</p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q
+		 $JM.love+= q+5+my.charm
+		 $JM_Event_mgfs+=1
+		 
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ...Big cock is great......I still want...Fuck me..<<$Panting>>.Fuck me.....Fuck your mother.......</p>'
+			 '<p>....She keeps twitching, twisting, and convulsing on your body...The pleasure of orgasm occupied her consciousness........</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $ARGS[0]="Set off for an appointment":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\约会1~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes += 180 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''约会2''">Departure</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>- It didn`t take long for a beautiful figure to appear in front of you.</p>'
+		'<p>- Me: You are so beautiful!No wonder dad likes you!</p>'
+		'<p>- <<$jm.name>>: Ahem....Let`s go!(The staff will think we are lovers!）</p>'
+	'</div>'
+
+end
+
+if $args[0]="JM_Fuck_Hot spring":
+	$JM_Event_date=0
+	if $JM.bad>= a*10+35:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉0开幕''">tease</a></div>'
+			end
+			if a!2 and 1<=q and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉1挑逗''">Play with small holes</a></div>'
+			end
+			if a!3 and 2<=q and q<=4:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉3口交''">Deep throat</a></div>'
+			end
+			if a!4 and 3<=q and q<=5:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉4sex''">Female upper</a></div>'
+			end
+			if a!5 and 4<=q and q<=6:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉5sex''">Kissing and riding</a></div>'
+			end
+			if a!6 and a!7 and 5<=q :
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉6冲刺sex''">Anal sex sprint</a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉7射''">Ejaculation</a></div>'
+			end
+			if a=6:
+			'<div class="button"><a href="exec:a=8 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''偷窥后入''">Outdoor situation</a></div>'
+			end
+			if a=7: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''床上8结束'',''结束''">One hour later</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">Go home</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$jm.name>>: OK, ok....Just give me a new plan....'
+			 '<p>Me: Why is it not over yet?......'
+			 '<p><<$jm.name>>...correct....The old plan has been rejected....Ok..You give me an answer as soon as possible.....</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	
+	if a=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$jm.name>>...Sorry...There was an emergency meeting just now....Son, have you been waiting for a long time?..Mom will make it up to you...</p>'
+		 '</div>'
+	end
+	
+	if 3>=a and a>=2:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=4 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>..</p>'
+			 if a=8:
+			 '<p>???: Great...I want a big dick to fuck me too.....</p>'
+			 end
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q+5
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：..So happy.....I haven`t been so happy in a long time......It feels so good to put down work and have sex desperately.....It`s getting late..We should go home...</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+if $args[0]="JM_Fuck_3P":
+	if $JM.bad>= a*10+35:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P1挑逗''">Lick cock and masturbate</a></div>'
+			end
+			if a!2 and 0<q and  q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P2挑逗2''">Forced orgasm</a></div>'
+			end
+			if a!3 and 2<=q and q<=4:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P3口交1''">Give me a blowjob</a></div>'
+			end
+			if a!4 and 2<=q and q<=4:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P4口交2''">Give him oral sex</a></div>'
+			end
+			if a!5 and 4<=q and q<=8:
+			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P5sex''">Fuck me</a></div>'
+			end
+			if a!6 and 4<=q and q<=8:
+			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P6sex''">Change him to fuck</a></div>'
+			end
+			if a!7 and  5<=q and q<=11:
+			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P7冲刺sex''">Gentle thrusting</a></div>'
+			end
+			if a!8 and 5<=q and q<=12:
+			'<div class="button"><a href="exec:a=8 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P8冲刺2sex''">Violent sprint</a></div>'
+			end
+			if a=8:
+			'<div class="button"><a href="exec:a=9 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P9射''">Bukkake swallowing semen</a></div>'
+			end
+
+			if a=9: 
+			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P10结束'',''结束''">One hour later</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$jm.name>>...Since the grief that happened before can no longer be changed, then avenge me fiercely, whatever you want...</p>'
+		 '</div>'
+	end
+	if $args[1]="停止":
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!！！</p>'
+		 	 '<p>Me: What a disappointment~</p>'
+		 '</div>'
+	end
+	if 4>=a and a>=1 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： ..<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if a>=5 :
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>： <<$words>>..</p>'
+		 '</div>'
+	end
+	
+	if a=-1:
+		 $JM.bad+= q
+		 $JM.love+= q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：..The open pussy was fucked by you and made a sticky sound of water. In the climax again and again, the second and third waves of thick pulp were also hurriedly poured into the depths of her flower hole...</p>'
+		 '</div>'
+	end
+		
+
+ q+=1
+
+end
+
+
+if $args[0]="JM_Fuck_Night attack":
+	if $JM.bad>= a*10+35:
+		else:
+		$args[1]="停止"
+		$args[2]="结束"
+	end
+
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\夜袭1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if $args[2]!"结束":
+		'<div class="button_menu">'
+			if a!1 and q<=2:
+			'<div class="buttonS1"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_Night attack''">Touch your mouth</a></div>'
+			end
+			if a!2 and 1<=q and q<=3:
+			'<div class="buttonS2"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_Night attack''">Look at the panties</a></div>'
+			end
+			if a!3 and 2<=q and q<=4:
+			'<div class="buttonS3"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_Night attack''">Play with breasts</a></div>'
+			end
+			if a!4 and 3<=q and q<=6:
+			'<div class="buttonS4"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_Night attack''">Touch the nipple</a></div>'
+			end
+			if 4<=q and $JM.bad>=100:
+			'<div class="buttonS5"><a href="exec:a=0 & q=0 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Wake up and have sex</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+
+				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
+
+			'</div>'
+	end
+
+	if $args[2]!"结束":
+		 '<div class="dialog_menu">'
+			 '<p><<$jm.name>>：zzZ'
+			 '<p>I：......'
+		 '</div>'
+	end
+	if $args[2]="结束":
+		 '<div class="dialog_menu">'
+		 	 '<p>Me: It`s too dangerous, I don`t want to wake her up....</p>'
+		 	 $my.ethics-=1
+		 '</div>'
+	end
+
+ q+=1
+
+end
+
+if $args[0]="JM_Fuck_Night attack2":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\夜袭2-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a<8:
+		'<div class="button_menu">'
+			if a!1  and q<=2:
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Kneading</a></div>'
+			end
+			if a!2  and 1<=q and q<=3:
+			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Oral sex</a></div>'
+			end
+			if a!3 and 2<=q and q<=7:
+			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">insert</a></div>'
+			end
+			if a!4 and 3<=q and q<=8:
+			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Female upper</a></div>'
+			end
+			if a!5 and 4<=q :
+			'<div class="buttonS1"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">sprint</a></div>'
+			end
+			if a=5:
+			'<div class="buttonS2"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Fuck her</a></div>'
+			end
+			if a=5:
+			'<div class="buttonS3"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Ejaculation</a></div>'
+			end
+			if a=7:
+			'<div class="button"><a href="exec:a=8 &gt ''Stepmom_event'',''JM_Fuck_Night attack2''">afterwards</a></div>'
+			end
+
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: I knew it was you little villain!</p>'
+		 '</div>'
+	end
+
+
+
+	if 2>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：<<$Panting>></p>'
+		 '</div>'
+	end
+
+	if 7>=a and a>=3:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>：<<$words>></p>'
+		 '</div>'
+	end
+
+
+	if a=8:
+		$JM.love+=q+my.charm
+		$JM.bad+=q
+		 '<div class="dialog_menu">'
+			 '<p>Me: I think you enjoy it.</p>'
+			 '<p><<$JM.name>>:Really, don`t disturb my sleep.Get out!</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $ARGS[0]="Villa entrance":
+
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\JM\vids\来访N.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+	'<div class="button_menu">'
+		if $JM.love>=500:'<div class="buttonS"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Go straight to the bedroom</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of intimacy</a></div>'
+		if $JM.bad>=500:'<div class="buttonPu4"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_basement''">Go to the basement</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
+		'<div class="button"><a href="exec:gt ''Big_villa''">Not available today</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>- As soon as the door opened, a beautiful figure appeared in front of you.</p>'
+		'<p>- <<$jm.name>>: It`s a lot more elegant here than at home, it`s really spacious.</p>'
+		'<p>- <<$QB.name>>: Hello auntie.</p>'
+		'<p>- <<$SSYY.name>>: Hello auntie.</p>'
+		'<p>- <<$jm.name>>: Yo, there are so many little wives?It`s no wonder that my son doesn`t want to stay at home so lively.Mom is lonely at home, but she is dying of loneliness…</p>'
+		'<p>- Me: Mom, what are you talking about?My sister and sister at home are not also with me…</p>'
+		'<p>- <<$jm.name>>: Don`t bother you, my baby son will show me around, right❤*Glanced at you ambiguously</p>'
+	'</div>'
+
+end
+
+ 
+ 
+if $args[0]="JM_Fuck_Villa bedroom":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\进卧室1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a<12:
+		'<div class="button_menu">'
+			if a!1  and q<=2:
+			'<div class="buttonS1"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Take the initiative to serve</a></div>'
+			end
+			if a!2  and 1<=q and q<=3:
+			'<div class="buttonS1"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Licking testicles</a></div>'
+			end
+			if a!3 and 2<=q and q<=4:
+			'<div class="buttonS1"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Playing with glans</a></div>'
+			end
+			if a!4 and 3<=q and q<=5:
+			'<div class="buttonS2"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">High-speed oral sex</a></div>'
+			end
+			if a=4:
+			'<div class="buttonR2"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Ejaculation on the tongue</a></div>'
+			'<div class="buttonS4"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Go to bed and fuck</a></div>'
+			end
+
+			if a=6:
+			'<div class="buttonS2"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Turn your back to me</a></div>'
+			'<div class="buttonS3"><a href="exec:a=8 &gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Normal bit</a></div>'
+			end
+
+			if a=7 or a=8:
+			'<div class="buttonS3"><a href="exec:a=9 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Back into the sprint</a></div>'
+			end
+			if a=9:
+			'<div class="buttonS4"><a href="exec:a=10 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Mouth explosion</a></div>'
+			'<div class="buttonR4"><a href="exec:a=11 & gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Internal injection</a></div>'
+			end
+			if a=10 or a=11 or a=5:
+			'<div class="buttonP"><a href="exec:a=12 &gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Gentle</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Send her away</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Tell my mother, have you been to all the skankers who are eavesdropping at the door now?</p>'
+			 '<p>Me: Mom, it`s impolite to call women that way.</p>'
+			 '<p><<$JM.name>>: It`s okay, Mom is a slut, it`s fair for me to call them that.</p>'
+		 '</div>'
+	end
+
+
+
+	if 5>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: I don`t want to say it, do I?Do you still listen to protecting them?</p>'
+			 if a>=2:'<p><<$JM.name>>: How long can you endure it?<<$Panting>></p>'
+			 if a>=5:'<p>Me: Wait, wait, wait!</p>'
+		 '</div>'
+	end
+
+	if 9>=a and a>=6:
+		 '<div class="dialog_menu">'
+		 	 '<p>Me: I think you can`t help it first!</p>'
+			 '<p><<$JM.name>>：<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=10 or a=11:
+		 '<div class="dialog_menu">'
+			 '<p>Me: I caught every drop!</p>'
+			 '<p><<$JM.name>>: No problem!Baby son`s semen mother will enjoy every drop❤</p>'
+		 '</div>'
+	end
+	if a=12:
+		$JM.love+=q+my.charm
+		$JM.bad+=q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p>Me: Mom, my son will always love you.</p>'
+			 '<p><<$JM.name>>: Really, why do you say such sweet words ❤ Forget it, anyway, it`s impossible for your mother to give birth to you. You should try to get those outside the door to get pregnant early and let your mother hold a grandson!</p>'
+			 '<p>Me: Okay, this is your son`s strength.</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+if $args[0]="JM_Fuck_basement":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\地下室1-<<a>>.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	if a<11:
+		'<div class="button_menu">'
+			if a<4  and q=0:
+			'<div class="buttonS1"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_basement''">Pumping toys</a></div>'
+			'<div class="buttonS1"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_basement''">Shaker stuffed in</a></div>'
+			'<div class="buttonS1"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_basement''">Fingertip squirting</a></div>'
+			end
+			if a!4 and q=1:
+			'<div class="buttonS2"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_basement''">Answer the phone</a></div>'
+			end
+			if a=4:
+			'<div class="buttonS2"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_basement''">Hang up</a></div>'
+			'<div class="buttonGn"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_basement''">Wait ten minutes</a></div>'
+			end
+
+			if q=3:
+			'<div class="buttonS2"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_basement''">Pout your ass and fuck</a></div>'
+			'<div class="buttonS3"><a href="exec:a=7 & gt ''Stepmom_event'',''JM_Fuck_basement''">Press on the stairs.</a></div>'
+			'<div class="buttonR4"><a href="exec:a=8 & gt ''Stepmom_event'',''JM_Fuck_basement''">Pinch your throat and fuck</a></div>'
+			end
+
+			if q=4:
+			'<div class="buttonS5"><a href="exec:a=9 & gt ''Stepmom_event'',''JM_Fuck_basement''">High-speed sprint</a></div>'
+			end
+			if a=9:
+			'<div class="buttonR4"><a href="exec:a=10 & gt ''Stepmom_event'',''JM_Fuck_basement''">Bukkake</a></div>'
+			end
+			if a=10:
+			'<div class="buttonP"><a href="exec:a=11 & gt ''Stepmom_event'',''JM_Fuck_basement''">dialogue</a></div>'
+			end
+		'</div>'
+		else:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Take her home to rest</a></div>'
+			'</div>'
+	end
+
+	if a=0:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: Why is your basement like this?</p>'
+			 '<p>Me: You said you wanted to visit ❤</p>'
+			 '<p><<$JM.name>>: Let go of mom<<$Panting>></p>'
+		 '</div>'
+	end
+
+
+
+	if 4>=a and a>=1:
+		 '<div class="dialog_menu">'
+			 '<p><<$JM.name>>: So cool<<$Panting2>>Oh oh oh❤</p>'
+			 if a>=4:'<p>【Phone】<<$TS.name>>：<<$Protagonist`s_name>>, Do you have time for a short meeting?</p>'
+			 if a>=4:'<p>Me: It may be a bit noisy here, I`ll go to the balcony to talk to you!</p>'
+			 if a>=4:'<p><<$JM.name>>: Hey hey hey!Where are you going?Don`t leave mom alone Oh oh oh oh ❤Mom will be so happy ❤Mom, please ah ah ah ah❤</p>'
+		 '</div>'
+	end
+
+	if 10>=a and a>=5:
+		 '<div class="dialog_menu">'
+		 	 '<p>Me: Really, can`t you wait ten minutes?！</p>'
+			 '<p><<$JM.name>>: Mom is wrong<<$words>></p>'
+		 '</div>'
+	end
+
+	if a=11:
+		$JM.love+=q+my.charm
+		$JM.bad+=q+my.charm
+		 '<div class="dialog_menu">'
+			 '<p>·<<$JM.name>>He was so fucked that he completely lost consciousness and was convulsing on the ground.</p>'
+			 '<p>Me: Mom?Are you okay?</p>'
+		 '</div>'
+	end
+
+ q+=1
+
+End
+
+--- Stepmom_event ---------------------------------
+
+# Stepmother`s_office
+cls
+$metka = $ARGS[0]   
+$loc = $CURLOC
+gs'menu_gif'
+a=0 & q=0
+$StepmothersofficeNUM=RAND(1,3)
+if $Inspector_event_chain=0 and $JM.love>=400-$JM.bad :gt'Inspector_Event','First sight in the first act'
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_show'
+	gs "Mugou_Pharmacy_map"
+
+'</div>'
+
+
+if $args[0]="":
+	'<div class ="show_menu"><img src="images\place\继母办公室.jpg" width="854"></div>'
+
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office''">Kill time</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>The office is more like a small conference hall!As Mgo Pharmaceutical CEO There must be a lot of trouble.</p>'
+	'</div>'
+End
+
+if $args[0]="office":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\办公室友好<<$StepmothersofficeNUM>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Story supplement''">talk</a></div>'
+		'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Three requirements''">Three requirements</a></div>'
+		if MGF>0 and $JM_Event_mgf=0:
+		'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Use McGovern''">Use McGovern</a></div>'
+		end
+		if $JM_Event_mgf>0:
+		'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''observe''">observe</a></div>'
+		end
+		if $JM.LOVE>=100 and $JM.BAD>=100:
+		'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Propose an appointment''">Hot spring travel</a></div>'
+		end
+		
+		if $JM.LOVE>=150 and $JM.BAD>=150 and $JM_Event_3p=0:
+		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Our Lady`s Choice''">Heart of our Lady</a></div>'
+		end
+		
+		if $JM.LOVE>=150 and $JM.BAD>=150 and $JM_Event_3p=1:
+		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P0开幕''">With assistant 3P</a></div>'
+		end
+		
+		if JM.confession=0 and Bishopschoice=1:'<div class="buttonG1"><a href="exec:JM.confession=1 & $m=''JM'' & $ma=$JM.name & gt ''Nun_event'',''XN_Fuck_confession''">Invitation to church for baptism</a></div>'
+		
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>: Uh....<<$Protagonist`s_name>>...Can I help you?..</p>'
+	'</div>'
+End
+
+
+if $args[0]="People are here":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\公司开场~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		if  $JM_Event_grandpa <7:
+		'<div class="button"><a href="exec:minutes+=5 & $B=''员工'' & C=0 & gt ''Stepmom_event'',''Temporary worker''">Temporary worker</a></div>'
+		 end
+		if $JM_Event_grandpa>=5 and $JM_Event_new=1 and $JM_Event_store>=1 and 2>=$JM_Event_store:
+		 '<div class="button"><a href="exec: gt ''Stepmom_event'',''Deal with trouble''">Deal with trouble</a></div>'
+		 end
+		if $JM_Event_store=3:
+		 '<div class="button"><a href="exec: gt ''Stepmom_event'',''Take credit''">Take credit</a></div>'
+		 end
+		 if $JM_Event_grandpa>=5 and $JM_Event_new=1 and $JM_Event_store=4 and $JM_Event_grandpa <7:
+		 '<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Bitter plan''">Bitter plan</a></div>'
+		 end
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>-<<$jm.name>>Looks worried.......</p>'
+		'<p>-<<$jm.name>>：....Trouble one after another.......</p>'
+
+	'</div>'
+End
+
+if $args[0]="Story supplement":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\办公室友好2~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''About father''">About father</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''About McGovern''">About McGovern</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>: What do you want to know?</p>'
+	'</div>'
+End
+
+
+if $args[0]="About father":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\办公室友好<<$StepmothersofficeNUM>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>: Your dad and I are just a corporate marriage between chaebols. He also has a lover in the company.....It`s just a marriage.</p>'
+		'<p>Me: Who is the biological father of the elder sister and younger sister?</p>'
+		'<p><<$jm.name>>：  ....Are a few big people who can do it all at once?...I don`t know whose it is...</p>'
+		'<p>Me: About my father`s coma and hospitalization....Are there any conspiracy theories?</p>'
+		'<p><<$jm.name>>：  ....I don`t know, although the biggest beneficiary of this matter is me, I also have to bear it.1000Ten thousand losses.....</p>'
+	'</div>'
+End
+
+
+if $args[0]="About McGovern":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\办公室友好<<$StepmothersofficeNUM>>~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>: I startedB-137The research result of the project is that a pure natural nerve inhibitor, aphrodisiac, and central stimulant called McGovern has been extracted from natural plants.
+		Because there was a serious problem with the subsequent market investment.I had to let my assistant carry the pot, and he used it for this.B-137The person in charge of R&D came to blackmail me and did that to me....I heard<<$jj.name>>
+		Still secretly studying, alas.It is a Pandora`s box, which can only make people sink and crazy.</p>'
+	'</div>'
+End
+
+if $args[0]="Bitter plan":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\办公室友好3~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>Me: You should go home in the afternoon. Since Grandpa has already torn his face with you, you have to be ruthless.</p>'
+		'<p><<$jm.name>>: What do you want me to do?</p>'
+		'<p>Me: I want to watch being violated by my grandfather, so that we have a reason to do it.....</p>'
+		'<p><<$jm.name>>: Hands-on...？you.....What do you want to do?......</p>'
+		'<p>I：  ....Is what you think now!.......No matter how late it is, it will be too late....Sever the relationship between father and daughter....Removed from the board of directors....How will the news be written?...Ruined reputation....Like a bereaved dog....</p>'
+		'<p><<$jm.name>>: Enough!....I...I....What if the judge doesn`t believe us?...you..You will go to jail...</p>'
+		'<p>Me: Just do your job well. The more hot-headed people are, the more they like to be heroes.</p>'
+		$JM_Event_grandpa=6
+	'</div>'
+End
+
+if $args[0]="Three requirements":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\办公室友好2~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonS"><a href="exec:minutes+=5 & $B=''口交''  &C=0  & gt ''Stepmom_event'',''The first requirement''">The first requirement: oral sex</a></div>'
+		if  $jm.love>=-$jm.bad+120:
+		'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Stepmom_event'',''Stepmom_company_day'',''Company daily0''">The second requirement: do it here</a></div>'
+		else:
+		'<div class="buttonGr"><a href="exec:minutes+=5 &  gt ''Stepmother`s_office'',''Three requirements''">The second requirement:?？？</a></div>'
+		end
+		if soil_b>0:
+		'<div class="buttonG"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Requirements to upgrade geological analysis equipment''">The third requirement: upgrade geological analysis equipment</a></div>'
+		else:
+		'<div class="buttonGr"><a href="exec:minutes+=5 &  gt ''Stepmother`s_office'',''Three requirements''">The third requirement:?？？</a></div>'
+		end
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>：...I promised you.....Help me deal with three troubles.....Agree to your three requirements....</p>'
+	'</div>'
+End
+
+
+if $args[0]="Requirements to upgrade geological analysis equipment":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\家友好~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>Me: Can you allocate a little more money to purchase a few more soil geological analyzers?It is best to be the latest model that can detect trace metal elements.......</p>'
+		'<p><<$jm.name>>：.....Since you said that, then this is one of the requirements.I`m going to order now, you can`t go back!....</p>'
+		$DZ.event_equipment=1
+	'</div>'
+End
+
+if $args[0]="Use McGovern":
+	'<div class ="show_menu"><img src="images\NPC\JM\pics\下药.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=30 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>You will start from<<$jj.name>>McGovern from there got mixed in<<$jm.name>>In the cup.</p>'
+		$JM_Event_mgf=1
+		MGF-=1
+	'</div>'
+End
+
+if $args[0]="observe":
+		$StepmotherobservationNUM=RAND(0,10)
+		if  $JM_Event_mgfs < $StepmotherobservationNUM:
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\NPC\JM\vids\办公室友好<<$StepmothersofficeNUM>>~1.webm" type=''video/webm;''></video></div>'
+			'</div>'
+		 else:
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\NPC\JM\vids\首药0~1.webm" type=''video/webm;''></video></div>'
+			'</div>'
+		end
+
+		
+	'<div class="button_menu">'
+		if  $JM_Event_mgfs < $StepmotherobservationNUM:
+			'<div class="button"><a href="exec:minutes+=30 & gt ''Mugou_Pharmaceutical''">Wait a minute...</a></div>'
+		 else:
+		  	'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药1''">Take her to rest</a></div>'
+		  	end
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>：(￢_￢)Aim...</p>'
+	'</div>'
+End
+
+if $args[0]="Propose an appointment":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\家友好~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p>Me: I heard that a new hot spring restaurant has opened. Do you want to take a bath?......</p>'
+		'<p><<$jm.name>>：.....Do you want to take a bath, or do you want to soak me?</p>'
+		'<p>Me: It depends on what mom means....？</p>'
+		'<p><<$jm.name>>：.....I still have a few meetings to be held this week, but I should be able to take time out.At three o`clock in the afternoon on Friday, you go to the hall and wait for me to come out after the meeting.</p>'
+		$JM_Event_date=1
+	'</div>'
+End
+
+if $args[0]="Our Lady`s Choice":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\JM\vids\HM交谈~1.webm" type=''video/webm;''></video></div>'
+		'</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:$JM_Event_3p=1 & minutes+=5 & gt ''Mugou_Pharmaceutical''">Leave him3P</a></div>'
+		'<div class="button"><a href="exec:$JM_Event_3p=2 & minutes+=5 & gt ''Mugou_Pharmaceutical''">Let him roll</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'
+		'<p><<$jm.name>>：.....The previous assistant, I rehired him....In fact, I am also ashamed of him for this matter....I heard that he devoted all his research work to it before..</p>'
+		'<p>Me: What....？He doesn`t have your handle anymore.B-137Didn`t I give you the file?？</p>'
+		'<p><<$jm.name>>：.....Hmm..But he is the first McGovern volunteer. Since he does not pose a threat to me, it is better to keep him.........</p>'
+		'<p>Me: I think you are addicted to being raped by him.</p>'
+		'<p><<$jm.name>>：.....If you agree to keep him......We can3P.....</p>'
+	'</div>'
+End
+
+
+
+ 
+--- Stepmother`s_office ---------------------------------
+
