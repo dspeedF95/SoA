@@ -15,8 +15,11 @@ oname = str(sys.argv[2])
 
 # read the project xml file first
 # let's do this later in order to implement directory structure
+'''
 tree = ET.parse('SOB_CE.qproj')
 root = tree.getroot()
+
+'''
 
 
 ofile = io.open(oname, 'w', encoding='utf-16', newline='\r\n')
