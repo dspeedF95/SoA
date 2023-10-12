@@ -180,8 +180,8 @@ End
 
 if $ARGS[0]="Private office":
 	if $Debtcollection=0:gt'Boss_event','Debtcollection dialogue'
-	if $Boss_event_chain=6  and $Bossonthetop!999:gt'The_night_is_fine.','Aftermath'
-	if $Bossonthetop=999 and $LB.love>=200 and rand(0,50)>=40:gt'The_night_is_fine.','Random office'
+	if $Boss_event_chain=6  and $Bossonthetop!999:gt'The_night_is_fine','Aftermath'
+	if $Bossonthetop=999 and $LB.love>=200 and rand(0,50)>=40:gt'The_night_is_fine','Random office'
 	'<div class ="show_menu"><img src="images\NPC\LB\pics\office<<rand(0,2)>>.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
