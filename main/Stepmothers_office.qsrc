@@ -1,11 +1,11 @@
-# Stepmother`s_office
+# Stepmothers_office
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
 gs'menu_gif'
 a=0 & q=0
 $StepmothersofficeNUM=RAND(1,3)
-if $Inspector_event_chain=0 and $JM.love>=400-$JM.bad :gt'Inspector_Event','First sight in the first act'
+if $Inspector_event_chain=0 and $JM.love>=400-$JM.bad:gt'Inspector_Event','First sight in the first act'
 
 '<div id="right-column">'
 	gs"Energy_judgment"
@@ -22,7 +22,7 @@ if $args[0]="":
 
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office''">Kill time</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmothers_office''">Kill time</a></div>'
 	'</div>'
 
 
@@ -38,20 +38,20 @@ if $args[0]="office":
 		'</div>'
 
 	'<div class="button_menu">'
-		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Story supplement''">talk</a></div>'
-		'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Three requirements''">Three requirements</a></div>'
+		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''Story supplement''">talk</a></div>'
+		'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''Three requirements''">Three requirements</a></div>'
 		if MGF>0 and $JM_Event_mgf=0:
-		'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Use McGovern''">Use McGovern</a></div>'
+		'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''Use McGovern''">Use McGovern</a></div>'
 		end
 		if $JM_Event_mgf>0:
-		'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''observe''">observe</a></div>'
+		'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''observe''">observe</a></div>'
 		end
 		if $JM.LOVE>=100 and $JM.BAD>=100:
-		'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Propose an appointment''">Hot spring travel</a></div>'
+		'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''Propose an appointment''">Hot spring travel</a></div>'
 		end
 		
 		if $JM.LOVE>=150 and $JM.BAD>=150 and $JM_Event_3p=0:
-		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Our Lady`s Choice''">Heart of our Lady</a></div>'
+		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''Our Lady`s Choice''">Heart of our Lady</a></div>'
 		end
 		
 		if $JM.LOVE>=150 and $JM.BAD>=150 and $JM_Event_3p=1:
@@ -87,7 +87,7 @@ if $args[0]="People are here":
 		 '<div class="button"><a href="exec: gt ''Stepmom_event'',''Take credit''">Take credit</a></div>'
 		 end
 		 if $JM_Event_grandpa>=5 and $JM_Event_new=1 and $JM_Event_store=4 and $JM_Event_grandpa <7:
-		 '<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Bitter plan''">Bitter plan</a></div>'
+		 '<div class="button"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''Bitter plan''">Bitter plan</a></div>'
 		 end
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
 	'</div>'
@@ -107,8 +107,8 @@ if $args[0]="Story supplement":
 		'</div>'
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''About father''">About father</a></div>'
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''About McGovern''">About McGovern</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''About father''">About father</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''About McGovern''">About McGovern</a></div>'
 	'</div>'
 
 
@@ -189,13 +189,13 @@ if $args[0]="Three requirements":
 		'<div class="buttonS"><a href="exec:minutes+=5 & $B=''口交''  &C=0  & gt ''Stepmom_event'',''The first requirement''">The first requirement: oral sex</a></div>'
 		if  $jm.love>=-$jm.bad+120:
 		'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Stepmom_event'',''Stepmom_company_day'',''Company daily0''">The second requirement: do it here</a></div>'
-		else:
-		'<div class="buttonGr"><a href="exec:minutes+=5 &  gt ''Stepmother`s_office'',''Three requirements''">The second requirement:?？？</a></div>'
+		else
+		'<div class="buttonGr"><a href="exec:minutes+=5 &  gt ''Stepmothers_office'',''Three requirements''">The second requirement:?？？</a></div>'
 		end
 		if soil_b>0:
-		'<div class="buttonG"><a href="exec:minutes+=5 & gt ''Stepmother`s_office'',''Requirements to upgrade geological analysis equipment''">The third requirement: upgrade geological analysis equipment</a></div>'
-		else:
-		'<div class="buttonGr"><a href="exec:minutes+=5 &  gt ''Stepmother`s_office'',''Three requirements''">The third requirement:?？？</a></div>'
+		'<div class="buttonG"><a href="exec:minutes+=5 & gt ''Stepmothers_office'',''Requirements to upgrade geological analysis equipment''">The third requirement: upgrade geological analysis equipment</a></div>'
+		else
+		'<div class="buttonGr"><a href="exec:minutes+=5 &  gt ''Stepmothers_office'',''Three requirements''">The third requirement:?？？</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
 	'</div>'
@@ -247,7 +247,7 @@ if $args[0]="observe":
 				 '<video preload="metadata" autoplay loop height="480">
 				 <source src="images\NPC\JM\vids\办公室友好<<$StepmothersofficeNUM>>~1.webm" type=''video/webm;''></video></div>'
 			'</div>'
-		 else:
+		 else
 			'<div class="show_menu">'
 				 '<video preload="metadata" autoplay loop height="480">
 				 <source src="images\NPC\JM\vids\首药0~1.webm" type=''video/webm;''></video></div>'
@@ -258,7 +258,7 @@ if $args[0]="observe":
 	'<div class="button_menu">'
 		if  $JM_Event_mgfs < $StepmotherobservationNUM:
 			'<div class="button"><a href="exec:minutes+=30 & gt ''Mugou_Pharmaceutical''">Wait a minute...</a></div>'
-		 else:
+		 else
 		  	'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药1''">Take her to rest</a></div>'
 		  	end
 	'</div>'
@@ -313,5 +313,5 @@ End
 
 
  
---- Stepmother`s_office ---------------------------------
+--- Stepmothers_office ---------------------------------
 

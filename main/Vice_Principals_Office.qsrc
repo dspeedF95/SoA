@@ -1,4 +1,4 @@
-# Vice_Principal`s_Office
+# Vice_Principals_Office
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
@@ -25,17 +25,17 @@ if $args[0]="":
 	'</div>'
 
 	'<div class="button_menu">'
-		if  $XZ_Event_3t=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Vice_Principal`s_Office'',''dialogue''">dialogue</a></div>'
-		if $FXZ_Event_counseling=1:'<div class="button"><a href="exec:minutes+=50 & gt ''Vice_Principal`s_Office'',''Competition counseling''">Competition counseling</a></div>'
-		if $FXZ_Event_counseling=2 and  $FXZ_Event_daughter<=1:'<div class="button"><a href="exec:minutes+=15 & gt ''Vice_Principal`s_Office'',''What`s on her mind''">What`s on her mind</a></div>'
+		if  $XZ_Event_3t=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Vice_Principals_Office'',''dialogue''">dialogue</a></div>'
+		if $FXZ_Event_counseling=1:'<div class="button"><a href="exec:minutes+=50 & gt ''Vice_Principals_Office'',''Competition counseling''">Competition counseling</a></div>'
+		if $FXZ_Event_counseling=2 and  $FXZ_Event_daughter<=1:'<div class="button"><a href="exec:minutes+=15 & gt ''Vice_Principals_Office'',''What`s on her mind''">What`s on her mind</a></div>'
 		if $FXZ_Event_counseling<2:'<div class="buttonGr"><a href="exec:">Not yet gained trust</a></div>'
-		if  day>=28:'<div class="buttonS1"><a href="exec:minutes+=15 &  gt ''Vice_Principal_Event'',''Home visit''">Home visit at the end of the month</a></div>'else:'<div class="buttonGr"><a href="exec:">At the end of the month?？</a></div>'
+		if  day>=28:'<div class="buttonS1"><a href="exec:minutes+=15 &  gt ''Vice_Principal_Event'',''Home visit''">Home visit at the end of the month</a></div>'else'<div class="buttonGr"><a href="exec:">At the end of the month?？</a></div>'
 		if hour=17 and $FXZ_Event_daughter=1: '<div class="buttonS2"><a href="exec:minutes+=15 & gt ''Writer_event'',''First meeting''">Go to her house</a></div>'
 		if  $FXZ_Event_daughter=2 and $ZJ_Event_count<3: '<div class="buttonS2"><a href="exec:minutes+=15 & gt ''Writer_event'',''Second meeting''">Free</a></div>'
-		if $FXZ_Event_counseling>=2:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Winning reward''">Winning reward</a></div>'else:'<div class="buttonGr"><a href="exec:">？？reward</a></div>'
-		if  $FXZ.bad>=150:'<div class="buttonS4"><a href="exec:minutes+=15 &  gt ''Vice_Principal_Event'',''FXZ_Fuck_office''">Fuck her</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-	    if  $FXZ.bad>=330-$FXZ.love and hour=17:'<div class="buttonS5"><a href="exec:minutes+=15 &  gt ''Vice_Principal_Event'',''FXZ_Fuck_Principal`s Office''">Go to the principal`s office to have sex</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if Inseminationroomopen=1 and $FXZ.bad>=200 and $FXZ.Insemination=0:'<div class="buttonS"><a href="exec:$FXZ.Insemination=1 & gt ''Vice_Principal`s_Office''">Invite artificial insemination</a></div>'
+		if $FXZ_Event_counseling>=2:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Winning reward''">Winning reward</a></div>'else'<div class="buttonGr"><a href="exec:">？？reward</a></div>'
+		if  $FXZ.bad>=150:'<div class="buttonS4"><a href="exec:minutes+=15 &  gt ''Vice_Principal_Event'',''FXZ_Fuck_office''">Fuck her</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+	    if  $FXZ.bad>=330-$FXZ.love and hour=17:'<div class="buttonS5"><a href="exec:minutes+=15 &  gt ''Vice_Principal_Event'',''FXZ_Fuck_Principal`s Office''">Go to the principal`s office to have sex</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if Inseminationroomopen=1 and $FXZ.bad>=200 and $FXZ.Insemination=0:'<div class="buttonS"><a href="exec:$FXZ.Insemination=1 & gt ''Vice_Principals_Office''">Invite artificial insemination</a></div>'
 
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
 	'</div>'
@@ -47,9 +47,9 @@ if $args[0]="":
 		if  $FXZ_Event_daughter=2 and $ZJ_Event_count<3:  '<p><<$FXZ.name>>: The effect is good!My daughter keeps asking when you will go, are you free now?</p>'
 		if  $FXZ_Event_daughter=2 and $ZJ_Event_count>=3: 
 		'<p><<$FXZ.name>>: My daughter has become more cheerful recently, and she told me what she wants to do full-time....You helped her a lot...This is the backup key to my house. You usually go and chat with her more when I`m away!</p>'
-	    if $FXZ.key=0:'<p><a href="exec:minutes+=15 & $FXZ.KEY=1 & gt ''Vice_Principal`s_Office''">Take the key</a></p>'
+	    if $FXZ.key=0:'<p><a href="exec:minutes+=15 & $FXZ.KEY=1 & gt ''Vice_Principals_Office''">Take the key</a></p>'
 	    end 
-	    if  $FXZ.bad>=330-$FXZ.love and  hour!17 :'<p><<$FXZ.name>>: Remember to come to me after school, I will take you to a good place!</p>'
+	    if  $FXZ.bad>=330-$FXZ.love and  hour!17:'<p><<$FXZ.name>>: Remember to come to me after school, I will take you to a good place!</p>'
 	    if $Picket_mission=1:'<p>·The members of the school picket team behind the door arrived, and they motioned to her<a href="exec:minutes+=15 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Picket line''">Sign the abstention statement</a></p>'
 	'</div>'
 End
@@ -61,8 +61,8 @@ if $args[0]="dialogue":
 	'</div>'
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=5 &fxzdh=1& gt ''Vice_Principal`s_Office'',''dialogue''">How many years have you taught?</a></div>'
-		'<div class="button"><a href="exec:minutes+=5 &fxzdh=2& gt ''Vice_Principal`s_Office'',''dialogue''">You are right<<$xz.name>>Are you satisfied?</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 &fxzdh=1& gt ''Vice_Principals_Office'',''dialogue''">How many years have you taught?</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 &fxzdh=2& gt ''Vice_Principals_Office'',''dialogue''">You are right<<$xz.name>>Are you satisfied?</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -103,7 +103,7 @@ if $args[0]="Competition counseling":
 
 	'<div class="dialog_menu">'
 		'<p>·I reviewed it carefully.</p>'
-		'<p><<$FXZ.name>>：<<$Protagonist`s_surname>> Classmate!The teacher will seriously tutor you!(Alas!What`s the matter.Are you the only one who signed up?..It`s hard to get the title now...）</p>'
+		'<p><<$FXZ.name>>：<<$Protagonists_surname>> Classmate!The teacher will seriously tutor you!(Alas!What`s the matter.Are you the only one who signed up?..It`s hard to get the title now...）</p>'
 		'<p>Me: It seems that I am a lone seedling?</p>'
 		if $Reviewprogress>=40:'<p><<$FXZ.name>>: Not bad, not bad, the big framework has been thoroughly combed.I also submitted your name.You can go to the game after a while.During this time, we will continue to go through the little knowledge.</p>'
 		if $Reviewprogress>=60:'<p>Me: Can this name be changed after it is submitted?</p>'
@@ -150,5 +150,5 @@ if $args[0]="Win over":
 	'</div>'
 End
 
---- Vice_Principal`s_Office ---------------------------------
+--- Vice_Principals_Office ---------------------------------
 

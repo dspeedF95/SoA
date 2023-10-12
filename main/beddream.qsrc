@@ -16,7 +16,7 @@ if $gg['incentive'] < 10000:
 if random = 1:$gg['incentive'] +=25
 if random = 2:$gg['incentive'] +=5
 if random = 3:$gg['incentive'] +=25
-if random = 4 and $data['Event_momma_red_wine'] = 0 :$gg['incentive'] +=5
+if random = 4 and $data['Event_momma_red_wine'] = 0:$gg['incentive'] +=5
 if random = 5:$gg['incentive'] +=25
 if random = 6 and $data['Start_communication_anya'] = 1:$gg['incentive'] +=25
 if random = 6 and $data['Start_communication_anya'] = 0:jump'dream'
@@ -26,8 +26,8 @@ if random = 8 or random =9 and $data['Mom_and_aunt_massage'] = 1:$gg['incentive'
 if random = 8 or random =9 and $data['Mom_and_aunt_massage'] = 0:jump'dream'
 if random = 10 and $character_Маша['relationship'] >= 700:$gg['incentive'] +=25
 if random = 10 and $character_Маша['relationship'] < 700:jump'dream'
-if random =4 and $data['Event_momma_red_wine'] = 1 and $data['compensation'] < 3 :random = rand(20,23)	
-if random =4 and $data['Event_momma_red_wine'] = 1 and $data['compensation'] = 3 :random = rand(20,28)	
+if random =4 and $data['Event_momma_red_wine'] = 1 and $data['compensation'] < 3:random = rand(20,23)	
+if random =4 and $data['Event_momma_red_wine'] = 1 and $data['compensation'] = 3:random = rand(20,28)	
 if random >= 21:$gg['incentive'] +=25
 
 
@@ -47,7 +47,7 @@ if random >= 24 and random <=28:'<div class ="show_menu"><video preload="metadat
 '<div class="button_menu">'
 	if week_day >= 1 and week_day <= 5 and hour >=7 and hour < 10 or week_day >= 6 and week_day <= 7 and hour >= 9 and hour < 11:
 	'<div class="button"><a href="exec: gt ''bedroom_gg'',''auntup''">.........</a></div>'
-	else: 
+	else 
 		'<div class="button"><a href="exec: gt ''bedroom_gg''">Get up</a></div>'
 	end	
 	'</div>'

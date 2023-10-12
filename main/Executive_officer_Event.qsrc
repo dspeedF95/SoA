@@ -59,7 +59,7 @@ if $args[0]="ZXG_Fuck_Enforcement":
 			
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if q>10:'<div class="button"><a href="exec:minutes+=30 & jings=0 &a=0&q=0& gt ''Andrology_Event'',''NK_Fuck_check''">Substitution</a></div>'
 				if q<=10:'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_life_in_prison''">Go back</a></div>'
@@ -137,7 +137,7 @@ if $args[0]="Executive officer_Fuck_P1pan":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">End of punishment</a></div>'
             '</div>'
@@ -197,7 +197,7 @@ if $args[0]="Executive officer_Fuck_work1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:ZXGG1=100 & gt ''suburbs''">Passed the audit</a></div>'
                 if ZXGG1<100:'<div class="buttonR"><a href="exec:gt ''suburbs''">Do not pass</a></div>'
@@ -263,7 +263,7 @@ if $args[0]="Executive officer_Fuck_work2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:ZXGG2=100 &gt ''suburbs''">Passed the audit</a></div>'
                if ZXGG2<100:'<div class="buttonR"><a href="exec:gt ''suburbs''">Do not pass</a></div>'
@@ -336,7 +336,7 @@ if $args[0]="Executive officer_Fuck_Ypan":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">End of training</a></div>'
             '</div>'
@@ -408,7 +408,7 @@ if $args[0]="Executive officer_Fuck_Qpan":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">Leave her to rest alone</a></div>'
                 !'<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Police_station''">Passed the assessment</a></div>'
@@ -500,7 +500,7 @@ if $args[0]="Executive officer_Fuck_ask":
             '<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_ask''">Subject to interrogation </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''suburbs''">leave</a></div>'
             '</div>'
@@ -573,7 +573,7 @@ if $args[0]="Executive officer_Fuck_GZpan1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 if $m='DD':
 				'<div class="buttonGn"><a href="exec:DDGZ1=100 & gt ''suburbs''">Passed the audit</a></div>'
@@ -625,7 +625,7 @@ if $args[0]="Executive officer_Fuck_understand":
             if a!0:'<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_understand''">Do it </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Police_station''">leave</a></div>'
             '</div>'
@@ -680,7 +680,7 @@ if $args[0]="Executive officer_Fuck_corruption":
             if a=10:'<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Begging for mercy </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Police_station''">Detain her</a></div>'
             '</div>'
@@ -693,17 +693,17 @@ if $args[0]="Executive officer_Fuck_corruption":
              '<p><<$TJ.name>>: I have already checked the matter of you using the inferior semen handed over by the executives to sell to the Imperial Group to collect huge profits.</p>'
              '<p>Taku Yoshimura: Unexpectedly, you still have this kind of ability, and you actually found it on my head.</p>'
              if a>=1:'<p><<$TJ.name>>: <<$Protagonist`s_name>>, The bank card that accepted bribes was placed in the safe behind him.You help me control him!</p>' 
-             if a>=1:'<p>Taku Yoshimura: <<$Protagonist`s_surname>> Comrade, this matter can be completely reduced to small things, and small things can be reduced to small things.You help me hold her down, otherwise, I will kill you.</p>' 
+             if a>=1:'<p>Taku Yoshimura: <<$Protagonists_surname>> Comrade, this matter can be completely reduced to small things, and small things can be reduced to small things.You help me hold her down, otherwise, I will kill you.</p>' 
              if a>=1:'<p>I: What?pistol……</p>' 
              if a>=1:'<p><<$TJ.name>>: <<$Protagonist`s_name>>！</p>' 
-             if a>=1:'<p>Taku Yoshimura: <<$Protagonist`s_surname>> Comrade, do you want to die?</p>' 
+             if a>=1:'<p>Taku Yoshimura: <<$Protagonists_surname>> Comrade, do you want to die?</p>' 
          '</div>'
     end
 
     if 9>=a and a>=2:
          '<div class="dialog_menu">'
              if a>=2:'<p><<$TJ.name>>: <<$Protagonist`s_name>>！Let me go!</p>' 
-             if a>=2:'<p>Taku Yoshimura: <<$Protagonist`s_surname>> Comrade, well done!</p>' 
+             if a>=2:'<p>Taku Yoshimura: <<$Protagonists_surname>> Comrade, well done!</p>' 
              if a>=3:'<p><<$TJ.name>>: <<$Panting>></p>'
              if a=3:'<p>Taku Yoshimura: Let me see, where did you hide the recording equipment?！</p>' 
              if a=4:'<p>Taku Yoshimura: It doesn`t seem to be here either…</p>'
@@ -717,10 +717,10 @@ if $args[0]="Executive officer_Fuck_corruption":
          '<div class="dialog_menu">'
              '<p><<$TJ.name>>: <<$Protagonist`s_name>>！You bastard!You actually defected!Do you think he will let you go?</p>'
              '<p>I: Ah...what are you going to do!I was threatened with a gun!</p>'
-             if a>=11:'<p>Taku Yoshimura: I think，<<$Protagonist`s_surname>> Comrade is a good comrade. He found out the tax thief in the team for us today without our knowledge, right?</p>' 
+             if a>=11:'<p>Taku Yoshimura: I think，<<$Protagonists_surname>> Comrade is a good comrade. He found out the tax thief in the team for us today without our knowledge, right?</p>' 
              if a>=11:'<p>I: …………</p>' 
              if a>=11:'<p><<$TJ.name>>: I won`t let you go!<<$Protagonist`s_name>>！</p>' 
-             if a>=11:'<p>Taku Yoshimura: What are you nervous about，<<$Protagonist`s_surname>> Comrade, come and join me in detaining her back.</p>' & TJLJ2=100
+             if a>=11:'<p>Taku Yoshimura: What are you nervous about，<<$Protagonists_surname>> Comrade, come and join me in detaining her back.</p>' & TJLJ2=100
          '</div>'
     end
   q+=1
@@ -757,7 +757,7 @@ if $args[0]="Executive officer_Fuck_mandatory":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Police_station''">leave</a></div>'
             '</div>'
@@ -796,7 +796,7 @@ if $args[0]="Executive officer_Fuck_supermarket":
             '<div class="buttonS"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_supermarket''">。。。 </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonR"><a href="exec:gt ''Police_station''">Boom——</a></div>'
             '</div>'
@@ -856,7 +856,7 @@ if $args[0]="Executive officer_Fuck_boyfriend":
             if a!0:'<div class="button"><a href="exec:a+=1 & gt ''Executive_officer_Event'',''Executive officer_Fuck_boyfriend''">Drunk </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -951,7 +951,7 @@ if $args[0]="Executive officer_Fuck_Get in the car":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Executive_officer_Event'',''Go to her house''">Go to her house</a></div>'
                 '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
@@ -1018,7 +1018,7 @@ if $args[0]="Executive officer_Fuck_DDoffice":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Police_station''">leave</a></div>'
             '</div>'
@@ -1076,7 +1076,7 @@ if $args[0]="Executive officer_Fuck_DDordinary":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1142,7 +1142,7 @@ if $args[0]="Executive officer_Fuck_DDCollar":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1206,7 +1206,7 @@ if $args[0]="Executive officer_Fuck_DDBehind the collar":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Police_station''">Go back to work</a></div>'
                 if tuc_level3=1:'<div class="buttonP"><a href="exec:DDcos=1 & gt ''Police_station''">Wait for me in the photo studio</a></div>'
@@ -1285,7 +1285,7 @@ if $args[0]="Take her home2":
 		if a=1 and $DD.love<25:'<div class="buttonGr"><a href="exec:">Talk next time</a></div>'
 		
 		if $DD.love>=25:
-			if Porsche=1:'<div class="button"><a href="exec:a=0 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Get in the car</a></div>'else:'<div class="buttonGr"><a href="exec:">I don`t have a vehicle</a></div>'
+			if Porsche=1:'<div class="button"><a href="exec:a=0 & gt ''Executive_officer_Event'',''Executive officer_Fuck_Get in the car''">Get in the car</a></div>'else'<div class="buttonGr"><a href="exec:">I don`t have a vehicle</a></div>'
 		end
 			
 		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
@@ -1316,7 +1316,7 @@ if $args[0]="Go to her house":
 		if $DDboyfriend=0:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_boyfriend''">Don`t mind</a></div>'
 		if $DDboyfriend=1:
 		  '<div class="buttonS3"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDordinary''">Tease her</a></div>'
-		   if  $DDGetinthecar=1:'<div class="buttonS5"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Tie the collar</a></div>'else:'<div class="buttonGr"><a href="exec:">Tie the collar</a></div>'
+		   if  $DDGetinthecar=1:'<div class="buttonS5"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDCollar''">Tie the collar</a></div>'else'<div class="buttonGr"><a href="exec:">Tie the collar</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 	'</div>'

@@ -23,9 +23,9 @@ if $ARGS[0]="Chance encounter in the mall":
 	'<div class="button_menu">'
 		if a=0:'<div class="button"><a href="exec:$BGH.love+=5 & a=1 & gt ''House_next_door_event'',''Chance encounter in the mall''">Say hello</a></div>'
 		if a=1:'<div class="button"><a href="exec:a=2 & $BGH.love+=5 & gt ''House_next_door_event'',''Chance encounter in the mall''">Take her shopping</a></div>'
-		if 4>=a and a>=2 :
+		if 4>=a and a>=2:
 			if a=2:'<div class="buttonR1"><a href="exec:a=3 & $BGH.love+=10 & gt ''House_next_door_event'',''Chance encounter in the mall''">Talk about life</a></div>'
-			if a!4 and $BGH.love>30:'<div class="buttonP"><a href="exec:a=4 & $BGH.love+=10 & gt ''House_next_door_event'',''Chance encounter in the mall''">Talk about feelings</a></div>'else:'<div class="buttonGr"><a href="exec:">Talk about feelings</a></div>'
+			if a!4 and $BGH.love>30:'<div class="buttonP"><a href="exec:a=4 & $BGH.love+=10 & gt ''House_next_door_event'',''Chance encounter in the mall''">Talk about feelings</a></div>'else'<div class="buttonGr"><a href="exec:">Talk about feelings</a></div>'
 			if a=4 and $BGH.love>50:'<div class="button"><a href="exec:a=5 & $BGH.love+=9 & gt ''House_next_door_event'',''Chance encounter in the mall''">Pull to eat</a></div>'
 		end
 		if a=5:'<div class="buttonG"><a href="exec:a=6 & $BGH.love+=10 & gt ''House_next_door_event'',''Chance encounter in the mall''">Pay</a></div>'
@@ -224,7 +224,7 @@ if $args[0]="Next door_Fuck_hotel":
             if a!15 and 14<=q and q<=18:
             '<div class="buttonS3"><a href="exec:a=15 & gt ''House_next_door_event'',''Next door_Fuck_hotel''">Side position</a></div>'
             end
-            if a!16 and 15<=q :
+            if a!16 and 15<=q:
             '<div class="buttonS4"><a href="exec:a=16 & gt ''House_next_door_event'',''Next door_Fuck_hotel''">Persevere</a></div>'
             end
             if a=16:
@@ -233,7 +233,7 @@ if $args[0]="Next door_Fuck_hotel":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=1440 & hour=7 & a=0 & q=0 & gt ''House_next_door_event'',''Next door_Fuck_hotel2''">Spend the night here</a></div>'
                 !'<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
@@ -450,7 +450,7 @@ if $args[0]="Next door_Fuck_home":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -611,7 +611,7 @@ if $args[0]="Next door_Fuck_Hot spring1":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''House_next_door_event'',''Next door_Fuck_Hot spring4''">Go to dinner</a></div>'
             '</div>'
@@ -683,7 +683,7 @@ if $args[0]="Next door_Fuck_Hot spring2":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''House_next_door_event'',''Next door_Fuck_Hot spring4''">Go to dinner</a></div>'
             '</div>'
@@ -747,7 +747,7 @@ if $args[0]="Next door_Fuck_Hot spring3":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''House_next_door_event'',''Next door_Fuck_Hot spring3''">Lick clean</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=1440 & hour=7 & my.energy*=2 & a=0 & q=0 & gt ''Residential_area''">zzZ</a></div>'
             '</div>'
@@ -820,7 +820,7 @@ if $args[0]="Next door_Fuck_Hot spring4":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu3"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''House_next_door_event'',''Next door_Fuck_Hot spring3''">Spend the night here</a></div>'
             '</div>'
@@ -900,7 +900,7 @@ if $args[0]="Next door_Fuck_night":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -990,7 +990,7 @@ if $args[0]="Next door_Fuck_night2":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1073,7 +1073,7 @@ if $args[0]="Next door_Fuck_tune1":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">See you soon</a></div>'
             '</div>'
@@ -1164,7 +1164,7 @@ if $args[0]="Next door_Fuck_tune2":
             '<div class="buttonR5"><a href="exec:a=11 & gt ''House_next_door_event'',''Next door_Fuck_tune2''">Ejaculate!</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">Let you go</a></div>'
             '</div>'

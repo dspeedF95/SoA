@@ -32,7 +32,7 @@ if $ARGS[0]="First meeting":
 		end
 		if $ARGS[1]="分析":
 		'<div class="button"><a href="exec:$DZ.event_meet=10  &  gt ''restaurant''">nodded</a></div>'
-		else:
+		else
 		'<div class="button"><a href="exec: gt ''restaurant''">leave</a></div>'
 		end
 	'</div>'
@@ -210,16 +210,16 @@ if $args[0]="DZ_Fuck_drunk":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=2 :
+			if a!1 and q<=2:
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''喂水''">Feed water</a></div>'
 			end
-			if a!2 and q<=3 :
+			if a!2 and q<=3:
 			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''接吻''"">kiss</a></div>'
 			end
-			if a!3 and  5>= q and q>=2 :
+			if a!3 and  5>= q and q>=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''舔奶''">Licking milk</a></div>'
 			end
-			if a!4 and a!5 and  8>= q and q>=3 :
+			if a!4 and a!5 and  8>= q and q>=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''准备进入''">Rubbing the lower body</a></div>'
 			end
 			if a=4:
@@ -230,7 +230,7 @@ if $args[0]="DZ_Fuck_drunk":
 			'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''暧昧'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $DZ.bad>=25:
 				'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_Drunk follow-up''">The second half of the night...</a></div>'
@@ -252,7 +252,7 @@ if $args[0]="DZ_Fuck_drunk":
 		 '</div>'
 	end
 
-	if 8>=a and a>=2 :
+	if 8>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:No way..Stop it..It`s not good to be known by your sister....OS:She has robbed me of so many boyfriends, it`s not too much for me to rob her of a younger brother, right?..</p>'
 		 '</div>'
@@ -281,22 +281,22 @@ if $args[0]="DZ_Fuck_sex":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=2 :
+			if a!1 and q<=2:
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZ_Fuck_sex'',''sex1挑逗''">Licking testicles</a></div>'
 			end
-			if a!2 and q<=3 :
+			if a!2 and q<=3:
 			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_sex'',''sex2挑逗2''">Play with cock</a></div>'
 			end
-			if a!3 and  5>= q and q>=2 :
+			if a!3 and  5>= q and q>=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZ_Fuck_sex'',''sex3口交''">Oral sex</a></div>'
 			end
-			if a!4 and  8>= q and q>=3 :
+			if a!4 and  8>= q and q>=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Geology_Event'',''DZ_Fuck_sex'',''sex4sex''">Didn`t enter the whole root</a></div>'
 			end
-			if a!5 and  9>= q and q>=4 :
+			if a!5 and  9>= q and q>=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Geology_Event'',''DZ_Fuck_sex'',''sex5sex''">Top to the uterine mouth</a></div>'
 			end
-			if a!6 and a!9 and  q>=5 :
+			if a!6 and a!9 and  q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Geology_Event'',''DZ_Fuck_sex'',''sex6冲刺sex''">sprint</a></div>'
 			end
 			if a=6: 
@@ -306,7 +306,7 @@ if $args[0]="DZ_Fuck_sex":
 			'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_sex'',''暧昧'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $DZ.bad>=30:
 				'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_Drunk follow-up''">overnight</a></div>'
@@ -321,13 +321,13 @@ if $args[0]="DZ_Fuck_sex":
 		 '</div>'
 	end
 
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:Tweet-tweet-tweet——<<$Protagonist`s_name>>, Your job is not bad....No wonder your sister likes you so much...</p>'
 		 '</div>'
 	end
 
-	if 8>=a and a>=5 :
+	if 8>=a and a>=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$words>>..</p>'
 		 '</div>'
@@ -382,22 +382,22 @@ if $args[0]="DZ_Fuck_sex2":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=2 :
+			if a!1 and q<=2:
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZ_Fuck_sex2'',''sex21挑逗''">Licking milk to serve</a></div>'
 			end
-			if a!2 and q<=3 :
+			if a!2 and q<=3:
 			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_sex2'',''sex22挑逗2''">Lick cock and serve</a></div>'
 			end
-			if a!3 and a<6 and  5>= q and q>=2 :
+			if a!3 and a<6 and  5>= q and q>=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZ_Fuck_sex2'',''sex23口交''">Hand and mouth service</a></div>'
 			end
-			if a!4 and a<6 and  8>= q and q>=3 :
+			if a!4 and a<6 and  8>= q and q>=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Geology_Event'',''DZ_Fuck_sex2'',''sex24sex''">Female upper</a></div>'
 			end
-			if a!5 and a<6 and  9>= q and q>=4 :
+			if a!5 and a<6 and  9>= q and q>=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Geology_Event'',''DZ_Fuck_sex2'',''sex25sex''">Normal bit</a></div>'
 			end
-			if a!6 and a<6 and a!9 and  q>=5 :
+			if a!6 and a<6 and a!9 and  q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Geology_Event'',''DZ_Fuck_sex2'',''sex26冲刺sex''">sprint</a></div>'
 			end
 			if a=6: 
@@ -417,7 +417,7 @@ if $args[0]="DZ_Fuck_sex2":
 			'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_sex2'',''sex28结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $DZ.bad>=30:
 				'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_Drunk follow-up''">overnight</a></div>'
@@ -432,13 +432,13 @@ if $args[0]="DZ_Fuck_sex2":
 			 '<p><<$DZ.name>>:I knew you were the best~She can`t wait to wrap her tongue around you...</p>'
 		 '</div>'
 	end
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 8>=a and a>=4 :
+	if 8>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$words>></p>'
 		 '</div>'
@@ -467,22 +467,22 @@ if $args[0]="DZ_Fuck_home":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=2 :
+			if a!1 and q<=2:
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZ_Fuck_home'',''家1挑逗''">Lick the glans</a></div>'
 			end
-			if a!2 and q<=9 :
+			if a!2 and q<=9:
 			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_home'',''家2挑逗2''">Small hole thrusting</a></div>'
 			end
 			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZ_Fuck_home'',''家2挑逗3''">Small hole observation</a></div>'
 			end
-			if a!4 and 5>= q and q>=2 :
+			if a!4 and 5>= q and q>=2:
 			'<div class="button"><a href="exec:a=4 & gt ''Geology_Event'',''DZ_Fuck_home'',''家3口交''">Oral sex</a></div>'
 			end
-			if a!5 and 8>= q and q>=3 :
+			if a!5 and 8>= q and q>=3:
 			'<div class="button"><a href="exec:a=5 & gt ''Geology_Event'',''DZ_Fuck_home'',''家4sex''">Female upper</a></div>'
 			end
-			if a!6 and 9>= q and q>=4 :
+			if a!6 and 9>= q and q>=4:
 			'<div class="button"><a href="exec:a=6 & gt ''Geology_Event'',''DZ_Fuck_home'',''家5sex''">Embrace the female upper class</a></div>'
 			end
 			if a!7 and q>=5: 
@@ -495,7 +495,7 @@ if $args[0]="DZ_Fuck_home":
 			'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_home'',''家8结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''RIONBumped into''">Ready to leave</a></div>'
@@ -510,7 +510,7 @@ if $args[0]="DZ_Fuck_home":
 		 '</div>'
 	end
 
-	if 6>=a and a>=1 :
+	if 6>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$Panting>></p>'
 		 '</div>'
@@ -631,29 +631,29 @@ if $args[0]="DZ_Fuck_Secretive":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=2 :
+			if a!1 and q<=2:
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZ_Fuck_Secretive'',''隐秘1-1''">Keep kissing</a></div>'
 			end
-			if a!2 and q<=3 :
+			if a!2 and q<=3:
 			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_Secretive'',''隐秘1-2''">Squirting</a></div>'
 			end
-			if a!3 and 5>= q and q>=2 :
+			if a!3 and 5>= q and q>=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZ_Fuck_Secretive'',''隐秘1-3''">Oral sex</a></div>'
 			end
-			if a!4 and q>=3 :
+			if a!4 and q>=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Geology_Event'',''DZ_Fuck_Secretive'',''隐秘1-4''">Back position</a></div>'
 			end
-			if a!5 and q>=4 :
+			if a!5 and q>=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Geology_Event'',''DZ_Fuck_Secretive'',''隐秘1-5''">Female upper</a></div>'
 			end
-			if a!6 and q>=6 :
+			if a!6 and q>=6:
 			'<div class="button"><a href="exec:a=6 & gt ''Geology_Event'',''DZ_Fuck_Secretive'',''隐秘1-6''">sprint</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''DZ_Fuck_Secretive'',''隐秘1-7'',''结束''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:a=9 & gt ''Geology_Event'',''RIONdiscover''">...</a></div>'
@@ -668,13 +668,13 @@ if $args[0]="DZ_Fuck_Secretive":
 		 '</div>'
 	end
 
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 8>=a and a>=3 :
+	if 8>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$words>></p>'
 		 '</div>'
@@ -701,7 +701,7 @@ if $ARGS[0]="RIONdiscover":
 
 
 	'<div class="button_menu">'
-	 	if $RION.love>=100:'<div class="button"><a href="exec:a=-1 & gt ''RION_event'',''RION_Fuck_dinner''">Stay for dinner</a></div>'else:'<div class="buttonGr"><a href="exec:">Stay for dinner</a></div>'
+	 	if $RION.love>=100:'<div class="button"><a href="exec:a=-1 & gt ''RION_event'',''RION_Fuck_dinner''">Stay for dinner</a></div>'else'<div class="buttonGr"><a href="exec:">Stay for dinner</a></div>'
 	 	'<div class="button"><a href="exec:gt ''subway''">leave</a></div>'
 	'</div>'
 
@@ -720,28 +720,28 @@ if $args[0]="DZ_Fuck_medicine":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=2 :
+			if a!1 and q<=2:
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药1挑逗''">Nipple drops</a></div>'
 			end
-			if a!2 and q<=3 :
+			if a!2 and q<=3:
 			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药10挑逗''">Breast orgasm</a></div>'
 			end
-			if a!3 and 5>= q and q>=2 :
+			if a!3 and 5>= q and q>=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药2挑逗2''">Drop clitoris</a></div>'
 			end
-			if a!4 and 6>= q and q>=3 :
+			if a!4 and 6>= q and q>=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药3口交''">Oral sex</a></div>'
 			end
-			if a!5 and a<8 and q>=4 :
+			if a!5 and a<8 and q>=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药4sex''">Back position</a></div>'
 			end
-			if a!6 and a<8 and q>=6 :
+			if a!6 and a<8 and q>=6:
 			'<div class="button"><a href="exec:a=6 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药5sex''">Female upper</a></div>'
 			end
-			if a!7 and a<8 and q>=7 :
+			if a!7 and a<8 and q>=7:
 			'<div class="button"><a href="exec:a=7 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药9sex''">Normal bit</a></div>'
 			end
-			if a!8 and q>=8 :
+			if a!8 and q>=8:
 			'<div class="button"><a href="exec:a=8 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药6冲刺sex''">sprint</a></div>'
 			end
 			if a=8: 
@@ -751,7 +751,7 @@ if $args[0]="DZ_Fuck_medicine":
 			'<div class="button"><a href="exec:a=10 & gt ''Geology_Event'',''DZ_Fuck_medicine'',''药8结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:MGF -= 1 & gt ''Mugou_Pharmaceutical''">Pack up and leave</a></div>'
@@ -766,13 +766,13 @@ if $args[0]="DZ_Fuck_medicine":
 		 '</div>'
 	end
 
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 9>=a and a>=4 :
+	if 9>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$DZ.name>>:<<$words>></p>'
 		 '</div>'
@@ -799,13 +799,13 @@ if $args[0]="DZJJ_Fuck_inverse3P":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=3 :
+			if a!1 and q<=3:
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P2挑逗''">Double service</a></div>'
 			end
-			if a!2 and 6>= q and q>=1 :
+			if a!2 and 6>= q and q>=1:
 			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P3口交''">Let sister mouth</a></div>'
 			end
-			if a!3 and 6>= q and q>=1 :
+			if a!3 and 6>= q and q>=1:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P4口交''">let<<$DZ.name>>mouth</a></div>'
 			end
 			if a=2:
@@ -814,13 +814,13 @@ if $args[0]="DZJJ_Fuck_inverse3P":
 			if a=3:
 			'<div class="button"><a href="exec:a=5 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P6口射''">shoot<<$DZ.name>>mouth</a></div>'
 			end
-			if a!6 and q>=4 :
+			if a!6 and q>=4:
 			'<div class="button"><a href="exec:a=6 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P7sex''">Have sex with sister</a></div>'
 			end
-			if a!7 and q>=4 :
+			if a!7 and q>=4:
 			'<div class="button"><a href="exec:a=7 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P8sex''">and<<$DZ.name>>Make_love</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=8 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P9射''">Ejaculation</a></div>'
 			end
 			if a=7: 
@@ -830,7 +830,7 @@ if $args[0]="DZJJ_Fuck_inverse3P":
 			'<div class="button"><a href="exec:a=10 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P1结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:q=0 & gt ''Geology_Event'',''DZJJ_Fuck_inverse3P'',''3P0开幕''">Satisfied again</a></div>'
@@ -846,13 +846,13 @@ if $args[0]="DZJJ_Fuck_inverse3P":
 		 '</div>'
 	end
 
-	if 5>=a and a>=1 :
+	if 5>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>*<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 9>=a and a>=6 :
+	if 9>=a and a>=6:
 		 '<div class="dialog_menu">'
 			 '<p>*<<$words>></p>'
 		 '</div>'

@@ -23,7 +23,7 @@ my.energy = mymax[energy]
 '<div class="button_menu">'
 	if hour>=8:
 	'<div class="button"><a href="exec:minutes+=1440 & hour=8 & gt ''Residential_area''">Wake up</a></div>'
-	else:
+	else
 	'<div class="button"><a href="exec:hour=8  & gt ''Residential_area''">Wake up</a></div>'
 	end
 '</div>'

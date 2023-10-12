@@ -27,7 +27,7 @@ if $ARGS[0]="Stepmom_going out in the hall":
 		 if 3>$JM_Event_grandpa:
 		 '<div class="buttonR3"><a href="exec:$JM_Event_grandpa=1 & minutes += 60& gt ''home''">Got it (go clean up the guest room)</a></div>'
 		 end
-		 if $JM_Event_grandpa =3 :
+		 if $JM_Event_grandpa =3:
 		 '<div class="button"><a href="exec:$JM_Event_grandpa=4 & gt ''home''">Got it</a></div>'
 		 end
 		 if $BGH.available=0:'<div class="buttonB1"><a href="exec:  gt ''Hall_event'',''Stepmom_new out in the hall_new neighbor''">New neighbor</a></div>'
@@ -40,12 +40,12 @@ if $ARGS[0]="Stepmom_going out in the hall":
 	'<div class="dialog_menu">'
 		'<p>-<<$JM.name>>: Hey, I`m on my way out. If you have time, help me get rid of this garbage.</p>'
 		'<p>-<<$JM.name>>: By the way, your sister didn`t go home on time after school recently. If you have time, go to school to pick her up from school.</p>'
-		if 3>$JM_Event_grandpa :
+		if 3>$JM_Event_grandpa:
 		'<p>——</p>'
 		'<p>-<<$JM.name>>: Also, in a few days, your grandfather will come back from abroad to stay for a few days. Go and clean the guest room.</p>'
 		'<p>-*It seemed to be an attitude of summoning servants.</p>'
 		end
-		if $JM_Event_grandpa =3 :
+		if $JM_Event_grandpa =3:
 		'<p>——</p>'
 		'<p>-<<$JM.name>>: The guest room is cleaned?It just so happens that your grandfather is almost here.My dad has been at home for the past few days, don`t cause me trouble!</p>'
 		'<p>-*Harsh words.</p>'
@@ -88,11 +88,11 @@ if $ARGS[0]="Stepmom_new out in the hall_new neighbor2":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>-？？？: Hello, I am newly moved here. This is the strawberry pie I made by myself. Please try it.</p>'
+		'<p>-???: Hello, I am newly moved here. This is the strawberry pie I made by myself. Please try it.</p>'
 		'<p>-<<$JM.name>>: Then I`m welcome.</p>'
-		'<p>-？？？: Can you take me around?I want to get acquainted……</p>'
+		'<p>-???: Can you take me around?I want to get acquainted……</p>'
 		'<p>-<<$JM.name>>: Which building do you belong to?</p>'
-		'<p>-？？？: Uh... we live in a talent apartment…</p>'
+		'<p>-???: Uh... we live in a talent apartment…</p>'
 		'<p>-<<$JM.name>>: That`s it... (People in the talent apartment have no social value)</p>'
 	'</div>'
 
@@ -162,7 +162,7 @@ if $args[0]="Fuck_Family portrait":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Empire_Entertainment''">leave</a></div>'
 			'</div>'
@@ -176,7 +176,7 @@ if $args[0]="Fuck_Family portrait":
 		 '</div>'
 	end
 
-	if 1<=a :
+	if 1<=a:
 		 '<div class="dialog_menu">'
 			 '<p><<$Panting>>...<<$Panting>>..</p>'
 		 '</div>'
@@ -223,7 +223,7 @@ if $args[0]="Fuck_Family portrait2":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''home''">disbanded</a></div>'
 			'</div>'

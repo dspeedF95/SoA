@@ -51,7 +51,7 @@ if $args[0]="YDM_Fuck_Go to jail":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_life_in_prison'',''Go to jail for a generation''">leave</a></div>'
 			'</div>'
@@ -146,7 +146,7 @@ if $args[0]="Lunch time":
 			'<div class="button"><a href="exec:a+=1 & gt ''One_generation_project_Event'',''Lunch time''">Exercise before meals </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0&q=0 & gt ''One_generation_project_Event'',''YDM_Fuck_Burning love3P''">3Human movement</a></div>'
 			'</div>'
@@ -209,7 +209,7 @@ if $args[0]="YDM_Fuck_Burning love3P":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 &a=0& gt ''One_generation_project_Event'',''Dinner''">Dinner</a></div>'
 			'</div>'
@@ -262,7 +262,7 @@ if $args[0]="Dinner":
 			'<div class="buttonR5"><a href="exec:a=2 & gt ''One_generation_project_Event'',''Dinner''">Prayer after meal </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 &  my.energy+=50 & gt ''Hot_girl_Gang''">Full</a></div>'
 			'</div>'
@@ -357,7 +357,7 @@ if $args[0]="YDM_Fuck_quiet3P":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=360 & hour=9 & gt ''Hot_girl_Gang''">sleep</a></div>'
 			'</div>'
@@ -427,11 +427,11 @@ if $args[0]="YDM_Fuck_reward":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if hour>=22 or hour<=6:
 				'<div class="button"><a href="exec:minutes+=360 & hour=8 & gt ''Hot_girl_Gang''">sleep</a></div>'
-				else:
+				else
 				'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 				end
 			'</div>'
@@ -494,7 +494,7 @@ if $args[0]="YDM_Fuck_band":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 			'</div>'
@@ -572,7 +572,7 @@ if $args[0]="YDM_Fuck_hotel":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''Go out''">Go back to the car</a></div>'
 			'</div>'
@@ -636,7 +636,7 @@ if $args[0]="YDM_Fuck_alley":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''Go out''">return</a></div>'
 			'</div>'
@@ -700,7 +700,7 @@ if $args[0]="YDM_Fuck_school3P":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
 			'</div>'
@@ -791,7 +791,7 @@ if $args[0]="YDM_Fuck_Enter the room":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 			'</div>'
@@ -849,7 +849,7 @@ if $args[0]="YDM_Fuck_In front of the principal":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 			'</div>'
@@ -932,9 +932,9 @@ if $args[0]="YDM_Fuck_And the principal":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if $XZ.love>=400-$XZ.bad and $YDM.love>=300-$YDM.bad:'<div class="button"><a href="exec:a=0 &q=0& gt ''One_generation_project_Event'',''YDM_Fuck_Enter the room''">Go in</a></div>'else:'<div class="buttonGr"><a href="exec:">Go in</a></div>'
+				if $XZ.love>=400-$XZ.bad and $YDM.love>=300-$YDM.bad:'<div class="button"><a href="exec:a=0 &q=0& gt ''One_generation_project_Event'',''YDM_Fuck_Enter the room''">Go in</a></div>'else'<div class="buttonGr"><a href="exec:">Go in</a></div>'
 				'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 			'</div>'
 	end
@@ -980,7 +980,7 @@ if $args[0]="YDM_Fuck_Vice Principal":
 			'<div class="button"><a href="exec:a+=1 & gt ''One_generation_project_Event'',''YDM_Fuck_Vice Principal''">Watch it </a></div>'
 			'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 			'</div>'
@@ -1025,7 +1025,7 @@ if $args[0]="YDM_Fuck_assessment":
 
 	if a!8:
 		'<div class="button_menu">'
-			if a!1 and q<=3 :
+			if a!1 and q<=3:
 			'<div class="button"><a href="exec:a=1 & gt ''One_generation_project_Event'',''YDM_Fuck_assessment''">Take off your pants </a></div>'
 			end
 			if a!2 and 0<q and q<=4:
@@ -1051,7 +1051,7 @@ if $args[0]="YDM_Fuck_assessment":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">leave</a></div>'
 			'</div>'
@@ -1138,7 +1138,7 @@ if $args[0]="YDM_Fuck_4P":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=1440 &hour=7 & my.energy=mymax[energy]  & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_Home_professor3P_In the morning''">Sleep together</a></div>'
 			'</div>'
@@ -1178,7 +1178,7 @@ if $args[0]="YDM_Fuck_4P":
 		$XY.bad+=q
 		 '<div class="dialog_menu">'
 			 '<p><<$YDM.name>>:So it`s over?</p>'
-			 '<p><<$FXZ.name>>:<<$Protagonist`s_surname>> Classmates, the teacher is not satisfied either.</p>'
+			 '<p><<$FXZ.name>>:<<$Protagonists_surname>> Classmates, the teacher is not satisfied either.</p>'
 		 '</div>'
 	end
   q+=1
@@ -1211,7 +1211,7 @@ if $args[0]="Go to university":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_alley''">Point to the corner</a></div>'
-		if  $YDM_Event_XZ>1 and $XZ.bad>=150:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_school3P''">see<<$XZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">see<<$XZ.name>></a></div>'
+		if  $YDM_Event_XZ>1 and $XZ.bad>=150:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_school3P''">see<<$XZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">see<<$XZ.name>></a></div>'
 		'<div class="button"><a href="exec:gt ''Hot_girl_Gang''">Back to base</a></div>'
 	'</div>'
 

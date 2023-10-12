@@ -587,7 +587,7 @@ if $YA_dAPc.available=0:
      $YA_dAPc.name = "Kinoshita Himari"
      $YA_dAPc.love = 0
      $YA_dAPc.bad = 0
-     $YA_dAPc.bio ="？？？"
+     $YA_dAPc.bio ="???"
 End
 
 if $SJ.available=0:
@@ -601,7 +601,7 @@ End
 
 if $JJ.name = "Hatsukawa Minami (Big Sister)":
 	$JJ.name = "Hatsukawa Minami (Big Sister)"
-else:
+else
 	$JM.name = "Kaede Karen (Stepmother)"
 	$JM.bio ="My father`s new love is only older than me, but he is already an executive director of a pharmaceutical company. When she was young, she broke into my life as a [family] with her two children.
 				With my father in a coma and unconscious for several years.Her attitude towards me has gradually changed.....Out of courtesy, I still call her mom."
@@ -840,7 +840,7 @@ else:
 	$HB.bio ="She owns170Her tall figure, when she put on black stockings, immediately became charming.The delicate silk fits her slender legs and outlines the perfect curve, making it impossible to look away.With this advantage, she once served as a professional model and a member of the [Ferris Girl Group] group.But later, she was exposed to an affair with a rapper. Although she once denied it, she was eventually hacked out of the sex video.In the face of hard evidence, she couldn`t refute it, and she was depressed several times after the dissolution of the women`s group.But under the guidance of her best friend, she simply broke the jar and broke it. Since her reputation was already rotten, she simply became an online porn anchor."
 
 	$YA_dAPc.name = "Kinoshita Himari"
-	$YA_dAPc.bio ="？？？"
+	$YA_dAPc.bio ="???"
 
 	$SJ.name = "Satsuki Ena (Stupid Secretary)"
 	$SJ.bio ="Secretary of the Student Association."

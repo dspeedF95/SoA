@@ -25,9 +25,9 @@ if $args[0]="meet":
 		'</div>'
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Cinema</a></div>'
-		if $WH.bad>=2:'<div class="buttonS2"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">Take Douyin</a></div>'else:'<div class="buttonGr"><a href="exec:">Take Douyin</a></div>'
-		if $WH.bad>=5:'<div class="buttonS3"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Go to the hotel</a></div>'else:'<div class="buttonGr"><a href="exec:">Go to the hotel</a></div>'
-		if $WH.bad>=20:'<div class="buttonS4"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_library''">library</a></div>'else:'<div class="buttonGr"><a href="exec:">library</a></div>'
+		if $WH.bad>=2:'<div class="buttonS2"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">Take Douyin</a></div>'else'<div class="buttonGr"><a href="exec:">Take Douyin</a></div>'
+		if $WH.bad>=5:'<div class="buttonS3"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Go to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">Go to the hotel</a></div>'
+		if $WH.bad>=20:'<div class="buttonS4"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_library''">library</a></div>'else'<div class="buttonGr"><a href="exec:">library</a></div>'
 		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 
 	'</div>'
@@ -55,7 +55,7 @@ if $args[0]="WH_Fuck_Cinema":
 			'<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Please</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -67,13 +67,13 @@ if $args[0]="WH_Fuck_Cinema":
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$WH.name>>:If you can`t help it... please me❤</p>'
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 $WH.love+=1+my.charm
 		 $WH.bad+=q
 		 '<div class="dialog_menu">'
@@ -108,7 +108,7 @@ if $args[0]="WH_Fuck_shooting":
 			'<div class="button"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">wait</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -120,7 +120,7 @@ if $args[0]="WH_Fuck_shooting":
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$WH.name>>:Not bad…</p>'
 			 '<p>I:What are you doing…</p>'
@@ -128,7 +128,7 @@ if $args[0]="WH_Fuck_shooting":
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$WH.name>>:What`s your expression?</p>'
 			 '<p>I:I thought you were the kind of soft girl character…</p>'
@@ -136,14 +136,14 @@ if $args[0]="WH_Fuck_shooting":
 		 '</div>'
 	end
 
-	if a=3 :
+	if a=3:
 		 '<div class="dialog_menu">'
 			 '<p>I:……</p>'
 			 '<p><<$WH.name>>:Hahahaha❤</p>'
 		 '</div>'
 	end
 
-	if a=4 :
+	if a=4:
 		 $WH.love+=1+my.charm
 		 $WH.bad+=q
 		 '<div class="dialog_menu">'
@@ -182,7 +182,7 @@ if $args[0]="WH_Fuck_hotel":
 			'<div class="buttonS"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -194,13 +194,13 @@ if $args[0]="WH_Fuck_hotel":
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$WH.name>>:<<$Panting>>❤I know you like this❤</p>'
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$WH.name>>:<<$Panting>>❤Shoot it in my mouth❤</p>'
 		 '</div>'
@@ -212,7 +212,7 @@ if $args[0]="WH_Fuck_hotel":
 		 '</div>'
 	end
 
-	if a=6 :
+	if a=6:
 		 $WH.love+=q+my.charm
 		 $WH.bad+=q
 		 '<div class="dialog_menu">'
@@ -247,7 +247,7 @@ if $args[0]="WH_Fuck_library":
 			'<div class="buttonS"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_library''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -259,13 +259,13 @@ if $args[0]="WH_Fuck_library":
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$WH.name>>:<<$Panting>>❤</p>'
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$WH.name>>:<<$Panting>>❤Want more❤</p>'
 		 '</div>'
@@ -277,7 +277,7 @@ if $args[0]="WH_Fuck_library":
 		 '</div>'
 	end
 
-	if a=5 :
+	if a=5:
 		 $WH.love+=q+my.charm
 		 $WH.bad+=q
 		 '<div class="dialog_menu">'

@@ -3,28 +3,28 @@
 		
 		'<div class="action">'
 			if Secretary`soffice=0:
-			if money>=2000 :'<a class="photo" data-title="Secretary`s office￥2k" href="exec:money-=2000 & Secretary`soffice=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Secretary`s office￥2k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+			if money>=2000:'<a class="photo" data-title="Secretary`s office￥2k" href="exec:money-=2000 & Secretary`soffice=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else'<a class="photo" data-title="Secretary`s office￥2k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
 			end
-			if Secretary`soffice=1:'<a class="photo" data-title="Secretary`s office" href="exec:minutes+=30 & gt ''Secretary`s_office''"><img class="img_stretch" src="images\place\秘书室.jpg"></a>'
+			if Secretary`soffice=1:'<a class="photo" data-title="Secretary`s office" href="exec:minutes+=30 & gt ''Secretarys_office''"><img class="img_stretch" src="images\place\秘书室.jpg"></a>'
 		'</div>'
 		
 		'<div class="action">'
 			if Massageroom=0:
-			if money>=25000 :'<a class="photo" data-title="Massage parlor￥25k" href="exec:money-=25000 & Massageroom=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Massage parlor￥25k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+			if money>=25000:'<a class="photo" data-title="Massage parlor￥25k" href="exec:money-=25000 & Massageroom=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else'<a class="photo" data-title="Massage parlor￥25k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
 			end
 			if Massageroom=1:'<a class="photo" data-title="Massage parlor" href="exec:minutes+=30 & gt ''Massage_room''"><img class="img_stretch" src="images\place\按摩房.jpg"></a>'
 		'</div>'
 
 		'<div class="action">'
 			if GoodWifeTutoringClass=0:
-			if money>=15000 :'<a class="photo" data-title="Good Wife Tutoring Class￥15k" href="exec:money-=15000 & GoodWifeTutoringClass=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="Good Wife Tutoring Class￥15k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+			if money>=15000:'<a class="photo" data-title="Good Wife Tutoring Class￥15k" href="exec:money-=15000 & GoodWifeTutoringClass=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else'<a class="photo" data-title="Good Wife Tutoring Class￥15k" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
 			end
 			if GoodWifeTutoringClass=1:'<a class="photo" data-title="Good Wife Tutoring Class" href="exec:minutes+=30 & gt ''Good_Wife_Tutoring_Class''"><img class="img_stretch" src="images\place\好妻子辅导班.jpg"></a>'
 		'</div>'
 
         '<div class="action">'
             if coserAppointmenthall=0:
-            if money>=35000 and camera > 0:'<a class="photo" data-title="coserAbout to shoot the museum￥35k & camera" href="exec:money-=35000 & coserAppointmenthall=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else:'<a class="photo" data-title="coserAbout to shoot the museum￥35k & camera" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
+            if money>=35000 and camera > 0:'<a class="photo" data-title="coserAbout to shoot the museum￥35k & camera" href="exec:money-=35000 & coserAppointmenthall=1 & gt ''company''"><img class="img_stretch" src="images\place\未装修.jpg"></a>'else'<a class="photo" data-title="coserAbout to shoot the museum￥35k & camera" ><img class="img_stretch" src="images\place\未装修.jpg"></a>'
             end
             if coserAppointmenthall=1:'<a class="photo" data-title="coserAppointmenthall" href="exec:minutes+=30 & Approximatelythenumberofpagesofthemuseum=1 & gt ''coserAppointmenthall''"><img class="img_stretch" src="images\place\私房照.jpg"></a>'
         '</div>'
@@ -36,7 +36,7 @@
         '<div class="action">'
 			if $Empire001="":
 				'<a class="photo" data-title="Artificial insemination room"><img class="img_stretch" src="images\place\未装修.jpg"></a>'
-			else:
+			else
 				'<a class="photo" data-title="Artificial insemination room" href="exec:minutes+=30 & gt ''Insemination_room''"><img class="img_stretch" src="images\place\授精室.jpg"></a>'
 			end
         '</div>'

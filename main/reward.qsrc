@@ -21,7 +21,7 @@ if $args[0] ='':
 	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
 	'<div class="button_menu">
 		<div class="buttonG"><a href="exec:  gt ''reward'',''Enter password''">Enter password</a></div>'
-		if DatecountJun>=25:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?！</a></div>'else:'<div class="buttonGr"><a href="exec:">Where can I download it?！</a></div>'
+		if DatecountJun>=25:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?！</a></div>'else'<div class="buttonGr"><a href="exec:">Where can I download it?！</a></div>'
 		'<div class="button"><a href="exec:  gt ''Police_station''">return</a></div>
 	</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
@@ -88,8 +88,8 @@ if $args[0] ='Receive rewards':
 	</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
-		'<p>？？？: Congratulations on getting it, money+50000, Measurements (charm/intelligence/Figure)+3 , The upper limit of energy value+100  , and a simple gesture of victory.</p>'
-		'<p>？？？: Finally, thank you again for playing and wish you a good time.</p>'
+		'<p>???: Congratulations on getting it, money+50000, Measurements (charm/intelligence/Figure)+3 , The upper limit of energy value+100  , and a simple gesture of victory.</p>'
+		'<p>???: Finally, thank you again for playing and wish you a good time.</p>'
 		Customsclearancerewardcollection+=1
 		if  Customsclearancerewardcollection=1:
 			money+=50000
@@ -98,7 +98,7 @@ if $args[0] ='Receive rewards':
 			my.Physical_strength += 3
 			mymax[energy] += 100
 		end
-		if  Customsclearancerewardcollection>1:'<p>？？？: Uh(⊙o⊙)...you have already received it, little fool.</p>'
+		if  Customsclearancerewardcollection>1:'<p>???: Uh(⊙o⊙)...you have already received it, little fool.</p>'
 	'</div>'
 End
 
@@ -127,7 +127,7 @@ if $args[0] ='inputDLCreward':
 	'<div class ="show_menu"><img src="images\place\大别墅\place7_8.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $DLCpassword='9t4515043u266915b':'<div class="buttonG"><a href="exec:  my.energy=0 & gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">Receive rewards</a></div>'else:'<div class="button"><a href="exec:  gt ''reward'',''Teleportation array''">Wrong password!</a></div>'
+		if $DLCpassword='9t4515043u266915b':'<div class="buttonG"><a href="exec:  my.energy=0 & gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">Receive rewards</a></div>'else'<div class="button"><a href="exec:  gt ''reward'',''Teleportation array''">Wrong password!</a></div>'
 		'<div class="button"><a href="exec:my.energy=0 & gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">leave</a></div>'
 		!Hi, hello, since you have seen this message, it shows that you can get the reward password directly through the code. This is your ability. I won`t have any complaints, but I beg you not to leak it to others. The game is not easy to make. Give me a meal. Thank you, brother.
 	'</div>'
@@ -230,7 +230,7 @@ if $args[0] ='Enter the password Krypton gold cheat':
 		'<p>·Of course, the plot of the convenience store can be experienced repeatedly, regardless of whether there is100The conditions of ten thousand have nothing to do with it.</p>'
 		'<p>·————————————————————————</p>'
 		'<p>·Finally, I still have a question: After spending time, money, and precious brain cells, do you still want to share this jump strategy with others?</p>'
-		else:
+		else
 		'<p>·Ah, the password is wrong, when you enter it [no need to enter“+"].</p>'
 		end
 	'</div>'

@@ -48,7 +48,7 @@ if $args[0]="DYZ_Fuck_Training interview":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if a=6:'<div class="buttonB"><a href="exec:a=7 & gt ''Warden_Incident'',''DYZ_Fuck_Training interview''">assessment</a></div>'
 				if a=7 and m<=0:'<div class="button"><a href="exec:minutes+=30 & dogteam=2 & gt ''Daily_life_in_prison''">success</a></div>'
@@ -110,7 +110,7 @@ if $args[0]="DYZ_Fuck_feast":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if a=10:'<div class="button"><a href="exec:a=11 & gt ''Warden_Incident'',''DYZ_Fuck_feast''">Words of instruction</a></div>'
 				if a=11:'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_life_in_prison''">Go back</a></div>'
@@ -173,7 +173,7 @@ if $args[0]="DYZ_Fuck_3P":
 			'<div class="button"><a href="exec:a=7 & gt ''Warden_Incident'',''DYZ_Fuck_3P''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_life_in_prison''">leave</a></div>'
 			'</div>'
@@ -240,7 +240,7 @@ if $args[0]="DYZ_Event_entertain2":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_life_in_prison''">Return to the cell</a></div>'
 			'</div>'
@@ -267,8 +267,8 @@ if $args[0]="DYZ_Event_entertain2":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p>Master of Fine Arts :Hmm----!！The taste is good, thick but not greasy, soft but not sticky.Because there is no fruit to eat, it lacks the wrapping feeling of fruit pulp.It causes the aftertaste to be fishy and bitter at the root of the tongue.But the overall score can be obtained80Points!</p>'
-			 '<p><<$DYZ.name>> :<<$Protagonist`s_name>>Actually have80points?If it is paired with a reasonable fruit dietary feed, wouldn`t it be the same as those high-end ones?M8Is it a level of direct drinking raw essence?Tsk tsk..I have to squeeze it a few times while he is still in my hands.</p>'
+			 '<p>Master of Fine Arts:Hmm----!！The taste is good, thick but not greasy, soft but not sticky.Because there is no fruit to eat, it lacks the wrapping feeling of fruit pulp.It causes the aftertaste to be fishy and bitter at the root of the tongue.But the overall score can be obtained80Points!</p>'
+			 '<p><<$DYZ.name>>:<<$Protagonist`s_name>>Actually have80points?If it is paired with a reasonable fruit dietary feed, wouldn`t it be the same as those high-end ones?M8Is it a level of direct drinking raw essence?Tsk tsk..I have to squeeze it a few times while he is still in my hands.</p>'
 			 '<p>·Favorability has increased significantly!</p>'
 			 jings-=30
 			 $DYZ.love+=20
@@ -313,7 +313,7 @@ if $args[0]="DYZ_Fuck_inverse3P":
 			'<div class="button"><a href="exec:a=9 & gt ''Warden_Incident'',''DYZ_Fuck_inverse3P''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_life_in_prison''">leave</a></div>'
 			'</div>'
@@ -322,7 +322,7 @@ if $args[0]="DYZ_Fuck_inverse3P":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$DYZ.name>> :Let us both enjoy him today.</p>'
+			 '<p><<$DYZ.name>>:Let us both enjoy him today.</p>'
 		 '</div>'
 	end
 
@@ -330,7 +330,7 @@ if $args[0]="DYZ_Fuck_inverse3P":
 	if 8>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>Master of Fine Arts:It`s amazing. The talents in the prison can deliver high-quality protein raw materials to the health of our empire.</p>'
-			 '<p><<$DYZ.name>> :<<$Panting>>, Our friendly cooperation will definitely enable your company`s Jingyuan plan to move towards a higher level, higher quality and higher level.</p>'
+			 '<p><<$DYZ.name>>:<<$Panting>>, Our friendly cooperation will definitely enable your company`s Jingyuan plan to move towards a higher level, higher quality and higher level.</p>'
 			 '<p>Master of Fine Arts:Is this little brother interested in coming to our empire to work for health after he gets out of prison?</p>'
 		 '</div>'
 	end
@@ -380,7 +380,7 @@ if $args[0]="DYZ_Fuck_inverse3P2":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_life_in_prison''">leave</a></div>'
 			'</div>'
@@ -389,7 +389,7 @@ if $args[0]="DYZ_Fuck_inverse3P2":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$DYZ.name>> :These are all high-quality fine dogs, which can provide us with the best quality protein.</p>'
+			 '<p><<$DYZ.name>>:These are all high-quality fine dogs, which can provide us with the best quality protein.</p>'
 		 '</div>'
 	end
 
@@ -397,12 +397,12 @@ if $args[0]="DYZ_Fuck_inverse3P2":
 	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>Master of Fine Arts:<<$Panting>></p>'
-			 '<p><<$DYZ.name>> :Yes, it seems you are very satisfied.</p>'
+			 '<p><<$DYZ.name>>:Yes, it seems you are very satisfied.</p>'
 		 '</div>'
 	end
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$DYZ.name>> :Sure enough, your semen is the best to drink.</p>'
+			 '<p><<$DYZ.name>>:Sure enough, your semen is the best to drink.</p>'
 		 '</div>'
 	end
 
@@ -431,9 +431,9 @@ if $args[0]="warden_Fuck_Buy":
     if a<6:
         '<div class="button_menu">'
            if a=0:
-                if money>=5000000:'<div class="buttonG"><a href="exec:money-=5000000 & $parliament.warden=0 & gt ''Mayor`s_Office'',''Dark Council''">Pay money￥5,000,000</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay money￥5,000,000</a></div>'
-                if $DYZ.love>=50+my.charm*30:'<div class="buttonS"><a href="exec:a=1 & gt ''Warden_Incident'',''warden_Fuck_Buy''">Take off your pants</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability<<50+my.charm*30>></a></div>'
-                '<div class="button"><a href="exec:gt ''Mayor`s_Office''">Forget it</a></div>'
+                if money>=5000000:'<div class="buttonG"><a href="exec:money-=5000000 & $parliament.warden=0 & gt ''Mayors_Office'',''Dark Council''">Pay money￥5,000,000</a></div>'else'<div class="buttonGr"><a href="exec:">Pay money￥5,000,000</a></div>'
+                if $DYZ.love>=50+my.charm*30:'<div class="buttonS"><a href="exec:a=1 & gt ''Warden_Incident'',''warden_Fuck_Buy''">Take off your pants</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability<<50+my.charm*30>></a></div>'
+                '<div class="button"><a href="exec:gt ''Mayors_Office''">Forget it</a></div>'
             end
 
 
@@ -443,9 +443,9 @@ if $args[0]="warden_Fuck_Buy":
            if a=4:'<div class="buttonS"><a href="exec:a+=1 & gt ''Warden_Incident'',''warden_Fuck_Buy''">Vigorously pump</a></div>'
            if a=5:'<div class="buttonR"><a href="exec:a+=1 & gt ''Warden_Incident'',''warden_Fuck_Buy''">Ejaculation</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
-                '<div class="buttonGn5"><a href="exec:$parliament.warden=0 & gt ''Mayor`s_Office'',''Dark Council''">The meeting reopened</a></div>'
+                '<div class="buttonGn5"><a href="exec:$parliament.warden=0 & gt ''Mayors_Office'',''Dark Council''">The meeting reopened</a></div>'
             '</div>'
     end
 

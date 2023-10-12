@@ -51,7 +51,7 @@ if $args[0]="Competition test":
 			'<div class="button"><a href="exec:minutes+=5 &pick_c+=1& gt ''Vice_Principal_Event'',''Competition test''">chooseC</a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 &$FXZ_Event_counseling=1& gt ''university''">Participate in competition counseling</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
@@ -93,7 +93,7 @@ if $args[0]="Additional requirements":
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:a+=1 & gt ''Vice_Principal_Event'',''Additional requirements''">continue</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonS"><a href="exec:minutes+=30 &a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_counseling_SEX''">Help me</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
@@ -146,7 +146,7 @@ if $args[0]="Additional requirements":
 			 '<p>I:No, teacher... I feel it again……</p>'
 	         if $FXZ.bad<=70:
 	             '<p><<$FXZ.name>>:It`s a waste of time for you to come and go like this!Forget it, there is really nothing I can do with you!</p>'
-	         else:
+	         else
 	             '<p><<$FXZ.name>>:It`s okay, the teacher will help you shoot it out, don`t hold it back.</p>'
 	         end
 		 '</div>'
@@ -190,7 +190,7 @@ if $args[0]="FXZ_counseling_SEX":
 			'<div class="buttonS"><a href="exec:a=7 & gt ''Vice_Principal_Event'',''FXZ_counseling_SEX''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $FXZ.bad>70:'<div class="button"><a href="exec:minutes+=30 &a=0&q=0&gt ''Vice_Principal_Event'',''Set off for the competition''">Set off for the competition</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Ok</a></div>'
@@ -263,7 +263,7 @@ if $args[0]="Set off for the competition":
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:a+=1 & gt ''Vice_Principal_Event'',''Set off for the competition''">continue</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Back to school</a></div>'
 			'</div>'
@@ -342,8 +342,8 @@ if $args[0]="In the room":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:minutes+=5 &  a=1 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Strong on''">Strengthen her</a></div>'
-		if $FXZ_ZJ>=2:'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Vice_Principal_Event'',''ZJ_Fuck_Mother and daughter overnight''">Mother and daughter rice bowl: stay overnight</a></div>'else:'<div class="buttonGr"><a href="exec:">❤？❤？❤？</a></div>'
-		 '<div class="buttonS1"><a href="exec:minutes+=15 & gt ''Vice_Principal`s_Office'',''Win over''">leave</a></div>'
+		if $FXZ_ZJ>=2:'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Vice_Principal_Event'',''ZJ_Fuck_Mother and daughter overnight''">Mother and daughter rice bowl: stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">❤？❤？❤？</a></div>'
+		 '<div class="buttonS1"><a href="exec:minutes+=15 & gt ''Vice_Principals_Office'',''Win over''">leave</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -384,7 +384,7 @@ if $args[0]="FXZ_Fuck_Strong on":
 			'<div class="button"><a href="exec:a=6 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Strong on''">Swallow sperm</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=10 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -450,7 +450,7 @@ if $args[0]="ZJ_Fuck_Mother and daughter overnight":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:hour=7 & minutes+=1440 &my.energy=mymax[energy] & gt ''Vice_Principals_house''">Three people sleep</a></div>'
 			'</div>'
@@ -542,7 +542,7 @@ if $args[0]="FXZ_Fuck_Winning reward":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=10 & gt ''university''">leave</a></div>'
@@ -601,7 +601,7 @@ if $args[0]="FXZ_Fuck_Picket line":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=10 & gt ''university''">leave</a></div>'
@@ -687,7 +687,7 @@ if $args[0]="FXZ_Fuck_office":
 
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=10 & gt ''university''">leave</a></div>'
@@ -760,7 +760,7 @@ if $args[0]="FXZ_Fuck_Principal`s Office":
 
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=10 & gt ''university''">leave</a></div>'
@@ -831,7 +831,7 @@ if $args[0]="Home visit":
 	'</div>'
 
 	'<div class="button_menu">'
-		if $jj.bad>=200 and $FXZ.bad>=200:'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Home visit''">Undress</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if $jj.bad>=200 and $FXZ.bad>=200:'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Home visit''">Undress</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 &  gt ''home''">End of home visit</a></div>'
 	'</div>'
 
@@ -898,7 +898,7 @@ if $args[0]="FXZ_Fuck_Home visit":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Go out and get some air</a></div>'
@@ -984,14 +984,14 @@ if $args[0]="FXZ_SW_Hot springA":
 			if a=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Vice_Principal_Event'',''FXZ_SW_Hot springA''">Ejaculation</a></div>'
 			end
-			if a=4 :
+			if a=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Vice_Principal_Event'',''FXZ_SW_Hot springA''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
-				if $SW.bad>=100 and $FXZ.bad>=100: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_Total bath''">Three-person mixed bath</a></div>'else:'<div class="buttonGr"><a href="exec:">Three people?？</a></div>'
-				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS5"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else:'<div class="buttonGr"><a href="exec:">here?？</a></div>'
+				if $SW.bad>=100 and $FXZ.bad>=100: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_Total bath''">Three-person mixed bath</a></div>'else'<div class="buttonGr"><a href="exec:">Three people?？</a></div>'
+				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS5"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else'<div class="buttonGr"><a href="exec:">here?？</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
 			'</div>'
 	end
@@ -1009,25 +1009,25 @@ if $args[0]="FXZ_SW_Hot springA":
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>> :This is a beauty supplement from Mugou Pharmaceutical…<<$SW.name>>I don`t think I dislike it.</p>'
-			 '<p><<$SW.name>> :…<<$Protagonist`s_surname>> classmate?...it seems<<$FXZ.name>>Know what I want.But...in front of<<$FXZ.name>>Where`s the face</p>'
+			 '<p><<$FXZ.name>>:This is a beauty supplement from Mugou Pharmaceutical…<<$SW.name>>I don`t think I dislike it.</p>'
+			 '<p><<$SW.name>>:…<<$Protagonists_surname>> classmate?...it seems<<$FXZ.name>>Know what I want.But...in front of<<$FXZ.name>>Where`s the face</p>'
 			 '<p>·<<$SW.name>>My eyes keep looking at you.</p>'
 		 '</div>'
 	end
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>> :<<$Protagonist`s_surname>> Classmate, it`s the winner of the history competition. It`s very capable, isn`t it?</p>'
-			 '<p><<$SW.name>> :…<<$Panting>>...really capable!</p>'
+			 '<p><<$FXZ.name>>:<<$Protagonists_surname>> Classmate, it`s the winner of the history competition. It`s very capable, isn`t it?</p>'
+			 '<p><<$SW.name>>:…<<$Panting>>...really capable!</p>'
 		 '</div>'
 	end
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :…<<$words>>！</p>'
+			 '<p><<$SW.name>>:…<<$words>>！</p>'
 		 '</div>'
 	end
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :…<<$words>>！</p>'
+			 '<p><<$SW.name>>:…<<$words>>！</p>'
 		 '</div>'
 	end
 
@@ -1037,8 +1037,8 @@ if $args[0]="FXZ_SW_Hot springA":
 		 $SW.love+=q+my.charm
 		 $SW.bad+=q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$FXZ.name>>...you can`t watch it from the side!If you don`t do it, don`t think I will vote for you!</p>'
-			 '<p><<$FXZ.name>> :Look at what you said，<<$Protagonist`s_surname>> Classmate, I specially arranged to serve you.(Oh, it seems that this woman is going to pull me into the water together?）</p>'
+			 '<p><<$SW.name>>:<<$FXZ.name>>...you can`t watch it from the side!If you don`t do it, don`t think I will vote for you!</p>'
+			 '<p><<$FXZ.name>>:Look at what you said，<<$Protagonists_surname>> Classmate, I specially arranged to serve you.(Oh, it seems that this woman is going to pull me into the water together?）</p>'
 		 '</div>'
 	end
 
@@ -1068,9 +1068,9 @@ if $args[0]="FXZ_SW_Total bath":
 			'<div class="button"><a href="exec:a=5 & gt ''Vice_Principal_Event'',''FXZ_SW_Total bath''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
-				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else:'<div class="buttonGr"><a href="exec:">here?？</a></div>'
+				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else'<div class="buttonGr"><a href="exec:">here?？</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
 			'</div>'
 	end
@@ -1086,23 +1086,23 @@ if $args[0]="FXZ_SW_Total bath":
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :…<<$Protagonist`s_surname>> classmate?...Then the teacher is going to suck your big dick hard.</p>'
-			 '<p><<$FXZ.name>> :You are quite clever, you know that the teacher will not treat you badly if you make her happy.</p>'
+			 '<p><<$SW.name>>:…<<$Protagonists_surname>> classmate?...Then the teacher is going to suck your big dick hard.</p>'
+			 '<p><<$FXZ.name>>:You are quite clever, you know that the teacher will not treat you badly if you make her happy.</p>'
 		 '</div>'
 	end
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :...look... the client is with you.</p>'
+			 '<p><<$SW.name>>:...look... the client is with you.</p>'
 		 '</div>'
 	end
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :…<<$Panting>>！</p>'
+			 '<p><<$SW.name>>:…<<$Panting>>！</p>'
 		 '</div>'
 	end
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>> :…<<$Panting>>！</p>'
+			 '<p><<$FXZ.name>>:…<<$Panting>>！</p>'
 		 '</div>'
 	end
 
@@ -1112,8 +1112,8 @@ if $args[0]="FXZ_SW_Total bath":
 		 $SW.love+=q+my.charm
 		 $SW.bad+=q+5
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>> :Is it okay to do this to such an extent?Now we are also like-minded "comrades-in-arms”, right?</p>'
-			 '<p><<$SW.name>> :Huh?This is not enough, comrades-in-arms, but you have to have experienced a hearty battle!</p>'
+			 '<p><<$FXZ.name>>:Is it okay to do this to such an extent?Now we are also like-minded "comrades-in-arms”, right?</p>'
+			 '<p><<$SW.name>>:Huh?This is not enough, comrades-in-arms, but you have to have experienced a hearty battle!</p>'
 		 '</div>'
 	end
 
@@ -1151,7 +1151,7 @@ if $args[0]="FXZ_SW_overnight":
 			'<div class="button"><a href="exec:a=9 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Clean up</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:hour=6 & minutes+=1440 &my.energy=mymax[energy] & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_The next day''">Three people sleep</a></div>'
 			'</div>'
@@ -1220,7 +1220,7 @@ if $args[0]="FXZ_SW_The next day":
 			'<div class="button"><a href="exec:a=11 & gt ''Vice_Principal_Event'',''FXZ_SW_The next day''">One hour later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
 			'</div>'

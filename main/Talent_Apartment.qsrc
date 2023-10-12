@@ -19,7 +19,7 @@ minutes+=15
 			if $CTtest2>=1:
 				if $YSdivorce!1:'<a class="photo" data-title="Lianmei (Voting supervisor)" href="exec:gt ''Empire_Event'',''Empire_Fuck_target1''"><img class="img_stretch" src="images\NPC\BGH\pics\fl (1).jpg"></a>'
 				if $YSdivorce=1:'<a class="photo" data-title="Lianmei (Voting supervisor)" href="exec:gt ''Empire_Event'',''Empire_Fuck_Restaurantshares''"><img class="img_stretch" src="images\NPC\BGH\pics\fl (1).jpg"></a>'
-			else:
+			else
 				'<a class="photo" data-title="【Lock】" ><img class="img_stretch" src="images\NPC\BGH\pics\fl (1).jpg"></a>'
 			end
 		'</div>'
@@ -124,7 +124,7 @@ if $args[0]="Supermarket wife judgment":
 	   if $Thiefnumber=1:
 		'<p><<$Thiefsname>>: Honey, be careful on the road, you have to refuel at work!</p>'
 		'<p>man: No matter how hard and tired the work is, as long as I can see your smiling face when I go home, I will be satisfied!</p>'
-		else:
+		else
 		'<p>man: Why are you here again?Didn`t you ask you to wait for me in the company?</p>'
 		'<p><<$Thiefsname>>: Husband, your little assistant is so obedient and will come to pick you up every day!Saved a lot of gasoline bills!</p>'
 		'<p>assistant: Master, isn`t this a good way... or is the teacher and mother empathetic❤</p>'
@@ -150,7 +150,7 @@ if $args[0]="Supermarket wife2":
 	'<div class="dialog_menu">'
 	   if $Thiefnumber=1:
 		'<p><<$Thiefsname>>: Are you... can I help you?</p>'
-		else:
+		else
 		'<p><<$Thiefsname>>: Shhh-my husband and his assistant haven`t gone far yet, I can tell them to turn around at any time.</p>'
 		end
 	'</div>'
@@ -163,7 +163,7 @@ if $args[0]="Swimming coach`s house":
 		'</div>'
 
 	'<div class="button_menu">'
-		if $YY.Homecanbeentered=1:'<div class="button"><a href="exec:$Swimmingdialogue=0 & gt ''Talent_Apartment'',''Swimming coach`s house''">Knock on the door and go in</a></div>'else:'<div class="buttonGr"><a href="exec:">Knock on the door and go in</a></div>'
+		if $YY.Homecanbeentered=1:'<div class="button"><a href="exec:$Swimmingdialogue=0 & gt ''Talent_Apartment'',''Swimming coach`s house''">Knock on the door and go in</a></div>'else'<div class="buttonGr"><a href="exec:">Knock on the door and go in</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Talent_Apartment''">leave</a></div>'
 	'</div>'
 
@@ -181,9 +181,9 @@ if $args[0]="Swimming coach`s house":
 	'<div class="button_menu">'
 		if $Swimmingdialogue=0:
 			'<div class="button"><a href="exec:$Swimmingdialogue=1 & gt ''Talent_Apartment'',''Swimming coach`s house''">Wait for him to go far</a></div>'
-		else:
+		else
 			'<div class="buttonS3"><a href="exec:$Swimmingdialogue=1 & gt ''Empire_Event'',''Empire_Fuck_Swimming coach`s house1''">Masturbate to me</a></div>'
-			if $YY.love>=my.charm*10:'<div class="buttonS4"><a href="exec:$Swimmingdialogue=1 & gt ''Empire_Event'',''Empire_Fuck_Swimming coach`s house2''">Discuss a drink</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability<<my.charm*10>></a></div>'
+			if $YY.love>=my.charm*10:'<div class="buttonS4"><a href="exec:$Swimmingdialogue=1 & gt ''Empire_Event'',''Empire_Fuck_Swimming coach`s house2''">Discuss a drink</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability<<my.charm*10>></a></div>'
 			if $YY.agree=1:'<div class="buttonS5"><a href="exec:$Swimmingdialogue=1 & gt ''Empire_Event'',''Empire_Fuck_Swimming coach big''">Take her out to play</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Talent_Apartment''">leave</a></div>'
@@ -194,7 +194,7 @@ if $args[0]="Swimming coach`s house":
 		'<p><<$YY.name>>: Didn`t you forget to take anything this time?Have you brought all your resumes?</p>'
 		'<p>Her husband: I am fully prepared this time!I will definitely find a new job!</p>'
 		'<p><<$YY.name>>: Little on the road!</p>'
-		else:
+		else
 		'<p><<$YY.name>>: My husband walked on the front foot and you came on the back foot, are you not at ease❤</p>'
 		'<p>I: I am very sad when you say that.</p>'
 		end

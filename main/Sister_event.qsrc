@@ -68,7 +68,7 @@ if $args[0]="Autologous cycle":
 			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister_event'',''Autologous cycle'',''010'',''结束''">External shot</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: gt ''Mugou_Pharmaceutical''">leave</a></div>'
 			'</div>'
@@ -122,7 +122,7 @@ if $args[0]="Ejaculation test":
 			'<div class="button"><a href="exec:a=8 & gt ''Sister_event'',''Ejaculation test'',''巨大化8结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: minutes+=5 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
 				'<div class="button"><a href="exec: minutes+=30 & gt ''subway''">Take the subway and leave</a></div>'
@@ -201,7 +201,7 @@ if $args[0]="JJ_Fuck_Huge":
 			'<div class="button"><a href="exec:a=8 &gt ''Sister_event'',''JJ_Fuck_Huge'',''巨大化8结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: gt ''Mugou_Pharmaceutical''">leave</a></div>'
 			'</div>'
@@ -282,7 +282,7 @@ if $args[0]="JJ_Fuck_Giant do":
 			'<div class="button"><a href="exec:a=8 & gt ''Sister_event'',''JJ_Fuck_Giant do'',''巨做8结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: minutes+=15 & my.energy+=15 & gt ''Mugou_Pharmaceutical''">Leave after a break</a></div>'
 				'<div class="button"><a href="exec: minutes+=30 & gt ''subway''">Take the subway and leave</a></div>'
@@ -343,13 +343,13 @@ if $args[0]="Sister_bathroom":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q=1 and $jj.bad>=10 :
+			if a!1 and q=1 and $jj.bad>=10:
 			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''Sister_bathroom'',''浴室1''">Touch your ass</a></div>'
 			end
-			if a!2 and q=2 and $jj.bad>=50 :
+			if a!2 and q=2 and $jj.bad>=50:
 			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''Sister_bathroom'',''浴室2''">Oral sex</a></div>'
 			end
-			if a!3 and q=3 and $jj.bad>=100 :
+			if a!3 and q=3 and $jj.bad>=100:
 			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''Sister_bathroom'',''浴室3''">Shoot</a></div>'
 			end
 			if a=3:
@@ -363,7 +363,7 @@ if $args[0]="Sister_bathroom":
 			end
 			'<div class="button"><a href="exec:a=0 & q=0 & gt ''home''">Leave obediently</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: minutes+=30 & gt ''home''">Go out</a></div>'
 			'</div>'
@@ -414,7 +414,7 @@ end
 if $ARGS[0] ="Night attack":
 	if $ARGS[1] ="":
 	'<div class ="show_menu"><img src="images\NPC\JJ\pics\姐姐睡觉.jpg" width="854"></div>'
-	else:
+	else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\JJ\vids\<<$ARGS[1]>>~1.webm" type=''video/webm;''></video></div>'
@@ -462,13 +462,13 @@ if $args[0]="JJ_Fuck_Night attacksex":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q<=2 :
+			if a!1 and q<=2:
 			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭1挑逗''">Toying with</a></div>'
 			end
-			if a!2 and q<=3 :
+			if a!2 and q<=3:
 			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭2挑逗2''">serve</a></div>'
 			end
-			if a!3 and  5>= q and q>=2 :
+			if a!3 and  5>= q and q>=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭3口交''">Oral sex</a></div>'
 			end
 			if a!4 and  q>=3:
@@ -477,7 +477,7 @@ if $args[0]="JJ_Fuck_Night attacksex":
 			if a!5 and  q>=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭5sex''">Rear entry</a></div>'
 			end
-			if a!6 and q>=5 :
+			if a!6 and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭6冲刺sex''">sprint</a></div>'
 			end
 			if 7>a and a>=4 and q>=7:  
@@ -490,13 +490,13 @@ if $args[0]="JJ_Fuck_Night attacksex":
 			'<div class="button"><a href="exec:a=9 & gt ''Sister_event'',''JJ_Fuck_Night attacksex'',''夜袭9结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			  suiji=rand(1,100)
 				if  suiji >=50 and $mm.love+$mm.bad>=300:
-				'<div class="buttonS"><a href="exec: minutes+=30 &a=0 &q=0 & my.energy+=50  & gt ''Sister2_event'',''MM_Fuck_Counter night attack''">？？？</a></div>'
-				else:
-				'<div class="button"><a href="exec: minutes+=15 &a=0 &q=0 & my.energy+=100  & hour=8 & gt ''Home_sister`s_room''">Sleep together until dawn</a></div>'
+				'<div class="buttonS"><a href="exec: minutes+=30 &a=0 &q=0 & my.energy+=50  & gt ''Sister2_event'',''MM_Fuck_Counter night attack''">???</a></div>'
+				else
+				'<div class="button"><a href="exec: minutes+=15 &a=0 &q=0 & my.energy+=100  & hour=8 & gt ''Home_sisters_room''">Sleep together until dawn</a></div>'
 				end
 				'<div class="button"><a href="exec: minutes+=15 &gt ''home''">leave</a></div>'
 			'</div>'
@@ -509,7 +509,7 @@ if $args[0]="JJ_Fuck_Night attacksex":
 		 '</div>'
 	end
 
-	if 6>=a and a>=4 :
+	if 6>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$JJ.name>>:<<$words>></p>'
 		 '</div>'
@@ -566,7 +566,7 @@ if $args[0]="JJ_Fuck_Mother_and_sister":
 			'<div class="button"><a href="exec:a=10 & gt ''Sister_event'',''JJ_Fuck_Mother_and_sister''">One hour later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Mugou_Pharmaceutical''">end</a></div>'
@@ -582,13 +582,13 @@ if $args[0]="JJ_Fuck_Mother_and_sister":
 	end
 
 
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>>..</p>'
 		 '</div>'
 	end
 
-	if 8>=a and a>=5 :
+	if 8>=a and a>=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>>..</p>'
 		 '</div>'
@@ -633,7 +633,7 @@ if $args[0]="JJ_Fuck_At home":
 			if a=1 and $JJ.bad>=55:
 			'<div class="button"><a href="exec:a=2 & gt ''Sister_event'',''JJ_Fuck_At home''">Oral sex</a></div>'
 			end
-			if a=2 :
+			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Sister_event'',''JJ_Fuck_At home''">Ejaculation</a></div>'
 			end
 			if a=3 and $JJ.bad>=60:
@@ -655,11 +655,11 @@ if $args[0]="JJ_Fuck_At home":
 			'<div class="button"><a href="exec:a=9 & gt ''Sister_event'',''JJ_Fuck_At home''">Internal injection</a></div>'
 			end
 			if $JJ.bad<100:
-			'<div class="buttonS"><a href="exec:">？？？</a></div>'
+			'<div class="buttonS"><a href="exec:">???</a></div>'
 			end
 			'<div class="button"><a href="exec:minutes+=30 & $JJ.love+=q+my.charm & $JJ.bad+=q & gt ''home''">That`s it</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">end</a></div>'
 			'</div>'
@@ -731,9 +731,9 @@ if $args[0]="JJ_Fuck_senior":
 			'<div class="button"><a href="exec:a+=1 & gt ''Sister_event'',''JJ_Fuck_senior''">Watch it</a></div>'
 			'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
-				if $JJ.bad>=400-$JJ.love:'<div class="buttonS"><a href="exec:a=0&q=0 & gt ''Sister_event'',''JJ_Fuck_senior3P''">enter</a></div>'else:'<div class="buttonGr"><a href="exec:">enter</a></div>'
+				if $JJ.bad>=400-$JJ.love:'<div class="buttonS"><a href="exec:a=0&q=0 & gt ''Sister_event'',''JJ_Fuck_senior3P''">enter</a></div>'else'<div class="buttonGr"><a href="exec:">enter</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">end</a></div>'
 			'</div>'
 	end
@@ -782,11 +782,11 @@ if $args[0]="JJ_Fuck_senior3P":
 			if a=0:
 			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_senior3P''">dialogue</a></div>'
 			end
-			if a>=1 :
+			if a>=1:
 			'<div class="button"><a href="exec:a+=1 & gt ''Sister_event'',''JJ_Fuck_senior3P''">Do it</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 			'</div>'

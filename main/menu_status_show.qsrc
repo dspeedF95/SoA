@@ -18,13 +18,13 @@ end
 
 	if money>0:
 		'<p>$cash:<span class ="green"><<money>></span> '
-	else:
+	else
 		'<p>$cash:<span class ="red"><<money>></span> '
 	end
 		
 	if Cmoney>0:
 		' Company Balance:<span class ="green"><<Cmoney>></span></p>'
-	else:
+	else
 		' Company Balance:<span class ="red"><<Cmoney>></span></p>'
 	end
 

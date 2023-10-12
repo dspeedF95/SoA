@@ -52,7 +52,7 @@ if $args[0]="":
 		if  $ZL_Event_face=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Plastic_Surgery_Department'',''consultation''">for<<$ZL.name>>consultation</a></div>'
 		if  $QBContract_chain=4:'<div class="button"><a href="exec:minutes+=5 & gt ''Plastic_Surgery_Department'',''QBPlastic surgery''">for<<$QB.name>>consultation</a></div>'
 		if $QBContract_chain=5:'<div class="button"><a href="exec:minutes+=5 & gt ''Hashimoto_Event'',''Plastic surgery completed''">Postoperative recovery</a></div>'
-		if money>=1500:'<div class="buttonG"><a href="exec:money-=1500 & gt ''Plasticity_event'',''ZX_Fuck_Beautiful teeth''">Teeth whitening-1500￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Teeth whitening-1500￥</a></div>'
+		if money>=1500:'<div class="buttonG"><a href="exec:money-=1500 & gt ''Plasticity_event'',''ZX_Fuck_Beautiful teeth''">Teeth whitening-1500￥</a></div>'else'<div class="buttonGr"><a href="exec:">Teeth whitening-1500￥</a></div>'
 		if $ZXEvent_chain=1 or $ZXEvent_chain=2:'<div class="buttonPu1"><a href="exec:minutes+=5 & gt ''Plastic_Surgery_Department'',''Photos of public toilets''">Photos of public toilets</a></div>'
 		if $ZXEvent_chain>=3:'<div class="buttonPu1"><a href="exec:minutes+=5 & gt ''Plastic_Surgery_Department'',''About the public toilet''">About the public toilet</a></div>'
 		if $Caesar_Event_Chain=5:'<div class="buttonPu4"><a href="exec:minutes+=5 & gt ''Plastic_Surgery_Department'',''Champion plastic surgery''">Caesar and<<$GJ.name>></a></div>'
@@ -77,7 +77,7 @@ if $args[0]="consultation":
 	'<div class="button_menu">'
 		if money>=50000:
 		'<div class="buttonG"><a href="exec:minutes+=5 &money-=50000 & gt ''Aid_Event'',''Pay''">Pay for her￥50000</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Pay for her￥50000</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=5 & gt ''hospital''">It`s okay</a></div>'
@@ -100,7 +100,7 @@ if $args[0]="QBPlastic surgery":
 	'<div class="button_menu">'
 		if money>=60000:
 		'<div class="buttonG"><a href="exec:minutes+=5 &money-=60000 & gt ''Hashimoto_Event'',''Pay''">Pay for her￥60000</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Pay for her￥60000</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=5 & gt ''hospital''">Not going on yet</a></div>'
@@ -166,7 +166,7 @@ if $args[0]="About the public toilet":
 	'<div class="button_menu">'
 		'<div class="buttonPu3"><a href="exec:minutes+=5 & gt ''hospital''">Leave bitterly</a></div>'
 		if Publictoiletnegatives=1:'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Plasticity_event'',''Take out the negatives''">Take out the negatives</a></div>'
-		if Publictoiletnegatives=1 and $ZX.bad>=30:'<div class="buttonR3"><a href="exec:gt ''Plastic_Surgery_Department'',''Not you''">I admit the wrong person</a></div>'else:'<div class="buttonGr"><a href="exec:">I admit the wrong person</a></div>'
+		if Publictoiletnegatives=1 and $ZX.bad>=30:'<div class="buttonR3"><a href="exec:gt ''Plastic_Surgery_Department'',''Not you''">I admit the wrong person</a></div>'else'<div class="buttonGr"><a href="exec:">I admit the wrong person</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'

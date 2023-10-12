@@ -20,7 +20,7 @@ if $args[0]="":
 	$Hotgirlincident=rand(0,2)
 	if $Random_number>=85:
 		$Hotgirlincident=rand(1,2)
-	else:
+	else
 		$Hotgirlincident=0
 	end
 		'<div class="show_menu">'
@@ -30,7 +30,7 @@ if $args[0]="":
 		
 	'<div class="button_menu">'
 		if $Hotgirlincident!0:
-			if $EDM.love>=200-$EDM.bad:'<div class="buttonS"><a href="exec:gt ''Second_generation_project_Event'',''EDM_Fuck_Hot girls2''">Join them</a></div>'else:'<div class="buttonGr"><a href="exec:">Join them</a></div>'
+			if $EDM.love>=200-$EDM.bad:'<div class="buttonS"><a href="exec:gt ''Second_generation_project_Event'',''EDM_Fuck_Hot girls2''">Join them</a></div>'else'<div class="buttonGr"><a href="exec:">Join them</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
 	'</div>'
@@ -44,7 +44,7 @@ End
 if $args[0]="corridor":
 	'<div class ="show_menu"><img src="images\place\辣妹帮走廊.jpg" width="854"></div>'
 	'<div class="button_menu">'
-		if hour>=19:'<div class="button"><a href="exec:minutes+=15 & gt ''Hot_girl_Gang'',''President`s room''"><<$hz.name>>The room</a></div>'else:'<div class="buttonGr"><a href="exec:"><<$hz.name>>The room:Locked</a></div>'
+		if hour>=19:'<div class="button"><a href="exec:minutes+=15 & gt ''Hot_girl_Gang'',''President`s room''"><<$hz.name>>The room</a></div>'else'<div class="buttonGr"><a href="exec:"><<$hz.name>>The room:Locked</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
 	'</div>'
 
@@ -110,9 +110,9 @@ if $args[0]="Top layer2":
 			if $EDM_Event_friend=1:
 				if hour<=8 and $EDM.love>=100:'<div class="buttonR1"><a href="exec:minutes+=15 & gt ''Second_generation_project_Event'',''EDM_Fuck_white''">dialogue</a></div>'
 				if hour>=22 and $EDM.bad>=150:'<div class="buttonR1"><a href="exec:minutes+=15 & gt ''Second_generation_project_Event'',''EDM_Fuck_black''">Close</a></div>'
-				if hour=12 or hour=13:'<div class="button"><a href="exec:minutes+=15 & gt ''One_generation_project_Event'',''Lunch time''">Lunch time</a></div>'else:'<div class="buttonGr"><a href="exec:">Lunch time</a></div>'
-				if hour>=22:'<div class="button"><a href="exec:minutes+=15 & gt ''One_generation_project_Event'',''YDM_Fuck_quiet3P''">Request to stay</a></div>'else:'<div class="buttonGr"><a href="exec:">Request to stay</a></div>'
-				if hour>=18:'<div class="buttonGn"><a href="exec:gt ''Second_generation_project_Event'',''Drive''">Go out together</a></div>'else:'<div class="buttonGr"><a href="exec:">Go out together</a></div>'
+				if hour=12 or hour=13:'<div class="button"><a href="exec:minutes+=15 & gt ''One_generation_project_Event'',''Lunch time''">Lunch time</a></div>'else'<div class="buttonGr"><a href="exec:">Lunch time</a></div>'
+				if hour>=22:'<div class="button"><a href="exec:minutes+=15 & gt ''One_generation_project_Event'',''YDM_Fuck_quiet3P''">Request to stay</a></div>'else'<div class="buttonGr"><a href="exec:">Request to stay</a></div>'
+				if hour>=18:'<div class="buttonGn"><a href="exec:gt ''Second_generation_project_Event'',''Drive''">Go out together</a></div>'else'<div class="buttonGr"><a href="exec:">Go out together</a></div>'
 			end
 		end
 		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
@@ -177,7 +177,7 @@ if $args[0]="What to drink":
 		'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=1& gt ''Hot_girl_Gang'',''What to drink''">tea</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=2& gt ''Hot_girl_Gang'',''What to drink''">Hot chocolate</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=3& gt ''Hot_girl_Gang'',''What to drink''">Orange soda</a></div>'
-		else:
+		else
 		'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=0& gt ''Hot_girl_Gang'',''chat''">chat</a></div>'
 		if $EDM_Event_friend=1:'<div class="buttonR3"><a href="exec:minutes+=15 &$EDMdialogue=0& gt ''Hot_girl_Gang'',''Best friend Challenge''">Best friend Challenge</a></div>'
 		end
@@ -223,9 +223,9 @@ if $args[0]="chat":
 	'<div class="button_menu">'
 		if $EDMdialogue=0:
 		'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=1& gt ''Hot_girl_Gang'',''chat''">Make friends</a></div>'
-		if $EDM.love>=10:'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=2& gt ''Hot_girl_Gang'',''chat''">Favorite type</a></div>'else:'<div class="buttonGr"><a href="exec:">Privacy topics</a></div>'
-		if $EDM.love>=20:'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=3& gt ''Hot_girl_Gang'',''chat''">What is your determination?</a></div>'else:'<div class="buttonGr"><a href="exec:">Privacy topics</a></div>'
-		else:
+		if $EDM.love>=10:'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=2& gt ''Hot_girl_Gang'',''chat''">Favorite type</a></div>'else'<div class="buttonGr"><a href="exec:">Privacy topics</a></div>'
+		if $EDM.love>=20:'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=3& gt ''Hot_girl_Gang'',''chat''">What is your determination?</a></div>'else'<div class="buttonGr"><a href="exec:">Privacy topics</a></div>'
+		else
 		'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=0& gt ''Hot_girl_Gang''">leave</a></div>'
 		end
 		if $EDMdialogue=1:'<div class="buttonR"><a href="exec:gt ''Second_generation_project_Event'',''EDM_Fuck_Make friends''">wait!</a></div>'
@@ -276,11 +276,11 @@ if $args[0]="One generation":
 	'</div>'
 	'<div class="button_menu">'
 		'<div class="buttonR1"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_reward''">Reward</a></div>'
-		if week_day >5:'<div class="buttonR2"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_band''">Heavy metal band</a></div>'else:'<div class="buttonGr"><a href="exec:">Weekend party</a></div>'
+		if week_day >5:'<div class="buttonR2"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_band''">Heavy metal band</a></div>'else'<div class="buttonGr"><a href="exec:">Weekend party</a></div>'
 		'<div class="buttonGn"><a href="exec:gt ''One_generation_project_Event'',''Go out''">Go out together</a></div>'
-		if $YDM_Event_XZ>0 and Randomnumber=1:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_And the principal''"><<$XZ.name>>visit</a></div>'else:'<div class="buttonGr"><a href="exec:"><<$XZ.name>>visit</a></div>'
-		if $FXZ.bad>=200 and Randomnumber=2:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_Vice Principal''"><<$FXZ.name>>visit</a></div>'else:'<div class="buttonGr"><a href="exec:"><<$FXZ.name>>visit</a></div>'
-		if $XY.bad>=200 and Randomnumber=3:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_assessment''"><<$XY.name>>visit</a></div>'else:'<div class="buttonGr"><a href="exec:"><<$XY.name>>visit</a></div>'
+		if $YDM_Event_XZ>0 and Randomnumber=1:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_And the principal''"><<$XZ.name>>visit</a></div>'else'<div class="buttonGr"><a href="exec:"><<$XZ.name>>visit</a></div>'
+		if $FXZ.bad>=200 and Randomnumber=2:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_Vice Principal''"><<$FXZ.name>>visit</a></div>'else'<div class="buttonGr"><a href="exec:"><<$FXZ.name>>visit</a></div>'
+		if $XY.bad>=200 and Randomnumber=3:'<div class="button"><a href="exec:gt ''One_generation_project_Event'',''YDM_Fuck_assessment''"><<$XY.name>>visit</a></div>'else'<div class="buttonGr"><a href="exec:"><<$XY.name>>visit</a></div>'
 		
 	'</div>'
 
@@ -295,9 +295,9 @@ if $args[0]="Best friend Challenge":
 	
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:gt ''Second_generation_project_Event'',''EDM_Fuck_Make friends''">Anal challenge</a></div>'
-		if Essential_oil>0:'<div class="buttonS2"><a href="exec:Essential_oil-=1 & m= 0& gt ''Second_generation_project_Event'',''EDM_Fuck_massage''">Massage challenge</a></div>'else:'<div class="buttonGr"><a href="exec:">Massage challenge</a></div>'
-		if $EDM.love>=20:'<div class="buttonS3"><a href="exec:a=-1 & gt ''Second_generation_project_Event'',''EDM_Fuck_Cow outfit''">Dating challenge</a></div>'else:'<div class="buttonGr"><a href="exec:">Dating challenge</a></div>'
-		if $SW.love>=250-$SW.bad:'<div class="buttonS4"><a href="exec:a=-1 & gt ''Second_generation_project_Event'',''EDM_Fuck_Biological pasta''">Cooking challenge</a></div>'else:'<div class="buttonGr"><a href="exec:">Cooking challenge</a></div>'
+		if Essential_oil>0:'<div class="buttonS2"><a href="exec:Essential_oil-=1 & m= 0& gt ''Second_generation_project_Event'',''EDM_Fuck_massage''">Massage challenge</a></div>'else'<div class="buttonGr"><a href="exec:">Massage challenge</a></div>'
+		if $EDM.love>=20:'<div class="buttonS3"><a href="exec:a=-1 & gt ''Second_generation_project_Event'',''EDM_Fuck_Cow outfit''">Dating challenge</a></div>'else'<div class="buttonGr"><a href="exec:">Dating challenge</a></div>'
+		if $SW.love>=250-$SW.bad:'<div class="buttonS4"><a href="exec:a=-1 & gt ''Second_generation_project_Event'',''EDM_Fuck_Biological pasta''">Cooking challenge</a></div>'else'<div class="buttonGr"><a href="exec:">Cooking challenge</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 &$EDMdialogue=0& gt ''Hot_girl_Gang''">leave</a></div>'
 	'</div>'
 
@@ -314,8 +314,8 @@ if $args[0]="President`s room":
 	
 	'<div class="button_menu">'
 		'<div class="buttonB"><a href="exec:minutes+=15 & gt ''Hot_girl_Gang'',''Overnight in the president`s room''">Spend the night here</a></div>'
-		if MGF>0:'<div class="buttonS"><a href="exec:minutes+=15 & MGF-=1 & gt ''Hot_girl_Gang'',''President`s room medicine''">Try McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
-		if $HZ.love>=250:'<div class="buttonS2"><a href="exec:minutes+=15 & gt ''President_Event'',''HZ_Fuck_toys''">Display collection</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		if MGF>0:'<div class="buttonS"><a href="exec:minutes+=15 & MGF-=1 & gt ''Hot_girl_Gang'',''President`s room medicine''">Try McGovern</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+		if $HZ.love>=250:'<div class="buttonS2"><a href="exec:minutes+=15 & gt ''President_Event'',''HZ_Fuck_toys''">Display collection</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
 		if $HZ.Musicfestivaldate=0:'<div class="buttonP"><a href="exec:minutes+=15 & $HZ.Musicfestivaldate=1 & gt ''Hot_girl_Gang'',''President`s room''">Agree to date</a></div>'
 	'</div>'
 

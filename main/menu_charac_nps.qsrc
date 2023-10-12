@@ -26,7 +26,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$DZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DZ.name>>'',''<<$DZ.love>>'',''<<$DZ.bad>>'',''<<$DZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DZ.name>>a.png"></a>'
 			'</div>'
@@ -37,7 +37,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$RION.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$RION.name>>'',''<<$RION.love>>'',''<<$RION.bad>>'',''<<$RION.bio>>''"><img class="img_stretch" src="images\npc_l\<<$RION.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$RION.name>>a.png"></a>'
 			'</div>'
@@ -47,7 +47,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$TS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$TS.name>>'',''<<$TS.love>>'',''<<$TS.bad>>'',''<<$TS.bio>>'',''<<TS_fans>>'',''<<$TS.Multifaceted>>''"><img class="img_stretch" src="images\npc_l\<<$TS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$TS.name>>a.png"></a>'
 			'</div>'
@@ -57,7 +57,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$HS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HS.name>>'',''<<$HS.love>>'',''<<$HS.bad>>'',''<<$HS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$HS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$HS.name>>a.png"></a>'
 			'</div>'
@@ -67,7 +67,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$YZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YZ.name>>'',''<<$YZ.love>>'',''<<$YZ.bad>>'',''<<$YZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$YZ.name>>a.png"></a>'
 			'</div>'
@@ -77,7 +77,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$NK.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$NK.name>>'',''<<$NK.love>>'',''<<$NK.bad>>'',''<<$NK.bio>>''"><img class="img_stretch" src="images\npc_l\<<$NK.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$NK.name>>a.png"></a>'
 			'</div>'
@@ -87,7 +87,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$ZX.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$ZX.name>>'',''<<$ZX.love>>'',''<<$ZX.bad>>'',''<<$ZX.bio>>''"><img class="img_stretch" src="images\npc_l\<<$ZX.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$ZX.name>>a.png"></a>'
 			'</div>'
@@ -97,7 +97,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$SF.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SF.name>>'',''<<$SF.love>>'',''<<$SF.bad>>'',''<<$SF.bio>>'',''<<SF_fans>>'',''<<$SF.Multifaceted>>''"><img class="img_stretch" src="images\npc_l\<<$SF.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$SF.name>>a.png"></a>'
 			'</div>'
@@ -110,7 +110,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$YS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YS.name>>'',''<<$YS.love>>'',''<<$YS.bad>>'',''<<$YS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$YS.name>>a.png"></a>'
 			'</div>'
@@ -122,7 +122,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$XZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XZ.name>>'',''<<$XZ.love>>'',''<<$XZ.bad>>'',''<<$XZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$XZ.name>>a.png"></a>'
 			'</div>'
@@ -132,7 +132,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$FXZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$FXZ.name>>'',''<<$FXZ.love>>'',''<<$FXZ.bad>>'',''<<$FXZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$FXZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$FXZ.name>>a.png"></a>'
 			'</div>'
@@ -142,7 +142,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$SW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SW.name>>'',''<<$SW.love>>'',''<<$SW.bad>>'',''<<$SW.bio>>''"><img class="img_stretch" src="images\npc_l\<<$SW.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$SW.name>>a.png"></a>'
 			'</div>'
@@ -152,7 +152,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$XY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XY.name>>'',''<<$XY.love>>'',''<<$XY.bad>>'',''<<$XY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XY.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$XY.name>>a.png"></a>'
 			'</div>'
@@ -162,7 +162,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$ZL.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$ZL.name>>'',''<<$ZL.love>>'',''<<$ZL.bad>>'',''<<$ZL.bio>>''"><img class="img_stretch" src="images\npc_l\<<$ZL.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$ZL.name>>a.png"></a>'
 			'</div>'
@@ -172,7 +172,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$LJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LJ.name>>'',''<<$LJ.love>>'',''<<$LJ.bad>>'',''<<$LJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LJ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LJ.name>>a.png"></a>'
 			'</div>'
@@ -184,7 +184,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$ZJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$ZJ.name>>'',''<<$ZJ.love>>'',''<<$ZJ.bad>>'',''<<$ZJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$ZJ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$ZJ.name>>a.png"></a>'
 			'</div>'
@@ -194,7 +194,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$WQ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$WQ.name>>'',''<<$WQ.love>>'',''<<$WQ.bad>>'',''<<$WQ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$WQ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$WQ.name>>a.png"></a>'
 			'</div>'
@@ -204,7 +204,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$HZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HZ.name>>'',''<<$HZ.love>>'',''<<$HZ.bad>>'',''<<$HZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$HZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$HZ.name>>a.png"></a>'
 			'</div>'
@@ -214,7 +214,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$DYZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DYZ.name>>'',''<<$DYZ.love>>'',''<<$DYZ.bad>>'',''<<$DYZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DYZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DYZ.name>>a.png"></a>'
 			'</div>'
@@ -224,7 +224,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$YJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YJ.name>>'',''<<$YJ.love>>'',''<<$YJ.bad>>'',''<<$YJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YJ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$YJ.name>>a.png"></a>'
 			'</div>'
@@ -234,7 +234,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$SY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SY.name>>'',''<<$SY.love>>'',''<<$SY.bad>>'',''<<$SY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$SY.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$SY.name>>a.png"></a>'
 			'</div>'
@@ -244,7 +244,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$JZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$JZ.name>>'',''<<$JZ.love>>'',''<<$JZ.bad>>'',''<<$JZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$JZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$JZ.name>>a.png"></a>'
 			'</div>'
@@ -254,7 +254,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$JY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$JY.name>>'',''<<$JY.love>>'',''<<$JY.bad>>'',''<<$JY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$JY.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$JY.name>>a.png"></a>'
 			'</div>'
@@ -264,7 +264,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$SS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SS.name>>'',''<<$SS.love>>'',''<<$SS.bad>>'',''<<$SS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$SS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$SS.name>>a.png"></a>'
 			'</div>'
@@ -274,7 +274,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$OX.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$OX.name>>'',''<<$OX.love>>'',''<<$OX.bad>>'',''<<$OX.bio>>''"><img class="img_stretch" src="images\npc_l\<<$OX.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$OX.name>>a.png"></a>'
 			'</div>'
@@ -284,7 +284,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$JK.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$JK.name>>'',''<<$JK.love>>'',''<<$JK.bad>>'',''<<$JK.bio>>''"><img class="img_stretch" src="images\npc_l\<<$JK.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$JK.name>>a.png"></a>'
 			'</div>'
@@ -294,7 +294,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$DL.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DL.name>>'',''<<$DL.love>>'',''<<$DL.bad>>'',''<<$DL.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DL.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DL.name>>a.png"></a>'
 			'</div>'
@@ -304,7 +304,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$XS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XS.name>>'',''<<$XS.love>>'',''<<$XS.bad>>'',''<<$XS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$XS.name>>a.png"></a>'
 			'</div>'
@@ -314,7 +314,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$WN.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$WN.name>>'',''<<$WN.love>>'',''<<$WN.bad>>'',''<<$WN.bio>>''"><img class="img_stretch" src="images\npc_l\<<$WN.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$WN.name>>a.png"></a>'
 			'</div>'
@@ -324,7 +324,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$EDM.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$EDM.name>>'',''<<$EDM.love>>'',''<<$EDM.bad>>'',''<<$EDM.bio>>''"><img class="img_stretch" src="images\npc_l\<<$EDM.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$EDM.name>>a.png"></a>'
 			'</div>'
@@ -334,7 +334,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$YDM.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YDM.name>>'',''<<$YDM.love>>'',''<<$YDM.bad>>'',''<<$YDM.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YDM.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$YDM.name>>a.png"></a>'
 			'</div>'
@@ -344,7 +344,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$NY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$NY.name>>'',''<<$NY.love>>'',''<<$NY.bad>>'',''<<$NY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$NY.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$NY.name>>a.png"></a>'
 			'</div>'
@@ -354,7 +354,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$MS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$MS.name>>'',''<<$MS.love>>'',''<<$MS.bad>>'',''<<$MS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$MS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$MS.name>>a.png"></a>'
 			'</div>'
@@ -364,7 +364,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$WH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$WH.name>>'',''<<$WH.love>>'',''<<$WH.bad>>'',''<<$WH.bio>>''"><img class="img_stretch" src="images\npc_l\<<$WH.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$WH.name>>a.png"></a>'
 			'</div>'
@@ -374,7 +374,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$TZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$TZ.name>>'',''<<$TZ.love>>'',''<<$TZ.bad>>'',''<<$TZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$TZ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$TZ.name>>a.png"></a>'
 			'</div>'
@@ -384,7 +384,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$BD.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$BD.name>>'',''<<$BD.love>>'',''<<$BD.bad>>'',''<<$BD.bio>>''"><img class="img_stretch" src="images\npc_l\<<$BD.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$BD.name>>a.png"></a>'
 			'</div>'
@@ -394,7 +394,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$LY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LY.name>>'',''<<$LY.love>>'',''<<$LY.bad>>'',''<<$LY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LY.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LY.name>>a.png"></a>'
 			'</div>'
@@ -404,7 +404,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$QT.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$QT.name>>'',''<<$QT.love>>'',''<<$QT.bad>>'',''<<$QT.bio>>''"><img class="img_stretch" src="images\npc_l\<<$QT.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$QT.name>>a.png"></a>'
 			'</div>'
@@ -414,7 +414,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$XM.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XM.name>>'',''<<$XM.love>>'',''<<$XM.bad>>'',''<<$XM.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XM.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$XM.name>>a.png"></a>'
 			'</div>'
@@ -424,7 +424,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$PW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$PW.name>>'',''<<$PW.love>>'',''<<$PW.bad>>'',''<<$PW.bio>>''"><img class="img_stretch" src="images\npc_l\<<$PW.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$PW.name>>a.png"></a>'
             '</div>'
@@ -434,7 +434,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$SSYY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SSYY.name>>'',''<<$SSYY.love>>'',''<<$SSYY.bad>>'',''<<$SSYY.bio>>'',''<<SSYY_fans>>'',''<<$SSYY.Multifaceted>>''"><img class="img_stretch" src="images\npc_l\<<$SSYY.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$SSYY.name>>a.png"></a>'
             '</div>'
@@ -444,7 +444,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$QB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$QB.name>>'',''<<$QB.love>>'',''<<$QB.bad>>'',''<<$QB.bio>>'',''<<QB_fans>>'',''<<$QB.Multifaceted>>''"><img class="img_stretch" src="images\npc_l\<<$QB.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$QB.name>>a.png"></a>'
 			'</div>'
@@ -454,7 +454,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$GJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$GJ.name>>'',''<<$GJ.love>>'',''<<$GJ.bad>>'',''<<$GJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$GJ.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$GJ.name>>a.png"></a>'
 			'</div>'
@@ -464,7 +464,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$SX.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SX.name>>'',''<<$SX.love>>'',''<<$SX.bad>>'',''<<$SX.bio>>''"><img class="img_stretch" src="images\npc_l\<<$SX.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$SX.name>>a.png"></a>'
             '</div>'
@@ -474,7 +474,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$BGH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$BGH.name>>'',''<<$BGH.love>>'',''<<$BGH.bad>>'',''<<$BGH.bio>>''"><img class="img_stretch" src="images\npc_l\<<$BGH.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$BGH.name>>a.png"></a>'
             '</div>'
@@ -486,7 +486,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$ZXG.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$ZXG.name>>'',''confidentiality'',''confidentiality'',''<<$ZXG.bio>>''"><img class="img_stretch" src="images\npc_l\<<$ZXG.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$ZXG.name>>a.png"></a>'
 			'</div>'
@@ -496,7 +496,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$DD.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DD.name>>'',''confidentiality'',''confidentiality'',''<<$DD.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DD.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DD.name>>a.png"></a>'
             '</div>'
@@ -507,7 +507,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$TJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$TJ.name>>'',''confidentiality'',''confidentiality'',''<<$TJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$TJ.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$TJ.name>>a.png"></a>'
             '</div>'
@@ -517,7 +517,7 @@ gs'menu_time_calc'
             !'<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$XZDZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XZDZ.name>>'',''<<$XZDZ.love>>'',''<<$XZDZ.bad>>'',''<<$XZDZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XZDZ.name>>.png"></a>'
             !'</div>'
-            !else:
+            !else
             !'<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$XZDZ.name>>a.png"></a>'
             !'</div>'
@@ -527,7 +527,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$DC.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DC.name>>'',''<<$DC.love>>'',''<<$DC.bad>>'',''<<$DC.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DC.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DC.name>>a.png"></a>'
             '</div>'
@@ -540,7 +540,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$MMS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$MMS.name>>'',''<<$MMS.love>>'',''<<$MMS.bad>>'',''<<$MMS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$MMS.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$MMS.name>>a.png"></a>'
             '</div>'
@@ -550,7 +550,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$CH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CH.name>>'',''<<$CH.love>>'',''<<$CH.bad>>'',''<<$CH.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CH.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$CH.name>>a.png"></a>'
             '</div>'
@@ -561,7 +561,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$RQ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$RQ.name>>'',''<<$RQ.love>>'',''<<$RQ.bad>>'',''<<$RQ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$RQ.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$RQ.name>>a.png"></a>'
             '</div>'
@@ -573,7 +573,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$LXS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LXS.name>>'',''<<$LXS.love>>'',''<<$LXS.bad>>'',''<<$LXS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LXS.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LXS.name>>a.png"></a>'
             '</div>'
@@ -584,7 +584,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$GS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$GS.name>>'',''<<$GS.love>>'',''<<$GS.bad>>'',''<<$GS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$GS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="Not yet installed → The one on the right is also" ><img class="img_stretch" src="images\npc_l\<<$GS.name>>a.png"></a>'
 			'</div>'
@@ -595,7 +595,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$SZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SZ.name>>'',''<<$SZ.love>>'',''<<$SZ.bad>>'',''<<$SZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$SZ.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Not yet installed" ><img class="img_stretch" src="images\npc_l\<<$SZ.name>>a.png"></a>'
             '</div>'
@@ -605,7 +605,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$CT.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CT.name>>'',''<<$CT.love>>'',''<<$CT.bad>>'',''<<$CT.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CT.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$CT.name>>a.png"></a>'
             '</div>'
@@ -616,7 +616,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$JYB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$JYB.name>>'',''<<$JYB.love>>'',''<<$JYB.bad>>'',''<<$JYB.bio>>''"><img class="img_stretch" src="images\npc_l\<<$JYB.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Not yet installed" ><img class="img_stretch" src="images\npc_l\<<$JYB.name>>a.png"></a>'
             '</div>'
@@ -629,7 +629,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$CJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CJ.name>>'',''<<$CJ.love>>'',''<<$CJ.bad>>'',''<<$CJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CJ.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$CJ.name>>a.png"></a>'
             '</div>'
@@ -640,7 +640,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$LB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LB.name>>'',''<<$LB.love>>'',''<<$LB.bad>>'',''<<$LB.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LB.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LB.name>>a.png"></a>'
             '</div>'
@@ -650,7 +650,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$XN.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XN.name>>'',''<<$XN.love>>'',''<<$XN.bad>>'',''<<$XN.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XN.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$XN.name>>a.png"></a>'
             '</div>'
@@ -660,7 +660,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$LEI.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LEI.name>>'',''<<$LEI.love>>'',''<<$LEI.bad>>'',''<<$LEI.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LEI.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LEI.name>>a.png"></a>'
             '</div>'
@@ -670,7 +670,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$QJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$QJ.name>>'',''<<$QJ.love>>'',''<<$QJ.bad>>'',''<<$QJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$QJ.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$QJ.name>>a.png"></a>'
             '</div>'
@@ -680,7 +680,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$YY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YY.name>>'',''<<$YY.love>>'',''<<$YY.bad>>'',''<<$YY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YY.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$YY.name>>a.png"></a>'
             '</div>'
@@ -690,7 +690,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$HB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HB.name>>'',''<<$HB.love>>'',''<<$HB.bad>>'',''<<$HB.bio>>''"><img class="img_stretch" src="images\npc_l\<<$HB.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="The next version and the rewritten<<$WH.name>>Launch together" ><img class="img_stretch" src="images\npc_l\<<$HB.name>>a.png"></a>'
             '</div>'
@@ -700,7 +700,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$YA_dAPc.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YA_dAPc.name>>'',''<<$YA_dAPc.love>>'',''<<$YA_dAPc.bad>>'',''<<$YA_dAPc.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YA_dAPc.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="It has not been installed yet, or it may not be done" ><img class="img_stretch" src="images\npc_l\<<$YA_dAPc.name>>a.png"></a>'
             '</div>'

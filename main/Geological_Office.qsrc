@@ -10,7 +10,7 @@ A_time=year*365+month*30+day
 if DZ_time=0:DZ_time=year*365+month*30+day
  if A_time - DZ_time>=7:
      $DZ_Event_date14.available=1
- else:
+ else
      $DZ_Event_date14.available=0
  end
 DZ_time=year*365+month*30+day
@@ -65,26 +65,26 @@ if $ARGS[0]="Dialogue with the Geological Office":
 		end
 		if $DZ.love>=30 and hour >=16:
 		'<div class="button"><a href="exec: gt ''Geological_Office'',''Invite dinner''">Invite dinner</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec: ">Invite dinner</a></div>'
 		end
 		if $DZ.love>=100 or $DZ.bad>=100:
 		'<div class="button"><a href="exec: gt ''Geological_Office'',''Weekend date''">Weekend date</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec: ">Weekend date</a></div>'
 		end
 		if $DZ.love>=100 and $DZ.bad>=100:
 		'<div class="button"><a href="exec: gt ''Geological_Office'',''Missing documents''">Missing documents</a></div>'
-		else:
-		'<div class="buttonGr"><a href="exec: ">？？？？</a></div>'
+		else
+		'<div class="buttonGr"><a href="exec: ">???？</a></div>'
 		end
 		if $DZ.love>=150 and $DZ.bad>=150 and MGF>0:
 		'<div class="buttonB3"><a href="exec: gt ''Geological_Office'',''McGovern Research''">McGovern Research</a></div>'
 		end
 		if $DZ.love>=200 and $DZ.bad>=200 and $JJ.love>=200 and $JJ.bad>=200:
 		'<div class="buttonS"><a href="exec: gt ''Geological_Office'',''Find sister3Pdialogue''">❤Find sister3P</a></div>'
-		else:
-		'<div class="buttonGr"><a href="exec: ">❤？？？</a></div>'
+		else
+		'<div class="buttonGr"><a href="exec: ">❤???</a></div>'
 		end
 		
 		'<div class="button"><a href="exec: gt ''Mugou_Pharmaceutical''">leave</a></div>'
@@ -92,7 +92,7 @@ if $ARGS[0]="Dialogue with the Geological Office":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$DZ.name>>：<<$Protagonist`s_surname>> ...<<$Protagonist_name>>, can I help you?OS: Some relationships are over as long as I don`t take the initiative. Why don`t those licking dogs understand.</p>'
+		'<p><<$DZ.name>>：<<$Protagonists_surname>> ...<<$Protagonist_name>>, can I help you?OS: Some relationships are over as long as I don`t take the initiative. Why don`t those licking dogs understand.</p>'
 	'</div>'
 end
 
@@ -122,7 +122,7 @@ if $ARGS[0]="Jealous":
 
 
 	'<div class="button_menu">'
-	 if $ARGS[1]!"Looking for you" and $ARGS[1]!"Find sister"and $ARGS[1]!"Molesting" :
+	 if $ARGS[1]!"Looking for you" and $ARGS[1]!"Find sister"and $ARGS[1]!"Molesting":
 		'<div class="button"><a href="exec: $DZ.love+=2 + my.charm & gt ''Geological_Office'',''Jealous'',''Looking for you''">Looking for you</a></div>'
 		'<div class="button"><a href="exec: $DZ.love-=10 & gt ''Geological_Office'',''Jealous'',''Find sister''">Find sister</a></div>'
 		if my.ethics<=-20:

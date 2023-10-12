@@ -18,7 +18,7 @@ minutes+=15
 if $args[0]="First sight in the first act":
 	if a=0:
 	'<div class ="show_menu"><img src="images\NPC\DC\pics\握手.jpg" width="854"></div>'
-	else:
+	else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\JM\vids\办公室友好<<rand(1,3)>>~1.webm" type=''video/webm;''></video></div>'
@@ -36,7 +36,7 @@ if $args[0]="First sight in the first act":
 	'<div class="dialog_menu">'
 		if a=0:
 		'<p><Narration>When you enter the door, you see<<$jm.name>>Sending a beautiful woman out of the office</p>'
-		'<p>？？？: Thank you for your cooperation. This is my business card. If you think of anything, please feel free to contact me.</p>'
+		'<p>???: Thank you for your cooperation. This is my business card. If you think of anything, please feel free to contact me.</p>'
 		'<p><<$jm.name>>: Yes, please go this way…</p>'
 		end
 		if a=1:
@@ -67,7 +67,7 @@ if $ARGS[0]="Visit and arrange":
 	'<div class ="show_menu"><img src="images\NPC\DC\pics\走访.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $DC.love>=100 or $DC.Onbase=1:'<div class="buttonS2"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_report''">Report work</a></div>'else:'<div class="buttonGr"><a href="exec:">Not close enough</a></div>'
+		if $DC.love>=100 or $DC.Onbase=1:'<div class="buttonS2"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_report''">Report work</a></div>'else'<div class="buttonGr"><a href="exec:">Not close enough</a></div>'
 		if $Inspector_event_chain=7:'<div class="buttonR4"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_clue''">Clues come to the door</a></div>'
 
 		'<div class="button"><a href="exec:gt ''Police_station''">rest</a></div>'
@@ -93,7 +93,7 @@ if $args[0]="DC_Fuck_Get in the car":
     if a!6:
         '<div class="button_menu">'
             if a=0:
-            if $DC.love>=100 or $DC.bad>=50:'<div class="buttonS1"><a href="exec:a=1 & gt ''Inspector_Event'',''DC_Fuck_Get in the car''">dialogue </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
+            if $DC.love>=100 or $DC.bad>=50:'<div class="buttonS1"><a href="exec:a=1 & gt ''Inspector_Event'',''DC_Fuck_Get in the car''">dialogue </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
             '<div class="button"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''destination''">Go to destination</a></div>'
             end
             if a=1:
@@ -114,9 +114,9 @@ if $args[0]="DC_Fuck_Get in the car":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                if $Inspector_event_chain>=7: '<div class="buttonS3"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_Small hotel''">Motel</a></div>'else:'<div class="buttonGr"><a href="exec:">Motel</a></div>'
+                if $Inspector_event_chain>=7: '<div class="buttonS3"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_Small hotel''">Motel</a></div>'else'<div class="buttonGr"><a href="exec:">Motel</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''destination''">Arrive at destination</a></div>'
             '</div>'
     end
@@ -193,8 +193,8 @@ if $ARGS[0]="destination2":
 	'<div class ="show_menu"><img src="images\NPC\DC\pics\目的地2.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $DC.love>=50:'<div class="buttonS1"><a href="exec:hour+=1 & gt ''Inspector_Event'',''Have a drink''">Have something to drink</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if $Inspector_event_chain>=7:'<div class="buttonS2"><a href="exec:hour+=1 & gt ''Inspector_Event'',''DC_Fuck_home''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if $DC.love>=50:'<div class="buttonS1"><a href="exec:hour+=1 & gt ''Inspector_Event'',''Have a drink''">Have something to drink</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if $Inspector_event_chain>=7:'<div class="buttonS2"><a href="exec:hour+=1 & gt ''Inspector_Event'',''DC_Fuck_home''">Take her home</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="button"><a href="exec:gt ''subway''">Get off work</a></div>'
 	'</div>'
 	
@@ -218,7 +218,7 @@ if $ARGS[0]="Have a drink":
 		if a=0:'<div class="button"><a href="exec:a+=1 & gt ''Inspector_Event'',''Have a drink''">Which thing?</a></div>'
 		if a=1:'<div class="button"><a href="exec:a+=1 & gt ''Inspector_Event'',''Have a drink''">Say a yellow joke</a></div>'
 		if a=2:
-			if $DC.bad>=50:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_hotel''">Go open a room</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			if $DC.bad>=50:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_hotel''">Go open a room</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''subway''">leave</a></div>'
 	'</div>'
@@ -232,7 +232,7 @@ if $ARGS[0]="Have a drink":
 		if a=2:
 			'<p>I: Forget it if you don`t want to say it, the mouth above the woman is much more difficult than the one below!</p>'
 			$DC.bad+=rand(10,15)
-			if $DC.bad>=50:'<p><<$DC.name>>: How do you know that the mouth below me can speak more?</p>'else:'<p><<$DC.name>>: You haven`t given me that desire to talk…</p>'
+			if $DC.bad>=50:'<p><<$DC.name>>: How do you know that the mouth below me can speak more?</p>'else'<p><<$DC.name>>: You haven`t given me that desire to talk…</p>'
 		end
 	'</div>'
 end
@@ -276,9 +276,9 @@ if $args[0]="DC_Fuck_hotel":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-				if $Inspector_event_chain>=7:'<div class="buttonS2"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_home''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+				if $Inspector_event_chain>=7:'<div class="buttonS2"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_home''">Take her home</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Leave alone</a></div>'
             '</div>'
     end
@@ -335,7 +335,7 @@ if $args[0]="DC_Fuck_report":
             if a=4:'<div class="buttonS1"><a href="exec:a+=1 & gt ''Inspector_Event'',''DC_Fuck_report''">Ejaculation </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">End of report</a></div>'
             '</div>'
@@ -405,7 +405,7 @@ if $args[0]="DC_Fuck_Close the net":
             '<div class="buttonS1"><a href="exec:a+=1 & gt ''Inspector_Event'',''DC_Fuck_Close the net''">Follow the special police </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & $Inspector_event_chain=4 & gt ''Police_station''">Stolen goods and obtained</a></div>'
             '</div>'
@@ -492,7 +492,7 @@ if $ARGS[0]="Follow quietly":
 		'<p><<$DC.name>>:  I will find a rental house in the deep alley to keep an eye on. It seems that this is a protracted battle.</p>'
 		'<p>informant:  And let`s fight alone.</p>'
 		'<p><<$DC.name>>:  I have a trusted helper.</p>'
-		'<p>informant:  <<$Protagonist`s_surname>> …<<$Protagonist`s_name>>Right?</p>'
+		'<p>informant:  <<$Protagonists_surname>> …<<$Protagonist`s_name>>Right?</p>'
 		'<p><<$DC.name>>:  It deserves to be a lesson from the previous investigation. He hopes you can secretly protect his safety.</p>'
 	'</div>'
 end
@@ -516,9 +516,9 @@ if $ARGS[0]="Scream":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>？？？: Catch her for me!Bitch!</p>'
+		'<p>???: Catch her for me!Bitch!</p>'
 		'<p>I:  <<$DC.name>>？！You let her go for me!</p>'
-		'<p>？？？: hello!Call you!</p>'
+		'<p>???: hello!Call you!</p>'
 		if a=1:'<p><font size="50">Boom--!</font></p>'
 		if a=2:'<p>·I heard the cries of rescuers, but I was unable to respond……</p>'
 		
@@ -537,7 +537,7 @@ if $args[0]="DC_Fuck_Video":
             '<div class="buttonR4"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''ceiling''">Loss of consciousness</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonR4"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''ceiling''">Loss of consciousness</a></div>'
             '</div>'
@@ -548,9 +548,9 @@ if $args[0]="DC_Fuck_Video":
 
     if 10>=a and a>=0:
          '<div class="dialog_menu">'
-             if a>=0:'<p>？？？: You are very bold, you dare to come alone, dare to break into any Longtan?</p>'
+             if a>=0:'<p>???: You are very bold, you dare to come alone, dare to break into any Longtan?</p>'
              if a>=1:'<p><<$DC.name>>: Let me go!</p>'
-             if a>=2:'<p>？？？: This woman is really strong. Take medicine and let her know what heaven is.</p>'
+             if a>=2:'<p>???: This woman is really strong. Take medicine and let her know what heaven is.</p>'
              if a>=3:'<p><<$DC.name>>: <<$Panting>></p>'
              if a>=5:'<p><<$DC.name>>: <<$words>></p>'
          '</div>'
@@ -558,9 +558,9 @@ if $args[0]="DC_Fuck_Video":
 
     if a=11:
          '<div class="dialog_menu">'
-             '<p>？？？: hello!Dongzi, are you taking too much medicine?No one will die, right?</p>'
-             '<p>？？？: This...this woman won`t be fucked to death by us, right?</p>'
-             '<p>？？？: It`s broken. If the senior inspector dies here, it will be troublesome. Hurry up and call an ambulance!</p>'
+             '<p>???: hello!Dongzi, are you taking too much medicine?No one will die, right?</p>'
+             '<p>???: This...this woman won`t be fucked to death by us, right?</p>'
+             '<p>???: It`s broken. If the senior inspector dies here, it will be troublesome. Hurry up and call an ambulance!</p>'
          '</div>'
     end
   q+=1
@@ -576,7 +576,7 @@ if $ARGS[0]="ceiling":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>？？？: Just in time, the patient woke up.</p>'
+		'<p>???: Just in time, the patient woke up.</p>'
 		'<p>I:  Why am I here?<<$DC.name>>How`s it going?！</p>'
 		'<p><<$JZ.name>>:  Are you awake? Fortunately, it`s just a skin injury. You and<<$DC.name>>You were sent here together. At that time, you were bruised all over and you were in a coma for several days.</p>'
 		'<p>I:  <<$DC.name>>what?！</p>'
@@ -613,7 +613,7 @@ if $args[0]="DC_Fuck_Take care of":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">Request to be discharged</a></div>'
             '</div>'
@@ -665,7 +665,7 @@ if $args[0]="DC_Fuck_torture":
             '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Police_station''">leave</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Police_station''">leave</a></div>'
             '</div>'
@@ -727,7 +727,7 @@ if $args[0]="DC_Fuck_home":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
 				'<div class="buttonPu3"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_The next day''">Spend the night here</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
@@ -784,9 +784,9 @@ if $ARGS[0]="Inspector`s house":
         
 	'<div class="button_menu">'
 		'<div class="buttonS3"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_bathroom''">Fierce battle in the bathroom</a></div>'
-		if $DC.bad>=500-$DC.love:'<div class="buttonS4"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Tear down''">Tear her down</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if $Inspector_event_chain>=8:'<div class="buttonPu1"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Thanks1''">Sneak in to assist</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if money>=200:'<div class="buttonG"><a href="exec:money-=200 & gt ''Inspector_Event'',''Hot spring travel''">Hot spring travel￥200</a></div>'else:'<div class="buttonGr"><a href="exec:">Hot spring travel￥200</a></div>'
+		if $DC.bad>=500-$DC.love:'<div class="buttonS4"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Tear down''">Tear her down</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if $Inspector_event_chain>=8:'<div class="buttonPu1"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Thanks1''">Sneak in to assist</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if money>=200:'<div class="buttonG"><a href="exec:money-=200 & gt ''Inspector_Event'',''Hot spring travel''">Hot spring travel￥200</a></div>'else'<div class="buttonGr"><a href="exec:">Hot spring travel￥200</a></div>'
 		'<div class="button"><a href="exec:gt ''Deep_alley''">leave</a></div>'
 	'</div>'
 	
@@ -845,7 +845,7 @@ if $args[0]="DC_Fuck_Have a shot":
             '<div class="buttonGn"><a href="exec:a=1 & gt ''Inspector_Event'',''DC_Fuck_Have a shot''">Ejaculation</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''DC_Fuck_Eat''">Go to dinner</a></div>'
             '</div>'
@@ -887,7 +887,7 @@ if $args[0]="DC_Fuck_Soak in hot springs":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''DC_Fuck_Eat''">Go to dinner</a></div>'
             '</div>'
@@ -964,7 +964,7 @@ if $args[0]="DC_Fuck_Eat and play":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">Go to work together</a></div>'
             '</div>'
@@ -1054,7 +1054,7 @@ if $args[0]="DC_Fuck_Tear down":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
 				'<div class="buttonPu3"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_The next day''">Spend the night here</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
@@ -1125,7 +1125,7 @@ if $args[0]="DC_Fuck_bathroom":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
 				'<div class="buttonPu3"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_The next day''">Spend the night here</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
@@ -1209,7 +1209,7 @@ if $args[0]="DC_Fuck_The next day":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">Work together</a></div>'
             '</div>'
@@ -1295,7 +1295,7 @@ if $args[0]="DC_Fuck_Small hotel":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''destination''">Go to destination</a></div>'
             '</div>'
@@ -1343,7 +1343,7 @@ End
 
 
 if $args[0]="gym":
-	 if $DC.love<50-$DC.bad:DCexercisenum=1 else:DCexercisenum=2
+	 if $DC.love<50-$DC.bad:DCexercisenum=1 elseDCexercisenum=2
 	 
         '<div class="show_menu">'
              '<video preload="metadata" autoplay loop height="480">
@@ -1353,8 +1353,8 @@ if $args[0]="gym":
 
         '<div class="button_menu">'
             if a=0:'<div class="buttonS1"><a href="exec:a+=1 & gt ''Inspector_Event'',''gym''">Exercise with her </a></div>'
-            if DCexercisenum=2 and a=1 and $DC.Onbase=1:'<div class="buttonS3"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_GYM''">Touch your ass </a></div>'else:'<div class="buttonGr"><a href="exec:">Touch your ass </a></div>'
-            if DCexercisenum=2 and a=1 and $DC.love>=400-$DC.bad and $Fitnesscoachqualification=1:'<div class="buttonS5"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_GYM2''">Personal trainer </a></div>'else:'<div class="buttonGr"><a href="exec:">Personal trainer </a></div>'
+            if DCexercisenum=2 and a=1 and $DC.Onbase=1:'<div class="buttonS3"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_GYM''">Touch your ass </a></div>'else'<div class="buttonGr"><a href="exec:">Touch your ass </a></div>'
+            if DCexercisenum=2 and a=1 and $DC.love>=400-$DC.bad and $Fitnesscoachqualification=1:'<div class="buttonS5"><a href="exec:a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_GYM2''">Personal trainer </a></div>'else'<div class="buttonGr"><a href="exec:">Personal trainer </a></div>'
             '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''gym''">leave</a></div>'
         '</div>'
 
@@ -1412,7 +1412,7 @@ if $args[0]="DC_Fuck_GYM":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''gym''">Clean up</a></div>'
             '</div>'
@@ -1490,7 +1490,7 @@ if $args[0]="DC_Fuck_GYM2":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''gym''">leave</a></div>'
             '</div>'
@@ -1564,7 +1564,7 @@ if $args[0]="DC_Fuck_office":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">leave</a></div>'
             '</div>'
@@ -1612,7 +1612,7 @@ if $args[0]="DC_Fuck_clue":
             '<div class="buttonR4"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''After the clue''">leave</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonR4"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''After the clue''">leave</a></div>'
             '</div>'
@@ -1624,16 +1624,16 @@ if $args[0]="DC_Fuck_clue":
     if 5>=a and a>=0:
          '<div class="dialog_menu">'
              if a=0:
-             '<p>？？？: Hehe, I have important clues to provide to the police.</p>'
+             '<p>???: Hehe, I have important clues to provide to the police.</p>'
              '<p><<$DC.name>>: Do you know where this is?！Don`t touch me!</p>'
-             '<p>？？？: It`s about a mysterious aphrodisiac.</p>'
+             '<p>???: It`s about a mysterious aphrodisiac.</p>'
              '<p><<$DC.name>>: ！！Tell me everything you know!</p>'
-             '<p>？？？: Officer, I also want to cooperate with you, but there is something wrong with me, and I have a little bit of value in my hands, so I like to exploit others.</p>'
+             '<p>???: Officer, I also want to cooperate with you, but there is something wrong with me, and I have a little bit of value in my hands, so I like to exploit others.</p>'
              end
              if a>=1:'<p><<$DC.name>>: Don`t worry, you can think slowly.</p>'
-             if a>=2:'<p>？？？: The police officers are quite enlightened, which is very different from the violent law enforcement units in my impression.</p>'
+             if a>=2:'<p>???: The police officers are quite enlightened, which is very different from the violent law enforcement units in my impression.</p>'
              if a>=3:'<p><<$DC.name>>: <<$Panting>></p>'
-             if a>=4:'<p>？？？:  Oh oh oh, so cool!Your boyfriend must be very happy, right?</p>'
+             if a>=4:'<p>???:  Oh oh oh, so cool!Your boyfriend must be very happy, right?</p>'
              if a>=5:'<p><<$DC.name>>: Shut up!</p>'
          '</div>'
     end
@@ -1641,9 +1641,9 @@ if $args[0]="DC_Fuck_clue":
     if a=6:
          '<div class="dialog_menu">'
              '<p><<$DC.name>>: Let`s talk about it, the clue to the aphrodisiac!</p>'
-             '<p>？？？: This aphrodisiac is different from a substance called “McGovern”. Have you heard of it?</p>'
+             '<p>???: This aphrodisiac is different from a substance called “McGovern”. Have you heard of it?</p>'
              '<p><<$DC.name>>: “McGovern"?I didn`t</p>'
-             '<p>？？？: "McGovern" is extracted from a certain plant!And this aphrodisiac is not, it`s a bit special... it`s actually from the hospital.J3Leaked out of the test area…</p>'
+             '<p>???: "McGovern" is extracted from a certain plant!And this aphrodisiac is not, it`s a bit special... it`s actually from the hospital.J3Leaked out of the test area…</p>'
              '<p><<$DC.name>>: hospital?J3area?Hope your clues are solid!</p>'
          '</div>'
     end
@@ -1684,7 +1684,7 @@ if $args[0]="DC_Fuck_Biological laboratory":
             if a>=1:'<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Inspector_Event'',''Biological laboratory rescue''">Go in and save her</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Daily_drug_test''">leave</a></div>'
             '</div>'
@@ -1705,16 +1705,16 @@ if $args[0]="DC_Fuck_Biological laboratory":
 
     if 10>=a and a>=8:
          '<div class="dialog_menu">'
-             if a=8:'<p>？？？: Damn it, has the experimental body disappeared again?This is the first time... No, is this woman...here again?</p>'
-             if a=9:'<p>？？？: It really troubles me all day long!</p>'
-             if a=10:'<p>？？？: 30Chest compressions and2The second artificial respiration is1A cycle.each5Cycle, check1Whether the patient`s breathing and heartbeat recover until the first responders arrive…</p>'
+             if a=8:'<p>???: Damn it, has the experimental body disappeared again?This is the first time... No, is this woman...here again?</p>'
+             if a=9:'<p>???: It really troubles me all day long!</p>'
+             if a=10:'<p>???: 30Chest compressions and2The second artificial respiration is1A cycle.each5Cycle, check1Whether the patient`s breathing and heartbeat recover until the first responders arrive…</p>'
          '</div>'
     end
 
 
     if a=11:
          '<div class="dialog_menu">'
-             '<p>？？？: The heartbeat has recovered, and it seems that he is safe and sound.Not enough to swallow so much highly inducing reproductive fluid at once, it will definitely cause disorders of the cerebral cortex and induce periodic amnesia.…</p>'
+             '<p>???: The heartbeat has recovered, and it seems that he is safe and sound.Not enough to swallow so much highly inducing reproductive fluid at once, it will definitely cause disorders of the cerebral cortex and induce periodic amnesia.…</p>'
              '<p>[The above is the end of the current version of the story.This role is contributed by group friends. If you have a passion for creation, you can add group contributions.】</p>'
          '</div>'
     end
@@ -1750,7 +1750,7 @@ if $args[0]="DC_Fuck_Thanks1":
     if a!15:
         '<div class="button_menu">'
             if a=0:
-            if $DC.bad>=my.charm*25:'<div class="buttonS1"><a href="exec:a=1 & gt ''Inspector_Event'',''DC_Fuck_Thanks1''">Provide thanks</a></div>'else:'<div class="buttonGn"><a href="exec:gt ''Kabukicho''">Leaving: she has insufficient depravity<<my.charm*25>></a></div>'
+            if $DC.bad>=my.charm*25:'<div class="buttonS1"><a href="exec:a=1 & gt ''Inspector_Event'',''DC_Fuck_Thanks1''">Provide thanks</a></div>'else'<div class="buttonGn"><a href="exec:gt ''Kabukicho''">Leaving: she has insufficient depravity<<my.charm*25>></a></div>'
             end
             if a=1:
             '<div class="buttonS1"><a href="exec:a=2 & gt ''Inspector_Event'',''DC_Fuck_Thanks1''">Orgasm at the same time</a></div>'
@@ -1785,7 +1785,7 @@ if $args[0]="DC_Fuck_Thanks1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=1440 & hour=7 & my.energy+=100 & a=0 & q=0 & gt ''Inspector_Event'',''DC_Fuck_Thanks2''">Three people overnight</a></div>'
             '</div>'
@@ -1797,7 +1797,7 @@ if $args[0]="DC_Fuck_Thanks1":
          '<div class="dialog_menu">'
 			 if a=0:
              '<p><<$DC.name>>: Thank you for providing the hospital`s overalls and a simple road map. It`s very easy to sneak into the hospital!</p>'
-             '<p>Tianhaiyi: It`s a trifle.Oh?This is<<$Protagonist`s_surname>> Sir?</p>'
+             '<p>Tianhaiyi: It`s a trifle.Oh?This is<<$Protagonists_surname>> Sir?</p>'
              '<p><<$DC.name>>: <<$Protagonist`s_name>>, Don`t you mean it?</p>'
              end
              if a=1:'<p>Tianhaiyi: This way of thanking?I like it very much!</p>'
@@ -1835,7 +1835,7 @@ if $args[0]="DC_Fuck_Thanks2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Almost there</a></div>'
             '</div>'

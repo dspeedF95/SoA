@@ -1,4 +1,4 @@
-# Home_sister2`s_room
+# Home_sister2s_room
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
@@ -19,7 +19,7 @@ if $args[0]="":
 
 
 	'<div class="button_menu">'
-	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2`s_room''">Kill time</a></div>'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2s_room''">Kill time</a></div>'
 	if $Yuya_Mission=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">appointment<<$SSYY.name>></a></div>'
 	'</div>'
 
@@ -37,8 +37,8 @@ if $args[0]="Room conversation":
 
 	'<div class="button_menu">'
 	 '<div class="button"><a href="exec:$chat=''MM''& $Wheretogoout = ''home'' & addlove=0 &addbad=0 & gt ''Universal_chat''">Interact</a></div>'
-	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2`s_room'',''Tutoring homework''">Help with homework</a></div>'
-	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2`s_room'',''Become an idol''">Wish: To become an idol</a></div>'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2s_room'',''Tutoring homework''">Help with homework</a></div>'
+	'<div class="button"><a href="exec:minutes+=30 & gt ''Home_sister2s_room'',''Become an idol''">Wish: To become an idol</a></div>'
 	if hour >=22 and hour<23 and $MM.love>=150 and $MM.bad>=150 and  $jj.love>=150 and $jj.bad>=150:
 	'<div class="buttonS"><a href="exec:minutes+=30 & gt ''Sister2_event'',''MM_Fuck_sister''">Sister counseling</a></div>'
 	end
@@ -103,7 +103,7 @@ if $args[0]="Become an idol":
 
 	'<div class="button_menu">'
 	if $MM_Event_idol>=2:
-	'<div class="button"><a href="exec:minutes+=5 & gt ''Home_sister2`s_room'',''Good news''">Good news</a></div>'
+	'<div class="button"><a href="exec:minutes+=5 & gt ''Home_sister2s_room'',''Good news''">Good news</a></div>'
 	end
 	'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 	'</div>'
@@ -146,5 +146,5 @@ if $args[0]="Good news":
 End
 
  
---- Home_sister2`s_room ---------------------------------
+--- Home_sister2s_room ---------------------------------
 

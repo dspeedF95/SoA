@@ -163,12 +163,12 @@ if $ARGS[0]="1correct1Private education":
 	 '<div class ="show_menu"><img src="images\task\level1 (<<rand(1,23)>>).jpg"  height="480"></div>'
 
 	'<div class="button_menu">'
-		if  Privateeducationlevel>=2:'<div class="buttonS2"><a href="exec:gt ''gym'',''1correct1Private education2''">The clothes are wrong!</a></div>'else:'<div class="buttonGr"><a href="exec:">The clothes are wrong!</a></div>'
+		if  Privateeducationlevel>=2:'<div class="buttonS2"><a href="exec:gt ''gym'',''1correct1Private education2''">The clothes are wrong!</a></div>'else'<div class="buttonGr"><a href="exec:">The clothes are wrong!</a></div>'
 		'<div class="buttonB2"><a href="exec:gt ''gym'',''Serious teaching''">Serious teaching</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>【Female student】：<<$Protagonist`s_surname>> Hello coach!Please give me a lot of advice today!</p>'
+		'<p>【Female student】：<<$Protagonists_surname>> Hello coach!Please give me a lot of advice today!</p>'
 		'<p>Me: No problem, I will directly point out any problems you have!</p>'
 		'<p>[Female student]: Then let`s get started!</p>'
 	'</div>'
@@ -180,12 +180,12 @@ if $ARGS[0]="1correct1Private education2":
 	 '<div class ="show_menu"><img src="images\task\level2 (<<rand(1,43)>>).jpg"  height="480"></div>'
 
 	'<div class="button_menu">'
-		if  Privateeducationlevel>=3:'<div class="buttonS4"><a href="exec:gt ''gym'',''1correct1Private education3''">Teach naked!</a></div>'else:'<div class="buttonGr"><a href="exec:">Teach naked!</a></div>'
+		if  Privateeducationlevel>=3:'<div class="buttonS4"><a href="exec:gt ''gym'',''1correct1Private education3''">Teach naked!</a></div>'else'<div class="buttonGr"><a href="exec:">Teach naked!</a></div>'
 		'<div class="buttonB2"><a href="exec:gt ''gym'',''Serious teaching''">Serious teaching</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>【Female student】：<<$Protagonist`s_surname>> coach!I`m a little shy to wear this way…</p>'
+		'<p>【Female student】：<<$Protagonists_surname>> coach!I`m a little shy to wear this way…</p>'
 		'<p>Me: Next we will sweat a lot!It is reasonable to wear this way!</p>'
 		'<p>[Female student]: But…</p>'
 		'<p>Me: No one will laugh at what you wear in the gym!But it will be on the street!</p>'
@@ -198,12 +198,12 @@ if $ARGS[0]="1correct1Private education3":
 	 '<div class ="show_menu"><img src="images\task\level5 (<<rand(1,20)>>).jpg"  height="480"></div>'
 
 	'<div class="button_menu">'
-		if  Privateeducationlevel>=4:'<div class="buttonS5"><a href="exec:gt ''Group_performation_event'',''Group_performance_Fuck_Gym private education''">Go in and warm up!</a></div>'else:'<div class="buttonGr"><a href="exec:">Go in and warm up!</a></div>'
+		if  Privateeducationlevel>=4:'<div class="buttonS5"><a href="exec:gt ''Group_performation_event'',''Group_performance_Fuck_Gym private education''">Go in and warm up!</a></div>'else'<div class="buttonGr"><a href="exec:">Go in and warm up!</a></div>'
 		'<div class="buttonB2"><a href="exec:gt ''gym'',''Serious teaching''">Serious teaching</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>【Female student】：<<$Protagonist`s_surname>> Coach, I`m still undressing.Please wait a moment</p>'
+		'<p>【Female student】：<<$Protagonists_surname>> Coach, I`m still undressing.Please wait a moment</p>'
 		'<p>I：……</p>'
 	'</div>'
 end

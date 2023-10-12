@@ -28,9 +28,9 @@ if $args[0] ='SpadesA':
 	'</div>'
 		
 	'<div class="dialog_menu">'
-		'<p><<$WN.name>>:Thanks<<$Protagonist`s_surname>> Boss`s1SpadesAGold edition!People like you so much!Let us fight until dawn!</p>'
+		'<p><<$WN.name>>:Thanks<<$Protagonists_surname>> Boss`s1SpadesAGold edition!People like you so much!Let us fight until dawn!</p>'
 		$WN.love+=10
-		if WNcos=1:'<p><<$WN.name>>:<<$Protagonist`s_surname>> Boss, how do you know I like itosplay？！I will definitely appreciate it!</p>'
+		if WNcos=1:'<p><<$WN.name>>:<<$Protagonists_surname>> Boss, how do you know I like itosplay？！I will definitely appreciate it!</p>'
 	'</div>'
 End
 
@@ -42,15 +42,15 @@ if $args[0]="Milk dance":
 
 	 if a=1:
 		'<div class="button_menu">'
-			if $WN.love>=13:'<div class="buttonS1"><a href="exec:a=2 & gt ''Dancer_Event'',''Milk dance''">Get started</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
-			if $WN.love>=33:'<div class="buttonS2"><a href="exec:a=3 & gt ''Dancer_Event'',''Milk dance''">tease</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
-			if $WN.love>=90:'<div class="buttonS2"><a href="exec:a=0 &q=0& gt ''Dancer_Event'',''WN_Fuck_Introduced''">Introduced</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+			if $WN.love>=13:'<div class="buttonS1"><a href="exec:a=2 & gt ''Dancer_Event'',''Milk dance''">Get started</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+			if $WN.love>=33:'<div class="buttonS2"><a href="exec:a=3 & gt ''Dancer_Event'',''Milk dance''">tease</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+			if $WN.love>=90:'<div class="buttonS2"><a href="exec:a=0 &q=0& gt ''Dancer_Event'',''WN_Fuck_Introduced''">Introduced</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
 
 
 			'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
 		'</div>'
 
-	else:
+	else
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
 		'</div>'
@@ -58,21 +58,21 @@ if $args[0]="Milk dance":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			'<p><<$WN.name>>:Thanks<<$Protagonist`s_surname>> Boss`s support!Let us all cheer!It`s too top!</p>'
+			'<p><<$WN.name>>:Thanks<<$Protagonists_surname>> Boss`s support!Let us all cheer!It`s too top!</p>'
 			$WN.love+=3
 		 '</div>'
 	end
 
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$WN.name>>:<<$Protagonist`s_surname>> Boss, you are really necrotic~~</p>'
+			 '<p><<$WN.name>>:<<$Protagonists_surname>> Boss, you are really necrotic~~</p>'
 			 $WN.bad+=3
 		 '</div>'
 	end
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$WN.name>>:<<$Protagonist`s_surname>> Boss, people`s nipples are more sensitive~If you pull it again, you will have an orgasm.</p>'
+			 '<p><<$WN.name>>:<<$Protagonists_surname>> Boss, people`s nipples are more sensitive~If you pull it again, you will have an orgasm.</p>'
 			 $WN.bad+=6
 		 '</div>'
 	end
@@ -93,14 +93,14 @@ if $args[0]="Veneer dance":
 		'<div class="button_menu">'
 
 			if a=0 and money>=m+1:'<div class="buttonG"><a href="exec:a=1 & money-=m+1 & gt ''Dancer_Event'',''Veneer dance''">Price increase on stage<<m>>+1￥</a></div>'
-			if a=0 :'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">Forget it</a></div>'
-			if a=1 :'<div class="buttonR1"><a href="exec:a=2 & gt ''Dancer_Event'',''Veneer dance''">challenge</a></div>'
-			if a=2 :'<div class="buttonR2"><a href="exec:a=3 & gt ''Dancer_Event'',''Veneer dance''">Emotional intelligence: ejaculation</a></div>'
-			if a=3 :'<div class="buttonR3"><a href="exec:a=4 & gt ''Dancer_Event'',''Veneer dance''">The challenge failed!</a></div>'	
-			if a=2 :'<div class="buttonR4"><a href="exec:a=5 & gt ''Dancer_Event'',''Veneer dance''">Competitive: persevere</a></div>'
+			if a=0:'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">Forget it</a></div>'
+			if a=1:'<div class="buttonR1"><a href="exec:a=2 & gt ''Dancer_Event'',''Veneer dance''">challenge</a></div>'
+			if a=2:'<div class="buttonR2"><a href="exec:a=3 & gt ''Dancer_Event'',''Veneer dance''">Emotional intelligence: ejaculation</a></div>'
+			if a=3:'<div class="buttonR3"><a href="exec:a=4 & gt ''Dancer_Event'',''Veneer dance''">The challenge failed!</a></div>'	
+			if a=2:'<div class="buttonR4"><a href="exec:a=5 & gt ''Dancer_Event'',''Veneer dance''">Competitive: persevere</a></div>'
 		'</div>'
 
-	else:
+	else
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
 		'</div>'
@@ -108,7 +108,7 @@ if $args[0]="Veneer dance":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			'<p><<$WN.name>>:Thanks<<$Protagonist`s_surname>> boss!boss~~Can you see clearly enough?The following is a close interaction with the lucky audience on stage.~~~</p>'
+			'<p><<$WN.name>>:Thanks<<$Protagonists_surname>> boss!boss~~Can you see clearly enough?The following is a close interaction with the lucky audience on stage.~~~</p>'
 			$WN.love+=5
 			'<p>Drunk local tyrant:I`ll do it, I`ll do it!I`m out...<<m>>￥！Start it all for me!</p>'
 		 '</div>'
@@ -117,14 +117,14 @@ if $args[0]="Veneer dance":
 	if a=1:
 		 '<div class="dialog_menu">'
 			'<p>I:sorry!I am a little more than you!</p>'
-			'<p><<$WN.name>>:Thanks<<$Protagonist`s_surname>> boss!You are so courageous~~The Lun family just likes your masculinity!Favorability has increased!</p>'
+			'<p><<$WN.name>>:Thanks<<$Protagonists_surname>> boss!You are so courageous~~The Lun family just likes your masculinity!Favorability has increased!</p>'
 			$WN.love+=5
 		 '</div>'
 	end
 
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$WN.name>>:<<$Protagonist`s_surname>> Boss, if you can hold back more than5In minutes, you can get a box of condoms autographed by me for free.~*I`m so tired (with so many tubes every day, frozen shoulder is going to relapse)..）</p>'
+			 '<p><<$WN.name>>:<<$Protagonists_surname>> Boss, if you can hold back more than5In minutes, you can get a box of condoms autographed by me for free.~*I`m so tired (with so many tubes every day, frozen shoulder is going to relapse)..）</p>'
 			 $WN.bad+=3
 		 '</div>'
 	end
@@ -167,7 +167,7 @@ if $args[0]="WN_Fuck_Double dance":
 			if money>=m:'<div class="buttonG"><a href="exec:a=1 &money-=m& gt ''Dancer_Event'',''WN_Fuck_Double dance''">Paid service￥<<m>> </a></div>'
 			'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
 			end
-			if 9>=a and a>0 :
+			if 9>=a and a>0:
 			'<div class="button"><a href="exec:a+=1 & gt ''Dancer_Event'',''WN_Fuck_Double dance''">continue </a></div>'
 			end
 			if a>=1 and 0<q and q<=3:
@@ -196,7 +196,7 @@ if $args[0]="WN_Fuck_Double dance":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
 			'</div>'
@@ -205,7 +205,7 @@ if $args[0]="WN_Fuck_Double dance":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$WN.name>>: <<$Protagonist`s_surname>> boss!Do you like our sister dance?If you add more money, you can unlock more content.~~I made a little discount for you~</p>'
+			 '<p><<$WN.name>>: <<$Protagonists_surname>> boss!Do you like our sister dance?If you add more money, you can unlock more content.~~I made a little discount for you~</p>'
 		 '</div>'
 	end
 
@@ -265,7 +265,7 @@ if $args[0]="WN_Fuck_Introduced":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
 			'</div>'

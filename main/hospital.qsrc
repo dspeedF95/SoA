@@ -22,7 +22,7 @@ $Killerdialogue=0
 '</div>'
 
 if $args[0]="":
-	if $Caesar_works_part_time=1 and hour=14 and 50<= rand(0,100) : gt 'Task_event','Hunting_passersby'
+	if $Caesar_works_part_time=1 and hour=14 and 50<= rand(0,100): gt 'Task_event','Hunting_passersby'
 	'<div class ="show_menu"><img src="images\place\医院_<<$times_of_day>>.jpg" width="854"></div>'
 
 
@@ -47,7 +47,7 @@ End
 
 	'<div class="button_menu">'
 		
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Dean`s_Office''">Dean`s Office</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Deans_Office''">Dean`s Office</a></div>'
 	'</div>'
 
 
@@ -65,7 +65,7 @@ if $args[0]="Hospital_outpatient":
 		'<div class="button"><a href="exec:ZXwaitnum=rand(0,2) &  gt ''Plastic_Surgery_Department'',''Waiting before plastic surgery''">Plastic Surgery Department</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Andrology''">Andrology</a></div>'
 		if $Front_desk_Event_throat=4:'<div class="buttonR4"><a href="exec:minutes+=5 & gt ''Foreground_Event'',''Throat department''">Throat department</a></div>'
-		if $SS_Event_free>=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Sperm_donation_room''">Sperm donation room</a></div>'else:'<div class="buttonGr"><a href="exec:">Under repair</a></div>'
+		if $SS_Event_free>=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Sperm_donation_room''">Sperm donation room</a></div>'else'<div class="buttonGr"><a href="exec:">Under repair</a></div>'
 	'</div>'
 
 

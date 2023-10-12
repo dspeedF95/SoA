@@ -66,7 +66,7 @@ if $args[0]="boss_Fuck_award1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
@@ -119,7 +119,7 @@ if $args[0]="boss_Fuck_drama1":
             '<div class="buttonS1"><a href="exec:a+=1 & gt ''Boss_event'',''boss_Fuck_drama1''">Eavesdropping </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''City_hall''">leave</a></div>'
             '</div>'
@@ -168,7 +168,7 @@ if $args[0]="boss_Fuck_drama2":
             if a!0:'<div class="buttonS1"><a href="exec:a+=1 & gt ''Boss_event'',''boss_Fuck_drama2''">patience </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">The dust settles</a></div>'
             '</div>'
@@ -220,7 +220,7 @@ if $args[0]="boss_Fuck_drama3":
             '<div class="buttonS1"><a href="exec:a+=1 & gt ''Boss_event'',''boss_Fuck_drama3''">Eavesdropping </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''The_night_is_fine''">leave</a></div>'
             '</div>'
@@ -267,7 +267,7 @@ if $args[0]="boss_Fuck_drama4":
             '<div class="buttonS1"><a href="exec:a+=1 & gt ''Boss_event'',''boss_Fuck_drama4''">Eavesdropping </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''The_night_is_fine''">leave</a></div>'
             '</div>'
@@ -327,15 +327,15 @@ if $args[0]="boss_Fuck_wine1":
             end
             if q=4:
             '<div class="buttonS5"><a href="exec:a=8 & gt ''Boss_event'',''boss_Fuck_wine1''">External shot </a></div>'
-            if $LB.love>=55:'<div class="buttonS4"><a href="exec:a=10 & gt ''Boss_event'',''boss_Fuck_wine1''">Bukkake </a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability55 </a></div>'
-            if $LB.love>=100:'<div class="buttonR"><a href="exec:a=9 & gt ''Boss_event'',''boss_Fuck_wine1''">Internal injection </a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability100 </a></div>'
+            if $LB.love>=55:'<div class="buttonS4"><a href="exec:a=10 & gt ''Boss_event'',''boss_Fuck_wine1''">Bukkake </a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability55 </a></div>'
+            if $LB.love>=100:'<div class="buttonR"><a href="exec:a=9 & gt ''Boss_event'',''boss_Fuck_wine1''">Internal injection </a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability100 </a></div>'
             end
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                 if $LB.love>=my.charm*10:'<div class="buttonPu3"><a href="exec:minutes+=1440 & hour=7 & my.energy = mymax[energy] & a=0 & q=0 &  gt ''Boss_event'',''boss_Fuck_overnight''">Spend the night here</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability<<my.charm*10>> </a></div>'
+                 if $LB.love>=my.charm*10:'<div class="buttonPu3"><a href="exec:minutes+=1440 & hour=7 & my.energy = mymax[energy] & a=0 & q=0 &  gt ''Boss_event'',''boss_Fuck_overnight''">Spend the night here</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability<<my.charm*10>> </a></div>'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
     end
@@ -398,13 +398,13 @@ if $args[0]="boss_Fuck_date1":
             end
             if q>=9:
             '<div class="buttonR3"><a href="exec:a=13 & gt ''Boss_event'',''boss_Fuck_date1''">External shot </a></div>'
-            if $LB.love>=50:'<div class="buttonR4"><a href="exec:a=15 & gt ''Boss_event'',''boss_Fuck_date1''">Bukkake </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
-            if $LB.love>=100:'<div class="buttonR5"><a href="exec:a=14 & gt ''Boss_event'',''boss_Fuck_date1''">Internal injection </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
+            if $LB.love>=50:'<div class="buttonR4"><a href="exec:a=15 & gt ''Boss_event'',''boss_Fuck_date1''">Bukkake </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
+            if $LB.love>=100:'<div class="buttonR5"><a href="exec:a=14 & gt ''Boss_event'',''boss_Fuck_date1''">Internal injection </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
             end
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Shopping_mall''">leave</a></div>'
             '</div>'
@@ -451,7 +451,7 @@ if $args[0]="boss_Fuck_overnight":
             '<div class="buttonS3"><a href="exec:a+=1 & gt ''Boss_event'',''boss_Fuck_overnight''">dialogue </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
@@ -501,7 +501,7 @@ if $args[0]="boss_Fuck_shop1":
             if q=6:'<div class="button"><a href="exec:a=8 & gt ''Boss_event'',''boss_Fuck_shop1''">dialogue </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS3"><a href="exec:$LB.love+=a+my.charm & gt ''Kabukicho''">I will marry you</a></div>'
                 '<div class="buttonPu4"><a href="exec:$LB.love-=a+my.charm & gt ''Kabukicho''">I`ll talk about it when I`m pregnant</a></div>'
@@ -561,7 +561,7 @@ if $args[0]="boss_Fuck_Garbage failure":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''City_hall''">leave</a></div>'
             '</div>'
@@ -629,14 +629,14 @@ if $args[0]="boss_Fuck_rubbishS":
             '<div class="buttonR4"><a href="exec:a=8 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Insert anus </a></div>'
             end
 
-            if a=5 :'<div class="buttonS4"><a href="exec:a=4 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Accelerate thrusting </a></div>'
+            if a=5:'<div class="buttonS4"><a href="exec:a=4 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Accelerate thrusting </a></div>'
             if a=8:'<div class="buttonR4"><a href="exec:a=9 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Accelerate thrusting </a></div>'
 
-            if a=4 :'<div class="buttonS5"><a href="exec:a=6 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Hurry up! </a></div>'
+            if a=4:'<div class="buttonS5"><a href="exec:a=6 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Hurry up! </a></div>'
             if a=9:'<div class="buttonR4"><a href="exec:a=10 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Hurry up! </a></div>'
             
             
-            if a=6 :'<div class="buttonS5"><a href="exec:a=7 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Inward shot out </a></div>'
+            if a=6:'<div class="buttonS5"><a href="exec:a=7 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Inward shot out </a></div>'
             if a=10:
             '<div class="buttonR4"><a href="exec:a=11 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Pull it out </a></div>'
             '<div class="buttonR5"><a href="exec:a=12 & gt ''Boss_event'',''boss_Fuck_rubbishS''">Anal creampie </a></div>'
@@ -651,7 +651,7 @@ if $args[0]="boss_Fuck_rubbishS":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''City_hall''">leave</a></div>'
             '</div>'
@@ -713,7 +713,7 @@ if $args[0]="boss_Fuck_Evil punishment":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=1440 & hour=8 & a=0 & q=0 & my.energy+=50 & gt ''Boss_event'',''boss_Fuck_Evil punishment2''">Spend the night here</a></div>'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">leave</a></div>'
@@ -777,7 +777,7 @@ if $args[0]="boss_Fuck_Evil punishment2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:a=0 & q=0 & gt ''Boss_event'',''boss_Fuck_Evil punishment3''">Go to work together</a></div>'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">leave</a></div>'
@@ -824,7 +824,7 @@ if $args[0]="boss_Fuck_Evil punishment3":
             '<div class="buttonS2"><a href="exec:a+=1 & gt ''Boss_event'',''boss_Fuck_Evil punishment3''">。。。 </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonP"><a href="exec:minutes+=60 & gt ''City_hall''">leave</a></div>'
             '</div>'
@@ -901,7 +901,7 @@ if $args[0]="boss_Fuck_Next house1":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonP"><a href="exec:minutes+=1440 & hour=7 &a=0 & q=0 &  gt ''Boss_event'',''boss_Fuck_Next house2''">Stay with her all day</a></div>'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">leave</a></div>'
@@ -965,7 +965,7 @@ if $args[0]="boss_Fuck_Next house2":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonP"><a href="exec:minutes+=60 & gt ''City_hall''">Accompany her to the city hall</a></div>'
                 '<div class="buttonS"><a href="exec:minutes+=60 & gt ''The_night_is_fine''">Accompany her to the night nest</a></div>'

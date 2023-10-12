@@ -28,8 +28,8 @@ if  $args[0]="":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:n=rand(1,2)& gt ''Group_performation_event'',''SPA_Fuck_Niche massage''">Niche massage</a></div>'
-		if spa>10:'<div class="buttonS2"><a href="exec:n=rand(-1,3)& gt ''Group_performation_event'',''SPA_Fuck_Light luxury massage''">Light luxury massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Light luxury massage</a></div>'
-		if spa>=50:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Massage_room'',''Private massage''">Private massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Private massage</a></div>'
+		if spa>10:'<div class="buttonS2"><a href="exec:n=rand(-1,3)& gt ''Group_performation_event'',''SPA_Fuck_Light luxury massage''">Light luxury massage</a></div>'else'<div class="buttonGr"><a href="exec:">Light luxury massage</a></div>'
+		if spa>=50:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Massage_room'',''Private massage''">Private massage</a></div>'else'<div class="buttonGr"><a href="exec:">Private massage</a></div>'
 		'<div class="buttonG"><a href="exec:minutes+=15 & gt ''Massage_room'',''Withdraw''">Withdraw</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''company''">leave</a></div>'
 	'</div>'
@@ -47,12 +47,12 @@ if  $args[0]="Private massage":
 	'<div class ="show_menu"><img src="images\place\按摩房里.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $NY.SPA=1:'<div class="button"><a href="exec:gt ''Massage_room'',''NY''">㊕<<$NY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">㊕？？？</a></div>'
-		if $XZ.love>=200 and $XZ.bad>=200:'<div class="button"><a href="exec:$m=''XZ'' & $ma=$XZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①<<$XZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①？？？</a></div>'
-		if $FXZ.love>=200 and $FXZ.bad>=200:'<div class="button"><a href="exec:$m=''FXZ'' & $ma=$FXZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②<<$FXZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②？？？</a></div>'
-		if $TZ.Pressed=1:'<div class="button"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">③<<$TZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">③？？？</a></div>'
-		if $XM.massage=1:'<div class="button"><a href="exec:$m=''XM'' & $ma=$XM.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">④<<$XM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">④？？？</a></div>'
-		if ($HS.love>=200 and $HS.bad>=200) or ($HS.Massageparlorinvitation=1):'<div class="button"><a href="exec:$m=''HS'' & $ma=$HS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑤<<$HS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑤？？？</a></div>'
+		if $NY.SPA=1:'<div class="button"><a href="exec:gt ''Massage_room'',''NY''">㊕<<$NY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">㊕???</a></div>'
+		if $XZ.love>=200 and $XZ.bad>=200:'<div class="button"><a href="exec:$m=''XZ'' & $ma=$XZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①<<$XZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①???</a></div>'
+		if $FXZ.love>=200 and $FXZ.bad>=200:'<div class="button"><a href="exec:$m=''FXZ'' & $ma=$FXZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②<<$FXZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">②???</a></div>'
+		if $TZ.Pressed=1:'<div class="button"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">③<<$TZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">③???</a></div>'
+		if $XM.massage=1:'<div class="button"><a href="exec:$m=''XM'' & $ma=$XM.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">④<<$XM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">④???</a></div>'
+		if ($HS.love>=200 and $HS.bad>=200) or ($HS.Massageparlorinvitation=1):'<div class="button"><a href="exec:$m=''HS'' & $ma=$HS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑤<<$HS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑤???</a></div>'
 		if $CJ.tendencyG=1:'<div class="buttonP"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_massage1''">㊕<<$CJ.name>></a></div>'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage2''">▶Next page</a></div>'
 	'</div>'
@@ -86,7 +86,7 @@ end
 if  $args[0]="NY":
 	if $NY_Event_imprisonment=1:
 		'<div class ="show_menu"><img src="images\place\按摩房里.jpg" width="854"></div>'
-	else:
+	else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\NY\vids\按摩0-0~1.webm" type=''video/webm;''></video></div>'
@@ -96,7 +96,7 @@ if  $args[0]="NY":
 	'<div class="button_menu">'
 		if $NY_Event_imprisonment=1:
 			'<div class="buttonR"><a href="exec:gt''Energy_event'', ''NY_Fuck_imprisonment''">Torture her</a></div>'
-		else:
+		else
 			'<div class="button"><a href="exec:gt ''Energy_event'',''NY_Fuck_massage''">Massage service</a></div>'
 			if $NY.bad>=50:'<div class="button"><a href="exec:gt ''Energy_event'',''NY_home''">Door-to-door service</a></div>'
 			if $NY_Event_imprisonment=0:'<div class="button"><a href="exec:gt''Energy_event'', ''NY_Fuck_ask''">Eavesdropping in the toilet</a></div>'
@@ -118,11 +118,11 @@ if  $args[0]="Private massage2":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage''">▶Previous page</a></div>'
-        if $SSYYPressed=1:'<div class="button"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑥<<$SSYY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑥？？？</a></div>'
-        if $QBPressed=1:'<div class="button"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑦<<$QB.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑦？？？</a></div>'
-        if $TS.love>=200 and $TS.bad>=200:'<div class="button"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑧<<$TS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑧？？？</a></div>'
-        if  $JZ.massage=1:'<div class="button"><a href="exec:$m=''JZ'' & $ma=$JZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑨<<$JZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑨？？？</a></div>'
-        if  $JY.Pressed=1:'<div class="button"><a href="exec:$m=''JY'' & $ma=$JY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑩<<$JY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑩？？？</a></div>'
+        if $SSYYPressed=1:'<div class="button"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑥<<$SSYY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑥???</a></div>'
+        if $QBPressed=1:'<div class="button"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑦<<$QB.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑦???</a></div>'
+        if $TS.love>=200 and $TS.bad>=200:'<div class="button"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑧<<$TS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑧???</a></div>'
+        if  $JZ.massage=1:'<div class="button"><a href="exec:$m=''JZ'' & $ma=$JZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑨<<$JZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑨???</a></div>'
+        if  $JY.Pressed=1:'<div class="button"><a href="exec:$m=''JY'' & $ma=$JY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑩<<$JY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑩???</a></div>'
 		if $CJ.tendencyB=1:'<div class="buttonS"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_massage2''">㊕<<$CJ.name>></a></div>'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage3''">▶Next page</a></div>'
 	'</div>'
@@ -141,11 +141,11 @@ if  $args[0]="Private massage3":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage2''">▶Previous page</a></div>'
-        if  $SY.massage=1:'<div class="button"><a href="exec:$m=''SY'' & $ma=$SY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①①<<$SY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①①？？？</a></div>'
-        if $CH.Pressed=1:'<div class="button"><a href="exec:$m=''CH'' & $ma=$CH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①②<<$CH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①②？？？</a></div>'
-        if  $ZX.massage=1:'<div class="button"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①③<<$ZX.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①③？？？</a></div>'
-		if $LXS.Pressed=1:'<div class="button"><a href="exec:$m=''LXS'' & $ma=$LXS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①④<<$LXS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①④？？？</a></div>'
-        if $YS.massage=1:'<div class="button"><a href="exec:$m=''YS'' & $ma=$YS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑤<<$YS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑤？？？</a></div>'
+        if  $SY.massage=1:'<div class="button"><a href="exec:$m=''SY'' & $ma=$SY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①①<<$SY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①①???</a></div>'
+        if $CH.Pressed=1:'<div class="button"><a href="exec:$m=''CH'' & $ma=$CH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①②<<$CH.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①②???</a></div>'
+        if  $ZX.massage=1:'<div class="button"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①③<<$ZX.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①③???</a></div>'
+		if $LXS.Pressed=1:'<div class="button"><a href="exec:$m=''LXS'' & $ma=$LXS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①④<<$LXS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①④???</a></div>'
+        if $YS.massage=1:'<div class="button"><a href="exec:$m=''YS'' & $ma=$YS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑤<<$YS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑤???</a></div>'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage4''">▶Next page</a></div>'
 	'</div>'
 
@@ -162,11 +162,11 @@ if  $args[0]="Private massage4":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage3''">▶Previous page</a></div>'
-        if $YY.massage=1:'<div class="button"><a href="exec:$m=''YY'' & $ma=$YY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑥<<$YY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑥？？？</a></div>'
-        if $QJ.massage=1:'<div class="button"><a href="exec:$m=''QJ'' & $ma=$QJ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑦<<$QJ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑦？？？</a></div>'
-        if $CT.massage=1:'<div class="button"><a href="exec:$m=''CT'' & $ma=$CT.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑧<<$CT.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑧？？？</a></div>'
-		if $LEI.massage=1:'<div class="button"><a href="exec:$m=''LEI'' & $ma=$LEI.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑨<<$LEI.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑨？？？</a></div>'
-        if $XN.massage=1:'<div class="button"><a href="exec:$m=''XN'' & $ma=$XN.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②⓪<<$XN.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②⓪？？？</a></div>'
+        if $YY.massage=1:'<div class="button"><a href="exec:$m=''YY'' & $ma=$YY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑥<<$YY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑥???</a></div>'
+        if $QJ.massage=1:'<div class="button"><a href="exec:$m=''QJ'' & $ma=$QJ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑦<<$QJ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑦???</a></div>'
+        if $CT.massage=1:'<div class="button"><a href="exec:$m=''CT'' & $ma=$CT.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑧<<$CT.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑧???</a></div>'
+		if $LEI.massage=1:'<div class="button"><a href="exec:$m=''LEI'' & $ma=$LEI.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑨<<$LEI.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑨???</a></div>'
+        if $XN.massage=1:'<div class="button"><a href="exec:$m=''XN'' & $ma=$XN.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②⓪<<$XN.name>></a></div>'else'<div class="buttonGr"><a href="exec:">②⓪???</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'

@@ -1,4 +1,4 @@
-# Mayor`s_Office
+# Mayors_Office
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
@@ -23,9 +23,9 @@ if $ARGS[0]="":
 	'<div class ="show_menu"><img src="images\place\市长办公室.jpg" width="854"></div>'
 	
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Wuchang Conference Room''">Wuchang Conference Room</a></div>'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Mayor`s Office''">Mayor`s Office</a></div>'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Urban Construction Minister`s Office''">Urban Construction Minister`s Office</a></div>'
+		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Wuchang Conference Room''">Wuchang Conference Room</a></div>'
+		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Mayor`s Office''">Mayor`s Office</a></div>'
+		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Urban Construction Minister`s Office''">Urban Construction Minister`s Office</a></div>'
 		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 	'</div>'
 	
@@ -60,8 +60,8 @@ if $ARGS[0]="Wuchang Conference Room":
 	'<div class ="show_menu"><img src="images\place\五常会议室0.jpg" width="854"></div>'
 	
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Read the notice''">Read the notice</a></div>'
-		if $Canbeproposed=1:'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''proposal''">Citizen proposal</a></div>'
+		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Read the notice''">Read the notice</a></div>'
+		if $Canbeproposed=1:'<div class="button"><a href="exec:gt ''Mayors_Office'',''proposal''">Citizen proposal</a></div>'
 		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 	'</div>'
 	
@@ -78,7 +78,7 @@ if $ARGS[0]="Read the notice":
 
 
 	'<div class="button_menu">'
-		'<div class="buttonGn"><a href="exec:gt ''Mayor`s_Office''">return</a></div>'
+		'<div class="buttonGn"><a href="exec:gt ''Mayors_Office''">return</a></div>'
 		'<div class="buttonR2"><a href="exec:gt ''City_hall''">leave</a></div>'
 		
 		
@@ -106,29 +106,29 @@ if $ARGS[0]="Urban Construction Minister`s Office":
 	'<div class="button_menu">'
 		if $Boss_event_chain=6 and $Bossonthetop<=1:'<div class="button"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama1''">Eavesdropping: Minister`s room</a></div>'
 		if $CJ.Reportup>=1:'<div class="buttonR5"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_report''">Wuchang Meeting: Camping Area</a></div>'
-		if  $Thebosssuspendedtheinvestigation=1 and $Bossonthetop>=3 and $Thethiefwascaught>=2 :'<div class="buttonR3"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama2''">Description: Camping area</a></div>'
+		if  $Thebosssuspendedtheinvestigation=1 and $Bossonthetop>=3 and $Thethiefwascaught>=2:'<div class="buttonR3"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama2''">Description: Camping area</a></div>'
 
 		
 		if $CJ.Reportup>=2 and $YJB_CJ=0:'<div class="buttonB5"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field：<<$JYB.name>></a></div>'
 		if $CJ.Reportup>=2 and $YJB_CJ>0 and rand(0,100)>=95:'<div class="buttonB5"><a href="exec:a=4 & gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field：<<$JYB.name>></a></div>'
 
 		if $Bossonthetop=999:
-			if $CJ.tendencyB!1:'<div class="buttonS"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_home1''">Buoyancy: Skip work and make an appointment</a></div>'else:'<div class="buttonGr"><a href="exec:"><del>Buoyancy: Skip work and make an appointment</del></a></div>'
+			if $CJ.tendencyB!1:'<div class="buttonS"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_home1''">Buoyancy: Skip work and make an appointment</a></div>'else'<div class="buttonGr"><a href="exec:"><del>Buoyancy: Skip work and make an appointment</del></a></div>'
 			if $CJ.tendencyG!1:
 				if hour>=17:
 					'<div class="buttonPu2"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_E0''">Ready to get off work</a></div>'
-				else:
-					'<div class="button"><a href="exec:minutes+=50 & gt ''Mayor`s_Office'',''Urban Construction Minister`s Office''">Patience: Wait for her to get off work</a></div>'
+				else
+					'<div class="button"><a href="exec:minutes+=50 & gt ''Mayors_Office'',''Urban Construction Minister`s Office''">Patience: Wait for her to get off work</a></div>'
 				end
 			end
 		end
-		if $CJ.Reportup>=2:'<div class="buttonB5"><a href="exec:$Adjutantdialogue=0 & gt ''Mayor`s_Office'',''Adjutant`s Office''">Adjutant`s Office</a></div>'
+		if $CJ.Reportup>=2:'<div class="buttonB5"><a href="exec:$Adjutantdialogue=0 & gt ''Mayors_Office'',''Adjutant`s Office''">Adjutant`s Office</a></div>'
 		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 	'</div>'
 	
 	'<div class="dialog_menu">'
 		'<p><<$CJ.name>>: What`s the matter?</p>'
-		'<p>·<a href="exec:gt ''Mayor`s_Office'',''prompt''">【?？？】</a></p>'
+		'<p>·<a href="exec:gt ''Mayors_Office'',''prompt''">【?？？】</a></p>'
 	'</div>'
 end
 
@@ -137,7 +137,7 @@ if $ARGS[0]="prompt":
 	'<div class ="show_menu"><img src="images\NPC\CJ\pics\变数.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Urban Construction Minister`s Office''">return</a></div>'
+		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Urban Construction Minister`s Office''">return</a></div>'
 	'</div>'
 	
 	'<div class="dialog_menu">'
@@ -145,7 +145,7 @@ if $ARGS[0]="prompt":
 		'<p>·Debauchery----relationship&Tendency----innocence·</p>'
 		if $CJ.tendency>0:
 		'<p>·↑←—————❤<font color=#FF7F50><<$CJ.tendency>>❤—————→↑·</font></p>'
-		else:
+		else
 		'<p><font color=#FF00FF>·↑←—————❤<<$CJ.tendency>></font>❤—————→↑·</p>'
 		end
 	'</div>'
@@ -160,7 +160,7 @@ if $ARGS[0]="Adjutant`s Office":
         '</div>'
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:$Adjutantdialogue=1 & gt ''Mayor`s_Office'',''Adjutant`s Office''">处理Handling complaints from citizens↓</a></div>'
+		'<div class="button"><a href="exec:$Adjutantdialogue=1 & gt ''Mayors_Office'',''Adjutant`s Office''">处理Handling complaints from citizens↓</a></div>'
 		if $Campinggarbage=2:'<div class="buttonGn"><a href="exec:Urbanconstructionsatisfaction+=rand(30,40) & gt ''Boss_event'',''boss_Fuck_rubbishS''">↑I`ve cleaned it all up↑</a></div>'
 		if $Campinggarbage=3:'<div class="buttonR4"><a href="exec:Urbanconstructionsatisfaction-=rand(50,60) & gt ''Boss_event'',''boss_Fuck_Garbage failure''">耽误Delayed by the woman↑</a></div>'
 		if Urbanconstructionsatisfaction>=100:'<div class="buttonGn"><a href="exec:gt ''Boss_event'',''boss_Fuck_Next house1''">↑You can get off work early↑</a></div>'
@@ -185,9 +185,9 @@ if $ARGS[0]="proposal":
 	'<div class ="show_menu"><img src="images\place\提案.jpg" width="854"></div>'
 	
 	'<div class="button_menu">'
-		if Restaurantmanagement=1 and Therestaurantcanpropose=1:'<div class="buttonB1"><a href="exec:$Proposedcontent=''The restaurant provides sexual services'' & gt ''Mayor`s_Office'',''Dark Council''">The restaurant provides sexual services</a></div>'
-		if Opencoast!1:'<div class="buttonR1"><a href="exec:$Proposedcontent=''Open the coast to the public'' & $parliament.Empire=1  & gt ''Mayor`s_Office'',''Dark Council''">Open the coast to the public</a></div>'
-		if $Airportprogress=2:'<div class="buttonS"><a href="exec:$Proposedcontent=''Aerial sex Service'' & $parliament.warden=1  & gt ''Mayor`s_Office'',''Dark Council''">Aerial sex Service</a></div>'
+		if Restaurantmanagement=1 and Therestaurantcanpropose=1:'<div class="buttonB1"><a href="exec:$Proposedcontent=''The restaurant provides sexual services'' & gt ''Mayors_Office'',''Dark Council''">The restaurant provides sexual services</a></div>'
+		if Opencoast!1:'<div class="buttonR1"><a href="exec:$Proposedcontent=''Open the coast to the public'' & $parliament.Empire=1  & gt ''Mayors_Office'',''Dark Council''">Open the coast to the public</a></div>'
+		if $Airportprogress=2:'<div class="buttonS"><a href="exec:$Proposedcontent=''Aerial sex Service'' & $parliament.warden=1  & gt ''Mayors_Office'',''Dark Council''">Aerial sex Service</a></div>'
 		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 	'</div>'
 	
@@ -249,5 +249,5 @@ end
 
 
 
---- Mayor`s_Office ---------------------------------
+--- Mayors_Office ---------------------------------
 

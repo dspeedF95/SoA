@@ -71,7 +71,7 @@ if $args[0]="ZL_Fuck_brohome":
 			'<div class="button"><a href="exec:a=9 & gt ''Aid_Event'',''ZL_Fuck_brohome''">Last shot</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 &a=0 &q=0&$ZL.love+=5 & gt ''Aid_Event'',''dialogue''">Take a break</a></div>'
 			'</div>'
@@ -144,17 +144,17 @@ if $ARGS[0]="cousin":
 	'<div class="button_menu">'
 		if money>=250000:
 		'<div class="buttonG"><a href="exec:money-=50000 &$XZ_Event_ZL=2 & gt ''Aid_Event'',''cousin'',''Redemption''">Redeem yourself!250000￥</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Redeem yourself!250000￥</a></div>'
 		end
 		if my.Physical_strength>=4:
 		'<div class="buttonR"><a href="exec:$XZ_Event_ZL=2& gt ''Aid_Event'',''cousin'',''Start fighting''">Start fighting</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Start fighting</a></div>'
 		end
 		if $XZ_Event_ZL=2:
 		'<div class="buttonGn"><a href="exec:minutes+=120 & gt ''Aid_Event'',''Looking for a house''">Take her to find a house</a></div>'
-		else:
+		else
 		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
 		end
 	'</div>'
@@ -218,7 +218,7 @@ if $args[0]="ZL_Fuck_home":
 			'<div class="button"><a href="exec:a=7 &gt ''Aid_Event'',''ZL_Fuck_home''">Post-mortem dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
 			'</div>'
@@ -330,7 +330,7 @@ if $args[0]="ZL_Fuck_home2":
 			'<div class="button"><a href="exec:a=8 & gt ''Aid_Event'',''ZL_Fuck_home2''">Pull out the semen</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonS"><a href="exec:minutes+=60 &my.energy+=30 &a=0& q=0& gt ''Aid_Event'',''ZL_Fuck_home3''">Take a break and have another shot</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">Kiss goodbye</a></div>'
@@ -410,7 +410,7 @@ if $args[0]="ZL_Fuck_home3":
 			'<div class="button"><a href="exec:a=8 &gt ''Aid_Event'',''ZL_Fuck_home3''">Post-mortem dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonS"><a href="exec:minutes+=60 &my.energy+=30 &a=0& q=0& gt ''Aid_Event'',''ZL_Fuck_home2''">Take a break and have another shot</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">Kiss goodbye</a></div>'
@@ -569,7 +569,7 @@ if $args[0]="ZL_Fuck_Outside":
 			'<div class="button"><a href="exec:a=9 &gt ''Aid_Event'',''ZL_Fuck_Outside''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Go home</a></div>'
 			'</div>'
@@ -641,7 +641,7 @@ if $args[0]="ZL_Fuck_Inside":
 			'<div class="button"><a href="exec:a=6 & gt ''Aid_Event'',''ZL_Fuck_Inside''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Go home</a></div>'
 			'</div>'
@@ -730,7 +730,7 @@ if $args[0]="classroomSEX":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -819,7 +819,7 @@ if $args[0]="ZL_Fuck_Home visit":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Send them away</a></div>'
 			'</div>'

@@ -36,7 +36,7 @@ if $args[0]="Second round":
 			'<div class="button"><a href="exec:minutes+=5 &interviewnum+=1& gt ''RION_event'',''Second round''">chooseD</a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if interviewnum=1013:'<div class="button"><a href="exec:minutes+=30 & $RION_interview=2 & gt ''City_hall''">Passed the written test</a></div>'
 				if interviewnum!1013:'<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">Failed the written test</a></div>'
@@ -74,7 +74,7 @@ if $args[0]="Third round":
 			'<div class="button"><a href="exec:minutes+=5 & gt ''RION_event'',''Third round''">continue</a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & $Immigrationauditor=''【Immigrationauditor】''  & $RION_interview=3 & gt ''City_hall''">Passed the interview</a></div>'
 			'</div>'
@@ -82,22 +82,22 @@ if $args[0]="Third round":
 
 	if a>=0:
 	 '<div class="dialog_menu">'
-	 	 if a=0:'<p><<$RION.name>> : This is a process walkthrough..If you can hold on to the end, it means that the interview has passed.</p>'
-		 if a=1:'<p><<$RION.name>> : In the process of review, you will meet all kinds of women....First check their mouths...</p>'
-		 if a=2:'<p><<$RION.name>> : Then make sure their secondary sexual characteristics are fully developed....</p>'
-		 if a=3:'<p><<$RION.name>> : Yes, just like this, check whether their cups meet the requirements......Hmm~Tap.</p>'
-		 if a=4:'<p><<$RION.name>> : Naked inspection can be taken if necessary....To prevent..Hmm..Filling..Hmm..continue..</p>'
-		 if a=5:'<p><<$RION.name>> : Yes, breast examination is also essential....Can detect whether the other party will....Hmm..Get teased and get a quick nipple erection..</p>'
-		 if a=6:'<p><<$RION.name>> : Vaginal examination....Explore the inner wall of the vagina with your fingers...Hmm..Hmm..Check for prohibited items.</p>'		
-		 if a=7:'<p><<$RION.name>> : Tell you a little secret, if the other party can have intercourse for you....Then her cup must exceedC...This is also a method of rapid detection.</p>'
+	 	 if a=0:'<p><<$RION.name>>: This is a process walkthrough..If you can hold on to the end, it means that the interview has passed.</p>'
+		 if a=1:'<p><<$RION.name>>: In the process of review, you will meet all kinds of women....First check their mouths...</p>'
+		 if a=2:'<p><<$RION.name>>: Then make sure their secondary sexual characteristics are fully developed....</p>'
+		 if a=3:'<p><<$RION.name>>: Yes, just like this, check whether their cups meet the requirements......Hmm~Tap.</p>'
+		 if a=4:'<p><<$RION.name>>: Naked inspection can be taken if necessary....To prevent..Hmm..Filling..Hmm..continue..</p>'
+		 if a=5:'<p><<$RION.name>>: Yes, breast examination is also essential....Can detect whether the other party will....Hmm..Get teased and get a quick nipple erection..</p>'
+		 if a=6:'<p><<$RION.name>>: Vaginal examination....Explore the inner wall of the vagina with your fingers...Hmm..Hmm..Check for prohibited items.</p>'		
+		 if a=7:'<p><<$RION.name>>: Tell you a little secret, if the other party can have intercourse for you....Then her cup must exceedC...This is also a method of rapid detection.</p>'
 		 if a=8:
-		 '<p><<$RION.name>> : Finally, a deeper vaginal examination...</p>'
-		 '<p>I : Is it necessary to do this?</p>'
-		 '<p><<$RION.name>> : When necessary..Can test the opponent`s obedience...Sensitivity..Degree of sexual openness...</p>'
+		 '<p><<$RION.name>>: Finally, a deeper vaginal examination...</p>'
+		 '<p>I: Is it necessary to do this?</p>'
+		 '<p><<$RION.name>>: When necessary..Can test the opponent`s obedience...Sensitivity..Degree of sexual openness...</p>'
 		 end
-		 if a=9:'<p><<$RION.name>> : stop!You can stop at that step just now...Don`t top me...I`m not a prostitute...Hurry up..Hmm...Hurry up and stop.</p>'
-		 if a=10:'<p>I : Sorry....Your meat hole is so comfortable...I can`t control it at all...I...</p>'
-		 if a=11:'<p><<$RION.name>> : Forget it....Your performance is good, work hard in the future!</p>'
+		 if a=9:'<p><<$RION.name>>: stop!You can stop at that step just now...Don`t top me...I`m not a prostitute...Hurry up..Hmm...Hurry up and stop.</p>'
+		 if a=10:'<p>I: Sorry....Your meat hole is so comfortable...I can`t control it at all...I...</p>'
+		 if a=11:'<p><<$RION.name>>: Forget it....Your performance is good, work hard in the future!</p>'
 	 '</div>'
 	 end 
 
@@ -119,7 +119,7 @@ if $args[0]="RION_Event_Observe":
 			'<div class="button"><a href="exec:minutes+=5 & gt ''RION_event'',''RION_Event_Observe''">continue</a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">The observation is over</a></div>'
 			'</div>'
@@ -127,19 +127,19 @@ if $args[0]="RION_Event_Observe":
 
 	if a>=0:
 	 '<div class="dialog_menu">'
-	 	 if a=0:'<p><<$RION.name>> :Below I announce that the first<<q>>The round of review has officially begun, please sort according to the asset certificate.</p>'
-	 	 if a=0:'<p><<$RION.name>> :This round of review examines everyone`s sexual ability, that is, whether they have the ability to be eugenic and fertile....Please line up...I will use my chest to provide services to everyone.</p>'
-		 if a=1:'<p><<$RION.name>> :Please shoot it out as quickly as possible.</p>'
-		 if a=2:'<p><<$RION.name>> :....It`s a pity, next one.</p>'
-		 if a=3:'<p><<$RION.name>> :Very good, you are qualified, next one.</p>'
-		 if a=4:'<p><<$RION.name>> :Proof of assets greater than1000Please line up in the “special channel” for ten thousand.</p>'
-		 if a=5:'<p><<$RION.name>> :It deserves to be a proof of assets greater than1000Ten thousand...Strong strength....</p>'
+	 	 if a=0:'<p><<$RION.name>>:Below I announce that the first<<q>>The round of review has officially begun, please sort according to the asset certificate.</p>'
+	 	 if a=0:'<p><<$RION.name>>:This round of review examines everyone`s sexual ability, that is, whether they have the ability to be eugenic and fertile....Please line up...I will use my chest to provide services to everyone.</p>'
+		 if a=1:'<p><<$RION.name>>:Please shoot it out as quickly as possible.</p>'
+		 if a=2:'<p><<$RION.name>>:....It`s a pity, next one.</p>'
+		 if a=3:'<p><<$RION.name>>:Very good, you are qualified, next one.</p>'
+		 if a=4:'<p><<$RION.name>>:Proof of assets greater than1000Please line up in the “special channel” for ten thousand.</p>'
+		 if a=5:'<p><<$RION.name>>:It deserves to be a proof of assets greater than1000Ten thousand...Strong strength....</p>'
 		 if a=6:
-		 '<p><<$RION.name>> :Very good, you are qualified, next one!</p>'
+		 '<p><<$RION.name>>:Very good, you are qualified, next one!</p>'
 		 '<p>·In this way, the review lasted for nearly four hours...</p>'
 		 end
 		 if a=7:
-		 '<p><<$RION.name>> :Then, today`s sexual ability review work is all completed, please go to the next room for applicants who have passed the sexual ability review.</p>'
+		 '<p><<$RION.name>>:Then, today`s sexual ability review work is all completed, please go to the next room for applicants who have passed the sexual ability review.</p>'
 		 '<p>·(Really hard work)</p>'
 		 $RION.bad+=1
 		 end
@@ -164,7 +164,7 @@ if $args[0]="RION_Event_NTRFront":
 			'<div class="button"><a href="exec:minutes+=5 & gt ''RION_event'',''RION_Event_NTRFront''">Keep peeking</a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & a=0 & q=0 &  gt ''RION_event'',''RION_Event_NTR''">Go in</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Hot_spring'',''suite''">leave</a></div>'
@@ -174,17 +174,17 @@ if $args[0]="RION_Event_NTRFront":
 	if a>=0:
 	 '<div class="dialog_menu">'
 	 	 if a=0:'<p>·In the double room on the first floor, you saw a familiar figure...</p>'
-	 	 if a=0:'<p><<$RION.name>> :(What a coincidence，<<$Protagonist`s_name>>Why are you here...Tease him..）</p>'
-		 if a=1:'<p><<$RION.name>> :Come on, my dear, be strong!</p>'
-		 if a=2:'<p>man :Ah...I`m going to shoot..Can`t do it anymore...Sorry..</p>'
+	 	 if a=0:'<p><<$RION.name>>:(What a coincidence，<<$Protagonist`s_name>>Why are you here...Tease him..）</p>'
+		 if a=1:'<p><<$RION.name>>:Come on, my dear, be strong!</p>'
+		 if a=2:'<p>man:Ah...I`m going to shoot..Can`t do it anymore...Sorry..</p>'
 		 if a=3:
-		 	'<p>I :It turned out to be a man with premature ejaculation.....Even if you don`t have premature ejaculation，<<$rion.name>>I have intercourse with so many men every day, can he satisfy her?</p>'
-		 	'<p>man :..Sorry....I`m really useless...Oh right!I have something for you!I made the cross stitch myself!.....Ah!I forgot it in the car!I`ll get it right away!</p>'
+		 	'<p>I:It turned out to be a man with premature ejaculation.....Even if you don`t have premature ejaculation，<<$rion.name>>I have intercourse with so many men every day, can he satisfy her?</p>'
+		 	'<p>man:..Sorry....I`m really useless...Oh right!I have something for you!I made the cross stitch myself!.....Ah!I forgot it in the car!I`ll get it right away!</p>'
 		 end
 		 if a=4:
-		    '<p><<$RION.name>> :Haven`t had fun watching it!That`s my fiance, but it hasn`t been counted since the new policy was introduced.Women will no longer be restricted by marriage.</p>'
-		 	'<p>I :It`s amazing that he can tolerate your work.</p>'
-		    '<p><<$RION.name>> :Um... maybe it`s compensation for me.Let`s not talk about this for now, do you want to come in?</p>'
+		    '<p><<$RION.name>>:Haven`t had fun watching it!That`s my fiance, but it hasn`t been counted since the new policy was introduced.Women will no longer be restricted by marriage.</p>'
+		 	'<p>I:It`s amazing that he can tolerate your work.</p>'
+		    '<p><<$RION.name>>:Um... maybe it`s compensation for me.Let`s not talk about this for now, do you want to come in?</p>'
 		
 		 end
 	 '</div>'
@@ -219,10 +219,10 @@ if $args[0]="RION_Event_NTR":
 			if a!5 and 10>=q and q>=4:
 			'<div class="button"><a href="exec:a=5 & gt ''RION_event'',''RION_Event_NTR''">Lactation </a></div>'
 			end
-			if a=5 :
+			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''RION_event'',''RION_Event_NTR''">Hurry up </a></div>'
 			end
-			if a=5 :
+			if a=5:
 			'<div class="button"><a href="exec:a=7 & gt ''RION_event'',''RION_Event_NTR''">Slow down </a></div>'
 			end
 			if a!8 and q>=7:
@@ -249,7 +249,7 @@ if $args[0]="RION_Event_NTR":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Hot_spring'',''suite''">Sneak back</a></div>'
 			'</div>'
@@ -315,7 +315,7 @@ if $args[0]="RION_Fuck_Hot spring":
 			if a!6 and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''RION_event'',''RION_Fuck_Hot spring''">sprint </a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''RION_event'',''RION_Fuck_Hot spring''">Outdoor situation </a></div>'
 			end
 			if a=6:
@@ -327,7 +327,7 @@ if $args[0]="RION_Fuck_Hot spring":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
 			'</div>'
@@ -352,7 +352,7 @@ if $args[0]="RION_Fuck_Hot spring":
 	if 4<=a and a<=8:
 		 '<div class="dialog_menu">'
 			 '<p><<$RION.name>>:<<$words>>…</p>'
-			 if a=7:'<p>？？？ :It`s so exciting... I also want to be fucked by a big chicken... fuck me... fuck me…</p>'
+			 if a=7:'<p>???:It`s so exciting... I also want to be fucked by a big chicken... fuck me... fuck me…</p>'
 		 '</div>'
 	end
 
@@ -405,7 +405,7 @@ if $args[0]="RION_Fuck_dinner":
 				if a!6 and q>=5:
 				'<div class="button"><a href="exec:a=6 & gt ''RION_event'',''RION_Fuck_dinner''">sprint </a></div>'
 				end
-				if a=6 :
+				if a=6:
 				'<div class="button"><a href="exec:a=7 & gt ''RION_event'',''RION_Fuck_dinner''">Going to shoot </a></div>'
 				end
 				if a=7:
@@ -420,9 +420,9 @@ if $args[0]="RION_Fuck_dinner":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if $RION.bad>=200-$RION.love:'<div class="button"><a href="exec:minutes+=1440& hour=7 &a=0 & q=0& my.energy=mymax[energy] & gt ''RION_event'',''RION_Fuck_Morning cannon''">Stay overnight</a></div>'else:'<div class="buttonGr"><a href="exec:">stay?？</a></div>'
+				if $RION.bad>=200-$RION.love:'<div class="button"><a href="exec:minutes+=1440& hour=7 &a=0 & q=0& my.energy=mymax[energy] & gt ''RION_event'',''RION_Fuck_Morning cannon''">Stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">stay?？</a></div>'
 				'<div class="button"><a href="exec:minutes+=15 & a=0 & q=0 & gt ''RION_event'',''RION_Fuck_Do it in person''">Knock on the door</a></div>'
 			'</div>'
 	end
@@ -522,7 +522,7 @@ if $args[0]="RION_Fuck_Morning cannon":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: gt ''Residential_area''">leave </a></div>'
 			'</div>'
@@ -574,13 +574,13 @@ if $args[0]="RION_Fuck_Do it in person":
 	if a!11:
 		'<div class="button_menu">'
 			if a=0:
-			if $RION.bad>=200 and $RION.love>=200:'<div class="buttonS"><a href="exec:a=1 & gt ''RION_event'',''RION_Fuck_Do it in person''">When his face is dry </a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity </a></div>'
+			if $RION.bad>=200 and $RION.love>=200:'<div class="buttonS"><a href="exec:a=1 & gt ''RION_event'',''RION_Fuck_Do it in person''">When his face is dry </a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity </a></div>'
 			'<div class="button"><a href="exec:a=1 & gt ''Residential_area''">Know each other and leave </a></div>'
 			end
-			if (a!2 and 1<=q) or a=10 : 
+			if (a!2 and 1<=q) or a=10: 
 			'<div class="buttonP"><a href="exec:a=2 & gt ''RION_event'',''RION_Fuck_Do it in person''">Insert into the vagina </a></div>'
 			end
-			if (a!6 and 1<=q) or a=10 : 
+			if (a!6 and 1<=q) or a=10: 
 			'<div class="buttonR3"><a href="exec:a=6 & gt ''RION_event'',''RION_Fuck_Do it in person''">Insert anus </a></div>'
 			end
 			if a=2 or a=6: 
@@ -603,7 +603,7 @@ if $args[0]="RION_Fuck_Do it in person":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: gt ''Residential_area''">leave </a></div>'
 			'</div>'

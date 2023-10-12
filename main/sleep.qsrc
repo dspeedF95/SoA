@@ -22,11 +22,11 @@ gs'menu_gif'
 
 '<div class="button_menu">'
 	if $JM_Event_mgfs>=3 and $sleepnum=1 and (hour >=21 or hour<=8):
-	'<div class="buttonS"><a href="exec: gt ''Stepmom_event'',''JM_Fuck_McGovern'',''Sleep attack''">？？？</a></div>'
+	'<div class="buttonS"><a href="exec: gt ''Stepmom_event'',''JM_Fuck_McGovern'',''Sleep attack''">???</a></div>'
 	elseif $MM_Event_idol>=5 and $sleepnum=2 and (hour >=19 or hour<=24):
-	'<div class="buttonS"><a href="exec: gt ''Sister2_event'',''MM_Fuck_Room night attack''">？？？</a></div>'
+	'<div class="buttonS"><a href="exec: gt ''Sister2_event'',''MM_Fuck_Room night attack''">???</a></div>'
 	
-	else:
+	else
 	'<div class="button"><a href="exec: gt ''Home_bedroom''">Wake up</a></div>'
 	end
 	if $JZ_Event_gun=60:'<div class="button"><a href="exec: a=3 & gt ''Police_incident'',''JY_Event_Incoming call''"><<$JY.name>>Incoming call</a></div>'

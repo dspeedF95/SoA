@@ -15,7 +15,7 @@ if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['г�
 if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -3:$character_Ева['relationship']-=70 & $data['гг_truant'] = 0 & $week_label[]='test'
 if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -2:$character_Ева['relationship']-=80 & $data['гг_truant'] = 0 & $week_label[]='test'
 if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] = -1:$character_Ева['relationship']-=90 & $data['гг_truant'] = 0 & $week_label[]='test'
-if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] =0 :$character_Ева['relationship']-=100 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=9 and month <=12 and $data['гг_truant'] =0:$character_Ева['relationship']-=100 & $data['гг_truant'] = 0 & $week_label[]='test'
 
 if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] <= -10:$character_Ева['relationship']+=45 & $data['гг_truant'] = 0 & $week_label[]='test'
 if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -9:$character_Ева['relationship']-=5 & $data['гг_truant'] = 0 & $week_label[]='test'
@@ -27,7 +27,7 @@ if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг
 if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -3:$character_Ева['relationship']-=70 & $data['гг_truant'] = 0 & $week_label[]='test'
 if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -2:$character_Ева['relationship']-=80 & $data['гг_truant'] = 0 & $week_label[]='test'
 if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] = -1:$character_Ева['relationship']-=90 & $data['гг_truant'] = 0 & $week_label[]='test'
-if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] =0 :$character_Ева['relationship']-=100 & $data['гг_truant'] = 0 & $week_label[]='test'
+if arrpos('$week_label','test') = -1 and month >=2 and month <=5 and $data['гг_truant'] =0:$character_Ева['relationship']-=100 & $data['гг_truant'] = 0 & $week_label[]='test'
 
 
 

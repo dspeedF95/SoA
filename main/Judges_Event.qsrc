@@ -31,7 +31,7 @@ if $args[0]="PW_Fuck_Drink":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Shopping_mall''">leave</a></div>'
             '</div>'
@@ -41,12 +41,12 @@ if $args[0]="PW_Fuck_Drink":
 
     if a=0:
          '<div class="dialog_menu">'
-             '<p>？？？:Drink, drink, drink…</p>'
+             '<p>???:Drink, drink, drink…</p>'
              '<p><<$PW.name>>:Dear bosses... why didn`t the boss of the Empire Group come today?</p>'
-             '<p>？？？:What about her?Now her identity is different, and isn`t she being strictly investigated by the Inland Revenue Department now?Why is there still time to eat with us?</p>'
+             '<p>???:What about her?Now her identity is different, and isn`t she being strictly investigated by the Inland Revenue Department now?Why is there still time to eat with us?</p>'
              '<p><<$PW.name>>:Today... actually, I`m here to ask everyone for a favor. I have an idol drama that encountered a little bit of financial resistance.…</p>'
-             '<p>？？？:It`s not easy to help now. Our industrial chain has been emptied by the Imperial Group, alas.</p>'
-             '<p>？？？:That`s right!Except for the Imperial Group, everyone is having a hard time now.I really want to take down that bitch!</p>' 
+             '<p>???:It`s not easy to help now. Our industrial chain has been emptied by the Imperial Group, alas.</p>'
+             '<p>???:That`s right!Except for the Imperial Group, everyone is having a hard time now.I really want to take down that bitch!</p>' 
              '<p>I:(It seems that these bosses are out of money)</p>'
          '</div>'
     end
@@ -55,38 +55,38 @@ if $args[0]="PW_Fuck_Drink":
     if a=1:
          '<div class="dialog_menu">'
              '<p><<$PW.name>>:Blame me, I shouldn`t have mentioned this, I`ll punish myself first.</p>'
-             '<p>？？？:Come on...let`s have a drink too!</p>'
+             '<p>???:Come on...let`s have a drink too!</p>'
          '</div>'
     end
 
 
     if a=2:
          '<div class="dialog_menu">'
-             '<p>？？？:Do you remember the mansion that was shot by the court some time ago?</p>'
+             '<p>???:Do you remember the mansion that was shot by the court some time ago?</p>'
              '<p><<$PW.name>>:The house of the former mayor?That`s a murder house. Who dares to shoot it!</p>'
-             '<p>？？？:The former mayor died strangely in that mansion, but you don`t know anything... It is rumored that the former mayor accepted a lot of benefits from the Imperial Group... and hid in a corner of that house.…</p>'
+             '<p>???:The former mayor died strangely in that mansion, but you don`t know anything... It is rumored that the former mayor accepted a lot of benefits from the Imperial Group... and hid in a corner of that house.…</p>'
              '<p><<$PW.name>>:Oh?Is the news reliable?</p>'
-             '<p>？？？:It was originally just a strange talk... But yesterday the Imperial Group publicly declared that it had no interest in the former mayor, and the group would not participate in the auction.In the afternoon, Kabukicho released the news that as long as someone can take it and transfer it to the Imperial Group, they are willing to pay three times the high price.…</p>'
+             '<p>???:It was originally just a strange talk... But yesterday the Imperial Group publicly declared that it had no interest in the former mayor, and the group would not participate in the auction.In the afternoon, Kabukicho released the news that as long as someone can take it and transfer it to the Imperial Group, they are willing to pay three times the high price.…</p>'
              '<p><<$PW.name>>:Then... how much can this mansion be photographed?</p>'
-             '<p>？？？:The original auction price was5000Ten thousand...but in this situation, there is no9000I don`t think it will work…</p>'
+             '<p>???:The original auction price was5000Ten thousand...but in this situation, there is no9000I don`t think it will work…</p>'
          '</div>'
     end
 
     if a=3:
          '<div class="dialog_menu">'
              '<p><<$PW.name>>:In that case... everyone here... why don`t we do it?</p>'
-             '<p>？？？:Hahahaha, you`re kidding. We all have interests with the Imperial Group. Now that the Inland Revenue Department is under strict investigation, we don`t want to take the lead.</p>'
+             '<p>???:Hahahaha, you`re kidding. We all have interests with the Imperial Group. Now that the Inland Revenue Department is under strict investigation, we don`t want to take the lead.</p>'
              '<p><<$PW.name>>:Then...leave it to me to do it?</p>'
-             '<p>？？？:What do you have in mind?</p>'
+             '<p>???:What do you have in mind?</p>'
              '<p><<$PW.name>>:You just need to fill it up5000Wan... which side of the city hall... I happen to have acquaintances…</p>'
          '</div>'
     end
 
     if a=4:
          '<div class="dialog_menu">'
-             '<p>？？？:Hahahaha，5000Ten thousand...is not a small number!</p>'
+             '<p>???:Hahahaha，5000Ten thousand...is not a small number!</p>'
              '<p><<$PW.name>>:Then...do you not believe me, or do you not believe the wind from the Imperial Group?</p>'
-             '<p>？？？:………</p>'
+             '<p>???:………</p>'
              '<p><<$PW.name>>:I`ll do it first... you guys are going to chip in, without further ado.I will go to the city hall first.</p>'
              $Sister_Hua_Event_Chain=2
          '</div>'
@@ -109,7 +109,7 @@ if $args[0]="PW_Fuck_Catwalk":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">leave</a></div>'
             '</div>'
@@ -120,9 +120,9 @@ if $args[0]="PW_Fuck_Catwalk":
     if a=0:
          '<div class="dialog_menu">'
              '<p><<$PW.name>>:Dear leaders, this is the latest underwear I endorse... if you are interested... you can buy one for your lover.…</p>'
-             '<p>？？？:Pull it down, as soon as I got home and saw that yellow-faced woman, I was not interested!</p>'
+             '<p>???:Pull it down, as soon as I got home and saw that yellow-faced woman, I was not interested!</p>'
              '<p><<$PW.name>>:The material of this set of underwear is relatively special...If you don`t get started in person... you may not be able to experience the “raised design” of this underwear.</p>'
-             '<p>？？？:What is "raised design"?Come, come, let me take a look.</p>'
+             '<p>???:What is "raised design"?Come, come, let me take a look.</p>'
          '</div>'
     end
 
@@ -130,14 +130,14 @@ if $args[0]="PW_Fuck_Catwalk":
     if a=1:
 		 $Sister_Hua_Event_Chain=3
          '<div class="dialog_menu">'
-             '<p>？？？:Huh!This design is really unusual!Xiaoyu, try it too!</p>'
+             '<p>???:Huh!This design is really unusual!Xiaoyu, try it too!</p>'
              '<p><<$PW.name>>:Director Yu, I haven`t seen you before.</p>'
              '<p>Director Yu:Thanks to my mother, I just transferred up soon... now in charge of judicial auctions and real estate transactions.…</p>'
-             '<p>？？？:Look at this material!This fabric!</p>'
+             '<p>???:Look at this material!This fabric!</p>'
              '<p><<$PW.name>>:Director Yu, if it`s convenient, leave a contact information?</p>'
-             '<p>？？？:What are you still doing in a daze?Xiaoyu, if we give it to us, we will go to the next game. This is not a place to work.</p>'
+             '<p>???:What are you still doing in a daze?Xiaoyu, if we give it to us, we will go to the next game. This is not a place to work.</p>'
              '<p>Director Yu:Next game...?</p>'
-             '<p>？？？:Your level is not enough, you still need to exercise a lot... let`s go first!</p>'
+             '<p>???:Your level is not enough, you still need to exercise a lot... let`s go first!</p>'
          '</div>'
     end
 
@@ -156,12 +156,12 @@ if $args[0]="PW_Fuck_secret":
         '<div class="button_menu">'
             if a<2:
             '<div class="button"><a href="exec:a+=1 & gt ''Judges_Event'',''PW_Fuck_secret''">Watch it </a></div>'
-            else:
+            else
             '<div class="button"><a href="exec:a+=1 & gt ''Judges_Event'',''PW_Fuck_secret''">Secretly photographed </a></div>'
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">leave</a></div>'
             '</div>'
@@ -255,7 +255,7 @@ if $args[0]="PW_Fuck_thing1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -331,7 +331,7 @@ if $args[0]="PW_Fuck_thing2":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -437,7 +437,7 @@ if $args[0]="PW_Fuck_thing3":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">Let`s talk about it then</a></div>'
             '</div>'
@@ -508,7 +508,7 @@ if $args[0]="PW_Fuck_company":
             if a!6 and 5<=q and q<=9:
             '<div class="buttonS2"><a href="exec:a=6 & gt ''Judges_Event'',''PW_Fuck_company''">Sit up </a></div>'
             end
-            if a!7 and 6<=q :
+            if a!7 and 6<=q:
             '<div class="buttonS2"><a href="exec:a=7 & gt ''Judges_Event'',''PW_Fuck_company''">Accelerate the sprint </a></div>'
             end
             if a=7:
@@ -520,7 +520,7 @@ if $args[0]="PW_Fuck_company":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -571,7 +571,7 @@ if $args[0]="Safe passage2":
 
             '<div class="button_menu">'
                 '<div class="buttonS3"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth2''">Go to the toilet</a></div>'
-                if $PW.bad>=100:'<div class="buttonS4"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Wait until the meeting is over</a></div>'else:'<div class="buttonGr"><a href="exec:">wait?？？</a></div>'
+                if $PW.bad>=100:'<div class="buttonS4"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Wait until the meeting is over</a></div>'else'<div class="buttonGr"><a href="exec:">wait?？？</a></div>'
             '</div>'
 
 
@@ -610,7 +610,7 @@ if $args[0]="PW_Fuck_mouth2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -668,7 +668,7 @@ if $args[0]="PW_Fuck_mouth1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">Happy cooperation</a></div>'
             '</div>'
@@ -753,7 +753,7 @@ if $args[0]="PW_Fuck_Maid early":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Big_villa'',''Master bedroom''">Get up</a></div>'
             '</div>'
@@ -821,7 +821,7 @@ if $args[0]="PW_Fuck_Maid":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=45 & gt ''Big_villa''">leave</a></div>'
             '</div>'
@@ -890,7 +890,7 @@ if $args[0]="PW_Fuck_Maid night":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=1440 & hour=9 & gt ''Big_villa'',''Master bedroom rest''">Drink tea and sleep</a></div>'
             '</div>'
@@ -936,7 +936,7 @@ if $args[0]="Circular explanation":
         '</div>'
 
         '<div class="button_menu">'
-            if money>=1000000:'<div class="buttonG"><a href="exec:Sister_Hua_Cycle=1 & money-=1000000 & gt''Judges_Event'',''Circular explanation2''">Pay for her! </a></div>'else:'<div class="buttonGr"><a href="exec:">Pay for her </a></div>'
+            if money>=1000000:'<div class="buttonG"><a href="exec:Sister_Hua_Cycle=1 & money-=1000000 & gt''Judges_Event'',''Circular explanation2''">Pay for her! </a></div>'else'<div class="buttonGr"><a href="exec:">Pay for her </a></div>'
             '<div class="button"><a href="exec:gt ''TV_station''">Pretend not to hear </a></div>'
         '</div>'
 
@@ -980,7 +980,7 @@ if $args[0]="PW_Fuck_Villa room":
         '<div class="button_menu">'
             if a=0:
             '<div class="buttonS1"><a href="exec:a=1 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Tease her </a></div>'
-            if Sister_Hua_Cycle=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Go out''">Go out with me </a></div>'else:'<div class="buttonGr"><a href="exec:">Go out </a></div>'
+            if Sister_Hua_Cycle=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Go out''">Go out with me </a></div>'else'<div class="buttonGr"><a href="exec:">Go out </a></div>'
             end
             if a!2 and 1<=q and q<=4:
             '<div class="buttonS1"><a href="exec:a=2 & gt ''Judges_Event'',''PW_Fuck_Villa room''">Serve me </a></div>'
@@ -1005,7 +1005,7 @@ if $args[0]="PW_Fuck_Villa room":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Big_villa'',''Master bedroom''">Go back to the room</a></div>'
             '</div>'
@@ -1052,8 +1052,8 @@ if $args[0]="Go out":
         '<div class="button_menu">'
              '<div class="buttonS1"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Idol drama1''">Shooting idol dramas </a></div>'
              '<div class="buttonS2"><a href="exec:gt ''Judges_Event'',''Initial cycle''">Record reality show </a></div>'
-             if tuc_level3=1 :'<div class="buttonS3"><a href="exec:PWcos=1 &  $m=''PW'' & $ma=$PW.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">invitecosplayshooting </a></div>'
-             if $PW.love>10:'<div class="buttonR3"><a href="exec:gt ''Judges_Event'',''PW_Fuck_support1''">Go to a private club  </a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability </a></div>'
+             if tuc_level3=1:'<div class="buttonS3"><a href="exec:PWcos=1 &  $m=''PW'' & $ma=$PW.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">invitecosplayshooting </a></div>'
+             if $PW.love>10:'<div class="buttonR3"><a href="exec:gt ''Judges_Event'',''PW_Fuck_support1''">Go to a private club  </a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability </a></div>'
         '</div>'
 
          '<div class="dialog_menu">'
@@ -1112,7 +1112,7 @@ if $args[0]="PW_Fuck_cycle1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Judges_Event'',''PW_Fuck_cycle2''">Continue to challenge</a></div>'
                 '<div class="buttonGn"><a href="exec:minutes+=60& gt ''TV_station''">That`s it</a></div>'
@@ -1184,7 +1184,7 @@ if $args[0]="PW_Fuck_cycle2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Judges_Event'',''PW_Fuck_cycle3''">Continue to challenge</a></div>'
                 '<div class="buttonGn"><a href="exec:minutes+=60& gt ''TV_station''">That`s it</a></div>'
@@ -1261,7 +1261,7 @@ if $args[0]="PW_Fuck_cycle3":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Judges_Event'',''PW_Fuck_cycle1''">Continue to challenge</a></div>'
                 '<div class="buttonGn"><a href="exec:minutes+=60& gt ''TV_station''">That`s it</a></div>'
@@ -1358,7 +1358,7 @@ if $args[0]="PW_Fuck_support1":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''Big_villa''">Take her away</a></div>'
             '</div>'
@@ -1405,7 +1405,7 @@ if $args[0]="PW_Fuck_support1":
          $PW.love+=q*3+my.charm
          $PW.bad+=q
          '<div class="dialog_menu">'
-             '<p>Director Yu: <<$Protagonist`s_surname>> brother!Let`s go first!That rotten product will trouble you to "clean up"!</p>'
+             '<p>Director Yu: <<$Protagonists_surname>> brother!Let`s go first!That rotten product will trouble you to "clean up"!</p>'
              '<p>I: Well, if you have worked hard, I won`t send it away!</p>'
              '<p><<$PW.name>>: …………</p>'
              '<p>I: I won`t let you say it`s for your own good.If you leak that “secret”, I don`t think the Empire Group will spare you!</p>'
@@ -1434,7 +1434,7 @@ if $args[0]="PW_Fuck_Idol drama1":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=60 & gt ''TV_station''">Slip away</a></div>'
             '</div>'

@@ -81,8 +81,8 @@ if $args[0] ='Kabukicho Fighting':
 	'<div class ="show_menu"><img src="images\place\大别墅\歌舞伎町X.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if money>=5000:'<div class="buttonG"><a href="exec:money-=5000 & gt ''Kabukicho''">Pay obediently</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay obediently</a></div>'
-		if $Ilikeit_1>$Enemycombateffectiveness_1:'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Kabukicho'',''Kabukicho Fighting2''">If you don`t accept it, do it</a></div>'else:'<div class="buttonGr"><a href="exec:">Swallow it</a></div>'
+		if money>=5000:'<div class="buttonG"><a href="exec:money-=5000 & gt ''Kabukicho''">Pay obediently</a></div>'else'<div class="buttonGr"><a href="exec:">Pay obediently</a></div>'
+		if $Ilikeit_1>$Enemycombateffectiveness_1:'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Kabukicho'',''Kabukicho Fighting2''">If you don`t accept it, do it</a></div>'else'<div class="buttonGr"><a href="exec:">Swallow it</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -112,7 +112,7 @@ if $args[0] ='Kabukicho Fighting2':
 		'<p>Sledgehammergang members: Damn it, you wait for me!</p>'
 		'<p>·——————·</p>'
 		'<p>·Sledgehammerdroprate(<<$Sledgehammerdroprate>>%)=100/(Combat effectiveness difference)</p>'
-		if $Numberofsledgehammersdropped<=$Sledgehammerdroprate:'<p>·In a hurry, they left behind a sledgehammer.</p>'else:'<p>·They fled quickly, leaving nothing behind.</p>'
+		if $Numberofsledgehammersdropped<=$Sledgehammerdroprate:'<p>·In a hurry, they left behind a sledgehammer.</p>'else'<p>·They fled quickly, leaving nothing behind.</p>'
 	'</div>'
 end
 

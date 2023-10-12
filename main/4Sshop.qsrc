@@ -100,7 +100,7 @@ if $ARGS[0] ="Full purchase":
 		'</div>'
 
 	'<div class="button_menu">'
-		if money>=70000:'<div class="buttonG"><a href="exec:minutes+=5 & money-=70000 & gt ''4Sshop'',''Payment of deposit''">Payment of deposit</a></div>'else:'<div class="buttonGr"><a href="exec:">Payment of deposit</a></div>'
+		if money>=70000:'<div class="buttonG"><a href="exec:minutes+=5 & money-=70000 & gt ''4Sshop'',''Payment of deposit''">Payment of deposit</a></div>'else'<div class="buttonGr"><a href="exec:">Payment of deposit</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">Let`s talk about it</a></div>'
 	'</div>'
 
@@ -126,7 +126,7 @@ if $ARGS[0] ="Payment of deposit":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$XS.NAME>>:Ok!<<$Protagonist`s_surname>> Sir, please fill in your complete personal information. Once the boss comes back...I will call you.</p>'
+		'<p><<$XS.NAME>>:Ok!<<$Protagonists_surname>> Sir, please fill in your complete personal information. Once the boss comes back...I will call you.</p>'
 		'<p>I:Ok.</p>'
 		$sales_Event_Buyacar=1
 	'</div>'
@@ -144,9 +144,9 @@ if $ARGS[0] ="Continue to choose":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$XS.NAME>>:<<$Protagonist`s_surname>> Sir!I`m really sorry... I forgot the previous selection list at home!</p>'
+		'<p><<$XS.NAME>>:<<$Protagonists_surname>> Sir!I`m really sorry... I forgot the previous selection list at home!</p>'
 		'<p>I:I don`t blame you, after all, you drank too much.</p>'
-		'<p><<$XS.NAME>>:<<$Protagonist`s_surname>> Sir!If you don`t delay, please go home with me to get it.</p>'
+		'<p><<$XS.NAME>>:<<$Protagonists_surname>> Sir!If you don`t delay, please go home with me to get it.</p>'
 	'</div>'
 end
  
@@ -158,14 +158,14 @@ if $ARGS[0] ="Pay the balance":
 		'</div>'
 
 	'<div class="button_menu">'
-		if money>=415000:'<div class="buttonG"><a href="exec:money-=415000 & gt ''Sales_event'',''Sales_payment''">Pay ￥415,000</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay ￥415,000</a></div>'
+		if money>=415000:'<div class="buttonG"><a href="exec:money-=415000 & gt ''Sales_event'',''Sales_payment''">Pay ￥415,000</a></div>'else'<div class="buttonGr"><a href="exec:">Pay ￥415,000</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop''">Pay next time</a></div>'
 	'</div>'
 
 
 	'<div class="dialog_menu">'
-		'<p>Store manager:<<$Protagonist`s_surname>> Sir!Just got off the plane!Poor hospitality!Poor hospitality!</p>'
-		'<p><<$XS.NAME>>:<<$Protagonist`s_surname>> Sir!The total balance is...￥415,000！It contains5000￥VIPValue-added services</p>'
+		'<p>Store manager:<<$Protagonists_surname>> Sir!Just got off the plane!Poor hospitality!Poor hospitality!</p>'
+		'<p><<$XS.NAME>>:<<$Protagonists_surname>> Sir!The total balance is...￥415,000！It contains5000￥VIPValue-added services</p>'
 		'<p>Store manager:<<$XS.NAME>>！ Well done!You are getting more and more proficient in your business…*Yawn</p>'
 	'</div>'
 end
@@ -197,9 +197,9 @@ if $ARGS[0] ="VIP lounge":
 		'<div class="dialog_menu">'
 			if $CH.available=0:
 			'<p><<$CH.NAME>>: I am the acting person in charge of this car dealership, and this is my temporary office.</p>'
-			else:
+			else
 			'<p>I: Hi~</p>'
-			'<p><<$CH.name>>: <<$Protagonist`s_surname>> Sir!You are a distinguished Porsche owner, what can I do for you?</p>'
+			'<p><<$CH.name>>: <<$Protagonists_surname>> Sir!You are a distinguished Porsche owner, what can I do for you?</p>'
 			if $CHEvent_chain>=3:'<p>I: Don`t say that, I still have an identity as your subordinate.</p>'
 			end
 		'</div>'
@@ -223,7 +223,7 @@ if $ARGS[0] ="Dealer dialogue":
 
 
 		'<div class="dialog_menu">'
-			'<p><<$CH.name>>: <<$Protagonist`s_surname>> Sir, what`s the matter?</p>'
+			'<p><<$CH.name>>: <<$Protagonists_surname>> Sir, what`s the matter?</p>'
 			if  $CHEvent_chain=0:$CHEvent_chain=1
 		'</div>'
 end
@@ -256,7 +256,7 @@ if $ARGS[0] ="Motorcycle booth":
 	 if week_day =1 or week_day =3 or week_day =3 or week_day =5 or week_day =7:
 		$Carmodel.name='Wakana Nao(Double rest car model)'
 		$Carmodelnum='A'
-	 else:
+	 else
 		$Carmodel.name='Miyuki Love(Single-off car model)'
 		$Carmodelnum='B'
 	 end

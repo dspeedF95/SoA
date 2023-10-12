@@ -17,7 +17,7 @@ minutes+=10
 if $args[0]="Pick you up home":
 		if $MM.love<=10:
 			$MMhome=100
-			else:
+			else
 			$MMhome=101
 		 end
 
@@ -34,7 +34,7 @@ if $args[0]="Pick you up home":
 		if $MMhome=100:
 		'<p>·<<$mm.name>>: Huh----What if I go with you and everyone misunderstands that you are my boyfriend?！</p>'
 		'<p>·Although that`s what I said, my sister still got in the car with you.</p>'
-		else:
+		else
 		'<p>·<<$mm.name>>: If there is a brother, it should be fine.....</p>'
 		end
 	'</div>'
@@ -46,7 +46,7 @@ if $args[0]="Pick you up home2":
 	    MMnum+=$MM.bad
 		if  MMnum >=30:
 		 MMsex=1
-		 else:
+		 else
 		 MMsex=0
 		end
 		 
@@ -83,7 +83,7 @@ End
 if $args[0]="Pick you up home3":
 	 if $mm.bad<30:
 		MMsnum=105
-		else:
+		else
 		MMsnum=103
 		end
 
@@ -95,7 +95,7 @@ if $args[0]="Pick you up home3":
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:minutes+=15 &gt ''Sister2_event'',''Pick you up home hero''">Hero: Step forward to stop</a></div>'
 			'<div class="buttonS"><a href="exec:minutes+=15 &gt ''Sister2_event'',''Pick you up homesex''">Evil: Continue to pretend to sleep</a></div>'
-			if $MM_Event_idol=5 :
+			if $MM_Event_idol=5:
 			'<div class="button"><a href="exec:minutes+=5 & gt ''Sister2_event'',''MM_Fuck_Front of the tram''">Idol promotion</a></div>'
 			end
 		'</div>'
@@ -132,7 +132,7 @@ if $args[0]="Pick you up homesex":
 		MMsnum=109
 		elseif  $mm.bad<30:
 		MMsnum=107
-		else:
+		else
 		MMsnum=106
 		end
 
@@ -313,11 +313,11 @@ if $args[0]="MM_Fuck_Skip school":
 			'<div class="button"><a href="exec:a=2 & gt ''Sister2_event'',''MM_Fuck_Skip school''">Licking milk</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $mm.love>=50 and $mm.bad>=25:
 				'<div class="button"><a href="exec:a=3 & gt ''Sister2_event'',''MM_Fuck_Skip school1''">Take off your pants</a></div>'
-				else:
+				else
 				'<div class="button"><a href="exec:a=3 & gt ''Sister2_event'',''MM_Fuck_Skip school''">Take off your pants</a></div>'
 				end
 				'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
@@ -377,11 +377,11 @@ if $args[0]="MM_Fuck_Skip school1":
 			'<div class="button"><a href="exec:a=8 & gt ''Sister2_event'',''MM_Fuck_Skip school1''">She climaxes first</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $mm.love>=100 and $mm.bad>=100:
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Sister2_event'',''MM_Fuck_Skip school2''">Ride up</a></div>'
-				else:
+				else
 				'<div class="button"><a href="exec:a=9 & gt ''Sister2_event'',''MM_Fuck_Skip school1''">Ride up</a></div>'
 				end
 				'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
@@ -401,7 +401,7 @@ if $args[0]="MM_Fuck_Skip school1":
 		 '</div>'
 	end
 
-	if 8>a and a>=4 :
+	if 8>a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$MM.name>>： ..<<$Panting>>..</p>'
 		 '</div>'
@@ -440,11 +440,11 @@ if $args[0]="MM_Fuck_Skip school2":
 			'<div class="button"><a href="exec:a=4 & gt ''Sister2_event'',''MM_Fuck_Skip school2''">Dry spray her</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $mm.love>=125 and $mm.bad>=125:
 				'<div class="button"><a href="exec:a=5 & gt ''Sister2_event'',''MM_Fuck_Skip school3''">Try anal sex</a></div>'
-				else:
+				else
 				'<div class="button"><a href="exec:a=5 & gt ''Sister2_event'',''MM_Fuck_Skip school2''">Try anal sex</a></div>'
 				end
 				'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
@@ -464,7 +464,7 @@ if $args[0]="MM_Fuck_Skip school2":
 		 '</div>'
 	end
 
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$MM.name>>： ..<<$words>>..</p>'
 		 '</div>'
@@ -490,7 +490,7 @@ if $args[0]="MM_Fuck_Skip school3":
 			'<div class="button"><a href="exec:a=8 & gt ''Sister2_event'',''MM_Fuck_Skip school3''">Clean up</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
 			'</div>'
@@ -555,7 +555,7 @@ if $args[0]="MM_Fuck_After class":
 			'<div class="button"><a href="exec:a=9 & gt ''Sister2_event'',''MM_Fuck_After class''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
 			'</div>'
@@ -569,13 +569,13 @@ if $args[0]="MM_Fuck_After class":
 
 
 
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$MM.name>>： ..<<$Panting>>..</p>'
 		 '</div>'
 	end
 
-	if 8>=a and a>=3 :
+	if 8>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$MM.name>>： ..<<$words>>..</p>'
 		 '</div>'
@@ -640,7 +640,7 @@ if $args[0]="MM_Fuck_sister":
 			'<div class="button"><a href="exec:a=17 & gt ''Sister2_event'',''MM_Fuck_sister''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''home''">leave</a></div>'
 			'</div>'
@@ -655,20 +655,20 @@ if $args[0]="MM_Fuck_sister":
 	end
 
 
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>..<<$Panting>>..</p>'
 		 '</div>'
 	end
 
-	if a=3 :
+	if a=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$JJ.name>>: Come on, let`s insert my sister first, okay?</p>'
 		 '</div>'
 	end
 
 
-	if 14>=a and a>=4 :
+	if 14>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$Panting>>..</p>'
 			 '<p><<$Panting2>>..<<$words>>..</p>'
@@ -711,11 +711,11 @@ if $args[0]="MM_Fuck_Counter night attack":
 			 <source src="images\NPC\MM\vids\夜逆袭1-<<a>>~1.webm" type=''video/webm;''></video></div>'
 		'</div>'
 
-	if a! 3 :
+	if a! 3:
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:a+=1 & gt ''Sister2_event'',''MM_Fuck_Counter night attack''">...</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:hour =8  & minutes+=10 & gt ''home''">The next day</a></div>'
 			'</div>'
@@ -772,9 +772,9 @@ if $args[0]="MM_Fuck_Night attack":
 				'<div class="button"><a href="exec:a=4 & gt ''Sister2_event'',''MM_Fuck_Night attack''">Ejaculation</a></div>'
 				end
 			'</div>'
-			else:
+			else
 				'<div class="button_menu">'
-					'<div class="button"><a href="exec: minutes+=15 &a=0 &q=0 & my.energy+=100  & hour=8 & gt ''Home_sister2`s_room''">Sleep together until dawn</a></div>'
+					'<div class="button"><a href="exec: minutes+=15 &a=0 &q=0 & my.energy+=100  & hour=8 & gt ''Home_sister2s_room''">Sleep together until dawn</a></div>'
 				'</div>'
 		 end
 		if a=5:
@@ -847,7 +847,7 @@ if $args[0]="MM_Fuck_4p":
 			'<div class="button"><a href="exec:a=15 & gt ''Sister2_event'',''MM_Fuck_4p''">Shot!</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:$MM_Event_idol=5 & gt ''Empire_Entertainment''">Choose sister</a></div>'
 				'<div class="button"><a href="exec:gt ''Empire_Entertainment''">Talk about it next time</a></div>'
@@ -866,7 +866,7 @@ if $args[0]="MM_Fuck_4p":
 	end
 
 
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>..<<$Panting>>..</p>'
 		 '</div>'
@@ -874,7 +874,7 @@ if $args[0]="MM_Fuck_4p":
 
 
 
-	if 14>=a and a>=3 :
+	if 14>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p>..<<$Panting>>..</p>'
 			 '<p>..<<$Panting>>..<<$words>>..</p>'
@@ -908,27 +908,27 @@ if $args[0]="MM_Fuck_Thanksgiving Festival":
 		'<div class="button_menu">'
 			if mm_fans>=1:
 			'<div class="button"><a href="exec:a=7 & q+=rand(1,2) & gt ''Sister2_event'',''MM_Fuck_Thanksgiving Festival''">1kSmall goal</a></div>'
-			else:
+			else
 			'<div class="buttonGr"><a href="exec:">Insufficient number of fans</a></div>'
 			end
 			if mm_fans>=5:
 			'<div class="button"><a href="exec:a=9 & q+=rand(2,4) & gt ''Sister2_event'',''MM_Fuck_Thanksgiving Festival''">5kSmall goal</a></div>'
-			else:
+			else
 			'<div class="buttonGr"><a href="exec:">Insufficient number of fans</a></div>'
 			end
 			if mm_fans>=10:
 			'<div class="button"><a href="exec:a=5 & q+=rand(4,6) & gt ''Sister2_event'',''MM_Fuck_Thanksgiving Festival''">10kXiaoqing Gong</a></div>'
-			else:
+			else
 			'<div class="buttonGr"><a href="exec:">Insufficient number of fans</a></div>'
 			end
 			if mm_fans>=20:
 			'<div class="button"><a href="exec:a=1 & q+=rand(6,10) & gt ''Sister2_event'',''MM_Fuck_Thanksgiving Festival''">20kAid Society</a></div>'
-			else:
+			else
 			'<div class="buttonGr"><a href="exec:">Insufficient number of fans</a></div>'
 			end
 			if mm_fans>=50:
 			'<div class="button"><a href="exec:a=3 & q+=rand(10,15) & gt ''Sister2_event'',''MM_Fuck_Thanksgiving Festival''">50kThanksgiving Festival</a></div>'
-			else:
+			else
 			'<div class="buttonGr"><a href="exec:">Insufficient number of fans</a></div>'
 			end
 		'</div>'
@@ -936,7 +936,7 @@ if $args[0]="MM_Fuck_Thanksgiving Festival":
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a+=1 & gt ''Sister2_event'',''MM_Fuck_Thanksgiving Festival'',''结束''">Twenty minutes later</a></div>'
 			'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=20 & gt ''Empire_Entertainment''">leave</a></div>'
 			'</div>'
@@ -1020,10 +1020,10 @@ if $args[0]="MM_Fuck_Essential oil":
 			if  a!5 and 4<=q and q<=7:   
 			'<div class="button"><a href="exec:a=5 & gt ''Sister2_event'',''MM_Fuck_Essential oil''">Fuck her</a></div>'
 			end
-			if  a!6 and 5<=q :     
+			if  a!6 and 5<=q:     
 			'<div class="button"><a href="exec:a=6 & gt ''Sister2_event'',''MM_Fuck_Essential oil''">Leg lift sex</a></div>'
 			end
-			if  a!7 and 6<=q :    
+			if  a!7 and 6<=q:    
 			'<div class="button"><a href="exec:a=8 & gt ''Sister2_event'',''MM_Fuck_Essential oil''">Riding position</a></div>'
 			end
 			if  a=6 or a=8:   
@@ -1037,7 +1037,7 @@ if $args[0]="MM_Fuck_Essential oil":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Empire_Entertainment''">leave</a></div>'
 			'</div>'
@@ -1100,13 +1100,13 @@ if $args[0]="MM_Fuck_Mother and sister":
 			if  9>a and q>=2:  
 			'<div class="button"><a href="exec:a=9 & gt ''Sister2_event'',''MM_Fuck_Mother and sister''">Fuck sister</a></div>'
 			end
-			if  a!8 and 3<=a and a<13 :     
+			if  a!8 and 3<=a and a<13:     
 			'<div class="button"><a href="exec:a+=1 & gt ''Sister2_event'',''MM_Fuck_Mother and sister''">Change posture and fuck her</a></div>'
 			end
-			if  a=7 or a=13 :    
+			if  a=7 or a=13:    
 			'<div class="button"><a href="exec:a+=1 & gt ''Sister2_event'',''MM_Fuck_Mother and sister''">Spray her</a></div>'
 			end
-			if  a=7 or a=13 :  
+			if  a=7 or a=13:  
 			'<div class="button"><a href="exec:a=15 & gt ''Sister2_event'',''MM_Fuck_Mother and sister''">Ejaculation</a></div>'
 			end
 			if  a=15:   
@@ -1114,7 +1114,7 @@ if $args[0]="MM_Fuck_Mother and sister":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Empire_Entertainment''">leave</a></div>'
 			'</div>'
@@ -1208,12 +1208,12 @@ if $args[0]="MM_Fuck_tram":
 			if a=4 or a=5:
 			'<div class="button"><a href="exec:a=7 & gt ''Sister2_event'',''MM_Fuck_tram''">Ejaculation</a></div>'
 			end
-			if a=7 :  
+			if a=7:  
 			'<div class="button"><a href="exec:a=8 & gt ''Sister2_event'',''MM_Fuck_tram''">Thirty minutes later</a></div>'
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''subway''">leave</a></div>'
 			'</div>'
@@ -1262,7 +1262,7 @@ if $args[0]="MM_Event_Hot spring tour":
 			 <source src="images\NPC\MM\vids\温泉0-<<a>>~1.webm" type=''video/webm;''></video></div>'
 		'</div>'
 
-	if a! 5 :
+	if a! 5:
 			'<div class="button_menu">'
 			 if a=0:'<div class="button"><a href="exec:a=1 & gt ''Sister2_event'',''MM_Event_Hot spring tour''">Eat</a></div>'
 			 if a=1:'<div class="button"><a href="exec:a=2 & gt ''Sister2_event'',''MM_Event_Hot spring tour''">Help me beat my back</a></div>'
@@ -1320,15 +1320,15 @@ if $args[0]="MM_Fuck_Hot spring":
 			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Sister2_event'',''MM_Fuck_Hot spring''">Ejaculation</a></div>'
 			end
-			if a=7 :  
+			if a=7:  
 			'<div class="button"><a href="exec:a=8 & gt ''Sister2_event'',''MM_Fuck_Hot spring''">Sleep together</a></div>'
 			end
-			if a=5 :  
+			if a=5:  
 			'<div class="button"><a href="exec:a=9 & gt ''Sister2_event'',''MM_Fuck_Hot spring''">Outdoor situation</a></div>'
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0 & q=0 &hour=5 &minutes+=60 &my.energy=mymax[energy] &gt ''Sister2_event'',''MM_Fuck_Hot spring2''">The next day</a></div>'
 			'</div>'
@@ -1356,7 +1356,7 @@ if $args[0]="MM_Fuck_Hot spring":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-		 	 '<p>？？？:...So fierce!I want to be fucked by a big chicken too..Fuck me..Fuck me.....</p>'
+		 	 '<p>???:...So fierce!I want to be fucked by a big chicken too..Fuck me..Fuck me.....</p>'
 		 '</div>'
 	end
 
@@ -1432,7 +1432,7 @@ if $args[0]="MM_Fuck_bathroom":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 			'</div>'
@@ -1502,7 +1502,7 @@ if $args[0]="MM_Oral_hall":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:my.energy+=30 & minutes+=60 &gt ''home''">Have some together</a></div>'
 			'</div>'
@@ -1563,7 +1563,7 @@ if $args[0]="MM_Fuck_Room night attack":
 			if a!3 and 2<=q and q<=4: 
 			'<div class="button"><a href="exec:a=3 & gt ''Sister2_event'',''MM_Fuck_Room night attack''">Ride up</a></div>'
 			end
-			if a!4 and 3<=q : 
+			if a!4 and 3<=q: 
 			'<div class="button"><a href="exec:a=4 & gt ''Sister2_event'',''MM_Fuck_Room night attack''">Fuck her</a></div>'
 			end
 			if a=4:
@@ -1574,7 +1574,7 @@ if $args[0]="MM_Fuck_Room night attack":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''home''">Get up</a></div>'
 			'</div>'
@@ -1642,12 +1642,12 @@ if $args[0]="MM_Fuck_hall":
 			if a=8:
 			'<div class="button"><a href="exec:a=9 & gt ''Sister2_event'',''MM_Fuck_hall''">Internal injection</a></div>'
 			end
-			if a=9 :  
+			if a=9:  
 			'<div class="button"><a href="exec:a=10 & gt ''Sister2_event'',''MM_Fuck_hall''">afterwards</a></div>'
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''home''">leave</a></div>'
 			'</div>'
@@ -1719,7 +1719,7 @@ if $args[0]="MM_Fuck_Competition":
             '<div class="button"><a href="exec:a=8 & gt ''Sister2_event'',''MM_Fuck_Competition''">interrupted </a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
 				if $Yuya_Event_Chain=4:'<div class="button"><a href="exec:a=9 & gt ''Sister2_event'',''MM_Fuck_Competition''">Witnessed </a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'

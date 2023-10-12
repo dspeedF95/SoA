@@ -100,7 +100,7 @@ if $args[0]="XY_Fuck_Take advantage":
 		 <source src="images\NPC\XY\vids\包调教00<<a>>~1.webm" type=''video/webm;''></video></div>'
 	'</div>'
 	 if $XY.bad>=a*11-20:
-		else:
+		else
 		a=8
 		end
 	if  a!8:
@@ -111,26 +111,26 @@ if $args[0]="XY_Fuck_Take advantage":
 			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Spanish_Event'',''XY_Fuck_Take advantage''">Take off the bra</a></div>'
 			end
-			if a=3 :
+			if a=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Spanish_Event'',''XY_Fuck_Take advantage''">Play with nipples</a></div>'
 			end
-			if a=4 :
+			if a=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Spanish_Event'',''XY_Fuck_Take advantage''">Touch the pussy</a></div>'
 			end
-			if a=5 :
+			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Spanish_Event'',''XY_Fuck_Take advantage''">Forced oral sex</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Spanish_Event'',''XY_Fuck_Take advantage''">Fuck</a></div>'
 			end
-			if a=7 :
+			if a=7:
 			'<div class="button"><a href="exec:a=8 & gt ''Spanish_Event'',''XY_Fuck_Take advantage''">Bukkake!</a></div>'
 			end
 			if $XY.bad<a*11-9 and a!7:
-			'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			'<div class="buttonGr"><a href="exec:">???</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Give her the bag</a></div>'
 			'</div>'
@@ -191,7 +191,7 @@ if $args[0]="XY_Fuck_Sexualharassment":
 	'</div>'
 
 	 if $XY.bad>=a*11-20:
-		else:
+		else
 		a=6
 		end
 
@@ -203,22 +203,22 @@ if $args[0]="XY_Fuck_Sexualharassment":
 			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Spanish_Event'',''XY_Fuck_Sexualharassment''">Play with nipples</a></div>'
 			end
-			if a=3 :
+			if a=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Spanish_Event'',''XY_Fuck_Sexualharassment''">Rub the pussy</a></div>'
 			end
-			if a=4 :
+			if a=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Spanish_Event'',''XY_Fuck_Sexualharassment''">Use vibrating eggs</a></div>'
 			end
-			if a=5 :
+			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Spanish_Event'',''XY_Fuck_Sexualharassment''">Finger insertion</a></div>'
 			end
 			if $XY.bad<a*11-9:
-			'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			'<div class="buttonGr"><a href="exec:">???</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
-				if $XY.bad>=100-$XY.love:'<div class="buttonS"><a href="exec:minutes+=15 & q=0 & a=0 & gt ''Spanish_Event'',''XY_Fuck_Classroom next door''">Go to the next classroom</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+				if $XY.bad>=100-$XY.love:'<div class="buttonS"><a href="exec:minutes+=15 & q=0 & a=0 & gt ''Spanish_Event'',''XY_Fuck_Classroom next door''">Go to the next classroom</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Give her a bag</a></div>'
 			'</div>'
 	end
@@ -260,7 +260,7 @@ if $args[0]="XY_Fuck_massage":
 	'</div>'
 
 	 if $XY.love>=a*25-20:
-		else:
+		else
 		a=7
 		end
 
@@ -275,23 +275,23 @@ if $args[0]="XY_Fuck_massage":
 			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Spanish_Event'',''XY_Fuck_massage''">kiss</a></div>'
 			end
-			if a=3 :
+			if a=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Spanish_Event'',''XY_Fuck_massage''">Licking milk</a></div>'
 			end
-			if a=4 :
+			if a=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Spanish_Event'',''XY_Fuck_massage''">Oral sex</a></div>'
 			end
-			if a=5 :
+			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Spanish_Event'',''XY_Fuck_massage''">Lick butthole</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Spanish_Event'',''XY_Fuck_massage''">Ejaculation</a></div>'
 			end
 			if $XY.love<a*25+5 and a!6:
-			'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			'<div class="buttonGr"><a href="exec:">???</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Give her a bag</a></div>'
 			'</div>'
@@ -353,7 +353,7 @@ if $args[0]="XY_Fuck_Classroom next door":
 			'<div class="button"><a href="exec:a=4 & gt ''Spanish_Event'',''XY_Fuck_Classroom next door''">Mouth explosion</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Give her a bag</a></div>'
 			'</div>'
@@ -422,7 +422,7 @@ if $args[0]="XY_Fuck_Office dry":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -487,7 +487,7 @@ if $args[0]="XY_Fuck_Afterschoolcounseling":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -552,12 +552,12 @@ if $args[0]="XY_Fuck_home":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_All night''">Fuck all night</a></div>'
-				if $FXZ.love>=200 and $FXZ.bad>=200: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_Home_professor3P''">invite<<$FXZ.name>>3P</a></div>'else:'<div class="buttonGr"><a href="exec:">invitation?？3P</a></div>'
-				if $FXZ.love>=200 and $FXZ.bad>=200 and $YDM.LOVE>=400-$YDM.bad: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 &gt ''One_generation_project_Event'',''YDM_Fuck_4P''">invite<<$YDM.name>>4P</a></div>'else:'<div class="buttonGr"><a href="exec:">invitation?？4P</a></div>'
-				if $EDM.love>=100 and $EDM.bad>=100:'<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">invite<<$edm.name>>3P</a></div>'else:'<div class="buttonGr"><a href="exec:">invitation?？3P</a></div>'
+				if $FXZ.love>=200 and $FXZ.bad>=200: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_Home_professor3P''">invite<<$FXZ.name>>3P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation?？3P</a></div>'
+				if $FXZ.love>=200 and $FXZ.bad>=200 and $YDM.LOVE>=400-$YDM.bad: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 &gt ''One_generation_project_Event'',''YDM_Fuck_4P''">invite<<$YDM.name>>4P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation?？4P</a></div>'
+				if $EDM.love>=100 and $EDM.bad>=100:'<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">invite<<$edm.name>>3P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation?？3P</a></div>'
 				'<div class="button"><a href="exec:minutes+=30  & gt ''Residential_area''">leave</a></div>'
 			'</div>'
 	end
@@ -623,7 +623,7 @@ if $args[0]="XY_Fuck_All night":
 			'<div class="button"><a href="exec:a=7 & gt ''Spanish_Event'',''XY_Fuck_All night''">Three hours later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=1440 &hour=7 &a=0&q=0& my.energy=mymax[energy]  & gt ''Spanish_Event'',''The next day''">overnight</a></div>'
 			'</div>'
@@ -673,7 +673,7 @@ if $args[0]="The next day":
 			'<div class="button"><a href="exec:minutes+=5 & Spanishchat=0 &a=1& gt ''Spanish_Event'',''The next day''">Ejaculation</a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if week_day <6:'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Go to school together</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
@@ -753,7 +753,7 @@ if $args[0]="XY_Fuck_Home_professor3P":
 			'<div class="buttonP"><a href="exec:a=10 &minutes+=120& gt ''Spanish_Event'',''XY_Fuck_Home_professor3P''">2Hours later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=1440 &hour=7 & my.energy=mymax[energy]  & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_Home_professor3P_In the morning''">overnight</a></div>'
 			'</div>'
@@ -830,7 +830,7 @@ if $args[0]="XY_Fuck_Home_professor3P_In the morning":
 			'<div class="button"><a href="exec:a=8 &minutes+=60& gt ''Spanish_Event'',''XY_Fuck_Home_professor3P_In the morning''">One hour later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15  & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -896,7 +896,7 @@ if $args[0]="FXZ_Fuck_Afternoon tea":
 			'<div class="button"><a href="exec:a=5 & gt ''Spanish_Event'',''FXZ_Fuck_Afternoon tea''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">Back to school</a></div>'
 			'</div>'
@@ -972,7 +972,7 @@ if $args[0]="FXZ_Fuck_Henchman":
 			if a!2 and 1<=q:
 			'<div class="buttonP"><a href="exec:a=2 & gt ''Spanish_Event'',''FXZ_Fuck_Henchman''">Fuck<<$xy.name>></a></div>'
 			end
-			if a=1 :
+			if a=1:
 			'<div class="buttonB"><a href="exec:a=4 & gt ''Spanish_Event'',''FXZ_Fuck_Henchman''">Change posture</a></div>'
 			end
 			if a=2:
@@ -991,7 +991,7 @@ if $args[0]="FXZ_Fuck_Henchman":
 
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
 			'</div>'

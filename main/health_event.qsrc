@@ -25,9 +25,9 @@ if $args[0]="JK_Fuck_Oral sex":
 
 	if a<4:
 		'<div class="button_menu">'
-			if Empirelevel>=5:'<div class="buttonS"><a href="exec:a+=1 & gt ''health_event'',''JK_Fuck_Oral sex''">service</a></div>'else:'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">leave</a></div>'
+			if Empirelevel>=5:'<div class="buttonS"><a href="exec:a+=1 & gt ''health_event'',''JK_Fuck_Oral sex''">service</a></div>'else'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">leave</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">leave</a></div>'
 			'</div>'
@@ -103,7 +103,7 @@ if $args[0]="JK_Fuck_sex":
 			'<div class="buttonS"><a href="exec:a=7 & gt ''health_event'',''JK_Fuck_sex''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">leave</a></div>'
 			'</div>'
@@ -118,7 +118,7 @@ if $args[0]="JK_Fuck_sex":
 
 
 
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JK.name>>: <<$Panting>></p>'
 			 if a=2:'<p><<$JK.name>>:Just plug in, please.</p>'
@@ -126,7 +126,7 @@ if $args[0]="JK_Fuck_sex":
 		 '</div>'
 	end
 
-	if 6>=a and a>=4 :
+	if 6>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$JK.name>>: <<$words>></p>'
 		 '</div>'
@@ -174,7 +174,7 @@ if $args[0]="JK_Fuck_Staff3P":
 			'<div class="buttonP"><a href="exec:a=11 & gt ''health_event'',''JK_Fuck_Staff3P''">Begging for mercy</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 if a=11:'<div class="button"><a href="exec:a=12 & gt ''health_event'',''JK_Fuck_Staff3P''">escape</a></div>'
 			 if a=12:'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">leave</a></div>'
@@ -184,31 +184,31 @@ if $args[0]="JK_Fuck_Staff3P":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$JK.name>>:Do a routine check.</p>'
-			 '<p>staff:<<$Protagonist`s_surname>> Sir, please take off your pants.We need to do some prostate exams.</p>'
+			 '<p>staff:<<$Protagonists_surname>> Sir, please take off your pants.We need to do some prostate exams.</p>'
 		 '</div>'
 	end
 
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$JK.name>>: It seems that there is no problem，<<$Protagonist`s_surname>> Sir is indeed a good cow!The next step is the sexual ability check.</p>'
+			 '<p><<$JK.name>>: It seems that there is no problem，<<$Protagonists_surname>> Sir is indeed a good cow!The next step is the sexual ability check.</p>'
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$JK.name>>: It seems that there is no problem，<<$Protagonist`s_surname>> Sir is indeed a good cow!The next step is the sexual ability check.</p>'
+			 '<p><<$JK.name>>: It seems that there is no problem，<<$Protagonists_surname>> Sir is indeed a good cow!The next step is the sexual ability check.</p>'
 		 '</div>'
 	end
 
-	if 4>=a and a>=3 :
+	if 4>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$JK.name>>: <<$Panting>></p>'
 			 '<p>staff: <<$Panting2>></p>'
 		 '</div>'
 	end
 
-	if 10>=a and a>=5 :
+	if 10>=a and a>=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$JK.name>>: <<$words>></p>'
 		 '</div>'
@@ -271,7 +271,7 @@ if $args[0]="JK_Fuck_Fine product3P":
 			'<div class="button"><a href="exec:a=9 & gt ''health_event'',''JK_Fuck_Fine product3P''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 	'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">leave</a></div>'
 			'</div>'
@@ -280,7 +280,7 @@ if $args[0]="JK_Fuck_Fine product3P":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$JK.name>>:This is our chief quality master, you should have met before.She also elected you to me as today`s candidate.</p>'
-			 '<p>Chief quality Engineer:Hi, it`s been a long time since we saw each other.Mr. Martini...No, it should be now<<$Protagonist`s_surname>> Sir!</p>'
+			 '<p>Chief quality Engineer:Hi, it`s been a long time since we saw each other.Mr. Martini...No, it should be now<<$Protagonists_surname>> Sir!</p>'
 		 '</div>'
 	end
 
@@ -337,7 +337,7 @@ if $args[0]="JK_Event_check":
 			'<div class="button"><a href="exec:a=7 & gt ''health_event'',''JK_Event_check''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 	'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Health'',''Foreign-related business''">The inspection is complete</a></div>'
 			'</div>'
@@ -407,7 +407,7 @@ if $args[0]="JK_Fuck_hotel":
 			'<div class="button"><a href="exec:a=8 & gt ''health_event'',''JK_Fuck_hotel''">Promiscuity</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 	'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -487,7 +487,7 @@ if $args[0]="DL_Fuck_Made now":
 			'<div class="button"><a href="exec:a=8 & gt ''health_event'',''DL_Fuck_Made now''">Talk about cooperation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 	'<div class="button"><a href="exec:minutes+=45 &q=0 & a=-1 & gt ''health_event'',''DL_Fuck_NTR''">1Hours later</a></div>'
 			'</div>'
@@ -560,7 +560,7 @@ if $args[0]="DL_Fuck_NTR":
 			'<div class="button"><a href="exec:a=8 & gt ''health_event'',''DL_Fuck_NTR''">End peeping</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 	'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -635,7 +635,7 @@ if $args[0]="DL_Fuck_indoor":
 			'<div class="button"><a href="exec:a=8 & gt ''health_event'',''DL_Fuck_indoor''">Talk about cooperation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 	'<div class="button"><a href="exec:minutes+=45 &q=0 & a=-1 & gt ''health_event'',''DL_Fuck_NTR''">1Hours later</a></div>'
 			'</div>'
@@ -688,7 +688,7 @@ if $args[0]="Foreign legations_leaving":
 			'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 		'</div>'
 
-	else:
+	else
 		'<div class="button_menu">'
 			if $DL.love>=100-$DL.bad:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''health_event'',''DL_Fuck_indoor''">Go to the house and wait for her</a></div>'
 			'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
@@ -767,7 +767,7 @@ if $args[0]="Foreign missions":
 		'</div>'
 		
 	'<div class="button_menu">'
-		if $DLdialogue!1 and $DLcooperation<100:'<div class="button"><a href="exec: $DLdialogue=1 & minutes+=45 & gt ''health_event'',''Foreign missions''">Negotiate new cooperation：<<$DLcooperation>>﹪</a></div>'else:'<div class="buttonGr"><a href="exec: ">Negotiation is over：<<$DLcooperation>>﹪</a></div>'
+		if $DLdialogue!1 and $DLcooperation<100:'<div class="button"><a href="exec: $DLdialogue=1 & minutes+=45 & gt ''health_event'',''Foreign missions''">Negotiate new cooperation：<<$DLcooperation>>﹪</a></div>'else'<div class="buttonGr"><a href="exec: ">Negotiation is over：<<$DLcooperation>>﹪</a></div>'
 		'<div class="button"><a href="exec: $DLdialogue=0 & minutes+=45 & gt ''health_event'',''Use your brain''">Use your brain</a></div>'
 		'<div class="button"><a href="exec:a=2 & gt ''health_event'',''Foreign legations_leaving''">leave</a></div>'
 	'</div>'
@@ -806,7 +806,7 @@ if $args[0]="Use your brain":
 
         if $DL.love>=100 or $DL.bad>=50:
 		'<p><<$jk.name>>:It`s not okay here, this is a place to eat.We are going to cook somewhere.</p>'
-		else:
+		else
 		'<p><<$jk.name>>:Very sorry!This beast does not understand the etiquette of your country`s openness.*She gave you a wink.(What kind of height does this foreign girl pretend to be, and deliberately showing her tits in front of a man is not a fucking thing?)</p>'
 		'<p><<$DL.name>>:Fine~I won`t be angry either.(I like this kind of bold man, if his cock is big enough....)</p>'
 		'<p><<$jk.name>>:Let`s leave first. I will train him to treat others well when I go back. Please don`t care about it this time.</p>'

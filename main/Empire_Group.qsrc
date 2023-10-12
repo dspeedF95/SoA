@@ -22,7 +22,7 @@ q=0
 		'<div class="action">'
 		   if $CT.available=0:
 			'<a class="photo" data-title="100Floor: No authority""><img class="img_stretch" src="images\place\帝国穹顶.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="100Building: Empire Dome" href="exec:minutes+=5 & gt ''Empire_Dome''"><img class="img_stretch" src="images\place\帝国穹顶.jpg"></a>'
 			end
 		'</div>'
@@ -36,7 +36,7 @@ q=0
 		'<div class="action">'
 			if Empirelevel>=3:
 			'<a class="photo" data-title="99Building: Imperial Health" href="exec:minutes+=5 & gt ''Empire_Health''"><img class="img_stretch" src="images\place\帝国健康.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="99Building: Imperial Health (3Level or above)" href="exec:"><img class="img_stretch" src="images\place\帝国健康.jpg"></a>'
 			end
 		'</div>'
@@ -46,7 +46,7 @@ q=0
 		'<div class="action">'
 			if Empirelevel>=7:
 			'<a class="photo" data-title="100Building: Imperial Energy" href="exec:minutes+=5 & gt ''Imperial_Energy''"><img class="img_stretch" src="images\place\帝国能源.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="100Building: Imperial Energy (7Level or above)" href="exec:"><img class="img_stretch" src="images\place\帝国能源.jpg"></a>'
 			end
 		'</div>'
