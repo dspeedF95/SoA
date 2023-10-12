@@ -1349,7 +1349,7 @@ if $args[0]="ZX_Fuck_AF1":
 	end
 
 	if a=0:
-		 ZXInternal quantity=0
+		 ZXInternalQuantity=0
 		 '<div class="dialog_menu">'
 			 '<p><<$ZX.name>>: Oh, there are so many people this time?Are they all girlfriends or fiancees who have applied for medical beauty loans?</p>'
 			 '<p>Men: Who are you looking for if you don`t look for you?You tricked them into applying for a loan, what do you want us to do now?</p>'
@@ -1365,7 +1365,7 @@ if $args[0]="ZX_Fuck_AF1":
 	end
 
 	if 18>=a and a>=2:
-		 ZXInternal quantity+=rand(3,7)
+		 ZXInternalQuantity+=rand(3,7)
 		 $ZX.bad+=1
 		 $ZX.love+=1
 		 '<div class="dialog_menu">'
@@ -1373,7 +1373,7 @@ if $args[0]="ZX_Fuck_AF1":
 			 '<p>Dear man: Bitch, don`t try to lie to us for a loan anymore!I wouldn`t believe it if I hadn`t experienced it firsthand!</p>'
 			 '<p>The man behind: Yes, yes, yes!Let`s experience it for free first!</p>'
 			 '<p><<$ZX.name>>: Don`t stop one by one<<$words>></p>'
-			 '<p>·❤❤❤In utero❤❤❤Semen volume❤❤❤<<ZXInternal quantity>>ML❤❤❤</p>'
+			 '<p>·❤❤❤In utero❤❤❤Semen volume❤❤❤<<ZXInternalQuantity>>ML❤❤❤</p>'
 			 if a>=16:'<p><<$ZX.name>>: <<$Protagonist`s_name>>, You shouldn`t be here to defend your rights, right?</p>'
 		 '</div>'
 	end

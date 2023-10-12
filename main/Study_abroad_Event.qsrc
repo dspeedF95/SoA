@@ -346,7 +346,7 @@ End
 if $args[0]="Check materials in the library":
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\LXS\vids\scbooks1-<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+			 <source src="images\NPC\LXS\vids\sc图书1-<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
 		'</div>'
 
 	'<div class="button_menu">'
