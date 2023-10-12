@@ -30,6 +30,9 @@ minutes+=10
 		'<div class="action">
 			<a class="photo" data-title="Hair Salon" href="exec:minutes+=5 & gt ''Hair_salon''"><img class="img_stretch" src="images\place\美发店.jpg"></a>
 		</div>'
+		'<div class="action">
+			<a class="photo" data-title="Stockings specialty store" href="exec:minutes+=5 & gt ''Stockings_shop''"><img class="img_stretch" src="images\place\丝袜店0.jpg"></a>
+		</div>'
 	'</div>'
 '</div>'
 

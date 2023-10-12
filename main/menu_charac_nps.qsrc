@@ -482,36 +482,36 @@ gs'menu_time_calc'
 			
 
 			
-			if $ZXG.available=1:
+		if $ZXG.available=1:
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$ZXG.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$ZXG.name>>'',''confidentiality'',''confidentiality'',''<<$ZXG.bio>>''"><img class="img_stretch" src="images\npc_l\<<$ZXG.name>>.png"></a>'
 			'</div>'
-			else
+		else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$ZXG.name>>a.png"></a>'
 			'</div>'
-			end
-			
-            if $DD.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$DD.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DD.name>>'',''confidentiality'',''confidentiality'',''<<$DD.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DD.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DD.name>>a.png"></a>'
-            '</div>'
-            end
+		end
+		
+		if $DD.available=1:
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="<<$DD.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DD.name>>'',''confidentiality'',''confidentiality'',''<<$DD.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DD.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DD.name>>a.png"></a>'
+			'</div>'
+		end
 
-			
-            if $TJ.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$TJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$TJ.name>>'',''confidentiality'',''confidentiality'',''<<$TJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$TJ.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$TJ.name>>a.png"></a>'
-            '</div>'
-            end
+		
+		if $TJ.available=1:
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="<<$TJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$TJ.name>>'',''confidentiality'',''confidentiality'',''<<$TJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$TJ.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$TJ.name>>a.png"></a>'
+			'</div>'
+		end
 
             !if $XZDZ.available=1:
             !'<div class="charac_nps_list_foto">
@@ -523,40 +523,37 @@ gs'menu_time_calc'
             !'</div>'
             !end
 
-            if $DC.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$DC.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DC.name>>'',''<<$DC.love>>'',''<<$DC.bad>>'',''<<$DC.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DC.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DC.name>>a.png"></a>'
-            '</div>'
-            end
+		if $DC.available=1:
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="<<$DC.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DC.name>>'',''<<$DC.love>>'',''<<$DC.bad>>'',''<<$DC.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DC.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DC.name>>a.png"></a>'
+			'</div>'
+		end
 
+		if $MMS.available=1:
+			'<div class="charac_nps_list_foto">
+			<a class="photo" data-title="<<$MMS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$MMS.name>>'',''<<$MMS.love>>'',''<<$MMS.bad>>'',''<<$MMS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$MMS.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$MMS.name>>a.png"></a>'
+			'</div>'
+		end
 
-
-
-            if $MMS.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$MMS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$MMS.name>>'',''<<$MMS.love>>'',''<<$MMS.bad>>'',''<<$MMS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$MMS.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$MMS.name>>a.png"></a>'
-            '</div>'
-            end
-
-            if $CH.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$CH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CH.name>>'',''<<$CH.love>>'',''<<$CH.bad>>'',''<<$CH.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CH.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$CH.name>>a.png"></a>'
-            '</div>'
-            end
+		if $CH.available=1:
+		'<div class="charac_nps_list_foto">
+			<a class="photo" data-title="<<$CH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CH.name>>'',''<<$CH.love>>'',''<<$CH.bad>>'',''<<$CH.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CH.name>>.png"></a>'
+		'</div>'
+		else
+		'<div class="charac_nps_list_foto">
+			<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$CH.name>>a.png"></a>'
+		'</div>'
+		end
             
-		 if $InvincibleBigVersion=999:
+		if $InvincibleBigVersion=999:
             if $RQ.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$RQ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$RQ.name>>'',''<<$RQ.love>>'',''<<$RQ.bad>>'',''<<$RQ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$RQ.name>>.png"></a>'
@@ -569,142 +566,152 @@ gs'menu_time_calc'
          end
          
 
-            if $LXS.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$LXS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LXS.name>>'',''<<$LXS.love>>'',''<<$LXS.bad>>'',''<<$LXS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LXS.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LXS.name>>a.png"></a>'
-            '</div>'
-            end
+		if $LXS.available=1:
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="<<$LXS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LXS.name>>'',''<<$LXS.love>>'',''<<$LXS.bad>>'',''<<$LXS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LXS.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LXS.name>>a.png"></a>'
+			'</div>'
+		end
             
-		 if $InvincibleBigVersion=999:
+		if $InvincibleBigVersion=999:
 			if $GS.available=1:
-			'<div class="charac_nps_list_foto">
-				<a class="photo" data-title="<<$GS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$GS.name>>'',''<<$GS.love>>'',''<<$GS.bad>>'',''<<$GS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$GS.name>>.png"></a>'
-			'</div>'
+				'<div class="charac_nps_list_foto">
+					<a class="photo" data-title="<<$GS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$GS.name>>'',''<<$GS.love>>'',''<<$GS.bad>>'',''<<$GS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$GS.name>>.png"></a>'
+				'</div>'
 			else
-			'<div class="charac_nps_list_foto">
-				<a class="photo" data-title="Not yet installed → The one on the right is also" ><img class="img_stretch" src="images\npc_l\<<$GS.name>>a.png"></a>'
-			'</div>'
+				'<div class="charac_nps_list_foto">
+					<a class="photo" data-title="Not yet installed → The one on the right is also" ><img class="img_stretch" src="images\npc_l\<<$GS.name>>a.png"></a>'
+				'</div>'
 			end
-			end
+		end
 			
-            if $SZ.available=1:
+        if $SZ.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$SZ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SZ.name>>'',''<<$SZ.love>>'',''<<$SZ.bad>>'',''<<$SZ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$SZ.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Not yet installed" ><img class="img_stretch" src="images\npc_l\<<$SZ.name>>a.png"></a>'
             '</div>'
-            end
+        end
 	
-	        if $CT.available=1:
+	    if $CT.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$CT.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CT.name>>'',''<<$CT.love>>'',''<<$CT.bad>>'',''<<$CT.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CT.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$CT.name>>a.png"></a>'
             '</div>'
-            end
+        end
 	
 	
-            if $JYB.available=1:
+        if $JYB.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$JYB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$JYB.name>>'',''<<$JYB.love>>'',''<<$JYB.bad>>'',''<<$JYB.bio>>''"><img class="img_stretch" src="images\npc_l\<<$JYB.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Not yet installed" ><img class="img_stretch" src="images\npc_l\<<$JYB.name>>a.png"></a>'
             '</div>'
-            end
+        end
 
             
 
             
-            if $CJ.available=1:
+        if $CJ.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$CJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CJ.name>>'',''<<$CJ.love>>'',''<<$CJ.bad>>'',''<<$CJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CJ.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$CJ.name>>a.png"></a>'
             '</div>'
-            end
+        end
             
 	
-            if $LB.available=1:
+         if $LB.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$LB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LB.name>>'',''<<$LB.love>>'',''<<$LB.bad>>'',''<<$LB.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LB.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LB.name>>a.png"></a>'
             '</div>'
-            end
+        end
             
-            if $XN.available=1:
+        if $XN.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$XN.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XN.name>>'',''<<$XN.love>>'',''<<$XN.bad>>'',''<<$XN.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XN.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$XN.name>>a.png"></a>'
             '</div>'
-            end
+        end
 			
-			if $LEI.available=1:
+		if $LEI.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$LEI.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LEI.name>>'',''<<$LEI.love>>'',''<<$LEI.bad>>'',''<<$LEI.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LEI.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$LEI.name>>a.png"></a>'
             '</div>'
-            end
+        end
             
-            if $QJ.available=1:
+        if $QJ.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$QJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$QJ.name>>'',''<<$QJ.love>>'',''<<$QJ.bad>>'',''<<$QJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$QJ.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$QJ.name>>a.png"></a>'
             '</div>'
-            end
+        end
             
-            if $YY.available=1:
+        if $YY.available=1:
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$YY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YY.name>>'',''<<$YY.love>>'',''<<$YY.bad>>'',''<<$YY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YY.name>>.png"></a>'
             '</div>'
-            else
+        else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$YY.name>>a.png"></a>'
             '</div>'
-            end
+        end
 			
-			if $HB.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$HB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HB.name>>'',''<<$HB.love>>'',''<<$HB.bad>>'',''<<$HB.bio>>''"><img class="img_stretch" src="images\npc_l\<<$HB.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="The next version and the rewritten<<$WH.name>>Launch together" ><img class="img_stretch" src="images\npc_l\<<$HB.name>>a.png"></a>'
-            '</div>'
-            end
-            
-            if $YA_dAPc.available=1:
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$YA_dAPc.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YA_dAPc.name>>'',''<<$YA_dAPc.love>>'',''<<$YA_dAPc.bad>>'',''<<$YA_dAPc.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YA_dAPc.name>>.png"></a>'
-            '</div>'
-            else
-            '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="It has not been installed yet, or it may not be done" ><img class="img_stretch" src="images\npc_l\<<$YA_dAPc.name>>a.png"></a>'
-            '</div>'
-			end
+		if $SWD.available=1:
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="<<$SWD.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SWD.name>>'',''<<$SWD.love>>'',''<<$SWD.bad>>'',''<<$SWD.bio>>''"><img class="img_stretch" src="images\npc_l\<<$SWD.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$SWD.name>>a.png"></a>'
+			'</div>'
+		end
+				
+		if $DY.available=1:
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="<<$DY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$DY.name>>'',''<<$DY.love>>'',''<<$DY.bad>>'',''<<$DY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$DY.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$DY.name>>a.png"></a>'
+			'</div>'
+		end
+				
+		if $YH.available=1:
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="<<$YH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YH.name>>'',''<<$YH.love>>'',''<<$YH.bad>>'',''<<$YH.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YH.name>>.png"></a>'
+			'</div>'
+		else
+			'<div class="charac_nps_list_foto">
+				<a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\<<$YH.name>>a.png"></a>'
+			'</div>'
+		end
 			
 	!'<div class="charac_nps_info">'
 

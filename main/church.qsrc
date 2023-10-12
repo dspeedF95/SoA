@@ -47,6 +47,7 @@ if $ARGS[0]="":
 		if $XN.trial=1:'<div class="buttonG1"><a href="exec:gt ''church'',''Trainee nun''"> Trainee nun</a></div>'
 		if $XN.trial=1:'<div class="buttonG2"><a href="exec:gt ''Nun_event'',''XN_Fuck_Female believer''"> ❐Female believers are "consecrated”</a></div>'
 		if $Mybishop=1:'<div class="buttonG4"><a href="exec:minutes+=15 & gt ''church'',''Bishop position''">Sit on the bishop`s seat</a></div>'
+        if $LEI.finally=1:'<div class="buttonG5"><a href="exec:minutes+=15 & gt ''church'',''Church wedding''">business:Church wedding</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''suburbs''">leave</a></div>'
 	'</div>'
 	
@@ -255,6 +256,7 @@ End
 if $args[0]="Confession room":
 	 Churchgrade=(Churchprestige/10)+1
 	 $Numberofconfessors=rand(1,Churchgrade)
+     if  $Numberofconfessors>=6: $Numberofconfessors=rand(1,6)
 		'<div class ="show_menu"><img src="images\NPC\XN\pics\忏悔室.jpg" width="854"></div>'
 		
         '<div class="button_menu">'
@@ -383,7 +385,24 @@ if $args[0]="Lei finally":
 End
 
 
+if $args[0]="Church wedding":
+    '<div class ="show_menu2"><img src="images\NPC\XN\pics\wed (<<rand(1,7)>>).jpg" height="492"></div>'
+   
+    '<div class="button_menu">'
+      '<div class="buttonS"><a href="exec: gt ''Nun_event'',''XN_Fuck_WED''">Take her to your room</a></div>'
+        '<div class="buttonGn3"><a href="exec: gt ''church''">leave</a></div>'
+        if $Bank_event_chainB>=8:'<div class="buttonG4"><a href="exec: gt ''Bank_event'',''YH_Fuck_B8''">㊕<<$YH.name>></a></div>'
+        if $WH.Weddingdress=1:'<div class="buttonG4"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hun''">㊕<<$WH.name>></a></div>'
+    '</div>'
 
+     '<div class="dialog_menu">'
+          '<p>Bride: Damn it... how could anyone be late for the wedding rehearsal!</p>'
+          '<p>Me: That`s contempt and blasphemy for sacred marriage…</p>'
+          '<p>Bride: Master Priest!You are really right!How can I punish him so that he can know his mistake?</p>'
+          '<p>Me: The deepest way to punish a person is...not to love him at all.</p>'
+          '<p>Bride: I see, Master Priest... why don`t you take advantage of him before he comes... you “punish” me first?Don`t look at me like this, I`m a bitch❤</p>'
+     '</div>'
+End
 
 --- church ---------------------------------
 

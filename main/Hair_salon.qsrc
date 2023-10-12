@@ -15,7 +15,7 @@ a=0 & q=0
 '</div>'
 
 if $ARGS[0] ="":
-	'<div class ="show_menu"><img src="images\place\美发店.jpg" width="854"></div>'
+	'<div class ="show_menu"><img src="images\place\美发店0.jpg" width="854"></div>'
 
 
 	'<div class="button_menu">'
@@ -33,7 +33,7 @@ if $ARGS[0] ="":
 end
 
 if $ARGS[0] ="Price list":
-	'<div class ="show_menu"><img src="images\place\美发店.jpg" width="854"></div>'
+	'<div class ="show_menu"><img src="images\place\美发店<<rand(2,3)>>.jpg" width="854"></div>'
 
 
 	'<div class="button_menu">'
@@ -57,7 +57,7 @@ if $ARGS[0] ="Price list":
 end
 
 if $ARGS[0] ="Recharge card":
-	'<div class ="show_menu"><img src="images\place\美发店.jpg" width="854"></div>'
+	'<div class ="show_menu"><img src="images\place\美发店1.jpg" width="854"></div>'
 
 
 	'<div class="button_menu">'

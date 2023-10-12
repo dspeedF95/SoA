@@ -4,7 +4,7 @@ cls
 '<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
 '<div class="charac_nps_info15">'
 		if year>=2024 and 999>=DatecountJun and DatecountJun>=15:
-		'攻略Strategy&Sponsor↓please useChrome, Firefox, EdgeWait for browser access</p>'
+			'↓Game release page↓ Please use Chrome, Firefox, Edge Wait for browser access</p>'
 			'<a href="https://airtable.com/shrTk6XoBuLuMlI3s"> https://airtable.com/shrTk6XoBuLuMlI3s</a></p>'
 		end
 

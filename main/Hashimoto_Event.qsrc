@@ -1043,6 +1043,7 @@ if $args[0]="Selection of jobs":
 			if $QB.Multifaceted>=15:'<div class="buttonG2"><a href="exec:gt ''Hashimoto_Event'',''Radio interview''">Radio interview</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
 			if $QB.Multifaceted>=20:'<div class="buttonG3"><a href="exec:gt ''Hashimoto_Event'',''Magazine shooting''">Magazine shooting</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
 			if $Agreetoanewperformance=1:'<div class="buttonPu4"><a href="exec:gt ''Group_performation_event'',''New new show''">Threesome tonight </a></div>'else'<div class="buttonGr"><a href="exec:">Not allowed</a></div>'
+            if $Stockings_event_chain=4:'<div class="buttonP"><a href="exec:gt ''Stockings_shop_event'',''Stockings endorsement''">Stockings endorsement </a></div>'
 			
       '</div>'
 

@@ -58,7 +58,9 @@ gs'menu_gif'
 		'<div class="action">'
 			if $LXS.available=1:'<a class="photo" data-title="<<$LXS.name>>" href="exec:$DialoguewithInternationalStudents=0 &  gt ''Study_abroad_Event'',''International student home''"><img class="img_stretch" src="images\NPC\ZL\pics\10.jpg"></a>'
 		'</div>'
-
+		'<div class="action">'
+			if $WH.available=1:'<a class="photo" data-title="<<$WH.name>>" href="exec:$Netcelebritydialogue=0 &  gt ''Net_celebrity_Event'',''Net celebrity home''"><img class="img_stretch" src="images\NPC\ZL\pics\11.jpg"></a>'
+		'</div>'
 			if my.basement>=1:'<div class="action"><a class="photo" data-title="Basement (remaining<<my.basement>>day)" href="exec:minutes+=5 & gt ''basement''"><img class="img_stretch" src="images\place\地下室.jpg"></a></div>'
 
 	'</div>'

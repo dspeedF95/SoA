@@ -1,0 +1,66 @@
+# Strategy_sponsorship3
+cls
+gs'menu_time_calc'
+
+
+
+'<div id="right-column">'
+	gs"Energy_judgment"
+	gs'menu_time'
+	gs'menu_status_show'
+	gs'menu_option_hidden'
+	gs "BUGProlapse"
+'</div>'
+
+
+if $ARGS[0]="":
+	'<div class ="show_menu"><img src="images\place\猫咪密码2.jpg" width="854"></div>'
+        
+    '<div class="button_menu">'
+		'<div class="buttonG3"><a href="#" onclick="checkCDK()">Enter the card password and bind it (Not In Eng version)</a></div>
+		<div id="cdkInput" style="display: none;">
+		  <input type="text" id="cdkValue">
+		  <button onclick="checkCDKResult()">Write-offCDK</button>
+		</div>
+         </div>'
+
+    '<div class="dialog_menu">'
+		'<p><a href="exec:gt ''Strategy_sponsorship3'',''V46''" style="display: none;">-Click to unlock the built-in strategy</a>
+		<p id="savedTime"></p>'
+        '<p><font color="#2E8B57">ask：CDKWhat can I get after unlocking?</p>'
+        '<p><font color="#FF6347">answer：V40Full roles before the versionPDFStrategy+V40Built-in strategy for the role of the queen+300Ten thousand games$+100Point to the upper limit of energy so that you can play easily</p>'
+        '<p><font color="#2E8B57">Question: Don`t you buy it?CDKYou can`t find a new character</p>'
+        '<p><font color="#FF6347">Answer: Of course not，CDKWhat is unlocked is the strategy, which is equivalent to real-time mission guidance.Whether you buy it or notCDKIt will not have any impact on the plot of the game.If you are a player who doesn`t want to read text dialogue messages, then buyCDKWould be a good idea.Admittedly, you can also think of it as pure sponsorship.</p>'
+        '<p><font color="#2E8B57">ask：CDKWhere can I buy it?</p>'
+	   '<p><font color="#FF6347">Answer:攻略StrategyCDK&Sponsor↓please useChrome, Firefox, EdgeWait for the browser to visit, thank you for your support</p>'
+	   '<a href="https://airtable.com/appNpyIFU5QyYahSk/shroZviKIDOKAuRh0"> https://airtable.com/appNpyIFU5QyYahSk/shroZviKIDOKAuRh0</a></p>'
+    '</div>'
+End
+
+
+if $ARGS[0]="V46":
+	 if $Strategyunlock<46:
+		$Strategyunlock=46
+		money+=3000000
+		mymax[energy]+=100
+	 end
+	'<div class ="show_menu"><img src="images\place\猫咪密码.jpg" width="854"></div>'
+        
+    '<div class="button_menu">'
+        '<div class="button"><a href="exec: gt $loc,$metka">Got it</a></div>'
+    '</div>'
+
+    '<div class="dialog_menu">'
+        '<p>·Thank you very much again for your generous sponsorship. Your support is a great incentive for me.</p>'
+        '<p>·Finally, I wish you a happy game and all the best in your life.</p>'
+        '<p>·V40beforePDFVersion strategy I put in your directory...\SOA\assets\...Hit it.</p>'
+        '<p>·The decompression password is：CPTBTPTPBCPTDTPTP</p>'
+        '<p>·I really can`t find it： https://gofile.io/d/qaN4EU I can only ask you to download it yourself</font></p>'
+        '<p><B><span class =''red''>Note: What you are usingCDKIt has been marked for use, and now you have unlocked the built-in strategy, and other rewards.Do not use otherCDKSo as not to causeCDKwaste.</p>'
+    '</div>'
+End
+
+
+
+
+--- Strategy_sponsorship3 ---------------------------------
