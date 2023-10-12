@@ -12,6 +12,7 @@
     <Location name="Bad_reviews"/>
     <Location name="Bad_room"/>
     <Location name="bank"/>
+    <Location name="Bank_event"/>
     <Location name="basement"/>
     <Location name="beddream"/>
     <Location name="begin"/>
@@ -182,6 +183,11 @@
     <Location name="Sperm_donation_room"/>
     <Location name="Stepmom_event"/>
     <Location name="Stepmothers_office"/>
+<<<<<<< Updated upstream:SOA_444.qproj
+=======
+    <Location name="Stockings_shop"/>
+    <Location name="Stockings_shop_event"/>
+>>>>>>> Stashed changes:SOA_466.qproj
     <Location name="Strategy_sponsorship"/>
     <Location name="Strategy_sponsorship2"/>
     <Location name="Student_Union"/>
