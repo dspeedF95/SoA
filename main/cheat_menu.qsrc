@@ -8,7 +8,7 @@ if $args[0] = 'test':
 	'<div class="button_menu">
 		<div class="button"><a href="exec: minutes+=30 & gt ''cheat_menu'',''True test''">Insist on entering</a></div>
 	</div>'
-	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
 		'<p>·This room is for programmers/The place to test the game is not where you, a player, should come!</p>'
@@ -35,7 +35,7 @@ if $args[0] = 'True test':
 		
 		'<div class="buttonG5"><a href="exec: minutes+=30 & gt ''cheat_menu'',''True test2''">Next</a></div>'
 	'</div>'
-	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
  		'<p>·Cheats are used at own risk. They might break the game (the light cheats here probably won`t).</p>'
@@ -62,7 +62,7 @@ if $args[0] = 'True test2':
 		'<div class="buttonG5"><a href="exec: minutes+=30 & gt ''cheat_menu'',''Woman cheat''">HEAVY CHEATS (probably game breaking)</a></div>'
 		'<div class="buttonG"><a href="exec: minutes+=30 & gt ''cheat_menu'',''True test''">Back</a></div>'
 	'</div>'
-	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
  		'<p>·Cheats are used at own risk. They might break the game (the light cheats here probably won`t).</p>'
@@ -101,7 +101,7 @@ if $args[0] = 'Convenience Store Easy':
 		end
 		
 	'</div>'
-	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
 	'<div class="dialog_menu">'
  		'<p>This cheat lets you keep profits and/or priase full. A combination of these 2 should let you experience all scene in the convenience store.</p>'
 	'</div>'
@@ -118,7 +118,7 @@ if $args[0] = 'Woman cheat':
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec: minutes+=30 & gt ''cheat_menu'', ''Woman cheat2'' ">Set Love/Depravity to 1000 (all chars)</a></div>'
 	'</div>'
-	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu"></div></a></div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
 		'<p>·	This will probably break everything, fair warning.	</p>'

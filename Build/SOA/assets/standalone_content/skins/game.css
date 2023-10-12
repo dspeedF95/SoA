@@ -2085,6 +2085,20 @@ overflow: hidden;
 float:left;
 background-image: url(../content/menu/back.png);
 }
+.settings_back_menu_cheat{
+position:absolute;
+    left:1000px;
+	top:550px;
+margin-left: 84px;
+margin-top: 4px;
+background:transparent;
+width:128px;
+height:128px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/back.png);
+}
 .settings_back_menu1{
 position:absolute;
     left:660px;
