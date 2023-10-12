@@ -20,7 +20,7 @@ if $args[0]="":
 		 '<video preload="metadata" autoplay loop height="480">
 		 <source src="images\NPC\SF\vids\SF说话0.webm" type=''video/webm;''></video></div>'
 	'</div>'
-	else:
+	else
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">
 		 <source src="images\NPC\SF\vids\SF说话1.webm" type=''video/webm;''></video></div>'
@@ -36,7 +36,7 @@ if $args[0]="":
 		 end
 		 if $SF.love>=25:
 			'<div class="button"><a href="exec:minutes+=45 & gt ''Young_woman_event'',''Go out with her''">Go out with her</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Go out with her</a></div>'
 		end
 
@@ -46,7 +46,7 @@ if $args[0]="":
 	'<div class="dialog_menu">'
 		if $SF.love<100:
 		'<p><<$SF.name>>:Sorry to disturb you.</p>'
-		else:
+		else
 		'<p><<$SF.name>>:Let`s ignore that idiot.</p>'
 		end
 		if act_Dissatisfied=1:
@@ -95,10 +95,10 @@ if $args[0]="Go to dinner":
 	'</div>'
 
 	'<div class="button_menu">'
-		if a!1 :
+		if a!1:
 		'<div class="button"><a href="exec:a=1 & gt ''Young_woman_event'',''Go to dinner'',''吃饭''">chat</a></div>'
 		end
-		if a!2 :
+		if a!2:
 		'<div class="button"><a href="exec:a=2 & gt ''Young_woman_event'',''Go to dinner'',''喝酒''">Cheers</a></div>'
 		end
 		if a!3 and $SF.love>=40:
@@ -107,7 +107,7 @@ if $args[0]="Go to dinner":
 		if a!4 and $SF_Event_gold=10:
 		'<div class="buttonS"><a href="exec:a=0 &q=0& gt ''Young_woman_event'',''SF_Fuck_Toilet conception''">Go to the toilet</a></div>'
 		end
-		if a!5 :
+		if a!5:
 		'<div class="button"><a href="exec:a=5 &$SF.love+=rand(1,5) & gt ''hospital''">end</a></div>'
 		end
 	'</div>'
@@ -189,7 +189,7 @@ if $args[0]="SF_Fuck_Toilet conception":
 
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Kiss goodbye</a></div>'
 			'</div>'
@@ -203,13 +203,13 @@ if $args[0]="SF_Fuck_Toilet conception":
 
 
 
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$SF.name>>: <<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 8>=a and a>=4 :
+	if 8>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$SF.name>>: <<$words>></p>'
 		 '</div>'
@@ -311,11 +311,11 @@ if $args[0]="SF_Fuck_Ward conception":
 			'<div class="button"><a href="exec:a=12 & gt ''Young_woman_event'',''SF_Fuck_Ward conception''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if medicine=1:
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_drug_test''">Kiss goodbye</a></div>'
-				else:
+				else
 				'<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">Kiss goodbye</a></div>'
 				end
 			'</div>'
@@ -324,14 +324,14 @@ if $args[0]="SF_Fuck_Ward conception":
 
 
 
-	if 6>=a and a>=0 :
+	if 6>=a and a>=0:
 		 '<div class="dialog_menu">'
 			 if  medicine=1:'<p><<$SF.name>>: I saw your name, so I came to see you.Do you miss me?</p>'
 			 '<p><<$SF.name>>: <<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 11>=a and a>=7 :
+	if 11>=a and a>=7:
 		 '<div class="dialog_menu">'
 			 '<p><<$SF.name>>: <<$words>></p>'
 		 '</div>'
@@ -360,7 +360,7 @@ if $args[0]="Go to her house":
 			'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 &a=0&q=0& gt ''Young_woman_event'',''SF_Fuck_home''">It`s okay, it doesn`t matter to me</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
@@ -417,33 +417,33 @@ if $args[0]="SF_Fuck_home":
 			if a!4 and 2<q and q<8:
 			'<div class="button"><a href="exec:a=4 & gt ''Young_woman_event'',''SF_Fuck_home''">Back in</a></div>'
 			end
-			if a!5 and 4<q and q<10 :
+			if a!5 and 4<q and q<10:
 			'<div class="button"><a href="exec:a=5 & gt ''Young_woman_event'',''SF_Fuck_home''">sprint</a></div>'
 			end
 			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Young_woman_event'',''SF_Fuck_home''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">leave</a></div>'
 			'</div>'
 	end
 
-	if a=0 :
+	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$SF.name>>: He won`t wake up, let`s do it here in front of my husband!</p>'
 		 '</div>'
 	end
 
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p> She threw you down and performed oral sex hard, ignoring her sleeping husband on the side.</p>'
 		 '</div>'
 	end
 
-	if 5>=a and a>=2 :
+	if 5>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$SF.name>>: <<$words>></p>'
 		 '</div>'
@@ -506,7 +506,7 @@ if $args[0]="SF_Fuck_basement":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Big_villa''">rest</a></div>'
             '</div>'
@@ -547,8 +547,8 @@ if $args[0]="Work shooting":
 	'<div class="button_menu">'
 		if $times_of_day='':'<div class="buttonS1"><a href="exec:minutes+=105 & gt ''Young_woman_event'',''Work shooting''">Be patient</a></div>'
 		'<div class="buttonS2"><a href="exec:gt ''Young_woman_event'',''SF_Fuck_Toilet conception''">Go to the toilet and have a shot</a></div>'
-		if $SF.Multifaceted>=15:'<div class="buttonS3"><a href="exec:gt ''Young_woman_event'',''SF_Fuck_seaside''">Go to the beach to shoot</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
-		if $times_of_day!'':'<div class="buttonS4"><a href="exec:gt ''Young_woman_event'',''SF_Fuck_Valentine`s Day''">Mysterious surprise</a></div>'else:'<div class="buttonGr"><a href="exec:">Shooting is not over</a></div>'
+		if $SF.Multifaceted>=15:'<div class="buttonS3"><a href="exec:gt ''Young_woman_event'',''SF_Fuck_seaside''">Go to the beach to shoot</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
+		if $times_of_day!'':'<div class="buttonS4"><a href="exec:gt ''Young_woman_event'',''SF_Fuck_Valentine`s Day''">Mysterious surprise</a></div>'else'<div class="buttonGr"><a href="exec:">Shooting is not over</a></div>'
 	'</div>'
 
 
@@ -600,7 +600,7 @@ if $args[0]="SF_Fuck_Valentine`s Day":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:my.energy=0 & gt ''Young_woman_event'',''SF_Fuck_Valentine`s Day''">The next day</a></div>'
             '</div>'
@@ -615,7 +615,7 @@ if $args[0]="SF_Fuck_Valentine`s Day":
 
 
 
-    if 2>=a and a>=1 :
+    if 2>=a and a>=1:
          '<div class="dialog_menu">'
              '<p>I:Close your eyes!I said you can only open it if you open it!3,2,1…</p>'
              '<p><<$SF.name>>:Wow!！？Oh my god, this is so beautiful!</p>'
@@ -623,7 +623,7 @@ if $args[0]="SF_Fuck_Valentine`s Day":
          '</div>'
     end
 
-    if 4>=a and a>=3 :
+    if 4>=a and a>=3:
          '<div class="dialog_menu">'
              '<p><<$SF.name>>: Valentine`s Day?Valentine`s Day is not today, is it?</p>'
              '<p>I:Aren`t you my lover?With you by my side... I want to spoil you every day as a holiday.</p>'
@@ -631,7 +631,7 @@ if $args[0]="SF_Fuck_Valentine`s Day":
          '</div>'
     end
 
-    if 9>=a and a>=5 :
+    if 9>=a and a>=5:
          '<div class="dialog_menu">'
              '<p>I:Do you love me?</p>'
              '<p><<$SF.name>>: love<<$Panting>></p>'
@@ -688,7 +688,7 @@ if $args[0]="SF_Fuck_Night attack":
             '<div class="buttonS5"><a href="exec:a=9 & gt ''Young_woman_event'',''SF_Fuck_Night attack''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu2"><a href="exec:my.energy=0 & gt ''Young_woman_event'',''SF_Fuck_Night attack''">Good night</a></div>'
             '</div>'
@@ -703,7 +703,7 @@ if $args[0]="SF_Fuck_Night attack":
 
 
 
-    if 8>=a and a>=1 :
+    if 8>=a and a>=1:
          '<div class="dialog_menu">'
              '<p>I: Did you miss me?</p>'
              '<p><<$SF.name>>: I miss you every day<<$Panting>></p>'
@@ -755,14 +755,14 @@ if $args[0]="SF_Fuck_Have a shot":
             '<div class="buttonP"><a href="exec:a=7 & gt ''Young_woman_event'',''SF_Fuck_Have a shot''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=4 & gt ''Young_woman_event'',''SF_Fuck_Have a shot''">Keep plugging in</a></div>'
                 '<div class="button"><a href="exec:gt ''Big_villa'',''Master bedroom''">Go back to the room</a></div>'
             '</div>'
     end
 
-    if 6>=a and a>=0 :
+    if 6>=a and a>=0:
          '<div class="dialog_menu">'
              '<p><<$SF.name>>:Want to do it?Me too... don`t worry... I will make you comfortable.</p>'
              if a>=1:'<p>I: Your figure is really getting better and better…</p>'
@@ -820,7 +820,7 @@ if $args[0]="SF_Fuck_Uninvited guest":
             '<div class="button"><a href="exec:a=9 & gt ''Young_woman_event'',''SF_Fuck_Uninvited guest''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Big_villa''">leave</a></div>'
             '</div>'
@@ -847,7 +847,7 @@ if $args[0]="SF_Fuck_Uninvited guest":
          '</div>'
     end
 
-    if 4>=a and a>=2 :
+    if 4>=a and a>=2:
          '<div class="dialog_menu">'
              '<p>Lu Maonan:Damn it?！Now you don`t even scream a few times, you`d better feel pregnant for Lao Tzu!Let`s divide more inheritance!</p>'
              '<p><<$SF.name>>: …………</p>'
@@ -857,7 +857,7 @@ if $args[0]="SF_Fuck_Uninvited guest":
 
 
 
-    if 8>=a and a>=5 :
+    if 8>=a and a>=5:
          '<div class="dialog_menu">'
              '<p>I: Guess who I am?</p>'
              '<p><<$SF.name>>: <<$Panting>></p>'
@@ -921,7 +921,7 @@ if $args[0]="SF_Fuck_seaside":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Residential_area''">Go back to shooting</a></div>'
             '</div>'
@@ -935,14 +935,14 @@ if $args[0]="SF_Fuck_seaside":
 
 
 
-    if a=1 :
+    if a=1:
          '<div class="dialog_menu">'
              '<p><<$SF.name>>:Wow!The sea!Blue sky!I like it so much!</p>'
              '<p>I:If you like it, I will often bring you here in the future.</p>'
          '</div>'
     end
 
-    if 9>=a and a>=2 :
+    if 9>=a and a>=2:
          '<div class="dialog_menu">'
              '<p><<$SF.name>>: Then you have to do it!Don`t lie to me!</p>'
              '<p>I: of course.</p>'

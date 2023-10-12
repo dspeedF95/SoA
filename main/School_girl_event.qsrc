@@ -45,8 +45,8 @@ if $args[0]="Through the corridor":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:gt ''School_girl_event'',''XM_Fuck_home1''">Go with her</a></div>'
-		if $XM.bad>=50:'<div class="buttonS2"><a href="exec:gt ''School_girl_event'',''XM_Fuck_Health room''">Go to the health room</a></div>'else:'<div class="buttonGr"><a href="exec:">go?？❤</a></div>'
-		if $XM.love>=150 and $XM.bad>=150:'<div class="buttonS3"><a href="exec: gt ''School_girl_event'',''XM_Fuck_Hot spring''">❤Go to the hot spring❤</a></div>'else:'<div class="buttonGr"><a href="exec:">go?？？❤</a></div>'
+		if $XM.bad>=50:'<div class="buttonS2"><a href="exec:gt ''School_girl_event'',''XM_Fuck_Health room''">Go to the health room</a></div>'else'<div class="buttonGr"><a href="exec:">go?？❤</a></div>'
+		if $XM.love>=150 and $XM.bad>=150:'<div class="buttonS3"><a href="exec: gt ''School_girl_event'',''XM_Fuck_Hot spring''">❤Go to the hot spring❤</a></div>'else'<div class="buttonGr"><a href="exec:">go?？？❤</a></div>'
 		'<div class="button"><a href="exec:gt ''university''">Get rid of her</a></div>'
 	'</div>'
 
@@ -57,7 +57,7 @@ if $args[0]="Through the corridor":
 		'<p><<$XM.name>>: Less long-winded!Follow me!</p>'
 		'<p>I: Wait a minute?</p>'
 		'<p><<$XM.name>>: Come here!</p>'
-		else:
+		else
 		'<p><<$XM.name>>: Baby, where do you want to go?Pretend you didn`t see me?！</p>'
 		'<p>I: Why are you looking for me?</p>'
 		'<p><<$XM.name>>: Aren`t you okay too!Come with me to a fun place!</p>'
@@ -75,7 +75,7 @@ if $args[0]="XM_Fuck_home1":
 		'<div class="button_menu">'
 			if a=0:
 			'<div class="buttonS1"><a href="exec:a=1 & gt ''School_girl_event'',''XM_Fuck_home1''">Sex practice </a></div>'
-			if $XM.bad>=150-$XM.LOVE:'<div class="buttonR3"><a href="exec:a=1 & gt ''School_girl_event'',''XM_Fuck_home2''">Sex exam </a></div>'else:'<div class="buttonGr"><a href="exec:">？？exam </a></div>'
+			if $XM.bad>=150-$XM.LOVE:'<div class="buttonR3"><a href="exec:a=1 & gt ''School_girl_event'',''XM_Fuck_home2''">Sex exam </a></div>'else'<div class="buttonGr"><a href="exec:">？？exam </a></div>'
 			'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">refuse</a></div>'
 			end
 			if a=1:
@@ -91,7 +91,7 @@ if $args[0]="XM_Fuck_home1":
 			'<div class="buttonS2"><a href="exec:a=5 & gt ''School_girl_event'',''XM_Fuck_home1''">Touch each other </a></div>'
 			end
 			if a=5:
-				if $XM.bad>=10:'<div class="buttonS3"><a href="exec:a=6 & gt ''School_girl_event'',''XM_Fuck_home1''">Try oral sex </a></div>'else:'<div class="buttonGr"><a href="exec:">Try oral sex </a></div>'
+				if $XM.bad>=10:'<div class="buttonS3"><a href="exec:a=6 & gt ''School_girl_event'',''XM_Fuck_home1''">Try oral sex </a></div>'else'<div class="buttonGr"><a href="exec:">Try oral sex </a></div>'
 				if $XM.bad<10:'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">That`s it</a></div>'
 			end
 			if a=6:
@@ -101,7 +101,7 @@ if $args[0]="XM_Fuck_home1":
 			'<div class="button"><a href="exec:a=8 & gt ''School_girl_event'',''XM_Fuck_home1''">dialogue </a></div>'
 			end
 			if a=8:
-				if $XM.bad>=20:'<div class="buttonS3"><a href="exec:a=9 & gt ''School_girl_event'',''XM_Fuck_home1''">Try to insert </a></div>'else:'<div class="buttonGr"><a href="exec:">Try to insert </a></div>'
+				if $XM.bad>=20:'<div class="buttonS3"><a href="exec:a=9 & gt ''School_girl_event'',''XM_Fuck_home1''">Try to insert </a></div>'else'<div class="buttonGr"><a href="exec:">Try to insert </a></div>'
 				if $XM.bad<20:'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">That`s it</a></div>'
 			end
 			if a=9 or a=11:
@@ -114,13 +114,13 @@ if $args[0]="XM_Fuck_home1":
 			'<div class="buttonR4"><a href="exec:a=12 & gt ''School_girl_event'',''XM_Fuck_home1''">Internal injection </a></div>'
 			end
 			if a=12:
-			if $XM.bad>=50:'<div class="buttonR4"><a href="exec:a=13 & gt ''School_girl_event'',''XM_Fuck_home1''">Teach her a lesson </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
+			if $XM.bad>=50:'<div class="buttonR4"><a href="exec:a=13 & gt ''School_girl_event'',''XM_Fuck_home1''">Teach her a lesson </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
 			if $XM.bad<50:'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">That`s it</a></div>'
 			end
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -214,7 +214,7 @@ if $args[0]="XM_Fuck_Health room":
 	
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -296,7 +296,7 @@ if $args[0]="XM_Fuck_home2":
 	
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -394,7 +394,7 @@ if $args[0]="XM_Fuck_library":
 	
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -504,7 +504,7 @@ if $args[0]="XM_Fuck_Hot spring":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''School_girl_event'',''Have dinner together''">Have dinner together</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
@@ -561,7 +561,7 @@ if $args[0]="Have dinner together":
 		'</div>'
 
 	'<div class="button_menu">'
-		if MGF>0 and Essential_oil>0:'<div class="buttonS"><a href="exec:MGF-=1 & Essential_oil-=1 & gt ''School_girl_event'',''XM_Fuck_massage''">Erotic massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Erotic massage</a></div>'
+		if MGF>0 and Essential_oil>0:'<div class="buttonS"><a href="exec:MGF-=1 & Essential_oil-=1 & gt ''School_girl_event'',''XM_Fuck_massage''">Erotic massage</a></div>'else'<div class="buttonGr"><a href="exec:">Erotic massage</a></div>'
 		'<div class="buttonGn"><a href="exec:gt ''School_girl_event'',''overnight''">Overnight rest</a></div>'
 	'</div>'
 
@@ -601,7 +601,7 @@ if $args[0]="The next day":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''university''">Go to school together</a></div>'
-		if Porsche=1:'<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''School_girl_event'',''XM_Fuck_car''">Drive her</a></div>'else:'<div class="buttonGr"><a href="exec:">It`s not okay without a car</a></div>'
+		if Porsche=1:'<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''School_girl_event'',''XM_Fuck_car''">Drive her</a></div>'else'<div class="buttonGr"><a href="exec:">It`s not okay without a car</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -636,7 +636,7 @@ if $args[0]="XM_Fuck_massage":
 			if a!6 and 5<=q and q<=8:
 			'<div class="buttonS3"><a href="exec:a=6 & gt ''School_girl_event'',''XM_Fuck_massage''">Move by yourself </a></div>'
 			end
-			if a!7 and 6<=q :
+			if a!7 and 6<=q:
 			'<div class="buttonS3"><a href="exec:a=7 & gt ''School_girl_event'',''XM_Fuck_massage''">Vigorously pump</a></div>'
 			end
 			if a=7:
@@ -648,7 +648,7 @@ if $args[0]="XM_Fuck_massage":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0 & gt ''School_girl_event'',''overnight''">Overnight rest</a></div>'
 			'</div>'
@@ -678,7 +678,7 @@ if $args[0]="XM_Fuck_massage":
 		 '<div class="dialog_menu">'
 		 	'<p><<$XM.name>>: <<$Panting2>></p>'
 		 	if a>=5:'<p><<$XM.name>>: <<$words>></p>'
-		 	if a=8:'<p>？？？: Harder...fast…</p>' & $WQ.bad+=1
+		 	if a=8:'<p>???: Harder...fast…</p>' & $WQ.bad+=1
 		 '</div>'
 	end
 
@@ -728,7 +728,7 @@ if $args[0]="XM_Fuck_interview":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonGn"><a href="exec:$XM.JOB=1 & gt ''TV_station''">Hint through</a></div>'
 				'<div class="buttonR4"><a href="exec:$XM.JOB=0 & gt ''TV_station''">One vote rejected</a></div>'
@@ -763,7 +763,7 @@ if $args[0]="XM_Fuck_Visiting class2":
 			if a!2 and 1<=q and q<=4:
 			'<div class="buttonS1"><a href="exec:a=2 & gt ''School_girl_event'',''XM_Fuck_Visiting class2''">Stretching exercise </a></div>'
 			end
-			if a!3 and 2<=q :
+			if a!3 and 2<=q:
 			'<div class="buttonS1"><a href="exec:a=3 & gt ''School_girl_event'',''XM_Fuck_Visiting class2''">Buttocks tightened </a></div>'
 			end
 			if a=3:
@@ -785,10 +785,10 @@ if $args[0]="XM_Fuck_Visiting class2":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonGn"><a href="exec:gt ''TV_station''">leave</a></div>'
-				if Porsche=1:'<div class="buttonGn"><a href="exec:a=0 & q=0 &  gt ''School_girl_event'',''XM_Fuck_car''">Drive her</a></div>'else:'<div class="buttonGr"><a href="exec:">I don`t have a car</a></div>'
+				if Porsche=1:'<div class="buttonGn"><a href="exec:a=0 & q=0 &  gt ''School_girl_event'',''XM_Fuck_car''">Drive her</a></div>'else'<div class="buttonGr"><a href="exec:">I don`t have a car</a></div>'
 			'</div>'
 	end
 
@@ -836,10 +836,10 @@ if $args[0]="XM_Fuck_Visiting class":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonGn"><a href="exec:gt ''TV_station''">Don`t watch it anymore</a></div>'
-				if Porsche=1:'<div class="buttonGn"><a href="exec:a=0 & q=0 &  gt ''School_girl_event'',''XM_Fuck_car''">Drive her</a></div>'else:'<div class="buttonGr"><a href="exec:">I don`t have a car</a></div>'
+				if Porsche=1:'<div class="buttonGn"><a href="exec:a=0 & q=0 &  gt ''School_girl_event'',''XM_Fuck_car''">Drive her</a></div>'else'<div class="buttonGr"><a href="exec:">I don`t have a car</a></div>'
 			'</div>'
 	end
 
@@ -894,7 +894,7 @@ if $args[0]="XM_Fuck_car":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonGn"><a href="exec:gt ''university''">leave</a></div>'
 			'</div>'
@@ -947,7 +947,7 @@ if $args[0]="Familiar figure":
 
 	'<div class="dialog_menu">'
 		'<p><<$XM.name>>: ……</p>'
-		'<p>？？？: Let`s go, I have booked the hotel</p>'
+		'<p>???: Let`s go, I have booked the hotel</p>'
 		'<p><<$XM.name>>: ...hmm…</p>'
 		'<p>(I: …...what`s going on?It seems that I have to find someone to follow her... Who is good at concealed reconnaissance and secret operations...)</p>'
 		if XMVideotape=0:XMVideotape=1
@@ -962,9 +962,9 @@ if $args[0] = 'Tape selection':
 
 	 '<div class="button_menu">'
 
-		if XMVideotape>=2 :'<div class="buttonR1"><a href="exec: a=0 &gt ''School_girl_event'',''XM_Fuck_Video2''">Volume ① Video recording</a></div>'
-		if XMVideotape>=3 :'<div class="buttonR2"><a href="exec: a=0 &gt ''School_girl_event'',''XM_Fuck_Video3''">Volume 2 Video recording</a></div>'
-		if XMVideotape>=4 :'<div class="buttonR3"><a href="exec: a=0 &gt ''School_girl_event'',''XM_Fuck_Video4''">Volume 3 Video recording</a></div>'
+		if XMVideotape>=2:'<div class="buttonR1"><a href="exec: a=0 &gt ''School_girl_event'',''XM_Fuck_Video2''">Volume ① Video recording</a></div>'
+		if XMVideotape>=3:'<div class="buttonR2"><a href="exec: a=0 &gt ''School_girl_event'',''XM_Fuck_Video3''">Volume 2 Video recording</a></div>'
+		if XMVideotape>=4:'<div class="buttonR3"><a href="exec: a=0 &gt ''School_girl_event'',''XM_Fuck_Video4''">Volume 3 Video recording</a></div>'
 		'<div class="button"><a href="exec: minutes+=30 & a=0 &gt ''Home_computer''">close</a></div>'
 	'</div>'
 
@@ -986,7 +986,7 @@ if $args[0]="XM_Fuck_Video2":
 			if a!0:'<div class="buttonGn"><a href="exec:a-=1 & gt ''School_girl_event'',''XM_Fuck_Video2''">后退后退后退Back </a></div>'
 			'<div class="buttonGn"><a href="exec:gt ''Home_computer''">close</a></div>'
 		'</div>'
-	else:
+	else
 		'<div class="button_menu">'
 			'<div class="buttonGn"><a href="exec:gt ''Home_computer''">close</a></div>'
 		'</div>'
@@ -995,28 +995,28 @@ if $args[0]="XM_Fuck_Video2":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>？？？: Did you enter the TV station through the back door?I read your interview transcript, and I obviously failed, but I was admitted in the end. It`s weird.…</p>'
+			 '<p>???: Did you enter the TV station through the back door?I read your interview transcript, and I obviously failed, but I was admitted in the end. It`s weird.…</p>'
 		 '</div>'
 	end
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>？？？: If this matter is made public... guess what will happen?</p>'
+			 '<p>???: If this matter is made public... guess what will happen?</p>'
 		 '</div>'
 	end
 
 	if 8>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: <<$Panting2>></p>'
-			 if a>=3:'<p>？？？: It`s not just you, whoever you go through the back door will also be screwed!</p>'
-			 if a>=5:'<p>？？？: Tonight, let me walk through your back door!Hahahaha!</p>'
+			 if a>=3:'<p>???: It`s not just you, whoever you go through the back door will also be screwed!</p>'
+			 if a>=5:'<p>???: Tonight, let me walk through your back door!Hahahaha!</p>'
 		 '</div>'
 	end
 
 	if a=9:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: You promised last time that you would destroy my interview transcript...!</p>'
-			 '<p>？？？: Interview transcripts are not easy to find, let`s see you next time, baby!</p>'
+			 '<p>???: Interview transcripts are not easy to find, let`s see you next time, baby!</p>'
 		 '</div>'
 	end
 
@@ -1035,7 +1035,7 @@ if $args[0]="XM_Fuck_Video3":
 			if a!0:'<div class="buttonGn"><a href="exec:a-=1 & gt ''School_girl_event'',''XM_Fuck_Video3''">后退后退后退Back </a></div>'
 			'<div class="button"><a href="exec:gt ''Home_computer''">close</a></div>'
 		'</div>'
-	else:
+	else
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:gt ''Home_computer''">close</a></div>'
 		'</div>'
@@ -1044,33 +1044,33 @@ if $args[0]="XM_Fuck_Video3":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>:  Who is he again…?You promised last time that you would destroy my interview transcript...!</p>'
-			 '<p>？？？: Unfortunately!You cheated in the interview... he also discovered it!Alas!What do you say!</p>'
+			 '<p>???: Unfortunately!You cheated in the interview... he also discovered it!Alas!What do you say!</p>'
 		 '</div>'
 	end
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>？？？: Little girl, don`t be afraid, as long as my brother is comfortable, he won`t be able to remember anything!</p>'
+			 '<p>???: Little girl, don`t be afraid, as long as my brother is comfortable, he won`t be able to remember anything!</p>'
 		 '</div>'
 	end
 
 	if 8>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: <<$Panting2>></p>'
-			 '<p>？？？: Those who come to apply for this kind of host, one counts as a slut!Don`t pretend to be pure for me!</p>'
-			 if a>=3:'<p>？？？: You actually want it in your heart!Hahahaha!</p>'
-			 if a>=4:'<p>？？？: Hey hey hey!It`s time to change me!How long will you have to fuck?</p>'
-			 if a>=5:'<p>？？？: What`s the hurry?Are you still afraid that this bitch will be fucked by me?Hahahaha!</p>'
+			 '<p>???: Those who come to apply for this kind of host, one counts as a slut!Don`t pretend to be pure for me!</p>'
+			 if a>=3:'<p>???: You actually want it in your heart!Hahahaha!</p>'
+			 if a>=4:'<p>???: Hey hey hey!It`s time to change me!How long will you have to fuck?</p>'
+			 if a>=5:'<p>???: What`s the hurry?Are you still afraid that this bitch will be fucked by me?Hahahaha!</p>'
 			 if a>=6:'<p><<$XM.name>>: <<$words>></p>'
-			 if a>=7:'<p>？？？: Hahahaha!Look what I said?！Your nature is exposed!Sao forced!</p>'
+			 if a>=7:'<p>???: Hahahaha!Look what I said?！Your nature is exposed!Sao forced!</p>'
 		 '</div>'
 	end
 
 	if a=9:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: <<$words>></p>'
-			 '<p>？？？: Hahahaha!You got all the semen out!It`s disgusting!</p>'
-			 '<p>？？？: Next time we call Lao Wang, he shouldn`t have had meat for a long time!</p>'
+			 '<p>???: Hahahaha!You got all the semen out!It`s disgusting!</p>'
+			 '<p>???: Next time we call Lao Wang, he shouldn`t have had meat for a long time!</p>'
 		 '</div>'
 	end
 
@@ -1089,7 +1089,7 @@ if $args[0]="XM_Fuck_Video4":
 			if a!0:'<div class="buttonGn"><a href="exec:a-=1 & gt ''School_girl_event'',''XM_Fuck_Video4''">后退后退后退Back </a></div>'
 			'<div class="button"><a href="exec:gt ''Home_computer''">close</a></div>'
 		'</div>'
-	else:
+	else
 		'<div class="button_menu">'
 			'<div class="buttonGr"><a href="exec:">Future plot?</a></div>'
 			'<div class="button"><a href="exec:gt ''Home_computer''">close</a></div>'
@@ -1100,7 +1100,7 @@ if $args[0]="XM_Fuck_Video4":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>:Why are there so many people……</p>'
-			 '<p>？？？: Ahhhhhhhh!The fraud in your interview... they all found out too!You should know what to use to block their mouths, right?</p>'
+			 '<p>???: Ahhhhhhhh!The fraud in your interview... they all found out too!You should know what to use to block their mouths, right?</p>'
 		 '</div>'
 	end
 
@@ -1108,24 +1108,24 @@ if $args[0]="XM_Fuck_Video4":
 	if 6>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: <<$Panting2>></p>'
-			 '<p>？？？: Hey hey hey!Why did it get wet as soon as it came up?Xiaolang goods!</p>'
-			 if a>=3:'<p>？？？: It`s going to be shot!</p>'
-			 if a>=4:'<p>？？？: You are so rubbish, come and lick it for me!</p>'
-			 if a>=5:'<p>？？？: Fuck, I`m going to shoot too!</p>'
-			 if a>=6:'<p>？？？: Hahaha!There is another one here, come here!</p>'
+			 '<p>???: Hey hey hey!Why did it get wet as soon as it came up?Xiaolang goods!</p>'
+			 if a>=3:'<p>???: It`s going to be shot!</p>'
+			 if a>=4:'<p>???: You are so rubbish, come and lick it for me!</p>'
+			 if a>=5:'<p>???: Fuck, I`m going to shoot too!</p>'
+			 if a>=6:'<p>???: Hahaha!There is another one here, come here!</p>'
 		 '</div>'
 	end
 
 	if 13>=a and a>=7:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: <<$words>></p>'
-			 if a=7:'<p>？？？: Fuck?！Is the show so tight?！</p>'
-			 if a=8:'<p>？？？: Looking at this slut, I`m already confused!</p>'
-			 if a>=9:'<p>？？？: Ah ah ah ah is going to shoot!</p>'
-			 if a>=10:'<p>？？？: Catch this one for me!！</p>'
-			 if a>=11:'<p>？？？: You got all the semen out!It`s disgusting!</p>'
-			 if a>=12:'<p>？？？: Such a stinky semen-stained force you to insert it too?Aren`t you more disgusting?*Laugh out loud</p>'
-			 if a>=13:'<p>？？？: Let me clean it up for everyone, damn it, a lot of it is overflowing!</p>'
+			 if a=7:'<p>???: Fuck?！Is the show so tight?！</p>'
+			 if a=8:'<p>???: Looking at this slut, I`m already confused!</p>'
+			 if a>=9:'<p>???: Ah ah ah ah is going to shoot!</p>'
+			 if a>=10:'<p>???: Catch this one for me!！</p>'
+			 if a>=11:'<p>???: You got all the semen out!It`s disgusting!</p>'
+			 if a>=12:'<p>???: Such a stinky semen-stained force you to insert it too?Aren`t you more disgusting?*Laugh out loud</p>'
+			 if a>=13:'<p>???: Let me clean it up for everyone, damn it, a lot of it is overflowing!</p>'
 
 		 '</div>'
 	end

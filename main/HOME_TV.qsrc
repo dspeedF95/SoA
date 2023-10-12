@@ -44,7 +44,7 @@ if 0<=hour and hour<3:
 		'</div>'
 end
 if 3<=hour and hour<=6:
-		if $Paidprogrampre=2 :
+		if $Paidprogrampre=2:
 		$program='"National Contribution-I want to be on TV"'
 		$Programevaluation='You only need to be willing to spend money to support the video，MVOn demand, want your video to appear on TV? Anything is fine!'
 		$Paidcontent=1
@@ -60,7 +60,7 @@ if 3<=hour and hour<=6:
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\videos\news\TV\付费频道<<Paidchannelsnum>>.webm" type=''video/webm;''></video></div>'
 		'</div>'
-		else:
+		else
 		$program='No program yet'
 		$Programevaluation='I don`t know what good shows will be in the future…'
 		'<div class="show_menu">'
@@ -120,7 +120,7 @@ if 12<hour and hour<15:
 				 '<video preload="metadata" autoplay loop height="480">
 				 <source src="images\videos\news\TV\电台节目0.webm" type=''video/webm;''></video></div>'
 			'</div>'
-		else:
+		else
 			$program='Focus on the WorldCup'
 			$Programevaluation='Quadrennial Cloud Fan Carnival Day…'
 			'<div class ="show_menu"><img src="images\NPC\QB\pics\世界杯0.jpg" width="854"></div>'
@@ -143,7 +143,7 @@ if 15<=hour and hour<=18:
 		Cartoonnum+=1
 		if $Cartoonfront=3:
 			if Cartoonnum=8:Cartoonnum=4
-		else:
+		else
 			if Cartoonnum=2:Cartoonnum=0
 		end
 end
@@ -165,7 +165,7 @@ end
 if 20<hour and hour<=22:
 		$program='Special drama'
 		$Programevaluation='It`s this routine for special dramas to be filmed and filmed... I`m tired of watching it.……'
-		if  $Specialcamerafront=4 :
+		if  $Specialcamerafront=4:
 			$program='"Like to help recharge the Heroine"'
 			$Programevaluation='Excuse me?The heroine was actually knocked down?There must be a reversal in this play!Go after it and have a look!'
 			Specialdramanum+=2
@@ -176,7 +176,7 @@ if 20<hour and hour<=22:
 			 <source src="images\videos\news\TV\特摄片<<Specialdramanum>>.webm" type=''video/webm;''></video></div>'
 		'</div>'
 end
-if 22<hour :
+if 22<hour:
 		$program='Reading program'
 		$Programevaluation='It deserves to be a show that supports late-night shows…'
 		Readingprogramnum=1
@@ -196,7 +196,7 @@ end
 		if Fightingshow<6:'<div class="buttonR2"><a href="exec:gt ''Group_performation_event'',''Fighting gameshow''">Match chart</a></div>'
 		if Fightingshow=6:'<div class="buttonR3"><a href="exec:gt ''Group_performation_event'',''Fighting gameshow_Finals''">Finals</a></div>'
 	end
-	if $Programlist=0:'<div class="button"><a href="exec:$Programlist=1 & gt ''HOME_TV''">Open the Programlist</a></div>'else:'<div class="button"><a href="exec:$Programlist=0 & gt ''HOME_TV''">Close the Programlist</a></div>'
+	if $Programlist=0:'<div class="button"><a href="exec:$Programlist=1 & gt ''HOME_TV''">Open the Programlist</a></div>'else'<div class="button"><a href="exec:$Programlist=0 & gt ''HOME_TV''">Close the Programlist</a></div>'
 '</div>'
 
 '<div class="dialog_menu">'

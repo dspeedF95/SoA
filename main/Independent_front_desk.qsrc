@@ -29,7 +29,7 @@ if $args[0]="":
 				'<div class="button"><a href="exec:minutes+=5 &$HS.available=1 & gt ''Independent_front_desk''">Got it</a></div>'
 			'</div>'
 			'<div class="dialog_menu">'
-				'<p><<$HS.name>>: You are a second-level experimenter，<<$Protagonist`s_surname>> Sir, as long as you press this button, there will be24An hour-long dedicated oral sex nurse will assist you in ejaculating.</p>'
+				'<p><<$HS.name>>: You are a second-level experimenter，<<$Protagonists_surname>> Sir, as long as you press this button, there will be24An hour-long dedicated oral sex nurse will assist you in ejaculating.</p>'
 			'</div>'
 		 end
 		 
@@ -43,7 +43,7 @@ if $args[0]="":
 				'<div class="button"><a href="exec:minutes+=5 &HSintroduction=1& gt ''Independent_front_desk''">Hello</a></div>'
 			'</div>'
 			'<div class="dialog_menu">'
-				'<p><<$HS.name>>: Hello，<<$Protagonist`s_surname>> Sir, I am in charge of the second-level patient/Experimenter`s24Hour exclusive oral sex nurse!You can call me<<$HS.name>>。</p>'
+				'<p><<$HS.name>>: Hello，<<$Protagonists_surname>> Sir, I am in charge of the second-level patient/Experimenter`s24Hour exclusive oral sex nurse!You can call me<<$HS.name>>。</p>'
 			'</div>'
 		 end
 	End
@@ -54,7 +54,7 @@ if $args[0]="":
 		if  14<= hour and hour <=17:hsa=3
 		if  18<= hour and hour <=24:hsa=4
 
-	 if $HS_Event_trouble!10 :
+	 if $HS_Event_trouble!10:
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\HS\vids\前台0<<hsa>>~1.webm" type=''video/webm;''></video></div>'
@@ -74,7 +74,7 @@ if $args[0]="":
 		'</div>'
 	 end
 	 
-	 if $HS_Event_trouble=10 :
+	 if $HS_Event_trouble=10:
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\HS\vids\前台1<<hsa>>~1.webm" type=''video/webm;''></video></div>'

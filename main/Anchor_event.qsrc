@@ -34,7 +34,7 @@ if $args[0]="LY_Event_Pre_entry":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 			 	'<div class="button"><a href="exec:minutes+=15 &q=0 & a=0 & gt ''Anchor_event'',''LY_Event_Entry''">Separate review</a></div>'
 			'</div>'
@@ -120,7 +120,7 @@ if $args[0]="LY_Event_Entry":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if a=10:'<div class="buttonP"><a href="exec:a=11 & gt ''Anchor_event'',''LY_Event_Entry''">Sign the actress pass </a></div>'
 				if a=10:'<div class="buttonB"><a href="exec:a=11 & gt ''City_hall''">Suspension of processing </a></div>'
@@ -220,11 +220,11 @@ if $ARGS[0]="First sight":
 		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>landlord :Hey, this is not easy to do.I made it clear when I rented it to you.This is a single room!</p>'
-		'<p>man :Please, be accommodating!This is my new girlfriend, she just came here.</p>'
-		'<p>landlord :Overcharged you for rent50%, If you don`t agree, just move away!</p>'
-		'<p>man :Oh, okay then.It`s all because I don`t have a house by myself, so you have to squeeze in here with me.</p>'
-		'<p><<$LY.name>> : Honey, you are so kind to me, I don`t dislike it.</p>'
+		'<p>landlord:Hey, this is not easy to do.I made it clear when I rented it to you.This is a single room!</p>'
+		'<p>man:Please, be accommodating!This is my new girlfriend, she just came here.</p>'
+		'<p>landlord:Overcharged you for rent50%, If you don`t agree, just move away!</p>'
+		'<p>man:Oh, okay then.It`s all because I don`t have a house by myself, so you have to squeeze in here with me.</p>'
+		'<p><<$LY.name>>: Honey, you are so kind to me, I don`t dislike it.</p>'
 		'<p>I:(Oh?Changed again?But the vision is not very good, all the people caught are poor ghosts)</p>'
 		$LYFirsttimerental=1
 	'</div>'
@@ -235,7 +235,7 @@ if $ARGS[0]="During the day":
 	if $LY.Finishedmonitoring=1:
 		if $LY.customs=1 and $Random_number<=30:gt 'Anchor_event','Go out'
 		if $LY.Monitoringtwofinishedreading=0 and $Random_number<=50:gt 'Anchor_event','Lock tightly2'
-		if $LY.Monitoringtwofinishedreading=1 and week_day =7 :gt 'Anchor_event','LY_Event_groupP2'
+		if $LY.Monitoringtwofinishedreading=1 and week_day =7:gt 'Anchor_event','LY_Event_groupP2'
 		gt 'Anchor_event','LY_Event_transaction2'
 	end
 	'<div class ="show_menu"><img src="images\NPC\LY\pics\无人.jpg" width="854"></div>'
@@ -260,7 +260,7 @@ if $ARGS[0]="Late return":
 		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p><<$LY.name>> :...It`s really unlucky, everything is not going well, is it against the water?...Big cities are really not easy to mix.</p>'
+		'<p><<$LY.name>>:...It`s really unlucky, everything is not going well, is it against the water?...Big cities are really not easy to mix.</p>'
 	'</div>'
 end
 
@@ -272,15 +272,15 @@ if $ARGS[0]="apologize":
 	'</div>'
 	
 	'<div class="button_menu">'
-		if money>=500:'<div class="buttonG"><a href="exec:money-=500 & a=0 & q=0 & gt ''Anchor_event'',''LY_Event_transaction''">agree500￥</a></div>'else:'<div class="buttonGr"><a href="exec:">500￥</a></div>'
+		if money>=500:'<div class="buttonG"><a href="exec:money-=500 & a=0 & q=0 & gt ''Anchor_event'',''LY_Event_transaction''">agree500￥</a></div>'else'<div class="buttonGr"><a href="exec:">500￥</a></div>'
 		if $LY.customs>=1 and $Realityshowfront=1:'<div class="buttonP"><a href="exec:gt ''Anchor_event'',''Reality show invitation''">Reality show invitation</a></div>'
 		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>I :Hey, I recognize you.Remember who brushed it for you100A rocket?</p>'
-		'<p><<$LY.name>> :Yes...it`s you!You are actually in this city too!</p>'
-		'<p>I :Uh, what happened before……</p>'
-		'<p><<$LY.name>> :Don`t take it to heart... Na, my financial pressure is a bit high now... do you want to offer me?The price of one rocket at a time... this is the best price on the list!</p>'
+		'<p>I:Hey, I recognize you.Remember who brushed it for you100A rocket?</p>'
+		'<p><<$LY.name>>:Yes...it`s you!You are actually in this city too!</p>'
+		'<p>I:Uh, what happened before……</p>'
+		'<p><<$LY.name>>:Don`t take it to heart... Na, my financial pressure is a bit high now... do you want to offer me?The price of one rocket at a time... this is the best price on the list!</p>'
 	'</div>'
 end
 
@@ -318,7 +318,7 @@ if $args[0]="LY_Event_transaction":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if $LY_Event_Gas_valve=0 or $camera_LY=0: '<div class="button"><a href="exec:a=11 & gt ''Anchor_event'',''kitchen''">Go to the kitchen </a></div>'
 				'<div class="button"><a href="exec:a=11 & gt ''Deep_alley''">leave </a></div>'
@@ -395,7 +395,7 @@ if $args[0]="LY_Event_transaction2":
 			if a=0:'<div class="button"><a href="exec:a=11 & gt ''Deep_alley''">leave </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=11 & gt ''Deep_alley''">leave </a></div>'
 			'</div>'
@@ -443,13 +443,13 @@ End
 if $args[0]="kitchen":
 	'<div class ="show_menu"><img src="images\NPC\LY\pics\厨房.jpg" width="854"></div>'
 		'<div class="button_menu">'
-			if Gas_valve>0:'<div class="button"><a href="exec:$LY_Event_Gas_valve=1 & Gas_valve-=1 &gt ''Anchor_event'',''kitchen''">Repair Gas_valve</a></div>'else:'<div class="buttonGr"><a href="exec:">Need a Gas_valve</a></div>'
+			if Gas_valve>0:'<div class="button"><a href="exec:$LY_Event_Gas_valve=1 & Gas_valve-=1 &gt ''Anchor_event'',''kitchen''">Repair Gas_valve</a></div>'else'<div class="buttonGr"><a href="exec:">Need a Gas_valve</a></div>'
 			if icamera=0:'<div class="buttonGr"><a href="exec:">Need a invisible camera</a></div>'
 			'<div class="button"><a href="exec:gt ''Deep_alley''">leave</a></div>'
 		'</div>'
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>> :I heard that this building has this problem.My roommate can`t do anything, so the boss can help me.(｡ŏ﹏ŏ)</p>'
-			 '<p>I :I went to the store for a walk.(You noticed an inconspicuous dead corner of the field of vision, which is a good place to install the camera.）</p>'
+			 '<p><<$LY.name>>:I heard that this building has this problem.My roommate can`t do anything, so the boss can help me.(｡ŏ﹏ŏ)</p>'
+			 '<p>I:I went to the store for a walk.(You noticed an inconspicuous dead corner of the field of vision, which is a good place to install the camera.）</p>'
 			 if $LY_Event_Gas_valve=1: '<p>·【The Gas_valve has been repaired】</p>'
 		 '</div>'
 End
@@ -464,11 +464,11 @@ if $args[0]="Kitchen monitoring":
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:a+=1 & gt ''Anchor_event'',''Kitchen monitoring''">Fast forward▶▶▶ </a></div>'
 			if a!0:'<div class="button"><a href="exec:a-=1 & gt ''Anchor_event'',''Kitchen monitoring''">Back▶▶▶ </a></div>'
-			if $Customwork=1:	'<div class="buttonR1"><a href="exec:gt ''Anchor_event'',''LY_Event_groupP1''">One afternoon</a></div>'else:'<div class="buttonGr"><a href="exec:">Not triggered</a></div>'
+			if $Customwork=1:	'<div class="buttonR1"><a href="exec:gt ''Anchor_event'',''LY_Event_groupP1''">One afternoon</a></div>'else'<div class="buttonGr"><a href="exec:">Not triggered</a></div>'
 			'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
 			'</div>'
@@ -546,8 +546,8 @@ if $ARGS[0]="Go out":
 		'<div class="button"><a href="exec: gt ''Deep_alley''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>I :Hi.</p>'
-		'<p><<$LY.name>> :Hi~I am planning to go out, the weather is really nice today.</p>'
+		'<p>I:Hi.</p>'
+		'<p><<$LY.name>>:Hi~I am planning to go out, the weather is really nice today.</p>'
 	'</div>'
 end
 
@@ -558,14 +558,14 @@ if $ARGS[0]="Reality show invitation":
 	'</div>'
 	
 	'<div class="button_menu">'
-		if money>=3000:'<div class="buttonG"><a href="exec: $Realityshowfront=2 & money-=3000 & gt ''Anchor_event'',''Reality show invitation2''">Pay to shoot3000￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay to shoot3000￥</a></div>'
+		if money>=3000:'<div class="buttonG"><a href="exec: $Realityshowfront=2 & money-=3000 & gt ''Anchor_event'',''Reality show invitation2''">Pay to shoot3000￥</a></div>'else'<div class="buttonGr"><a href="exec:">Pay to shoot3000￥</a></div>'
 		'<div class="button"><a href="exec: gt ''suburbs''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>I :You have experience working as an anchor and a fashion store. These professional experiences should be the best candidates to complete such a reality show!</p>'
-		'<p><<$LY.name>> :...how do I need to act?？</p>'
-		'<p>I :No need to act!Reality TV, the most important thing is “real”!Our reality show is called "Stick to it if you are a man10Minutes", you use various means to seduce male guests!</p>'
-		'<p><<$LY.name>> :...I see, what about the reward, I think￥3000…...is it okay?</p>'
+		'<p>I:You have experience working as an anchor and a fashion store. These professional experiences should be the best candidates to complete such a reality show!</p>'
+		'<p><<$LY.name>>:...how do I need to act?？</p>'
+		'<p>I:No need to act!Reality TV, the most important thing is “real”!Our reality show is called "Stick to it if you are a man10Minutes", you use various means to seduce male guests!</p>'
+		'<p><<$LY.name>>:...I see, what about the reward, I think￥3000…...is it okay?</p>'
 	'</div>'
 end
 
@@ -579,8 +579,8 @@ if $ARGS[0]="Reality show invitation2":
 		'<div class="button"><a href="exec: gt ''suburbs''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p><<$LY.name>> :Since you are so loving, you should be able to accept the test, right?"Insist if you are a man10Minutes》</p>'
-		'<p>Male guest :of course!10minutes?20I can do it in minutes!</p>'
+		'<p><<$LY.name>>:Since you are so loving, you should be able to accept the test, right?"Insist if you are a man10Minutes》</p>'
+		'<p>Male guest:of course!10minutes?20I can do it in minutes!</p>'
 		'<p>·It didn`t take long for the shooting to end…</p>'
 		'<p>I should give the filmed material to<<$BD.name>>, Let her edit it.</p>'
 	'</div>'
@@ -598,8 +598,8 @@ if $ARGS[0]="customs":
 		'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">return</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>Human-like manager :brother!You are here, this is our latest prostitute.We support cash credit card loans here. Do you want to make you a pot of tea first?</p>'
-		'<p>I :She really came to work here……</p>'
+		'<p>Human-like manager:brother!You are here, this is our latest prostitute.We support cash credit card loans here. Do you want to make you a pot of tea first?</p>'
+		'<p>I:She really came to work here……</p>'
 		$Customwork=1
 	'</div>'
 end
@@ -647,7 +647,7 @@ if $args[0]="LY_Event_customs":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonG"><a href="exec:money-=1288 & gt ''The_night_is_fine'',''Custom area''">checkout1288￥ </a></div>'
 			'</div>'
@@ -708,10 +708,10 @@ if $args[0]="LY_Event_customs2":
 			if a!2 and 1<=q and q<=3: 
 			'<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_customs2''">Oral sex </a></div>'
 			end
-			if a!3 and 2<=q and q<=5 : 
+			if a!3 and 2<=q and q<=5: 
 			'<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_customs2''">Fuck </a></div>'
 			end
-			if a!4 and 3<=q and q<=7 :
+			if a!4 and 3<=q and q<=7:
 			'<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_customs2''">Vigorously pump </a></div>'
 			end
 			if a!5 and 10>=q and q>=4:
@@ -726,7 +726,7 @@ if $args[0]="LY_Event_customs2":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonG"><a href="exec:money-=1688 & gt ''The_night_is_fine'',''Custom area''">checkout1688￥ </a></div>'
 			'</div>'
@@ -780,7 +780,7 @@ if $args[0]="LY_Event_groupP1":
 			'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Home_computer''">return </a></div>'
 			'</div>'
@@ -862,10 +862,10 @@ if $args[0]="LY_Event_groupP2":
 			if a=2:
 			'<div class="buttonS2"><a href="exec:a=0 & gt ''Anchor_event'',''LY_Event_groupP2''">Gang rape </a></div>'
 			end
-			if a!3 and q>=3 : 
+			if a!3 and q>=3: 
 			'<div class="buttonR2"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_groupP2''">Anal sex </a></div>'
 			end
-			if a=3 :
+			if a=3:
 			'<div class="buttonR4"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_groupP2''">Anal creampie </a></div>'
 			end
 			if a!5 and q>=4:
@@ -882,7 +882,7 @@ if $args[0]="LY_Event_groupP2":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:money-=1688 & gt ''Deep_alley''">Don`t watch it anymore </a></div>'
 			'</div>'
@@ -949,7 +949,7 @@ if $args[0]="LY_Fuck_warehouse":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''TV_station''">leave </a></div>'
 			'</div>'
@@ -1010,7 +1010,7 @@ if $args[0]="LY_Fuck_Director`s Room":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''TV_station''">leave </a></div>'
 			'</div>'
@@ -1058,10 +1058,10 @@ if $args[0]="LY_Event_maid":
             if a!2 and 1<=q and q<=3: 
             '<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_maid''">Take off your pants </a></div>'
             end
-            if a!3 and 2<=q and q<=5 : 
+            if a!3 and 2<=q and q<=5: 
             '<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_maid''">Oral sex </a></div>'
             end
-            if a!4 and 3<=q and q<=7 : 
+            if a!4 and 3<=q and q<=7: 
             '<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_maid''">Lick the balls </a></div>'
             end
             if a=4:
@@ -1084,7 +1084,7 @@ if $args[0]="LY_Event_maid":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Big_villa''">Let`s do it first </a></div>'
             '</div>'
@@ -1144,13 +1144,13 @@ if $args[0]="LY_Event_Housing commission":
             if a!2 and 1<=q and q<=3: 
             '<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_Housing commission''">Straight to the end </a></div>'
             end
-            if a!3 and 2<=q and q<=5 : 
+            if a!3 and 2<=q and q<=5: 
             '<div class="button"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_Housing commission''">Please me </a></div>'
             end
-            if a!4 and 3<=q and q<=7 : 
+            if a!4 and 3<=q and q<=7: 
             '<div class="button"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_Housing commission''">Do it yourself </a></div>'
             end
-            if a!5 and 4<=q and q<=8 : 
+            if a!5 and 4<=q and q<=8: 
             '<div class="button"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_Housing commission''">Accelerate thrusting </a></div>'
             end
             if a=5:
@@ -1161,7 +1161,7 @@ if $args[0]="LY_Event_Housing commission":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:Bluetooth_maid=2 & gt ''Big_villa'',''Master bedroom''">Promise her </a></div>'
                 '<div class="button"><a href="exec:gt ''Big_villa'',''Master bedroom''">Let`s talk about it </a></div>'
@@ -1218,7 +1218,7 @@ if $args[0]="LY_Event_Invitation":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:a=0 & q=0 & gt ''Anchor_event'',''LY_Event_Ninterview''">Departure interview </a></div>'
             '</div>'
@@ -1261,19 +1261,19 @@ if $args[0]="LY_Event_Ninterview":
             if a=1:
             '<div class="button"><a href="exec:a=2 & gt ''Anchor_event'',''LY_Event_Ninterview''">Go up for an interview </a></div>'
             end
-            if a!3 and 2<=q and q<=6 : 
+            if a!3 and 2<=q and q<=6: 
             '<div class="buttonS1"><a href="exec:a=3 & gt ''Anchor_event'',''LY_Event_Ninterview''">Order to please me </a></div>'
             end
-            if a!4 and 3<=q and q<=8 : 
+            if a!4 and 3<=q and q<=8: 
             '<div class="buttonS1"><a href="exec:a=4 & gt ''Anchor_event'',''LY_Event_Ninterview''">Mouth me </a></div>'
             end
-            if a!5 and 4<=q and q<=9 : 
+            if a!5 and 4<=q and q<=9: 
             '<div class="buttonS2"><a href="exec:a=5 & gt ''Anchor_event'',''LY_Event_Ninterview''">Lick with your heart! </a></div>'
             end
-            if a!6 and 5<=q and q<=10 : 
+            if a!6 and 5<=q and q<=10: 
             '<div class="buttonS3"><a href="exec:a=6 & gt ''Anchor_event'',''LY_Event_Ninterview''">Sucking testicles </a></div>'
             end
-            if a!7 and 6<=q and q<=11 : 
+            if a!7 and 6<=q and q<=11: 
             '<div class="buttonS4"><a href="exec:a=7 & gt ''Anchor_event'',''LY_Event_Ninterview''">Enjoy oral sex </a></div>'
             end
             if a=7:
@@ -1282,7 +1282,7 @@ if $args[0]="LY_Event_Ninterview":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Empire_Group''">leave </a></div>'
             '</div>'
@@ -1348,7 +1348,7 @@ if $ARGS[0]="Sister cycle0":
     '<div class="button_menu">'
         '<div class="buttonB1"><a href="exec:a=3 & q=3 & gt ''Anchor_event'',''LY_Event_Ninterview''">called<<$LY.name>>Come out</a></div>'
         '<div class="buttonS2"><a href="exec:minutes+=60 & gt ''Anchor_event'',''Sister cycle1''">Peeping at them</a></div>'
-        if Sisterdoublecomplete=1:'<div class="buttonS4"><a href="exec:minutes+=60 & gt ''Anchor_event'',''LY_Event_Sister engage''">Give them gifts</a></div>'else:'<div class="buttonGr"><a href="exec:">They are not familiar enough</a></div>'
+        if Sisterdoublecomplete=1:'<div class="buttonS4"><a href="exec:minutes+=60 & gt ''Anchor_event'',''LY_Event_Sister engage''">Give them gifts</a></div>'else'<div class="buttonGr"><a href="exec:">They are not familiar enough</a></div>'
         '<div class="button"><a href="exec:minutes+=60 & gt ''Empire_Entertainment''">leave</a></div>'
     '</div>'
 
@@ -1369,7 +1369,7 @@ if $ARGS[0]="Sister cycle1":
         '</div>'
     
     '<div class="button_menu">'
-        if q=0:'<div class="buttonP"><a href="exec:minutes+=60 & gt ''Anchor_event'',''Sister cycle1''">Watch for a while</a></div>'else:'<div class="buttonGr"><a href="exec:">Let`s take a look next time</a></div>'
+        if q=0:'<div class="buttonP"><a href="exec:minutes+=60 & gt ''Anchor_event'',''Sister cycle1''">Watch for a while</a></div>'else'<div class="buttonGr"><a href="exec:">Let`s take a look next time</a></div>'
         '<div class="button"><a href="exec:minutes+=60 & gt ''Empire_Entertainment''">leave</a></div>'
     '</div>'
 
@@ -1404,7 +1404,7 @@ if $args[0]="LY_Event_Sister engage":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Empire_Group''">Laugh without saying a word </a></div>'
             '</div>'

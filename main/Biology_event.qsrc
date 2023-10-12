@@ -75,7 +75,7 @@ if $args[0]="SW_Fuck_Adultery":
 			if a!6 and 5<=q and a!9:
 			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Adultery''">Back position</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Adultery''">humiliation</a></div>'
 			end
 			if a!8 and q>=7 and a!9:
@@ -89,9 +89,9 @@ if $args[0]="SW_Fuck_Adultery":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
-				if a=10 and camera>0 :'<div class="button"><a href="exec:a=11 & $SW_Event_fan=1 & gt ''Biology_event'',''SW_Fuck_Adultery''">Candid shot</a></div>'else:'<div class="buttonGr"><a href="exec:">Need HD camera</a></div>'
+				if a=10 and camera>0:'<div class="button"><a href="exec:a=11 & $SW_Event_fan=1 & gt ''Biology_event'',''SW_Fuck_Adultery''">Candid shot</a></div>'else'<div class="buttonGr"><a href="exec:">Need HD camera</a></div>'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
 			'</div>'
 	end
@@ -103,9 +103,9 @@ if $args[0]="SW_Fuck_Adultery":
 			 '<p>man:Huh?Do you still want to be fucked when you are dizzy?Then I will fulfill you!</p>'
 		 '</div>'
 	end
-	if 9>=a and a>=1 :
+	if 9>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :*<<$Panting>>...The vague words in his mouth seemed to be begging for mercy.</p>'
+			 '<p><<$SW.name>>:*<<$Panting>>...The vague words in his mouth seemed to be begging for mercy.</p>'
 		 '</div>'
 	end
 
@@ -113,7 +113,7 @@ if $args[0]="SW_Fuck_Adultery":
 	if a=10:
 		 '<div class="dialog_menu">'
 		 	 '<p>man:I`ll spare you once this time, bitch.I know your name, but I won`t be so lucky next time... I will call all my brothers to gang rape you!</p>'
-		 	 '<p><<$SW.name>> :I... I see……</p>'
+		 	 '<p><<$SW.name>>:I... I see……</p>'
 		 	 '<p>·With a puff, thick semen flowed out of the flabby vagina......</p>'
 		 	 '<p>·You want to take a photo of her appearance, but the phone can`t focus accurately.</p>'
 		 '</div>'
@@ -156,7 +156,7 @@ if $args[0]="SW_Fuck_Tuning":
 			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Tuning''">Licked is allowed</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Tuning''">serve</a></div>'
 			end
 			if a!8 and q>=7 and a!10:
@@ -173,7 +173,7 @@ if $args[0]="SW_Fuck_Tuning":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">Got it</a></div>'
 			'</div>'
@@ -186,10 +186,10 @@ if $args[0]="SW_Fuck_Tuning":
 			 '<p>I:.......(Who is training who?..）</p>'
 		 '</div>'
 	end
-	if 10>=a and a>=1 :
+	if 10>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$Panting>>…</p>'
-			 if a=5:'<p><<$SW.name>> :<<$Protagonist`s_name>>Master... I can`t stand it anymore... Hurry up... let my mother lick it.…</p>'
+			 '<p><<$SW.name>>:<<$Panting>>…</p>'
+			 if a=5:'<p><<$SW.name>>:<<$Protagonist`s_name>>Master... I can`t stand it anymore... Hurry up... let my mother lick it.…</p>'
 		 '</div>'
 	end
 
@@ -234,14 +234,14 @@ if $args[0]="SW_Fuck_hotel":
 			if a=4 or a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_hotel''">sprint</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_hotel''">Internal injection</a></div>'
 			end
 			if a=7:
 			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_hotel''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -253,9 +253,9 @@ if $args[0]="SW_Fuck_hotel":
 			 '<p><<$SW.name>>:What the teacher wants to ask you is: please freely insert my bitch pussy and play with me as a sex product!！</p>'
 		 '</div>'
 	end
-	if 7>=a and a>=1 :
+	if 7>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$Panting>>...like me to play with you like this...Oh no, played with by you</p>'
+			 '<p><<$SW.name>>:<<$Panting>>...like me to play with you like this...Oh no, played with by you</p>'
 		 '</div>'
 	end
 
@@ -299,14 +299,14 @@ if $args[0]="SW_Fuck_Go home":
 			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Go home''">sprint</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Go home''">Anal creampie</a></div>'
 			end
 			if a=7:
 			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_Go home''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -319,9 +319,9 @@ if $args[0]="SW_Fuck_Go home":
 			 '<p><<$SW.name>>:Except for a few men who occasionally come to the teacher`s house, I live alone.~</p>'
 		 '</div>'
 	end
-	if 7>=a and a>=1 :
+	if 7>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$Panting>>…</p>'
+			 '<p><<$SW.name>>:<<$Panting>>…</p>'
 		 '</div>'
 	end
 
@@ -364,14 +364,14 @@ if $args[0]="SW_Fuck_Overtime":
 			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Overtime''">sprint</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Overtime''">Internal injection</a></div>'
 			end
 			if a=7:
 			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_Overtime''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=180 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -383,9 +383,9 @@ if $args[0]="SW_Fuck_Overtime":
 			 '<p><<$SW.name>>:I have to work overtime again, it`s really annoying..Oh?Are you here to help me deal with business, or are you here to deal with anger?</p>'
 		 '</div>'
 	end
-	if 7>=a and a>=1 :
+	if 7>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$Panting>>…</p>'
+			 '<p><<$SW.name>>:<<$Panting>>…</p>'
 		 '</div>'
 	end
 
@@ -393,8 +393,8 @@ if $args[0]="SW_Fuck_Overtime":
 		 $SW.love+=q+my.charm
 		 $SW.bad+=q
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$Panting>>...Okay, if I continue to do it, I will work overtime until dawn!Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
-			 '<p><<$SW.name>> :Oh?！Is it her?Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
+			 '<p><<$SW.name>>:<<$Panting>>...Okay, if I continue to do it, I will work overtime until dawn!Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
+			 '<p><<$SW.name>>:Oh?！Is it her?Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
 		 '</div>'
 	end
 
@@ -423,11 +423,11 @@ if $args[0]="SW_Fuck_Outside the classroom":
 			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Boo boo</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Bukkake</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -439,9 +439,9 @@ if $args[0]="SW_Fuck_Outside the classroom":
 			 '<p><<$SW.name>>:I have to work overtime again, it`s really annoying..Oh?Are you here to help me deal with business, or are you here to deal with anger?</p>'
 		 '</div>'
 	end
-	if 6>=a and a>=1 :
+	if 6>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :What a coincidence, the teacher wanted it too…<<$Panting>>…</p>'
+			 '<p><<$SW.name>>:What a coincidence, the teacher wanted it too…<<$Panting>>…</p>'
 		 '</div>'
 	end
 
@@ -449,7 +449,7 @@ if $args[0]="SW_Fuck_Outside the classroom":
 		 $SW.love+=q*2+my.charm
 		 $SW.bad+=q
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$Panting>>...you are necrotic!Shot so many people.</p>'
+			 '<p><<$SW.name>>:<<$Panting>>...you are necrotic!Shot so many people.</p>'
 		 '</div>'
 	end
 
@@ -464,9 +464,9 @@ if $args[0]="SW_Fuck_Health room":
 	'</div>'
 
 	'<div class="button_menu">'
-		if $XZ.bad>=150 and $XZ.love>=150:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Hands-on demonstration</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if $XZ.bad>=200 and $XZ.love>=200 and SW_XZ>=1 :'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Principal experience</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if SW_XZ>=10:'<div class="buttonS5"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Go directly to open a room.</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $XZ.bad>=150 and $XZ.love>=150:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Hands-on demonstration</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $XZ.bad>=200 and $XZ.love>=200 and SW_XZ>=1:'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Principal experience</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if SW_XZ>=10:'<div class="buttonS5"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Go directly to open a room.</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">Not yet</a></div>'
 	'</div>'
 
@@ -506,7 +506,7 @@ if $args[0]="SW_Fuck_XZdemonstration":
 			if a=3:
 			'<div class="buttonP"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Vaginal thrusting</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="buttonP"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_XZdemonstration''">Ejaculation</a></div>'
 			end
 			if a=7:
@@ -514,7 +514,7 @@ if $args[0]="SW_Fuck_XZdemonstration":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">Satisfied</a></div>'
 			'</div>'
@@ -528,11 +528,11 @@ if $args[0]="SW_Fuck_XZdemonstration":
 			 '<p><<$SW.name>>:Right, right, right!</p>'
 		 '</div>'
 	end
-	if 7>=a and a>=1 :
+	if 7>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :<<$Panting>>...this is the first<<a>>lesson…</p>'
+			 '<p><<$SW.name>>:<<$Panting>>...this is the first<<a>>lesson…</p>'
 			 '<p>I:<<$XZ.name>>It seems that this kind of teaching model is not rejected.</p>'
-			 '<p><<$XZ.name>> :………</p>'
+			 '<p><<$XZ.name>>:………</p>'
 		 '</div>'
 	end
 
@@ -545,7 +545,7 @@ if $args[0]="SW_Fuck_XZdemonstration":
 		 '<div class="dialog_menu">'
 			 '<p><<$SW.name>>:<<$XZ.name>>How about...?</p>'
 			 '<p>I:…<<$XZ.name>>…...ahem!</p>'
-			 '<p><<$XZ.name>> :Uh... it`s really good... I will consider it in the new curriculum reform…</p>'
+			 '<p><<$XZ.name>>:Uh... it`s really good... I will consider it in the new curriculum reform…</p>'
 		 '</div>'
 	end
 
@@ -580,7 +580,7 @@ if $args[0]="SW_Fuck_XZ3P":
 			if a!6 and a!7 and 4<=q and q<=15:
 			'<div class="buttonP"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_XZ3P''">fuck<<$XZ.name>></a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Move fast!</a></div>'
 			end
 			if a=7:
@@ -593,7 +593,7 @@ if $args[0]="SW_Fuck_XZ3P":
 			'<div class="button"><a href="exec:a=10 & gt ''Biology_event'',''SW_Fuck_XZ3P''">summary</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''university''">Satisfied</a></div>'
 			'</div>'
@@ -603,22 +603,22 @@ if $args[0]="SW_Fuck_XZ3P":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$SW.name>>:This time<<$XZ.name>>Participate wholeheartedly!I have the right to have a say after experiencing it firsthand!</p>'
-			 '<p><<$XZ.name>> :…...then I`m welcome…</p>'
+			 '<p><<$XZ.name>>:…...then I`m welcome…</p>'
 		 '</div>'
 	end
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$XZ.name>> :……<<$Protagonist`s_name>>Classmate... can the teacher give you oral sex?</p>'
+			 '<p><<$XZ.name>>:……<<$Protagonist`s_name>>Classmate... can the teacher give you oral sex?</p>'
 			 '<p><<$SW.name>>:<<$XZ.name>>Actually asked you for advice?It`s really rare.</p>'
 		 '</div>'
 	end
 
 
-	if 9>=a and a>=1 :
+	if 9>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :...yes...that`s it，<<$XZ.name>>It turns out that I am used to having sex in school.</p>'
-			 '<p><<$XZ.name>> :……<<$Panting>>…</p>'
+			 '<p><<$SW.name>>:...yes...that`s it，<<$XZ.name>>It turns out that I am used to having sex in school.</p>'
+			 '<p><<$XZ.name>>:……<<$Panting>>…</p>'
 		 '</div>'
 	end
 
@@ -631,7 +631,7 @@ if $args[0]="SW_Fuck_XZ3P":
 		 '<div class="dialog_menu">'
 			 '<p><<$SW.name>>:<<$XZ.name>>Seems very satisfied...?</p>'
 			 '<p>I:…<<$XZ.name>>…...ahem!</p>'
-			 '<p><<$XZ.name>> :That`s right...an excellent “mannequin”...can make the viewer... understand their depth...this is very important!</p>'
+			 '<p><<$XZ.name>>:That`s right...an excellent “mannequin”...can make the viewer... understand their depth...this is very important!</p>'
 			 '<p><<$SW.name>>:It seems that the new curriculum reform is a shoo-in...?</p>'
 		 '</div>'
 	end
@@ -661,17 +661,17 @@ if $args[0]="SW_Fuck_XZOpen a room":
 			if a!6 and a!7:
 			'<div class="buttonP"><a href="exec:a=6 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">let<<$XZ.name>>demonstration</a></div>'
 			end
-			if a=3 or a=6 :
+			if a=3 or a=6:
 			'<div class="button"><a href="exec:a+=1 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Keep doing it</a></div>'
 			end
-			if a=4 or a=7 :
+			if a=4 or a=7:
 			'<div class="button"><a href="exec:a+=1 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">Internal injection</a></div>'
 			end
-			if a=5 or a=8 :
+			if a=5 or a=8:
 			'<div class="button"><a href="exec:a=9 & gt ''Biology_event'',''SW_Fuck_XZOpen a room''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -680,17 +680,17 @@ if $args[0]="SW_Fuck_XZOpen a room":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>I :…...I think you are already familiar with the teaching content... now the teacher is coming to evaluate you.…</p>'
+			 '<p>I:…...I think you are already familiar with the teaching content... now the teacher is coming to evaluate you.…</p>'
 			 '<p><<$SW.name>>:No problem!</p>'
-			 '<p><<$XZ.name>> :…<<$Protagonist`s_name>>Classmate... okay…</p>'
+			 '<p><<$XZ.name>>:…<<$Protagonist`s_name>>Classmate... okay…</p>'
 		 '</div>'
 	end
 
 
-	if 8>=a and a>=1 :
+	if 8>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>> :...yes...that`s it，<<$words>>…</p>'
-			 '<p><<$XZ.name>> :…<<$Panting>>……</p>'
+			 '<p><<$SW.name>>:...yes...that`s it，<<$words>>…</p>'
+			 '<p><<$XZ.name>>:…<<$Panting>>……</p>'
 		 '</div>'
 	end
 
@@ -702,7 +702,7 @@ if $args[0]="SW_Fuck_XZOpen a room":
 		 '<div class="dialog_menu">'
 			 '<p><<$SW.name>>:<<$XZ.name>>, As long as you pass the curriculum reform, I will definitely vote for you in the general election!</p>'
 			 '<p>I:…<<$XZ.name>>…...ahem!</p>'
-			 '<p><<$XZ.name>> :That`s great. As long as the next principal is still me, then this curriculum reform will definitely pass!</p>'
+			 '<p><<$XZ.name>>:That`s great. As long as the next principal is still me, then this curriculum reform will definitely pass!</p>'
 			 '<p><<$SW.name>>:Great!</p>'
 			 '<p>·This kind of nondescript teacher-student relationship has made their relationship closer!</p>'
 		 '</div>'

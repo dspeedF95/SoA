@@ -5,7 +5,7 @@
 			<a class="photo" data-title="My bedroom" href="exec:minutes+=5 & gt ''Home_bedroom''"><img class="img_stretch" src="images\place\房间_<<$times_of_day>>.jpg"></a>
 		</div>'
 
-	 if (hour >=23 or hour <7) :
+	 if (hour >=23 or hour <7):
 		'<div class="action">
 			<a class="photo" data-title="Stepmother`s room" href="exec:minutes+=5 & gt ''Stepmom_event'',''JM_Fuck_Night attack''"><img class="img_stretch" src="images\NPC\JM\pics\继母房间_睡觉.jpg"></a>
 		</div>'
@@ -13,7 +13,7 @@
 		'<div class="action">
 			<a class="photo" data-title="Stepmother`s room" href="exec:minutes+=5 & gt ''Home_mom_room'',''Close the door''"><img class="img_stretch" src="images\NPC\JM\pics\继母房间2.jpg"></a>
 		</div>'
-		else:
+		else
 		'<div class="action">
 			<a class="photo" data-title="Stepmother`s room" href="exec:minutes+=5 & gt ''Home_mom_room''"><img class="img_stretch" src="images\place\继母房间.jpg"></a>
 		</div>'
@@ -21,33 +21,33 @@
 	 
 	 if hour >=23 or hour <8:
 		'<div class="action">
-			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sister`s_room'',''Sister_sleep''"><img class="img_stretch" src="images\NPC\JJ\pics\姐姐睡觉.jpg"></a>
+			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sisters_room'',''Sister_sleep''"><img class="img_stretch" src="images\NPC\JJ\pics\姐姐睡觉.jpg"></a>
 		</div>'
 	 elseif  9<=hour  and hour <10 and week_day >=6:
 		'<div class="action">
-			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sister`s_room'',''Sister`s weekend room''"><img class="img_stretch" src="images\NPC\JJ\pics\姐姐房间.jpg"></a>
+			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sisters_room'',''Sister`s weekend room''"><img class="img_stretch" src="images\NPC\JJ\pics\姐姐房间.jpg"></a>
 		</div>'
-	 elseif  22<=hour  and hour <23 :
+	 elseif  22<=hour  and hour <23:
 		'<div class="action">
-			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sister`s_room'',''Sister`s room at night''"><img class="img_stretch" src="images\NPC\JJ\pics\姐姐房间.jpg"></a>
+			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sisters_room'',''Sister`s room at night''"><img class="img_stretch" src="images\NPC\JJ\pics\姐姐房间.jpg"></a>
 		</div>'
-		else:
+		else
 		'<div class="action">
-			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sister`s_room''"><img class="img_stretch" src="images\place\姐姐房间.jpg"></a>
+			<a class="photo" data-title="Sister`s room" href="exec:minutes+=5 & gt ''Home_sisters_room''"><img class="img_stretch" src="images\place\姐姐房间.jpg"></a>
 		</div>'
 	 end if
 		
 		if hour=0 or hour >=20:
 		'<div class="action">
-			<a class="photo" data-title="Little Sister`s room" href="exec:minutes+=5 & gt ''Home_sister2`s_room'',''Room conversation''"><img class="img_stretch" src="images\NPC\MM\pics\妹妹房间2.jpg"></a>
+			<a class="photo" data-title="Little Sister`s room" href="exec:minutes+=5 & gt ''Home_sister2s_room'',''Room conversation''"><img class="img_stretch" src="images\NPC\MM\pics\妹妹房间2.jpg"></a>
 		</div>'
-		 elseif  1<=hour  and hour <8 :
+		 elseif  1<=hour  and hour <8:
 		'<div class="action">
-			<a class="photo" data-title="Little Sister`s room" href="exec:minutes+=5 & gt ''Home_sister2`s_room'',''sleep''"><img class="img_stretch" src="images\NPC\MM\pics\妹妹房间睡觉.jpg"></a>
+			<a class="photo" data-title="Little Sister`s room" href="exec:minutes+=5 & gt ''Home_sister2s_room'',''sleep''"><img class="img_stretch" src="images\NPC\MM\pics\妹妹房间睡觉.jpg"></a>
 		</div>'
-		else:
+		else
 		'<div class="action">
-			<a class="photo" data-title="Little Sister`s room" href="exec:minutes+=5 & gt ''Home_sister2`s_room''"><img class="img_stretch" src="images\place\妹妹房间.jpg"></a>
+			<a class="photo" data-title="Little Sister`s room" href="exec:minutes+=5 & gt ''Home_sister2s_room''"><img class="img_stretch" src="images\place\妹妹房间.jpg"></a>
 		</div>'
 		end if
 		
@@ -59,7 +59,7 @@
 		'<div class="action">
 			<a class="photo" data-title="hall" href="exec:minutes+=5 &a=0& q=0& gt ''Sister2_event'',''MM_Oral_hall''"><img class="img_stretch" src="images\NPC\MM\pics\家1.jpg"></a>
 		</div>'
-	 else:
+	 else
 		'<div class="action">
 			<a class="photo" data-title="hall" href="exec:minutes+=5 & gt ''home''"><img class="img_stretch" src="images\place\家.jpg"></a>
 		</div>'
@@ -69,15 +69,15 @@
 		'<div class="action">
 			<a class="photo" data-title="bathroom" href="exec:minutes+=5 & gt ''Sister_event'',''Sister_bathroom'',''浴室0''"><img class="img_stretch" src="images\place\家_浴室_人.jpg"></a>
 		</div>'
-		elseif  (20<=hour and hour <21) or   (7<=hour and hour <8)  :
+		elseif  (20<=hour and hour <21) or   (7<=hour and hour <8) :
 			'<div class="action">
 				<a class="photo" data-title="bathroom" href="exec:minutes+=5 & gt ''Stepmom_event'',''Stepmom_bathroom''"><img class="img_stretch" src="images\place\家_浴室_人.jpg"></a>
 			</div>'
-		elseif  (19<=hour and hour <20)  :
+		elseif  (19<=hour and hour <20) :
 			'<div class="action">
 				<a class="photo" data-title="bathroom" href="exec:minutes+=5 & gt ''Sister2_event'',''Sister_bathroom''"><img class="img_stretch" src="images\place\家_浴室_人.jpg"></a>
 			</div>'
-	 else:
+	 else
 		'<div class="action">
 			<a class="photo" data-title="bathroom" href="exec:minutes+=5 & gt ''Home_bathroom''"><img class="img_stretch" src="images\place\家_浴室.jpg"></a>
 		</div>'

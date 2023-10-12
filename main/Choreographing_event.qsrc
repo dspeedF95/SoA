@@ -67,10 +67,10 @@ if $ARGS[0]="Go out":
 			'<div class="buttonG"><a href="exec:$Chooserice=''寿司'' & money-=200 & gt ''Choreographing_event'',''Eat''">Eat sushi200￥</a></div>'
 			'<div class="buttonG"><a href="exec:$Chooserice=''自助餐'' & money-=400 & gt ''Choreographing_event'',''Eat''">Eat buffet400￥</a></div>'
 		end
-		if $BD.love>=25:'<div class="buttonP"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Her house''">Go to her house</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		if $BD.love>=25:'<div class="buttonP"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Her house''">Go to her house</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
 		if Dailyeditoranddirector=0:
-		if $BD.love>=130:'<div class="buttonS1"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Parking''">Stop and rest</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
-		if $BD.love>=150 and $BD.bad>=150:'<div class="buttonS1"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''hotel''">Go to the hotel</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		if $BD.love>=130:'<div class="buttonS1"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Parking''">Stop and rest</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		if $BD.love>=150 and $BD.bad>=150:'<div class="buttonS1"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''hotel''">Go to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''Residential_area''">Get off alone</a></div>'
 	'</div>'
@@ -139,8 +139,8 @@ if $ARGS[0]="After a meal":
 		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Choreographing_event'',''After a meal''">？！！！</a></div>'
 		if a=2:'<div class="button"><a href="exec:a=3 & gt ''Choreographing_event'',''After a meal''">Sitting upright</a></div>'
 		if a=3:'<div class="button"><a href="exec:a=4 & gt ''Choreographing_event'',''After a meal''">Peeking at her sister</a></div>'
-		if a=3 and $BD.love>=250-$BD.bad:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">Exercise after a meal</a></div>'else:'<div class="buttonGr"><a href="exec:">Exercise after a meal</a></div>'
-		if a=4 :'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">Go to the bathroom door</a></div>'else:'<div class="buttonGr"><a href="exec:">bathroom?？？</a></div>'
+		if a=3 and $BD.love>=250-$BD.bad:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">Exercise after a meal</a></div>'else'<div class="buttonGr"><a href="exec:">Exercise after a meal</a></div>'
+		if a=4:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">Go to the bathroom door</a></div>'else'<div class="buttonGr"><a href="exec:">bathroom?？？</a></div>'
 		
 		'<div class="button"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Video conference''">Prepare for video conference</a></div>'
 	'</div>'
@@ -156,16 +156,16 @@ if $ARGS[0]="After a meal":
 		'<p>I: You haven`t been “fed” yet, have you?</p>'
 		end
 		if a=2:
-		'<p>？？？: sister!Are you cooking?Why is it so fragrant?</p>'
+		'<p>???: sister!Are you cooking?Why is it so fragrant?</p>'
 		'<p><<$BD.name>>: Ah...uh...not good!Hurry up, hurry up, put on your pants!</p>'
 		end
 		if a=3:
 		'<p><<$BD.name>>: Uh...this is my...uh...new colleague...we will have a video conference at home later, don`t come in and disturb us!</p>'
-		'<p>？？？: I know, I know, why are you so jumpy.Do you want to use the bathroom?I`m going to take a shower if I don`t need it!</p>'
+		'<p>???: I know, I know, why are you so jumpy.Do you want to use the bathroom?I`m going to take a shower if I don`t need it!</p>'
 		'<p>I: Do you have a younger sister?</p>'
 		end
 		if a=4:
-		'<p>？？？: In order to catch up with the progress of the Spring Festival version, it has not been produced yet.(Sister3PIn the future, either cut or fill the pit, listen to everyone`s opinions)</p>'
+		'<p>???: In order to catch up with the progress of the Spring Festival version, it has not been produced yet.(Sister3PIn the future, either cut or fill the pit, listen to everyone`s opinions)</p>'
 		end
 	'</div>'
 end
@@ -210,7 +210,7 @@ if $args[0]="Choreographer_Fuck_Exercise after a meal":
 			'<div class="button"><a href="exec:a=10 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if a=10:
 					'<div class="button"><a href="exec:a=11 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">mouth</a></div>'
@@ -312,7 +312,7 @@ if $args[0]="Choreographer_Fuck_Bathroom door":
 			'<div class="button"><a href="exec:a=10 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Video conference''">Prepare for video conference</a></div>'
 					'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
@@ -421,7 +421,7 @@ if $args[0]="Video conference":
 			'<div class="buttonS1"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Video conference2''">Take off her panties</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -526,7 +526,7 @@ if $args[0]="Video conference2":
 			end
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''Residential_area''">Run away</a></div>'
 			'</div>'
@@ -610,7 +610,7 @@ if $args[0]="Parking":
 			'<div class="button"><a href="exec:a=8 & gt ''Choreographing_event'',''Parking''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''Choreographing_event'',''Go out''">Keep driving</a></div>'
 			'</div>'
@@ -664,7 +664,7 @@ if $args[0]="hotel":
 			'<div class="button"><a href="exec:a=1 & gt ''Choreographing_event'',''hotel''">Throw her down</a></div>'
 				if $BD.bad>=200 and $BD.love>=200 and MGF>0:
 				'<div class="buttonR3"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''medicine''">Obedience test</a></div>'
-				else:
+				else
 				'<div class="buttonGr"><a href="exec:">Obedience test: (McGovern+High depravity)</a></div>'
 				end
 			end
@@ -689,7 +689,7 @@ if $args[0]="hotel":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''Choreographing_event'',''Go out''">Keep driving</a></div>'
 			'</div>'
@@ -766,7 +766,7 @@ if $args[0]="medicine":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -831,7 +831,7 @@ if $args[0]="Office white":
 
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''TV_station''">Cannot be set no</a></div>'
 			'</div>'
@@ -894,7 +894,7 @@ if $args[0]="Office nightC":
 
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Go home at night''">Take her home</a></div>'
 					'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
@@ -935,7 +935,7 @@ if $args[0]="Office nightC":
 End
 
 if $args[0]="Office nightA":
-	if $BD.bad<20+a*10 and a>0 : gt'Choreographing_event','Office night settlement'
+	if $BD.bad<20+a*10 and a>0: gt'Choreographing_event','Office night settlement'
 
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
@@ -969,7 +969,7 @@ if $args[0]="Office nightA":
 			'<div class="buttonS"><a href="exec:a=8 & gt ''Choreographing_event'',''Office nightA''">Ejaculation</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 			'</div>'
@@ -1045,7 +1045,7 @@ if $args[0]="Office nightB":
 			'<div class="buttonR"><a href="exec:a=3 & gt ''Choreographing_event'',''Office nightB''">Someone is coming</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:a=0 & q=0 &gt ''Choreographing_event'',''Go home at night''">Take her home</a></div>'
 					'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
@@ -1110,7 +1110,7 @@ if $args[0]="Go home at night":
 			'<div class="button"><a href="exec:a=7 & gt ''Choreographing_event'',''Go home at night''">Lick clean</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:a=0 & q=0 &gt ''Choreographing_event'',''overnight''">Spend the night here</a></div>'
 					'<div class="button"><a href="exec:$BD.love-=25 & gt ''Residential_area''">Excuse to leave</a></div>'
@@ -1188,7 +1188,7 @@ if $args[0]="overnight":
 			'<div class="buttonR4"><a href="exec:a=9 & gt ''Choreographing_event'',''overnight''">A little tired</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''Choreographing_event'',''The next day''">Sleep upside down</a></div>'
 			'</div>'
@@ -1280,7 +1280,7 @@ if $args[0]="Soy milk":
 			'<div class="buttonR4"><a href="exec:a=6 & gt ''Choreographing_event'',''Soy milk''">Begging for mercy</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 					'<div class="button"><a href="exec:gt ''Residential_area''">Go out</a></div>'
 			'</div>'
@@ -1318,7 +1318,7 @@ if $args[0]="Soy milk":
 		 $BD.bad+=q
 		 '<div class="dialog_menu">'
 			 '<p>Me: Give me a break.</p>'
-			 '<p>？？？:sister!！</p>'
+			 '<p>???:sister!！</p>'
 			 '<p><<$BD.name>>：？！？！wait!</p>'
 			 '<p>Me: Call-saved……</p>'
 		 '</div>'
@@ -1358,7 +1358,7 @@ if $args[0]="Choreographer_Fuck_3PL":
 		'<div class="button_menu">'
 			if a=0:
 			$BDAttributespecialrequirements=200+my.charm*20
-			if $BD.love>=200+my.charm*20 and $BD.bad>=200+my.charm*20:'<div class="buttonS"><a href="exec:a=1 & gt ''Choreographing_event'',''Choreographer_Fuck_3PL''">Enter the demonstration</a></div>'else:'<div class="buttonGr"><a href="exec:">❤Insufficient relationship<<$BDAttributespecialrequirements>>？？</a></div>'
+			if $BD.love>=200+my.charm*20 and $BD.bad>=200+my.charm*20:'<div class="buttonS"><a href="exec:a=1 & gt ''Choreographing_event'',''Choreographer_Fuck_3PL''">Enter the demonstration</a></div>'else'<div class="buttonGr"><a href="exec:">❤Insufficient relationship<<$BDAttributespecialrequirements>>？？</a></div>'
 			'<div class="button"><a href="exec:gt ''TV_station''">leave</a></div>'
 			end
 			if a!2 and 0<q and q<=3:
@@ -1401,7 +1401,7 @@ if $args[0]="Choreographer_Fuck_3PL":
 			'<div class="buttonR"><a href="exec:a=19 & gt ''Choreographing_event'',''Choreographer_Fuck_3PL''">Can`t do it anymore</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''TV_station''">leave</a></div>'
 			'</div>'

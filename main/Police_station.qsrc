@@ -20,7 +20,7 @@ minutes+=10
 if $ARGS[0]="":
 	if 100>$JZ_Event_gun and $JZ_Event_gun>=50:
 	'<div class ="show_menu"><img src="images\place\警察局2.jpg" width="854"></div>'
-	else:
+	else
 	'<div class ="show_menu"><img src="images\place\警察局.jpg" width="854"></div>'
 	end
 
@@ -41,7 +41,7 @@ end
 
 if $ARGS[0]="Director`s Office":
 	$JZ.available=1
-	if $weather='☂ Rainy' and $times_of_day='night' : gt'Director2_Event','Rainy day'
+	if $weather='☂ Rainy' and $times_of_day='night': gt'Director2_Event','Rainy day'
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">
 	 	 <source src="images\NPC\JZ\vids\警局局长开场~1.webm" type=''video/webm;''></video></div>'
@@ -52,7 +52,7 @@ if $ARGS[0]="Director`s Office":
 		'<div class="buttonG2"><a href="exec:gt ''Police_station'',''Pro bono assistance''">Pro bono assistance</a></div>'
 		
 		if  $SS_arrest=1:'<div class="buttonR"><a href="exec:gt ''Killer_Event'',''SS_Event_interrogation''">interrogation<<$SS.name>></a></div>'
-		if $JZ.bad>=200:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_temptation''">Take out the cock</a></div>'else:'<div class="buttonGr"><a href="exec:">Take out the cock</a></div>'
+		if $JZ.bad>=200:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_temptation''">Take out the cock</a></div>'else'<div class="buttonGr"><a href="exec:">Take out the cock</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
@@ -69,25 +69,25 @@ if $ARGS[0]="Director Liyi":
 	'<div class="button_menu">'
 		if $Haveseenthefloorplan=3:'<div class="buttonPu3"><a href="exec:gt ''Widow_Incident'',''Alarm''">Illegal imprisonment of the underworld</a></div>'
 		if $Hellosheriff=1:
-			if $JZ.love>$my.charm*25:'<div class="buttonGn4"><a href="exec:gt ''Widow_Incident'',''Hellosheriff''">Collude in advance</a></div>'else:'<div class="buttonGr"><a href="exec:">Good need><<$my.charm*25>></a></div>'
+			if $JZ.love>$my.charm*25:'<div class="buttonGn4"><a href="exec:gt ''Widow_Incident'',''Hellosheriff''">Collude in advance</a></div>'else'<div class="buttonGr"><a href="exec:">Good need><<$my.charm*25>></a></div>'
 		end
 		if $Inspector_event_chain=1:'<div class="button"><a href="exec:Directordialogue=1 & gt ''Police_station'',''Director Liyi''">Critical medicine</a></div>'
 		if $Directorxuncle<=1:'<div class="buttonPu2"><a href="exec:gt ''Director2_Event'',''harassment''">Temporarily avoid</a></div>'
 		if $Directorxuncle>=3:
 		 '<div class="buttonR4"><a href="exec:gt ''Director2_Event'',''Aunt visits''">兴Xingshi asks the crime☠</a></div>'
-		 if $JZVideo!1 :
-			if $Vigilantepoints>=500:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''Diaoyu Method''">▲Diaoyu Method▲</a></div>'else:'<div class="buttonGr"><a href="exec:">At least500Vigilante points</a></div>'
+		 if $JZVideo!1:
+			if $Vigilantepoints>=500:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''Diaoyu Method''">▲Diaoyu Method▲</a></div>'else'<div class="buttonGr"><a href="exec:">At least500Vigilante points</a></div>'
 		 end
 		 if $JZ3P=1:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_Cooperate with the investigation''">▲Cooperate with the investigation▲</a></div>'
 		end
 		if $Thedirectorreceivedthemedicine=1:
-			if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Director2_Event'',''JZ_Fuck_MGF''">Take out McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+			if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Director2_Event'',''JZ_Fuck_MGF''">Take out McGovern</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
 		end
-		if $JZ.love>=100:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_temptation2''">Touch her leg</a></div>'else:'<div class="buttonGr"><a href="exec:">Touch her leg</a></div>'
-		if $JZ.bad>=155:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_D1''">Reach into your underwear</a></div>'else:'<div class="buttonGr"><a href="exec:">Reach into your underwear</a></div>'
+		if $JZ.love>=100:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_temptation2''">Touch her leg</a></div>'else'<div class="buttonGr"><a href="exec:">Touch her leg</a></div>'
+		if $JZ.bad>=155:'<div class="buttonS"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_D1''">Reach into your underwear</a></div>'else'<div class="buttonGr"><a href="exec:">Reach into your underwear</a></div>'
 		if $JZ.bad>=200 and JZcos!1:'<div class="buttonS"><a href="exec:JZcos=1 & $m=''JZ'' & $ma=$JZ.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">inviteCOS</a></div>'
-		if $Boss_event_chain=6 and $Thebosssuspendedtheinvestigation=0 :
-			if $JZ.love>=250:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_Suspension of investigation''">Suspension of investigation</a></div>'else:'<div class="buttonGr"><a href="exec:">Suspension of investigation-insufficient favorability</a></div>'
+		if $Boss_event_chain=6 and $Thebosssuspendedtheinvestigation=0:
+			if $JZ.love>=250:'<div class="buttonR3"><a href="exec:gt ''Director2_Event'',''JZ_Fuck_Suspension of investigation''">Suspension of investigation</a></div>'else'<div class="buttonGr"><a href="exec:">Suspension of investigation-insufficient favorability</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
 	'</div>'
@@ -116,11 +116,11 @@ if $ARGS[0]="Pro bono assistance":
 	'</div>'
 
 	'<div class="button_menu">'
-		if $JZ_Event_rape<=100:'<div class="button"><a href="exec:gt ''Police_station'',''Disappearance''">Case: Missing case<< $JZ_Event_rape>>﹪</a></div>'else:'<div class="buttonGn"><a href="exec:">Closed case: Missing case</a></div>'
-		if  $JZ_Event_gun<=100:'<div class="button"><a href="exec:gt ''Police_station'',''Murder license''">Case: Murder license<< $JZ_Event_gun>>﹪</a></div>'else:'<div class="buttonGn"><a href="exec:">Closed case: Murder license</a></div>'
+		if $JZ_Event_rape<=100:'<div class="button"><a href="exec:gt ''Police_station'',''Disappearance''">Case: Missing case<< $JZ_Event_rape>>﹪</a></div>'else'<div class="buttonGn"><a href="exec:">Closed case: Missing case</a></div>'
+		if  $JZ_Event_gun<=100:'<div class="button"><a href="exec:gt ''Police_station'',''Murder license''">Case: Murder license<< $JZ_Event_gun>>﹪</a></div>'else'<div class="buttonGn"><a href="exec:">Closed case: Murder license</a></div>'
 	    if $YDM_Event_free<11:'<div class="buttonGn"><a href="exec:">Insufficient conditions</a></div>'
 		if $YDM_Event_free>=11:
-		 if $Punishmentreward=0:'<div class="button"><a href="exec:gt ''Police_station'',''Internal punishment''">Case: Internal punishment</a></div>'else:'<div class="buttonGn"><a href="exec:gt ''Police_station'',''Internal punishment''">Closed case: internal punishment</a></div>'
+		 if $Punishmentreward=0:'<div class="button"><a href="exec:gt ''Police_station'',''Internal punishment''">Case: Internal punishment</a></div>'else'<div class="buttonGn"><a href="exec:gt ''Police_station'',''Internal punishment''">Closed case: internal punishment</a></div>'
 		end
 		'<div class="buttonG"><a href="exec:gt ''reward''">Old cases</a></div>'
 		'<div class="buttonGr"><a href="exec:gt ''Police_station''">No more cases</a></div>'
@@ -135,8 +135,8 @@ if $ARGS[0]="Disappearance":
 	
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:$Policestationdialogue=1 & $OX.available=1 & gt ''Police_station'',''Disappearance''">Guarantee the completion of the task</a></div>'
-		if $JZ_Event_rape>=10:'<div class="button"><a href="exec:$Policestationdialogue=2 & gt ''Police_station'',''Disappearance''">License plate number：IPZ-905</a></div>'else:'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
-		if $JZ_Event_rape>=100:'<div class="button"><a href="exec:$Policestationdialogue=3 & gt ''Police_station'',''Disappearance''">People have been rescued</a></div>'else:'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
+		if $JZ_Event_rape>=10:'<div class="button"><a href="exec:$Policestationdialogue=2 & gt ''Police_station'',''Disappearance''">License plate number：IPZ-905</a></div>'else'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
+		if $JZ_Event_rape>=100:'<div class="button"><a href="exec:$Policestationdialogue=3 & gt ''Police_station'',''Disappearance''">People have been rescued</a></div>'else'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
 		if $Policestationdialogue=3:'<div class="buttonG"><a href="exec:$JZ_Event_rape+=50 & $JZ.love+=25 & gt ''Police_station'',''Director`s Office''">Confirm the closure of the case</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 	'</div>'
@@ -218,10 +218,10 @@ if $ARGS[0]="Police officer standing painting":
 	'</div>'
 	'<div class="button_menu">'
 		if $jy_num=0:
-			if $JY.Onbase=1:'<div class="buttonS"><a href="exec:gt ''Police_incident'',''JY_Fuck_office''">Make a shot here</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			if $JY.Onbase=1:'<div class="buttonS"><a href="exec:gt ''Police_incident'',''JY_Fuck_office''">Make a shot here</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		end
 		if $jy_num!0:
-			if $JY.bad>=30:'<div class="buttonS"><a href="exec:gt ''Police_incident'',''JY_Fuck_In the car''">Have a shot in the car</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			if $JY.bad>=30:'<div class="buttonS"><a href="exec:gt ''Police_incident'',''JY_Fuck_In the car''">Have a shot in the car</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		end
 	
 		'<div class="button"><a href="exec:$Policestationdialogue=1 & gt ''Police_station'',''Police officer standing painting''">Discussion: Disappearance case</a></div>'
@@ -231,7 +231,7 @@ if $ARGS[0]="Police officer standing painting":
 		'<div class="buttonG3"><a href="exec:gt ''Police_incident'',''JY_Fuck_Hypnosis''">Job: Traffic program</a></div>'
 
 		
-		if $Policestationdialogue=3:'<div class="buttonP"><a href="exec:gt ''Police_station'',''Touch the fish''">OK</a></div>'else:'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
+		if $Policestationdialogue=3:'<div class="buttonP"><a href="exec:gt ''Police_station'',''Touch the fish''">OK</a></div>'else'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 		
 	'</div>'
 	'<div class="dialog_menu">'
@@ -247,7 +247,7 @@ if $ARGS[0]="Police officer standing painting":
 				'<p><<$JY.name>>:If you want to investigate, I heard them say that it seems that they were accosted by some scout in a bar and their whereabouts are unknown....</p>'
 				'<p>I: I see, then I will investigate by myself.</p>'
 				'<p><<$JY.name>>:<<$Protagonist`s_name>>, Pay attention to safety!I can`t save you!</p>'
-			else:
+			else
 				'<p><<$JY.name>>: really!Don`t you want it?！Another fire, another big bang!I shouldn`t have asked you to investigate if I knew it!</p>'
 				'<p>I: ...isn`t this okay?</p>'
 				'<p><<$JY.name>>:Fight back hard!Humph!I don`t want to lose another partner!</p>'
@@ -338,8 +338,8 @@ if $ARGS[0]="Redemption of points":
 	'<div class ="show_menu"><img src="images\place\兼职义警.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $Vigilantepoints>=10:'<div class="buttonG"><a href="exec: $Vigilantepoints-=10 & coins+=1 & gt ''Police_station'',''Redemption of points''">Labor certificate/10points</a></div>'else:'<div class="buttonGr"><a href="exec: ">Labor certificate/10points</a></div>'
-		if $Vigilantepoints>=1000 and $JZ.massage=1 and $JZ3P=1:'<div class="buttonG"><a href="exec: $Vigilantepoints-=1000 & gt ''Director2_Event'',''JZ_Fuck_Special rewards''">JuliaSpecial rewards/1000points</a></div>'else:'<div class="buttonGr"><a href="exec: ">1000points&Juliacondition</a></div>'
+		if $Vigilantepoints>=10:'<div class="buttonG"><a href="exec: $Vigilantepoints-=10 & coins+=1 & gt ''Police_station'',''Redemption of points''">Labor certificate/10points</a></div>'else'<div class="buttonGr"><a href="exec: ">Labor certificate/10points</a></div>'
+		if $Vigilantepoints>=1000 and $JZ.massage=1 and $JZ3P=1:'<div class="buttonG"><a href="exec: $Vigilantepoints-=1000 & gt ''Director2_Event'',''JZ_Fuck_Special rewards''">JuliaSpecial rewards/1000points</a></div>'else'<div class="buttonGr"><a href="exec: ">1000points&Juliacondition</a></div>'
 
 		'<div class="button"><a href="exec:gt ''Police_station'',''Part-time vigilante''">return</a></div>'
 	'</div>'
@@ -394,7 +394,7 @@ if $ARGS[0]="Answer the call to judge":
 		$JZ.LOVE+=1
 		'<p>Judgment is successful, vigilante points+100</p>'		
 		'<p>——————————</p>'
-		else:
+		else
 		$Vigilantepoints-=200
 		'<p>Wrong judgment, vigilante points-200</p>'		
 		'<p>——————————</p>'
@@ -483,7 +483,7 @@ if $ARGS[0]="Internal disciplinary action begins":
 	$DD.available=1
 	if TJLJ3>=100 and ZXGQ1>=100 and DDQ1>=100 and $DDCollar=1:
 	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分01.jpg" width="854"></div>'
-	else:
+	else
 	'<div class ="show_menu"><img src="images\NPC\ZXG\pics\处分1.jpg" width="854"></div>'
 	end
 	
@@ -500,9 +500,9 @@ if $ARGS[0]="Internal disciplinary action begins":
 		'<p>·【File】<<$DD.name>>——Have improper feelings with the prisoner and cover up the prisoner!</p>'
 		'<p>·✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪·</p>'
 		'<p>·The punishment is over：'
-		if TJLJ3>=100:'✓'else:'✗' 
-		if ZXGQ1>=100:'✓'else:'✗' 
-		if DDQ1>=100 and $DDCollar=1:'✓'else:'✗' 
+		if TJLJ3>=100:'✓'else'✗' 
+		if ZXGQ1>=100:'✓'else'✗' 
+		if DDQ1>=100 and $DDCollar=1:'✓'else'✗' 
 		'</p>'
 	'</div>'
 end
@@ -512,18 +512,18 @@ if $ARGS[0]="TJVertical painting":
 
 	'<div class="button_menu">'
 		'<div class="buttonR4"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Single punishment<<TJP1>>%</a></div>'
-		if TJP1>=100:'<div class="buttonR3"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Work assessment<<TJGZ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if TJP1>=100:'<div class="buttonR3"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Work assessment<<TJGZ1>>%</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		if TJGZ1>=100:
 		 if MGF>0:
 			'<div class="buttonR2"><a href="exec:MGF-=1 & $m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Threshold training<<TJY1>>%</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
 		 end
 		end
-		if TJY1>=100:'<div class="buttonR1"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<TJQ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if TJtask=2:'<div class="buttonR"><a href="exec:$m=''TJ'' & $ma=$TJ.name & TJVerticaldrawingnumber=1 & gt ''Police_station'',''TJPlease consult your superiors''">Please consult your superiors</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if TJLJ2>=100:'<div class="buttonR5"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Mandatory punishment</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if TJLJ3>=100:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if TJY1>=100:'<div class="buttonR1"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<TJQ1>>%</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if TJtask=2:'<div class="buttonR"><a href="exec:$m=''TJ'' & $ma=$TJ.name & TJVerticaldrawingnumber=1 & gt ''Police_station'',''TJPlease consult your superiors''">Please consult your superiors</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if TJLJ2>=100:'<div class="buttonR5"><a href="exec:$m=''TJ'' & $ma=$TJ.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_mandatory''">Mandatory punishment</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if TJLJ3>=100:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
@@ -540,7 +540,7 @@ if $ARGS[0]="TJPlease consult your superiors":
 	'<div class="button_menu">'
 		if TJVerticaldrawingnumber=1:'<div class="button"><a href="exec:TJVerticaldrawingnumber=2 & gt ''Police_station'',''TJPlease consult your superiors''">Violent law enforcement</a></div>'
 		if TJVerticaldrawingnumber=2:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_understand''">Apply for understanding<<TJLJ1>>%</a></div>'
-		if TJLJ1>=100:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Corruption incident<<TJLJ2>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if TJLJ1>=100:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_corruption''">Corruption incident<<TJLJ2>>%</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
 	'</div>'
 	
@@ -561,18 +561,18 @@ if $ARGS[0]="ZXGVertical painting":
 	'<div class="button_menu">'
 		'<div class="buttonR5"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Single punishment<<ZXGP1>>%</a></div>'
 		if ZXGP1>=100:'<div class="buttonR4"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_work1''">Work assessment<<ZXGG1>>%</a></div>'
-		if ZXGG1>=100:'<div class="buttonR3"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Field assessment<<ZXGG2>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if ZXGG1>=100:'<div class="buttonR3"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_work2''">Field assessment<<ZXGG2>>%</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		if ZXGG2>=100:
 		 if MGF>0:
 			'<div class="buttonR2"><a href="exec:MGF-=1 & $m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Threshold training<<ZXGY1>>%</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
 		 end
 		end
 
 
-		if ZXGY1>=100:'<div class="buttonR1"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<ZXGQ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if ZXGQ1>=100:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if ZXGY1>=100:'<div class="buttonR1"><a href="exec:$m=''ZXG'' & $ma=$ZXG.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<ZXGQ1>>%</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if ZXGQ1>=100:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
@@ -585,19 +585,19 @@ if $ARGS[0]="DDVertical painting":
 
 	'<div class="button_menu">'
 		'<div class="buttonR5"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_P1pan''">Single punishment<<DDP1>>%</a></div>'
-		if DDP1>=100:'<div class="buttonR3"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Work assessment<<DDGZ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if DDP1>=100:'<div class="buttonPu1"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Police_station'',''DDSupervision work''">Supervision work</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if DDP1>=100:'<div class="buttonR3"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_GZpan1''">Work assessment<<DDGZ1>>%</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if DDP1>=100:'<div class="buttonPu1"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Police_station'',''DDSupervision work''">Supervision work</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 
 		if DDGZ1>=100:
 		 if MGF>0:
 			'<div class="buttonR2"><a href="exec:MGF-=1 & $m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Ypan''">Threshold training<<DDY1>>%</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
 		 end
 		end
 		
-		if DDY1>=100:'<div class="buttonR5"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<DDQ1>>%</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
-		if DDQ1>=100 and $DDCollar=1:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else:'<div class="buttonGr"><a href="exec:">The event is not completed</a></div>'
+		if DDY1>=100:'<div class="buttonR5"><a href="exec:$m=''DD'' & $ma=$DD.name & gt ''Executive_officer_Event'',''Executive officer_Fuck_Qpan''">Wheel battle assessment<<DDQ1>>%</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if DDQ1>=100 and $DDCollar=1:'<div class="buttonGn"><a href="exec:">punishment&Assessment completed</a></div>'else'<div class="buttonGr"><a href="exec:">The event is not completed</a></div>'
 		
 		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 	'</div>'
@@ -630,12 +630,12 @@ if $ARGS[0]="DDSupervision work":
 	
 	'<div class="button_menu">'
 		if $DDboyfriend=0:
-		if hour>=17:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Take her home''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">It`s not time to get off work</a></div>'
+		if hour>=17:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Take her home''">Take her home</a></div>'else'<div class="buttonGr"><a href="exec:">It`s not time to get off work</a></div>'
 		end
 		if $DDboyfriend=1:
-		if hour>=17:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Take her home2''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">It`s not time to get off work</a></div>'
+		if hour>=17:'<div class="button"><a href="exec:gt ''Executive_officer_Event'',''Take her home2''">Take her home</a></div>'else'<div class="buttonGr"><a href="exec:">It`s not time to get off work</a></div>'
 		end
-		if $DDGetinthecar=1:'<div class="buttonS"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">officeSEX</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if $DDGetinthecar=1:'<div class="buttonS"><a href="exec:gt ''Executive_officer_Event'',''Executive officer_Fuck_DDoffice''">officeSEX</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">Don`t bother her</a></div>'
 	'</div>'
 	
@@ -657,12 +657,12 @@ if $ARGS[0]="Inspector Liyi":
 	'</div>'
 
 	'<div class="button_menu">'
-		if $DCHideprogress>=15 and $Inspector_event_chain<=3 :'<div class="buttonPu3"><a href="exec:gt ''Inspector_Event'',''Ready to close the net''">Ready to close the net</a></div>'
+		if $DCHideprogress>=15 and $Inspector_event_chain<=3:'<div class="buttonPu3"><a href="exec:gt ''Inspector_Event'',''Ready to close the net''">Ready to close the net</a></div>'
 		if $Inspector_event_chain=4:'<div class="buttonR3"><a href="exec:gt ''Inspector_Event'',''Interrogation''">Interrogation</a></div>'
 		if DCNTR=1:'<div class="buttonR"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_torture''">Continuous torture</a></div>'
 		if $Inspector_event_chain<7:'<div class="buttonS3"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Get in the car''">Set off to investigate</a></div>'
 		if $Inspector_event_chain>=7:'<div class="buttonR2"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_Get in the car''">Continue to investigate</a></div>'
-		if $DC.love>=50:'<div class="buttonS2"><a href="exec:hour+=1 & gt ''Inspector_Event'',''Have a drink''">Have something to drink</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if $DC.love>=50:'<div class="buttonS2"><a href="exec:hour+=1 & gt ''Inspector_Event'',''Have a drink''">Have something to drink</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		if Daily_survey=0:'<div class="buttonS1"><a href="exec:gt ''Inspector_Event'',''Visit and arrange''">Daily survey</a></div>'
 		if DCVerticalpaintingnum>=3:'<div class="buttonS3"><a href="exec:gt ''Inspector_Event'',''DC_Fuck_office''">Have a shot</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
@@ -683,7 +683,7 @@ if $ARGS[0]="Locker room":
 
 	'<div class="button_menu">'
 		if $Task_womenpolicejacket=1:'<div class="buttonPu2"><a href="exec:$Task_womenpolicejacket=2 & gt ''Police_station''">Take away the policewoman`s jacket</a></div>'
-		if $JZ.available=1 and  $Succubus_Energy>0:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & gt ''Director2_Event'',''Director of Hypnosis''"><font color="#FF00FF">Hypnosis<<$JZ.name>>❤</font></a></div>'else:'<div class="buttonGr"><a href="exec:">Hypnosis<<$JZ.name>><font color="#FF00FF">❤</font></a></div>'
+		if $JZ.available=1 and  $Succubus_Energy>0:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & gt ''Director2_Event'',''Director of Hypnosis''"><font color="#FF00FF">Hypnosis<<$JZ.name>>❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Hypnosis<<$JZ.name>><font color="#FF00FF">❤</font></a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 	'</div>'
 	

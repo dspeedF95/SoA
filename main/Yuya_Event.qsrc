@@ -16,10 +16,10 @@ minutes+=15
 
 
 if $ARGS[0]="Peek in the hallway":
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\SSYY\vids\偷拍<<a>>.webm" type=''video/webm;''></video></div>'
-		'</div>'
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\SSYY\vids\偷拍<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
 	
 	'<div class="button_menu">'
 		if a=0:'<div class="button"><a href="exec:minutes+=30 & a=1 & gt ''Yuya_Event'',''Peek in the hallway''">Candid shot</a></div>'
@@ -28,10 +28,10 @@ if $ARGS[0]="Peek in the hallway":
 	
 	'<div class="dialog_menu">'
 		'<p>I: (……<<$SSYY.name>>?!)</p>'
-		'<p>？？？: Master, your competition is under a lot of pressure, right?…</p>'
+		'<p>???: Master, your competition is under a lot of pressure, right?</p>'
 		'<p><<$SSYY.name>>: It`s normal. Those who train hard are not as good as those who have a high starting point, those who are talented are not as good as those who have a topic, and those who can endure are not as good as those who can cry... And I<<$Panting>></p>'
 		if a>=1:
-		'<p>？？？: And what are you…?</p>'
+		'<p>???: And what are you…?</p>'
 		'<p><<$SSYY.name>>: And I...I`m sure to win!</p>'
 		$Yuya_Event_Chain=2
 		end
@@ -47,86 +47,78 @@ if $args[0]="SSYY_Fuck_COSAccording to the mouth":
     if a!8 and $SSYY.BAD>=a-2:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Request to clear the venue </a></div>'
+                '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Request to clear the venue </a></div>'
             end
             if a!2 and 1<=q and q<=4:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Touch me </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Touch me </a></div>'
             end
             if a!3 and 2<=q and q<=5:
-            '<div class="buttonS1"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">FAP </a></div>'
+                '<div class="buttonS1"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">FAP </a></div>'
             end
             if a!4 and 3<=q and a!6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">serve </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">serve </a></div>'
             end
             if a=4:
-            '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Oral sex </a></div>'
+                '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Oral sex </a></div>'
             end
             if a=5:
-            '<div class="buttonS2"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Ready to launch </a></div>'
+                '<div class="buttonS2"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Ready to launch </a></div>'
             end
             if a=6:
-            '<div class="buttonS3"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Ejaculation </a></div>'
+                '<div class="buttonS3"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Ejaculation </a></div>'
             end
             if a=7:
-            '<div class="buttonS3"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">dialogue </a></div>'
+                '<div class="buttonS3"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">dialogue </a></div>'
             end
             if $SSYY.BAD < 6:
-            '<div class="buttonGr"><a href="exec:">Insufficient conditions </a></div>'
+                '<div class="buttonGr"><a href="exec:">Insufficient conditions </a></div>'
             end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 &  $SSYY.BAD+=2 & gt ''Competition''">leave</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:minutes+=30 &  $SSYY.BAD+=2 & gt ''Competition''">leave</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p>I: Take the liberty to disturb!</p>'
-             '<p><<$SSYY.name>>: This... do you want to synthesize photos to blackmail me?！</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: Take the liberty to disturb!</p>'
+            '<p><<$SSYY.name>>: This... do you want to synthesize photos to blackmail me?！</p>'
+        '</div>'
     end
 
-
     if a=1:
-         '<div class="dialog_menu">'
-             '<p>I: Ahem... don`t pretend, master…</p>'
-             '<p><<$SSYY.name>>:Okay... no need to shoot yet, me and<<$Protagonist`s_surname>> Sir, if you want to talk about something personal, don`t be rude!</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: Ahem... don`t pretend, master…</p>'
+            '<p><<$SSYY.name>>:Okay... no need to shoot yet, me and<<$Protagonists_surname>> Sir, if you want to talk about something personal, don`t be rude!</p>'
+        '</div>'
     end
 
     if 7>=a and a>=2:
-         '<div class="dialog_menu">'
-             '<p>I: If it can only be done to this extent, it`s not okay.…</p>'
-             '<p><<$SSYY.name>>:What else do you want?</p>'
-             '<p>I: I remember…<<$PW.name>>I warned you, tell you to keep yourself safe…</p>'
-             '<p><<$SSYY.name>>:Damn it…</p>'
-             '<p>I: Do you want this matter to be a big deal...do you want to withdraw from the game again?</p>'
-             '<p><<$SSYY.name>>:I... I see…</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: If it can only be done to this extent, it`s not okay.…</p>'
+            '<p><<$SSYY.name>>:What else do you want?</p>'
+            '<p>I: I remember…<<$PW.name>>I warned you, tell you to keep yourself safe…</p>'
+            '<p><<$SSYY.name>>:Damn it…</p>'
+            '<p>I: Do you want this matter to be a big deal...do you want to withdraw from the game again?</p>'
+            '<p><<$SSYY.name>>:I... I see…</p>'
+        '</div>'
     end
-
-
 
     if a=8:
-         $SSYY.bad+=4
-         if $Yuya_Event_Chain=2:$Yuya_Event_Chain=3
-         '<div class="dialog_menu">'
-             '<p>I: If you want to get through this safely90God, what should I call me from now on?</p>'
-             '<p><<$SSYY.name>>: Excuse me?？</p>'
-             '<p>I: You help me remember my memories, what did you ask him to call you?</p>'
-             '<p><<$SSYY.name>>: ？！Damn it... I see, Lord... master…</p>'
-             '<p>I: That`s right!</p>'
-             '<p><<$SSYY.name>>: I will honestly do what you say... please don`t make it public!Don`t tell<<$PW.name>>！Please!</p>'
-         '</div>'
+        $SSYY.bad+=4
+        if $Yuya_Event_Chain=2:$Yuya_Event_Chain=3
+        '<div class="dialog_menu">'
+            '<p>I: If you want to get through this safely90God, what should I call me from now on?</p>'
+            '<p><<$SSYY.name>>: Excuse me?？</p>'
+            '<p>I: You help me remember my memories, what did you ask him to call you?</p>'
+            '<p><<$SSYY.name>>: ？！Damn it... I see, Lord... master…</p>'
+            '<p>I: That`s right!</p>'
+            '<p><<$SSYY.name>>: I will honestly do what you say... please don`t make it public!Don`t tell<<$PW.name>>！Please!</p>'
+        '</div>'
     end
-
-
   q+=1
-End
+end
 
 if $args[0]="SSYY_Fuck_Open a room":
         '<div class="show_menu">'
@@ -137,107 +129,98 @@ if $args[0]="SSYY_Fuck_Open a room":
     if a!13:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Take off her pants </a></div>'
+                '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Take off her pants </a></div>'
             end
             if a=1:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Take out the big cock </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Take out the big cock </a></div>'
             end
             if a!3 and 2<=q and q<=5:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Mouth me </a></div>'
+                '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Mouth me </a></div>'
             end
             if a!4 and 3<=q and q<=6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Licking testicles </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Licking testicles </a></div>'
             end
             if a!5 and 4<=q and q<=7:
-            '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Socket hole </a></div>'
+                '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Socket hole </a></div>'
             end
             if a!6 and 5<=q and q<=8:
-            '<div class="buttonS2"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Play with her </a></div>'
+                '<div class="buttonS2"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Play with her </a></div>'
             end
             if a=6:
-            if $SSYY.bad>=15:'<div class="buttonS3"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Fuck her </a></div>'else:'<div class="buttonGr"><a href="exec:">Fuck her </a></div>'
-            '<div class="button"><a href="exec:minutes+=30 & $SSYY.BAD+=5 & gt ''Residential_area''">leave</a></div>'
+                if $SSYY.bad>=15:'<div class="buttonS3"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Fuck her </a></div>'else'<div class="buttonGr"><a href="exec:">Fuck her </a></div>'
+                '<div class="button"><a href="exec:minutes+=30 & $SSYY.BAD+=5 & gt ''Residential_area''">leave</a></div>'
             end
             if a!8 and 8<=q and q<=12 and a!6:
-            '<div class="buttonS3"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Change posture </a></div>'
+                '<div class="buttonS3"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Change posture </a></div>'
             end
             if a!9 and 9<=q and q<=13 and a!6:
-            '<div class="buttonS3"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Sprint vigorously </a></div>'
+                '<div class="buttonS3"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Sprint vigorously </a></div>'
             end
             if a=9:
-            '<div class="buttonS4"><a href="exec:a=10 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Ejaculation </a></div>'
+                '<div class="buttonS4"><a href="exec:a=10 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Ejaculation </a></div>'
             end
             if a=10:
-            '<div class="buttonS4"><a href="exec:a=11 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Lick clean </a></div>'
+                '<div class="buttonS4"><a href="exec:a=11 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Lick clean </a></div>'
             end
             if a=11:
-            '<div class="buttonR1"><a href="exec:a=12 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Take a break </a></div>'
+                '<div class="buttonR1"><a href="exec:a=12 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Take a break </a></div>'
             end
             if a=12:
-            '<div class="buttonR1"><a href="exec:a=13 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">zzZ </a></div>'
+                '<div class="buttonR1"><a href="exec:a=13 & gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">zzZ </a></div>'
             end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="buttonR"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''Residential_area''">zzZ</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="buttonR"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''Residential_area''">zzZ</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p>I: What are you still doing in a daze?Do you still need me to teach you how to serve the master?</p>'
-             '<p><<$SSYY.name>>: You have to talk and count, after this90God... just treat it as if nothing happened!</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: What are you still doing in a daze?Do you still need me to teach you how to serve the master?</p>'
+            '<p><<$SSYY.name>>: You have to talk and count, after this90God... just treat it as if nothing happened!</p>'
+        '</div>'
     end
-
-
-
 
     if 11>=a and a>=1:
-         '<div class="dialog_menu">'
+        '<div class="dialog_menu">'
              '<p>I: If it can only be done to this extent, it`s not okay.…</p>'
-             if a>=2:'<p><<$SSYY.name>>:<<$Panting>></p>'
-             if a>=3:'<p>I: You don`t want…<<$PW.name>>Wipe your ass again…</p>'
-             if a>=4:'<p><<$SSYY.name>>:Damn it…</p>'
-             if a>=5:'<p>I: If this matter makes<<$PW.name>>If you know…</p>'
-             if a>=6:'<p><<$SSYY.name>>:Don`t... stop talking…</p>'
-             if a>=7:'<p>I: Then you have to make me happy enough to shut up!</p>'
-             if a>=8:'<p><<$SSYY.name>>:<<$words>></p>'
-         '</div>'
+            if a>=2:'<p><<$SSYY.name>>:<<$Panting>></p>'
+            if a>=3:'<p>I: You don`t want…<<$PW.name>>Wipe your ass again…</p>'
+            if a>=4:'<p><<$SSYY.name>>:Damn it…</p>'
+            if a>=5:'<p>I: If this matter makes<<$PW.name>>If you know…</p>'
+            if a>=6:'<p><<$SSYY.name>>:Don`t... stop talking…</p>'
+            if a>=7:'<p>I: Then you have to make me happy enough to shut up!</p>'
+            if a>=8:'<p><<$SSYY.name>>:<<$words>></p>'
+        '</div>'
     end
 
-
-
     if a=12:
-         $SSYY.bad+=5
-         $Yuya_Event_Chain=4
-         $Thephoneisformatted=1
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: Huh, what do you think of me as, do you really think I am the kind of brainless woman?</p>'
-             '<p><<$SSYY.name>>: Let me guess your password…</p>'
-             '<p><<$SSYY.name>>: birthday?constellation?QQnumber?...aha!It`s actually this!</p>'
-         '</div>'
+        $SSYY.bad+=5
+        $Yuya_Event_Chain=4
+        $Thephoneisformatted=1
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>: Huh, what do you think of me as, do you really think I am the kind of brainless woman?</p>'
+            '<p><<$SSYY.name>>: Let me guess your password…</p>'
+            '<p><<$SSYY.name>>: birthday?constellation?QQnumber?...aha!It`s actually this!</p>'
+        '</div>'
     end
 
 	if a=13:
-         '<div class="dialog_menu">'
-             '<p>·Confirm the formatted data…</p>'
-             '<p><<$SSYY.name>>: Still want me to call you master?Keep dreaming!fool!</p>'
-             '<p>I: zzZ…zzZ…zzZ…</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>·Confirm the formatted data…</p>'
+            '<p><<$SSYY.name>>: Still want me to call you master?Keep dreaming!fool!</p>'
+            '<p>I: zzZ…zzZ…zzZ…</p>'
+        '</div>'
 	end
-
   q+=1
-End
+end
 
 if $ARGS[0]="I can`t do anything with her":
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\SSYY\vids\口1-1.webm" type=''video/webm;''></video></div>'
-        '</div>'
+    '<div class="show_menu">'
+        '<video preload="metadata" autoplay loop height="480">
+        <source src="images\NPC\SSYY\vids\口1-1.webm" type=''video/webm;''></video></div>'
+    '</div>'
 	
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:minutes+=45 & gt ''Competition''">I can`t do anything with her</a></div>'
@@ -263,66 +246,59 @@ if $args[0]="SSYY_Fuck_reverse0":
     if a!6:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Show kindness </a></div>'
+                '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Show kindness </a></div>'
             end
             if a!2 and 1<=q and q<=4:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">patience </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">patience </a></div>'
             end
             if a!3 and 2<=q and q<=5:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Gag </a></div>'
+                '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Gag </a></div>'
             end
             if a!4 and 3<=q and q<=6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Footjob inch stop </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Footjob inch stop </a></div>'
             end
             if a!5 and 4<=q:
-            '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Ejaculation </a></div>'
+                '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Ejaculation </a></div>'
             end
             if a=5:
-            '<div class="buttonR"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Beaten </a></div>'
+                '<div class="buttonR"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">Beaten </a></div>'
             end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="buttonPu4"><a href="exec:minutes+=30 & $Yuya_Event_Chain=6 & gt ''Competition''">Recognize the lord</a></div>'
-                '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">refuse</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="buttonPu4"><a href="exec:minutes+=30 & $Yuya_Event_Chain=6 & gt ''Competition''">Recognize the lord</a></div>'
+            '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">refuse</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: Have you exchanged positions?I didn`t expect you to have a handle in my hands too!</p>'
-             '<p>I: I didn`t tell you about you at the time<<$PW.name>>...did you take pictures when you passed by?</p>'
-             '<p><<$SSYY.name>>: Oh?Guess if I took a picture?！</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>: Have you exchanged positions?I didn`t expect you to have a handle in my hands too!</p>'
+            '<p>I: I didn`t tell you about you at the time<<$PW.name>>...did you take pictures when you passed by?</p>'
+            '<p><<$SSYY.name>>: Oh?Guess if I took a picture?！</p>'
+        '</div>'
     end
 
-
-
-
     if 5>=a and a>=1:
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: Having said that... you caused my little dog to abscond abroad overnight!</p>'
-             if a>=2:'<p>I: Sorry...i... it`s my fault…</p>'
-             if a>=3:'<p><<$SSYY.name>>:Shut your mouth to me!It`s too late to apologize now!</p>'
-             if a>=4:'<p><<$SSYY.name>>:Hold back!Otherwise I will be angry!</p>'
-             if a>=5:'<p><<$SSYY.name>>:Still shot?It`s really useless!</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>: Having said that... you caused my little dog to abscond abroad overnight!</p>'
+            if a>=2:'<p>I: Sorry...i... it`s my fault…</p>'
+            if a>=3:'<p><<$SSYY.name>>:Shut your mouth to me!It`s too late to apologize now!</p>'
+            if a>=4:'<p><<$SSYY.name>>:Hold back!Otherwise I will be angry!</p>'
+            if a>=5:'<p><<$SSYY.name>>:Still shot?It`s really useless!</p>'
+        '</div>'
     end
 
     if a=6:
-         '<div class="dialog_menu">'
-             '<p>I: Don`t... stop fighting…</p>'
-             '<p><<$SSYY.name>>: I haven`t vented enough yet!Got it!Let me train you well!</p>'
-             '<p>I: Hmm...?</p>'
-             '<p><<$SSYY.name>>: I decided it was you!Puppy Number Two!How?From today on, to protect you until the end of the competition, you have to do what I say and recognize me as the host!</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: Don`t... stop fighting…</p>'
+            '<p><<$SSYY.name>>: I haven`t vented enough yet!Got it!Let me train you well!</p>'
+            '<p>I: Hmm...?</p>'
+            '<p><<$SSYY.name>>: I decided it was you!Puppy Number Two!How?From today on, to protect you until the end of the competition, you have to do what I say and recognize me as the host!</p>'
+        '</div>'
     end
-
   q+=1
-End
+end
 
 if $ARGS[0]="Yuya_Mission":
 	$Yuya_Mission=0
@@ -330,10 +306,10 @@ if $ARGS[0]="Yuya_Mission":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:$Yuya_Mission=1 & gt ''Shopping_mall''">Red restaurant</a></div>'
-		if $SSYY.love>=30 and $SSYY.bad>=30:'<div class="buttonS2"><a href="exec:$Yuya_Mission=2 & gt ''subway''">S20carriage</a></div>'else:'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
-		if $SSYY.love>=60 and $SSYY.bad>=60:'<div class="buttonS3"><a href="exec:$Yuya_Mission=4 & gt ''home''">My bedroom</a></div>'else:'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
-		if $SSYY.love>=100 and $SSYY.bad>=100:'<div class="buttonS4"><a href="exec:$Yuya_Mission=3 & gt ''home''"><<$MM.name>>bedroom</a></div>'else:'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
-		if $SSYY.love>=150 and $SSYY.bad>=150:'<div class="buttonS5"><a href="exec:$Yuya_Mission=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Go to her house</a></div>'else:'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
+		if $SSYY.love>=30 and $SSYY.bad>=30:'<div class="buttonS2"><a href="exec:$Yuya_Mission=2 & gt ''subway''">S20carriage</a></div>'else'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
+		if $SSYY.love>=60 and $SSYY.bad>=60:'<div class="buttonS3"><a href="exec:$Yuya_Mission=4 & gt ''home''">My bedroom</a></div>'else'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
+		if $SSYY.love>=100 and $SSYY.bad>=100:'<div class="buttonS4"><a href="exec:$Yuya_Mission=3 & gt ''home''"><<$MM.name>>bedroom</a></div>'else'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
+		if $SSYY.love>=150 and $SSYY.bad>=150:'<div class="buttonS5"><a href="exec:$Yuya_Mission=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Go to her house</a></div>'else'<div class="buttonGr"><a href="exec:">Unknown location</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -344,73 +320,63 @@ end
 if $args[0]="SSYY_Fuck_restaurant":
 	$Yuya_Mission=0
         '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\SSYY\vids\餐厅1-<<a>>.webm" type=''video/webm;''></video></div>'
+            '<video preload="metadata" autoplay loop height="480">
+            <source src="images\NPC\SSYY\vids\餐厅1-<<a>>.webm" type=''video/webm;''></video></div>'
         '</div>'
     
     if a!5:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Look what she`s wearing </a></div>'
+                '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Look what she`s wearing </a></div>'
             end
             if a!2 and 1<=q and q<=5:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Lactation </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Lactation </a></div>'
             end
             if a!3 and 2<=q and q<=5:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Mouth me </a></div>'
+                '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Mouth me </a></div>'
             end
             if a!4 and 3<=q and q<=8:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">dialogue </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">dialogue </a></div>'
             end
             if a=4:
-            '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Ejaculation </a></div>'
+                '<div class="buttonS2"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_restaurant''">Ejaculation </a></div>'
             end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="buttonR"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''Residential_area''">leave</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="buttonR"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''Residential_area''">leave</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: Do you know why I asked you to come here?</p>'
-             '<p>I: Judging from your analysis of the field battle with the previous one, are you a little bit addicted?</p>'
-             '<p><<$SSYY.name>>: Why don`t you reveal the answer yourself?</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>: Do you know why I asked you to come here?</p>'
+            '<p>I: Judging from your analysis of the field battle with the previous one, are you a little bit addicted?</p>'
+            '<p><<$SSYY.name>>: Why don`t you reveal the answer yourself?</p>'
+        '</div>'
     end
-
-
-
 
     if 4>=a and a>=1:
-         '<div class="dialog_menu">'
-             '<p>I: Wow... it`s really exciting!</p>'
-             '<p><<$SSYY.name>>:It`s rare, don`t you know what I want most?When you become a big star, you completely lose your privacy... Every move is captured by the media, and it`s too illiberal to live.</p>'
-             if a=2:'<p><<$SSYY.name>>:Alas, let me relieve the pressure for a while.This is the tits of a popular idol. Thinking of this makes you harder.</p>'
-             if a>=3:'<p><<$SSYY.name>>:<<$Panting>></p>'
-             if a>=4:'<p><<$SSYY.name>>:Damn it... here comes the announcement again, hurry up and shoot it out…</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: Wow... it`s really exciting!</p>'
+            '<p><<$SSYY.name>>:It`s rare, don`t you know what I want most?When you become a big star, you completely lose your privacy... Every move is captured by the media, and it`s too illiberal to live.</p>'
+            if a=2:'<p><<$SSYY.name>>:Alas, let me relieve the pressure for a while.This is the tits of a popular idol. Thinking of this makes you harder.</p>'
+            if a>=3:'<p><<$SSYY.name>>:<<$Panting>></p>'
+            if a>=4:'<p><<$SSYY.name>>:Damn it... here comes the announcement again, hurry up and shoot it out…</p>'
+        '</div>'
     end
-
-
 
     if a=5:
-         $SSYY.bad+=q
-         $SSYY.love+=q
-         $Yuya_Mission=0
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: Hahaha!Look at you, the table is full of shots, listen up, your next task is...before I come back...protect the scene!</p>'
-             '<p>I: How is this possible?！</p>'
-         '</div>'
+        $SSYY.bad+=q
+        $SSYY.love+=q
+        $Yuya_Mission=0
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>: Hahaha!Look at you, the table is full of shots, listen up, your next task is...before I come back...protect the scene!</p>'
+            '<p>I: How is this possible?！</p>'
+        '</div>'
     end
-
-
   q+=1
-End
+end
 
 if $args[0]="SSYY_Fuck_tram":
 	$Yuya_Mission=0
@@ -422,238 +388,207 @@ if $args[0]="SSYY_Fuck_tram":
     if a!10:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Touch her </a></div>'
+               '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Touch her </a></div>'
             end
             if a!2 and 1<=q and q<=3:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Suck her nipples </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Suck her nipples </a></div>'
             end
             if a!3 and 2<=q and q<=4:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Mouth her force </a></div>'
+                '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Mouth her force </a></div>'
             end
             if a!4 and 3<=q and q<=6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Mouth me </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Mouth me </a></div>'
             end
             if a!5 and 4<=q and q<=7:
-            '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">insert </a></div>'
+                '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">insert </a></div>'
             end
             if a!6 and 5<=q and q<=8:
-            '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Change posture </a></div>'
+                '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Change posture </a></div>'
             end
             if a!7 and 6<=q and q<=9:
-            '<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Small sprint </a></div>'
+                '<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Small sprint </a></div>'
             end
             if a!8 and 7<=q and q<=10:
-            '<div class="buttonS4"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">She`s excited </a></div>'
+                '<div class="buttonS4"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">She`s excited </a></div>'
             end
             if a=8:
-            '<div class="buttonS5"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Ejaculation </a></div>'
+                '<div class="buttonS5"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Ejaculation </a></div>'
             end
             if a=9:
-            '<div class="button"><a href="exec:a=10 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Post-mortem dialogue </a></div>'
+                '<div class="button"><a href="exec:a=10 & gt ''Yuya_Event'',''SSYY_Fuck_tram''">Post-mortem dialogue </a></div>'
             end
-
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''subway''">leave</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''subway''">leave</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>Gave you a wink…</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>Gave you a wink…</p>'
+        '</div>'
     end
-
-
-
 
     if 9>=a and a>=1:
-         '<div class="dialog_menu">'
-             '<p>I: You are so bold... you are showing more and more exaggeratedly!</p>'
-             '<p><<$SSYY.name>>:Shhh...keep your voice down…</p>'
-             if a>=2:'<p>I:You said, I suddenly yelled now, did you get caught?</p>'
-             if a>=3:'<p><<$SSYY.name>>:Don`t dream, I will sue you for sexually harassing me with my backhand... Do you think the public will believe me or believe you?</p>'
-             if a>=4:'<p>I:The big deal is that the fish is dead and the net is broken.…</p>'
-             if a>=5:'<p><<$SSYY.name>>:Don`t you dare!You are not afraid that I will take your sister…</p>'
-             if a>=6:'<p><<$SSYY.name>>:<<$Panting>></p>'
-             if a>=7:'<p><<$SSYY.name>>:<<$words>></p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: You are so bold... you are showing more and more exaggeratedly!</p>'
+            '<p><<$SSYY.name>>:Shhh...keep your voice down…</p>'
+            if a>=2:'<p>I:You said, I suddenly yelled now, did you get caught?</p>'
+            if a>=3:'<p><<$SSYY.name>>:Don`t dream, I will sue you for sexually harassing me with my backhand... Do you think the public will believe me or believe you?</p>'
+            if a>=4:'<p>I:The big deal is that the fish is dead and the net is broken.…</p>'
+            if a>=5:'<p><<$SSYY.name>>:Don`t you dare!You are not afraid that I will take your sister…</p>'
+            if a>=6:'<p><<$SSYY.name>>:<<$Panting>></p>'
+            if a>=7:'<p><<$SSYY.name>>:<<$words>></p>'
+        '</div>'
     end
-
-
 
     if a=10:
-         $SSYY.bad+=q
-         $SSYY.love+=q
-         $Yuya_Mission=0
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: The good dog is doing well, and the owner is very satisfied!</p>'
-             '<p>I: Thank you, master, for your compliment…</p>'
-         '</div>'
+        $SSYY.bad+=q
+        $SSYY.love+=q
+        $Yuya_Mission=0
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>: The good dog is doing well, and the owner is very satisfied!</p>'
+            '<p>I: Thank you, master, for your compliment…</p>'
+        '</div>'
     end
-
-
   q+=1
-End
+end
 
 if $args[0]="SSYY_Fuck_reverse1":
-	 $Yuya_Mission=0
+    $Yuya_Mission=0
         '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\SSYY\vids\反1-<<a>>.webm" type=''video/webm;''></video></div>'
+            '<video preload="metadata" autoplay loop height="480">
+            <source src="images\NPC\SSYY\vids\反1-<<a>>.webm" type=''video/webm;''></video></div>'
         '</div>'
     
     if a!9:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">patience </a></div>'
+               '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">patience </a></div>'
             end
             if a!2 and 1<=q and q<=3:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Hold back </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Hold back </a></div>'
             end
             if a!3 and 2<=q and q<=4:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Torment </a></div>'
+                '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Torment </a></div>'
             end
             if a!4 and 3<=q and q<=6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Mouth me </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Mouth me </a></div>'
             end
             if a!5 and 4<=q and q<=7:
-            '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Ride up </a></div>'
+                '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Ride up </a></div>'
             end
             if a!6 and 5<=q and q<=8:
-            '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">accelerate </a></div>'
+                '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">accelerate </a></div>'
             end
             if a!7 and 6<=q and q<=9:
-            '<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Can`t help it </a></div>'
+                '<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Can`t help it </a></div>'
             end
             if a!8 and 7<=q and q<=10:
-            '<div class="buttonS5"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Ejaculation </a></div>'
+                '<div class="buttonS5"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">Ejaculation </a></div>'
             end
             if a=8:
-            '<div class="button"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">dialogue </a></div>'
+                '<div class="button"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_reverse1''">dialogue </a></div>'
             end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p>I:Why did you choose this place... this is my sister`s room, right?…</p>'
-             '<p><<$SSYY.name>>:Dogs don`t ask questions#^_^#If you can hold back... I will destroy the photos of you and your sister!</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I:Why did you choose this place... this is my sister`s room, right?…</p>'
+            '<p><<$SSYY.name>>:Dogs don`t ask questions#^_^#If you can hold back... I will destroy the photos of you and your sister!</p>'
+        '</div>'
     end
-
-
-
 
     if 8>=a and a>=1:
-         '<div class="dialog_menu">'
-             '<p>I: Pain, pain, pain...pain!</p>'
-             if a>=2:'<p><<$SSYY.name>>:Shhh...continue to be patient…</p>'
-             if a>=3:'<p><<$SSYY.name>>:Is it so hard to have sex in my sister`s room?Sure enough, he is a pervert!</p>'
-             if a>=4:'<p>I:I`m not afraid of being discovered by my sister... if we find out, maybe we can still3P！</p>'
-             if a>=5:'<p><<$SSYY.name>>:Then I`ll shout louder?</p>'
-             if a>=6:'<p><<$SSYY.name>>:<<$words>></p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I: Pain, pain, pain...pain!</p>'
+            if a>=2:'<p><<$SSYY.name>>:Shhh...continue to be patient…</p>'
+            if a>=3:'<p><<$SSYY.name>>:Is it so hard to have sex in my sister`s room?Sure enough, he is a pervert!</p>'
+            if a>=4:'<p>I:I`m not afraid of being discovered by my sister... if we find out, maybe we can still3P！</p>'
+            if a>=5:'<p><<$SSYY.name>>:Then I`ll shout louder?</p>'
+            if a>=6:'<p><<$SSYY.name>>:<<$words>></p>'
+        '</div>'
     end
-
-
 
     if a=9:
-         $SSYY.bad+=q
-         $SSYY.love+=q+my.charm
-         $Yuya_Mission=0
-         '<div class="dialog_menu">'
-             '<p>I: Did you really take pictures?Can you show me the photos?</p>'
-             '<p><<$SSYY.name>>: Don`t you believe me?Then you can read the front page of the newspaper tomorrow!</p>'
-             '<p>I: ………...(Did she really take it?）</p>'
-         '</div>'
+        $SSYY.bad+=q
+        $SSYY.love+=q+my.charm
+        $Yuya_Mission=0
+        '<div class="dialog_menu">'
+            '<p>I: Did you really take pictures?Can you show me the photos?</p>'
+            '<p><<$SSYY.name>>: Don`t you believe me?Then you can read the front page of the newspaper tomorrow!</p>'
+            '<p>I: ………...(Did she really take it?）</p>'
+        '</div>'
     end
-
-
   q+=1
-End
+end
 
 if $args[0]="SSYY_Fuck_reverse2":
 	$Yuya_Mission=0
         '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\SSYY\vids\反2-<<a>>.webm" type=''video/webm;''></video></div>'
+            '<video preload="metadata" autoplay loop height="480">
+            <source src="images\NPC\SSYY\vids\反2-<<a>>.webm" type=''video/webm;''></video></div>'
         '</div>'
     
     if a!6:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Mouth her </a></div>'
+                '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Mouth her </a></div>'
             end
             if a!2 and 1<=q and q<=3:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Fuck her </a></div>'
+               '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Fuck her </a></div>'
             end
             if a!3 and 2<=q and q<=4:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Covered face </a></div>'
+               '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Covered face </a></div>'
             end
             if a!4 and 3<=q and q<=6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Accelerate the sprint </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Accelerate the sprint </a></div>'
             end
             if a!5 and 4<=q and q<=7:
-            '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Ejaculation </a></div>'
+                '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">Ejaculation </a></div>'
             end
             if a=5:
-            '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">dialogue </a></div>'
+                '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse2''">dialogue </a></div>'
             end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p>I:Uh...why did you choose this?</p>'
-             '<p><<$SSYY.name>>:Is your family at home?I can understand the feeling of worrying about being discovered by them all the time!！</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I:Uh...why did you choose this?</p>'
+            '<p><<$SSYY.name>>:Is your family at home?I can understand the feeling of worrying about being discovered by them all the time!！</p>'
+        '</div>'
     end
-
-
-
 
     if 5>=a and a>=1:
-         '<div class="dialog_menu">'
-             '<p>I:Then you have to keep your voice down!</p>'
-             if a>=2:'<p><<$SSYY.name>>:<<$Panting>></p>'
-             if a>=3:'<p><<$SSYY.name>>:<<$words>></p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I:Then you have to keep your voice down!</p>'
+            if a>=2:'<p><<$SSYY.name>>:<<$Panting>></p>'
+            if a>=3:'<p><<$SSYY.name>>:<<$words>></p>'
+        '</div>'
     end
-
-
 
     if a=6:
-         $SSYY.bad+=q
-         $SSYY.love+=q
-         $Yuya_Mission=0
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: Did you do it on purpose?！It`s over so soon!Are you scared of impotence or do you want to make a quick decision?</p>'
-             '<p>I: …...I`ll tell you if you delete the photo.</p>'
-         '</div>'
+        $SSYY.bad+=q
+        $SSYY.love+=q
+        $Yuya_Mission=0
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>: Did you do it on purpose?! It`s over so soon!Are you scared of impotence or do you want to make a quick decision?</p>'
+            '<p>I: …...I`ll tell you if you delete the photo.</p>'
+        '</div>'
     end
-
-
   q+=1
-End
+end
 
 if $args[0]="SSYY_Fuck_reverse3":
 	$Yuya_Mission=0
@@ -665,76 +600,66 @@ if $args[0]="SSYY_Fuck_reverse3":
     if a!9:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Lick her </a></div>'
+                '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Lick her </a></div>'
             end
             if a!2 and 1<=q and q<=3:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Start directly </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Start directly </a></div>'
             end
             if a!3 and 2<=q and q<=4:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Top her </a></div>'
+                '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Top her </a></div>'
             end
             if a!4 and 3<=q and q<=6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Back position </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Back position </a></div>'
             end
             if a!5 and 4<=q and q<=7:
-            '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">She`s on top </a></div>'
+                '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">She`s on top </a></div>'
             end
             if a!6 and 5<=q and q<=8:
-            '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Accelerate the sprint </a></div>'
+                '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Accelerate the sprint </a></div>'
             end
             if a!7 and 6<=q and q<=9:
-            '<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Can`t help it </a></div>'
+                '<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Can`t help it </a></div>'
             end
             if a!8 and 7<=q and q<=10:
-            '<div class="buttonS5"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Ejaculation </a></div>'
+                '<div class="buttonS5"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">Ejaculation </a></div>'
             end
             if a=8:
-            '<div class="button"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">dialogue </a></div>'
+                '<div class="button"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_reverse3''">dialogue </a></div>'
             end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
-         '<div class="dialog_menu">'
-             '<p>I:Uh... is it too late for me to leave now?</p>'
-             '<p><<$SSYY.name>>:This is a gift I have prepared for you!Dogs should be put on collars!</p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p>I:Uh... is it too late for me to leave now?</p>'
+            '<p><<$SSYY.name>>:This is a gift I have prepared for you!Dogs should be put on collars!</p>'
+        '</div>'
     end
-
-
-
 
     if 8>=a and a>=1:
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>:Good dog... I can only serve my master well!</p>'
-             if a>=2:'<p>I:Woohoo...woohoo…</p>'
-             if a>=3:'<p><<$SSYY.name>>:<<$Panting>></p>'
-             if a>=4:'<p><<$SSYY.name>>:<<$words>></p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>:Good dog... I can only serve my master well!</p>'
+            if a>=2:'<p>I:Woohoo...woohoo…</p>'
+            if a>=3:'<p><<$SSYY.name>>:<<$Panting>></p>'
+            if a>=4:'<p><<$SSYY.name>>:<<$words>></p>'
+        '</div>'
     end
-
-
 
     if a=9:
-         $SSYY.bad+=q+my.charm
-         $SSYY.love+=q+my.charm
-         $Yuya_Mission=0
-         '<div class="dialog_menu">'
-             '<p>I: ……...what`s the matter?</p>'
-             '<p><<$SSYY.name>>: A good idea just flashed through my mind... I`m not going to let him come back.(#^_^#)You are his superior substitute!</p>'
-         '</div>'
+        $SSYY.bad+=q+my.charm
+        $SSYY.love+=q+my.charm
+        $Yuya_Mission=0
+        '<div class="dialog_menu">'
+            '<p>I: ……...what`s the matter?</p>'
+            '<p><<$SSYY.name>>: A good idea just flashed through my mind... I`m not going to let him come back.(#^_^#)You are his superior substitute!</p>'
+        '</div>'
     end
-
-
   q+=1
-End
+end
 
 if $args[0]="SSYY_Fuck_Hotel Two":
         '<div class="show_menu">'
@@ -745,49 +670,46 @@ if $args[0]="SSYY_Fuck_Hotel Two":
     if a!11:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Come here </a></div>'
+                '<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Come here </a></div>'
             end
             if a!2 and 1<=q and q<=3:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Someone passed by </a></div>'
+                '<div class="buttonS1"><a href="exec:a=2 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Someone passed by </a></div>'
             end
             if a!3 and 2<=q and q<=4:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Hold it out </a></div>'
+                '<div class="buttonS2"><a href="exec:a=3 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Hold it out </a></div>'
             end
             if a!4 and 3<=q and q<=6:
-            '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Leave it outside </a></div>'
+                '<div class="buttonS2"><a href="exec:a=4 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Leave it outside </a></div>'
             end
             if a=4:
-            '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Take the opportunity to check your phone </a></div>'
+                '<div class="buttonS3"><a href="exec:a=5 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Take the opportunity to check your phone </a></div>'
             end
             if a>=5:
 				if a=5:
-				'<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Come in and blow me hard </a></div>'
+				    '<div class="buttonS4"><a href="exec:a=6 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Come in and blow me hard </a></div>'
 				end
 				if a=6 or a=8:
-				'<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Hugging and fucking </a></div>'
+				    '<div class="buttonS4"><a href="exec:a=7 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Hugging and fucking </a></div>'
 				end
 				if a=7 or a=9:
-				'<div class="buttonS4"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">She`s on top </a></div>'
+				    '<div class="buttonS4"><a href="exec:a=8 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">She`s on top </a></div>'
 				end
 				if a=8:
-				'<div class="buttonS4"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Vigorous sprint </a></div>'
+				    '<div class="buttonS4"><a href="exec:a=9 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Vigorous sprint </a></div>'
 				end
 				if a=9:
-				'<div class="buttonS5"><a href="exec:a=10 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Ejaculation </a></div>'
+				    '<div class="buttonS5"><a href="exec:a=10 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Ejaculation </a></div>'
 				end
 				if a=10:
-				'<div class="button"><a href="exec:a=11 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">dialogue </a></div>'
+				    '<div class="button"><a href="exec:a=11 & gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">dialogue </a></div>'
 				end
 			end
         '</div>'
-
-        else:
-            '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''Residential_area''">leave</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="button"><a href="exec:minutes+=30 & $SSYY.BAD+=1 & gt ''Residential_area''">leave</a></div>'
+        '</div>'
     end
-
-
 
     if a=0:
          '<div class="dialog_menu">'
@@ -796,38 +718,32 @@ if $args[0]="SSYY_Fuck_Hotel Two":
          '</div>'
     end
 
-
-
-
     if 10>=a and a>=1:
-         '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>:Good for you... it feels so cool to do it with the door open!</p>'
-             if a>=2:'<p>I:Shhh……</p>'
-             if a>=3:'<p><<$SSYY.name>>:Was it definitely seen just now?！Are you still going out?！hello!</p>'
-             if a>=4:'<p>I:You stay outside for a while…</p>'
-             if a>=5:'<p><<$SSYY.name>>:Stop it... I beg you!Open the door quickly, okay!I beg you!</p>'
-             if a>=6:'<p><<$SSYY.name>>:<<$Panting>></p>'
-             if a>=7:'<p><<$SSYY.name>>:<<$words>></p>'
-         '</div>'
+        '<div class="dialog_menu">'
+            '<p><<$SSYY.name>>:Good for you... it feels so cool to do it with the door open!</p>'
+            if a>=2:'<p>I:Shhh……</p>'
+            if a>=3:'<p><<$SSYY.name>>:Was it definitely seen just now?! Are you still going out?! Hello!</p>'
+            if a>=4:'<p>I:You stay outside for a while…</p>'
+            if a>=5:'<p><<$SSYY.name>>:Stop it... I beg you!Open the door quickly, okay!I beg you!</p>'
+            if a>=6:'<p><<$SSYY.name>>:<<$Panting>></p>'
+            if a>=7:'<p><<$SSYY.name>>:<<$words>></p>'
+        '</div>'
     end
-
-
 
     if a=11:
-         $SSYY.bad+=q+my.charm
-         $SSYY.love+=q+my.charm
-         if $Yuya_Event_Chain=6:$Yuya_Event_Chain=7
-         '<div class="dialog_menu">'
-             '<p>I: I just checked your phone…</p>'
-             '<p><<$SSYY.name>>: Damn it!It`s too much!How can you just peek at my privacy!</p>'
-             '<p>I: There are no pictures of me and my sister in it…</p>'
-             '<p><<$SSYY.name>>: Uh... I secretly transferred a long time ago!Leave this alone!It was so exciting just now, so cool!Let`s do it again, okay?！</p>'
-             '<p>I: Really... sure enough, beautiful women are the most deceptive... (It seems that she didn`t take pictures at all)</p>'
-         '</div>'
+        $SSYY.bad+=q+my.charm
+        $SSYY.love+=q+my.charm
+        if $Yuya_Event_Chain=6:$Yuya_Event_Chain=7
+        '<div class="dialog_menu">'
+            '<p>I: I just checked your phone…</p>'
+            '<p><<$SSYY.name>>: Damn it!It`s too much!How can you just peek at my privacy!</p>'
+            '<p>I: There are no pictures of me and my sister in it…</p>'
+            '<p><<$SSYY.name>>: Uh... I secretly transferred a long time ago!Leave this alone!It was so exciting just now, so cool!Let`s do it again, okay?！</p>'
+            '<p>I: Really... sure enough, beautiful women are the most deceptive... (It seems that she didn`t take pictures at all)</p>'
+        '</div>'
     end
-
   q+=1
-End
+end
 
 if $args[0]="SSYY_Fuck_toilet":
         '<div class="show_menu">'
@@ -854,7 +770,7 @@ if $args[0]="SSYY_Fuck_toilet":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -924,7 +840,7 @@ if $args[0]="SSYY_Fuck_Before the end":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -1002,7 +918,7 @@ if $args[0]="SSYY_Fuck_massage":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -1079,7 +995,7 @@ if $args[0]="SSYY_Fuck_Villa massage":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">leave</a></div>'
             '</div>'
@@ -1145,7 +1061,7 @@ if $args[0]="SSYY_Fuck_sleep":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">leave</a></div>'
             '</div>'
@@ -1200,7 +1116,7 @@ if $args[0]="SSYY_Fuck_Brushyourteeth":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">leave</a></div>'
             '</div>'
@@ -1273,7 +1189,7 @@ if $args[0]="SSYY_Fuck_interview":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Go back together</a></div>'
             '</div>'
@@ -1363,7 +1279,7 @@ if $args[0]="SSYY_Fuck_cover":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Slip away right away</a></div>'
             '</div>'
@@ -1423,10 +1339,10 @@ if $args[0]="Selection of jobs":
 
         '<div class="button_menu">'
             if a=0:'<div class="buttonS1"><a href="exec:a=1 & gt ''Yuya_Event'',''Selection of jobs''">Choose while fucking </a></div>'
-			if $SSYY.Multifaceted>=15:'<div class="buttonG1"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_interview''">Magazine interview </a></div>'else:'<div class="buttonGr"><a href="exec:">Multi-faceted demand15</a></div>'
-			if $SSYY.Multifaceted>=20:'<div class="buttonG2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_cover''">Shooting posters </a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
-			if $SSYY.Multifaceted>=25:'<div class="buttonG3"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Thanksgiving Festival''">Fan Appreciation Festival </a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
-			if $Agreetoanewperformance=1:'<div class="buttonPu4"><a href="exec:gt ''Group_performation_event'',''New new show''">Threesome tonight </a></div>'else:'<div class="buttonGr"><a href="exec:">Not allowed</a></div>'
+			if $SSYY.Multifaceted>=15:'<div class="buttonG1"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_interview''">Magazine interview </a></div>'else'<div class="buttonGr"><a href="exec:">Multi-faceted demand15</a></div>'
+			if $SSYY.Multifaceted>=20:'<div class="buttonG2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_cover''">Shooting posters </a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
+			if $SSYY.Multifaceted>=25:'<div class="buttonG3"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Thanksgiving Festival''">Fan Appreciation Festival </a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
+			if $Agreetoanewperformance=1:'<div class="buttonPu4"><a href="exec:gt ''Group_performation_event'',''New new show''">Threesome tonight </a></div>'else'<div class="buttonGr"><a href="exec:">Not allowed</a></div>'
 			
             if a!0:'<div class="button"><a href="exec:a=1 & gt ''Big_villa''">leave </a></div>'
         '</div>'
@@ -1476,7 +1392,7 @@ if $args[0]="SSYY_Fuck_Thanksgiving Festival":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
             '<div class="buttonR3"><a href="exec:a=0 & q=0 & gt ''Yuya_Event'',''SSYY_Fuck_Thanksgiving Festival2''">Pretend to be angry </a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Go back together</a></div>'
@@ -1560,7 +1476,7 @@ if $args[0]="SSYY_Fuck_Thanksgiving Festival2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Go back together</a></div>'
             '</div>'
@@ -1633,7 +1549,7 @@ if $args[0]="SSYY_Fuck_Early attack":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Get up</a></div>'
             '</div>'
@@ -1710,7 +1626,7 @@ if $args[0]="SSYY_Fuck_Late_attack":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Good night</a></div>'
             '</div>'
@@ -1780,7 +1696,7 @@ if $args[0]="SSYY_Fuck_Eatinthevilla":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">leave</a></div>'
             '</div>'
@@ -1842,7 +1758,7 @@ if $args[0]="SSYY_Fuck_Physiology":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Calmed down</a></div>'
             '</div>'

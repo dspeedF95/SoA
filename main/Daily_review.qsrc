@@ -254,11 +254,11 @@ if $ARGS[0]="Officially started":
 	'<div class="button_menu">'
 		'<div class="buttonB"><a href="exec:minutes+=15 & Reviewandjudgment=1 & gt ''Daily_review'',''judgment''">pass</a></div>'
 		'<div class="buttonR"><a href="exec:minutes+=15 & Reviewandjudgment=2 & gt ''Daily_review'',''judgment''">Rejected</a></div>'
-		if $auditlevel>=2:'<div class="buttonS1"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Close-up of vagina''">Authority:Close-up of vagina</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
-		if $auditlevel>=3:'<div class="buttonS2"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Oral examination''">Authority:Oral examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
-		if $auditlevel>=4:'<div class="buttonS3"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Anal examination''">Authority:Anal examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
-		if $auditlevel>=5:'<div class="buttonS4"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Vaginal examination''">Authority:Vaginal examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
-		if $auditlevel>=6:'<div class="buttonS5"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Two-point examination''">Authority:Two-point examination</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=2:'<div class="buttonS1"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Close-up of vagina''">Authority:Close-up of vagina</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=3:'<div class="buttonS2"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Oral examination''">Authority:Oral examination</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=4:'<div class="buttonS3"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Anal examination''">Authority:Anal examination</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=5:'<div class="buttonS4"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Vaginal examination''">Authority:Vaginal examination</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
+		if $auditlevel>=6:'<div class="buttonS5"><a href="exec:minutes+=15 &  gt ''Daily_review'',''Two-point examination''">Authority:Two-point examination</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient authority</a></div>'
 
 
 	'</div>'
@@ -284,7 +284,7 @@ if $ARGS[0]="judgment":
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\videos\cheak\检查成功~1.webm" type=''video/webm;''></video></div>'
 		'</div>'
-	else:
+	else
 		'<div class="show_menu2">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\videos\cheak\检查失败~1.webm" type=''video/webm;''></video></div>'
@@ -294,7 +294,7 @@ if $ARGS[0]="judgment":
 	
 	'<div class="button_menu">'
 		'<div class="buttonP"><a href="exec:minutes+=15 & Lockreview=1 & gt ''Daily_review'',''Officially started''">Next</a></div>'
-		if $Numberofreviewers>10 and $Correctback>Netcorrectnumberoftimes+$Errorback-1:'<div class="buttonG"><a href="exec:minutes+=15 & Lockreview=1 & $auditlevel+=1 & gt ''Daily_review'',''Officially started''">promotion</a></div>'else:'<div class="buttonGr"><a href="exec:">promotion:Insufficient conditions</a></div>'
+		if $Numberofreviewers>10 and $Correctback>Netcorrectnumberoftimes+$Errorback-1:'<div class="buttonG"><a href="exec:minutes+=15 & Lockreview=1 & $auditlevel+=1 & gt ''Daily_review'',''Officially started''">promotion</a></div>'else'<div class="buttonGr"><a href="exec:">promotion:Insufficient conditions</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''City_hall''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'

@@ -67,17 +67,17 @@ if $args[0]="Ghost2":
 
 	'<div class="button_menu">'
 		if $XZ_Event_ghost.completed<2:
-			if  $XZ_Event_ghost>=9 and camera>0 and $XZ_Event_ghost.completed=0 :
+			if  $XZ_Event_ghost>=9 and camera>0 and $XZ_Event_ghost.completed=0:
 				'<div class="button"><a href="exec:minutes+=5 & $XZ_Event_ghost.completed=1 & gt ''university''">Take it down</a></div>'
-			 else:
+			 else
 				'<div class="buttonGr"><a href="exec:">Need a camera+Handling new complaints</a></div>'
 			 end
 		 end
 		 
 		if  $XZ_Event_ghost.completed=2:
 			'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Principal_Event'',''XZ_Fuck_Early morning training''">Show up</a></div>'
-		 else:
-			'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		 else
+			'<div class="buttonGr"><a href="exec:">???</a></div>'
 		 end
 		
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'

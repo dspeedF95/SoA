@@ -60,12 +60,12 @@ if $args[0]="YS_Fuck_Kitchen sleep":
     if a<6:
         '<div class="button_menu">'
             '<div class="buttonR"><a href="exec:a+=1 & gt ''Widow_Incident'',''YS_Fuck_Kitchen sleep''">Eavesdropping on conversations</a></div>'
-            '<div class="buttonGn"><a href="exec: gt ''Widow`s_house''">Don`t watch it anymore</a></div>'
+            '<div class="buttonGn"><a href="exec: gt ''Widows_house''">Don`t watch it anymore</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
 				if Drawingrepairdegree>=100:'<div class="buttonGn"><a href="exec: gt ''Widow_Incident'',''Floor plan''">Take a look at the drawings</a></div>'
-                '<div class="buttonGn"><a href="exec: gt ''Widow`s_house''">Don`t watch it anymore</a></div>'
+                '<div class="buttonGn"><a href="exec: gt ''Widows_house''">Don`t watch it anymore</a></div>'
                 
             '</div>'
     end
@@ -124,7 +124,7 @@ if $args[0]="The second-in-command returns":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>？？？: Hey, which side is which, who is in charge of the Longkou Group now?</p>'
+		'<p>???: Hey, which side is which, who is in charge of the Longkou Group now?</p>'
 	'</div>'
 end
 
@@ -141,7 +141,7 @@ if $args[0]="dispute":
 
 	if a!8:
 	'<div class="dialog_menu">'
-		'<p>？？？: Impossible!You said the team leader is dead. How is this possible?！</p>'
+		'<p>???: Impossible!You said the team leader is dead. How is this possible?！</p>'
 		if a>=2:'<p><<$YS.name>>: Who are you?The Longkou Group disbanded a few years ago.</p>'
 		if a>=3:'<p>Ma Dongyu: Who am I?When I was with my eldest brother, I didn`t have you yet!I am the captain of the Yifan team, known as “People cut ten thousand horses”, and the second deputy of the Longkou Group!The Longkou Group was formed by me following my eldest brother from birth to death!</p>'
 		if a>=4:'<p><<$YS.name>>: Hehe, since you said you are the second deputy of the Longkou Group, why haven`t I heard of you?</p>'
@@ -184,7 +184,7 @@ if $args[0]="YS_Fuck_Warehouse dialogue2":
 		'<div class="buttonR3"><a href="exec:DXdialogue=1 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue2''">threat:Then I called the police</a></div>'
 		'<div class="buttonS3"><a href="exec:DXdialogue=2 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue2''">lie:I bought it</a></div>'
 		'<div class="buttonG4"><a href="exec:DXdialogue=3 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue2''">sincere:I stole it</a></div>'
-	 else:
+	 else
 		'<div class="buttonGn4"><a href="exec:DXdialogue=0 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue3''">Calm down and talk</a></div>'
 	 end
 	'</div>'
@@ -232,7 +232,7 @@ if $args[0]="YS_Fuck_Warehouse dialogue4":
          '<div class="dialog_menu">'
 			 '<p>Ma Dongyu: This woman?</p>'
              '<p>Me: She`s useless to you, right?</p>'
-			 '<p><<$YS.name>>: save…<<$Protagonist`s_surname>> ...save me……</p>'
+			 '<p><<$YS.name>>: save…<<$Protagonists_surname>> ...save me……</p>'
 			 '<p>Ma Dongmao: It`s not impossible. If this woman is played to death here, she will be in trouble.I promised you.</p>'
              '<p>Me: I know that the Longkou Group has always kept its word.*Help her up</p>'
 			 '<p>Ma Dongyu: Of course.</p>'
@@ -266,7 +266,7 @@ if $args[0]="YS_Fuck_warehouse":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
 				'<div class="buttonGn3"><a href="exec:a=0 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue''">The boss is back </a></div>'
                 '<div class="button"><a href="exec:gt ''Kabukicho''">leave </a></div>'
@@ -347,7 +347,7 @@ if $args[0]="YS_Fuck_comfort":
             if a>=7:'<div class="buttonR5"><a href="exec:a=8 & gt ''Widow_Incident'',''YS_Fuck_comfort''">Ejaculation </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG4"><a href="exec:$YS.massage=1 & gt ''company''">Invitation to self-operated massage shop </a></div>'
                 '<div class="buttonG5"><a href="exec:YScos=1 & gt ''company''">Invitation to self-operated photo studio </a></div>'
@@ -440,7 +440,7 @@ if $args[0]="YS_Fuck_sofa":
             if a=8:'<div class="button"><a href="exec:a=9 & gt ''Widow_Incident'',''YS_Fuck_sofa''">dialogue </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Town_house''">leave </a></div>'
             '</div>'
@@ -515,9 +515,9 @@ if $args[0]="YS_Fuck_Same sheriff":
             if a=8:'<div class="button"><a href="exec:a=9 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff''"><<$YS.name>>understand </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                if 100<=YSJZUnderstandingvalue:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Let her have fun together </a></div>'else:'<div class="buttonGr"><a href="exec:">Remaining anger<<100-YSJZUnderstandingvalue>>% </a></div>'
+                if 100<=YSJZUnderstandingvalue:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Let her have fun together </a></div>'else'<div class="buttonGr"><a href="exec:">Remaining anger<<100-YSJZUnderstandingvalue>>% </a></div>'
                 '<div class="button"><a href="exec:gt ''Town_house''">leave </a></div>'
             '</div>'
     end
@@ -583,7 +583,7 @@ if $args[0]="YS_Fuck_Same sheriff2":
             if a=12 or a=6:'<div class="buttonB5"><a href="exec:a=13 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Lick cock Yanhe </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Town_house''">The anger subsided</a></div>'
             '</div>'
@@ -664,7 +664,7 @@ if $args[0]="YS_Fuck_divorce":
             if a=12:'<div class="buttonB5"><a href="exec:a=13 & gt ''Widow_Incident'',''YS_Fuck_divorce''">Sign a divorce agreement </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Town_house''">The anger subsided</a></div>'
             '</div>'
@@ -768,7 +768,7 @@ if $args[0]="YS_Fuck_shares":
             if q=0:
                 '<div class="buttonS1"><a href="exec:a=1 & gt ''Widow_Incident'',''YS_Fuck_shares''">Gain trust</a></div>'
             end
-            if 3>=q and q>=1 :
+            if 3>=q and q>=1:
                 '<div class="buttonS2"><a href="exec:a=2 & gt ''Widow_Incident'',''YS_Fuck_shares''">Playing with her pussy</a></div>'
                 '<div class="buttonS3"><a href="exec:a=3 & gt ''Widow_Incident'',''YS_Fuck_shares''">Lick my egg</a></div>'
                 '<div class="buttonS4"><a href="exec:a=4 & gt ''Widow_Incident'',''YS_Fuck_shares''">Listen to me carefully</a></div>'
@@ -789,7 +789,7 @@ if $args[0]="YS_Fuck_shares":
                 if a=11:'<div class="buttonB5"><a href="exec:a=12 & gt ''Widow_Incident'',''YS_Fuck_shares''">Equity custody agreement</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG5"><a href="exec:gt ''Town_house''">get20%Restaurantshares</a></div>'
             '</div>'

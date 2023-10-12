@@ -24,7 +24,7 @@ if $args[0]="XZ_Fuck_Early morning training":
 			 <source src="images\NPC\XZ\vids\凌晨调教<<a>>~1.webm" type=''video/webm;''></video></div>'
 		'</div>'
 	if $XZ.bad>= a*8-20:
-		else:
+		else
 		a=9
 	end
 
@@ -57,14 +57,14 @@ if $args[0]="XZ_Fuck_Early morning training":
 			if a=8:
 			'<div class="button"><a href="exec:a=9 & gt ''Principal_Event'',''XZ_Fuck_Early morning training''">Look at her</a></div>'
 			end
-			if $XZ.bad < a*8-12 :
-			'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			if $XZ.bad < a*8-12:
+			'<div class="buttonGr"><a href="exec:">???</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $XZ.bad>=75:'<div class="buttonS"><a href="exec:minutes+=30 &q=0 & a=0 & gt ''Principal_Event'',''XZ_Fuck_Early morning''">Pretend to leave</a></div>'
-				if $XZ.bad < 75:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+				if $XZ.bad < 75:'<div class="buttonGr"><a href="exec:">???</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
 	end
@@ -76,7 +76,7 @@ if $args[0]="XZ_Fuck_Early morning training":
 		 '</div>'
 	end
 
-	if 7>=a and a>=1 :
+	if 7>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>I:As long as you cooperate obediently, I promise that no third person will know about this matter.If the members of the school picket team knew that you were a crazy headmistress, would they gang rape you?</p>'
 			 '<p><<$XZ.name>>：…………</p>'
@@ -84,7 +84,7 @@ if $args[0]="XZ_Fuck_Early morning training":
 	end
 
 
-	if a=8 :
+	if a=8:
 		 '<div class="dialog_menu">'
 			 '<p>I:Your eyes seem to tell me you still want it?</p>'
 			 '<p><<$XZ.name>>：…………</p>'
@@ -139,7 +139,7 @@ if $args[0]="XZ_Fuck_Early morning":
 			'<div class="button"><a href="exec:a=7 & gt ''Principal_Event'',''XZ_Fuck_Early morning''">Take a photo as a souvenir</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -152,14 +152,14 @@ if $args[0]="XZ_Fuck_Early morning":
 		 '</div>'
 	end
 
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>I:Are the students still satisfied with the meat stick?</p>'
 			 '<p><<$XZ.name>>: Satisfied<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 6>=a and a>=3 :
+	if 6>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$XZ.name>>：<<$Panting>><<$words>></p>'
 		 '</div>'
@@ -187,7 +187,7 @@ End
 
 if $args[0]="XZ_Fuck_Sexual_harassment":
 	 if $XZ.bad>= a*10:
-		else:
+		else
 		a=9
 		end
 
@@ -225,10 +225,10 @@ if $args[0]="XZ_Fuck_Sexual_harassment":
 			'<div class="button"><a href="exec:a=8 & gt ''Principal_Event'',''XZ_Fuck_Sexual_harassment''">Request oral sex</a></div>'
 			end
 			if $XZ.bad< a*10+10:
-			'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			'<div class="buttonGr"><a href="exec:">???</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $XZ.bad>=100:'<div class="button"><a href="exec:minutes+=30 &a=0&q=0& gt ''Principal_Event'',''XZ_Blowjob behind the door''">Blowjob behind the door</a></div>'
 				
@@ -242,14 +242,14 @@ if $args[0]="XZ_Fuck_Sexual_harassment":
 		 '</div>'
 	end
 
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>I:It`s okay, your classroom discipline is so strict, no student will find out.</p>'
 			 '<p><<$XZ.name>>：<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 7>=a and a>=3 :
+	if 7>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$XZ.name>>：<<$Panting>></p>'
 		 '</div>'
@@ -304,10 +304,10 @@ if $args[0]="XZ_Blowjob behind the door":
 			'<div class="button"><a href="exec:a=4 & gt ''Principal_Event'',''XZ_Blowjob behind the door''">Lift pants</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $XZ.bad>=150:'<div class="buttonS"><a href="exec:minutes+=30 &a=0&q=0& gt ''Principal_Event'',''XZ_Fuck_Empty_classroomA''">Go to the next classroom</a></div>'
-				if $XZ.bad<150:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+				if $XZ.bad<150:'<div class="buttonGr"><a href="exec:">???</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
 	end
@@ -366,7 +366,7 @@ if $args[0]="XZ_Fuck_Empty_classroomA":
 			if a!6 and 7>=q and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Principal_Event'',''XZ_Fuck_Empty_classroomA''">Ride up by yourself</a></div>'
 			end
-			if a<7 and 20>=q and q>=6 :
+			if a<7 and 20>=q and q>=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Principal_Event'',''XZ_Fuck_Empty_classroomA''">sprint</a></div>'
 			end
 			if a=7:
@@ -377,7 +377,7 @@ if $args[0]="XZ_Fuck_Empty_classroomA":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -386,24 +386,24 @@ if $args[0]="XZ_Fuck_Empty_classroomA":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$XZ.name>>:……<<$Panting>>...You are too much... I am the principal…</p>'
-			 '<p>？？？:Hey... stay here and skip a class…</p>'
-			 '<p>？？？:Have you watched the latest "One Piece"...Luffy found itone……</p>'
+			 '<p>???:Hey... stay here and skip a class…</p>'
+			 '<p>???:Have you watched the latest "One Piece"...Luffy found itone……</p>'
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>？？？:Hey hey... won`t anyone be there?！！</p>'
+			 '<p>???:Hey hey... won`t anyone be there?！！</p>'
 			 '<p><<$XZ.name>>:Huh!</p>'
-			 '<p>？？？:Ah!<<$XZ.name>>！！</p>'
+			 '<p>???:Ah!<<$XZ.name>>！！</p>'
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p>？？？:<<$XZ.name>>, why are you here?</p>'
+			 '<p>???:<<$XZ.name>>, why are you here?</p>'
 			 '<p><<$XZ.name>>:Don`t come over!Answer me!What are you doing here?Did you skip school?</p>'
-			 '<p>？？？:Ah ah ah!<<$XZ.name>>, No, we, we are in the wrong classroom!！</p>'
+			 '<p>???:Ah ah ah!<<$XZ.name>>, No, we, we are in the wrong classroom!！</p>'
 			 '<p><<$XZ.name>>:Don`t go yet!Do you want to eat breakfast?</p>'
 		 '</div>'
 	end
@@ -478,7 +478,7 @@ if $args[0]="XZ_Fuck_Empty classroomB":
 			'<div class="button"><a href="exec:a=10 & gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -487,14 +487,14 @@ if $args[0]="XZ_Fuck_Empty classroomB":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>(A sundries room after school)'
-			 '<p>？？？:Hey... after cleaning, let`s go to the mall to see the beautiful buttocks for a while.……</p>'
-			 '<p>？？？:Okay, since the Women`s Leadership Act opened up the freedom of dressing... those skank dresses have become bolder and bolder.…</p>'
+			 '<p>???:Hey... after cleaning, let`s go to the mall to see the beautiful buttocks for a while.……</p>'
+			 '<p>???:Okay, since the Women`s Leadership Act opened up the freedom of dressing... those skank dresses have become bolder and bolder.…</p>'
 			 '<p><<$XZ.name>>:...Shhh...keep your voice down...don`t be discovered by them…</p>'
 			 '<p>I:Didn`t you just bring me here to have sex just because you wanted to be discovered by them...?</p>'
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$XZ.name>>:Dead ghost!I was discovered by them, and you will never have a chance to fuck me again.</p>'
 		 '</div>'
@@ -513,7 +513,7 @@ if $args[0]="XZ_Fuck_Empty classroomB":
 		 $XZ.love+=q*2+my.charm
 		 $XZ.bad+=q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p>？？？:It`s finally over... I`m exhausted... you guys wait for me!</p>'
+			 '<p>???:It`s finally over... I`m exhausted... you guys wait for me!</p>'
 			 '<p>I:Next time let`s go to a place where you can scream loudly. I want to hear you scream.</p>'
 			 '<p><<$XZ.name>>:……...I personally prefer this kind of heart-scratching feeling of cheating...but... I can satisfy you occasionally.</p>'
 		 '</div>'
@@ -553,7 +553,7 @@ if $args[0]="XZ_Fuck_officeA":
 			'<div class="button"><a href="exec:a=6 & gt ''Principal_Event'',''XZ_Fuck_officeA''">Internal injection</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">Satisfied</a></div>'
 			'</div>'
@@ -630,7 +630,7 @@ if $args[0]="XZ_Fuck_officeB":
 			'<div class="button"><a href="exec:a=7 & gt ''Principal_Event'',''XZ_Fuck_officeB''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
@@ -730,7 +730,7 @@ if $args[0]="XZ_Fuck_officeC":
 			'<div class="button"><a href="exec:a=10 & gt ''Principal_Event'',''XZ_Fuck_officeC''">Internal injection</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">The coming days are long</a></div>'
 			'</div>'
@@ -743,7 +743,7 @@ if $args[0]="XZ_Fuck_officeC":
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$XZ.name>>:……...perverted…</p>'
 			 '<p>I:Is it compared to a woman who is completely naked?</p>'
@@ -819,19 +819,19 @@ if $args[0]="XZ_Fuck_FXZ":
 			'<div class="buttonP"><a href="exec:a=12 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">fuck<<$XZ.name>></a></div>'
 			end
 
-			if a=9 or a=12 :
+			if a=9 or a=12:
 			'<div class="buttonS"><a href="exec:a+=1 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">accelerate</a></div>'
 			end
 
-			if a=10 or a=13 :
+			if a=10 or a=13:
 			'<div class="buttonS"><a href="exec:a+=1 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">Creampie</a></div>'
 			end
 
-			if (a=11 or a=14) and q>=12 :
+			if (a=11 or a=14) and q>=12:
 			'<div class="buttonR"><a href="exec:a=15 & minutes+=120 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">2Hours later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -841,50 +841,50 @@ if $args[0]="XZ_Fuck_FXZ":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$FXZ.name>>:...it`s really rare...to stay in the same car with you…</p>'
-			 '<p><<$XZ.name>> :...same to each other...let`s talk about what`s the matter with us.</p>'
-			 '<p>I :...Today I invite two principals...for one purpose...please follow me.</p>'
+			 '<p><<$XZ.name>>:...same to each other...let`s talk about what`s the matter with us.</p>'
+			 '<p>I:...Today I invite two principals...for one purpose...please follow me.</p>'
 		 '</div>'
 	end
 
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>I :... It`s rare that both of you are here... I would like to take this opportunity to express my position.…</p>'
+			 '<p>I:... It`s rare that both of you are here... I would like to take this opportunity to express my position.…</p>'
 			 '<p><<$FXZ.name>>:...oh?...I thought you were on my side.</p>'
-			 '<p><<$XZ.name>> :………</p>'
+			 '<p><<$XZ.name>>:………</p>'
 		 '</div>'
 	end
 
 	if a=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$FXZ.name>>:As the head of a school... the principal should attach great importance to the construction of the school`s spiritual civilization and lead the creation of a civilized school... But I have always felt that<<$XZ.name>>The dedication to the school is insufficient.</p>'
-			 '<p>I :Dedication...?</p>'
+			 '<p>I:Dedication...?</p>'
 			 '<p><<$FXZ.name>>:That`s right!I am willing to make any sacrifices for the post of principal!With this awareness, I can be with<<$Protagonist`s_name>>Have sex, can you do it?！</p>'
 		 '</div>'
 	end
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$XZ.name>> :...what you can do...I may not be able to do it………</p>'
+			 '<p><<$XZ.name>>:...what you can do...I may not be able to do it………</p>'
 			 '<p><<$FXZ.name>>:good!Then today we will make a high point!</p>'
-			 '<p><<$XZ.name>> :Heh... I have no problem…</p>'
+			 '<p><<$XZ.name>>:Heh... I have no problem…</p>'
 		 '</div>'
 	end
 
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$XZ.name>> :...The ugly words come first...If someone can`t do it...they have to voluntarily give up the principal`s campaign.…</p>'
+			 '<p><<$XZ.name>>:...The ugly words come first...If someone can`t do it...they have to voluntarily give up the principal`s campaign.…</p>'
 			 '<p><<$FXZ.name>>:No problem，<<$Protagonist`s_name>>Classmate, it`s up to you to be the referee!</p>'
 		 '</div>'
 	end
 
 
 
-	if 14>=a and a>=5 :
+	if 14>=a and a>=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>> :...yes...that`s it，<<$words>>...can you keep up with this rhythm?</p>'
-			 '<p><<$XZ.name>> :…<<$Panting>>…...what do you say?</p>'
-			 if a=11 or a=14:'<p>·With a puff, thick semen flowed out of her narrow vagina......</p>'else:'<p><<$FXZ.name>> :...it`s not over yet!</p>'
+			 '<p><<$FXZ.name>>:...yes...that`s it，<<$words>>...can you keep up with this rhythm?</p>'
+			 '<p><<$XZ.name>>:…<<$Panting>>…...what do you say?</p>'
+			 if a=11 or a=14:'<p>·With a puff, thick semen flowed out of her narrow vagina......</p>'else'<p><<$FXZ.name>>:...it`s not over yet!</p>'
 		 '</div>'
 	end
 
@@ -895,9 +895,9 @@ if $args[0]="XZ_Fuck_FXZ":
 		 $XZ.bad+=q
 		 $Campustalker="【✩ Campustalker】"
 		 '<div class="dialog_menu">'
-			 '<p>I :Wait...wait…</p>'
+			 '<p>I:Wait...wait…</p>'
 			 '<p><<$FXZ.name>>:Hey hey hey…<<$Protagonist`s_name>>Classmate, is it no longer possible?The outcome has not been determined yet!</p>'
-			 '<p><<$XZ.name>> :What a pity!But I propose that future decisions can be made in this way.<<$Protagonist`s_name>>Classmates come to be the middleman for the ruling.</p>'
+			 '<p><<$XZ.name>>:What a pity!But I propose that future decisions can be made in this way.<<$Protagonist`s_name>>Classmates come to be the middleman for the ruling.</p>'
 			 '<p><<$FXZ.name>>:Ok，<<$Protagonist`s_name>>I have no opinion on classmates who are talkers!</p>'
 			 '<p>·This kind of nondescript teacher-student relationship gradually affected their relationship.</p>'
 			 '<p>解锁Unlock achievements:<<$Campustalker>></p>'

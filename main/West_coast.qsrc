@@ -22,7 +22,7 @@ if $ARGS[0]="":
 		
 	'<div class="button_menu">'
 		'<div class="buttonG3"><a href="exec:Securitydialogue=0 & gt ''West_coast'',''Entrance to the Imperial Mansion''">Visit the Imperial Mansion</a></div>'
-		if Opencoast=1:'<div class="buttonGn1"><a href="exec:minutes+=15 & gt ''West_coast'',''Shower''">Go to the shower</a></div>'else:'<div class="buttonGr"><a href="exec:">Not open to the public</a></div>'
+		if Opencoast=1:'<div class="buttonGn1"><a href="exec:minutes+=15 & gt ''West_coast'',''Shower''">Go to the shower</a></div>'else'<div class="buttonGr"><a href="exec:">Not open to the public</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
 	'</div>'
 
@@ -120,7 +120,7 @@ if $ARGS[0]="Hang out3":
 		
 	'<div class="button_menu">'
 		'<div class="buttonGr"><a href="exec:">Keep hanging out</a></div>'
-		if my.Physical_strength >=6:'<div class="button"><a href="exec:gt ''West_coast'',''Hang out4''">Show off your figure</a></div>'else:'<div class="buttonGr"><a href="exec:">Too bad figure</a></div>'
+		if my.Physical_strength >=6:'<div class="button"><a href="exec:gt ''West_coast'',''Hang out4''">Show off your figure</a></div>'else'<div class="buttonGr"><a href="exec:">Too bad figure</a></div>'
 		'<div class="button"><a href="exec:gt ''West_coast'',''Gold Coast''">return</a></div>'
 	'</div>'
 
@@ -159,7 +159,7 @@ if $ARGS[0]="Entrance to the Imperial Mansion":
 	'<div class ="show_menu"><img src="images\NPC\CT\pics\入口<<rand(1,3)>>.jpg" width="854"></div>'
 		
 	'<div class="button_menu">'
-		if $CT.home>0 :'<div class="buttonS1"><a href="exec:Securitydialogue=1 & gt ''West_coast'',''Entrance to the Imperial Mansion''">Show the certificate of Assistant president</a></div>'else:'<div class="buttonGr"><a href="exec:">Show the certificate of Assistant president</a></div>'
+		if $CT.home>0:'<div class="buttonS1"><a href="exec:Securitydialogue=1 & gt ''West_coast'',''Entrance to the Imperial Mansion''">Show the certificate of Assistant president</a></div>'else'<div class="buttonGr"><a href="exec:">Show the certificate of Assistant president</a></div>'
 		if Securitydialogue=1:'<div class="button"><a href="exec:gt ''Imperial_Mansion''">Direct access</a></div>'
 		if Securitydialogue=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_guard1''">Introducing privileges</a></div>'
 		'<div class="button"><a href="exec:gt ''West_coast''">leave</a></div>'

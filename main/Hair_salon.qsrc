@@ -37,14 +37,14 @@ if $ARGS[0] ="Price list":
 
 
 	'<div class="button_menu">'
-		if BarCard>0:'<div class="buttonG1"><a href="exec:Barber=0 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Trainee barber</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
-		if BarCard>=2000:'<div class="buttonG2"><a href="exec:Barber=1 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Popular wash, cut and blow</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
-		if BarCard>=4000:'<div class="buttonG3"><a href="exec:Barber=2 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">High-end hot dyeing artist</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
-		if BarCard>=8000:'<div class="buttonG4"><a href="exec:Barber=3 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Senior hairdresser</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
-		if BarCard>=16000:'<div class="buttonG5"><a href="exec:Barber=4 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Invited stylist</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
-		if BarCard>=32000:'<div class="buttonPu3"><a href="exec:Barber=5 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Chief designer</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
-		if BarCard>=64000:'<div class="buttonPu4"><a href="exec:Barber=6 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Styling director</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
-		if BarCard>=128000:'<div class="buttonPu5"><a href="exec:Barber=7 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">The store manager is in person</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>0:'<div class="buttonG1"><a href="exec:Barber=0 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Trainee barber</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>=2000:'<div class="buttonG2"><a href="exec:Barber=1 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Popular wash, cut and blow</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>=4000:'<div class="buttonG3"><a href="exec:Barber=2 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">High-end hot dyeing artist</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>=8000:'<div class="buttonG4"><a href="exec:Barber=3 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Senior hairdresser</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>=16000:'<div class="buttonG5"><a href="exec:Barber=4 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Invited stylist</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>=32000:'<div class="buttonPu3"><a href="exec:Barber=5 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Chief designer</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>=64000:'<div class="buttonPu4"><a href="exec:Barber=6 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">Styling director</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
+		if BarCard>=128000:'<div class="buttonPu5"><a href="exec:Barber=7 & gt ''Group_performation_event'',''Universal_Fuck_Barber''">The store manager is in person</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient balance</a></div>'
 
 	'</div>'
 
@@ -61,9 +61,9 @@ if $ARGS[0] ="Recharge card":
 
 
 	'<div class="button_menu">'
-		if money>=1000:'<div class="buttonG1"><a href="exec:minutes+=5 & money-=1000 & BarCard+=2000 & gt ''Hair_salon'',''Recharge card''">charge1000</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of money</a></div>'
-		if money>=10000:'<div class="buttonG5"><a href="exec:minutes+=5 & money-=10000 & BarCard+=20000 & gt ''Hair_salon'',''Recharge card''">charge10000</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of money</a></div>'
-		if money>=100000:'<div class="buttonS"><a href="exec:minutes+=5 & money-=100000 & BarCard+=200000 & gt ''Group_performation_event'',''Universal_Fuck_Barber2''">charge100000</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of money</a></div>'
+		if money>=1000:'<div class="buttonG1"><a href="exec:minutes+=5 & money-=1000 & BarCard+=2000 & gt ''Hair_salon'',''Recharge card''">charge1000</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of money</a></div>'
+		if money>=10000:'<div class="buttonG5"><a href="exec:minutes+=5 & money-=10000 & BarCard+=20000 & gt ''Hair_salon'',''Recharge card''">charge10000</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of money</a></div>'
+		if money>=100000:'<div class="buttonS"><a href="exec:minutes+=5 & money-=100000 & BarCard+=200000 & gt ''Group_performation_event'',''Universal_Fuck_Barber2''">charge100000</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of money</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
 	'</div>'
 

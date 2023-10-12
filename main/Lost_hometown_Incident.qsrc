@@ -93,10 +93,10 @@ if $args[0]="Lost home":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:gt ''Lost_hometown_Incident'',''Shopping''">Go shopping together</a></div>'
-		if $SX.love>=50:'<div class="buttonS2"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_sofa''">Sit on the sofa</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
-		if $SX.love>=100:'<div class="buttonS3"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_Hot spring''">Day trip to hot springs</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
-		if $SX.bad>=100:'<div class="buttonS4"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_hotel''">Hotel room opening operation</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
-		if $SX.bad>=150:'<div class="buttonS5"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_massage''">Massage guide</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
+		if $SX.love>=50:'<div class="buttonS2"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_sofa''">Sit on the sofa</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		if $SX.love>=100:'<div class="buttonS3"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_Hot spring''">Day trip to hot springs</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		if $SX.bad>=100:'<div class="buttonS4"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_hotel''">Hotel room opening operation</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
+		if $SX.bad>=150:'<div class="buttonS5"><a href="exec:gt ''Lost_hometown_Incident'',''SX_Fuck_massage''">Massage guide</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
 		if $SX.bad>=150 and SXcos=0:'<div class="buttonP"><a href="exec:SXcos=1 &  $m=''SX'' & $ma=$SX.name & gt ''Group_performation_event'',''Group_performance_Fuck_coserexclusive''">cosAppointment</a></div>'
 		'<div class="buttonPu1"><a href="exec:$m=''SX'' & $mcat=$SX.name & gt ''Task_event'',''Feeding task''">Help feed meow</a></div>'
 	'</div>'
@@ -187,7 +187,7 @@ if $args[0]="SX_Fuck_sofa":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
@@ -287,7 +287,7 @@ if $args[0]="SX_Fuck_Hot spring":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Leave together</a></div>'
             '</div>'
@@ -386,7 +386,7 @@ if $args[0]="SX_Fuck_hotel":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
@@ -456,7 +456,7 @@ if $args[0]="SX_Fuck_massage":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
@@ -486,7 +486,7 @@ if $args[0]="SX_Fuck_massage":
              if SX_massagenum<3:
              '<p><<$SX.name>>: I think ❤I know what to do ❤This is the first<<SX_massagenum>>/3Sub-guidance</p>'
              '<p>I: Practice a few more times ❤ you will be able to master it soon❤</p>'
-             else:
+             else
              '<p><<$SX.name>>: Under the guidance of these few times ❤ I have completely mastered it!</p>'
              '<p>I: Although I don`t really want to recommend it, the night bar is recruiting female waiters❤</p>'
              '<p><<$SX.name>>: I will go and have a look❤</p>'
@@ -533,7 +533,7 @@ if $args[0]="SX_Fuck_customs":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG"><a href="exec:minutes+=30 & money-=2000 & gt ''The_night_is_fine''">Pay2000￥</a></div>'
             '</div>'

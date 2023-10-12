@@ -91,7 +91,7 @@ if $args[0]="Take her home":
 		end
 		if a=1:
 		'<p>I:It`s here, be careful not to knock it.</p>'
-		'<p><<$XS.name>>:Thank you❤<<$Protagonist`s_surname>> Sir❤...you...you are such a good person…</p>'
+		'<p><<$XS.name>>:Thank you❤<<$Protagonists_surname>> Sir❤...you...you are such a good person…</p>'
 		end
 		if a=2:
 		'<p>I:Drink some water...let`s</p>'
@@ -100,7 +100,7 @@ if $args[0]="Take her home":
 		'<p>·I don`t think she will notice it……</p>'
 		end
 		if a=5:
-		'<p><<$XS.name>>:❤<<$Protagonist`s_surname>> Sir... the headlights must also be optional❤</p>'
+		'<p><<$XS.name>>:❤<<$Protagonists_surname>> Sir... the headlights must also be optional❤</p>'
 		'<p>I:I... I will leave first.</p>'
 		$sales_Event_Buyacar=2
 		end
@@ -140,25 +140,25 @@ if $args[0]="temptation2":
 		end
 		if a=1:
 		'<p>I:……？！</p>'
-		'<p><<$XS.name>>:<<$Protagonist`s_surname>> Sir ❤Can you pick it up for me❤</p>'
+		'<p><<$XS.name>>:<<$Protagonists_surname>> Sir ❤Can you pick it up for me❤</p>'
 		end
 		if a=2:
 		'<p>I:...your underwear...so sexy…</p>'
-		'<p><<$XS.name>>:❤<<$Protagonist`s_surname>> Sir...last time you sent me back...did you touch me?</p>'
+		'<p><<$XS.name>>:❤<<$Protagonists_surname>> Sir...last time you sent me back...did you touch me?</p>'
 		'<p>I:...uh…</p>'
-		'<p><<$XS.name>>:I wore a sexier one today ❤<<$Protagonist`s_surname>> Sir ❤</p>'
+		'<p><<$XS.name>>:I wore a sexier one today ❤<<$Protagonists_surname>> Sir ❤</p>'
 		end
 		if a=3:
-		'<p><<$XS.name>>:❤<<$Protagonist`s_surname>> Sir...do you want to touch it?People want you to buy5000￥VIPWhat about value-added services.</p>'
+		'<p><<$XS.name>>:❤<<$Protagonists_surname>> Sir...do you want to touch it?People want you to buy5000￥VIPWhat about value-added services.</p>'
 		'<p>I:……</p>'
 		'<p><<$XS.name>>:❤People who buy the full car can`t get the commission ❤ When you touch me... I`m also very excited❤</p>'
 		end
 		if a=4:
-		'<p><<$XS.name>>:It`s silk, doesn`t it feel good❤<<$Protagonist`s_surname>> Sir?</p>'
+		'<p><<$XS.name>>:It`s silk, doesn`t it feel good❤<<$Protagonists_surname>> Sir?</p>'
 		'<p>I:……</p>'
 		end
 		if a=5:
-		'<p><<$XS.name>>:<<$Protagonist`s_surname>> Sir...if I go back too late, I will be deducted from my salary…</p>'
+		'<p><<$XS.name>>:<<$Protagonists_surname>> Sir...if I go back too late, I will be deducted from my salary…</p>'
 		$sales_Event_Buyacar=3
 		end
 	'</div>'
@@ -210,7 +210,7 @@ if $args[0]="Sales_payment":
 
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Shopping_mall''">leave</a></div>'
 			'</div>'
@@ -245,7 +245,7 @@ if $args[0]="Sales_payment":
 		 '</div>'
 	end
 
-	if a=10 :
+	if a=10:
 		 $XS.love+=q+my.charm
 		 $XS.bad+=q
 		 '<div class="dialog_menu">'
@@ -288,7 +288,7 @@ if $args[0]="Sales_carting":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Driving''">Drive away</a></div>'
 			'</div>'
@@ -312,12 +312,12 @@ if $args[0]="Sales_carting":
 
 	if 5>=a and a>=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$XS.name>>:<<$Protagonist`s_surname>> Sir ❤If there is a chance ❤We can develop further❤</p>'
+			 '<p><<$XS.name>>:<<$Protagonists_surname>> Sir ❤If there is a chance ❤We can develop further❤</p>'
 		 '</div>'
 	end
 
 
-	if a=6 :
+	if a=6:
 		 $XS.love+=q+my.charm
 		 $XS.bad+=q
 		 '<div class="dialog_menu">'
@@ -362,7 +362,7 @@ if $args[0]="sales_Fuck_Her house":
 			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_Her house''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if a=7:
 					'<div class="button"><a href="exec:a=0 &q=0 & gt ''Sales_event'',''sales_Fuck_Her house2''">Go to the room to do it</a></div>'
@@ -394,7 +394,7 @@ if $args[0]="sales_Fuck_Her house":
 	end
 
 
-	if a=7 :
+	if a=7:
 		 $XS.love+=q+my.charm
 		 $XS.bad+=q
 		 '<div class="dialog_menu">'
@@ -437,7 +437,7 @@ if $args[0]="sales_Fuck_Her house2":
 			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_Her house2''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Driving''">Drive away</a></div>'
 			'</div>'
@@ -466,7 +466,7 @@ if $args[0]="sales_Fuck_Her house2":
 	end
 
 
-	if a=7 :
+	if a=7:
 		 $XS.love+=q+my.charm
 		 $XS.bad+=q
 		 '<div class="dialog_menu">'
@@ -506,9 +506,9 @@ if $args[0]="sales_Fuck_Inside the car":
 			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''sales_Fuck_Inside the car''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
-				if $XS.love>=50:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Sales_event'',''sales_Fuck_hotel''">Take her to skip work</a></div>'else:'<div class="buttonGr"><a href="exec:">???</a></div>'
+				if $XS.love>=50:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Sales_event'',''sales_Fuck_hotel''">Take her to skip work</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Driving''">Drive away</a></div>'
 			'</div>'
 	end
@@ -575,7 +575,7 @@ if $args[0]="sales_Fuck_hotel":
 			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_hotel''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Driving''">Drive away</a></div>'
 			'</div>'

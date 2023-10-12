@@ -27,7 +27,7 @@ if  $args[0]="":
 
 	'<div class="dialog_menu">'
 		'<p>·The company founded by my father in the past...will rise again in my hands!</p>'
-		if $MS.LOVE>=150 and $Camera_MS=0 :'<p>There is a roll of [anonymous videotape] on the floor of the company<a href="exec:$Camera_MS=1">-Pick it up</a></p>'
+		if $MS.LOVE>=150 and $Camera_MS=0:'<p>There is a roll of [anonymous videotape] on the floor of the company<a href="exec:$Camera_MS=1">-Pick it up</a></p>'
 		if Bigvillaforthefirsttime>=1 and Companyhammer=0:'<p>·There is a [sledgehammer] in the construction waste in the corner of the company<a href="exec:Sledgehammer+=1 & Companyhammer=1 &  gt ''company''">-Take it away</a></p>'
 	'</div>'
 
@@ -47,7 +47,7 @@ if  $args[0]="Opening":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		if Secretarydialogue=0:'<p>Secretary: You are<<$Protagonist`s_surname>> The president`s son?Quite young.What do you want to know?</p>'
+		if Secretarydialogue=0:'<p>Secretary: You are<<$Protagonists_surname>> The president`s son?Quite young.What do you want to know?</p>'
 		if Secretarydialogue=1:'<p>Secretary: You still don`t know what your father runs?I have two things to inform you here, one is good news and the other is bad news.</p>'
 		if Secretarydialogue=2:'<p>Secretary: The bad news is [Due to the president`s accidental stroke and the capital chain is broken, our company has stopped all business and is waiting for bankruptcy liquidation].</p>'
 		if Secretarydialogue=3:'<p>Secretary: The good news is that [My mother quit too!】 I have had enough of dealing with this mess!You came just in time.After signing here, the company will be in your charge!</p>'

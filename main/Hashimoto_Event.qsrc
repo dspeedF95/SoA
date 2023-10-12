@@ -173,8 +173,8 @@ if $args[0]="toilet":
 		'<div class="button"><a href="exec:gt ''Competition''">。。。</a></div>'
 		if $Hashimotogoodnight=1:
 		'<div class="buttonR1"><a href="exec:$Pandecompression=1 & gt ''Hashimoto_Event'',''QB_Fuck_Pandecompression''">Special decompression</a></div>'
-		if $QB.love>=100:'<div class="buttonR2"><a href="exec:$Pandecompression=2 & gt ''Hashimoto_Event'',''QB_Fuck_Pandecompression''">Imprison and decompress</a></div>'else:'<div class="buttonGr"><a href="exec:">Unlocked</a></div>'
-		if $QB.love>=125:'<div class="buttonR3"><a href="exec:$Pandecompression=3 & gt ''Hashimoto_Event'',''QB_Fuck_Pandecompression''">Constrained decompression</a></div>'else:'<div class="buttonGr"><a href="exec:">Unlocked</a></div>'
+		if $QB.love>=100:'<div class="buttonR2"><a href="exec:$Pandecompression=2 & gt ''Hashimoto_Event'',''QB_Fuck_Pandecompression''">Imprison and decompress</a></div>'else'<div class="buttonGr"><a href="exec:">Unlocked</a></div>'
+		if $QB.love>=125:'<div class="buttonR3"><a href="exec:$Pandecompression=3 & gt ''Hashimoto_Event'',''QB_Fuck_Pandecompression''">Constrained decompression</a></div>'else'<div class="buttonGr"><a href="exec:">Unlocked</a></div>'
 		end
 	'</div>'
 
@@ -225,7 +225,7 @@ if $args[0]="QB_Fuck_ask":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -305,7 +305,7 @@ if $args[0]="QB_Fuck_Sleep aid":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -362,8 +362,8 @@ if $args[0]="Support transaction":
 		
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Hashimoto_Event'',''QB_Fuck_Aid1''">Self-media person</a></div>'
-		if $QB.bad>=50:'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Hashimoto_Event'',''QB_Fuck_Aid2''">Black powder head</a></div>'else:'<div class="buttonGr"><a href="exec:">Unknown contact</a></div>'
-		if $QB.bad>=75:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Hashimoto_Event'',''QB_Fuck_Aid3''">Gold master dad</a></div>'else:'<div class="buttonGr"><a href="exec:">Unknown contact</a></div>'
+		if $QB.bad>=50:'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Hashimoto_Event'',''QB_Fuck_Aid2''">Black powder head</a></div>'else'<div class="buttonGr"><a href="exec:">Unknown contact</a></div>'
+		if $QB.bad>=75:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Hashimoto_Event'',''QB_Fuck_Aid3''">Gold master dad</a></div>'else'<div class="buttonGr"><a href="exec:">Unknown contact</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">Forget it</a></div>'
 	'</div>'
 
@@ -401,7 +401,7 @@ if $args[0]="QB_Fuck_Aid1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">leave</a></div>'
             '</div>'
@@ -469,7 +469,7 @@ if $args[0]="QB_Fuck_Aid2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">leave</a></div>'
             '</div>'
@@ -534,7 +534,7 @@ if $args[0]="QB_Fuck_Aid3":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:a=0 & q=0 & gt ''Hashimoto_Event'',''QB_Fuck_Aid4''">Ask him to leave</a></div>'
             '</div>'
@@ -619,7 +619,7 @@ if $args[0]="QB_Fuck_Aid4":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -708,7 +708,7 @@ if $args[0]="QB_Fuck_Pandecompression":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -777,7 +777,7 @@ if $args[0]="QB_Fuck_Seductive":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -854,7 +854,7 @@ if $args[0]="QB_Fuck_Double":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=6 & gt ''Hashimoto_Event'',''QB_Fuck_Double''">Can still do </a></div>'
                 '<div class="buttonR4"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">tired</a></div>'
@@ -901,7 +901,7 @@ if $args[0]="QB_Fuck_Get up early":
             if a=2:'<div class="buttonS"><a href="exec:a+=1 & gt ''Hashimoto_Event'',''QB_Fuck_Get up early''">Ejaculation </a></div>'
             '</div>'
             
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=45 & gt ''Big_villa'',''Master bedroom''">Get up </a></div>'
             '</div>'
@@ -978,7 +978,7 @@ if $args[0]="QB_Fuck_Massage advertising":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''company''">leave</a></div>'
             '</div>'
@@ -1040,9 +1040,9 @@ if $args[0]="Selection of jobs":
 
         '<div class="button_menu">'
 			'<div class="buttonG1"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Massage advertising''">Endorsement massage room</a></div>'
-			if $QB.Multifaceted>=15:'<div class="buttonG2"><a href="exec:gt ''Hashimoto_Event'',''Radio interview''">Radio interview</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
-			if $QB.Multifaceted>=20:'<div class="buttonG3"><a href="exec:gt ''Hashimoto_Event'',''Magazine shooting''">Magazine shooting</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
-			if $Agreetoanewperformance=1:'<div class="buttonPu4"><a href="exec:gt ''Group_performation_event'',''New new show''">Threesome tonight </a></div>'else:'<div class="buttonGr"><a href="exec:">Not allowed</a></div>'
+			if $QB.Multifaceted>=15:'<div class="buttonG2"><a href="exec:gt ''Hashimoto_Event'',''Radio interview''">Radio interview</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
+			if $QB.Multifaceted>=20:'<div class="buttonG3"><a href="exec:gt ''Hashimoto_Event'',''Magazine shooting''">Magazine shooting</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
+			if $Agreetoanewperformance=1:'<div class="buttonPu4"><a href="exec:gt ''Group_performation_event'',''New new show''">Threesome tonight </a></div>'else'<div class="buttonGr"><a href="exec:">Not allowed</a></div>'
 			
       '</div>'
 
@@ -1117,7 +1117,7 @@ if $args[0]="QB_Fuck_Radio interview":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS2"><a href="exec:a=rand(2,8) &  gt ''Hashimoto_Event'',''QB_Fuck_Radio interview''">Return to the horse gun! </a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">tired</a></div>'
@@ -1214,11 +1214,11 @@ if $args[0]="QB_Fuck_Dontroom":
             '<div class="buttonS5"><a href="exec:a=6 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Ejaculation </a></div>'
             end
             if a=6:
-            if $times_of_day='night':'<div class="buttonGn"><a href="exec:a=7 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Good night </a></div>'else:'<div class="buttonS5"><a href="exec:a=7 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Lick clean </a></div>'
+            if $times_of_day='night':'<div class="buttonGn"><a href="exec:a=7 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Good night </a></div>'else'<div class="buttonS5"><a href="exec:a=7 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Lick clean </a></div>'
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Me too</a></div>'
             '</div>'
@@ -1228,7 +1228,7 @@ if $args[0]="QB_Fuck_Dontroom":
 
     if 6>=a and a>=0:
          '<div class="dialog_menu">'
-            if $times_of_day='night':'<p>I: Why are you so horny at night?</p>'else:'<p>I:  In broad daylight, do you want it so much?</p>'
+            if $times_of_day='night':'<p>I: Why are you so horny at night?</p>'else'<p>I:  In broad daylight, do you want it so much?</p>'
              '<p><<$QB.name>>: <<$Panting>></p>'
              if a>=3:'<p><<$QB.name>>: <<$words>></p>'
          '</div>'
@@ -1239,7 +1239,7 @@ if $args[0]="QB_Fuck_Dontroom":
          $QB.bad+=q
          HashimotoCD=0
          '<div class="dialog_menu">'
-            if $times_of_day='night':'<p><<$QB.name>>: <<$Protagonist`s_name>>, After the idol retires, I want to live with you❤</p>'else:'<p><<$QB.name>>: <<$Protagonist`s_name>>, I think I can`t leave you anymore❤</p>'
+            if $times_of_day='night':'<p><<$QB.name>>: <<$Protagonist`s_name>>, After the idol retires, I want to live with you❤</p>'else'<p><<$QB.name>>: <<$Protagonist`s_name>>, I think I can`t leave you anymore❤</p>'
          '</div>'
     end
 
@@ -1299,7 +1299,7 @@ if $args[0]="QB_Fuck_New sleep aid":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">Resume shooting</a></div>'
             '</div>'

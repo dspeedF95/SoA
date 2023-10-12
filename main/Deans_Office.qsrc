@@ -1,4 +1,4 @@
-# Dean`s_Office
+# Deans_Office
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
@@ -21,9 +21,9 @@ if $args[0]="":
 			 <source src="images\NPC\YZ\vids\交流1-0~1.webm" type=''video/webm;''></video></div>'
 		'</div>'
 		'<div class="button_menu">'
-			'<div class="button"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Tie shoelaces''">Tie shoelaces</a></div>'
-			'<div class="button"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Drug tester interview''">Drug tester interview</a></div>'
-			if $YZ.Sexfriend=1 and $times_of_day='':'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Appointment''">Appointment</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Tie shoelaces''">Tie shoelaces</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Drug tester interview''">Drug tester interview</a></div>'
+			if $YZ.Sexfriend=1 and $times_of_day='':'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Appointment''">Appointment</a></div>'
 			'<div class="button"><a href="exec:minutes+=5 & gt ''hospital''">leave</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
@@ -35,7 +35,7 @@ End
  
 if $args[0]="Tie shoelaces":
 		if $YZ.bad<=50:a=1
-		if 100 >$YZ.bad and $YZ.bad >50 :a=2
+		if 100 >$YZ.bad and $YZ.bad >50:a=2
 		if $YZ.bad>=100:a=3
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
@@ -43,8 +43,8 @@ if $args[0]="Tie shoelaces":
 		'</div>'
 
 		'<div class="button_menu">'
-			'<div class="button"><a href="exec:minutes+=5 & gt ''Dean`s_Office''">Stand up</a></div>'
-			if $YZ.bad>=100:'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Mouth her''">Mouth her</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 & gt ''Deans_Office''">Stand up</a></div>'
+			if $YZ.bad>=100:'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Mouth her''">Mouth her</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 
 		'</div>'
 
@@ -62,7 +62,7 @@ if $args[0]="Drug tester interview":
 	'</div>'
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Sign a contract''">Sign a contract</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Sign a contract''">Sign a contract</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''hospital''">leave</a></div>'
 	'</div>'
 
@@ -98,8 +98,8 @@ if $args[0]="Sign a contract":
 			End
 	'<div class ="show_menu"><img src="images\place\医院场景\签订合同.jpg" width="854"></div>'
 		'<div class="button_menu">'
-			if A<=my.Physical_strength:'<div class="button"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Just this''">Just this</a></div>'
-			'<div class="button"><a href="exec:minutes+=5 &  gt ''Dean`s_Office'',''Sign a contract''">Next</a></div>'
+			if A<=my.Physical_strength:'<div class="button"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Just this''">Just this</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 &  gt ''Deans_Office'',''Sign a contract''">Next</a></div>'
 			'<div class="button"><a href="exec:minutes+=5 & gt ''hospital''">leave</a></div>'
 		'</div>'
 
@@ -115,7 +115,7 @@ if $args[0]="Just this":
 	medicine=1
 	'<div class ="show_menu"><img src="images\place\医院场景\注射前<< $Q>>.jpg" width="854"></div>'
 		'<div class="button_menu">'
-			'<div class="button"><a href="exec:minutes+=5 &  gt ''Dean`s_Office'',''Peek''">Peek</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 &  gt ''Deans_Office'',''Peek''">Peek</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
 			'<p>Female nurse:This is your future<<D>>A place to receive a drug test every day.As the danger level increases, there will be a certain degree of hallucinations, heart palpitations, and vomiting.'
@@ -125,7 +125,7 @@ End
 if $args[0]="Peek":
 	'<div class ="show_menu"><img src="images\place\医院场景\注射偷窥<< $Q>>.jpg" width="854"></div>'
 		'<div class="button_menu">'
-			'<div class="button"><a href="exec:minutes+=5 &  gt ''Dean`s_Office'',''injection''">injection</a></div>'
+			'<div class="button"><a href="exec:minutes+=5 &  gt ''Deans_Office'',''injection''">injection</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
 			'<p>I:Wait a minute, there is a little stain here.</p>'
@@ -150,9 +150,9 @@ if $args[0]="Mouth her":
 	'</div>'
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Dean`s_Office''">Stand up</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Deans_Office''">Stand up</a></div>'
 		'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Dean_event'',''YZ_Fuck_company''">Ejaculation examination</a></div>'
-		if $YZ.love>=25:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Dean_event'',''YZ_Fuck_company2''">Do it here</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if $YZ.love>=25:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Dean_event'',''YZ_Fuck_company2''">Do it here</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -168,8 +168,8 @@ if $args[0]="Appointment":
 	'</div>'
 
 	'<div class="button_menu">'
-		'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Drink''">Go for a drink</a></div>'
-		if $YZ.love>=135:'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Dean`s_Office'',''Her house''">Go to your house</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Drink''">Go for a drink</a></div>'
+		if $YZ.love>=135:'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Deans_Office'',''Her house''">Go to your house</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -219,5 +219,5 @@ End
 
 
 
---- Dean`s_Office ---------------------------------
+--- Deans_Office ---------------------------------
 

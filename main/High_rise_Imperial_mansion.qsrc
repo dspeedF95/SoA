@@ -31,7 +31,7 @@ Randomnumber=rand(0,100)
         '<div class="action">
             <a class="photo" data-title="Culture matrix" href="exec:gt''High_rise_Imperial_mansion'',''High-level matrix''"><img class="img_stretch" src="images\NPC\CT\pics\高层矩阵.jpg"></a>
             <a class="photo" data-title="High-rise aisle" href="exec:gt''High_rise_Imperial_mansion'',''High-rise aisle''"><img class="img_stretch" src="images\NPC\CT\pics\高层过道.jpg"></a>
-            <a class="photo" data-title="？？？" href="exec:gt''Imperial_Mansion'',''Right channel''"><img class="img_stretch" src="images\NPC\CT\pics\右通道.jpg"></a>
+            <a class="photo" data-title="???" href="exec:gt''Imperial_Mansion'',''Right channel''"><img class="img_stretch" src="images\NPC\CT\pics\右通道.jpg"></a>
         </div>'
         
     '</div>'
@@ -74,7 +74,7 @@ if $args[0] = "Project room":
 		'<div class="buttonGn1"><a href="exec:EditedbyImperialJingyuan=1 & gt ''Empire_Event'',''Empire_Fuck_Jingyuan project person''">Ejaculation room No. 1</a></div>'
 		'<div class="buttonGn2"><a href="exec:EditedbyImperialJingyuan=2 & gt ''Empire_Event'',''Empire_Fuck_Jingyuan project person''">Ejaculation room ②</a></div>'
 		'<div class="buttonGn3"><a href="exec:EditedbyImperialJingyuan=3 & gt ''Empire_Event'',''Empire_Fuck_Jingyuan project person''">Ejaculation room No. 3</a></div>'
-		if EmpireJingyuan1recommend+EmpireJingyuan2recommend+EmpireJingyuan3recommend<3:'<div class="buttonGr"><a href="exec:">Separate ejaculation room<<EmpireJingyuan1recommend+EmpireJingyuan2recommend+EmpireJingyuan3recommend>>/3</a></div>'else:'<div class="buttonG4"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Jingyuan Project PlanC''">Separate ejaculation room</a></div>'
+		if EmpireJingyuan1recommend+EmpireJingyuan2recommend+EmpireJingyuan3recommend<3:'<div class="buttonGr"><a href="exec:">Separate ejaculation room<<EmpireJingyuan1recommend+EmpireJingyuan2recommend+EmpireJingyuan3recommend>>/3</a></div>'else'<div class="buttonG4"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Jingyuan Project PlanC''">Separate ejaculation room</a></div>'
 		'<div class="button"><a href="exec:gt ''High_rise_Imperial_mansion''">return</a></div>'
 	'</div>'
 

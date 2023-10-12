@@ -18,10 +18,10 @@ gs'menu_gif'
 			if $ZL.room=1:
 				if $ZL_Event_face!2:
 				'<a class="photo" data-title="<<$ZL.name>>" href="exec:minutes+=5 & gt ''Aid_Event'',''ZL_Fuck_home''"><img class="img_stretch" src="images\NPC\ZL\pics\1.jpg"></a>'
-				else:
+				else
 				'<a class="photo" data-title="<<$ZL.name>>" href="exec:minutes+=5 & gt ''Aid_Event'',''ZL_Fuck_home<<$ZL_num>>''"><img class="img_stretch" src="images\NPC\ZL\pics\1.jpg"></a>'
 				end
-				else:'<a class="photo" data-title="Empty room"><img class="img_stretch" src="images\NPC\ZL\pics\1.jpg"></a>'
+				else'<a class="photo" data-title="Empty room"><img class="img_stretch" src="images\NPC\ZL\pics\1.jpg"></a>'
 			end
 		'</div>'
 		'<div class="action">'
@@ -72,7 +72,7 @@ if $args[0] ='':
 	'<div class="button_menu">'
 		if  money>=1000:
 		'<div class="buttonG"><a href="exec:minutes+=15 &money-=1000 & my.basement+=30 & gt ''Deep_alley''">Rent a basement￥1000/month</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Rent a basement￥1000/month</a></div>'
 		end
 		if $XM.bad>=300 and $XM.job=1 and 2>hour and hour>=0 and $ZL_num=4 and XMVideotape<=1:'<div class="buttonPu2"><a href="exec:gt ''School_girl_event'',''Familiar figure''">Familiar figure</a></div>'
@@ -93,7 +93,7 @@ if $args[0] ='Back Alley fighting':
 
     '<div class="button_menu">'
        '<div class="buttonG"><a href="exec:money=0 & gt ''Deep_alley''">Pay obediently</a></div>'
-        if $Ilikeit_1>$Enemycombateffectiveness_1:'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Deep_alley'',''Back Alley fighting2''">If you don`t accept it, do it</a></div>'else:'<div class="buttonGr"><a href="exec:">Swallow it</a></div>'
+        if $Ilikeit_1>$Enemycombateffectiveness_1:'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Deep_alley'',''Back Alley fighting2''">If you don`t accept it, do it</a></div>'else'<div class="buttonGr"><a href="exec:">Swallow it</a></div>'
     '</div>'
 
     '<div class="dialog_menu">'
@@ -123,7 +123,7 @@ if $args[0] ='Back Alley fighting2':
         '<p>Leader of the Sledgehammergang: Damn it, I stepped on a hard stubble this time!We withdraw!</p>'
         '<p>·——————·</p>'
         '<p>·Sledgehammerdroprate(<<$Sledgehammerdroprate>>%)=50/(Combat effectiveness difference)</p>'
-        if $Numberofsledgehammersdropped<=$Sledgehammerdroprate:'<p>·In the process of fighting, they left behind a sledgehammer.</p>'else:'<p>·They fled quickly, leaving nothing behind.</p>'
+        if $Numberofsledgehammersdropped<=$Sledgehammerdroprate:'<p>·In the process of fighting, they left behind a sledgehammer.</p>'else'<p>·They fled quickly, leaving nothing behind.</p>'
     '</div>'
 end
 

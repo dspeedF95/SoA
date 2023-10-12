@@ -22,7 +22,7 @@ if $ARGS[0]="Catch":
 				 '<video preload="metadata" autoplay loop height="480">
 				 <source src="images\NPC\LJ\vids\惩罚0~1.webm" type=''video/webm;''></video></div>'
 			'</div>'
-		else:
+		else
 			'<div class="show_menu">'
 				 '<video preload="metadata" autoplay loop height="480">
 				 <source src="images\NPC\LJ\vids\沉迷0~1.webm" type=''video/webm;''></video></div>'
@@ -33,22 +33,22 @@ if $ARGS[0]="Catch":
 		'<div class="button"><a href="exec:a=1 & gt ''Repeating_event'',''LJ_Fuck_Tuning''">Start training</a></div>'
 		if $LJ.bad>=30:
 		'<div class="buttonS"><a href="exec:money+=50 & gt ''Repeating_event'',''LJ_Fuck_3P''">Find someone3PTuning</a></div>'
-		else:
-		'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		else
+		'<div class="buttonGr"><a href="exec:">???</a></div>'
 		end
 		
 		if $LJ.bad>=180-$LJ.love:
 		'<div class="buttonS"><a href="exec:a=1 & gt ''Repeating_event'',''LJ_Fuck_addicted''">Come lick me</a></div>'
 		'<div class="buttonB"><a href="exec:a=1 & gt ''Repeating_event'',''Promise not to steal again''">Promise not to steal again</a></div>'
-		else:
-		'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		else
+		'<div class="buttonGr"><a href="exec:">???</a></div>'
 		end
 		
 		if $LJ.bad>=300-$LJ.love:
 		'<div class="buttonS"><a href="exec: gt ''Repeating_event'',''LJ_Fuck_phone''">Call home</a></div>'
 		if $SY.bad>0:'<div class="buttonGn"><a href="exec:a=7 & gt ''Repeating_event'',''LJ_Fuck_Her house''">Go to her house</a></div>'
-		else:
-		'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		else
+		'<div class="buttonGr"><a href="exec:">???</a></div>'
 		end
 		
 		'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
@@ -59,7 +59,7 @@ if $ARGS[0]="Catch":
 		 '<p><<$LJ.name>>:...what to do...I really want to have sex with you...what`s wrong with me…</p>'
 		 '<p>Me: It`s time to let you go……</p>'
 		 '<p><<$LJ.name>>: Woohoo... don`t do it…</p>'
-		 else:
+		 else
 		 '<p><<$LJ.name>>: Woohoo...let me go.</p>'
 		 '<p>Me: You are such an disobedient bitch. I owe it to me to take care of you. It`s time for you to improve your memory!</p>'
 		 '<p><<$LJ.name>>: Woohoo…</p>'
@@ -222,7 +222,7 @@ if $args[0]="LJ_Fuck_Tuning":
 			'<div class="button"><a href="exec:a=8 & LJ_num=0 & minutes+=105 & gt ''Repeating_event'',''LJ_Fuck_Tuning''">Keep fucking2hours</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=8 & LJ_num=1 & gt ''Repeating_event'',''LJ_Fuck_Tuning''">Why steal?</a></div>'
 				'<div class="button"><a href="exec:a=8 & LJ_num=2 & gt ''Repeating_event'',''LJ_Fuck_Tuning''">Where is your family?</a></div>'
@@ -231,7 +231,7 @@ if $args[0]="LJ_Fuck_Tuning":
 			'</div>'
 	end
 
-	if 3>=a and a>=0 :
+	if 3>=a and a>=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>>Please spare me……</p>'
 		 '</div>'
@@ -239,7 +239,7 @@ if $args[0]="LJ_Fuck_Tuning":
 
 
 
-	if 7>=a and a>=4 :
+	if 7>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>>...so cool...I like it so much…</p>'
 		 '</div>'
@@ -297,13 +297,13 @@ if $args[0]="LJ_Fuck_3P":
 			'<div class="button"><a href="exec:a=8 &  gt ''Repeating_event'',''LJ_Fuck_3P''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
 			'</div>'
 	end
 
-	if a=0 :
+	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>>Please spare me……</p>'
 			 '<p>I:Do you like it?I really didn`t expect those vagrants at the door to be willing to spend money to fuck you.</p>'
@@ -312,13 +312,13 @@ if $args[0]="LJ_Fuck_3P":
 
 
 
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 7>=a and a>=4 :
+	if 7>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>><<$words>></p>'
 		 '</div>'
@@ -373,13 +373,13 @@ if $args[0]="LJ_Fuck_addicted":
 			'<div class="button"><a href="exec:a=8 &  gt ''Repeating_event'',''LJ_Fuck_addicted''">Lick clean</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
 			'</div>'
 	end
 
-	if a=0 :
+	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>>...I want...please give it to me…</p>'
 		 '</div>'
@@ -387,13 +387,13 @@ if $args[0]="LJ_Fuck_addicted":
 
 
 
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>>...I want...please give it to me…</p>'
 		 '</div>'
 	end
 
-	if 7>=a and a>=4 :
+	if 7>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>><<$words>></p>'
 		 '</div>'
@@ -444,18 +444,18 @@ if $args[0]="LJ_Fuck_phone":
 			'<div class="button"><a href="exec:a=7 & gt ''Repeating_event'',''LJ_Fuck_phone''">Open your mouth</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if $LJ.love>=200 and $LJ.bad>=200:
 				'<div class="buttonS"><a href="exec:a=7 & gt ''Repeating_event'',''LJ_Fuck_Her house''">Go to her house</a></div>'
-				else:
-				'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+				else
+				'<div class="buttonGr"><a href="exec:">???</a></div>'
 				end
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
 			'</div>'
 	end
 
-	if a=0 :
+	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:Mom, I have been living at my classmate`s house these days…</p>'
 			 '<p>Phone sound:How long are you going to hang out for?Do you think mom is really not worried about you?Damn, lighten up, I`m calling my daughter~</p>'
@@ -464,20 +464,20 @@ if $args[0]="LJ_Fuck_phone":
 
 
 
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:<<$Panting>>Woohoo…</p>'
 		 '</div>'
 	end
 
-	if a=5 :
+	if a=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:I have a good time outside!Don`t worry about it! You can worry about these uncles!</p>'
 			 '<p>Phone sound:Remember to go home when you have time....Uncles all want to meet you and bought you a lot....Oh~~Oh~~Coming soon~~</p>'
 		 '</div>'
 	end
 
-	if a=6 :
+	if a=6:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:I see!Don`t worry about me!</p>'
 			 '<p>Phone sound:Doodle doodle……</p>'
@@ -508,7 +508,7 @@ if $ARGS[0]="LJ_Fuck_Her house":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec: a=0& q=0 & gt ''Repeating_event'',''LJ_Fuck_Mom blowjob''">learn!</a></div>'
-		if $SY.bad>0:'<div class="button"><a href="exec: a=0& q=0 & gt ''Uehara_Event'',''Learn to cook''">Learn to cook!</a></div>'else:'<div class="buttonGr"><a href="exec:">Learn to cook!</a></div>'
+		if $SY.bad>0:'<div class="button"><a href="exec: a=0& q=0 & gt ''Uehara_Event'',''Learn to cook''">Learn to cook!</a></div>'else'<div class="buttonGr"><a href="exec:">Learn to cook!</a></div>'
 		'<div class="button"><a href="exec: gt ''Deep_alley''">leave!</a></div>'
 	'</div>'
 
@@ -557,51 +557,51 @@ if $args[0]="LJ_Fuck_Mom blowjob":
 			'<div class="button"><a href="exec:a=10 & gt ''Repeating_event'',''LJ_Fuck_Mom blowjob''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
 			'</div>'
 	end
 
-	if a=0 :
+	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>:I get sleepy when I read a book... Obviously I won`t be so tired when I have sex.</p>'
 			 '<p><<$SY.name>>:Huh?Sure enough, it was not the material for studying, and I fell asleep as soon as I read a book.</p>'
 		 '</div>'
 	end
 
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$SY.name>>:My daughter stayed at your house and caused you trouble.The young man now must have a good energy to be strong and strong, right?</p>'
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$SY.name>>:Oh, it`s really proactive, Auntie is not picky eaters.Hurry up and take it out, my little boy.</p>'
 		 '</div>'
 	end
 
-	if 6>=a and a>=3 :
+	if 6>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$SY.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
 
-	if a=7 :
+	if a=7:
 		 '<div class="dialog_menu">'
 			 '<p><<$SY.name>>:Oh, did you see it? Not a drop leaked out.~This ejaculation volume is the same as those dead ghosts combined.~</p>'
 		 '</div>'
 	end
 
-	if a=8 :
+	if a=8:
 		 '<div class="dialog_menu">'
 			 '<p><<$SY.name>>:One glass of essence a day, the more you drink, the younger you are~Do you want another shot?</p>'
 		 '</div>'
 	end
 
-	if a=9 :
+	if a=9:
 		 '<div class="dialog_menu">'
 			 '<p><<$SY.name>>:<<$Panting>></p>'
 		 '</div>'
@@ -656,19 +656,19 @@ if $args[0]="LJZL_Fuck_inverse3P":
 			'<div class="button"><a href="exec:a=8 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Finished</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''university''">leave</a></div>'
 			'</div>'
 	end
 
-	if a=0 :
+	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>&<<$ZL.name>>:What are you staring at us for? Do you want to do bad things?~Honey, it seems you took her down too~</p>'
 		 '</div>'
 	end
 
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>&<<$ZL.name>>:<<$Panting>></p>'
 		 '</div>'
@@ -676,13 +676,13 @@ if $args[0]="LJZL_Fuck_inverse3P":
 
 
 
-	if 6>=a and a>=5 :
+	if 6>=a and a>=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>&<<$ZL.name>>:<<$Panting>><<$words>></p>'
 		 '</div>'
 	end
 
-	if a=7 :
+	if a=7:
 		 '<div class="dialog_menu">'
 			 '<p><<$LJ.name>>&<<$ZL.name>>:<<$words>>What?！————Why did you shoot when you talked to yourself? You should also shoot inside me....</p>'
 		 '</div>'

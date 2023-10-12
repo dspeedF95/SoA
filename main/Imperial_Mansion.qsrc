@@ -29,7 +29,7 @@ Randomnumber=rand(0,100)
 			<a class="photo" data-title="Underground gym" href="exec:gt''Imperial_Mansion'',''Underground gym''"><img class="img_stretch" src="images\NPC\CT\pics\地下健身房.jpg"></a>
 		</div>'
 		'<div class="action">
-			<a class="photo" data-title="？？？" href="exec:gt''Imperial_Mansion'',''Right channel''"><img class="img_stretch" src="images\NPC\CT\pics\右通道.jpg"></a>
+			<a class="photo" data-title="???" href="exec:gt''Imperial_Mansion'',''Right channel''"><img class="img_stretch" src="images\NPC\CT\pics\右通道.jpg"></a>
 			<a class="photo" data-title="Second bedroom" href="exec:gt''Imperial_Mansion'',''Second bedroom''"><img class="img_stretch" src="images\NPC\CT\pics\次卧.jpg"></a>
 			<a class="photo" data-title="Underground bar" href="exec:gt''Imperial_Mansion'',''Underground bar''"><img class="img_stretch" src="images\NPC\CT\pics\地下吧台.jpg"></a>
 		</div>'
@@ -91,10 +91,10 @@ if $args[0] = "CTVertical painting":
 
     '<div class="button_menu">'
 		if Heterochromaticplantseeds>0:
-			if Heterochromatic_plant_seedlings>0:'<div class="buttonGn5"><a href="exec:Heterochromatic_plant_seedlings-=1 & gt ''Empire_Event'',''Empire_Fuck_Heterochromatic seedlings''">Give her Heterochromatic_plant_seedlings</a></div>'else:'<div class="buttonGr"><a href="exec:">No Heterochromatic_plant_seedlings</a></div>'
+			if Heterochromatic_plant_seedlings>0:'<div class="buttonGn5"><a href="exec:Heterochromatic_plant_seedlings-=1 & gt ''Empire_Event'',''Empire_Fuck_Heterochromatic seedlings''">Give her Heterochromatic_plant_seedlings</a></div>'else'<div class="buttonGr"><a href="exec:">No Heterochromatic_plant_seedlings</a></div>'
 		end
         if hour=18:'<div class="buttonGn2"><a href="exec:gt ''Imperial_Mansion'',''Help with side dishes''">Help with side dishes</a></div>'
-        if MaidOkita=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_CTmaid''">Change into a maid outfit</a></div>'else:'<div class="buttonGr"><a href="exec:">Maid service</a></div>'
+        if MaidOkita=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_CTmaid''">Change into a maid outfit</a></div>'else'<div class="buttonGr"><a href="exec:">Maid service</a></div>'
         '<div class="button"><a href="exec:gt ''Imperial_Mansion''">leave</a></div>'
     '</div>'
 
@@ -113,7 +113,7 @@ if $args[0] = "Help with side dishes":
 
     '<div class="button_menu">'
         '<div class="buttonB2"><a href="exec:gt ''Imperial_Mansion'',''Help with side dishes1''">Use ordinary cooking wine</a></div>'
-        if Green_Muffin_Wine>0:'<div class="buttonGn4"><a href="exec:Green_Muffin_Wine-=1 & $m=''CT'' & $ma=$CT.name & $CT.love+=10 &  $m.love=$CT.love & gt ''Empire_Event'',''Empire_Fuck_Universal2Drink''">Use secret cocktails</a></div>'else:'<div class="buttonGr"><a href="exec:">No cocktail</a></div>'
+        if Green_Muffin_Wine>0:'<div class="buttonGn4"><a href="exec:Green_Muffin_Wine-=1 & $m=''CT'' & $ma=$CT.name & $CT.love+=10 &  $m.love=$CT.love & gt ''Empire_Event'',''Empire_Fuck_Universal2Drink''">Use secret cocktails</a></div>'else'<div class="buttonGr"><a href="exec:">No cocktail</a></div>'
 
     '</div>'
 
@@ -148,7 +148,7 @@ if $args[0] = "Eat together":
         '</div>'
 
     '<div class="button_menu">'
-        if ImperialmotherandMaidF=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">3PMother and daughter rice bowl</a></div>'else:'<div class="buttonGr"><a href="exec:">Ultimate goal·3PMother and daughter rice bowl</a></div>'
+        if ImperialmotherandMaidF=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">3PMother and daughter rice bowl</a></div>'else'<div class="buttonGr"><a href="exec:">Ultimate goal·3PMother and daughter rice bowl</a></div>'
         '<div class="button"><a href="exec:gt ''Imperial_Mansion''">leave</a></div>'
     '</div>'
 
@@ -177,7 +177,7 @@ if $args[0] = "Underground security room":
 
     '<div class="dialog_menu">'
         '<p>·This is the underground security room of the mansion.</p>'
-        if $Charactersintheundergroundsecurityroom=10:'<p>The secret of deep sleep：Zzz~Zzz~What do you want❤</p>'else:'<p>Security: It`s so boring❤ In addition to watching porn with surveillance every day, you masturbate, huh?<<$Protagonist`s_name>>Little boss ❤, are you here to fuck me?</p>'
+        if $Charactersintheundergroundsecurityroom=10:'<p>The secret of deep sleep：Zzz~Zzz~What do you want❤</p>'else'<p>Security: It`s so boring❤ In addition to watching porn with surveillance every day, you masturbate, huh?<<$Protagonist`s_name>>Little boss ❤, are you here to fuck me?</p>'
     '</div>'
 End
 
@@ -205,10 +205,10 @@ if $args[0] = "Underground security room10_box":
     '<div class="dialog_menu">'
         '<p>·The contents of the box are all your monitoring records from the first second you stepped into this mansion.</p>'
         '<p>'
-		if BarShuangfeinum>0:'·Number of double flights at the bar：<<BarShuangfeinum>>times'else:'·-Unknown-know—·'
-		if securitynum>0:'·Number of security sex：<<securitynum>>times'else:'·-Unknown-know—·'
-		if  EmpireFitnessnum>0:'·Female fitness instructor：<<EmpireFitnessnum>>times'else:'·-Unknown-know—·'
-		if ImperialMaidnum>0:'·Violation of housekeeping maid：<<ImperialMaidnum>>times'else:'·-Unknown-know—·'
+		if BarShuangfeinum>0:'·Number of double flights at the bar：<<BarShuangfeinum>>times'else'·-Unknown-know—·'
+		if securitynum>0:'·Number of security sex：<<securitynum>>times'else'·-Unknown-know—·'
+		if  EmpireFitnessnum>0:'·Female fitness instructor：<<EmpireFitnessnum>>times'else'·-Unknown-know—·'
+		if ImperialMaidnum>0:'·Violation of housekeeping maid：<<ImperialMaidnum>>times'else'·-Unknown-know—·'
 		'</p>'
         '<p>#Anything about<<$CT.name>>and<<$QJ.name>>The ones are erased</p>'
     '</div>'
@@ -329,7 +329,7 @@ if $args[0] = "Swimming pool dialogue":
 
     '<div class="button_menu">'
         '<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Swimming coach''">Peek into the locker room</a></div>'
-        if $YY.agree=1:'<div class="buttonB5"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Daughter swimming pool''">with<<$QJ.name>>Alone</a></div>'else:'<div class="buttonGr"><a href="exec:">with<<$QJ.name>>Alone</a></div>'
+        if $YY.agree=1:'<div class="buttonB5"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Daughter swimming pool''">with<<$QJ.name>>Alone</a></div>'else'<div class="buttonGr"><a href="exec:">with<<$QJ.name>>Alone</a></div>'
         '<div class="button"><a href="exec:gt ''Imperial_Mansion''">leave</a></div>'
     '</div>'
 
@@ -362,7 +362,7 @@ if $args[0] = "Bifurcated stairs":
 
     '<div class="dialog_menu">'
         '<p>·This is the bifurcated staircase in the mansion.</p>'
-        '<p>Security: Sorry，<<$Protagonist`s_surname>> Sir, you don`t have any more<<$CT.NAME>>I can`t let you pass until I regard you as the [Blood Relatives Medal] of a family.</p>'
+        '<p>Security: Sorry，<<$Protagonists_surname>> Sir, you don`t have any more<<$CT.NAME>>I can`t let you pass until I regard you as the [Blood Relatives Medal] of a family.</p>'
         '<p>Me: What`s upstairs?It looks quite mysterious.</p>'
         '<p>Security: Do you think I will know? It`s really funny.</p>'
     '</div>'
@@ -445,7 +445,7 @@ if $args[0] = "Daughter bedroom conversation":
 
     '<div class="button_menu">'
         '<div class="buttonP"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Daughter massage''">Give her a massage</a></div>'
-       if ImperialmotherandMaid=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Mother and daughter maid''">Change into a maid outfit</a></div>'else:'<div class="buttonGr"><a href="exec:">Maid service</a></div>'
+       if ImperialmotherandMaid=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Mother and daughter maid''">Change into a maid outfit</a></div>'else'<div class="buttonGr"><a href="exec:">Maid service</a></div>'
         if $QJ.Blinddate=1:'<div class="buttonR"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Director female3P''"><<$JZ.name>></a></div>'
         '<div class="button"><a href="exec:gt ''Imperial_Mansion''">leave</a></div>'
     '</div>'
@@ -502,7 +502,7 @@ if $args[0] = "Housekeeping maid2":
     '</div>'
 
     '<div class="dialog_menu">'
-        '<p>Maid chief：<<$Protagonist`s_surname>> Sir, what are your orders?</p>'
+        '<p>Maid chief：<<$Protagonists_surname>> Sir, what are your orders?</p>'
     '</div>'
 End
 
@@ -510,12 +510,12 @@ if $args[0] = "Main light":
     '<div class="show_menu"><img src="images\NPC\CT\pics\主体灯.jpg" width="854"></div>'
 
     '<div class="button_menu">'
-		if Simpleladder=0:'<div class="buttonGr"><a href="exec:gt ''Imperial_Mansion'',''Large living room''">I don`t have a ladder</a></div>'else:'<div class="button"><a href="exec:Simpleladder=0 & gt ''Imperial_Mansion'',''Main light1''">Step on the temporary ladder</a></div>'
+		if Simpleladder=0:'<div class="buttonGr"><a href="exec:gt ''Imperial_Mansion'',''Large living room''">I don`t have a ladder</a></div>'else'<div class="button"><a href="exec:Simpleladder=0 & gt ''Imperial_Mansion'',''Main light1''">Step on the temporary ladder</a></div>'
     '</div>'
 
     '<div class="dialog_menu">'
         '<p>·A plant in the chandelier at the highest point of the living room is rotting…</p>'
-        '<p>Maid chief：<<$Protagonist`s_surname>> Sir!We will deal with this plant, so you don`t need to bother with it yourself. </p>'
+        '<p>Maid chief：<<$Protagonists_surname>> Sir!We will deal with this plant, so you don`t need to bother with it yourself. </p>'
     '</div>'
 End
 
@@ -529,9 +529,9 @@ if $args[0] = "Main light1":
 
          '<div class="dialog_menu">'
 			'<p>Me: When you trimmed the ceiling light, you found out*These plants are all you have never seen before.</p>'
-			'<p>Maid chief：<<$Protagonist`s_surname>> Sir!You hurry down!It`s too dangerous!Just leave these things to us!Please throw the plants you cut down to 【Green plant recycling&In the incineration box], we will destroy it uniformly! </p>'
+			'<p>Maid chief：<<$Protagonists_surname>> Sir!You hurry down!It`s too dangerous!Just leave these things to us!Please throw the plants you cut down to 【Green plant recycling&In the incineration box], we will destroy it uniformly! </p>'
 			'<p>I：……</p>'
-			'<p>Maid chief: Don`t do this in the future，<<$Protagonist`s_surname>> Sir!I will also put back the ladder you moved. </p>'
+			'<p>Maid chief: Don`t do this in the future，<<$Protagonists_surname>> Sir!I will also put back the ladder you moved. </p>'
          '</div>'
 End
 
@@ -539,7 +539,7 @@ End
 if $args[0] = "Making cocktails":
 	if Heterochromatic_plants<=0:
 		msg'I have no raw materials'  & gt 'Imperial_Mansion','Underground bar'
-	else:
+	else
 		Heterochromatic_plants-=1
 		Green_Muffin_Wine+=1
 	end
@@ -570,7 +570,7 @@ if $args[0] = "Bar deacon":
 
     '<div class="dialog_menu">'
         '<p>Me: Cool!Original cocktail!I can see its effect in my backpack!</p>'
-		'<p>Eikawa Noa(Bar deacon):Yo❤<<$Protagonist`s_surname>> Sir, what are you doing sneakily here❤ </p>'
+		'<p>Eikawa Noa(Bar deacon):Yo❤<<$Protagonists_surname>> Sir, what are you doing sneakily here❤ </p>'
 		'<p>Ichijo Miao(Bar deacon): A new cocktail ❤ Can you give me a taste❤ </p>' 
     '</div>'
 End

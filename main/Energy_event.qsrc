@@ -28,11 +28,11 @@ if $args[0]="NY_Fuck_massage":
 			end
 			if a=1:
 			'<div class="button"><a href="exec:a=2 & gt ''Energy_event'',''NY_Fuck_massage''">Observe </a></div>'
-			if MGF>0 and Essential_oil>0:'<div class="buttonS"><a href="exec:MGF-=1 & Essential_oil-=1 &a=0 & q=0 & gt ''Energy_event'',''NY_Fuck_massage2''">Go into battle in person </a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of massage essential oils+McGovern </a></div>'
+			if MGF>0 and Essential_oil>0:'<div class="buttonS"><a href="exec:MGF-=1 & Essential_oil-=1 &a=0 & q=0 & gt ''Energy_event'',''NY_Fuck_massage2''">Go into battle in person </a></div>'else'<div class="buttonGr"><a href="exec:">Lack of massage essential oils+McGovern </a></div>'
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Massage_room''">leave</a></div>'
 			'</div>'
@@ -111,7 +111,7 @@ if $args[0]="NY_Fuck_massage2":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Massage_room''">leave</a></div>'
 			'</div>'
@@ -161,7 +161,7 @@ if $args[0]="NY_home":
 		'</div>'
 			'<div class="button_menu">'
 				'<div class="buttonP"><a href="exec:gt ''Energy_event'',''NY_Fuck_son''">Stop: Family fun</a></div>'
-				if $NY_Event_imprisonment=2:'<div class="buttonGn"><a href="exec:gt ''Energy_event'',''NY_Fuck_home''">Apology: Guilty in my heart</a></div>'else:'<div class="buttonGr"><a href="exec:">Apology: Guilty in my heart</a></div>'
+				if $NY_Event_imprisonment=2:'<div class="buttonGn"><a href="exec:gt ''Energy_event'',''NY_Fuck_home''">Apology: Guilty in my heart</a></div>'else'<div class="buttonGr"><a href="exec:">Apology: Guilty in my heart</a></div>'
 				'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			'</div>'
 		
@@ -206,7 +206,7 @@ if $args[0]="NY_Fuck_son":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -284,7 +284,7 @@ if $args[0]="NY_Fuck_home":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			'</div>'
@@ -345,7 +345,7 @@ if $args[0]="NY_Fuck_ask":
 			'</div>'
 			
 		 '<div class="dialog_menu">'
-			 '<p><<$NY.NAME>>:<<$Protagonist`s_surname>> The boss doesn`t seem to be dead yet.The plot in his handR&MIt is always a hidden danger.</p>'
+			 '<p><<$NY.NAME>>:<<$Protagonists_surname>> The boss doesn`t seem to be dead yet.The plot in his handR&MIt is always a hidden danger.</p>'
 		 '</div>'
 End
 
@@ -419,7 +419,7 @@ if $args[0]="NY_Fuck_toilet":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0 &q=0& gt ''Energy_event'',''NY_Fuck_imprisonment''">Catch it back</a></div>'
 			'</div>'
@@ -510,10 +510,10 @@ if $args[0]="NY_Fuck_imprisonment":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonR"><a href="exec:a=0 &q=0& gt ''Energy_event'',''NY_Fuck_imprisonment''">Continuous tuning</a></div>'
-				if $NY.obey>=100:'<div class="buttonGn"><a href="exec:a=0 &q=0&dialogue=0 &gt ''Energy_event'',''NY_Fuck_To be honest''">To be honest<<$NY.obey>>/100</a></div>'else:'<div class="buttonGr"><a href="exec:">To be honest<<$NY.obey>>/100</a></div>'
+				if $NY.obey>=100:'<div class="buttonGn"><a href="exec:a=0 &q=0&dialogue=0 &gt ''Energy_event'',''NY_Fuck_To be honest''">To be honest<<$NY.obey>>/100</a></div>'else'<div class="buttonGr"><a href="exec:">To be honest<<$NY.obey>>/100</a></div>'
 				'<div class="button"><a href="exec:a=0 &q=0& gt ''Massage_room''">leave</a></div>'
 
 			'</div>'
@@ -644,7 +644,7 @@ if $args[0]="NY_Fuck_company":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Empire_Health''">leave</a></div>'
 			'</div>'

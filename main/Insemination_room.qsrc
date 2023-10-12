@@ -48,11 +48,11 @@ if $ARGS[0]="Insemination list1":
 		
 	'<div class="button_menu">'
 		'<div class="buttonS"><a href="exec:$m=''CT'' & $ma=$CT.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">㊕<<$CT.name>></a></div>'
-        if  $JJ.Insemination=1:'<div class="buttonS"><a href="exec:$m=''JJ'' & $ma=$JJ.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">①<<$JJ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①<<$JJ.name>></a></div>'
-        if  $XZ.Insemination=1:'<div class="buttonS"><a href="exec:$m=''XZ'' & $ma=$XZ.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">②<<$XZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②<<$XZ.name>></a></div>'
-        if  $FXZ.Insemination=1:'<div class="buttonS"><a href="exec:$m=''FXZ'' & $ma=$FXZ.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">③<<$FXZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">③<<$FXZ.name>></a></div>'
-        if  $XY.Insemination=1:'<div class="buttonS"><a href="exec:$m=''XY'' & $ma=$XY.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">④<<$XY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">④<<$XY.name>></a></div>'
-        if  $SS.Insemination=1:'<div class="buttonS"><a href="exec:$m=''SS'' & $ma=$SS.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑤<<$SS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑤<<$SS.name>></a></div>'
+        if  $JJ.Insemination=1:'<div class="buttonS"><a href="exec:$m=''JJ'' & $ma=$JJ.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">①<<$JJ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①<<$JJ.name>></a></div>'
+        if  $XZ.Insemination=1:'<div class="buttonS"><a href="exec:$m=''XZ'' & $ma=$XZ.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">②<<$XZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">②<<$XZ.name>></a></div>'
+        if  $FXZ.Insemination=1:'<div class="buttonS"><a href="exec:$m=''FXZ'' & $ma=$FXZ.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">③<<$FXZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">③<<$FXZ.name>></a></div>'
+        if  $XY.Insemination=1:'<div class="buttonS"><a href="exec:$m=''XY'' & $ma=$XY.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">④<<$XY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">④<<$XY.name>></a></div>'
+        if  $SS.Insemination=1:'<div class="buttonS"><a href="exec:$m=''SS'' & $ma=$SS.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑤<<$SS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑤<<$SS.name>></a></div>'
 		'<div class="button"><a href="exec:gt ''Insemination_room'',''Insemination list2''">▶Next page</a></div>'
 	'</div>'
 
@@ -67,8 +67,8 @@ if $ARGS[0]="Insemination list2":
 		
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Insemination_room'',''Insemination list1''">▶Previous page</a></div>'
-        if  $ZL.Insemination=1:'<div class="buttonS"><a href="exec:$m=''ZL'' & $ma=$ZL.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑥<<$ZL.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑥<<$ZL.name>></a></div>'
-        if  $ZX.Insemination=1:'<div class="buttonS"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑦<<$ZX.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑦<<$ZX.name>></a></div>'
+        if  $ZL.Insemination=1:'<div class="buttonS"><a href="exec:$m=''ZL'' & $ma=$ZL.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑥<<$ZL.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑥<<$ZL.name>></a></div>'
+        if  $ZX.Insemination=1:'<div class="buttonS"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑦<<$ZX.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑦<<$ZX.name>></a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'

@@ -89,7 +89,7 @@ if $ARGS[0]="Compressed package":
 	 '<div class="button_menu">'
 		if Compressedpackagecode <100:
 		'<div class="button"><a href="exec: gt ''Bad_room'',''Compressed package''">Code deciphering<<Compressedpackagecode>>%</a></div>'
-		else:
+		else
 		'<div class="button"><a href="exec: gt ''Bad_room'',''Compressed package successfully''">Successfully deciphered<<Compressedpackagecode>>%</a></div>'
 		end
 	 '</div>'
@@ -105,7 +105,7 @@ if $ARGS[0]="folder":
 	 '<div class="button_menu">'
 		if foldercode <100:
 		'<div class="button"><a href="exec: gt ''Bad_room'',''folder''">Code deciphering <<foldercode>>%</a></div>'
-		else:
+		else
 		'<div class="button"><a href="exec: gt ''Bad_room'',''Folder success''">Successfully deciphered <<foldercode>>%</a></div>'
 		end
 	'</div>'

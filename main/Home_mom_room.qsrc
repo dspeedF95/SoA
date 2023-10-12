@@ -26,10 +26,10 @@ End
 if $args[0]="Close the door":
 	 '<div class ="show_menu"><img src="images\place\紧闭的门.jpg" width="854"></div>'
 	 '<div class="button_menu">'
-		 if $JM_Event_grandpa < 7 :
+		 if $JM_Event_grandpa < 7:
 		  '<div class="button"><a href="exec:minutes+=5 & gt ''Stepmom_event'',''Eavesdropping''">Eavesdropping</a></div>'
 		  end
-		  	if $JM_Event_grandpa >=7 :
+		  	if $JM_Event_grandpa >=7:
 		  '<div class="button"><a href="exec:minutes+=5 & gt ''Home_mom_room'',''Peek''">Peek</a></div>'
 		  end
 		 '<div class="button"><a href="exec:minutes+=5 & gt ''home''">leave</a></div>'
@@ -41,7 +41,7 @@ End
 
 if $ARGS[0]="Peek":
 	$Random_number=rand(1,10)
-	if $Random_number>=7 and hour <=9 :gt'Stepmom_event','JM_Fuck_On the phone'
+	if $Random_number>=7 and hour <=9:gt'Stepmom_event','JM_Fuck_On the phone'
 	if $Random_number>=5 and hour <=15:gt'Stepmom_event','In the bedroom'
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">
@@ -52,17 +52,17 @@ if $ARGS[0]="Peek":
 		'<div class="buttonS1"><a href="exec: $jm.bad+=1 &  gt ''Home_mom_room'',''Room conversation''">Knock on the door and go in</a></div>'
 		if Maotai>0:
 		'<div class="buttonS2"><a href="exec: Maotai-=1& gt ''Home_mom_room'',''Bring a bottle of wine in''">Bring a bottle of wine in</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Need Maotai</a></div>'
 		end
 		if Essential_oil>0:
 		'<div class="buttonS3"><a href="exec: Essential_oil-=1&gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油0开幕''">Bring a bottle of Essential oil in</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Need essential oils</a></div>'
 		end
 		if MGF>0:
 		'<div class="buttonS4"><a href="exec: MGF-=1 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬0''">Bring a bottle of McGovern in</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Need McGovern</a></div>'
 		end
 		if JM.confession=0 and Bishopschoice=1:'<div class="buttonG1"><a href="exec:JM.confession=1 & $m=''JM'' & $ma=$JM.name & gt ''Nun_event'',''XN_Fuck_confession''">Invitation to church for baptism</a></div>'

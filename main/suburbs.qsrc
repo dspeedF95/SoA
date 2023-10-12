@@ -92,14 +92,14 @@ if $args[0]="Trainee male":
 		if Polaroid=0:'<div class="buttonG2"><a href="exec:Polaroid=1 & gt ''suburbs''">Accept</a></div>'
 		if Polaroid=1:
 			if $XN.trial=0:
-				if Evidenceone=0:'<div class="buttonGr"><a href="exec:">Provide evidence ①</a></div>'else:'<div class="buttonR"><a href="exec:gt ''suburbs'',''Trainee male2''">Provide evidence ①</a></div>'
-			else:
+				if Evidenceone=0:'<div class="buttonGr"><a href="exec:">Provide evidence ①</a></div>'else'<div class="buttonR"><a href="exec:gt ''suburbs'',''Trainee male2''">Provide evidence ①</a></div>'
+			else
 			'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence ①-Already in the package</a></div>'
-			if Evidencetwo=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence ②-Already in the package</a></div>'else:'<div class="buttonGr"><a href="exec:">Evidence ②-Not obtained</a></div>'
-			if Evidencethree=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence③-Already in the package</a></div>'else:'<div class="buttonGr"><a href="exec:">Evidence③-Not obtained</a></div>'
-			if Evidencefour=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence④-Already in the package</a></div>'else:'<div class="buttonGr"><a href="exec:">Evidence④-Not obtained</a></div>'
-			if Evidencefive=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence⑤-Already in the package</a></div>'else:'<div class="buttonGr"><a href="exec:">Evidence⑤-Not obtained</a></div>'
-			if Evidenceone*Evidencetwo*Evidencethree*Evidencefour*Evidencefive=1:'<div class="buttonR4"><a href="exec:gt ''suburbs'',''Trainee male3''">Discuss countermeasures</a></div>'else:'<div class="buttonGr"><a href="exec:">Not collected</a></div>'
+			if Evidencetwo=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence ②-Already in the package</a></div>'else'<div class="buttonGr"><a href="exec:">Evidence ②-Not obtained</a></div>'
+			if Evidencethree=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence③-Already in the package</a></div>'else'<div class="buttonGr"><a href="exec:">Evidence③-Not obtained</a></div>'
+			if Evidencefour=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence④-Already in the package</a></div>'else'<div class="buttonGr"><a href="exec:">Evidence④-Not obtained</a></div>'
+			if Evidencefive=1:'<div class="buttonG1"><a href="exec:gt ''menu_items''">Evidence⑤-Already in the package</a></div>'else'<div class="buttonGr"><a href="exec:">Evidence⑤-Not obtained</a></div>'
+			if Evidenceone*Evidencetwo*Evidencethree*Evidencefour*Evidencefive=1:'<div class="buttonR4"><a href="exec:gt ''suburbs'',''Trainee male3''">Discuss countermeasures</a></div>'else'<div class="buttonGr"><a href="exec:">Not collected</a></div>'
 			end
 		end
 		
@@ -113,7 +113,7 @@ if $args[0]="Trainee male":
 		'<p>Man: My baby girlfriend was actually coaxed into the church by which bishop!What else is voluntary... I never believe it!</p>'
 		'<p>Me: Instead of being incompetent and furious here, why don`t you stand up and do something?</p>'
 		'<p>Man: You are right!How about going with me to expose the true face of which bastard bishop?I bet he is by no means a good thing!This is my polaroid, please help me take pictures of his crimes!</p>'
-		else:
+		else
 		if Bishopschoice=1 and Polaroid=0:'<p>Man: Damn it!Will you help me?This is my polaroid and the photo I took…</p>'& Evidenceone=1
 		'<p>I：………</p>'
 		'<p>Man: Damn it!He actually borrowed a donkey to go downhill... I was hasty... I shouldn`t have acted rashly... I must reveal the true face of which bastard bishop!I bet he is by no means a good thing!</p>'
@@ -208,8 +208,8 @@ if $args[0]="Trainee male gambling":
 	'<div class ="show_menu"><img src="images\NPC\XN\pics\赌局.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if money>=$Traineemalechips:'<div class="buttonG"><a href="exec:money-=$Traineemalechips & Ibetonthetrainee=6 & gt ''suburbs'',''Trainee male gambling game open''">Buy [large]￥<<$Traineemalechips>></a></div>'else:'<div class="buttonGr"><a href="exec:">Buy [large]￥<<$Traineemalechips>></a></div>'
-		if money>=$Traineemalechips:'<div class="buttonG"><a href="exec:money-=$Traineemalechips & Ibetonthetrainee=1 & gt ''suburbs'',''Trainee male gambling game open''">Buy [small]￥<<$Traineemalechips>></a></div>'else:'<div class="buttonGr"><a href="exec:">Buy [small]￥<<$Traineemalechips>></a></div>'
+		if money>=$Traineemalechips:'<div class="buttonG"><a href="exec:money-=$Traineemalechips & Ibetonthetrainee=6 & gt ''suburbs'',''Trainee male gambling game open''">Buy [large]￥<<$Traineemalechips>></a></div>'else'<div class="buttonGr"><a href="exec:">Buy [large]￥<<$Traineemalechips>></a></div>'
+		if money>=$Traineemalechips:'<div class="buttonG"><a href="exec:money-=$Traineemalechips & Ibetonthetrainee=1 & gt ''suburbs'',''Trainee male gambling game open''">Buy [small]￥<<$Traineemalechips>></a></div>'else'<div class="buttonGr"><a href="exec:">Buy [small]￥<<$Traineemalechips>></a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''suburbs''">leave</a></div>'
 	'</div>'
 
@@ -235,11 +235,11 @@ if $args[0]="Trainee male gambling game open":
 		'<p>·——————</p>'
 		'<p>·The dice rolled off his fingertips and were thrown<<$Traineemalepoints>>point</p>'
 		if Ibetonthetrainee=6:
-			if  $Traineemalepoints=4 or $Traineemalepoints=5 or $Traineemalepoints=6:'<p>Me: It seems that I won<a href="exec:money+=$Traineemalechips & gt ''suburbs'',''Trainee male I win''">-Bring things</a></p>'else:'<p>Me: Damn it!I lost…<a href="exec:gt ''suburbs'',''Trainee male gambling''">-One more</a></p>'
+			if  $Traineemalepoints=4 or $Traineemalepoints=5 or $Traineemalepoints=6:'<p>Me: It seems that I won<a href="exec:money+=$Traineemalechips & gt ''suburbs'',''Trainee male I win''">-Bring things</a></p>'else'<p>Me: Damn it!I lost…<a href="exec:gt ''suburbs'',''Trainee male gambling''">-One more</a></p>'
 		end 
 		
 		if Ibetonthetrainee=1:
-			if  $Traineemalepoints=1 or $Traineemalepoints=2 or $Traineemalepoints=3:'<p>Me: It seems that I won<a href="exec:money+=$Traineemalechips & gt ''suburbs'',''Trainee male I win''">-Bring things</a></p>'else:'<p>Me: Damn it!I lost…<a href="exec:gt ''suburbs'',''Trainee male gambling''">-One more</a></p>'
+			if  $Traineemalepoints=1 or $Traineemalepoints=2 or $Traineemalepoints=3:'<p>Me: It seems that I won<a href="exec:money+=$Traineemalechips & gt ''suburbs'',''Trainee male I win''">-Bring things</a></p>'else'<p>Me: Damn it!I lost…<a href="exec:gt ''suburbs'',''Trainee male gambling''">-One more</a></p>'
 		end 
 		
 	'</div>'

@@ -1,4 +1,4 @@
-# Principal`s_Office
+# Principals_Office
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
@@ -29,24 +29,24 @@ if $args[0]="":
 
 	'<div class="button_menu">'
 		if $XZ_Event_3t<=1:
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Principal`s_Office'',''Sidehearing''">Apply for a Sidehearing</a></div>'
-			if $XZ_Event_3tf=1 and $XZ_Event_3ts=1 and $XZ_Event_3tx=1 :
-			'<div class="buttonR"><a href="exec:minutes+=5 & gt ''Principal`s_Office'',''reply''">On-campus picket team</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Principals_Office'',''Sidehearing''">Apply for a Sidehearing</a></div>'
+			if $XZ_Event_3tf=1 and $XZ_Event_3ts=1 and $XZ_Event_3tx=1:
+			'<div class="buttonR"><a href="exec:minutes+=5 & gt ''Principals_Office'',''reply''">On-campus picket team</a></div>'
 			end
 		end
-		if $SW_Event_XZ=1:'<div class="buttonB"><a href="exec:minutes+=5 & gt ''Principal`s_Office'',''Curriculum reform proposal''">Curriculum reform proposal</a></div>'
-		if $ZL.room=1 and $XZ_Event_ghost=5: '<div class="button"><a href="exec:minutes+=5 & gt ''Principal`s_Office'',''Aid and rectification''">Aid and rectification</a></div>'
-		if $LJ_Event_Steal>=1 and $XZ_Event_ghost=6:'<div class="button"><a href="exec:minutes+=5 & gt ''Principal`s_Office'',''Theft complaint''">Theft complaint</a></div>'
-		if $LJ_Event_Steal=4 and $XZ_Event_ghost=6:'<div class="button"><a href="exec:minutes+=5 & gt ''Principal`s_Office'',''End the theft''">End the theft</a></div>'
-		if $XZ_Event_ghost=5:'<div class="button"><a href="exec:minutes+=5 & gt ''Principal`s_Office'',''Handling complaints''">Handling complaints</a></div>'
-		if $XZ_Event_ghost.completed=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Principal`s_Office'', ''File a complaint''">File a complaint</a></div>'
-		if $XZ.bad>=300-$XZ.love:'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Principal`s_Office'', ''Don`t go after school''">Don`t go after school</a></div>'
-		if $XZ.bad>=75: '<div class="buttonS3"><a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_officeB''">Put on a dog chain</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if $XZ.bad>=150-$XZ.love:'<div class="buttonS4"><a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_officeA''">Shove the cock in her mouth</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if $XZ.bad>=200-$XZ.love:'<div class="buttonS5"><a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_officeC''">Tie her with tape</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $SW_Event_XZ=1:'<div class="buttonB"><a href="exec:minutes+=5 & gt ''Principals_Office'',''Curriculum reform proposal''">Curriculum reform proposal</a></div>'
+		if $ZL.room=1 and $XZ_Event_ghost=5: '<div class="button"><a href="exec:minutes+=5 & gt ''Principals_Office'',''Aid and rectification''">Aid and rectification</a></div>'
+		if $LJ_Event_Steal>=1 and $XZ_Event_ghost=6:'<div class="button"><a href="exec:minutes+=5 & gt ''Principals_Office'',''Theft complaint''">Theft complaint</a></div>'
+		if $LJ_Event_Steal=4 and $XZ_Event_ghost=6:'<div class="button"><a href="exec:minutes+=5 & gt ''Principals_Office'',''End the theft''">End the theft</a></div>'
+		if $XZ_Event_ghost=5:'<div class="button"><a href="exec:minutes+=5 & gt ''Principals_Office'',''Handling complaints''">Handling complaints</a></div>'
+		if $XZ_Event_ghost.completed=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Principals_Office'', ''File a complaint''">File a complaint</a></div>'
+		if $XZ.bad>=300-$XZ.love:'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Principals_Office'', ''Don`t go after school''">Don`t go after school</a></div>'
+		if $XZ.bad>=75: '<div class="buttonS3"><a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_officeB''">Put on a dog chain</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $XZ.bad>=150-$XZ.love:'<div class="buttonS4"><a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_officeA''">Shove the cock in her mouth</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $XZ.bad>=200-$XZ.love:'<div class="buttonS5"><a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_officeC''">Tie her with tape</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
 		if $XZ.bad>=200 and $LXS.available=1 and Internationalstudentschool=0:'<div class="buttonG3"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_School application''">International student registration</a></div>'
 		
-		if Inseminationroomopen=1 and $XZ.bad>=210 and $XZ.Insemination=0:'<div class="buttonS"><a href="exec:$XZ.Insemination=1 & gt ''Principal`s_Office''">Invite artificial insemination</a></div>'
+		if Inseminationroomopen=1 and $XZ.bad>=210 and $XZ.Insemination=0:'<div class="buttonS"><a href="exec:$XZ.Insemination=1 & gt ''Principals_Office''">Invite artificial insemination</a></div>'
 
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
 	'</div>'
@@ -55,10 +55,10 @@ if $args[0]="":
 		'<p><<$XZ.name>>: Can I help you?</p>'
 		if Sidehearing=1:
 		'<p><On-campus picket team></p>'
-		if $FXZ_Event_counseling>=1 and $Picket_mission=0 :'<p>She is planning<a href="exec: $Picket_mission=1 & gt ''Principal`s_Office''">suppress<<$FXZ.name>></a></p>'
-		if $school_Event_hope=2 and $Picket_mission=0 :'<p>A letter about the abuse of the rights of pickets on campus<a href="exec: $Picket_mission=1 & gt ''Principal`s_Office'',''Report letter''">Report letter</a></p>'
+		if $FXZ_Event_counseling>=1 and $Picket_mission=0:'<p>She is planning<a href="exec: $Picket_mission=1 & gt ''Principals_Office''">suppress<<$FXZ.name>></a></p>'
+		if $school_Event_hope=2 and $Picket_mission=0:'<p>A letter about the abuse of the rights of pickets on campus<a href="exec: $Picket_mission=1 & gt ''Principals_Office'',''Report letter''">Report letter</a></p>'
 		if $FXZ_Event_counseling>=1 and $Picket_mission=1:'<p><<$XZ.name>>: I heard that you and<<$FXZ.name>>Very close?It seems that if she doesn`t punish her again, she really thinks she can take me down with that kind of boring competition?Let her know the methods of the school picket team!Gather the team members to go to her office and show her some colors!</p>'
-		if $Picket_mission=99:'<p>You reported the results of the picket again.<a href="exec: $Picket_mission=0 &$XZ.love+=2 & gt ''Principal`s_Office''">  <<$XZ.name>>Very satisfied</a></p>'
+		if $Picket_mission=99:'<p>You reported the results of the picket again.<a href="exec: $Picket_mission=0 &$XZ.love+=2 & gt ''Principals_Office''">  <<$XZ.name>>Very satisfied</a></p>'
 		end
 
 	'</div>'
@@ -254,5 +254,5 @@ if $args[0]="Report letter":
 		$school_Event_hope=3
 	'</div>'
 End
---- Principal`s_Office ---------------------------------
+--- Principals_Office ---------------------------------
 

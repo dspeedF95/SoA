@@ -80,9 +80,9 @@ if $ARGS[0]="trailing":
 	'<div class="button_menu">'
 		if $Shopping_mall_n=1:
 			if $auditlevel>=2:'<div class="buttonP"><a href="exec:minutes+=5 &  $Shopping_mall_n=2 & gt ''Shopping_mall'',''trailing''">Touch it</a></div>'
-			else:
-			if $Shopping_mall_nu<=2 :  if $auditlevel>=4:'<div class="buttonP"><a href="exec:minutes+=5 &  gt ''Group_performation_event'',''Shopping mall_Fuck_Quick check''">Body search</a></div>'else:'<div class="buttonGr"><a href="exec:">No body search permission</a></div>'
-			if $Shopping_mall_nu>=3 :  if $auditlevel>=6:'<div class="buttonS"><a href="exec:minutes+=5 &   gt ''Group_performation_event'',''Shopping mall_Fuck_Scheck''">Come with me!</a></div>'else:'<div class="buttonGr"><a href="exec:">No higher authority</a></div>'
+			else
+			if $Shopping_mall_nu<=2:  if $auditlevel>=4:'<div class="buttonP"><a href="exec:minutes+=5 &  gt ''Group_performation_event'',''Shopping mall_Fuck_Quick check''">Body search</a></div>'else'<div class="buttonGr"><a href="exec:">No body search permission</a></div>'
+			if $Shopping_mall_nu>=3:  if $auditlevel>=6:'<div class="buttonS"><a href="exec:minutes+=5 &   gt ''Group_performation_event'',''Shopping mall_Fuck_Scheck''">Come with me!</a></div>'else'<div class="buttonGr"><a href="exec:">No higher authority</a></div>'
 			
 			end
 		'<div class="button"><a href="exec:minutes+=5 &  gt ''Shopping_mall''">leave</a></div>'

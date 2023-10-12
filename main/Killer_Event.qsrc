@@ -46,7 +46,7 @@ if $args[0]="SS_Event_bar":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if a=8:'<div class="button"><a href="exec:minutes+=30 & a+=1 & gt ''Killer_Event'',''SS_Event_bar''">Follow out</a></div>'
 				if a=9:'<div class="button"><a href="exec:gt ''Kabukicho''">leave</a></div>'
@@ -65,20 +65,20 @@ if $args[0]="SS_Event_bar":
 	 	 end
 	 	 if a=1:
 	 	 '<p>·At this time, a woman in the distance attracted your attention.</p>'
-	 	 '<p><<$SS.name>> :Hello?Is it Mr. Scout?I have arrived!We have contacted before!My nickname is：Tia</p>'
-	 	 '<p><<$SS.name>> :Are you here to pick me up?Okay, then I will wait for you here.</p>'
+	 	 '<p><<$SS.name>>:Hello?Is it Mr. Scout?I have arrived!We have contacted before!My nickname is：Tia</p>'
+	 	 '<p><<$SS.name>>:Are you here to pick me up?Okay, then I will wait for you here.</p>'
 	 	 '<p>I:Scout…?</p>'
 	 	 end
 	 	 if a=2:
 	 	 '<p>·The beautiful face and sexy figure attracted many men who were about to move.</p>'
 	 	 '<p>Men:Beauty, alone?Depending on your dress, you should be a frequent visitor, right?Have a drink with us!</p>'
-	 	 '<p><<$SS.name>> :Okay, it just so happens that I am also waiting for someone.(Huh, hope everything goes well...)</p>'
+	 	 '<p><<$SS.name>>:Okay, it just so happens that I am also waiting for someone.(Huh, hope everything goes well...)</p>'
 	 	 end
 	 	 if a=3:
 	 	 '<p>·After a few glasses of wine, the men began to be dishonest.</p>'
 	 	 end
 		 if 7>=a and a>=4:
-		 	'<p><<$SS.name>> :Please stop... her afterglow glanced at you seemingly endlessly.……</p>'
+		 	'<p><<$SS.name>>:Please stop... her afterglow glanced at you seemingly endlessly.……</p>'
 		 end
 		 if a=8:
 		 	'<p>·Just at the climax, a man appeared, picked up the unconscious her and took her away.</p>'
@@ -193,8 +193,8 @@ if $args[0]="SS_Event_room":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>> :Do you drink?Let`s go for a drink on the balcony.</p>'
-			 if $SS_Event_Gas_valve=0:'<p><<$SS.name>> :Oh, by the way, the Gas_valve in the kitchen seems to be broken. Can you fix it for me?</p>'
+			 '<p><<$SS.name>>:Do you drink?Let`s go for a drink on the balcony.</p>'
+			 if $SS_Event_Gas_valve=0:'<p><<$SS.name>>:Oh, by the way, the Gas_valve in the kitchen seems to be broken. Can you fix it for me?</p>'
 		 '</div>'
 	end
 
@@ -219,7 +219,7 @@ if $args[0]="SS_Event_balcony":
 			'<div class="button"><a href="exec:a=3 & gt ''Killer_Event'',''SS_Event_balcony''">Propose to pick you up</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''Deep_alley''">It`s a deal</a></div>'
 			'</div>'
@@ -228,30 +228,30 @@ if $args[0]="SS_Event_balcony":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>> :Look, the scenery today is so beautiful.Let`s have a drink!*Clink the cup——</p>'
+			 '<p><<$SS.name>>:Look, the scenery today is so beautiful.Let`s have a drink!*Clink the cup——</p>'
 		 '</div>'
 	end
-	if a=1 :
+	if a=1:
 		 '<div class="dialog_menu">'
-		 	 '<p>I :I think...You are more beautiful than the scenery~</p>'
-			 '<p><<$SS.name>> :Haha, you are flattered!</p>'
+		 	 '<p>I:I think...You are more beautiful than the scenery~</p>'
+			 '<p><<$SS.name>>:Haha, you are flattered!</p>'
 		 '</div>'
 	end
 
-	if a=2 :
+	if a=2:
 		 '<div class="dialog_menu">'
-		 	 '<p>I :Is the work going well?</p>'
-			 '<p><<$SS.name>> :It`s okay, I haven`t contacted the high-level for the time being.Huh-but it should be soon.</p>'
+		 	 '<p>I:Is the work going well?</p>'
+			 '<p><<$SS.name>>:It`s okay, I haven`t contacted the high-level for the time being.Huh-but it should be soon.</p>'
 		 '</div>'
 	end
 
 	if a=3:
 		 $SS.love+=1
 		 '<div class="dialog_menu">'
-		 	 '<p>I :It`s hard for you to leave early and return late every day, right? Why don`t I pick you up from get off work next time?</p>'
-			 '<p><<$SS.name>> :(Thinking).....That`s great, I`m worried that I don`t have the right person.</p>'
-		 	 '<p>I :Then tell me where you work.</p>'
-			 '<p><<$SS.name>> :...I will call you when I get off work at the specific location.</p>'
+		 	 '<p>I:It`s hard for you to leave early and return late every day, right? Why don`t I pick you up from get off work next time?</p>'
+			 '<p><<$SS.name>>:(Thinking).....That`s great, I`m worried that I don`t have the right person.</p>'
+		 	 '<p>I:Then tell me where you work.</p>'
+			 '<p><<$SS.name>>:...I will call you when I get off work at the specific location.</p>'
 			 if $JZ_Event_rape<=50: $JZ_Event_rape=50	
 		 '</div>'
 	end
@@ -263,13 +263,13 @@ End
 if $args[0]="SS_Event_kitchen":
 	'<div class ="show_menu"><img src="images\NPC\SS\pics\厨房.jpg" width="854"></div>'
 		'<div class="button_menu">'
-			if Gas_valve>0:'<div class="button"><a href="exec:$SS_Event_Gas_valve=1 & Gas_valve-=1 &gt ''Killer_Event'',''SS_Event_balcony''">Repair Gas_valve</a></div>'else:'<div class="buttonGr"><a href="exec:">Need a Gas_valve</a></div>'
+			if Gas_valve>0:'<div class="button"><a href="exec:$SS_Event_Gas_valve=1 & Gas_valve-=1 &gt ''Killer_Event'',''SS_Event_balcony''">Repair Gas_valve</a></div>'else'<div class="buttonGr"><a href="exec:">Need a Gas_valve</a></div>'
 			if icamera=0:'<div class="buttonGr"><a href="exec:">Need a camera</a></div>'
 			'<div class="button"><a href="exec:gt ''Deep_alley''">leave</a></div>'
 		'</div>'
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>> :Where are Gas_valves sold?I am a newcomer to life and I am not familiar with it.</p>'
-			 '<p>I :Take care of me.(You noticed an inconspicuous dead corner of the field of vision, which is a good place to install the camera.）</p>'
+			 '<p><<$SS.name>>:Where are Gas_valves sold?I am a newcomer to life and I am not familiar with it.</p>'
+			 '<p>I:Take care of me.(You noticed an inconspicuous dead corner of the field of vision, which is a good place to install the camera.）</p>'
 		 '</div>'
 End
 
@@ -291,8 +291,8 @@ if $args[0]="Kitchen monitoring":
 	'<div class ="show_menu"><img src="images\NPC\SS\pics\厨房.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $JZ_Event_rape>=100:'<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''Kitchen monitoring2''">The night of the bombing</a></div>'else:'<div class="buttonGr"><a href="exec:">No signal</a></div>'
-		if $SS_arrest=2:'<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''Kitchen monitoring3''">After bail</a></div>'else:'<div class="buttonGr"><a href="exec:">No signal</a></div>'
+		if $JZ_Event_rape>=100:'<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''Kitchen monitoring2''">The night of the bombing</a></div>'else'<div class="buttonGr"><a href="exec:">No signal</a></div>'
+		if $SS_arrest=2:'<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''Kitchen monitoring3''">After bail</a></div>'else'<div class="buttonGr"><a href="exec:">No signal</a></div>'
 
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Home_computer''">close</a></div>'
 	'</div>'
@@ -344,7 +344,7 @@ if $args[0]="SS_Event_stealing":
 			'<div class="button"><a href="exec:a+=1 & gt ''Killer_Event'',''SS_Event_stealing''">dialogue </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Leave safely </a></div>'
 			'</div>'
@@ -366,7 +366,7 @@ if $args[0]="SS_Event_stealing":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>>:Ah, this is not<<$Protagonist`s_surname>> Sir?What a coincidence, you see, I don`t wear any weapons on me.</p>'
+			 '<p><<$SS.name>>:Ah, this is not<<$Protagonists_surname>> Sir?What a coincidence, you see, I don`t wear any weapons on me.</p>'
 			 '<p>I:...How did you show up here?Who on earth are you?</p>'
 		 '</div>'
 	end
@@ -439,7 +439,7 @@ if $args[0]="SS_Event_interrogation":
 			'<div class="button"><a href="exec:a=8 &gt ''Killer_Event'',''SS_Event_interrogation''">Propose a transaction</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if a=8:'<div class="button"><a href="exec:CMoney+=500 & a=9 & $SS_arrest=2 & gt ''Killer_Event'',''SS_Event_interrogation''">Write off!</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Police_station''">leave</a></div>'
@@ -515,7 +515,7 @@ if $args[0]="SS_Event_interrogation":
 	if a=9:
 		 '<div class="dialog_menu">'
 			 '<p>·Dingdong----The company`s assets have changed.</p>'
-			 '<p><<$SS.name>>:We are destined to see you again，<<$Protagonist`s_surname>> sir.</p>'
+			 '<p><<$SS.name>>:We are destined to see you again，<<$Protagonists_surname>> sir.</p>'
 			 '<p>·It didn`t take long for several senior female officials to come in and let her go.</p>'
 			 '<p><<$jz.name>>:How much did she promise you?The bail money alone was distributed by the police station.4000ten thousand.....</p>'
 		 '</div>'
@@ -552,25 +552,25 @@ if $args[0]="SS_Event_home":
 
 		 '<div class="dialog_menu">'
 		 	if $Killerdialogue=0:
-			 '<p><<$SS.name>> :What`s the matter, are you surprised to see me?Legal citizens live in houses where they have paid the rent. Is there any problem??</p>'
-			 '<p>I :Didn`t you be extradited?</p>'
-			 '<p><<$SS.name>> :We should have reached an agreement and let go of the past，<<$Protagonist`s_name>>。Although I am still wanted, the news is that I have left. Wouldn`t this be the safest place?</p>'
-			 '<p>I :Don`t you hate me?After all, I tortured you.</p>'
-			 '<p><<$SS.name>> :That`s quite interesting to say, isn`t it?</p>'
+			 '<p><<$SS.name>>:What`s the matter, are you surprised to see me?Legal citizens live in houses where they have paid the rent. Is there any problem??</p>'
+			 '<p>I:Didn`t you be extradited?</p>'
+			 '<p><<$SS.name>>:We should have reached an agreement and let go of the past，<<$Protagonist`s_name>>。Although I am still wanted, the news is that I have left. Wouldn`t this be the safest place?</p>'
+			 '<p>I:Don`t you hate me?After all, I tortured you.</p>'
+			 '<p><<$SS.name>>:That`s quite interesting to say, isn`t it?</p>'
 			 end
 
 		 	if $Killerdialogue=1:
-			 '<p><<$SS.name>> :I still have a lot of things to deal with here.First of all, I think we need to reach a new agreement.The content is...be my husband.</p>'
-			 '<p>I :What?Excuse me?Who would marry a murderous female killer like you?</p>'
-			 '<p><<$SS.name>> :*laugh.Don`t you feel moved by my appearance and figure?Don`t you want to know what I call in bed?</p>'
-			 '<p><<$SS.name>> :Okay, I won`t tease you anymore.I am now pretending to be working with the target in the hospital. He has a strong possessiveness and desire to conquer. His sexual addiction is voyeurism and cheating.I need you to play a cowardly husband, how about?Are you interested?</p>'
+			 '<p><<$SS.name>>:I still have a lot of things to deal with here.First of all, I think we need to reach a new agreement.The content is...be my husband.</p>'
+			 '<p>I:What?Excuse me?Who would marry a murderous female killer like you?</p>'
+			 '<p><<$SS.name>>:*laugh.Don`t you feel moved by my appearance and figure?Don`t you want to know what I call in bed?</p>'
+			 '<p><<$SS.name>>:Okay, I won`t tease you anymore.I am now pretending to be working with the target in the hospital. He has a strong possessiveness and desire to conquer. His sexual addiction is voyeurism and cheating.I need you to play a cowardly husband, how about?Are you interested?</p>'
 			 end
 
 		 	if $Killerdialogue=2:
-			 '<p>I :OK, Just in name?</p>'
-			 '<p><<$SS.name>> :We have to do it in front of him with real guns and live ammunition.You tied me up before, but you didn`t let you see how good I was.</p>'
-			 '<p>I :You won`t kill me later, will you?</p>'
-			 '<p><<$SS.name>> :It`s possible~Ah----open your mouth, husband.*laugh</p>'
+			 '<p>I:OK, Just in name?</p>'
+			 '<p><<$SS.name>>:We have to do it in front of him with real guns and live ammunition.You tied me up before, but you didn`t let you see how good I was.</p>'
+			 '<p>I:You won`t kill me later, will you?</p>'
+			 '<p><<$SS.name>>:It`s possible~Ah----open your mouth, husband.*laugh</p>'
 			 if $SS_Event_free<=1:$SS_Event_free=1
 			 end
 		 '</div>'
@@ -589,7 +589,7 @@ if $args[0]="SS_Fuck_hotel":
 
 		'<div class="button_menu">'
 			if a=-1:
-			if $SS.love>=100:'<div class="buttonS"><a href="exec:a=0 & gt ''Killer_Event'',''SS_Fuck_hotel''">Go to the hotel</a></div>'else:'<div class="buttonGr"><a href="exec:">go?？</a></div>'
+			if $SS.love>=100:'<div class="buttonS"><a href="exec:a=0 & gt ''Killer_Event'',''SS_Fuck_hotel''">Go to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">go?？</a></div>'
 			'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			end
 
@@ -613,28 +613,28 @@ if $args[0]="SS_Fuck_hotel":
 
 		if a=-1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>> :Digging dolls is so dangerous!My marksmanship is not bad, right?！A normal rifle shouldn`t have such a large bullet capacity....</p>'
-			 '<p>I :I think you just want to play, right?</p>'
-			 '<p><<$SS.name>> :I want you to take care of it!</p>'
+			 '<p><<$SS.name>>:Digging dolls is so dangerous!My marksmanship is not bad, right?！A normal rifle shouldn`t have such a large bullet capacity....</p>'
+			 '<p>I:I think you just want to play, right?</p>'
+			 '<p><<$SS.name>>:I want you to take care of it!</p>'
 			 $SS.love+=my.charm
 		 '</div>'
 		 end
 		if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>I :I suddenly found that you are still a bit cute when you are not talking.</p>'
-			 '<p><<$SS.name>> :It`s not too late to find out.Do you want to wash with me?*laugh</p>'
+			 '<p>I:I suddenly found that you are still a bit cute when you are not talking.</p>'
+			 '<p><<$SS.name>>:It`s not too late to find out.Do you want to wash with me?*laugh</p>'
 		 '</div>'
 		 end
 		if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>I :You have to put it in the mirror when you take a showerposeIs it?Wow.</p>'
-			 '<p><<$SS.name>> :You are very annoying!</p>'
+			 '<p>I:You have to put it in the mirror when you take a showerposeIs it?Wow.</p>'
+			 '<p><<$SS.name>>:You are very annoying!</p>'
 		 '</div>'
 		 end
 		if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>> :You are the only one who talks a lot of nonsense, just shut your mouth obediently.Help you lick your dick clean, don`t make me get gynecological disease...</p>'
-			 '<p>I :Just wear a condom.</p>'
+			 '<p><<$SS.name>>:You are the only one who talks a lot of nonsense, just shut your mouth obediently.Help you lick your dick clean, don`t make me get gynecological disease...</p>'
+			 '<p>I:Just wear a condom.</p>'
 		 '</div>'
 		 end
 End
@@ -674,7 +674,7 @@ if $args[0]="SS_Event_love":
 			'<div class="button"><a href="exec:a=7 &gt ''Killer_Event'',''SS_Event_love''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if a=7:'<div class="buttonPu2"><a href="exec:a=8 & gt ''Killer_Event'',''SS_Event_love''">Me too</a></div>'
 				if a=7:'<div class="buttonS2"><a href="exec:a=8 & gt ''Killer_Event'',''SS_Event_love''">I love you</a></div>'
@@ -769,7 +769,7 @@ if $args[0]="SS_Fuck_Sperm donation":
 			'<div class="buttonS"><a href="exec:a=6 & gt ''Killer_Event'',''SS_Fuck_Sperm donation''">Hard work</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">leave</a></div>'
 			'</div>'
@@ -891,7 +891,7 @@ if $args[0]="SS_Event_hospital2":
 
 			'<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">leave</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">leave</a></div>'
 			'</div>'
@@ -972,7 +972,7 @@ if $args[0]="SS_Event_hospital3":
 			'<div class="button"><a href="exec:a=8 &gt ''Killer_Event'',''SS_Event_hospital3''">Make a big laugh</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				if medicine=1:'<div class="button"><a href="exec:minutes+=30 & gt ''Daily_drug_test''">return</a></div>'
 				if medicine!1:'<div class="button"><a href="exec:minutes+=30 & gt ''hospital''">leave</a></div>'
@@ -1059,7 +1059,7 @@ if $args[0]="SS_Fuck_show":
 			'<div class="button"><a href="exec:a=9 &gt ''Killer_Event'',''SS_Fuck_show''">Lick clean</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">End shooting</a></div>'
 			'</div>'
@@ -1145,7 +1145,7 @@ if $args[0]="SS_Fuck_home3P":
 			'<div class="button"><a href="exec:a=8 & minutes+=60 &gt ''Killer_Event'',''SS_Fuck_home3P''">One hour later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
 			'</div>'
@@ -1221,7 +1221,7 @@ if $args[0]="SS_Fuck_Family inverse3P":
 			'<div class="button"><a href="exec:a=12 & gt ''Killer_Event'',''SS_Fuck_Family inverse3P''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
 			'</div>'
@@ -1279,12 +1279,12 @@ if $args[0]="Please follow":
 
 
 	 '<div class="dialog_menu">'
-		 '<p>I :Can you help me track someone?She is<<$XM.name>>。</p>'
-		 '<p><<$SS.name>> :woman?Huh, now you think of me?</p>'
-		 '<p>I :Won`t you help me?</p>'
-		 '<p><<$SS.name>> :Okay, I see, I really can`t stand you.The investigation will take some time. How do you want me to track it?</p>'
-		 '<p>I :It`s best to be able to photograph what she is doing with strangers in the deep alley in the middle of the night……</p>'
-		 '<p><<$SS.name>> :I will send you the videotape after the investigation is over, so you have to be mentally prepared when the time comes!</p>'
+		 '<p>I:Can you help me track someone?She is<<$XM.name>>。</p>'
+		 '<p><<$SS.name>>:woman?Huh, now you think of me?</p>'
+		 '<p>I:Won`t you help me?</p>'
+		 '<p><<$SS.name>>:Okay, I see, I really can`t stand you.The investigation will take some time. How do you want me to track it?</p>'
+		 '<p>I:It`s best to be able to photograph what she is doing with strangers in the deep alley in the middle of the night……</p>'
+		 '<p><<$SS.name>>:I will send you the videotape after the investigation is over, so you have to be mentally prepared when the time comes!</p>'
 		 XMVideotape=2
 	 '</div>'
 End
@@ -1302,12 +1302,12 @@ if $args[0]="lessonGJ":
 
 
 	 '<div class="dialog_menu">'
-		 '<p>I :Can you help me teach someone a lesson?She sent someone to bully my sister!</p>'
-		 '<p><<$SS.name>> :Oh, my sister remembered me when she was bullied?</p>'
-		 '<p>I :Please, help me.</p>'
-		 '<p><<$SS.name>> :…...I see, isn`t your sister my sister?Give me her name!</p>'
-		 '<p>I :<<$GJ.name>></p>'
-		 '<p><<$SS.name>> :How do you want me to teach her?Forget it, let`s leave it to you for a lesson!Remember to rent a basement in Shenxiang, and I will invite her over.</p>'
+		 '<p>I:Can you help me teach someone a lesson?She sent someone to bully my sister!</p>'
+		 '<p><<$SS.name>>:Oh, my sister remembered me when she was bullied?</p>'
+		 '<p>I:Please, help me.</p>'
+		 '<p><<$SS.name>>:…...I see, isn`t your sister my sister?Give me her name!</p>'
+		 '<p>I:<<$GJ.name>></p>'
+		 '<p><<$SS.name>>:How do you want me to teach her?Forget it, let`s leave it to you for a lesson!Remember to rent a basement in Shenxiang, and I will invite her over.</p>'
 		 $Champion_event_chain=13
 	 '</div>'
 End

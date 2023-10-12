@@ -33,7 +33,7 @@ $loc = $CURLOC
 		'<img src="images\place\研究所_2.jpg" width="854"></div>'
 	elseif ceshi=3:
 		'<img src="images\place\研究所_3.jpg" width="854"></div>'
-	else:
+	else
 		'<img src="images\place\研究所_4.jpg" width="854"></div>'
 	end
 '</div>'

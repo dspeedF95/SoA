@@ -12,7 +12,7 @@ minutes+=10
 	gs'menu_option_show'
 	'<div class="actions_menu">'
 		'<div class="action">'
-			'<a class="photo" data-title="Mayor`s Office" href="exec:gt ''Mayor`s_Office''"><img class="img_stretch" src="images\place\市长办公室.jpg"></a>'
+			'<a class="photo" data-title="Mayor`s Office" href="exec:gt ''Mayors_Office''"><img class="img_stretch" src="images\place\市长办公室.jpg"></a>'
 		'</div>'
 
 		'<div class="action">'
@@ -22,7 +22,7 @@ minutes+=10
 		'<div class="action">'
 			if year>=2024:
 			'<a class="photo" data-title="Police station" href="exec:minutes+=5 & gt ''Police_station''"><img class="img_stretch" src="images\place\警察局小图.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="【The police station is under renovation·30Open in Tin Hau】"><img class="img_stretch" src="images\place\警察局小图.jpg"></a>'
 			end
 		'</div>'
@@ -43,7 +43,7 @@ if $ARGS[0]="":
 	
 	if 20>hour and hour>=8 and $QT.job!2:
 	'<div class ="show_menu"><img src="images\NPC\QT\pics\市政厅前台.jpg" width="854"></div>'
-	else: 
+	else 
 	'<div class ="show_menu"><img src="images\place\市政大厅.jpg" width="854"></div>'
 	end
 	
@@ -72,14 +72,14 @@ if $ARGS[0]="Front desk vertical painting":
 		if week_day >5 and $QT.date=1 and  hour <= 16:'<div class="buttonB3"><a href="exec:gt ''Foreground_Event'',''Go to the beach''">Go to the beach</a></div>'
 		if $Front_desk_Event_throat=1 or $Front_desk_Event_throat=2:'<div class="buttonR4"><a href="exec:gt ''City_hall'',''Vocal cord problems''">Vocal cord problems</a></div>'
 		if $Front_desk_Event_throat=3:'<div class="buttonR4"><a href="exec:gt ''City_hall'',''Top shift''">Top shift</a></div>'
-		if hour=19 and minutes>=30:'<div class="button"><a href="exec:gt ''Foreground_Event'',''Accompany her off work''">Accompany her off work</a></div>'else:'<div class="buttonGr"><a href="exec:">Wait for her to get off work</a></div>'
+		if hour=19 and minutes>=30:'<div class="button"><a href="exec:gt ''Foreground_Event'',''Accompany her off work''">Accompany her off work</a></div>'else'<div class="buttonGr"><a href="exec:">Wait for her to get off work</a></div>'
 		if $Front_desk_Event_throat=5:'<div class="buttonR4"><a href="exec:gt ''City_hall'',''Apply for an announcer''">Apply for an announcer</a></div>'
 		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">It`s okay</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
 		if  $Front_desk_Event_throat=5:
 			'<p><<$QT.name>>:<<$Protagonist`s_name>>！Thank you!My vocal cords feel much better now!Recovering!</p>'
-			else:
+			else
 			'<p><<$QT.name>>:Ahem, who are you looking for?</p>'
 			end
 	'</div>'
@@ -98,7 +98,7 @@ if $ARGS[0]="Front desk appointment":
 		'<p>I:Are you busy lately?I heard that there is a nice restaurant in the mall. Would you like to go together on weekends?</p>'
 		if $QT.LOVE<20:
 		'<p><<$QT.name>>:Ahem, sorry, I don`t have time.</p>'
-		else:
+		else
 		'<p><<$QT.name>>:Well, but... I want to go to the beach.</p>'
 		'<p>I:Then let`s go to the beach this weekend!I`m here to pick you up!</p>'
 		'<p><<$QT.name>>:Hey?！really?Great!</p>'
@@ -150,7 +150,7 @@ end
 if $ARGS[0]="In the top class":
 	if 20>hour and hour>=8:
 	'<div class ="show_menu"><img src="images\NPC\MS\pics\市政大厅顶班.jpg" width="854"></div>'
-	else: 
+	else 
 	'<div class ="show_menu"><img src="images\place\市政大厅.jpg" width="854"></div>'
 	end
 	'<div class="button_menu">'
@@ -175,7 +175,7 @@ if $ARGS[0]="Standing painting of the top shift at the front desk":
 		'<div class="button"><a href="exec:minutes+=20 & gt ''City_hall''">It`s okay</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p><<$MS.name>>:<<$Protagonist`s_surname>> boss，<<$QT.name>>Is the treatment going well?Don`t worry about me, the work here is very simple.</p>'
+		'<p><<$MS.name>>:<<$Protagonists_surname>> boss，<<$QT.name>>Is the treatment going well?Don`t worry about me, the work here is very simple.</p>'
 	'</div>'
 end
 

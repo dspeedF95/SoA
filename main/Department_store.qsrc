@@ -102,7 +102,7 @@ if TJtask=1:gt'Executive_officer_Event','Executive officer_Fuck_supermarket'
 			'<div class="action">'
 			'<a class="photo" data-title="8K TV set (7999￥) " href="exec:money-=7999 & TVset+=1 & gt ''Department_store'',''Successful purchase''"><img class="img_stretch" src="images\items\电视.jpg"></a>'
 			'</div>'
-		else:
+		else
 		'<div class="action">'
 		'<a class="photo" data-title="8K TV set (7999￥) " href="exec:gt ''Department_store'',''The purchase failed and there was not enough money.''"><img class="img_stretch" src="images\items\电视.jpg"></a>'
 		'</div>'
@@ -114,7 +114,7 @@ if TJtask=1:gt'Executive_officer_Event','Executive officer_Fuck_supermarket'
             '<div class="action">'
             '<a class="photo" data-title="Electric guitar (7999￥) " href="exec:money-=7999 & $Draft_event_chain=2 & Electricguitar+=1 & gt ''Department_store'',''Successful purchase''"><img class="img_stretch" src="images\items\电吉他.jpg"></a>'
             '</div>'
-        else:
+        else
         '<div class="action">'
         '<a class="photo" data-title="Electric guitar (7999￥) " href="exec:gt ''Department_store'',''The purchase failed and there was not enough money.''"><img class="img_stretch" src="images\items\电吉他.jpg"></a>'
         '</div>'
@@ -126,7 +126,7 @@ if TJtask=1:gt'Executive_officer_Event','Executive officer_Fuck_supermarket'
             '<div class="action">'
             '<a class="photo" data-title="Sledgehammer (500￥) " href="exec:money-=500 & Bigvillaforthefirsttime=4 & Sledgehammer+=1 & gt ''Department_store'',''Successful purchase''"><img class="img_stretch" src="images\items\大锤.jpg"></a>'
             '</div>'
-        else:
+        else
         '<div class="action">'
         '<a class="photo" data-title="Sledgehammer (500￥) " href="exec:gt ''Department_store'',''The purchase failed and there was not enough money.''"><img class="img_stretch" src="images\items\大锤.jpg"></a>'
         '</div>'
@@ -139,7 +139,7 @@ if TJtask=1:gt'Executive_officer_Event','Executive officer_Fuck_supermarket'
 			'<div class="action">'
 			'<a class="photo" data-title="Pink drill anal plug (199￥) " href="exec:money-=199 & Anal_plug+=1 & gt ''Department_store'',''Successful purchase''"><img class="img_stretch" src="images\items\Anal_plug.jpg"></a>'
 			'</div>'
-		else:
+		else
 		'<div class="action">'
 		'<a class="photo" data-title="Pink drill anal plug (199￥) " href="exec:gt ''Department_store'',''The purchase failed and there was not enough money.''"><img class="img_stretch" src="images\items\Anal_plug.jpg"></a>'
 		'</div>'
@@ -153,7 +153,7 @@ if TJtask=1:gt'Executive_officer_Event','Executive officer_Fuck_supermarket'
 
 if rand(0,100)>2:
 '<div class ="show_menu"><img src="images\place\百货商店.jpg" width="854"></div>'
-else:
+else
         '<div class="show_menu">'
              '<video preload="metadata" autoplay loop height="480">
              <source src="images\videos\杂\彩蛋4.webm" type=''video/webm;''></video></div>'
@@ -183,11 +183,11 @@ if $ARGS[0]="":
 	'<p>Next, I should go to my sister`s pharmaceutical factory and give it to her.</p>'
 	'<p>————————————————————————————————</p>'
 	end
-	if $XY_Event_bag=1 :
+	if $XY_Event_bag=1:
 		bagrand=bagcount*10
 		bagrand1=rand(0,100)
 		'<p>The daily sign-in sweepstakes for the first edition of the limited edition bag is in progress, daily13-15You can participate at that time.</p>'
-		if Dailydraw=0 and 13<=hour and hour<=15 :'<p><a href="exec:minutes+=15 & bagcount+=1 &Dailydraw=1& gt ''Department_store''">Check in and sign in</a></p>'
+		if Dailydraw=0 and 13<=hour and hour<=15:'<p><a href="exec:minutes+=15 & bagcount+=1 &Dailydraw=1& gt ''Department_store''">Check in and sign in</a></p>'
 		'<p>Number of sign-ins：<<bagcount>>/∞</p>'
 		if bagrand<bagrand1:'<p>Probability of winning：<<bagrand>>% <a href="exec:minutes+=15 & bagcount=0 & gt ''Department_store''">Participate in the lucky draw</a></p>'
 	 if bagrand>=bagrand1:'<p>Probability of winning：<<bagrand>>% <a href="exec:minutes+=15 & bagcount=0 & bagrand2+=1 & gt ''Department_store''">Participate in the lucky draw</a></p>'

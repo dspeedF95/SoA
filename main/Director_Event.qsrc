@@ -42,9 +42,9 @@ if $args[0]="date":
 	'<div class="button_menu">'
 		'<div class="buttonP"><a href="exec:gt ''Director_Event'',''TZ_Fuck_massage''">Propose massage </a></div>'
 
-		if $TZ.love>=150 and $TZ.bad>=150 :'<div class="buttonS3"><a href="exec:gt ''Director_Event'',''TZ_Fuck_date''">Go open a room </a></div>'else:'<div class="buttonGr"><a href="exec:">Go open a room</a></div>'
-		if $TZ.love>=200 and $TZ.bad>=200 :'<div class="buttonS4"><a href="exec:gt ''Director_Event'',''TZ_Fuck_Back to the company''">Back to the station </a></div>'else:'<div class="buttonGr"><a href="exec:">Back to the station</a></div>'
-		if $TZ.love>=300 and $TZ.bad>=300 :'<div class="buttonGn"><a href="exec:gt ''Director_Event'',''Hot spring''">Go to the hot spring </a></div>'else:'<div class="buttonGr"><a href="exec:">Go to the hot spring</a></div>'
+		if $TZ.love>=150 and $TZ.bad>=150:'<div class="buttonS3"><a href="exec:gt ''Director_Event'',''TZ_Fuck_date''">Go open a room </a></div>'else'<div class="buttonGr"><a href="exec:">Go open a room</a></div>'
+		if $TZ.love>=200 and $TZ.bad>=200:'<div class="buttonS4"><a href="exec:gt ''Director_Event'',''TZ_Fuck_Back to the company''">Back to the station </a></div>'else'<div class="buttonGr"><a href="exec:">Back to the station</a></div>'
+		if $TZ.love>=300 and $TZ.bad>=300:'<div class="buttonGn"><a href="exec:gt ''Director_Event'',''Hot spring''">Go to the hot spring </a></div>'else'<div class="buttonGr"><a href="exec:">Go to the hot spring</a></div>'
 		
 		'<div class="button"><a href="exec:gt ''Residential_area''">Go back to each home</a></div>'
 	'</div>'
@@ -76,7 +76,7 @@ if $args[0]="TZ_Fuck_Universal Prizemouth":
 			if a!2 and 0<q and q<=4:
 			if $Prizemouth=4 and a=1:
 			'<div class="buttonR4"><a href="exec:a=2 & gt ''Director_Event'',''TZ_Fuck_Universal Prizemouth''">Shoot her in the mouth </a></div>'
-			else:
+			else
 			'<div class="buttonS1"><a href="exec:a=2 & gt ''Director_Event'',''TZ_Fuck_Universal Prizemouth''">serve </a></div>'
 			end
 			end
@@ -86,7 +86,7 @@ if $args[0]="TZ_Fuck_Universal Prizemouth":
 			if a!4 and 2<q and q<=6:
 			if $Prizemouth=4:
 			'<div class="buttonS3"><a href="exec:a=4 & gt ''Director_Event'',''TZ_Fuck_Universal Prizemouth''">Lick the balls </a></div>'
-			else:
+			else
 			'<div class="buttonS3"><a href="exec:a=4 & gt ''Director_Event'',''TZ_Fuck_Universal Prizemouth''">Be gentle </a></div>'
 			end
 			end
@@ -101,7 +101,7 @@ if $args[0]="TZ_Fuck_Universal Prizemouth":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">leave</a></div>'
 			'</div>'
@@ -194,7 +194,7 @@ if $args[0]="TZ_Fuck_Pan_reward_event":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">leave</a></div>'
 			'</div>'
@@ -271,7 +271,7 @@ if $args[0]="TZ_Fuck_date":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">respectively</a></div>'
 			'</div>'
@@ -335,7 +335,7 @@ if $args[0]="TZ_Fuck_Back to the company":
 			'<div class="buttonS5"><a href="exec:a=5 & gt ''Director_Event'',''TZ_Fuck_Back to the company''">Violent thrusting </a></div>'
 			end
 
-			if a!7 and 4<q :
+			if a!7 and 4<q:
 			'<div class="buttonS5"><a href="exec:a=7 & gt ''Director_Event'',''TZ_Fuck_Back to the company''">Change posture </a></div>'
 			end
 
@@ -343,7 +343,7 @@ if $args[0]="TZ_Fuck_Back to the company":
 			if a=5 or a=7:
 			'<div class="buttonR4"><a href="exec:a+=1 & gt ''Director_Event'',''TZ_Fuck_Back to the company''">Internal injection</a></div>'
 			end
-			if a!9 and 7<q :
+			if a!9 and 7<q:
 			'<div class="buttonS5"><a href="exec:a=9 & gt ''Director_Event'',''TZ_Fuck_Back to the company''">Final sprint </a></div>'
 			end
 			if a=9:
@@ -355,7 +355,7 @@ if $args[0]="TZ_Fuck_Back to the company":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">respectively</a></div>'
 			'</div>'
@@ -406,7 +406,7 @@ if $args[0]="TZ_Fuck_massage":
 		'<div class="button_menu">'
 			if a=0:
 			'<div class="button"><a href="exec:a=1 & gt ''Director_Event'',''TZ_Fuck_massage''">Normal massage </a></div>'
-			if MGF>0:'<div class="buttonS1"><a href="exec:MGF-=1 & a=2 & gt ''Director_Event'',''TZ_Fuck_massage''">Apply McGovern Essence</a></div>'else:'<div class="buttonGr"><a href="exec:">Missing?？？</a></div>'
+			if MGF>0:'<div class="buttonS1"><a href="exec:MGF-=1 & a=2 & gt ''Director_Event'',''TZ_Fuck_massage''">Apply McGovern Essence</a></div>'else'<div class="buttonGr"><a href="exec:">Missing?？？</a></div>'
 			end
 
 			if a>=2 and a!3:
@@ -424,7 +424,7 @@ if $args[0]="TZ_Fuck_massage":
 			if a!7 and 5<q and q<=8:
 			'<div class="buttonS5"><a href="exec:a=7 & gt ''Director_Event'',''TZ_Fuck_massage''">Pick it up and fuck </a></div>'
 			end
-			if a!8 and 6<q :
+			if a!8 and 6<q:
 			'<div class="buttonS5"><a href="exec:a=8 & gt ''Director_Event'',''TZ_Fuck_massage''">Accelerate the sprint </a></div>'
 			end
 			if a=8:
@@ -436,7 +436,7 @@ if $args[0]="TZ_Fuck_massage":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">respectively</a></div>'
 			'</div>'
@@ -524,7 +524,7 @@ if $args[0]="TZ_Fuck_Celebration banquet":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">respectively</a></div>'
 			'</div>'
@@ -604,7 +604,7 @@ if $args[0]="TZ_Fuck_rest":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">respectively</a></div>'
 			'</div>'
@@ -676,12 +676,12 @@ if $args[0]="TZ_Fuck_Hot spring1":
 			if a!2 and 1<=q and q<=5:
 			'<div class="buttonS2"><a href="exec:a=2 & gt ''Director_Event'',''TZ_Fuck_Hot spring1''">Lick </a></div>'
 			end
-			if a!3 and 2<=q :
+			if a!3 and 2<=q:
 			'<div class="buttonS2"><a href="exec:a=3 & gt ''Director_Event'',''TZ_Fuck_Hot spring1''">Ejaculation </a></div>'
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=1440 & hour=7 & my.energy=mymax[energy]  & a=0 & q=0 & gt ''Director_Event'',''TZ_Fuck_Hot spring3''">overnightzzZ</a></div>'
 			'</div>'
@@ -736,7 +736,7 @@ if $args[0]="TZ_Fuck_Hot spring2":
 			if a=4:
 			'<div class="buttonPu4"><a href="exec:a=7 & gt ''Director_Event'',''TZ_Fuck_Hot spring2''">Outdoor situation </a></div>'
 			end
-			if a!5 and 3<=q :
+			if a!5 and 3<=q:
 			'<div class="buttonS4"><a href="exec:a=5 & gt ''Director_Event'',''TZ_Fuck_Hot spring2''">Twist by yourself </a></div>'
 			end
 			if a=5:
@@ -745,7 +745,7 @@ if $args[0]="TZ_Fuck_Hot spring2":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=1440 & hour=7 & my.energy=mymax[energy]  & a=0 & q=0 & gt ''Director_Event'',''TZ_Fuck_Hot spring3''">overnightzzZ</a></div>'
 			'</div>'
@@ -784,7 +784,7 @@ if $args[0]="TZ_Fuck_Hot spring2":
 		 $WQ.love+=1
 		 $WQ.bad+=1
 		 '<div class="dialog_menu">'
-			 '<p>？？？: Damn it... why?…</p>'
+			 '<p>???: Damn it... why?…</p>'
 		 '</div>'
 	end
 	
@@ -811,7 +811,7 @@ if $args[0]="TZ_Fuck_Hot spring3":
 			if a!4 and 2<=q and q<=6:
 			'<div class="buttonS3"><a href="exec:a=4 & gt ''Director_Event'',''TZ_Fuck_Hot spring3''">After entering her </a></div>'
 			end
-			if a!5 and 3<=q :
+			if a!5 and 3<=q:
 			'<div class="buttonS4"><a href="exec:a=5 & gt ''Director_Event'',''TZ_Fuck_Hot spring3''">Vigorously pump </a></div>'
 			end
 			if a=5:
@@ -820,7 +820,7 @@ if $args[0]="TZ_Fuck_Hot spring3":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">Work together</a></div>'
 			'</div>'
@@ -910,7 +910,7 @@ if $args[0]="TZ_Fuck_cycle":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">leave</a></div>'
 			'</div>'
@@ -986,10 +986,10 @@ if $args[0]="TZ_Fuck_Referrals":
 			if a!2 and 0<q and q<=4:
 			'<div class="buttonS1"><a href="exec:a=2 & gt ''Director_Event'',''TZ_Fuck_Referrals''">Mouth me </a></div>'
 			end
-			if a!3 and 1<q :
+			if a!3 and 1<q:
 			'<div class="buttonB2"><a href="exec:a=3 & gt ''Director_Event'',''TZ_Fuck_Referrals''">fuck<<$LY.NAME>> </a></div>'
 			end
-			if a!8 and 1<q :
+			if a!8 and 1<q:
 			'<div class="buttonS3"><a href="exec:a=8 & gt ''Director_Event'',''TZ_Fuck_Referrals''">fuck<<$TZ.NAME>> </a></div>'
 			end
 			if  3<=a and a<=5:
@@ -1010,7 +1010,7 @@ if $args[0]="TZ_Fuck_Referrals":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=60 & gt ''TV_station''">leave</a></div>'
 			'</div>'
@@ -1080,7 +1080,7 @@ if $args[0]="TZ_Fuck_Take credit":
 			'<div class="buttonS1"><a href="exec:a=3 & gt ''Director_Event'',''TZ_Fuck_Take credit''">Be ridden on the face </a></div>'
 			end
 
-			if a!4 and 2<q :
+			if a!4 and 2<q:
 			'<div class="buttonP"><a href="exec:a=4 & gt ''Director_Event'',''TZ_Fuck_Take credit''">Choose ass </a></div>'
 			end
 
@@ -1105,7 +1105,7 @@ if $args[0]="TZ_Fuck_Take credit":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=60 & gt ''TV_station''">leave</a></div>'
 			'</div>'
@@ -1188,22 +1188,22 @@ if $args[0]="TZ_Fuck_Full staff":
 			'<div class="buttonR1"><a href="exec:a=5 & gt ''Director_Event'',''TZ_Fuck_Full staff''">Choose→<<$LY.NAME>> </a></div>'
 			end
 
-			if  3<=a and a<=5 :
+			if  3<=a and a<=5:
 			'<div class="buttonS4"><a href="exec:a+=3 & gt ''Director_Event'',''TZ_Fuck_Full staff''">Fuck her </a></div>'
 			end
 
-			if  6<=a and a<=8 :
+			if  6<=a and a<=8:
 			'<div class="buttonS5"><a href="exec:a+=3 & gt ''Director_Event'',''TZ_Fuck_Full staff''">Ejaculation </a></div>'
 			end
 
-			if  9<=a and a<=11 :
+			if  9<=a and a<=11:
 			'<div class="buttonP"><a href="exec:a=2 & gt ''Director_Event'',''TZ_Fuck_Full staff''">Choose ass </a></div>'
 			'<div class="button"><a href="exec:a=12 & gt ''Director_Event'',''TZ_Fuck_Full staff''">Slip away</a></div>'
 			end
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="buttonG"><a href="exec:minutes+=60 & gt ''TV_station''">Achievement: The KingofTVstations in the United States</a></div>'
 			'</div>'
@@ -1275,7 +1275,7 @@ if $args[0]="TZ_Fuck_Xie Shiyan":
     if a!11:
         '<div class="button_menu">'
             if a=0:
-            if $TZ.bad>=my.charm*25 and $QB.bad>=my.charm*25 :'<div class="buttonS"><a href="exec:a=1 & gt ''Director_Event'',''TZ_Fuck_Xie Shiyan''">Shut up to me! </a></div>'else:'<div class="buttonGr"><a href="exec:">Someone pretends to be reserved </a></div>'
+            if $TZ.bad>=my.charm*25 and $QB.bad>=my.charm*25:'<div class="buttonS"><a href="exec:a=1 & gt ''Director_Event'',''TZ_Fuck_Xie Shiyan''">Shut up to me! </a></div>'else'<div class="buttonGr"><a href="exec:">Someone pretends to be reserved </a></div>'
             '<div class="button"><a href="exec:a=1 & gt ''TV_station''">leave </a></div>'
             end
             if a!0 and a!2:
@@ -1304,7 +1304,7 @@ if $args[0]="TZ_Fuck_Xie Shiyan":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS5"><a href="exec:a=rand(2,8) & gt ''Director_Event'',''TZ_Fuck_Xie Shiyan''">Keep doing it! </a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">Time to rest…</a></div>'
@@ -1317,7 +1317,7 @@ if $args[0]="TZ_Fuck_Xie Shiyan":
          '<div class="dialog_menu">'
              '<p>I:Ahem... In the end, you can miraculously counterattack with the first-place votes. You must have secretly helped a lot.</p>'
              '<p><<$TZ.name>>: No... I just did my part.</p>'
-             '<p><<$QB.name>>: Director, anyway, you suggested that I follow<<$Protagonist`s_surname>> Honey, this is the most important choice in my life.</p>'
+             '<p><<$QB.name>>: Director, anyway, you suggested that I follow<<$Protagonists_surname>> Honey, this is the most important choice in my life.</p>'
              '<p>I: I don`t believe you didn`t contribute.</p>'
              '<p><<$TZ.name>>: Speechless, then you will contribute to me now?You have an unusual relationship with her, right?</p>'
          '</div>'
@@ -1376,11 +1376,11 @@ if $args[0]="TZ_Fuck_Full staff2":
             '<div class="buttonR1"><a href="exec:a=6 & gt ''Director_Event'',''TZ_Fuck_Full staff2''">Choose→<<$TZ.NAME>> </a></div>'
             end
 
-            if  a=4 or a=6 or a=8 :
+            if  a=4 or a=6 or a=8:
             '<div class="buttonS4"><a href="exec:a+=1 & gt ''Director_Event'',''TZ_Fuck_Full staff2''">Change posture </a></div>'
             end
 
-            if  a=5 or a=7 or a=9 :
+            if  a=5 or a=7 or a=9:
             '<div class="buttonS5"><a href="exec:a=10 & gt ''Director_Event'',''TZ_Fuck_Full staff2''">Line up bukkake </a></div>'
             end
 
@@ -1391,7 +1391,7 @@ if $args[0]="TZ_Fuck_Full staff2":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=2 & gt ''Director_Event'',''TZ_Fuck_Full staff2''">Blow me hard!Sorcerer!</a></div>'
                 '<div class="buttonG"><a href="exec:minutes+=60 & gt ''TV_station''">Achievement:✩Screenmaster</a></div>'
@@ -1403,7 +1403,7 @@ if $args[0]="TZ_Fuck_Full staff2":
     if a=0:
          '<div class="dialog_menu">'
              '<p><<$TZ.name>>: This time<<$QT.name>>I got good results, I am very happy.<<$QB.name>>It was also discovered from our station. Do you consider returning to the station for the exam?</p>'
-             '<p><<$QB.name>>: <<$Protagonist`s_surname>> The agent helped me a lot!I can`t do without him now…</p>'
+             '<p><<$QB.name>>: <<$Protagonists_surname>> The agent helped me a lot!I can`t do without him now…</p>'
              '<p><<$QT.name>>: <<$Protagonist`s_name>>It also helped me a lot, it`s not as good as the three of us…</p>'
              '<p>I: Hmm?</p>'
          '</div>'

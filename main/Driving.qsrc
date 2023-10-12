@@ -7,7 +7,7 @@ gs'menu_gif'
 close all
 if $TheCaraudioisturnedon=1:
  PLAY 'mp3/car_<<rand(0,13)>>.ogg'
-else:
+else
  close all
 
 end
@@ -74,7 +74,7 @@ end
 	 if $Caraudio=1:
 		if $TheCaraudioisturnedon!1:
 			'<div class="button"><a href="exec:$TheCaraudioisturnedon=1 & gt ''Driving''">Turn on the Caraudio</a></div>'
-		else:
+		else
 			'<div class="button"><a href="exec:gt ''Driving''">Cut song</a></div>'
 			'<div class="button"><a href="exec:$TheCaraudioisturnedon=0 & gt ''Driving''">Turn off the Caraudio</a></div>'
 		end

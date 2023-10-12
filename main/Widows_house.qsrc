@@ -1,4 +1,4 @@
-# Widow`s_house
+# Widows_house
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
@@ -13,7 +13,7 @@ gs'menu_gif'
 	gs'menu_option_show'
 	'<div class="actions_menu">'
 		'<div class="action">'
-		 '<a class="photo" data-title="Return to the gate" href="exec:gt ''Widow`s_house''"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
+		 '<a class="photo" data-title="Return to the gate" href="exec:gt ''Widows_house''"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
 		'</div>'
 	'</div>'
 '</div>'
@@ -29,16 +29,16 @@ if $args[0]="":
 
 	'<div class="button_menu">'
 		if $Haveseenthefloorplan<3:
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Cannot enter''">Knock on the door</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Back''">Go around the back</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Cannot enter''">Knock on the door</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Back''">Go around the back</a></div>'
 		end
 		if $Haveseenthefloorplan=3:
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Gatekeeper''">enter</a></div>'
-		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Back''">Go around the back</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Gatekeeper''">enter</a></div>'
+		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Back''">Go around the back</a></div>'
 		end
 		if $Haveseenthefloorplan>3:
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Living room2''">enter</a></div>'
-		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Back''">Go around the back</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Living room2''">enter</a></div>'
+		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Back''">Go around the back</a></div>'
 		end
 		
 		
@@ -52,21 +52,21 @@ if $args[0]="":
 end
 
 if $args[0]="Cannot enter":
- msg'She doesn`t welcome you'  & gt 'Widow`s_house'
+ msg'She doesn`t welcome you'  & gt 'Widows_house'
 end
 
 if $args[0]="Gatekeeper":
  '<div class ="show_menu"><img src="images\NPC\YS\pics\DX99.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house''">leave</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
 		'<p>New team member: The boss has an order. As new entrants in the New Longkou Group, we must take care of the door here!No fly can let it fly in!Do you understand?！</p>'
 		'<p>New team memberA: Received!</p>'
 		'<p>New team memberB:Understand!</p>'
-		'<p>New team memberC: How can the people in the daily knot group pretend to be the underworld?*Yawn<a href="exec:money-=200 & gt ''Widow`s_house'',''Living room''">-Bribe him￥200</a></p>'
+		'<p>New team memberC: How can the people in the daily knot group pretend to be the underworld?*Yawn<a href="exec:money-=200 & gt ''Widows_house'',''Living room''">-Bribe him￥200</a></p>'
 	'</div>'
 end
 
@@ -78,13 +78,13 @@ if $args[0]="bedroom":
 
 	'<div class="button_menu">'
 		if $times_of_day!'':'<div class="buttonS"><a href="exec:a=2 & gt ''Widow_Incident'',''YS_Fuck_comfort''">Go in and fuck her</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house''">leave</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
 		if $times_of_day='':
 		'<p>·<<$YS.name>>Not in the bedroom during the day.</p>'
-		else:
+		else
 		'<p><<$YS.name>>: Want to...seem to be fucked...no matter who it is... come and fuck me...have I been imprisoned by them for too long...or do I like to be humiliated?It doesn`t matter... come on... hurry up.……</p>'
 		end
 	'</div>'
@@ -97,11 +97,11 @@ if $args[0]="Living room":
  '<div class ="show_menu"><img src="images\place\遗孀家客厅.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''bedroom''">bedroom</a></div>'
+		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''bedroom''">bedroom</a></div>'
 		if $Haveseenthefloorplan=3:'<div class="buttonGr"><a href="exec:">Horse winter mold is in it</a></div>'
-		if $Haveseenthefloorplan>3:'<div class="button"><a href="exec:gt ''Widow`s_house'',''bedroom''">bedroom</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Study room''">Study room</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
+		if $Haveseenthefloorplan>3:'<div class="button"><a href="exec:gt ''Widows_house'',''bedroom''">bedroom</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Study room''">Study room</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house''">leave</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -117,16 +117,16 @@ if $args[0]="Living room2":
         '</div>'
 
 	'<div class="button_menu">'
-		if $times_of_day='':'<div class="buttonS1"><a href="exec:Revengedialogue=0 & gt ''Widow`s_house'',''Living room2dialogue''">Close to the conversation</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''bedroom''">bedroom</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Study room''">Study room</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
+		if $times_of_day='':'<div class="buttonS1"><a href="exec:Revengedialogue=0 & gt ''Widows_house'',''Living room2dialogue''">Close to the conversation</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''bedroom''">bedroom</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Study room''">Study room</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house''">leave</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
 		if $times_of_day='':
 		'<p>·In the living room<<$YS.name>>He was in a daze.</p>'
-		else:
+		else
 		'<p>·There is no one in the living room at night, she should be asleep already…</p>'
 		end
 	'</div>'
@@ -139,10 +139,10 @@ if $args[0]="Living room2dialogue":
         '</div>'
 
 	'<div class="button_menu">'
-		'<div class="buttonR2"><a href="exec:Revengedialogue=1 & gt ''Widow`s_house'',''Living room2dialogue2''">Chef: Coward</a></div>'
-		'<div class="buttonR3"><a href="exec:Revengedialogue=2 & gt ''Widow`s_house'',''Living room2dialogue2''"><<$JZ.name>></a></div>'
-		'<div class="buttonR4"><a href="exec:Revengedialogue=3 & gt ''Widow`s_house'',''Living room2dialogue2''">Horse winter mold: the culprit</a></div>'
-		'<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
+		'<div class="buttonR2"><a href="exec:Revengedialogue=1 & gt ''Widows_house'',''Living room2dialogue2''">Chef: Coward</a></div>'
+		'<div class="buttonR3"><a href="exec:Revengedialogue=2 & gt ''Widows_house'',''Living room2dialogue2''"><<$JZ.name>></a></div>'
+		'<div class="buttonR4"><a href="exec:Revengedialogue=3 & gt ''Widows_house'',''Living room2dialogue2''">Horse winter mold: the culprit</a></div>'
+		'<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Widows_house''">leave</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -173,7 +173,7 @@ if $args[0]="Living room2dialogue2":
 			if $Hellochef!3:
 				'<p><<$YS.name>>:That`s right!！！You reminded me, I have a good idea, you go and help me call him over❤</p>'
 				 if $Hellochef=0:$Hellochef=1
-			 else:
+			 else
 				'<p><<$YS.name>>:After2Divorced twice, he now only has80%Half of it and half of it, only20%Hahahahaha❤</p>'
 			 end
 		end
@@ -207,35 +207,35 @@ if $args[0]="Study room":
 	'<div class ="show_menu"><img src="images\place\遗孀家书房<<Kerosenelampgoesout>>.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		'<div class="buttonGn4"><a href="exec:gt ''Widow`s_house'',''Nothing happened''">Press the abrupt button</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Living room''">return</a></div>'
+		'<div class="buttonGn4"><a href="exec:gt ''Widows_house'',''Nothing happened''">Press the abrupt button</a></div>'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Living room''">return</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
 		'<p>·Study room, this room gives people a crowded feeling.</p>'
 		'<p>·————————————</p>'
-		'<p>·Broken watch pointing<<Badwatchtime>>Point ✮ <a href="exec:Badwatchtime+=1 & gt ''Widow`s_house'',''Study room''">Dial one hour faster</a> ✮ <a href="exec:Badwatchtime-=1 & gt ''Widow`s_house'',''Study room''">Dial slowly for one hour</a>            </p>'
-		'<p>·The orientation of the compass <<$compass>> ✮ <a href="exec:gt ''Widow`s_house'',''Study room''">Shake</a>            </p>'
+		'<p>·Broken watch pointing<<Badwatchtime>>Point ✮ <a href="exec:Badwatchtime+=1 & gt ''Widows_house'',''Study room''">Dial one hour faster</a> ✮ <a href="exec:Badwatchtime-=1 & gt ''Widows_house'',''Study room''">Dial slowly for one hour</a>            </p>'
+		'<p>·The orientation of the compass <<$compass>> ✮ <a href="exec:gt ''Widows_house'',''Study room''">Shake</a>            </p>'
 		if Kerosenelampgoesout=0:
-			'<p>·The ancient kerosene lamp lights up. <a href="exec:Kerosenelampgoesout=1 & gt ''Widow`s_house'',''Study room''">Extinguish</a>            </p>'
-			'<p>·Cross reflection length<<Thelengthoftheshadow>>Beige <a href="exec:Thelengthoftheshadow+=1 & gt ''Widow`s_house'',''Study room''">Move forward</a> ✮ <a href="exec:Thelengthoftheshadow-=1 & gt ''Widow`s_house'',''Study room''">Move back</a>            </p>'
+			'<p>·The ancient kerosene lamp lights up. <a href="exec:Kerosenelampgoesout=1 & gt ''Widows_house'',''Study room''">Extinguish</a>            </p>'
+			'<p>·Cross reflection length<<Thelengthoftheshadow>>Beige <a href="exec:Thelengthoftheshadow+=1 & gt ''Widows_house'',''Study room''">Move forward</a> ✮ <a href="exec:Thelengthoftheshadow-=1 & gt ''Widows_house'',''Study room''">Move back</a>            </p>'
 		end
 		if Kerosenelampgoesout=1:
-			'<p>·The ancient kerosene lamp went out. <a href="exec:Kerosenelampgoesout=0 & gt ''Widow`s_house'',''Study room''">Light up</a>            </p>'
+			'<p>·The ancient kerosene lamp went out. <a href="exec:Kerosenelampgoesout=0 & gt ''Widows_house'',''Study room''">Light up</a>            </p>'
 		end
 	'</div>'
 end
 
 if $args[0]="Nothing happened":
- if  Badwatchtime=3 and $compassA="North" and Thelengthoftheshadow=3:gt'Widow`s_house','Hidden room'
- msg'Nothing happened'  & gt 'Widow`s_house','Study room'
+ if  Badwatchtime=3 and $compassA="North" and Thelengthoftheshadow=3:gt'Widows_house','Hidden room'
+ msg'Nothing happened'  & gt 'Widows_house','Study room'
 end
 
 if $args[0]="Hidden room":
  '<div class ="show_menu"><img src="images\place\暗间0.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $Haveseenthefloorplan=3:'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Hidden room2''">Surveillance weapon</a></div>'
+		if $Haveseenthefloorplan=3:'<div class="button"><a href="exec:minutes+=15 & gt ''Widows_house'',''Hidden room2''">Surveillance weapon</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -270,5 +270,5 @@ if $args[0]="Back":
 	'</div>'
 end 
 
---- Widow`s_house ---------------------------------
+--- Widows_house ---------------------------------
 

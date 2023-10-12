@@ -28,7 +28,7 @@ if $ARGS[0]="Eavesdropping":
 
 	'<div class="dialog_menu">'
 		'<p>-<<$JM.name>>: I miss you too.</p>'
-		'<p>-？？？: When can I do it?</p>'
+		'<p>-???: When can I do it?</p>'
 		'<p>-<<$JM.name>>: Okay, don`t make trouble, I`m still menstruating, so go to bed early.</p>'
 		'<p>-<<$JM.name>>: (It`s really annoying, just show it a little bit and you have to push it forward.....）</p>'
 		'<p>-It seems<<$JM.name>>Have a troublesome lover...?</p>'
@@ -45,23 +45,23 @@ if $args[0]="Grandpa raped":
 
 	if $args[2]!"结束":
 		'<div class="button_menu">'
-			if a!1 and q=0 :
+			if a!1 and q=0:
 			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''Grandpa raped'',''强奸2''">...</a></div>'
 			end
-			if a!2 and q=1 :
+			if a!2 and q=1:
 			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''Grandpa raped'',''强奸3''">...</a></div>'
 			end
-			if a!3 and q=2 :
+			if a!3 and q=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''Grandpa raped'',''强奸4''">...</a></div>'
 			end
-			if a!4 and q=3 :
+			if a!4 and q=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''Grandpa raped'',''强奸5''">...</a></div>'
 			end
-			if a!5 and q=4 :
+			if a!5 and q=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''Grandpa raped'',''强奸6'',''结束''">...</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:$JM_Event_grandpa=5 & gt ''home''">Wow, the amount of information is so large...</a></div>'
 			'</div>'
@@ -117,11 +117,11 @@ if $args[0]="Warehouse monitoring":
 		'</div>'
 
 	if $args[2]!"结束":
-		if C ! 6 :
+		if C ! 6:
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:C+=1 & gt ''Stepmom_event'',''Warehouse monitoring''">...</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Home_computer''">leave</a></div>'
 			'</div>'
@@ -172,7 +172,7 @@ if $ARGS[0]="Saturday warehouse":
 	'</div>'
 
 	'<div class="button_menu">'
-		if $JM_Event_store=2 :
+		if $JM_Event_store=2:
 			'<div class="button"><a href="exec:minutes += 60 & gt ''Stepmom_event'',''Warehouse waiting''">Be patient</a></div>'
 		 end
 		'<div class="button"><a href="exec:minutes += 30 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
@@ -217,11 +217,11 @@ if $args[0]="Temporary worker":
 		'</div>'
 
 	if $args[2]!"结束":
-		if C ! 1 :
+		if C ! 1:
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:C+=1 & gt ''Stepmom_event'',''Temporary worker'',''结束''">...</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes +=60  & gt ''Mugou_Pharmaceutical''">leave</a></div>'
 			'</div>'
@@ -315,11 +315,11 @@ if $args[0]="The first requirement":
 		'</div>'
 
 	if $args[2]!"结束":
-		if C ! 3 :
+		if C ! 3:
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec:C+=1 & gt ''Stepmom_event'',''The first requirement''">...</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Mugou_Pharmaceutical''">leave</a></div>'
 			'</div>'
@@ -365,7 +365,7 @@ if $ARGS[0]="Stepmom_bathroom":
 		if $JM.BAD>=100:
 			if $Stepmom_bathroomNUM=0:
 			'<div class="buttonS"><a href="exec:minutes+=15 & a=1 & gt ''Stepmom_event'',''Quick bathroom''">Force her in</a></div>'
-			else:
+			else
 			'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''shower0''">Go in</a></div>'
 			end
 		end
@@ -408,13 +408,13 @@ if $args[0]="JM_Fuck_On the phone":
 			if a!1  and q<=2 and $JM.love>=100:
 			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">Molest her</a></div>'
 			end
-			if a!2  and 1<=q :
+			if a!2  and 1<=q:
 			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">insert</a></div>'
 			end
 			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">Vigorously pump</a></div>'
 			end
-			if a!4 and 3<=q :
+			if a!4 and 3<=q:
 			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_On the phone''">Back in</a></div>'
 			end
 			if a=4:
@@ -425,7 +425,7 @@ if $args[0]="JM_Fuck_On the phone":
 			end
 			'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 			'</div>'
@@ -471,7 +471,7 @@ if $ARGS[0]="In the bedroom":
 		'</div>'
 
 	'<div class="button_menu">'
-		if $JM.bad>=110:'<div class="buttonS"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Go in and fuck her</a></div>'else:'<div class="buttonGr"><a href="exec:">Go in and fuck her</a></div>'
+		if $JM.bad>=110:'<div class="buttonS"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Go in and fuck her</a></div>'else'<div class="buttonGr"><a href="exec:">Go in and fuck her</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''home''">leave</a></div>'
 	'</div>'
 
@@ -489,7 +489,7 @@ if $ARGS[0]="Eat":
 		'</div>'
 
 	'<div class="button_menu">'
-		if $JM.bad>=110 and a!3:'<div class="buttonS"><a href="exec:a+=1 &gt ''Stepmom_event'',''Eat''">I want to eat too</a></div>'else:'<div class="buttonGr"><a href="exec:">It`s okay</a></div>'
+		if $JM.bad>=110 and a!3:'<div class="buttonS"><a href="exec:a+=1 &gt ''Stepmom_event'',''Eat''">I want to eat too</a></div>'else'<div class="buttonGr"><a href="exec:">It`s okay</a></div>'
 		'<div class="button"><a href="exec:minutes+=45 & gt ''home''">leave</a></div>'
 	'</div>'
 
@@ -521,7 +521,7 @@ if $args[0]="JM_Fuck_In the bedroom":
 			if a!4 and 3<=q and q<=6:
 			'<div class="buttonS1"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Leg lift</a></div>'
 			end
-			if a!5 and 4<=q :
+			if a!5 and 4<=q:
 			'<div class="buttonS2"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">Back into the sprint</a></div>'
 			end
 			if a=5:
@@ -537,7 +537,7 @@ if $args[0]="JM_Fuck_In the bedroom":
 			'<div class="button"><a href="exec:a=9 & gt ''Stepmom_event'',''JM_Fuck_In the bedroom''">afterwards</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 			'</div>'
@@ -574,7 +574,7 @@ End
 
 if $args[0]="Stepmom_room_hug":
 	if $JM.bad>= a*8+25:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -595,7 +595,7 @@ if $args[0]="Stepmom_room_hug":
 			if a!3 and q<=3:
 			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上2舔她''">Lick her</a></div>'
 			end
-			if a!3 and 1<=q and q<=3 :
+			if a!3 and 1<=q and q<=3:
 			'<div class="button"><a href="exec:a=3 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上3挑逗2''">Lick me</a></div>'
 			end
 			if a=3:
@@ -607,14 +607,14 @@ if $args[0]="Stepmom_room_hug":
 			if a=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上6冲刺sex''">Fuck her to death</a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上7射''">Bukkake</a></div>'
 			end
 			if a=7: 
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上8结束'',''结束''">Stay with her for a while</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
@@ -636,14 +636,14 @@ if $args[0]="Stepmom_room_hug":
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>: No way....No way...We are mother and child...<<$Panting>></p>'
 			  '<p>I have no intention of stopping, on the contrary，<<$JM.name>>The panting makes me very excited....</p>'
 		 '</div>'
 	end
 
-	if 9>=a and a>=5 :
+	if 9>=a and a>=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>></p>'
 		 '</div>'
@@ -665,7 +665,7 @@ end
 
 if $args[0]="Stepmom_company_day":
 	if $JM.bad>= a*8+35:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -701,14 +701,14 @@ if $args[0]="Stepmom_company_day":
 			if a=7:
 			'<div class="button"><a href="exec:a=8 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常7''">Anal sex sprint</a></div>'
 			end
-			if a=8 :
+			if a=8:
 			'<div class="button"><a href="exec:a=9 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常8''">Ejaculation</a></div>'
 			end
 			if a=9: 
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''Stepmom_company_day'',''公司日常9'',''结束''">Clean up</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
@@ -730,13 +730,13 @@ if $args[0]="Stepmom_company_day":
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a>=5 :
+	if a>=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>The Sao cunt has been inserted out of the white pulp, let`s change the hole..</p>'
 		 '</div>'
@@ -758,7 +758,7 @@ end
 
 if $args[0]="JM_Fuck_After drinking":
 	if $JM.bad>= a*1+25:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -785,7 +785,7 @@ if $args[0]="JM_Fuck_After drinking":
 			if a!5 and 4<=q and q<9:
 			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后5sex''">Normal bit</a></div>'
 			end
-			if a!6 and 5<=q :
+			if a!6 and 5<=q:
 			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后6冲刺sex''">Leg lift sprint</a></div>'
 			end
 			if a=6:
@@ -796,7 +796,7 @@ if $args[0]="JM_Fuck_After drinking":
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_After drinking'',''酒后8结束'',''结束''">end</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
@@ -818,13 +818,13 @@ if $args[0]="JM_Fuck_After drinking":
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a>=4 :
+	if a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>..</p>'
 		 '</div>'
@@ -845,7 +845,7 @@ end
 
 if $args[0]="JM_Fuck_Essential oil":
 	if $JM.bad>= a*10+33:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -872,7 +872,7 @@ if $args[0]="JM_Fuck_Essential oil":
 			if a!5 and 4<=q and q<9:
 			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油5sex''">Normal orgasm</a></div>'
 			end
-			if a!6 and 5<=q :
+			if a!6 and 5<=q:
 			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油6冲刺sex''">Accelerate the sprint</a></div>'
 			end
 			if a=6:
@@ -883,7 +883,7 @@ if $args[0]="JM_Fuck_Essential oil":
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_Essential oil'',''精油8结束'',''结束''">Let her lick it clean</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
@@ -906,13 +906,13 @@ if $args[0]="JM_Fuck_Essential oil":
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a>=4 :
+	if a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>..</p>'
 		 '</div>'
@@ -957,7 +957,7 @@ end
 if $args[0]="JM_Fuck_First medicine":
 	$JM_Event_mgf=0
 	if $JM.bad>= a*10+20:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -1003,7 +1003,7 @@ if $args[0]="JM_Fuck_First medicine":
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_First medicine'',''首药11'',''结束''">Admire her show</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">Take her home to rest</a></div>'
@@ -1024,13 +1024,13 @@ if $args[0]="JM_Fuck_First medicine":
 			 '<p><<$JM.name>>: No way....Stop it.....She suddenly woke up~</p>'
 		 '</div>'
 	end
-	if 5>=a and a>=2 :
+	if 5>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a>=6 :
+	if a>=6:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>..</p>'
 		 '</div>'
@@ -1070,7 +1070,7 @@ end
 
 if $args[0]="JM_Fuck_bathroom":
 	if $JM.bad>= a*10+35:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -1101,7 +1101,7 @@ if $args[0]="JM_Fuck_bathroom":
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_bathroom'',''淋浴6'',''结束''">leave</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''Home_bedroom''">Go back to the room</a></div>'
@@ -1124,13 +1124,13 @@ if $args[0]="JM_Fuck_bathroom":
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a>=4 :
+	if a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>..</p>'
 		 '</div>'
@@ -1151,7 +1151,7 @@ end
 
 if $args[0]="JM_Fuck_McGovern":
 	if $JM.bad>= a*10+35:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -1175,7 +1175,7 @@ if $args[0]="JM_Fuck_McGovern":
 			if a!4 and 3<=q and q<=9:
 			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬4''">Fuck her out of her mind</a></div>'
 			end
-			if a!5 and a!6 and 4<=q :
+			if a!5 and a!6 and 4<=q:
 			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬5''">Crazy thrusting</a></div>'
 			end
 			if a=5:
@@ -1188,7 +1188,7 @@ if $args[0]="JM_Fuck_McGovern":
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_McGovern'',''麦高芬7'',''结束''">One hour later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
@@ -1209,13 +1209,13 @@ if $args[0]="JM_Fuck_McGovern":
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a>=3 :
+	if a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>..</p>'
 		 '</div>'
@@ -1259,7 +1259,7 @@ end
 if $args[0]="JM_Fuck_Hot spring":
 	$JM_Event_date=0
 	if $JM.bad>= a*10+35:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -1286,7 +1286,7 @@ if $args[0]="JM_Fuck_Hot spring":
 			if a!5 and 4<=q and q<=6:
 			'<div class="button"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉5sex''">Kissing and riding</a></div>'
 			end
-			if a!6 and a!7 and 5<=q :
+			if a!6 and a!7 and 5<=q:
 			'<div class="button"><a href="exec:a=6 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''温泉6冲刺sex''">Anal sex sprint</a></div>'
 			end
 			if a=6:
@@ -1299,7 +1299,7 @@ if $args[0]="JM_Fuck_Hot spring":
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_Hot spring'',''床上8结束'',''结束''">One hour later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">Go home</a></div>'
@@ -1335,7 +1335,7 @@ if $args[0]="JM_Fuck_Hot spring":
 		 '</div>'
 	end
 
-	if a>=4 :
+	if a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>..</p>'
 			 if a=8:
@@ -1359,7 +1359,7 @@ end
 
 if $args[0]="JM_Fuck_3P":
 	if $JM.bad>= a*10+35:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -1403,7 +1403,7 @@ if $args[0]="JM_Fuck_3P":
 			'<div class="button"><a href="exec:a=-1 & gt ''Stepmom_event'',''JM_Fuck_3P'',''3P10结束'',''结束''">One hour later</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''Mugou_Pharmaceutical''">leave</a></div>'
@@ -1424,13 +1424,13 @@ if $args[0]="JM_Fuck_3P":
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
-	if 4>=a and a>=1 :
+	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： ..<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a>=5 :
+	if a>=5:
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>： <<$words>>..</p>'
 		 '</div>'
@@ -1452,7 +1452,7 @@ end
 
 if $args[0]="JM_Fuck_Night attack":
 	if $JM.bad>= a*10+35:
-		else:
+		else
 		$args[1]="停止"
 		$args[2]="结束"
 	end
@@ -1480,7 +1480,7 @@ if $args[0]="JM_Fuck_Night attack":
 			'<div class="buttonS5"><a href="exec:a=0 & q=0 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Wake up and have sex</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 
 				'<div class="button"><a href="exec:minutes+=60 & gt ''home''">leave</a></div>'
@@ -1525,7 +1525,7 @@ if $args[0]="JM_Fuck_Night attack2":
 			if a!4 and 3<=q and q<=8:
 			'<div class="button"><a href="exec:a=4 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">Female upper</a></div>'
 			end
-			if a!5 and 4<=q :
+			if a!5 and 4<=q:
 			'<div class="buttonS1"><a href="exec:a=5 & gt ''Stepmom_event'',''JM_Fuck_Night attack2''">sprint</a></div>'
 			end
 			if a=5:
@@ -1539,7 +1539,7 @@ if $args[0]="JM_Fuck_Night attack2":
 			end
 
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
 			'</div>'
@@ -1587,8 +1587,8 @@ if $ARGS[0]="Villa entrance":
 	'</div>'
 
 	'<div class="button_menu">'
-		if $JM.love>=500:'<div class="buttonS"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Go straight to the bedroom</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of intimacy</a></div>'
-		if $JM.bad>=500:'<div class="buttonPu4"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_basement''">Go to the basement</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
+		if $JM.love>=500:'<div class="buttonS"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Go straight to the bedroom</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of intimacy</a></div>'
+		if $JM.bad>=500:'<div class="buttonPu4"><a href="exec:gt ''Stepmom_event'',''JM_Fuck_basement''">Go to the basement</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
 		'<div class="button"><a href="exec:gt ''Big_villa''">Not available today</a></div>'
 	'</div>'
 
@@ -1647,7 +1647,7 @@ if $args[0]="JM_Fuck_Villa bedroom":
 			'<div class="buttonP"><a href="exec:a=12 &gt ''Stepmom_event'',''JM_Fuck_Villa bedroom''">Gentle</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Send her away</a></div>'
 			'</div>'
@@ -1735,7 +1735,7 @@ if $args[0]="JM_Fuck_basement":
 			'<div class="buttonP"><a href="exec:a=11 & gt ''Stepmom_event'',''JM_Fuck_basement''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Take her home to rest</a></div>'
 			'</div>'

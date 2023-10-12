@@ -75,7 +75,7 @@ if $args[0]="TS_Fuck_event1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''home''">leave</a></div>'
             '</div>'
@@ -157,7 +157,7 @@ if $args[0]="TS_Fuck_event2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">separate</a></div>'
             '</div>'
@@ -243,7 +243,7 @@ if $args[0]="TS_Fuck_event3":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Back to the villa</a></div>'
             '</div>'
@@ -292,7 +292,7 @@ if $args[0]="Feed the cat together":
 	'<div class ="show_menu"><img src="images\NPC\TS\pics\证据<<a>>.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Angel_event'',''Feed the cat together''">？？？</a></div>'
+		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Angel_event'',''Feed the cat together''">???</a></div>'
 		if a=2:'<div class="button"><a href="exec:a=2 & gt ''Angel_event'',''Game on''">protect her</a></div>'
 	'</div>'
 
@@ -302,13 +302,13 @@ if $args[0]="Feed the cat together":
 		'<p><<$TS.name>>: I just finished my work, so come and have a look at them.</p>'
 		'<p>I: Don`t worry, they are well taken care of by me.</p>'
 		'<p><<$TS.name>>: Hmm!You are such a caring person!</p>'
-		'<p>？？？: My angel!Do you remember me?</p>'
+		'<p>???: My angel!Do you remember me?</p>'
 		end
 		
 		if a=2:
 		'<p>I: Who is this weirdo?</p>'
 		'<p><<$TS.name>>: What?！Qingshui Jun?！Why are you here?！Didn`t you get taken away by a mental hospital?</p>'
-		'<p>？？？: My angel!I`m not crazy!Do you remember how much I love you?</p>'
+		'<p>???: My angel!I`m not crazy!Do you remember how much I love you?</p>'
 		'<p><<$TS.name>>: Shimizu Jun... you need treatment…</p>'
 		'<p>Jerome: Qingshui Jun is dead!This is...Jerome!</p>'
 		'<p><<$TS.name>>: Okay, Jerome... can we talk?</p>'
@@ -380,7 +380,7 @@ if $args[0]="TS_Fuck_school":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Bomb_school''">leave</a></div>'
             '</div>'
@@ -446,7 +446,7 @@ if $args[0]="TS_Fuck_Video1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Bomb_school''">Write down the code</a></div>'
             '</div>'
@@ -456,24 +456,24 @@ if $args[0]="TS_Fuck_Video1":
 
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
-             if a=0:'<p>？？？:Hey hey!You get out of here!</p>'
+             if a=0:'<p>???:Hey hey!You get out of here!</p>'
              if a=0:'<p><<$TS.name>>:Qingshui Jun... save me……</p>'
              '<p>Shimizu Jun:You... stop it!I have recorded the evidence of your crime!</p>' 
-             if a>=1:'<p>？？？:Your girlfriend likes big ones, right?！You can`t satisfy her at all!I saw it all!She didn`t feel it at all!</p>'
+             if a>=1:'<p>???:Your girlfriend likes big ones, right?！You can`t satisfy her at all!I saw it all!She didn`t feel it at all!</p>'
              if a=2:'<p><<$TS.name>>:Qingshui Jun... don`t look at me…</p>'
-             if a=3:'<p>？？？:Hey hey!You cooperate with me!Otherwise, I don`t want to intervene in you!</p>'
+             if a=3:'<p>???:Hey hey!You cooperate with me!Otherwise, I don`t want to intervene in you!</p>'
              if a>=4:'<p><<$TS.name>>:Ah<<$Panting>></p>' 
              if a>=5:'<p>Shimizu Jun:Ah ah ah ah ah!I fight with you……</p>' 
-             if a>=6:'<p>？？？:You`d better get to know each other. Look at your woman`s appearance. Is she worth a beating?！</p>'
+             if a>=6:'<p>???:You`d better get to know each other. Look at your woman`s appearance. Is she worth a beating?！</p>'
              if a>=7:'<p>Shimizu Jun:…………</p>' 
          '</div>'
     end
 
     if a=9:
          '<div class="dialog_menu">'
-             '<p>？？？:Get out of here!I have a few more rounds to fuck her!Do you hear me?！</p>'
+             '<p>???:Get out of here!I have a few more rounds to fuck her!Do you hear me?！</p>'
              '<p>Shimizu Jun:…………</p>' 
-             '<p>？？？:Do you want to be beaten?！</p>'
+             '<p>???:Do you want to be beaten?！</p>'
              '<p>·The sound of closing the door</p>' 
          '</div>'
     end
@@ -507,7 +507,7 @@ if $args[0]="TS_Fuck_Video2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Bomb_school''">Write down the code</a></div>'
             '</div>'
@@ -578,7 +578,7 @@ if $args[0]="TS_Fuck_Video3":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Bomb_school''">Write down the code</a></div>'
             '</div>'
@@ -588,15 +588,15 @@ if $args[0]="TS_Fuck_Video3":
 
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
-             '<p>？？？:The leader is here?！Is the camera hidden?Tomorrow I will secretly stuff it into Qingshui Jun`s school bag!</p>'
+             '<p>???:The leader is here?！Is the camera hidden?Tomorrow I will secretly stuff it into Qingshui Jun`s school bag!</p>'
              '<p><<$TS.name>>:My members... today is the day to pay the club`s funds again.</p>'
-             '<p>？？？:Don`t worry, Master Leader, the richest person in the whole school is us in the photography department!</p>'
+             '<p>???:Don`t worry, Master Leader, the richest person in the whole school is us in the photography department!</p>'
              if a>=1:'<p><<$TS.name>>:Then let`s get started…</p>'
-             if a>=1:'<p>？？？:Okay, okay!Then we are welcome!</p>'
+             if a>=1:'<p>???:Okay, okay!Then we are welcome!</p>'
              if a>=2:'<p><<$TS.name>>:Oh<<$Panting>></p>'
-             if a=3:'<p>？？？:The leader of the group is really an angel coming to the mortal world, it feels great!</p>'
+             if a=3:'<p>???:The leader of the group is really an angel coming to the mortal world, it feels great!</p>'
              if a>=4:'<p><<$TS.name>>:Hmm<<$words>></p>'
-             if a=5 or a=8:'<p>？？？:come on!Three, two, one!</p>'
+             if a=5 or a=8:'<p>???:come on!Three, two, one!</p>'
              if a=5 or a=8:'<p><<$TS.name>>:Eggplant!</p>'
          '</div>'
     end
@@ -670,7 +670,7 @@ if $args[0]="TS_Fuck_Universal":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
 				if $Universallocation='电梯1':'<div class="button"><a href="exec:a=0 & q=0 & gt ''Angel_event'',''Face itBOSS''">Face itBOSS</a></div>'
                 '<div class="button"><a href="exec:gt ''<<$Panleave>>''">leave</a></div>'
@@ -729,7 +729,7 @@ if $args[0]="Face itBOSS":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Group''">Nod and leave</a></div>'
             '</div>'
@@ -740,11 +740,11 @@ if $args[0]="Face itBOSS":
     if a=0:
          '<div class="dialog_menu">'
              '<p><<$TS.name>>: President, the current prospects of Empire Entertainment are very good!</p>'
-             '<p>？？？: I know this, is there any work to report?I`m overseas and the signal is not very good.</p>'
+             '<p>???: I know this, is there any work to report?I`m overseas and the signal is not very good.</p>'
              '<p><<$TS.name>>: The album I recorded has received strong market feedback!I hope to... make a comeback!</p>'
-             '<p>？？？: If you make a comeback, what about the daily affairs of Empire Entertainment?</p>'
+             '<p>???: If you make a comeback, what about the daily affairs of Empire Entertainment?</p>'
              '<p>I: President, please allow me to recommend myself, I am…</p>'
-             '<p>？？？: <<$Protagonist`s_name>>, I know you, since<<$TS.name>>Unintentional management, then you are responsible.</p>'
+             '<p>???: <<$Protagonist`s_name>>, I know you, since<<$TS.name>>Unintentional management, then you are responsible.</p>'
          '</div>'
     end
 
@@ -760,9 +760,9 @@ if $args[0]="Face itBOSS":
     if a=2:
          '<div class="dialog_menu">'
              '<p>I: Uh, where did you say?</p>'
-             '<p>？？？: Because you are a male, the name of the chief operating officer cannot be given to you.</p>'
+             '<p>???: Because you are a male, the name of the chief operating officer cannot be given to you.</p>'
              '<p>I: I don`t care about it…</p>'
-             '<p>？？？: The chief operating officer needs to assume a wide range of responsibilities and tasks to ensure that the company`s business operations are efficient, orderly and successful.</p>'
+             '<p>???: The chief operating officer needs to assume a wide range of responsibilities and tasks to ensure that the company`s business operations are efficient, orderly and successful.</p>'
          '</div>'
     end
 
@@ -776,11 +776,11 @@ if $args[0]="Face itBOSS":
     if a=4:
          '<div class="dialog_menu">'
              '<p>I: You continue, I am listening.</p>'
-             '<p>？？？: Here are someCOOResponsibilities that usually need to be assumed：</p>'
-             '<p>？？？: COOIt is necessary to establish and manage an efficient team to ensure smooth cooperation between the various artists of the company and achieve common goals. </p>'
-             '<p>？？？: In addition, it is necessary to manage the daily operations of the company, including the daily lives of artists, diet and personal services, etc., to ensure that artists are in a smooth mood, work efficiently and sustainably.</p>'
+             '<p>???: Here are someCOOResponsibilities that usually need to be assumed：</p>'
+             '<p>???: COOIt is necessary to establish and manage an efficient team to ensure smooth cooperation between the various artists of the company and achieve common goals. </p>'
+             '<p>???: In addition, it is necessary to manage the daily operations of the company, including the daily lives of artists, diet and personal services, etc., to ensure that artists are in a smooth mood, work efficiently and sustainably.</p>'
              '<p>I: Oh oh oh…</p>'
-             '<p>？？？: What`s happened?</p>'
+             '<p>???: What`s happened?</p>'
          '</div>'
     end
     
@@ -793,11 +793,11 @@ if $args[0]="Face itBOSS":
     
     if a=6:
          '<div class="dialog_menu">'
-             '<p>？？？: Do you understand?</p>'
+             '<p>???: Do you understand?</p>'
              '<p>I: Hmm!Taking care of the private lives of artists has always been my strength!</p>'
-             '<p>？？？: <<$TS.name>>You can also move into that villa and familiarize him with the work.</p>'
+             '<p>???: <<$TS.name>>You can also move into that villa and familiarize him with the work.</p>'
              '<p><<$TS.name>>: Hmm!No problem!</p>'
-             '<p>？？？: <<$Protagonist`s_name>>, Don`t blame me for not reminding you that there are obvious problems with the structure of that villa. If you move the walls, you will cause big trouble.</p>'
+             '<p>???: <<$Protagonist`s_name>>, Don`t blame me for not reminding you that there are obvious problems with the structure of that villa. If you move the walls, you will cause big trouble.</p>'
              $TS.room=1
          '</div>'
     end
@@ -834,7 +834,7 @@ if $args[0]="TS_Fuck_white":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">separate</a></div>'
             '</div>'
@@ -875,9 +875,9 @@ if $args[0]="Selection of jobs":
 		if a!1:'<div class="buttonS1"><a href="exec:a=1 & gt ''Angel_event'',''Selection of jobs''">Help her put on shoes</a></div>'
 		if a=1:'<div class="buttonS1"><a href="exec:a=2 & gt ''Angel_event'',''Selection of jobs''">Choose by mouth</a></div>'
 		'<div class="buttonG1"><a href="exec:a=0 & gt ''Angel_event'',''Bring new people''">Bring new people on the show</a></div>'
-		if $TS.Multifaceted>=20:'<div class="buttonG2"><a href="exec:a=0 & $Panshot=''拍摄1'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Album cover</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
-		if $TS.Multifaceted>=25:'<div class="buttonG3"><a href="exec:a=0 & $Panshot=''拍摄2'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">shootingMV</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
-		if $TS.Multifaceted>=30:'<div class="buttonG4"><a href="exec:a=0 & $Panshot=''拍摄3'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Promotional poster</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
+		if $TS.Multifaceted>=20:'<div class="buttonG2"><a href="exec:a=0 & $Panshot=''拍摄1'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Album cover</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
+		if $TS.Multifaceted>=25:'<div class="buttonG3"><a href="exec:a=0 & $Panshot=''拍摄2'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">shootingMV</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
+		if $TS.Multifaceted>=30:'<div class="buttonG4"><a href="exec:a=0 & $Panshot=''拍摄3'' & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Promotional poster</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient ability</a></div>'
 		
 	'</div>'
 
@@ -910,7 +910,7 @@ if $args[0]="TS_Fuck_Universal shooting":
             if a!2 and 1<=q and q<=3:
 				if $Panshot='shooting3':
 				'<div class="buttonS2"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Hurry up </a></div>'
-				else:
+				else
 				'<div class="buttonS2"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Ejaculation </a></div>'
 				end
             end
@@ -918,14 +918,14 @@ if $args[0]="TS_Fuck_Universal shooting":
             if a!3 and 2<=q and q<=6:
 				if $Panshot='shooting3':
 				'<div class="buttonS2"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Shoot in the mouth </a></div>'
-				else:
+				else
 				'<div class="buttonGn"><a href="exec:a=3 & gt ''Angel_event'',''TS_Fuck_Universal shooting''">Clean up </a></div>'
 				end
             end
             
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''TV_station'',''Powder room''">leave</a></div>'
             '</div>'
@@ -1009,7 +1009,7 @@ if $args[0]="TS_Fuck_Strong medicine":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Go back to the room</a></div>'
             '</div>'
@@ -1061,8 +1061,8 @@ if $args[0]="Bring new people":
 			'<div class="buttonB1"><a href="exec:a=4 & SSYY_fans+=rand(15,20) & gt ''Angel_event'',''Bring new people''">Bring<<$SSYY.name>></a></div>'
 			'<div class="buttonB2"><a href="exec:a=2 & SF_fans+=rand(15,20) & gt ''Angel_event'',''Bring new people''">Bring<<$SF.name>></a></div>'
 			'<div class="buttonB3"><a href="exec:a=1 & QB_fans+=rand(15,25) & gt ''Angel_event'',''Bring new people''">Bring<<$QB.name>></a></div>'
-			if $TS.Multifaceted>=30:'<div class="buttonB4"><a href="exec:a=3 & MM_fans+=rand(15,35) & gt ''Angel_event'',''Bring new people''">Bring<<$MM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">Ability is not enough to bring<<$MM.name>></a></div>'
-			if $TS.Multifaceted>=35:'<div class="buttonB5"><a href="exec:gt ''Angel_event'',''TS_Fuck_Full staff''">Bring all the staff</a></div>'else:'<div class="buttonGr"><a href="exec:">The ability is not enough to bring all the staff</a></div>'
+			if $TS.Multifaceted>=30:'<div class="buttonB4"><a href="exec:a=3 & MM_fans+=rand(15,35) & gt ''Angel_event'',''Bring new people''">Bring<<$MM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">Ability is not enough to bring<<$MM.name>></a></div>'
+			if $TS.Multifaceted>=35:'<div class="buttonB5"><a href="exec:gt ''Angel_event'',''TS_Fuck_Full staff''">Bring all the staff</a></div>'else'<div class="buttonGr"><a href="exec:">The ability is not enough to bring all the staff</a></div>'
 		end
 		if a!0:
 			'<div class="buttonS"><a href="exec:a=0  & gt ''Angel_event'',''TS_Fuck_Thanks''">Thank her</a></div>'
@@ -1105,7 +1105,7 @@ if $args[0]="TS_Fuck_Thanks":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Angel_event'',''Go on a date''">Go on a date</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa''">Go back to the villa together</a></div>'
@@ -1180,7 +1180,7 @@ if $args[0]="TS_Fuck_bathroom":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Angel_event'',''TS_Fuck_event3''">Go back to the room</a></div>'
             '</div>'
@@ -1247,7 +1247,7 @@ if $args[0]="TS_Fuck_Company mouth":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Went back</a></div>'
             '</div>'
@@ -1319,7 +1319,7 @@ if $args[0]="TS_Fuck_Full staff":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 &  gt ''Big_villa''">Go back together</a></div>'
             '</div>'
@@ -1345,7 +1345,7 @@ if $args[0]="TS_Fuck_Full staff":
     if a=2:
          '<div class="dialog_menu">'
              '<p><<$TS.name>>: <<$Protagonist`s_name>>, If you doze off here, you will catch a cold❤</p>'
-             '<p><<$SSYY.name>>: Yes ❤ If you want to sleep, you can go home and sleep with me，<<$Protagonist`s_surname>> Broker❤</p>'
+             '<p><<$SSYY.name>>: Yes ❤ If you want to sleep, you can go home and sleep with me，<<$Protagonists_surname>> Broker❤</p>'
              '<p>I: …………*Lost in a daze</p>'
              '<p><<$SF.name>>: Let`s wake you up together❤</p>'
          '</div>'
@@ -1400,7 +1400,7 @@ if $args[0]="TS_Fuck_Mbackstage":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 &  gt ''TV_station'',''Powder room''">Leave first</a></div>'
             '</div>'
@@ -1499,7 +1499,7 @@ if $args[0]="TS_Fuck_TSM1":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=6 & gt ''Angel_event'',''TS_Fuck_TSM1''">Blow me hard! </a></div>'
                 '<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Residential_area''">Sneak out</a></div>'
@@ -1562,10 +1562,10 @@ if $args[0]="TS_Fuck_TSM2":
             if a!8 and q<=3:
             '<div class="buttonS1"><a href="exec:a=7 & gt ''Angel_event'',''TS_Fuck_TSM2''"><<$TS.name>>Oral sex </a></div>'
             end
-            if a!2 and 2<=q :
+            if a!2 and 2<=q:
             '<div class="buttonS2"><a href="exec:a=2 & gt ''Angel_event'',''TS_Fuck_TSM2''">fuck<<$MM.name>> </a></div>'
             end
-            if a!8 and 2<=q :
+            if a!8 and 2<=q:
             '<div class="buttonS2"><a href="exec:a=8 & gt ''Angel_event'',''TS_Fuck_TSM2''">fuck<<$TS.name>> </a></div>'
             end
             if a=2 or a=8:
@@ -1589,7 +1589,7 @@ if $args[0]="TS_Fuck_TSM2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=rand(2,11) & gt ''Angel_event'',''TS_Fuck_TSM2''">Can fight again! </a></div>'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Fight again another day!</a></div>'
@@ -1653,7 +1653,7 @@ if $args[0]="TS_Fuck_Big group":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Angel_event'',''TS_Fuck_Big group2''">Officially started </a></div>'
             '</div>'
@@ -1676,7 +1676,7 @@ if $args[0]="TS_Fuck_Big group":
          '<div class="dialog_menu">'
              '<p>I:It`s a new model for the old band... it`s better to help newcomers than to join forces.…</p>'
              if a=4:'<p><<$TS.name>>:<<$Protagonist`s_name>>, If you have any comments, just let me know.</p>'
-             if a=6:'<p><<$QB.name>>:<<$Protagonist`s_surname>> Agent, when are you free?Come to my room tonight.</p>'
+             if a=6:'<p><<$QB.name>>:<<$Protagonists_surname>> Agent, when are you free?Come to my room tonight.</p>'
              if a=8:'<p><<$MM.name>>:Stupid brother!Only you are allowed to see me!</p>'
              if a>8:'<p>I:Why are you the only one?！</p>'
              if a>8:'<p><<$SSYY.name>>:I don`t want to bring a drag bottle, you also know my abilities!</p>'
@@ -1762,7 +1762,7 @@ if $args[0]="TS_Fuck_Big group2":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Big_villa'',''Master bedroom''">Go back to your room to rest</a></div>'
             '</div>'

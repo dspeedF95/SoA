@@ -25,7 +25,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$XN.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XN.name>>'',''<<$XN.love>>'',''<<$XN.bad>>'',''<<$XN.bio>>''"><img class="img_stretch" src="images\npc_l\<<$XN.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Acquaintance in the bishops room in the church" ><img class="img_stretch" src="images\npc_l\<<$XN.name>>a.png"></a>'
             '</div>'
@@ -34,7 +34,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$LEI.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$LEI.name>>'',''<<$LEI.love>>'',''<<$LEI.bad>>'',''<<$LEI.bio>>''"><img class="img_stretch" src="images\npc_l\<<$LEI.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Church plot acquaintance" ><img class="img_stretch" src="images\npc_l\<<$LEI.name>>a.png"></a>'
             '</div>'
@@ -43,7 +43,7 @@ gs'menu_time_calc'
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="<<$YS.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YS.name>>'',''<<$YS.love>>'',''<<$YS.bad>>'',''<<$YS.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YS.name>>.png"></a>'
 			'</div>'
-			else:
+			else
 			'<div class="charac_nps_list_foto">
 				<a class="photo" data-title="Acquaintance in the hospital ward" ><img class="img_stretch" src="images\npc_l\<<$YS.name>>a.png"></a>'
 			'</div>'
@@ -52,7 +52,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$CT.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CT.name>>'',''<<$CT.love>>'',''<<$CT.bad>>'',''<<$CT.bio>>''"><img class="img_stretch" src="images\npc_l\<<$CT.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Pick up and meet after completing the orientation meeting of the big villa" ><img class="img_stretch" src="images\npc_l\<<$CT.name>>a.png"></a>'
             '</div>'
@@ -61,7 +61,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$QJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$QJ.name>>'',''<<$QJ.love>>'',''<<$QJ.bad>>'',''<<$QJ.bio>>''"><img class="img_stretch" src="images\npc_l\<<$QJ.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Get acquainted after completing the convenience store" ><img class="img_stretch" src="images\npc_l\<<$QJ.name>>a.png"></a>'
             '</div>'
@@ -70,7 +70,7 @@ gs'menu_time_calc'
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="<<$YY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YY.name>>'',''<<$YY.love>>'',''<<$YY.bad>>'',''<<$YY.bio>>''"><img class="img_stretch" src="images\npc_l\<<$YY.name>>.png"></a>'
             '</div>'
-            else:
+            else
             '<div class="charac_nps_list_foto">
                 <a class="photo" data-title="Acquaintance in the Imperial mansion" ><img class="img_stretch" src="images\npc_l\<<$YY.name>>a.png"></a>'
             '</div>'
