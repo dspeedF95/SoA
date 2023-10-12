@@ -87,7 +87,7 @@ if $ARGS[0] ="Bartender Liyi":
 	'</div>'
 	
 	'<div class="button_menu">'
-		if $Gun_hunting_incident_chain=2:'<div class="button"><a href="exec:gt ''Police_incident'',''Gun-hunting suspect''">✣Ask about specialty smoothies </a></div>'
+		if $Gun_hunting_incident_chain=2:'<div class="button"><a href="exec:my.energy+=300 & gt ''Police_incident'',''Gun-hunting suspect''">✣Ask about specialty smoothies </a></div>'
 		if $Debtcollection=1:'<div class="buttonR"><a href="exec:a=0 & q=0 & Debtcollectionnumber=1 & gt ''Group_performation_event'',''Universal_Fuck_Debtcollection''">Violent collection</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
 	'</div>'

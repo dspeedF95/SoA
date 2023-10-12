@@ -1801,5 +1801,50 @@ if $args[0]="XN_Fuck_Confession man2":
   q+=1
 End
 
+if $args[0]="XN_Fuck_WED":
+     '<div class="show_menu">'
+          '<video preload="metadata" autoplay loop height="480">
+          <source src="images\NPC\XN\vids\wed1-<<a>>.webm" type=''video/webm;''></video></div>'
+     '</div>'
+
+ if a!7:
+     '<div class="button_menu">'
+         if a=0:'<div class="buttonS1"><a href="exec:a=1 & gt ''Nun_event'',''XN_Fuck_WED''">Punish her from now on</a></div>'
+         if a=1:'<div class="buttonS2"><a href="exec:a=2 & gt ''Nun_event'',''XN_Fuck_WED''">She is very cool</a></div>'
+         if a=2:'<div class="buttonS3"><a href="exec:a=3 & gt ''Nun_event'',''XN_Fuck_WED''">Someone is coming</a></div>'
+         if a=3:'<div class="buttonS4"><a href="exec:a=4 & gt ''Nun_event'',''XN_Fuck_WED''">Peeking at you</a></div>'
+         if a=4:'<div class="buttonS5"><a href="exec:a=5 & gt ''Nun_event'',''XN_Fuck_WED''">Deeply inserted</a></div>'
+         if a=5:'<div class="buttonR4"><a href="exec:a=6 & gt ''Nun_event'',''XN_Fuck_WED''">Ejaculation</a></div>'
+         if a=6:'<div class="buttonG3"><a href="exec:a=7 & gt ''Nun_event'',''XN_Fuck_WED''">Start wedding rehearsal</a></div>'
+     '</div>'
+     else:
+         '<div class="button_menu">'
+             '<div class="buttonGn"><a href="exec: gt ''church''">End of rehearsal</a></div>'
+         '</div>'
+ end
+
+
+
+ if 6>=a and a>=0:
+      '<div class="dialog_menu">'
+           '<p>bride: You can come slowly, I`m talking to<<$Protagonist`s_name>>My Lord Bishop... hmm❤ Discuss the wedding rehearsal rules…</p>'
+           if a>=1:'<p>I:You are so bad❤</p>' 
+           if a>=2:'<p>bride:Of course，<<$Protagonist`s_name>>adult<<$words>></p>' 
+           if a>=2:'<p>Strange man:……</p>' 
+      '</div>'
+ end
+
+ if a=7:
+      '<div class="dialog_menu">'
+           '<p>I:Ahem...Bless this couple, and hope you will be happy, love and support each other in your married life.</p>' 
+           '<p>bride:Hmm❤</p>' 
+           '<p>man:I won`t get married this time!</p>' 
+      '</div>'
+ end
+
+
+q+=1
+End
+
 --- Nun_event ---------------------------------
 

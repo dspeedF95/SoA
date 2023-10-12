@@ -414,7 +414,7 @@ if $args[0]="SW_Fuck_Outside the classroom":
 			if a!3 and 5>=q and q>=0:
 			'<div class="button"><a href="exec:a=3 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Lick</a></div>'
 			end
-			if a!4 and 8>=q and q>=1:
+			if a!4 and 8>=q and q>=0:
 			'<div class="button"><a href="exec:a=4 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">serve</a></div>'
 			end
 			if a!5 and 20>=q and q>=2:

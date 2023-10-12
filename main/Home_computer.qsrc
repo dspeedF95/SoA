@@ -45,6 +45,9 @@ if $args[0] = 'Brushing Douyin':
 	if $Vibrato_num = $Vibrato_num2:
 		$Vibrato_num = rand(1,212)
 	end
+
+	if $WH.available=0:$Vibrato_num=50
+	
 	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">

@@ -34,6 +34,7 @@ if $args[0]="":
 		'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Paradise_escorts'',''Electronic screen''">(Accompanied by a letter of recommendation)</a></div>'
 		if $Caesar_Event_Chain!0:'<div class="buttonB4"><a href="exec:minutes+=15 & CaesarDialogue=0 & gt ''Paradise_escorts'',''Caesar Gate''">"Caesar`s Office"</a></div>'else'<div class="buttonGr"><a href="exec:">"Caesar`s Office"</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Kabukicho''">leave</a></div>'
+		if $Bank_event_chain=2:'<div class="buttonPu4"><a href="exec:minutes+=15 & gt ''Bank_event'',''Drinking choice''"><<$YH.name>></a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'

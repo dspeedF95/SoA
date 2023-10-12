@@ -8,10 +8,11 @@ if Thereisnotriggerdatecount=0:
 	Thereisnotriggerdatecount=1
 end
 
-if V44check=0:
+if V46check=0:
 	if my.charm>=30:my.charm=9
+	$WH.available=0
 	!5+2+2+5+3=17
-	V44check=1
+	V46check=1
 end
 
 $figure[0]="vase" & $figure[1]="Weak can`t help the wind" & $figure[2]="Skinny monkey" & $figure[3]="Thin dog" & $figure[4]="Mao Rui" & $figure[5]="Fitness person"

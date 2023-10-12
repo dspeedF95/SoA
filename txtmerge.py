@@ -16,7 +16,7 @@ oname = str(sys.argv[2])
 # read the project xml file first
 # let's do this later in order to implement directory structure
 
-tree = ET.parse('SOA_444.qproj')
+tree = ET.parse('SOA_466.qproj')
 root = tree.getroot()
 
 

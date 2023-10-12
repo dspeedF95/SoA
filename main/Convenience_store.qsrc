@@ -248,6 +248,8 @@ if $args[0]="":
 	 if BDadvertising>0:'<div class="buttonGn"><a href="exec:BDadvertising-=1 & gt ''Group_performation_event'',''Convenience store_Fuck_BD1''">Shooting advertising<<BDadvertising>>times</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Talent_Apartment''">leave</a></div>'
 	'</div>'
+	if $CTtest2>=1 and $DY.available=0:'<div class="buttonP"><a href="exec:gt ''Convenience_store'',''First acquaintance with the clerk''">Hello ❤</a></div>'
+	if $DY.available>0:'<div class="buttonP"><a href="exec:gt ''Clerk_event'',''Clumsy''"><<$DY.name>></a></div>'
 	
 	if $CTtest2>=1 and $Random_number>=50:
 		if $HS.love>=200 and week_day=7:'<div class="buttonP"><a href="exec:$m=''HS'' & $ma=$HS.name & gt ''Group_performation_event'',''Convenience store_Fuck_exclusive''">Acquaintances visit</a></div>'
@@ -322,6 +324,24 @@ if $args[0]="backstage":
 	
 end
 
+if $args[0]="First acquaintance with the clerk":
+	$DY.available=1
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\DY\vids\1-0.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+'<div class="button_menu">'
+	'<div class="button"><a href="exec:gt ''Convenience_store''">Hire her</a></div>'
+'</div>'
+
+'<div class="dialog_menu">'
+	'<p><<$DY.name>>:Aha ❤ Are you still recruiting people here?</p>'
+	'<p>I:After reaching the million-dollar goal, the convenience store has become a well-known Internet celebrity store in the city, but now it is suffering from insufficient manpower.</p>'
+	'<p><<$DY.name>>*Raise your hand</p>'
+'</div>'
+
+end
 
 if $args[0]="Normal night shift":
         '<div class="show_menu">'

@@ -10,7 +10,7 @@ set QSPGUI=QSP\Player-video\qspgui.exe
 set QGEN=QSP\QGen4\QGen.exe
 
 :: The file that will be generated or open
-set QSPFILE=SOA_444.qsp
+set QSPFILE=SOA_466.qsp
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -78,8 +78,8 @@ echo.
 echo Building ...
 
 @ECHO ON
-python txtmerge.py main soa444Group.txt
-txt2gam.exe soa444Group.txt %QSPFILE% > nul
+py txtmerge.py main soa466.txt
+txt2gam.exe soa466.txt %QSPFILE% > nul
 @ECHO OFF
 
 echo.
@@ -107,7 +107,7 @@ echo.
 echo Creating .qproj file ...
 
 @ECHO ON
-python qprojgen.py main SOA_444.qproj
+python qprojgen.py main SOA_466.qproj
 @ECHO OFF
 
 goto menu
@@ -117,7 +117,7 @@ echo.
 echo Creating .qsrc files ...
 
 @ECHO ON
-python txtsplit_fromtxt.py soa444Group.txt main
+python txtsplit_fromtxt.py soa466.txt main
 @ECHO OFF
 
 goto menu

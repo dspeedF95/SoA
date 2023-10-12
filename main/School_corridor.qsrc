@@ -39,7 +39,7 @@ if $args[0]="":
 		if $ZL_Event_face=2 and hour =17:'<p><<$ZL.name>>With her friends<a href="exec:minutes+=5 & gt ''Aid_Event'',''Study room''">Study room</a>inside.</p>'
 		if $ZL.love>=400-$ZL.bad  and $LJ.love>=400-$LJ.bad and 13<=hour and hour<=14:'<p><<$ZL.name>>and<<$LJ.name>>in<a href="exec:minutes+=5 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Reading room</a>inside.</p>'
 		if $HZ.love>=400-$ZL.bad  and $LJ.love>=400-$LJ.bad and hour=12:'<p><<$LJ.name>>Invited by the student union<a href="exec:minutes+=5 & gt ''President_Event'',''Tea warning''">Drink tea</a>already.</p>'
-		if $XZ_classroomB=1and hour =17:'<p>A few boys are being<<$XZ.name>>Punish to clean<a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">Equipment room</a></p>'
+		if $XZ_classroomB=1 and hour =17:'<p>A few boys are being<<$XZ.name>>Punish to clean<a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">Equipment room</a></p>'
 		if $SW.bad>=10 and hour=swhour:'<p><<$SW.name>>Actually went to the first floor<a href="exec:minutes+=5 &gt ''Biological_office'',''Men`s toilet''">In the men`s room</a></p>'
 		if FXZ_XY>=3 and 10<=hour and hour<=12:'<p><<$FXZ.name>>and<<$XY.name>>Being<a href="exec:minutes+=5 & gt ''Spanish_Event'',''FXZ_Fuck_Henchman''">Staff lounge</a>What is being discussed in it.</p>'
 		if $SW_Event_XZ=2 and hour >=17:'<p><<$SW.name>>and<<$XZ.name>>Being<a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_Health room''">Sexual health room</a>What is being discussed in it.</p>'
