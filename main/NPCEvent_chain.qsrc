@@ -128,6 +128,16 @@ $Boss_event_chain=0
 $LEIVideo_event_chain=0
 !1=Accept the ring 2=Harvest videotape1  3=Watched the video1, Start taking pictures 4=Take the first time 5=Harvest video2 6=After watching the video2 7=Was photographed for the second time 8=After watching the video3 9=He expelled
 
+$Stockings_event_chain=0
+!1=Find Mikami Yuya 2=Can walk the catwalk 3=The catwalk is over 4=Find Hashimoto 5=Can endorse 6=Endorsement is over 7=Limited R&D completed 8=Can get in the car 9=Have spoken Spanish 10=Crazy 11=Fucked sister 12=Been to her house
+
+$Bank_event_chain=0
+!1=Seen the opening !2=Make an appointment to be an escort in heaven !3=End of selection
+$Bank_event_chainA=0
+!1=You can go to the steel mill!2=Done for the first time 3=Did it for the second time 4=Did it for the third time 
+$Bank_event_chainB=0
+!1=Save her!2=You can go to the steel plant 3=Arrive next Wednesday 4=You can get the box 5=Get the box 6=Finished control 7=The meeting is over 8=Student wearOK 9=Weddingdress
+
 icamera=0
 Maotai=0
 Essential_oil=0

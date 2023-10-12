@@ -1343,7 +1343,8 @@ if $args[0]="Selection of jobs":
 			if $SSYY.Multifaceted>=20:'<div class="buttonG2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_cover''">Shooting posters </a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
 			if $SSYY.Multifaceted>=25:'<div class="buttonG3"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Thanksgiving Festival''">Fan Appreciation Festival </a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient multi-faceted ability</a></div>'
 			if $Agreetoanewperformance=1:'<div class="buttonPu4"><a href="exec:gt ''Group_performation_event'',''New new show''">Threesome tonight </a></div>'else'<div class="buttonGr"><a href="exec:">Not allowed</a></div>'
-			
+			if $Stockings_event_chain=1:'<div class="buttonP"><a href="exec:gt ''Stockings_shop_event'',''Stockings platform''">Stockings platform </a></div>'
+            
             if a!0:'<div class="button"><a href="exec:a=1 & gt ''Big_villa''">leave </a></div>'
         '</div>'
 

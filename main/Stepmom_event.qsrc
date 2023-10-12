@@ -587,7 +587,7 @@ if $args[0]="Stepmom_room_hug":
 	if $args[2]!"结束":
 		'<div class="button_menu">'
 			if a!1 and q<=2:
-			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''Stepmom_room_hug'',''吻''"">kiss</a></div>'
+			'<div class="button"><a href="exec:a=1 & gt ''Stepmom_event'',''Stepmom_room_hug'',''吻''">kiss</a></div>'
 			end
 			if a!2 and q<=2:
 			'<div class="button"><a href="exec:a=2 & gt ''Stepmom_event'',''Stepmom_room_hug'',''床上1挑逗''">Rub your chest</a></div>'

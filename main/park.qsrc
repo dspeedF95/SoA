@@ -81,7 +81,7 @@ if $ARGS[0]="":
 		'<p>·After a lapse of several years, the City Council finally passed the "Special Park Management Law", which promoted the development of the city`s central Park and provided a leisurely place for people`s busy and stressful lives.</p>'
 		if $Random_number<1:'<p>·"Special Park Management Law": Regulations ① If the weather is too hot, you don`t want to wear it. There are no hard and fast regulations.——When Adam and Eve wandered unknowingly in the Garden of Eden, as God`s creation, their bodies were empty and they never felt uncomfortable about it.</p>'
 		if $Random_number=1 and $times_of_day='':'<p>???: Hey, I fell, can you help me up?</p>'
-		if ($Random_number=2 or $Random_number=6 or $Random_number=7or $Random_number=8)  and $times_of_day='':'<p>???: Hello, can you take a picture for me?</p>'
+		if ($Random_number=2 or $Random_number=6 or $Random_number=7 or $Random_number=8)  and $times_of_day='':'<p>???: Hello, can you take a picture for me?</p>'
 		if ($Random_number=3 or $Random_number=9or $Random_number=10) and $times_of_day='':'<p>???: Hi, I can`t find my belongings, can you help me find them?</p>'
 		if ($Random_number=4 or $Random_number=5) and $times_of_day='':'<p>???: I heard that there will be exposed people in this area. Can you help me see if there are any suspicious people?</p>'
 		if $Random_number=3 and  $times_of_day!'':'<p>???: I heard that there will be exposed people in this area. Can you help me see if there are any suspicious people?</p>'

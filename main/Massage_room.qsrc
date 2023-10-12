@@ -177,5 +177,23 @@ if  $args[0]="Private massage4":
 	'</div>'
 end
 
+if  $args[0]="Private massage5":
+	'<div class ="show_menu"><img src="images\place\按摩房里.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage4''">▶Previous page</a></div>'
+        if $DY.massage=1:'<div class="button"><a href="exec:$m=''DY'' & $ma=$DY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②①<<$DY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②①？？？</a></div>'
+	   if $SWD.massage=1:'<div class="button"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②②<<$SWD.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②②？？？</a></div>'
+       if $YH.massage=1:'<div class="button"><a href="exec:$m=''YH'' & $ma=$YH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②③<<$YH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②③？？？</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>——————————</p>'
+		'<p>·Private massage is only acceptedVIPcustomer.We keep the identity of potential customers fully confidential.</p>'
+	'</div>'
+end
+
 --- Massage_room ---------------------------------
 

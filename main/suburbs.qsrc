@@ -41,6 +41,11 @@ q=0
 		'<div class="action">'
 			'<a class="photo" data-title="airport" href="exec:minutes+=5 & gt ''airport''"><img class="img_stretch" src="images\place\机场_小图.jpg"></a>'
 		'</div>'
+		if $Bank_event_chainA>=1 or $Bank_event_chainB>=2:
+			'<div class="action">'
+				'<a class="photo" data-title="Steel plant" href="exec:gt ''Bank_event'',''Steel plant''"><img class="img_stretch" src="images\place\钢铁厂.jpg"></a>'
+			'</div>'
+		end
 	'</div>'
 '</div>'
 
