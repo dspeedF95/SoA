@@ -96,6 +96,7 @@ if $ARGS[0]="Stock trading":
         if money>=stockWinecompanyN*100 and stockWinecompanyC=0: '·<a href="exec:stockWinecompanyC=100 & money-=stockWinecompanyN*100 & stockWinecompanyB=stockWinecompanyN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
         '</p>'
 	'</div>'
+End
 
 	
 if $ARGS[0]="Financial products":
