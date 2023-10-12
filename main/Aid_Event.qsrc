@@ -85,7 +85,7 @@ if $args[0]="ZL_Fuck_brohome":
 
 
 
-	if 8>=a and a>=2 :
+	if 8>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$Panting>></p>'
 		 '</div>'
@@ -125,7 +125,7 @@ if $ARGS[0]="dialogue":
 			if $ZL.love>=10:'<p><<$ZL.name>>:.I owe a lot of money to my cousin..…</p><p>I:Who is your cousin?..Why do you owe money?</p>'
 			if $ZL.love>=15:'<p><<$ZL.name>>:...The one who collects the money....It cost a lot of money to get a characteristic ID card and apply for admission...</p><p>I:So your cousin asked you to pay back the money through aid?</p>'
 			if $ZL.love>=20:'<p><<$ZL.name>>:..Hmm..Deduct rent and food expenses...Every time there is left500It`s much better than working in the country..…</p><p>I:How much is the difference?</p>'
-			if $ZL.love>=30:'<p><<$ZL.name>>:..Probably5Ten thousand....</p><p>I:Do you want to get rid of your cousin`s control?</p><p><<$ZL.name>>:Think, but I dare not be alone...</p>'
+			if $ZL.love>=30:'<p><<$ZL.name>>:..Probably 5Ten thousand....</p><p>I:Do you want to get rid of your cousin`s control?</p><p><<$ZL.name>>:Think, but I dare not be alone...</p>'
 			if $ZL.love>=35:
 				'<p><<$ZL.name>>:..Help me...</p><p>I:<a href="exec:gt ''Aid_Event'',''cousin''">I`m going to negotiate with your cousin</a></p>'
 				'<p>I:Don`t be afraid</p>'
@@ -208,7 +208,7 @@ if $args[0]="ZL_Fuck_home":
 			if a!4 and 3<=q and q<=10:
 			'<div class="button"><a href="exec:a=4 & gt ''Aid_Event'',''ZL_Fuck_home''">Swing waist and top</a></div>'
 			end
-			if a!5 and 4<=q :
+			if a!5 and 4<=q:
 			'<div class="button"><a href="exec:a=5 & gt ''Aid_Event'',''ZL_Fuck_home''">Extreme sprint</a></div>'
 			end
 			if a=5:
@@ -232,7 +232,7 @@ if $args[0]="ZL_Fuck_home":
 
 
 
-	if 6>=a and a>=1 :
+	if 6>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$Panting>><<$words>></p>'
 		 '</div>'
@@ -347,13 +347,13 @@ if $args[0]="ZL_Fuck_home2":
 
 
 
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 7>=a and a>=3 :
+	if 7>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$words>><<$Panting>></p>'
 		 '</div>'
@@ -427,13 +427,13 @@ if $args[0]="ZL_Fuck_home3":
 
 
 
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 7>=a and a>=4 :
+	if 7>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$words>><<$Panting>></p>'
 		 '</div>'
@@ -449,11 +449,8 @@ if $args[0]="ZL_Fuck_home3":
 			 '<p>I:Good-looking!</p>'
 			 '<p><<$ZL.name>>:Really?It`s good that my husband likes my show!</p>'
 		 '</div>'
-	end
-
-		
- 
- q+=1
+	end 
+q+=1
 
 End
 
@@ -470,7 +467,7 @@ if $ARGS[0]="ZL_Fuck_home4":
 
 	'<div class="dialog_menu">'
 		'<p>She was not at home, you dialed her phone.</p>'
-		'<p><<$ZL.name>>:Hello?<<$Protagonist`s_name>>？I`ll be back later, I have something to do now<<$Panting>></p>'
+		'<p><<$ZL.name>>:Hello? <<$Protagonist`s_name>>? I`ll be back later, I have something to do now<<$Panting>></p>'
 	'</div>'
 end
 
@@ -486,9 +483,9 @@ if $ARGS[0]="ZL_Fuck_home5":
 
 
 	'<div class="dialog_menu">'
-		'<p>？？？:I haven`t patronized your business for so long, have you ever thought about dad`s meat stick?</p>'
-		'<p><<$ZL.name>>:I love my father`s meat stick the most. Sure enough, it`s still the old business that makes money fast.</p>'
-		'<p>？？？:Hurry up, there are still more than two dozen people in line behind!</p>'
+		'<p>???:I haven`t patronized your business for so long, have you ever thought about dad`s meat stick?</p>'
+		'<p><<$ZL.name>>: I love my father`s meat stick the most. Sure enough, it`s still the old business that makes money fast.</p>'
+		'<p>???:Hurry up, there are still more than two dozen people in line behind!</p>'
 	'</div>'
 end
 
@@ -559,7 +556,7 @@ if $args[0]="ZL_Fuck_Outside":
 			if a=4:
 			'<div class="button"><a href="exec:a=5 & gt ''Aid_Event'',''ZL_Fuck_Outside''">Turn around</a></div>'
 			end
-			if a!6 and 5<=q :
+			if a!6 and 5<=q:
 			'<div class="button"><a href="exec:a=6 & gt ''Aid_Event'',''ZL_Fuck_Outside''">Back in</a></div>'
 			end
 			if a=6:
@@ -586,13 +583,13 @@ if $args[0]="ZL_Fuck_Outside":
 
 
 
-	if 3>=a and a>=1 :
+	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 8>=a and a>=4 :
+	if 8>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$words>><<$Panting>></p>'
 		 '</div>'
@@ -634,7 +631,7 @@ if $args[0]="ZL_Fuck_Inside":
 			if a!3 and 2<=q and q<=6:
 			'<div class="button"><a href="exec:a=3 & gt ''Aid_Event'',''ZL_Fuck_Inside''">accelerate</a></div>'
 			end
-			if a!4 and 3<=q :
+			if a!4 and 3<=q:
 			'<div class="button"><a href="exec:a=4 & gt ''Aid_Event'',''ZL_Fuck_Inside''">Hurry up</a></div>'
 			end
 			if a=4:
@@ -658,14 +655,14 @@ if $args[0]="ZL_Fuck_Inside":
 
 
 
-	if 2>=a and a>=1 :
+	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:It turns out that you will be shy in front of others, but you shouldn`t mind, right?</p>'
 			 '<p>friend:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if 5>=a and a>=3 :
+	if 5>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$ZL.name>>:<<$Panting>></p>'
 		 '</div>'
@@ -757,7 +754,7 @@ if $args[0]="classroomSEX":
 		 '</div>'
 	end
 
-	if 8>=a and a>=3 :
+	if 8>=a and a>=3:
 		 '<div class="dialog_menu">'
 			 '<p>friend:<<$Panting>><<$words>></p>'
 			 '<p><<$ZL.name>>:<<$Panting>></p>'
@@ -837,13 +834,13 @@ if $args[0]="ZL_Fuck_Home visit":
 
 
 
-	if 5>=q and q>=1 :
+	if 5>=q and q>=1:
 		 '<div class="dialog_menu">'
 			 '<p><<$ma>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
-	if a=10 :
+	if a=10:
 		 $ZL.love+=q+my.charm
 		 $ZL.bad+=q+my.charm
 		 $LJ.bad+=q+my.charm

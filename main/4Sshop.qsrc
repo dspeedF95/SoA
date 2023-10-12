@@ -166,7 +166,7 @@ if $ARGS[0] ="Pay the balance":
 	'<div class="dialog_menu">'
 		'<p>Store manager:<<$Protagonist`s_surname>> Sir!Just got off the plane!Poor hospitality!Poor hospitality!</p>'
 		'<p><<$XS.NAME>>:<<$Protagonist`s_surname>> Sir!The total balance is...￥415,000！It contains5000￥VIPValue-added services</p>'
-		'<p>Store manager:<<$XS.NAME>>！Well done!You are getting more and more proficient in your business…*Yawn</p>'
+		'<p>Store manager:<<$XS.NAME>>！ Well done!You are getting more and more proficient in your business…*Yawn</p>'
 	'</div>'
 end
  
