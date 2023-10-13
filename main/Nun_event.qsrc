@@ -890,7 +890,7 @@ if $args[0]="XN_Fuck_Night1":
         '</div>'
         else
             '<div class="button_menu">'
-                '<div class="buttonGn"><a href="exec: gt ''The_night_is_fine.'',''Main stage''">Reluctantly agree</a></div>'
+                '<div class="buttonGn"><a href="exec: gt ''The_night_is_fine'',''Main stage''">Reluctantly agree</a></div>'
             '</div>'
     end
 
@@ -936,7 +936,7 @@ if $args[0]="XN_Fuck_Night2":
         else
             '<div class="button_menu">'
                 '<div class="buttonP"><a href="exec: XNcos=1 & gt ''company''">Take herCOSpavilion</a></div>'
-                '<div class="buttonGn"><a href="exec: gt ''The_night_is_fine.''">leave</a></div>'
+                '<div class="buttonGn"><a href="exec: gt ''The_night_is_fine''">leave</a></div>'
             '</div>'
     end
 
