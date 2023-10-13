@@ -600,7 +600,7 @@ if $SJ.available=0:
 End
 
 if $SWD.available=0:
-    $SWD.name = "Migu Juli(Stockings shopkeeper)"
+    $SWD.name = "Mitani Akari (Stockings Shopkeeper)"
     $SWD.love = 0
     $SWD.bad = 0
     $SWD.bio ="After several years of part-time work, she decided to use her savings to open a women`s stockings store.She had hoped to make more money through this business, but she did not expect that it would not be easy to open a shop. In addition to facing fierce market competition, she also needed to face various business problems.Now, her stockings store has encountered difficulties and is facing an economic crisis.She urgently needs support and help to get her business back on its feet."
@@ -614,7 +614,7 @@ if $DY.available=0:
 End
 
 if $YH.available=0:
-    $YH.name = "Xinggong Yihua(Fund Manager)"
+    $YH.name = "Hoshimiya Ichika (Fund Manager)"
     $YH.love = 0
     $YH.bad = 0
     $YH.bio ="She is a newly appointed bank manager. In the fund department, she is responsible for evaluating the credit status of customers, formulating loan plans, approving loans, and supervising loan recovery.If the customer defaults or fails to repay on time, bad debts will arise.Banks will write off bad debts and count them as losses, which usually leads to an adverse impact on the bank`s profits and financial situation.However, it is very unfortunate that this is happening to her…"
