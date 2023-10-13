@@ -25,17 +25,17 @@ if $args[0]="Disobedience":
 
 	'<div class="dialog_menu">'
 		'<p>Me: No.</p>'
-		'<p><<$EDM.name>>:Excuse me?！Are you challenging me?You weak piece of wood!！(Am I talking too much?）</p>'
+		'<p><<$EDM.name>>:Excuse me?!Are you challenging me?You weak piece of wood!!(Am I talking too much?）</p>'
 		'<p>Me: Uh......</p>'
 		'<p><<$EDM.name>>:good!Then I will give you a chance to prove you!Let me see...Your determination!</p>'
 		'<p>Me: Wait...</p>'
-		'<p><<$EDM.name>>:FOXYou should know the prison, right?An important member of the Hot Girl Gang has been illegally detained!I need you to help her escape!Don`t worry, I spent a lot of money to hire a first-class jailbreak expert and a super-first-class heavy metal band!(Should I tell him so much at once?...？）</p>'
+		'<p><<$EDM.name>>:FOXYou should know the prison, right?An important member of the Hot Girl Gang has been illegally detained!I need you to help her escape!Don`t worry, I spent a lot of money to hire a first-class jailbreak expert and a super-first-class heavy metal band!(Should I tell him so much at once?...?）</p>'
 		'<p>Me: I am..Illegal act...</p>'
-		'<p><<$EDM.name>>:Hey?！I have told you about this secret operation!Damn it!Are you going to reverse the water?you?！You`re not a cop, are you?！</p>'
+		'<p><<$EDM.name>>:Hey?!I have told you about this secret operation!Damn it!Are you going to reverse the water?you?!You`re not a cop, are you?!</p>'
 		'<p>Me: No..Of course not..I mean to say..Jailbreak is..Illegal act...</p>'
-		'<p><<$EDM.name>>:ohhhhhhhhh~I see what you mean, "I am..Illegal act...”Then naturally there is a high reward!！The reward is....5Ten thousand!</p>'
+		'<p><<$EDM.name>>:ohhhhhhhhh~I see what you mean, "I am..Illegal act...”Then naturally there is a high reward!!The reward is....5Ten thousand!</p>'
 		'<p>Me: I don`t have any expertise in jailbreak...</p>'
-		'<p><<$EDM.name>>:You just need to put thisUPass the disk to the jailbreak expert!everythingOKAfter that, there will be5The balance of ten thousand!How?Do you do it or not?！</p>'
+		'<p><<$EDM.name>>:You just need to put thisUPass the disk to the jailbreak expert!everythingOKAfter that, there will be5The balance of ten thousand!How?Do you do it or not?!</p>'
 	'</div>'
 End
 
@@ -48,7 +48,7 @@ if $args[0]="Disobedience2":
 	'<div class="dialog_menu">'
 		'<p>Me: I picked it up.</p>'
 		'<p><<$EDM.name>>:Now that our employment relationship has taken effect, I hope you exercise your sphincter muscles in normal times!</p>'
-		'<p>Me: What?！Wait a minute!I haven`t beenUThe plate exploded chrysanthemum..</p>'
+		'<p>Me: What?!Wait a minute!I haven`t beenUThe plate exploded chrysanthemum..</p>'
 		'<p><<$EDM.name>>:Someone will connect with you at midnight!(Phone: Hello, is it the police station?A man broke into my house illegally and molested my underwear!）</p>'
 		$YDM_Event_free=1
 	'</div>'
@@ -123,7 +123,7 @@ if $args[0]="EDM_Fuck_Make friends":
 	if 7>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$EDM.name>>:..I guess you should like this better, right?This is not a challenge at all~~</p>'
-			 if a=7:'<p><<$EDM.name>>:？！！Ohhhhhhhhhhh~Something hot shot into the mouth....Am I victorious?</p>'	
+			 if a=7:'<p><<$EDM.name>>:?!!Ohhhhhhhhhhh~Something hot shot into the mouth....Am I victorious?</p>'	
 		 '</div>'
 	end
 	if a=8:
@@ -188,7 +188,7 @@ if $args[0]="EDM_Fuck_Cow outfit":
 
 	if a=-1:
 		 '<div class="dialog_menu">'
-			 '<p><<$EDM.name>>:Clam?！What is a date?</p>'	
+			 '<p><<$EDM.name>>:Clam?!What is a date?</p>'	
 			 '<p><<$YDM.name>>:Dating is the time when you dress up carefully and get along with the person you like in the place you like. </p>'	
 			 '<p><<$EDM.name>>:I think I understand!I`m going to change clothes!</p>'	
 		 '</div>'
@@ -196,7 +196,7 @@ if $args[0]="EDM_Fuck_Cow outfit":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$EDM.name>>:This is my favorite dress...What`s your expression?！My room is my favorite dating place!I don`t have anything I like to do, just do what you like best!</p>'	 
+			 '<p><<$EDM.name>>:This is my favorite dress...What`s your expression?!My room is my favorite dating place!I don`t have anything I like to do, just do what you like best!</p>'	 
 		 '</div>'
 	end
 
@@ -438,13 +438,13 @@ if $args[0]="EDM_Fuck_Biological pasta":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$EDM.name>>:Yeah~~~Pasta challenge!Great success!！Whoo-hoo-hoo-hoo!</p>'	 
+			 '<p><<$EDM.name>>:Yeah~~~Pasta challenge!Great success!!Whoo-hoo-hoo-hoo!</p>'	 
 		 '</div>'
 	end
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$EDM.name>>:How could it be?！This is the most authentic approach!Cook the pasta in salted water until cooked and keep the bite strong.Peel off the onion and garlic and cut into cubes.Wash the tomatoes, remove the stalks, and cut into small pieces.Add salt, pepper and sweet pepper powder to the ground meat and stir with a fork.</p>'	 
+			 '<p><<$EDM.name>>:How could it be?!This is the most authentic approach!Cook the pasta in salted water until cooked and keep the bite strong.Peel off the onion and garlic and cut into cubes.Wash the tomatoes, remove the stalks, and cut into small pieces.Add salt, pepper and sweet pepper powder to the ground meat and stir with a fork.</p>'	 
 			 '<p><<$SW.name>>:I think I know what`s missing, and I need some spicy seasoning.~</p>'
 		 '</div>'
 	end
@@ -462,7 +462,7 @@ if $args[0]="EDM_Fuck_Biological pasta":
 		 $SW.love+=q
 		 $SW.bad+=q
 		 '<div class="dialog_menu">'
-			 '<p><<$EDM.name>>:Oh?！So is this the secret recipe?I see!</p>'
+			 '<p><<$EDM.name>>:Oh?!So is this the secret recipe?I see!</p>'
 			 '<p><<$SW.name>>:I mean let him eat it!Quickly break his mouth open, don`t let him slip away!</p>'
 			 '<p>I:...Slip away!</p>'
 		 '</div>'
@@ -514,7 +514,7 @@ if $args[0]="EDM_Fuck_Hospital visit":
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$EDM.name>>:Eh?！The little one is so cute!Is it much smaller than before?Sure enough, there are side effects!</p>'
+			 '<p><<$EDM.name>>:Eh?!The little one is so cute!Is it much smaller than before?Sure enough, there are side effects!</p>'
 		 '</div>'
 	end
 
@@ -586,7 +586,7 @@ if $args[0]="EDM_Fuck_Vice Principal":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$EDM.name>>:uh.....！！I`m here to collect this month`s food purchase subsidy, count it<<$EDM.love>>00The ingredients, and9Additional labor transportation costs，4My management fee...uh...How much is it in total?</p>'
+			 '<p><<$EDM.name>>:uh.....!!I`m here to collect this month`s food purchase subsidy, count it<<$EDM.love>>00The ingredients, and9Additional labor transportation costs，4My management fee...uh...How much is it in total?</p>'
 			 '<p><<$FXZ.name>>:How much do you want to be equal to?......(If you can get a good relationship with her, you might be a good helper in the election for principal!)</p>'
 			 '<p>I:.......</p>'
 		 '</div>'
@@ -671,7 +671,7 @@ if $args[0]="EDM_Fuck_OL":
 			 '<p><<$FXZ.name>>:It`s a bit late, so I called my daughter and asked if she had eaten.</p>'
 			 '<p><<$EDM.name>>:Why have you been staring at me from behind?You don`t want to have a shot here, do you?Too bold...</p>'
 			 '<p>I:I forgot you are a coward.</p>'
-			 '<p><<$EDM.name>>:Huh!Do you think I dare not?.....Are you serious?？.....I...Actually....That`s what it means!</p>'
+			 '<p><<$EDM.name>>:Huh!Do you think I dare not?.....Are you serious??.....I...Actually....That`s what it means!</p>'
 		 '</div>'
 	end
 
@@ -682,7 +682,7 @@ if $args[0]="EDM_Fuck_OL":
 		 '<div class="dialog_menu">'
 			 '<p><<$EDM.name>>:<<$Panting>></p>'
 			 if a=5:'<p><<$EDM.name>>:Can you turn it back?I want to watch you do it...</p>'
-			 if a=3:'<p><<$EDM.name>>:Are you nervous?Or do you don`t care at all<<$fxz_name>>？Anyway, she is already your slave under the crotch?</p>'
+			 if a=3:'<p><<$EDM.name>>:Are you nervous?Or do you don`t care at all<<$fxz_name>>?Anyway, she is already your slave under the crotch?</p>'
 			 if a=6:'<p><<$EDM.name>>:Because it feels good to watch you do it, it`s a kind of happiness that your mind and body are filled at the same time.....</p>'
 			 if a=7:'<p>I:It`s all shot on your black silk, it feels so good!</p>'
 		 '</div>'
@@ -695,7 +695,7 @@ if $args[0]="EDM_Fuck_OL":
 		 '<div class="dialog_menu">'
 			 '<p><<$EDM.name>>:Challenge success........The next challenge is how to wear stockings with your semen on them and go home undetected along the way.</p>'
 			 '<p>I:....By the way, can you stop sitting in the back row?I want to touch your stockings at the red light.</p>'
-			 '<p><<$EDM.name>>:The stockings are full of semen you shot, do you still have to touch it?？Really perverted...！I`m going back alone!</p>'
+			 '<p><<$EDM.name>>:The stockings are full of semen you shot, do you still have to touch it??Really perverted...!I`m going back alone!</p>'
 		 '</div>'
 	end
   q+=1
@@ -749,7 +749,7 @@ if $args[0]="EDM_Fuck_threat":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>Male auditor:hello!Big sister!Have you forgotten how you promised me?Are you going to go back?！</p>'
+			 '<p>Male auditor:hello!Big sister!Have you forgotten how you promised me?Are you going to go back?!</p>'
 			 '<p>I:What`s the situation?</p>'
 			 '<p>Male auditor:Uh, this islgbtqThe parties in the group refused to cooperate with the inspection!I am enforcing it!</p>'
 			 '<p>Male auditor:*Looking at you, this is not where auditors below the third level should come!</p>'
@@ -763,9 +763,9 @@ if $args[0]="EDM_Fuck_threat":
 		 '<div class="dialog_menu">'
 			 '<p>woman:<<$Panting>></p>'
 			 if a=1:'<p>I:I don`t think she looks likelgbtqgroup....If you agree to let me stay here, I won`t shout<<$rion.name>>Come here.</p>' 
-			 if a=2:'<p>Male auditor:What`s your expression now?Our eldest sister, do you remember how you asked me to kneel in the ladies` room in high school and you stepped on my head?！The smell of your Sao is more smelly than that toilet!</p>'
+			 if a=2:'<p>Male auditor:What`s your expression now?Our eldest sister, do you remember how you asked me to kneel in the ladies` room in high school and you stepped on my head?!The smell of your Sao is more smelly than that toilet!</p>'
 			 if a=3:'<p>Male auditor:Hold it for me!You know what happens if you don`t do it obediently, right?</p>'
-			 if a=4:'<p>woman:What`s so nice about it?！I`m just completing a challenge!As long as I`m done....Nothing can bring me down!</p>'
+			 if a=4:'<p>woman:What`s so nice about it?!I`m just completing a challenge!As long as I`m done....Nothing can bring me down!</p>'
 			 if a=5:'<p>woman:I maliciously slandered the school girl in the lower grade group for having an STD, and I also cursed a classmate with polio as a dwarf.But reality aside, don`t you people who follow the wind and heckle have the slightest problem?</p>'
 			 if a=6:'<p>woman:I have changed......I don`t want to see anyone get hurt anymore, if I can satisfy you with humiliation!Then come on!This is my determination!</p>'
 		 '</div>'
@@ -811,8 +811,8 @@ if $args[0]="EDM_Fuck_Spanish":
 
 		else
 			'<div class="button_menu">'
-				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=1& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose：<<$EDM.name>></a></div>'
-				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=2& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose：<<$xy.name>></a></div>'
+				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=1& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose:<<$EDM.name>></a></div>'
+				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=2& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose:<<$xy.name>></a></div>'
 				if a=11:'<div class="button"><a href="exec:a=0 &q=0&minutes+=1440&hour=8& gt ''Second_generation_project_Event'',''EDM_Fuck_The next day''">overnight</a></div>'
 			'</div>'
 	end
@@ -822,7 +822,7 @@ if $args[0]="EDM_Fuck_Spanish":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>·Doodle doodle————</p>'
-			 '<p><<$EDM.name>>:What, you and<<$xy.name>>Are you all having an affair?She has always been my competitor!！You let her wait for me!</p>'
+			 '<p><<$EDM.name>>:What, you and<<$xy.name>>Are you all having an affair?She has always been my competitor!!You let her wait for me!</p>'
 			 '<p><<$xy.name>>:Let`s use guesswork to decide who will attack first. If he shoots out, he will win.If I win, let me join the Hot Girls Gang.</p>'
 			 '<p><<$EDM.name>>:Cut, no matter how many times, I will win anyway.</p>'
 		 '</div>'
@@ -857,7 +857,7 @@ if $args[0]="EDM_Fuck_Spanish":
 			 end
 			 if dialogue=2:
 			 '<p>I:<<$XY.name>>....</p>'
-			 '<p><<$EDM.name>>:Beep beep----!！This is the wrong answer!</p>'
+			 '<p><<$EDM.name>>:Beep beep----!!This is the wrong answer!</p>'
 			 '<p><<$XY.name>>:It seems that some people will not be able to sleep tonight!</p>'
 			 '<p><<$EDM.name>>:I don`t approve of it!</p>'
 			 $XY.LOVE+=q
@@ -971,7 +971,7 @@ if $args[0]="Go to school":
 
 	'<div class="dialog_menu">'
 		if dialogue=0:
-		'<p><<$EDM.name>>:!!!Give you a challenge!Walk in front of me!！！uh......This is...Try your guts to challenge!！</p>'
+		'<p><<$EDM.name>>:!!!Give you a challenge!Walk in front of me!!!uh......This is...Try your guts to challenge!!</p>'
 		'<p>Me: Are you a coward?</p>'
 		'<p><<$EDM.name>>:That`s not it!</p>'
 		end
@@ -982,7 +982,7 @@ if $args[0]="Go to school":
 		end
 		if dialogue=2:
 		'<p>Me: Since you are not afraid, then I will go one step ahead!</p>'
-		'<p><<$EDM.name>>:What if my attack is invalid for the ghost?？.....！Hello?！！？！Don`t leave me alone?！！？Hey hey!！！！</p>'
+		'<p><<$EDM.name>>:What if my attack is invalid for the ghost??.....!Hello?!!?!Don`t leave me alone?!!?Hey hey!!!!</p>'
 		$EDM.love-=10
 		end
 	'</div>'

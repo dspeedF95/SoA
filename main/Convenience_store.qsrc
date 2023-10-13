@@ -266,13 +266,13 @@ if $args[0]="":
 		
 		if Significant_cumulative_profit_this_month>My_mental_power+100:'<p><B><span class =''red''>☢If the above income is for you to use CEModified, then I have already predicted it.</p>'
 		
-		'<p>·Number of visitors yesterday：<<Numberofcustomersyesterday>>People; yesterday`s net income: ￥<<Yesterdaysprofit>>; Commodityprofitmargin：<span class="tooltip" data-title="=basic10%+<<Hospitalexclusive>>%+<<Schoolexclusive>>%+<<Entryandexitexclusive>>%+<<TVstationexclusive>>%, The upper limit is 18%"><<Commodityprofitmargin>>%</span></p>'
+		'<p>·Number of visitors yesterday:<<Numberofcustomersyesterday>>People; yesterday`s net income: ￥<<Yesterdaysprofit>>; Commodityprofitmargin:<span class="tooltip" data-title="=basic10%+<<Hospitalexclusive>>%+<<Schoolexclusive>>%+<<Entryandexitexclusive>>%+<<TVstationexclusive>>%, The upper limit is 18%"><<Commodityprofitmargin>>%</span></p>'
 		if hour>=22 or hour <=5:
-			'<p>㊰Service enthusiasm：<<Nightshift.enthusiasm>>%; Commodity richness：<<Typesofconveniencestoreproducts>>%; Store cleanliness：<<Conveniencestoreenvironment>>%</p>'
+			'<p>㊰Service enthusiasm:<<Nightshift.enthusiasm>>%; Commodity richness:<<Typesofconveniencestoreproducts>>%; Store cleanliness:<<Conveniencestoreenvironment>>%</p>'
 		else
-			'<p>㊐Service enthusiasm：<<$FW.enthusiasm>>%; Commodity richness：<<Typesofconveniencestoreproducts>>%; Store cleanliness：<<Conveniencestoreenvironment>>%</p>'
+			'<p>㊐Service enthusiasm:<<$FW.enthusiasm>>%; Commodity richness:<<Typesofconveniencestoreproducts>>%; Store cleanliness:<<Conveniencestoreenvironment>>%</p>'
 		end
-		'<p>·➤Past seven reviews➤：<<$Storeevaluationa[6]>><<$Storeevaluationa[5]>><<$Storeevaluationa[4]>><<$Storeevaluationa[3]>><<$Storeevaluationa[2]>><<$Storeevaluationa[1]>><<$Storeevaluationa[0]>>➤</p>'
+		'<p>·➤Past seven reviews➤:<<$Storeevaluationa[6]>><<$Storeevaluationa[5]>><<$Storeevaluationa[4]>><<$Storeevaluationa[3]>><<$Storeevaluationa[2]>><<$Storeevaluationa[1]>><<$Storeevaluationa[0]>>➤</p>'
 		'<p>·Additional effects>'
 		if $Thief1Entertheroom2>0:'【Anti-theft insurance: remaining<<$Thief1Entertheroom2>>Day】'
 		if $Thief2Entertheroom2>0:'【Sweeping robot: Remaining<<$Thief2Entertheroom2>>Day】'
@@ -297,8 +297,8 @@ if $args[0]="data":
 		'<p>·——————————————————</p>'
 		'<p>·<<month>>Monthly cumulative net profit: ￥<<Significant_cumulative_profit_this_month>>  ; Yesterday`s net profit: ￥<<Yesterdaysprofit>></p>'
 		
-		'<p>·㊐Service enthusiasm：<<$FW.enthusiasm>>%; Commodity richness：<<Typesofconveniencestoreproducts>>%; Numberofcustomersyesterday：<<Numberofcustomersyesterday>>people</p>'
-		'<p>·㊰Service enthusiasm：<<Nightshift.enthusiasm>>%; Store cleanliness：<<Conveniencestoreenvironment>>%; Current commodity net profit：<<Commodityprofitmargin>>%</p>'   
+		'<p>·㊐Service enthusiasm:<<$FW.enthusiasm>>%; Commodity richness:<<Typesofconveniencestoreproducts>>%; Numberofcustomersyesterday:<<Numberofcustomersyesterday>>people</p>'
+		'<p>·㊰Service enthusiasm:<<Nightshift.enthusiasm>>%; Store cleanliness:<<Conveniencestoreenvironment>>%; Current commodity net profit:<<Commodityprofitmargin>>%</p>'   
 		'<p>·——————————————————</p>'
 		'<p>·Daily sales are positively related to service attitude and supermarket environment</p>'
 		'<p>·The supermarket environment is affected by two elements: hygiene and commodity types</p>'

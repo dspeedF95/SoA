@@ -86,7 +86,7 @@ if $ARGS[0]="Equipment room":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>[Campus radio]: Shhh, keep your voice down, do you hear me?Could it be that this bomb is inside?！I remember!This is where we happened for the first time…</p>'
+		'<p>[Campus radio]: Shhh, keep your voice down, do you hear me?Could it be that this bomb is inside?!I remember!This is where we happened for the first time…</p>'
 		'<p>I: Damn bastard!</p>'
 	'</div>'
 end
@@ -160,7 +160,7 @@ end
 if $ARGS[0]="Community decoding":
 	Clownproblem+=1
 	if Clownproblem=6:
-		if ClownstatisticsB=3 and ClownstatisticsC=2:gt'Bomb_school','Club success'elsegt'Bomb_school','Clown failed'
+		if ClownstatisticsB=3 and ClownstatisticsC=2:gt'Bomb_school','Club success'else gt'Bomb_school','Clown failed'
 	end
 
 	'<div class ="show_menu"><img src="images\NPC\TS\pics\问题<<Clownproblem>>.jpg" width="854"></div>'
@@ -279,7 +279,7 @@ if $ARGS[0]="Defuse the bomb2":
 		'<p>I: Let us go soon…</p>'
 		'<p>Jerome: Let you go?I didn`t imprison you again. The door of the school will automatically open at dawn. Have you been deceived by me?Hee hee hee!</p>'
 		'<p><<$TS.name>>: Qingshui Jun...I…</p>'
-		'<p>Jerome: Oh?！Oops!If I don`t go back, I will be discovered, my angel!Don`t feel sorry for me!Hahahahaha Ahhahahahahahahahahahahahahahaha!Let`s see you next time, my angel!</p>'
+		'<p>Jerome: Oh?!Oops!If I don`t go back, I will be discovered, my angel!Don`t feel sorry for me!Hahahahaha Ahhahahahahahahahahahahahahahaha!Let`s see you next time, my angel!</p>'
 	'</div>'
 
 end
@@ -295,8 +295,8 @@ if $ARGS[0]="Successful demolition":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>I：………</p>'
-		'<p><<$TS.name>>：………</p>'
+		'<p>I:………</p>'
+		'<p><<$TS.name>>:………</p>'
 		'<p>Me: Then...now...what is our relationship?</p>'
 		'<p><<$TS.name>>: Can I entrust you, trust you, and rely on you?</p>'
 		'<p>Me: People can`t make mistakes twice, right?</p>'

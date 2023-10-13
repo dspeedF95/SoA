@@ -38,7 +38,7 @@ if $args[0]="Clumsy":
 		'<p><<$DY.name>>In a hurry, the wrong price was recorded, and the customer was very dissatisfied!</p>'
 		if a=1:'<p>I:It`s okay... When I first became a cashier, I often made mistakes. Practice makes perfect.</p>'& $DY.love+=2
 		if a=2:'<p>I:You are such an idiot!I have never seen such a stupid person as you!</p>'& $DY.love-=10
-		'<p>·——Her ability to work：<<$DY.work>></p>'
+		'<p>·——Her ability to work:<<$DY.work>></p>'
 	'</div>'
 End
 
@@ -59,7 +59,7 @@ if $args[0]="Mopping the floor":
 	'<div class="dialog_menu">'	
 		'<p><<$DY.name>>Humming a little song while working…</p>'
 		if a=1:'<p><<$DY.name>>:Ah ah ah ah ah ah ah*Slipped and fell</p>'& $DY.love+=3
-		'<p>·——Her ability to work：<<$DY.work>></p>'
+		'<p>·——Her ability to work:<<$DY.work>></p>'
 	'</div>'
 End
 
@@ -81,7 +81,7 @@ if $args[0]="To replenish":
 		'<p>I: The price is recorded incorrectly, and you slip and fall while mopping the floor. Why don`t you put the goods on the shelves? There can be no problem with the goods.…</p>'
 		'<p><<$DY.name>>: <<$Protagonist`s_name>>Store manager... I can definitely do this job!</p>'
 		if a=1:'<p><<$DY.name>>I am very happy to have completed the listing of goods in the food area.</p>'& $DY.love+=6
-		'<p>·——Her ability to work：<<$DY.work>></p>'
+		'<p>·——Her ability to work:<<$DY.work>></p>'
 	'</div>'
 End
 
@@ -126,7 +126,7 @@ if $args[0]="DY_Fuck_Water bar":
             '<div class="buttonB4"><a href="exec:a=11 & gt ''Clerk_event'',''DY_Fuck_Water bar''">apologize</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Convenience_store''">Go back to work</a></div>'
             '</div>'
@@ -136,7 +136,7 @@ if $args[0]="DY_Fuck_Water bar":
     if 0<=a and a<=1:
          '<div class="dialog_menu">'
              '<p><<$DY.name>>:It doesn`t seem to be difficult, but sure enough, I am getting more and more capable!</p>'
-             '<p>I：…………</p>'
+             '<p>I:…………</p>'
              if a>=1:'<p><<$DY.name>>:Ah ah ah ah!Tied by a rope!</p>'
          '</div>'
     end
@@ -176,10 +176,10 @@ if $args[0]="Appointment invitation":
 		'</div>'
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec: gt ''Clerk_event'',''DY_Fuck_aquarium''">①Aquarium</a></div>'
-		if $DY.love>=100:'<div class="buttonS2"><a href="exec: gt ''Clerk_event'',''DY_Fuck_hotelA''">②Amusement park</a></div>'else:'<div class="buttonGr"><a href="exec: ">②Insufficient favorability</a></div>'
-		if $DY.bad>=100:'<div class="buttonS3"><a href="exec: gt ''Clerk_event'',''DY_Fuck_nightclub''">去Go to the nightclub</a></div>'else:'<div class="buttonGr"><a href="exec: ">不足Insufficient favorability</a></div>'
-		if $DY.love>=230:'<div class="buttonS4"><a href="exec: gt ''Clerk_event'',''DY_Fuck_Hot spring1''">④Go to the hot spring</a></div>'else:'<div class="buttonGr"><a href="exec: ">不足Insufficient favorability</a></div>'
-		if $DY.bad>=300:'<div class="buttonS5"><a href="exec: gt ''Clerk_event'',''DY_Fuck_home1''">去Go to her house</a></div>'else:'<div class="buttonGr"><a href="exec: ">不足Insufficient favorability</a></div>'
+		if $DY.love>=100:'<div class="buttonS2"><a href="exec: gt ''Clerk_event'',''DY_Fuck_hotelA''">②Amusement park</a></div>'else'<div class="buttonGr"><a href="exec: ">②Insufficient favorability</a></div>'
+		if $DY.bad>=100:'<div class="buttonS3"><a href="exec: gt ''Clerk_event'',''DY_Fuck_nightclub''">去Go to the nightclub</a></div>'else'<div class="buttonGr"><a href="exec: ">不足Insufficient favorability</a></div>'
+		if $DY.love>=230:'<div class="buttonS4"><a href="exec: gt ''Clerk_event'',''DY_Fuck_Hot spring1''">④Go to the hot spring</a></div>'else'<div class="buttonGr"><a href="exec: ">不足Insufficient favorability</a></div>'
+		if $DY.bad>=300:'<div class="buttonS5"><a href="exec: gt ''Clerk_event'',''DY_Fuck_home1''">去Go to her house</a></div>'else'<div class="buttonGr"><a href="exec: ">不足Insufficient favorability</a></div>'
 		if $DY.sea=1:'<div class="buttonP"><a href="exec:a=0 & gt ''Clerk_event'',''sea''">❤Set off to see the sea❤</a></div>'
 		'<div class="button"><a href="exec:gt ''Convenience_store''">Talk about it next time</a></div>'
 	'</div>'
@@ -236,7 +236,7 @@ if $args[0]="DY_Fuck_aquarium":
             if a>=13:'<div class="buttonS5"><a href="exec:a=14 & gt ''Clerk_event'',''DY_Fuck_aquarium''">Inward shot out</a></div>'
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonP"><a href="exec:gt ''Residential_area''">Kiss goodbye</a></div>'
             '</div>'
@@ -331,7 +331,7 @@ if $args[0]="DY_Fuck_hotelA":
             if a>=15:'<div class="buttonB4"><a href="exec:a=16 & gt ''Clerk_event'',''DY_Fuck_hotelA''">Wash it clean</a></div>'
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS3"><a href="exec:DYcos=1 & gt ''company''">Take herCOSPLAY</a></div>'
                 '<div class="buttonGn3"><a href="exec:gt ''Convenience_store''">Go back to the convenience store together</a></div>'
@@ -415,7 +415,7 @@ if $args[0]="DY_Fuck_nightclub":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''The_night_is_fine''">Promise to go to the hot spring</a></div>'
             '</div>'
@@ -463,8 +463,8 @@ if $args[0]="DY_Fuck_Hot spring1":
         '<div class="button_menu">'
             if a=0:
             '<div class="buttonS1"><a href="exec:a=1 & gt ''Clerk_event'',''DY_Fuck_Hot spring1''">Tease her here</a></div>'
-            if $DY.love>=272:'<div class="buttonG3"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_Hot spring2''">Go to the hot spring</a></div>'else:'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
-		  if $DY.love>=300:'<div class="buttonB3"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_Hot spring3''">Eat delicious</a></div>'else:'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
+            if $DY.love>=272:'<div class="buttonG3"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_Hot spring2''">Go to the hot spring</a></div>'else'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
+		  if $DY.love>=300:'<div class="buttonB3"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_Hot spring3''">Eat delicious</a></div>'else'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
             end
             if a=1:
             '<div class="buttonS2"><a href="exec:a=2 & gt ''Clerk_event'',''DY_Fuck_Hot spring1''">Mouth me</a></div>'
@@ -483,7 +483,7 @@ if $args[0]="DY_Fuck_Hot spring1":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''suburbs''">leave</a></div>'
             '</div>'
@@ -545,7 +545,7 @@ if $args[0]="DY_Fuck_Hot spring2":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''suburbs''">leave</a></div>'
             '</div>'
@@ -602,7 +602,7 @@ if $args[0]="DY_Fuck_Hot spring3":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
 				'<div class="buttonG3"><a href="exec:$DY.massage=1 & gt ''company''">Take her for a massage</a></div>'
                 '<div class="buttonGn3"><a href="exec:gt ''suburbs''">leave</a></div>'
@@ -644,8 +644,8 @@ if $args[0]="DY_Fuck_home1":
         '<div class="button_menu">'
             if a=0:
             '<div class="buttonS1"><a href="exec:a=1 & gt ''Clerk_event'',''DY_Fuck_home1''">Homeopathic kissing</a></div>'
-            if $DY.bad>=351:'<div class="buttonS3"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_home2''">Go take a mandarin duck bath</a></div>'else:'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
-            if $DY.bad>=402:'<div class="buttonS5"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_home3''">Go to her boudoir</a></div>'else:'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
+            if $DY.bad>=351:'<div class="buttonS3"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_home2''">Go take a mandarin duck bath</a></div>'else'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
+            if $DY.bad>=402:'<div class="buttonS5"><a href="exec:a=0 & gt ''Clerk_event'',''DY_Fuck_home3''">Go to her boudoir</a></div>'else'<div class="buttonGr"><a href="exec: ">Lack of favorability</a></div>'
             if $DY.sea=1:'<div class="buttonP"><a href="exec:a=0 & gt ''Clerk_event'',''sea''">❤Set off to see the sea❤</a></div>'
             end
             if a=1:
@@ -663,7 +663,7 @@ if $args[0]="DY_Fuck_home1":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -722,7 +722,7 @@ if $args[0]="DY_Fuck_home2":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -775,7 +775,7 @@ if $args[0]="DY_Fuck_home3":
             if a>=7:'<div class="buttonS5"><a href="exec:a=8 & gt ''Clerk_event'',''DY_Fuck_home3''">Ejaculation</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonP"><a href="exec:a=0 & gt ''Clerk_event'',''request''">Small request</a></div>'
                 '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'

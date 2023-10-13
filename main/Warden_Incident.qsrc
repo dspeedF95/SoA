@@ -216,7 +216,7 @@ if $args[0]="DYZ_Event_entertain":
 		 '<div class="dialog_menu">'
 			 '<p><<$DYZ.name>>:By the way, this is the chief spermatologist of Imperial Health. He will grade and evaluate the taste and smell of your semen.</p>'
 			 '<p>Master of Fine Arts:The mouth is soft, the mouth is fishy, and the tail is clean and long.<<$DYZ.name>>, This one is good!This time you can receive a living ginseng.</p>'
-			 '<p><<$DYZ.name>>:<<$Protagonist`s_name>>！Go back and have a good rest!At least full30ml！Then squeeze a cup of fresh for the master craftsman alone!</p>'
+			 '<p><<$DYZ.name>>:<<$Protagonist`s_name>>!Go back and have a good rest!At least full30ml!Then squeeze a cup of fresh for the master craftsman alone!</p>'
 			 $DYZ.friend=1
 		 '</div>'
 end
@@ -248,7 +248,7 @@ if $args[0]="DYZ_Event_entertain2":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$DYZ.name>>:<<$Protagonist`s_name>>！Squeeze a cup of fresh for the master alone!Behave well!</p>'
+			 '<p><<$DYZ.name>>:<<$Protagonist`s_name>>!Squeeze a cup of fresh for the master alone!Behave well!</p>'
 		 '</div>'
 	end
 
@@ -267,7 +267,7 @@ if $args[0]="DYZ_Event_entertain2":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p>Master of Fine Arts:Hmm----!！The taste is good, thick but not greasy, soft but not sticky.Because there is no fruit to eat, it lacks the wrapping feeling of fruit pulp.It causes the aftertaste to be fishy and bitter at the root of the tongue.But the overall score can be obtained80Points!</p>'
+			 '<p>Master of Fine Arts:Hmm----!!The taste is good, thick but not greasy, soft but not sticky.Because there is no fruit to eat, it lacks the wrapping feeling of fruit pulp.It causes the aftertaste to be fishy and bitter at the root of the tongue.But the overall score can be obtained80Points!</p>'
 			 '<p><<$DYZ.name>>:<<$Protagonist`s_name>>Actually have80points?If it is paired with a reasonable fruit dietary feed, wouldn`t it be the same as those high-end ones?M8Is it a level of direct drinking raw essence?Tsk tsk..I have to squeeze it a few times while he is still in my hands.</p>'
 			 '<p>·Favorability has increased significantly!</p>'
 			 jings-=30

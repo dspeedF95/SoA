@@ -48,7 +48,7 @@ if $args[0]="Stockings shop_Fuck_guest":
             '<div class="buttonB4"><a href="exec:a=11 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_guest''">bargain</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:SWDmoney+=$Silkguest*rand(400,500) & gt ''Stockings_shop''">Confirm receipt</a></div>'
             '</div>'
@@ -157,7 +157,7 @@ if $args[0]="Stockings shop_Fuck_Yuya":
              if a=1:'<p><<$SSYY.name>>:How could anyone buy something that breaks as soon as it is torn!</p>'
              if a=2:'<p>Me: I won`t fuck you if I don`t wear it!Men like this kind of thing that breaks as soon as they tear it❤</p>'
              if a=2:'<p><<$SSYY.name>>:Okay ❤ I`m still willing to wear it for you❤</p>'
-             if a=19:'<p><<$SWD.name>>:<<$SSYY.name>>？The customer is already waiting impatiently... Can you change clothes faster?</p>'
+             if a=19:'<p><<$SWD.name>>:<<$SSYY.name>>?The customer is already waiting impatiently... Can you change clothes faster?</p>'
              if a=3:'<p><<$SSYY.name>>:Hurry up, hurry up…</p>'
          '</div>'
     end
@@ -235,7 +235,7 @@ if $args[0]="Stockings shop_Fuck_office":
             if a=12:'<div class="buttonS1"><a href="exec:a=13 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_office''">dialogue</a></div>'
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Stockings_shop''">leave</a></div>'
             '</div>'
@@ -321,7 +321,7 @@ if $args[0]="Stockings shop_Fuck_QB":
             end
             if a=9:'<div class="buttonB3"><a href="exec:a=10 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_QB''">Clean up</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Stockings_shop''">leave</a></div>'
             '</div>'
@@ -362,7 +362,7 @@ if $args[0]="Stockings shop_Fuck_R&D":
 
             if $SWD.bad>=a*my.charm:
                 '<div class="buttonS"><a href="exec:a+=1 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_R&D''">Continue testing</a></div>'
-            else:
+            else
                 '<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
             end
 
@@ -370,10 +370,10 @@ if $args[0]="Stockings shop_Fuck_R&D":
             '<div class="buttonB4"><a href="exec:gt ''Stockings_shop''">Stop testing</a></div>'
             end
         '</div>'
-        else:
-            '<div class="button_menu">'
-                '<div class="buttonG"><a href="exec:SWDmoney+=$Silkguest*rand(400,500) & gt ''Stockings_shop''">Launch a limited edition of the latest models</a></div>'
-            '</div>'
+    else
+        '<div class="button_menu">'
+            '<div class="buttonG"><a href="exec:SWDmoney+=$Silkguest*rand(400,500) & gt ''Stockings_shop''">Launch a limited edition of the latest models</a></div>'
+        '</div>'
     end
 
 
@@ -414,7 +414,7 @@ if $args[0]="Stockings shop_Fuck_Go out":
             if $Stockings_event_chain>=11:'<div class="buttonS"><a href="exec:gt ''Stockings_shop_event'',''Stockings shop_Fuck_qtj''">Go to her house</a></div>'
             end
             if a=1:
-               if $SWD.MGF>=3 and $Stockings_event_chain>=9:'<div class="buttonR"><a href="exec:a=2 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">Runaway estrus</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+               if $SWD.MGF>=3 and $Stockings_event_chain>=9:'<div class="buttonR"><a href="exec:a=2 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">Runaway estrus</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
                '<div class="buttonG3"><a href="exec:a=0 & q=0 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitXY''">visit<<$XY.name>></a></div>'
             end
             if a=2:
@@ -433,7 +433,7 @@ if $args[0]="Stockings shop_Fuck_Go out":
             '<div class="buttonB4"><a href="exec:a=7 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
 			 '<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_KFC''">Keep going to open the room.</a></div>'
 			 if $Stockings_event_chain>=10:'<div class="buttonG"><a href="exec:a=0 & q=0 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitJJ''">visit<<$JJ.name>></a></div>'
@@ -445,7 +445,7 @@ if $args[0]="Stockings shop_Fuck_Go out":
          '<div class="dialog_menu">'
              '<p><<$SWD.name>>:<<$Protagonist`s_name>>❤Ahem...hmm❤</p>'
              if a>=1:'<p>Me: Are you okay?You look a little weird…</p>'
-             if a>=2:'<p><<$SWD.name>>:I can`t help it❤<<$Protagonist`s_name>>！Give me your meat stick<<$Panting2>></p>'
+             if a>=2:'<p><<$SWD.name>>:I can`t help it❤<<$Protagonist`s_name>>!Give me your meat stick<<$Panting2>></p>'
          '</div>'
     end
 
@@ -476,7 +476,7 @@ if $args[0]="Stockings shop_Fuck_visitXY":
             if a=1:
              if $XY.bad>=200:
              '<div class="buttonS2"><a href="exec:a=2 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitXY''">Teased by them</a></div>'
-             else:
+             else
              '<div class="buttonGr"><a href="exec:">Insufficient depravity200</a></div>'
              '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'
              end
@@ -501,7 +501,7 @@ if $args[0]="Stockings shop_Fuck_visitXY":
             '<div class="buttonS1"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitXY''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -510,7 +510,7 @@ if $args[0]="Stockings shop_Fuck_visitXY":
 
     if 0<=a and a<=3:
          '<div class="dialog_menu">'
-             '<p><<$SWD.name>>:<<$Protagonist`s_name>>！You and<<$XY.name>>Are you familiar with it?</p>'
+             '<p><<$SWD.name>>:<<$Protagonist`s_name>>!You and<<$XY.name>>Are you familiar with it?</p>'
              if a>=1:'<p>Me: Uh…*The three of you look at each other</p>'
              if a>=2:'<p><<$XY.name>>:<<$Protagonist`s_surname>>Classmate, it`s amazing. ❤ How many women do you have to fuck to be satisfied?</p>'
              if a>=3:'<p><<$SWD.name>>:Since you are also in this relationship, the limited edition rewards are much easier to handle❤</p>'
@@ -574,7 +574,7 @@ if $args[0]="Stockings shop_Fuck_visitJJ":
             '<div class="buttonS1"><a href="exec:a=13 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitJJ''">Make a diagnosis</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
 			 if $SWD.Insemination=0:'<div class="buttonG3"><a href="exec:$SWD.Insemination=1 & gt ''company''">Invite artificial insemination</a></div>'
                 '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'
@@ -650,7 +650,7 @@ if $args[0]="Stockings shop_Fuck_KFC":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:SWDmoney+=$Silkguest*rand(400,500) & gt ''Stockings_shop''">Are you okay?</a></div>'
             '</div>'
@@ -694,7 +694,7 @@ if $args[0]="Stockings shop_Fuck_qtj":
             end
             if a=2:
             '<div class="buttonG2"><a href="exec:$SWD.massage=1 & gt ''company''">Recommended massage shop</a></div>'
-            if $Stockings_event_chain>=13:'<div class="buttonS3"><a href="exec:a=3 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_qtj''">Give her a small gift</a></div>'else:'<div class="buttonGr"><a href="exec:">Give her a small gift</a></div>'
+            if $Stockings_event_chain>=13:'<div class="buttonS3"><a href="exec:a=3 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_qtj''">Give her a small gift</a></div>'else'<div class="buttonGr"><a href="exec:">Give her a small gift</a></div>'
             end
             if a=3:
             '<div class="buttonS3"><a href="exec:a=4 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_qtj''">Leave quietly</a></div>'
@@ -703,7 +703,7 @@ if $args[0]="Stockings shop_Fuck_qtj":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_qtj''">The time is almost right</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS5"><a href="exec:a=0 & q=0 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_home''">Show up and fuck her</a></div>'
             '</div>'
@@ -723,7 +723,7 @@ if $args[0]="Stockings shop_Fuck_qtj":
     if 3<=a and a<=5:
          '<div class="dialog_menu">'
              '<p><<$SWD.name>>: What...is this a gift from a customer to me?</p>'
-             if a>=4:'<p><<$SWD.name>>：<<$Panting>></p>'
+             if a>=4:'<p><<$SWD.name>>:<<$Panting>></p>'
          '</div>'
     end
 

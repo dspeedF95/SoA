@@ -37,7 +37,7 @@ if $args[0]="YH_Fuck_Bank":
             if a>=5:'<div class="buttonS4"><a href="exec:a=6 & gt ''Bank_event'',''YH_Fuck_Bank''">High-speed thrusting</a></div>'
             if a>=6:'<div class="buttonS5"><a href="exec:a=7 & gt ''Bank_event'',''YH_Fuck_Bank''">Ejaculation</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''bank''">leave</a></div>'
             '</div>'
@@ -81,7 +81,7 @@ if $args[0]="YH_Fuck_km":
             if a=1:'<div class="buttonS1"><a href="exec:a=2 & gt ''Bank_event'',''YH_Fuck_km''">Speak for her</a></div>'
             if a=2:'<div class="buttonS1"><a href="exec:a=3 & gt ''Bank_event'',''YH_Fuck_km''">What if I solve it</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''bank''">leave</a></div>'
             '</div>'
@@ -150,7 +150,7 @@ if $args[0]="Drinking choice2":
               '<p>Credit Manager:Come on, have another drink❤</p>' 
               '<p>Me: Hey!<<$YH.name>>Why are you here?</p>' 
               '<p>Credit Manager:<<$Protagonist`s_surname>>Sir, I remember you, and I warn you, don`t break my good deeds.</p>' 
-              '<p>I：……</p>' 
+              '<p>I:……</p>' 
               '<p>·——Here is a story branch——·</p>' 
          '</div>'
 End
@@ -166,7 +166,7 @@ if $args[0]="YH_Fuck_A1":
         '<div class="button_menu">'
             '<div class="buttonS5"><a href="exec:a+=1 & gt ''Bank_event'',''YH_Fuck_A1''">Peeking outside the door</a></div>'
         '</div>'
-        else:
+        else
         '<div class="button_menu">'
             '<div class="buttonGn"><a href="exec: gt ''Kabukicho''">Keep it in mind</a></div>'
         '</div>'
@@ -242,7 +242,7 @@ if $args[0]="Steel plant office2":
         '</div>'
 
         '<div class="button_menu">'
-            if $Succubus_Energy>0:'<div class="buttonPu3"><a href="exec: $Succubus_Energy-=1 & gt ''Bank_event'',''YH_Fuck_secretaryC''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else:'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
+            if $Succubus_Energy>0:'<div class="buttonPu3"><a href="exec: $Succubus_Energy-=1 & gt ''Bank_event'',''YH_Fuck_secretaryC''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
             '<div class="button"><a href="exec:gt ''suburbs''">leave</a></div>'
         '</div>'
 
@@ -284,7 +284,7 @@ if $args[0]="YH_Fuck_A2":
         '<div class="button_menu">'
             '<div class="buttonS5"><a href="exec:a+=1 & gt ''Bank_event'',''YH_Fuck_A2''">Peeking through the door</a></div>'
         '</div>'
-        else:
+        else
         '<div class="button_menu">'
             '<div class="buttonGn"><a href="exec: gt ''suburbs''">Will she come again?</a></div>'
         '</div>'
@@ -333,7 +333,7 @@ if $args[0]="YH_Fuck_A3":
         '<div class="button_menu">'
             '<div class="buttonS5"><a href="exec:a+=1 & gt ''Bank_event'',''YH_Fuck_A3''">Peeking through the door</a></div>'
         '</div>'
-        else:
+        else
         '<div class="button_menu">'
             '<div class="buttonGn"><a href="exec: gt ''suburbs''">She will definitely come again!</a></div>'
         '</div>'
@@ -344,7 +344,7 @@ if $args[0]="YH_Fuck_A3":
     if 10>=a and a>=0:
          '<div class="dialog_menu">'
               '<p><<$YH.name>>:Day...have you read the diary?Just tell me the specific address of the iron ore mine!</p>' 
-              '<p>Director of steel plant:What`s the matter?！You don`t trust me, do you?Isn`t this your attitude of begging for others?</p>' 
+              '<p>Director of steel plant:What`s the matter?!You don`t trust me, do you?Isn`t this your attitude of begging for others?</p>' 
               if a>=1:'<p><<$YH.name>>:Please...please tell me...the specific address of the iron ore mine...…*patience</p>' 
               if a>=1:'<p>Director of steel plant:This is not your attitude of begging for someone, who would get wet when begging for someone?say!Do you want it?</p>' 
               if a>=2:'<p><<$YH.name>>:Not<<$Panting>></p>' 
@@ -379,7 +379,7 @@ if $args[0]="YH_Fuck_A4":
         '<div class="button_menu">'
             '<div class="buttonS5"><a href="exec:a+=1 & gt ''Bank_event'',''YH_Fuck_A4''">Peeking through the door</a></div>'
         '</div>'
-        else:
+        else
         '<div class="button_menu">'
             '<div class="buttonGn"><a href="exec: gt ''suburbs''">She agreed</a></div>'
         '</div>'
@@ -394,9 +394,9 @@ if $args[0]="YH_Fuck_A4":
               if a=0:'<p>Director of steel plant:To introduce you, these two are my partners.One is the credit manager of your bank, you should be familiar with it, and the other is……</p>' 
               if a=0:'<p>Overseas villa agency:5Billion funds have been divided into17Pen, has been purchased overseas17The luxury villa has been operated so far.</p>' 
               if a=0:'<p>Director of steel plant:Do you understand?</p>' 
-              if a>=0:'<p><<$YH.name>>:Then...then why did you lie to me to come here today?！</p>' 
+              if a>=0:'<p><<$YH.name>>:Then...then why did you lie to me to come here today?!</p>' 
               if a>=1:'<p>Director of steel plant:Every time you come, I will pay you back ￥50,000, as long as10The second is50Ten thousand!So you can also pass it on to the above, right?</p>' 
-              if a>=1:'<p><<$YH.name>>:This...what is the difference between this and selling yourself as a prostitute?！</p>' 
+              if a>=1:'<p><<$YH.name>>:This...what is the difference between this and selling yourself as a prostitute?!</p>' 
               if a>=2:'<p>Credit Manager:Of course there is a difference, the difference is...you won`t be expelled from the bank and become a real prostitute.…</p>' 
               if a>=2:'<p>Overseas villa agency:once5Ten thousand words... I`m still too much❤</p>' 
               if a>=3:'<p><<$YH.name>>:I...I see... you can`t be dead.…</p>' 
@@ -442,7 +442,7 @@ if $args[0]="YH_Fuck_be":
             if a=10:'<div class="buttonR3"><a href="exec:a=11 & gt ''Bank_event'',''YH_Fuck_be''">Blown up in shame</a></div>'
             if a=11:'<div class="buttonR4"><a href="exec:a=12 & gt ''Bank_event'',''YH_Fuck_be''">Dialogue with the manager of the credit department</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonR"><a href="exec: gt ''bank''">Bed end:leave</a></div>'
             '</div>'
@@ -510,7 +510,7 @@ if $args[0]="YH_Fuck_B1":
             if a=9:'<div class="buttonR2"><a href="exec:a=10 & gt ''Bank_event'',''YH_Fuck_B1''">Dissatisfied with desire</a></div>'
             if a=10:'<div class="buttonB3"><a href="exec:a=11 & gt ''Bank_event'',''YH_Fuck_B1''">The next morning</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''Residential_area''">respectively</a></div>'
             '</div>'
@@ -561,7 +561,7 @@ if $args[0]="YH_Fuck_secretaryC":
             if a>=4:'<div class="buttonS5"><a href="exec:a=5 & gt ''Bank_event'',''YH_Fuck_secretaryC''">Inward shot out</a></div>'
             if a>=5:'<div class="buttonPu5"><a href="exec:a=6 & gt ''Bank_event'',''YH_Fuck_secretaryC''">Secret intelligence</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''Residential_area''">I will monitor him</a></div>'
             '</div>'
@@ -602,7 +602,7 @@ if $args[0]="YH_Fuck_secretaryD":
             if a>=4:'<div class="buttonS5"><a href="exec:a=5 & gt ''Bank_event'',''YH_Fuck_secretaryD''">Inward shot out</a></div>'
             if a>=5:'<div class="buttonPu5"><a href="exec:a=6 & gt ''Bank_event'',''YH_Fuck_secretaryD''">dialogue</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''suburbs''">leave</a></div>'
             '</div>'
@@ -645,7 +645,7 @@ if $args[0]="YH_Fuck_B4":
             if a>=6:'<div class="buttonS5"><a href="exec:a=7 & gt ''Bank_event'',''YH_Fuck_B4''">Ejaculation</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''bank''">Go out</a></div>'
             '</div>'
@@ -655,11 +655,11 @@ if $args[0]="YH_Fuck_B4":
 
     if 6>=a and a>=0:
          '<div class="dialog_menu">'
-              if $Bank_event_chainB>=4:'<p>I:It seems that we know where they are trading, don`t we celebrate?</p>' else:'<p>I:It`s not a way to be idle, is it?</p>' 
+              if $Bank_event_chainB>=4:'<p>I:It seems that we know where they are trading, don`t we celebrate?</p>' else'<p>I:It`s not a way to be idle, is it?</p>' 
               if a>=1:'<p><<$YH.name>>:It`s too dangerous here…</p>' 
               if a>=2:'<p>I:Don`t worry, there is no one.</p>' 
-              if a>=3:'<p>？？？:Have you heard of it?A popular anime character was cut…</p>' 
-              if a>=3:'<p>？？？:I heard it`s resurrected again…</p>' 
+              if a>=3:'<p>???:Have you heard of it?A popular anime character was cut…</p>' 
+              if a>=3:'<p>???:I heard it`s resurrected again…</p>' 
               if a>=4:'<p>I:I shouldn`t be found here anymore❤</p>' 
               if a>=5:'<p><<$YH.name>>:So close<<$words>></p>' 
          '</div>'
@@ -670,7 +670,7 @@ if $args[0]="YH_Fuck_B4":
          $YH.bad+=q+my.charm
          $YH.love+=q+my.charm
          '<div class="dialog_menu">'
-              if $Bank_event_chainB>=4:'<p>I:It seems that we know their trading location: afternoon14:00, From the subway stationA9522Locker number...should we get there first?</p>' else:'<p>I:They should be gone, right?</p>' 
+              if $Bank_event_chainB>=4:'<p>I:It seems that we know their trading location: afternoon14:00, From the subway stationA9522Locker number...should we get there first?</p>' else'<p>I:They should be gone, right?</p>' 
          '</div>'
     end
   q+=1
@@ -697,7 +697,7 @@ if $args[0]="YH_Fuck_B5":
             end
             if a=9:'<div class="buttonS"><a href="exec:a=10 & gt ''Bank_event'',''YH_Fuck_B5''">dialogue</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''bank''">understand</a></div>'
             '</div>'
@@ -787,7 +787,7 @@ if $args[0]="Board of Directors of the head office":
          '<div class="dialog_menu">'
               '<p>Vice President:My Lord President... no...no!Give me another chance!I don`t want to go to that kind of country place!</p>' 
               '<p>President:This is the result of personnel changes, just as you said, give him a seat!</p>' 
-              '<p><<$YH.name>>:Call——<<$Protagonist`s_name>>！The stone in my heart has finally landed!</p>' 
+              '<p><<$YH.name>>:Call——<<$Protagonist`s_name>>!The stone in my heart has finally landed!</p>' 
               '<p>I:Yeah, it`s time to relax.</p>' 
          '</div>'
         end   
@@ -816,7 +816,7 @@ if $args[0]="YH_Fuck_B7":
             if a=9:'<div class="buttonS"><a href="exec:a=10 & gt ''Bank_event'',''YH_Fuck_B7''">Shot on cotton socks</a></div>'
             if a=10:'<div class="button"><a href="exec:a=11 & gt ''Bank_event'',''YH_Fuck_B7''">dialogue</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec: gt ''bank''">See you at church</a></div>'
             '</div>'
@@ -873,7 +873,7 @@ if $args[0]="YH_Fuck_B8":
             if a>=8:'<div class="buttonGn"><a href="exec:a=9 & gt ''Bank_event'',''YH_Fuck_B8''">Lick it clean❤</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG"><a href="exec: gt ''church''">Good End</a></div>'
             '</div>'

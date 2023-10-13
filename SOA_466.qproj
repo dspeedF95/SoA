@@ -14,7 +14,6 @@
     <Location name="bank"/>
     <Location name="Bank_event"/>
     <Location name="basement"/>
-    <Location name="beddream"/>
     <Location name="begin"/>
     <Location name="Big_bird_turn_around"/>
     <Location name="Big_villa"/>
@@ -62,7 +61,6 @@
     <Location name="exid"/>
     <Location name="Eye_of_God"/>
     <Location name="Foreground_Event"/>
-    <Location name="game_autosave"/>
     <Location name="game_new_day"/>
     <Location name="game_new_week"/>
     <Location name="game_time"/>
@@ -72,10 +70,6 @@
     <Location name="Geology_Event"/>
     <Location name="Good_Wife_Tutoring_Class"/>
     <Location name="Group_performation_event"/>
-    <Location name="gs_24"/>
-    <Location name="gs_first"/>
-    <Location name="gs_gg_off"/>
-    <Location name="gs_gg_sleep211"/>
     <Location name="gym"/>
     <Location name="Hair_salon"/>
     <Location name="Hall_event"/>
@@ -109,7 +103,6 @@
     <Location name="Independent_front_desk"/>
     <Location name="Insemination_room"/>
     <Location name="Inspector_Event"/>
-    <Location name="items_eb"/>
     <Location name="Judges_Event"/>
     <Location name="Kabukicho"/>
     <Location name="Killer_Event"/>

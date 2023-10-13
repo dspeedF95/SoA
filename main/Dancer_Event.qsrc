@@ -30,7 +30,7 @@ if $args[0] ='SpadesA':
 	'<div class="dialog_menu">'
 		'<p><<$WN.name>>:Thanks<<$Protagonists_surname>> Boss`s1SpadesAGold edition!People like you so much!Let us fight until dawn!</p>'
 		$WN.love+=10
-		if WNcos=1:'<p><<$WN.name>>:<<$Protagonists_surname>> Boss, how do you know I like itosplay？！I will definitely appreciate it!</p>'
+		if WNcos=1:'<p><<$WN.name>>:<<$Protagonists_surname>> Boss, how do you know I like itosplay?!I will definitely appreciate it!</p>'
 	'</div>'
 End
 
@@ -110,7 +110,7 @@ if $args[0]="Veneer dance":
 		 '<div class="dialog_menu">'
 			'<p><<$WN.name>>:Thanks<<$Protagonists_surname>> boss!boss~~Can you see clearly enough?The following is a close interaction with the lucky audience on stage.~~~</p>'
 			$WN.love+=5
-			'<p>Drunk local tyrant:I`ll do it, I`ll do it!I`m out...<<m>>￥！Start it all for me!</p>'
+			'<p>Drunk local tyrant:I`ll do it, I`ll do it!I`m out...<<m>>￥!Start it all for me!</p>'
 		 '</div>'
 	end
 

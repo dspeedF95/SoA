@@ -55,7 +55,7 @@ if $ARGS[0]="":
 		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>·Municipal office opening hours：8:00——21:00 Open all year round</p>'
+		'<p>·Municipal office opening hours:8:00——21:00 Open all year round</p>'
 	'</div>'
 end
 
@@ -78,7 +78,7 @@ if $ARGS[0]="Front desk vertical painting":
 	'</div>'
 	'<div class="dialog_menu">'
 		if  $Front_desk_Event_throat=5:
-			'<p><<$QT.name>>:<<$Protagonist`s_name>>！Thank you!My vocal cords feel much better now!Recovering!</p>'
+			'<p><<$QT.name>>:<<$Protagonist`s_name>>!Thank you!My vocal cords feel much better now!Recovering!</p>'
 			else
 			'<p><<$QT.name>>:Ahem, who are you looking for?</p>'
 			end
@@ -101,7 +101,7 @@ if $ARGS[0]="Front desk appointment":
 		else
 		'<p><<$QT.name>>:Well, but... I want to go to the beach.</p>'
 		'<p>I:Then let`s go to the beach this weekend!I`m here to pick you up!</p>'
-		'<p><<$QT.name>>:Hey?！really?Great!</p>'
+		'<p><<$QT.name>>:Hey?!really?Great!</p>'
 		$QT.date=1
 		end
 	'</div>'
@@ -136,7 +136,7 @@ if $ARGS[0]="Top shift":
 	'<div class="dialog_menu">'
 		'<p>I:This is the secretary of my company…</p>'
 		'<p><<$MS.name>>:Hello, the boss arranged for me to assist you in your work.</p>'
-		'<p><<$QT.name>>:Ahem…<<$Protagonist`s_name>>！...who do you think you are?Why make a decision for me?</p>'
+		'<p><<$QT.name>>:Ahem…<<$Protagonist`s_name>>!...who do you think you are?Why make a decision for me?</p>'
 		'<p>I:...sorry...i…</p>'
 		'<p><<$MS.name>>:The boss is also for your own good. If you want to become an announcer, you must have a clear and smooth voice.I can assure you that I have no intention of watching your post.You can go for surgery with confidence.</p>'
 		'<p><<$QT.name>>:Ahem...Ahem...then...I`ll ask the leader for advice.…</p>'
@@ -160,7 +160,7 @@ if $ARGS[0]="In the top class":
 		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>·City hall opening hours：8:00——20:00 Open all year round</p>'
+		'<p>·City hall opening hours:8:00——20:00 Open all year round</p>'
 	'</div>'
 end
 

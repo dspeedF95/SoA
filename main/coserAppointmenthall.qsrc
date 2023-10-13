@@ -84,8 +84,8 @@ if  $args[0]="":
 
 	'<div class="dialog_menu">'
 		'<p>·coserAppointmenthall: Talking about private photographers andcoserThe appointment will always cause people to misunderstand and associate.</p>'
-		'<p>·The current reputation of the auction house is：<<tuc>> 处于 In<<$tuc_name>>stage.</p>'
-		'<p>·The cumulative income of the auction house is：<<Cmoney_Appointment>>￥➤<a href="exec: gt ''coserAppointmenthall'',''Withdraw''">Withdraw</a></p>'
+		'<p>·The current reputation of the auction house is:<<tuc>> 处于 In<<$tuc_name>>stage.</p>'
+		'<p>·The cumulative income of the auction house is:<<Cmoney_Appointment>>￥➤<a href="exec: gt ''coserAppointmenthall'',''Withdraw''">Withdraw</a></p>'
 		'<p>———Appointment list———</p>'
          if m1_1=0:$m='Good girl'
          if m1_1=1:$m='Short haircosmother'
@@ -139,7 +139,7 @@ if  $args[0]="Withdraw":
     '</div>'
 
     '<div class="dialog_menu">'
-        '<p>·The cumulative income of the auction house is：<<Cmoney_Appointment>>￥</p>'
+        '<p>·The cumulative income of the auction house is:<<Cmoney_Appointment>>￥</p>'
         '<p>·Withdrawal rules, each time you withdraw, you can only withdraw more than1The amount of 10,000￥ is lower than1The amount of 10,000 ￥ will be used as a corporate tax to support pensions for female staff in the city hall.</p>'
         '<p>☺Based on the ability of the secretary【<<MS.power>>】 Can legally avoid taxes and transfer<<TXM>>%To personal account.</p>'
     '</div>'

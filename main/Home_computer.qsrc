@@ -193,7 +193,7 @@ if $args[0] = 'Weibo status':
 	end
 	if $HZ_Event_coser=6:
 		'<p>·Clickbait Account: #popularcosplayer What is it like to have a sexually transmitted disease? I believe everyone is familiar with the recently popular cosplayer, but what''s the story behind her having a sexually transmitted disease? Let me take you through it below.</p>'
-		'<p>·Clickbait Account: #popularcosplayer Her real name is <<$hz.name>>！ That''s right, are you surprised the president of the student union has an STD?</p>'
+		'<p>·Clickbait Account: #popularcosplayer Her real name is <<$hz.name>>! That''s right, are you surprised the president of the student union has an STD?</p>'
 		'<p>·Clickbait Account: It was revealed by those familiar with her that she dated a boyfriend in high school who died of an incurable infection, which was widely thought to be the same STD that <<$hz.name>> has! It killed her boyfriend! Unfortunately, that''s what happened, and I''m very surprised.</p>'
 	end
 	'</div>'
@@ -234,7 +234,7 @@ if $args[0] = 'Private message':
 	'<div class="dialog_menu">'
 		'<p>Me: Hello!</p>'
 		'<p><Automatic reply>Auto-reply: Please include location and age in private messages. Genuine meetups only, no tricks! Can just meet up or have intimate encounters.</p>'
-		'<p>Me： ...</p>'
+		'<p>Me: ...</p>'
 	'</div>'
 End
 

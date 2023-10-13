@@ -71,7 +71,7 @@ end
 
 if $ARGS[0]!"Chatting":
 '<div class="dialog_menu">'
-	'<p><<$PersonnameA>> ： <<$TitleA>></p>'
+	'<p><<$PersonnameA>> : <<$TitleA>></p>'
 '</div>'
 end
 

@@ -19,7 +19,7 @@ if $args[0]="International student home":
 	  if  Interviewforinternationalstudents=1 and Internationalstudentschool=1:gt'Study_abroad_Event','home'
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\LXS\vids\In front of home<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+			 <source src="images\NPC\LXS\vids\家前<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
 		'</div>'
 
 	'<div class="button_menu">'
@@ -30,7 +30,7 @@ if $args[0]="International student home":
 	'<div class="dialog_menu">'
 		if $DialoguewithInternationalStudents=0:
 			'<p>I: Hi, it seems that you have found a place to stay, and I am worried that you will get lost.</p>'
-			'<p><<$LXS.name>>: Hi，<<$Protagonist`s_name>>！Nice to meet you.Although I have experienced an empty disaster before, my new life here has given me new courage and hope.I am gradually adapting to life in this city, full of curiosity and desire to explore the unknown world.</p>'
+			'<p><<$LXS.name>>: Hi，<<$Protagonist`s_name>>!Nice to meet you.Although I have experienced an empty disaster before, my new life here has given me new courage and hope.I am gradually adapting to life in this city, full of curiosity and desire to explore the unknown world.</p>'
 		end
 		if $DialoguewithInternationalStudents=1:
 			'<p>I: Is there anything I can do for you?</p>'
@@ -69,7 +69,7 @@ if $args[0]="home":
 	'<div class="dialog_menu">'
 		if $DialoguewithInternationalStudents=0:
 			'<p>I: Hi, why do you play games at home all day long?</p>'
-			'<p><<$LXS.name>>: Oops，<<$Protagonist`s_name>>！This is called "God·The game of "Original" is so fun, video games are simply my ultimate candy!Every time I pick up the handle or keyboard, it`s like entering a magical dimension. I can become a superhero, an explorer, and transform into various characters in the virtual world.</p>'
+			'<p><<$LXS.name>>: Oops，<<$Protagonist`s_name>>!This is called "God·The game of "Original" is so fun, video games are simply my ultimate candy!Every time I pick up the handle or keyboard, it`s like entering a magical dimension. I can become a superhero, an explorer, and transform into various characters in the virtual world.</p>'
 			'<p>I: ……</p>'
 			'<p><<$LXS.name>>: Every time I enter the world of Vatit, I will be fascinated by the beautiful scenery and fantasy adventures.I like to glide in the Longji snow-capped mountains, feel the howling of the wind, and have fun with my friends at the Flower and Wind Festival.Each character has unique skills and stories, which make me fall into it and can`t extricate myself.Come and explore the unknown secret realm with me, Shenyuan, start!</p>'
 		end
@@ -109,7 +109,7 @@ if $args[0]="Study abroad_Fuck_Entry11":
             '<div class="buttonS2"><a href="exec:a=7 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">Lick clean </a></div>'
             end
             if q=7:
-            '<div class="buttonR4"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">？！？！ </a></div>'
+            '<div class="buttonR4"><a href="exec:a=8 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Entry11''">?!?! </a></div>'
             end
 
             if 10>=q and  q>=8:
@@ -147,7 +147,7 @@ if $args[0]="Study abroad_Fuck_Entry11":
          '<div class="dialog_menu">'
              '<p>I:Ahem... I`ll do it, you go and rest.Tired all day.</p>'
              '<p>Auditor:Ok.</p>'
-             '<p><<$LXS.name>>:Hi!<<$Protagonist`s_name>>！</p>'
+             '<p><<$LXS.name>>:Hi!<<$Protagonist`s_name>>!</p>'
          '</div>'
     end
 
@@ -164,7 +164,7 @@ if $args[0]="Study abroad_Fuck_Entry11":
     if a=8:
          '<div class="dialog_menu">'
              '<p>I:hey!What`s wrong with you?。</p>'
-             '<p><<$LXS.name>>:I can`t help it!<<$Protagonist`s_name>>！I want you!Fuck me!</p>'
+             '<p><<$LXS.name>>:I can`t help it!<<$Protagonist`s_name>>!I want you!Fuck me!</p>'
          '</div>'
     end
 
@@ -195,7 +195,7 @@ if $args[0]="Study abroad_Fuck_School application":
 		'</div>'
 
 	'<div class="button_menu">'
-		'<div class="buttonG"><a href="exec:money-=5000  & Internationalstudentschool=1 & gt ''university''">register：$5000</a></div>'
+		'<div class="buttonG"><a href="exec:money-=5000  & Internationalstudentschool=1 & gt ''university''">register:$5000</a></div>'
 		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
 	'</div>'
 
@@ -240,7 +240,7 @@ if $args[0]="Study abroad_Fuck_lesson":
          '<div class="dialog_menu">'
              '<p><<$LXS.name>>:Hey...what are you doing, let me go!</p>'
              if a>=1:'<p>I:The bad boy will be taught a lesson!</p>'
-             if a>=2:'<p><<$LXS.name>>:I was wrong!<<$Protagonist`s_name>>！I was wrong!</p>'
+             if a>=2:'<p><<$LXS.name>>:I was wrong!<<$Protagonist`s_name>>!I was wrong!</p>'
          '</div>'
     end
 
@@ -249,7 +249,7 @@ if $args[0]="Study abroad_Fuck_lesson":
     	 $LXS.bad+= my.charm
          '<div class="dialog_menu">'
              '<p>I:Don`t forget, it cost me a lot of money to register for you.</p>'
-             '<p><<$LXS.name>>:Cut, really stingy.I don`t want to see you anymore, can you get out of here?！</p>'
+             '<p><<$LXS.name>>:Cut, really stingy.I don`t want to see you anymore, can you get out of here?!</p>'
          '</div>'
     end
 
@@ -328,7 +328,7 @@ if $args[0]="School counseling":
 
 	'<div class="dialog_menu">'
 		if $DialoguewithInternationalStudents=0:
-			'<p><<$LXS.name>>: Oops，<<$Protagonist`s_name>>！This exercise is so difficult.</p>'
+			'<p><<$LXS.name>>: Oops，<<$Protagonist`s_name>>!This exercise is so difficult.</p>'
 			'<p>I: What topic?Let me see.</p>'
 			'<p><<$LXS.name>>: Suppose we have a character named Qin, and her basic attack power is1000Point, the critical strike rate is30%, Critical strike damage is50%, The skill magnification is200%, Elemental damage is increased to20%, So what is the average damage value of Qin when using skills to attack?</p>'
 			'<p>I: ……</p>'
@@ -336,7 +336,7 @@ if $args[0]="School counseling":
 		if $DialoguewithInternationalStudents=1:
 		    $LXS.love+=15
 			'<p>I: Average damage = Basic attack power * Skill magnification * (1 + Elemental damage bonus) * (1 + Critical strike rate * Critical strike damage)</p>'
-			'<p><<$LXS.name>>: I see, the answer is2400！</p>'
+			'<p><<$LXS.name>>: I see, the answer is2400!</p>'
 			'<p>I: By the way... is this really an exercise arranged by the school?</p>'
 			'<p><<$LXS.name>>:<<$Protagonist`s_name>>❤Why are your nipples scoliosis❤</p>'
 		end
@@ -346,7 +346,7 @@ End
 if $args[0]="Check materials in the library":
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\LXS\vids\scbooks1-<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+			 <source src="images\NPC\LXS\vids\sc图书1-<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
 		'</div>'
 
 	'<div class="button_menu">'
@@ -601,12 +601,12 @@ if $args[0]="Get in the car":
 
 	'<div class="dialog_menu">'
 	   if $DialoguewithInternationalStudents=0:
-			'<p><<$LXS.name>>: Ooh，<<$Protagonist`s_name>>！Your car is good.</p>'
+			'<p><<$LXS.name>>: Ooh，<<$Protagonist`s_name>>!Your car is good.</p>'
 			'<p>I: Right... girls have feelings for me, just because I have…</p>'
 			'<p><<$LXS.name>>: Where are you going to take me?</p>'
 	   end
 	   if $DialoguewithInternationalStudents=1:
-			'<p><<$LXS.name>>: This is dangerous driving!<<$Protagonist`s_name>>！stop it!</p>'
+			'<p><<$LXS.name>>: This is dangerous driving!<<$Protagonist`s_name>>!stop it!</p>'
 			'<p>I: Ok…</p>'
 			$LXS.love-=my.charm
 	   end

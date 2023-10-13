@@ -31,7 +31,7 @@ if $args[0]="":
 
 
 	'<div class="dialog_menu">'
-		'<p>·You looked at the famous brand on the wall, her honor introduction is：<<$NK.name>>, Published three blockbuster research papers in one breath,So that we can transcend inherent concepts,Have a new understanding of male erectile dysfunction.</p>'
+		'<p>·You looked at the famous brand on the wall, her honor introduction is:<<$NK.name>>, Published three blockbuster research papers in one breath,So that we can transcend inherent concepts,Have a new understanding of male erectile dysfunction.</p>'
 		'<p><<$NK.name>>:Can I help you?OS: I really want to taste your dick.</p>'
 	'</div>'
 End

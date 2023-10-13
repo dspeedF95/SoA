@@ -81,7 +81,7 @@ if $args[0]="ZXG_Fuck_Enforcement":
 
 	if 1<=a and a<=7:
 		 '<div class="dialog_menu">'
-			 '<p>·Accumulate semen volume：<<jings>>ml·Her patience:<<q>>/10</p>'
+			 '<p>·Accumulate semen volume:<<jings>>ml·Her patience:<<q>>/10</p>'
 			 if q>10:'<p><<$ZXG.name>>: I`ve had enough, call that bitch doctor!</p>'
 			 if a=5 and $YDM_Event_free=2:'<p><<$ZXG.name>>:Fuck!Look at what you have done!Come on!Give me a new one!</p>'
 		 '</div>'
@@ -695,17 +695,17 @@ if $args[0]="Executive officer_Fuck_corruption":
              if a>=1:'<p><<$TJ.name>>: <<$Protagonist`s_name>>, The bank card that accepted bribes was placed in the safe behind him.You help me control him!</p>' 
              if a>=1:'<p>Taku Yoshimura: <<$Protagonists_surname>> Comrade, this matter can be completely reduced to small things, and small things can be reduced to small things.You help me hold her down, otherwise, I will kill you.</p>' 
              if a>=1:'<p>I: What?pistol……</p>' 
-             if a>=1:'<p><<$TJ.name>>: <<$Protagonist`s_name>>！</p>' 
+             if a>=1:'<p><<$TJ.name>>: <<$Protagonist`s_name>>!</p>' 
              if a>=1:'<p>Taku Yoshimura: <<$Protagonists_surname>> Comrade, do you want to die?</p>' 
          '</div>'
     end
 
     if 9>=a and a>=2:
          '<div class="dialog_menu">'
-             if a>=2:'<p><<$TJ.name>>: <<$Protagonist`s_name>>！Let me go!</p>' 
+             if a>=2:'<p><<$TJ.name>>: <<$Protagonist`s_name>>!Let me go!</p>' 
              if a>=2:'<p>Taku Yoshimura: <<$Protagonists_surname>> Comrade, well done!</p>' 
              if a>=3:'<p><<$TJ.name>>: <<$Panting>></p>'
-             if a=3:'<p>Taku Yoshimura: Let me see, where did you hide the recording equipment?！</p>' 
+             if a=3:'<p>Taku Yoshimura: Let me see, where did you hide the recording equipment?!</p>' 
              if a=4:'<p>Taku Yoshimura: It doesn`t seem to be here either…</p>'
              if a>=5:'<p>Taku Yoshimura: I will suspend you permanently in the name of slander and slander against your superiors!And you have to accept mandatory penalties within the organization!</p>'
              if a>=6:'<p><<$TJ.name>>: <<$words>></p>'
@@ -715,11 +715,11 @@ if $args[0]="Executive officer_Fuck_corruption":
 
     if 11>=a and a>=10:
          '<div class="dialog_menu">'
-             '<p><<$TJ.name>>: <<$Protagonist`s_name>>！You bastard!You actually defected!Do you think he will let you go?</p>'
+             '<p><<$TJ.name>>: <<$Protagonist`s_name>>!You bastard!You actually defected!Do you think he will let you go?</p>'
              '<p>I: Ah...what are you going to do!I was threatened with a gun!</p>'
              if a>=11:'<p>Taku Yoshimura: I think，<<$Protagonists_surname>> Comrade is a good comrade. He found out the tax thief in the team for us today without our knowledge, right?</p>' 
              if a>=11:'<p>I: …………</p>' 
-             if a>=11:'<p><<$TJ.name>>: I won`t let you go!<<$Protagonist`s_name>>！</p>' 
+             if a>=11:'<p><<$TJ.name>>: I won`t let you go!<<$Protagonist`s_name>>!</p>' 
              if a>=11:'<p>Taku Yoshimura: What are you nervous about，<<$Protagonists_surname>> Comrade, come and join me in detaining her back.</p>' & TJLJ2=100
          '</div>'
     end
@@ -815,7 +815,7 @@ if $args[0]="Executive officer_Fuck_supermarket":
 
     if 3>=a and a>=1:
          '<div class="dialog_menu">'
-             if a>=1:'<p>criminalA: Who?！Raise your hand!</p>' 
+             if a>=1:'<p>criminalA: Who?!Raise your hand!</p>' 
              if a>=1:'<p><<$TJ.name>>: I... I`m a clerk…</p>'
              if a>=2:'<p>criminalA: Boss!Found a fish that missed the net!</p>' 
              if a>=3:'<p>Criminal leader: Is the chick in good shape?</p>'
@@ -829,7 +829,7 @@ if $args[0]="Executive officer_Fuck_supermarket":
              if a>=1:'<p>criminalA: Lick it well!That`s right!That`s it!</p>' 
              if a>=5:'<p><<$TJ.name>>: <<$Panting>></p>'
              if a=6:'<p>criminalA: Bitch, go deeper!</p>' 
-             if a=7:'<p>criminalA: dry!Your mouth is so cool!continue!continue!Ah~~~！</p>'
+             if a=7:'<p>criminalA: dry!Your mouth is so cool!continue!continue!Ah~~~!</p>'
          '</div>'
     end
 
@@ -869,7 +869,7 @@ if $args[0]="Executive officer_Fuck_boyfriend":
              '<p>I: Hello!</p>'
              '<p>boyfriend: Cut, didn`t I tell you?Don`t take other men home!</p>'
              '<p><<$DD.name>>: Don`t be angry, never again.Come and try this is the dish I made for you myself.</p>'
-             '<p>boyfriend: emmmmmm！It`s much better than the food in the prison!</p>'
+             '<p>boyfriend: emmmmmm!It`s much better than the food in the prison!</p>'
          '</div>'
     end
 

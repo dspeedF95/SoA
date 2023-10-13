@@ -105,7 +105,7 @@ if 10<hour and hour<=12:
 			if Realityshownum<10:Realityshownum=10
 			if Realityshownum>=19:Realityshownum=10
 			$program='Brand new reality show "Stick to it if you are a Man10Minutes》'
-			$Programevaluation='Damn it!How to sign up?！I can definitely withstand the temptation of a slut!'
+			$Programevaluation='Damn it!How to sign up?!I can definitely withstand the temptation of a slut!'
 		end
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
@@ -200,7 +200,7 @@ end
 '</div>'
 
 '<div class="dialog_menu">'
-	'<p>Playing：<<$program>></p>'
+	'<p>Playing:<<$program>></p>'
 	'<p>Sharp review: <<$Programevaluation>></p>'
 	if $Paidcontent!0:'<p>·I: <<$Paidcontent>></p>'
 

@@ -64,7 +64,7 @@ if $ARGS[0] ="dialogue":
 		'<p><<$SWD.name>>: Of course, you really don`t know how difficult it is to do business now, it may be that my ability is insufficient...Alas</p>'
 		'<p>Me: Don`t be discouraged, maybe I can help. To put it bluntly, isn`t it just a lack of popularity and hype now?</p>'
 		'<p><<$SWD.name>>: Yeah, you`re right, it would be great if I could find a star to endorse me, it`s best…<<$SSYY.name>>This kind of…</p>'
-		'<p>Me: Uh... you mean…<<$SSYY.name>>？</p>'
+		'<p>Me: Uh... you mean…<<$SSYY.name>>?</p>'
 		'<p><<$SWD.name>>: What, can you still know her?</p>'
 		 if $Stockings_event_chain=0:$Stockings_event_chain=1
 		end
@@ -103,7 +103,7 @@ if $ARGS[0] ="In conversation":
 	'<div class="button_menu">'
 		'<div class="buttonS3"><a href="exec:gt ''Stockings_shop_event'',''Stockings shop_Fuck_office''">Look at your performance❤</a></div>'
 		'<div class="buttonG2"><a href="exec:gt ''Stockings_shop_event'',''Stockings shop_Fuck_R&D''">Test the latest products</a></div>'
-		if MGF>0:'<div class="buttonPu5"><a href="exec:MGF-=1 & gt ''Stockings_shop'',''Drugged''">Give her McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">No McGovern</a></div>'
+		if MGF>0:'<div class="buttonPu5"><a href="exec:MGF-=1 & gt ''Stockings_shop'',''Drugged''">Give her McGovern</a></div>'else'<div class="buttonGr"><a href="exec:">No McGovern</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
 	'</div>'
 

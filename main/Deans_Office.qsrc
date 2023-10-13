@@ -104,7 +104,7 @@ if $args[0]="Sign a contract":
 		'</div>'
 
 		'<div class="dialog_menu">'
-			'<p>·Contract details:Hazard level：<<$Q>>  Trial period：<<D>>day. Physique threshold：Lv<<A>>  Commission composition: (basic salary+Meal supplement)X Trial period.total：<<MED>>￥</p>'
+			'<p>·Contract details:Hazard level:<<$Q>>  Trial period:<<D>>day. Physique threshold:Lv<<A>>  Commission composition: (basic salary+Meal supplement)X Trial period.total:<<MED>>￥</p>'
 			'<p>·Precautions:During the drug test period, the drug tester will be completely isolated from the outside world until the end of the drug test experiment.</p>'
 		'</div>'
 End

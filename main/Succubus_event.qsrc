@@ -295,21 +295,21 @@ if $args[0]="Succubus_Fuck_Squeeze people":
 
 
     if a!10:
-         '<div class="dialog_menu">'
+        '<div class="dialog_menu">'
                 '<p><<$MMS.name>>: What a cute little dessert❤ </p>'
-         '</div>'
-	    else
-	         '<div class="dialog_menu">'
-	                '<p><<$MMS.name>>: Huhu❤Thank you very much!Let me give you a little bit of energy. </p>'
-	                if $Numberofsqueezers=1:$Succubus_Energy+=1 & Firstclasssqueezer=0
-	                if $Numberofsqueezers=2:$Succubus_Energy+=1 & Daily_Succubus=1
-	                if $Numberofsqueezers=3:$Succubus_Energy+=2 & Secondlevelsqueezer=0
-	                if $Numberofsqueezers=4:$Succubus_Energy+=3 & Threelevelsqueezer=0
-	                $MMS.love+=5
-	                $MMS.bad+=5*$Numberofsqueezers
-	                SuccubusCD=0
-	         '</div>'
-	    end
+        '</div>'
+    else
+        '<div class="dialog_menu">'
+            '<p><<$MMS.name>>: Huhu❤Thank you very much!Let me give you a little bit of energy. </p>'
+            if $Numberofsqueezers=1:$Succubus_Energy+=1 & Firstclasssqueezer=0
+            if $Numberofsqueezers=2:$Succubus_Energy+=1 & Daily_Succubus=1
+            if $Numberofsqueezers=3:$Succubus_Energy+=2 & Secondlevelsqueezer=0
+            if $Numberofsqueezers=4:$Succubus_Energy+=3 & Threelevelsqueezer=0
+            $MMS.love+=5
+            $MMS.bad+=5*$Numberofsqueezers
+            SuccubusCD=0
+        '</div>'
+
     end
 End
 
@@ -373,7 +373,7 @@ if $args[0]="Succubus_Fuck_daily":
 
     if 8>=a and a>=6:
          '<div class="dialog_menu">'
-			'<p><<$MMS.name>>：<<$words>></p>' 
+			'<p><<$MMS.name>>:<<$words>></p>' 
          '</div>'
     end
 
@@ -430,7 +430,7 @@ if $args[0]="Succubus_Fuck_Estrus":
 
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
-         	 '<p><<$MMS.name>>：<<$Panting>></p>' 
+         	 '<p><<$MMS.name>>:<<$Panting>></p>' 
              if a=0:'<p>Me: Oh?What is the situation?</p>' 
              if a=0:'<p><<$MMS.name>>: Bring in the date of each month7I will be extremely hungry and thirsty every day ❤Hurry up... come and let me drain you❤</p>' 
              if a>=1:'<p>Me: Do you just want to do it?</p>' 
@@ -740,7 +740,7 @@ if $args[0]="Succubus_Fuck_Hypnosis4P":
          '<div class="dialog_menu">'
              '<p><<$CH.name>>: Ok<<$Panting>></p>' 
              '<p><<$WQ.name>>: Awesome<<$Panting2>></p>' 	
-             if q=6:'<p>Me: Do you like my semen?！！</p>' 
+             if q=6:'<p>Me: Do you like my semen?!!</p>' 
          '</div>'
     end
 
@@ -808,7 +808,7 @@ if $args[0]="Succubus_Assist in hypnosis":
          	 '<p><<$WQ.name>>: Sister, yours is softer than mine❤</p>' 
          	 '<p><<$MMS.name>>: Wow, three pairs of big tits❤</p>' 
          	 end
-         '<p><<$CH.name>>&<<$WQ.name>>Degree of relationship improvement：<<CHWQbefore>>%</p>'  
+         '<p><<$CH.name>>&<<$WQ.name>>Degree of relationship improvement:<<CHWQbefore>>%</p>'  
          '</div>'
     end
 
@@ -1113,7 +1113,7 @@ if $args[0]="Succubus_Fuck_Car dealer":
          '<div class="dialog_menu">'
          	 if a=0:'<p><<$MMS.name>>: Hello❤ The dark succubus is coming!</p>' 
          	 if a=1:'<p>Me: What are you doing here?</p>' 
-             if a=1:'<p><<$MMS.name>>：<<$CH.name>>I was invited to play.I really didn`t expect you to work seriously.I`ve worked hard ❤ Let me unzip it for you❤</p>' 
+             if a=1:'<p><<$MMS.name>>:<<$CH.name>>I was invited to play.I really didn`t expect you to work seriously.I`ve worked hard ❤ Let me unzip it for you❤</p>' 
              if a>=2:'<p><<$MMS.name>>: Do you like it<<$Panting>></p>' 
              if a>=8:'<p>Me: Shot!</p>' 
          '</div>'

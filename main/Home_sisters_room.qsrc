@@ -56,7 +56,7 @@ if $ARGS[0] ="Sister`s weekend room":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:$chat=''JJ''& $Wheretogoout = ''home'' & addlove=0 &addbad=0 & gt ''Universal_chat''">interaction</a></div>'
-		if  $jj.bad>=50 and plant_Numberofstudies>=15:'<div class="buttonGn"><a href="exec:  gt ''Sister_event'',''JJ_Fuck_At home''">Release pressure</a></div>'else'<div class="buttonGr"><a href="exec:">release?？</a></div>'
+		if  $jj.bad>=50 and plant_Numberofstudies>=15:'<div class="buttonGn"><a href="exec:  gt ''Sister_event'',''JJ_Fuck_At home''">Release pressure</a></div>'else'<div class="buttonGr"><a href="exec:">release??</a></div>'
 		if $JJ.event_shopping!3:
 		'<div class="button"><a href="exec:minutes+=60 & $JJ.event_shopping=1 & gt ''home''">Daily tasks</a></div>'
 		end
@@ -79,7 +79,7 @@ if $ARGS[0] ="Sister`s room at night":
 	'<div class ="show_menu"><img src="images\NPC\JJ\pics\姐姐房间.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-	  if  $jj.bad>=50 and plant_Numberofstudies>=15:'<div class="buttonS"><a href="exec:  gt ''Sister_event'',''JJ_Fuck_At home''">Release pressure</a></div>'else'<div class="buttonGr"><a href="exec:">release?？</a></div>'
+	  if  $jj.bad>=50 and plant_Numberofstudies>=15:'<div class="buttonS"><a href="exec:  gt ''Sister_event'',''JJ_Fuck_At home''">Release pressure</a></div>'else'<div class="buttonGr"><a href="exec:">release??</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''home''">leave</a></div>'
 	'</div>'
 

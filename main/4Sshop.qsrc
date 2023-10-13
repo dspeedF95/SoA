@@ -165,8 +165,8 @@ if $ARGS[0] ="Pay the balance":
 
 	'<div class="dialog_menu">'
 		'<p>Store manager:<<$Protagonists_surname>> Sir!Just got off the plane!Poor hospitality!Poor hospitality!</p>'
-		'<p><<$XS.NAME>>:<<$Protagonists_surname>> Sir!The total balance is...￥415,000！It contains5000￥VIPValue-added services</p>'
-		'<p>Store manager:<<$XS.NAME>>！ Well done!You are getting more and more proficient in your business…*Yawn</p>'
+		'<p><<$XS.NAME>>:<<$Protagonists_surname>> Sir!The total balance is...￥415,000!It contains5000￥VIPValue-added services</p>'
+		'<p>Store manager:<<$XS.NAME>>! Well done!You are getting more and more proficient in your business…*Yawn</p>'
 	'</div>'
 end
  
@@ -302,7 +302,7 @@ if $ARGS[0] ="Motorcycle booth":
 		'<div class="dialog_menu">'
 			'<p><<$CH.name>>: The new energy motorcycle is a kind of motorcycle that uses electrical energy, solar energy, hydrogen energy, etc. to replace traditional fuels. It has multiple advantages and broad prospects.First of all, because they do not produce harmful gases and pollutants, and meet the requirements of modern society for environmental protection, orders placed this week can enjoy a three-year flash charge discount from Imperial Energy.</p>'
 			'<p>I: You are on the platform in person, you are so dedicated.</p>'
-			'<p><<$CH.name>>: Ah!？brother!</p>'
+			'<p><<$CH.name>>: Ah!?brother!</p>'
 		'</div>'
 	end
 end
@@ -319,11 +319,11 @@ if $ARGS[0] ="The person behind":
 
 		'<div class="dialog_menu">'
 			'<p>Patrick Bateman: Who made you dress like this?</p>'
-			'<p><<$CH.name>>: Ah!？brother!Don`t you like it?</p>'
+			'<p><<$CH.name>>: Ah!?brother!Don`t you like it?</p>'
 			'<p>Patrick Bateman: You know, I`m really disappointed.Your irresponsible dress and unprofessional behavior really make me feel very dissatisfied.I need you to be able to treat this job with a professional attitude, and always maintain a high degree of vigilance and responsibility.</p>'
 			'<p>I: Uh...it was my idea.</p>'
 			'<p>Patrick Bateman: I can`t tolerate your stupid idea causing any negative impact on my sister, stop immediately, otherwise I will not hesitate to find someone else to complete this task.</p>'
-			'<p><<$CH.name>>: brother!！What you said is too much!</p>'
+			'<p><<$CH.name>>: brother!!What you said is too much!</p>'
 			'<p>Patrick Bateman: Hurry up and put on your clothes!This is an order!</p>'
 		'</div>'
 end
