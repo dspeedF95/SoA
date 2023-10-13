@@ -282,7 +282,7 @@ if $args[0]="Stockings endorsement":
         '</div>'
     
         '<div class="button_menu">'
-            '<div class="button"><a href="exec:$Stockings_event_chain=5 & gt ''Big villa''">gladly agree </a></div>'
+            '<div class="button"><a href="exec:$Stockings_event_chain=5 & gt ''Big_villa''">gladly agree </a></div>'
         '</div>'
 
          '<div class="dialog_menu">'
