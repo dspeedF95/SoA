@@ -63,7 +63,6 @@ if $times_of_day!"":
 	'<div class="dialog_menu">'
 		'<p>School at night...There is always a trace of horror...</p>'
 	'</div>'
-	end
 end
 
 

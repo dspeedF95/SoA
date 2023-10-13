@@ -205,7 +205,7 @@ if $ARGS[0]="Men`s room monitor":
         '</div>'
 
 	'<div class="button_menu">'
-		if week_day=3:'<div class="buttonPu2"><a href="exec:gt ''bank'',''Men`s room monitor2''">He`s here</a></div>'else:'<div class="buttonS"><a href="exec:gt ''Bank_event'',''YH_Fuck_B4''">Push her out</a></div>'
+		if week_day=3:'<div class="buttonPu2"><a href="exec:gt ''bank'',''Men`s room monitor2''">He`s here</a></div>'else'<div class="buttonS"><a href="exec:gt ''Bank_event'',''YH_Fuck_B4''">Push her out</a></div>'
 		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 	'</div>'
 	

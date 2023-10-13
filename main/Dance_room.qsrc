@@ -118,7 +118,6 @@ if  $args[0]="Take a sexy photo":
 	'<div class="dialog_menu">'
 		'<p>Me: The number of fans has risen!Current number of fans：<<mm_fans>>.<<mm_fans0>> k。</p>'
 		'<p><<$mm.name>>：emmm.....I can do more!</p>'
-		end 
 	'</div>'
 End
 

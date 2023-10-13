@@ -823,7 +823,7 @@ if $args[0]="JY_Fuck_Hypnosis":
             if q=1:
             '<div class="buttonPu4"><a href="exec:a=3 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Debugging sensitivity</a></div>'
             '<div class="buttonPu4"><a href="exec:a=2 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Blowjob for me</a></div>'
-            if $Succubus_Energy>=1:'<div class="buttonPu4"><a href="exec:$Succubus_Energy-=1 & a=4 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Pull and spray her❤❤</font></a></div>'elseelse'<div class="buttonGr"><a href="exec:">Pull and spray her❤❤</a></div>'
+            if $Succubus_Energy>=1:'<div class="buttonPu4"><a href="exec:$Succubus_Energy-=1 & a=4 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Pull and spray her❤❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Pull and spray her❤❤</a></div>'
  
             end
             if q=2:
@@ -832,8 +832,8 @@ if $args[0]="JY_Fuck_Hypnosis":
             '<div class="buttonPu5"><a href="exec:a=7 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Press it on the table.</a></div>'
             end
             if q=3:
-            if $Succubus_Energy>=2:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=2 & a=9 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Internal shot ❤❤❤</font></a></div>'elseelse'<div class="buttonGr"><a href="exec:">Internal shot ❤❤❤</a></div>'
-            if $Succubus_Energy>=1:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & a=8 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Fuck her❤❤</font></a></div>'elseelse'<div class="buttonGr"><a href="exec:">Fuck her❤❤</a></div>'
+            if $Succubus_Energy>=2:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=2 & a=9 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Internal shot ❤❤❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Internal shot ❤❤❤</a></div>'
+            if $Succubus_Energy>=1:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & a=8 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Fuck her❤❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Fuck her❤❤</a></div>'
             '<div class="buttonPu5"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Bukkake</a></div>'
 
             end

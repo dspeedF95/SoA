@@ -103,7 +103,7 @@ if $ARGS[0] ="In conversation":
 	'<div class="button_menu">'
 		'<div class="buttonS3"><a href="exec:gt ''Stockings_shop_event'',''Stockings shop_Fuck_office''">Look at your performance❤</a></div>'
 		'<div class="buttonG2"><a href="exec:gt ''Stockings_shop_event'',''Stockings shop_Fuck_R&D''">Test the latest products</a></div>'
-		if MGF>0:'<div class="buttonPu5"><a href="exec:MGF-=1 & gt ''Stockings_shop'',''Drugged''">Give her McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">No McGovern</a></div>'
+		if MGF>0:'<div class="buttonPu5"><a href="exec:MGF-=1 & gt ''Stockings_shop'',''Drugged''">Give her McGovern</a></div>'else'<div class="buttonGr"><a href="exec:">No McGovern</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
 	'</div>'
 

@@ -160,7 +160,7 @@ end
 if $ARGS[0]="Community decoding":
 	Clownproblem+=1
 	if Clownproblem=6:
-		if ClownstatisticsB=3 and ClownstatisticsC=2:gt'Bomb_school','Club success'elsegt'Bomb_school','Clown failed'
+		if ClownstatisticsB=3 and ClownstatisticsC=2:gt'Bomb_school','Club success'else gt'Bomb_school','Clown failed'
 	end
 
 	'<div class ="show_menu"><img src="images\NPC\TS\pics\问题<<Clownproblem>>.jpg" width="854"></div>'

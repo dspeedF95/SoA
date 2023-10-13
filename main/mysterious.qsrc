@@ -140,9 +140,9 @@ if $ARGS[0]="Color code3":
 
 	'<div class="dialog_menu">'
 		'<p>·Citizens` urban construction satisfaction can be rewritten：</p>'
-		'<p>·<a href="exec:Urban construction satisfaction=999 & gt ''mysterious''">【+999】</a></p>'
-		'<p>·<a href="exec:Urban construction satisfaction=0 & gt ''mysterious''">【Reset to0】</a></p>'
-		'<p>·<a href="exec:Urban construction satisfaction=-999 & gt ''mysterious''">【-999】</a></p>'
+		'<p>·<a href="exec:Urbanconstructionsatisfaction=999 & gt ''mysterious''">【+999】</a></p>'
+		'<p>·<a href="exec:Urbanconstructionsatisfaction=0 & gt ''mysterious''">【Reset to0】</a></p>'
+		'<p>·<a href="exec:Urbanconstructionsatisfaction=-999 & gt ''mysterious''">【-999】</a></p>'
 	'</div>'
 End
 

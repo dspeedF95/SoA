@@ -6,7 +6,7 @@ cls
 		<a href="exec:gt ''exid''"><div class="start_act1">I am under 18 years old</div></a>
 	</div>
 </div>'
-gs 'gs_first'
+
 gs 'game_time'
 gs 'Value_setting'
 gs "NPCattribute"
