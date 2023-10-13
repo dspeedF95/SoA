@@ -62,8 +62,8 @@ if $args[0]="Director`s office":
 			 <source src="images\NPC\NY\vids\NY介绍~1.webm" type=''video/webm;''></video></div>'
 		'</div>'
 	'<div class="button_menu">'
-		if Massageroom=1:'<div class="button"><a href="exec:gt''Imperial_Energy'',''Recommended massage shop''">Recommended massage shop</a></div>'else:'<div class="buttonGr"><a href="exec:">Recommended massage shop</a></div>'
-		if $NY.love>=50 and $NY.bad>=100:'<div class="buttonPu5"><a href="exec: gt ''Energy_event'',''NY_Fuck_company''">"Provide services"</a></div>'else:'<div class="buttonGr"><a href="exec:">"Provide services"</a></div>'
+		if Massageroom=1:'<div class="button"><a href="exec:gt''Imperial_Energy'',''Recommended massage shop''">Recommended massage shop</a></div>'else'<div class="buttonGr"><a href="exec:">Recommended massage shop</a></div>'
+		if $NY.love>=50 and $NY.bad>=100:'<div class="buttonPu5"><a href="exec: gt ''Energy_event'',''NY_Fuck_company''">"Provide services"</a></div>'else'<div class="buttonGr"><a href="exec:">"Provide services"</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -99,9 +99,9 @@ if $args[0]="Recommended massage shop":
 	'<div class="dialog_menu">'
 		'<p>I:I know a good massage parlor. Last time I went for physiotherapy, the soreness in my body was cleared after a while!</p>'
 		if spa>=50:
-			'<p><<$NY.name>>：...Is that so?I`ll go and have a look another day.Oh?Is this place?<<$Protagonist`s_surname>> What is the relationship between the boss and you?Since<<$Protagonist`s_surname>> I haven`t been there since the boss was in a coma.</p>'
+			'<p><<$NY.name>>：...Is that so?I`ll go and have a look another day.Oh?Is this place?<<$Protagonists_surname>> What is the relationship between the boss and you?Since<<$Protagonists_surname>> I haven`t been there since the boss was in a coma.</p>'
 			$NY.spa=1
-		else:
+		else
 			'<p><<$NY.name>>: I haven`t heard of any broken place.I won`t go to places that are not famous!</p>'
 		end
 	'</div>'

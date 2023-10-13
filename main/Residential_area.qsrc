@@ -62,7 +62,7 @@ if  $Random_number<=5 and hour>=21:
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\videos\杂\彩蛋1.webm" type=''video/webm;''></video></div>'
 		 '</div>'
-else:
+else
 	'<div class ="show_menu"><img src="images\place\居民区_<<$times_of_day>>.jpg" width="854"></div>'
 end
 

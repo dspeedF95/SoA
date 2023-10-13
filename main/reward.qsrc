@@ -21,14 +21,14 @@ if $args[0] ='':
 	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
 	'<div class="button_menu">
 		<div class="buttonG"><a href="exec:  gt ''reward'',''Enter password''">Enter password</a></div>'
-		if DatecountJun>=25:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?！</a></div>'else:'<div class="buttonGr"><a href="exec:">Where can I download it?！</a></div>'
+		if DatecountJun>=2:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?！</a></div>'else'<div class="buttonGr"><a href="exec:">Where can I download it?！</a></div>'
 		'<div class="button"><a href="exec:  gt ''Police_station''">return</a></div>
 	</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
 		'<p>↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑</p>'
 		'<p>If you have completed the "Independent Fan Wai Chapter" of this game·NONLETHALPoison" can get rich rewards with the customs clearance password.</p>'
-		'<p>To be honest，QSPThe engine completely limits my ability to tell stories, and only in this short work can I see my narrative level.</p>'
+		'<p>To be honest，QSP The engine completely limits my ability to tell stories, and only in this short work can I see my narrative level.</p>'
 	'</div>'
 End
 
@@ -46,7 +46,7 @@ if $args[0] ='Enter password':
 	'<div class="dialog_menu">'
 		'<p>·Einstein said: “The difference between the past, the present and the future is just a persistent illusion.”</p>'
 		if $Eggcode=20230404:
-		'<p>·The customs clearance password is correct!Thank you again for your visit.</p>'
+		'<p>·The customs clearance password is correct!Thank you again for your visit. I believe you already know who the person who poisoned is, he is the only color blind in the entire game.</p>'
 		end
 		if $Eggcode!20230404:
 		'<p>·Ah, the password is wrong.</p>'
@@ -66,9 +66,9 @@ if $args[0] ='download':
 	</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
-		'<p>下载下载Download address↓↓</p>'
+	'<p>↓《"Independent Fan Wai Chapter·NONLETHALPoison"Download address↓↓</p>'
 		'<p></p>'
-			'<a href="https://airtable.com/shrTk6XoBuLuMlI3s"> https://airtable.com/shrTk6XoBuLuMlI3s</a></p>'
+		'<a href="https://airtable.com/appwOhEh0imH0enzP/shrTzofTAgFVYvDCq"> https://airtable.com/appwOhEh0imH0enzP/shrTzofTAgFVYvDCq</a></p>'
 		'<p></p>'
 		'<p>↑一览List of works↑↑</p>'
 		'<p>·Of course, you can also purchase the reward key directly if you don`t bother to play!</p>'
@@ -88,8 +88,8 @@ if $args[0] ='Receive rewards':
 	</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
-		'<p>？？？: Congratulations on getting it, money+50000, Measurements (charm/intelligence/Figure)+3 , The upper limit of energy value+100  , and a simple gesture of victory.</p>'
-		'<p>？？？: Finally, thank you again for playing and wish you a good time.</p>'
+		'<p>???: Congratulations on getting it, money+50000, Measurements (charm/intelligence/Figure)+3 , The upper limit of energy value+100  , and a simple gesture of victory.</p>'
+		'<p>???: Finally, thank you again for playing and wish you a good time.</p>'
 		Customsclearancerewardcollection+=1
 		if  Customsclearancerewardcollection=1:
 			money+=50000
@@ -98,7 +98,7 @@ if $args[0] ='Receive rewards':
 			my.Physical_strength += 3
 			mymax[energy] += 100
 		end
-		if  Customsclearancerewardcollection>1:'<p>？？？: Uh(⊙o⊙)...you have already received it, little fool.</p>'
+		if  Customsclearancerewardcollection>1:'<p>???: Uh(⊙o⊙)...you have already received it, little fool.</p>'
 	'</div>'
 End
 
@@ -127,7 +127,7 @@ if $args[0] ='inputDLCreward':
 	'<div class ="show_menu"><img src="images\place\大别墅\place7_8.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $DLCpassword='9t4515043u266915b':'<div class="buttonG"><a href="exec:  my.energy=0 & gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">Receive rewards</a></div>'else:'<div class="button"><a href="exec:  gt ''reward'',''Teleportation array''">Wrong password!</a></div>'
+		if $DLCpassword='9t4515043u266915b':'<div class="buttonG"><a href="exec:  my.energy=0 & gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">Receive rewards</a></div>'else'<div class="button"><a href="exec:  gt ''reward'',''Teleportation array''">Wrong password!</a></div>'
 		'<div class="button"><a href="exec:my.energy=0 & gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">leave</a></div>'
 		!Hi, hello, since you have seen this message, it shows that you can get the reward password directly through the code. This is your ability. I won`t have any complaints, but I beg you not to leak it to others. The game is not easy to make. Give me a meal. Thank you, brother.
 	'</div>'
@@ -211,7 +211,7 @@ End
 
 if $args[0] ='Enter the password Krypton gold cheat':
 	$Kryptonpassword = $TRIM($LCASE($input('Please enter the Krypton password+Exclusive code')))
-	$Kryptongoldcorrectpassword='Refuse to bet on the internet, bet on ten, cheat ten'+$KryptongoldpasswordRandomnumber
+	$Kryptongoldcorrectpassword='hhddntmjsytsg'
 	'<div class="show_menu">'
 		'<img src="images\intro\bg1.jpg" width="854">'
 	'</div>'
@@ -220,7 +220,7 @@ if $args[0] ='Enter the password Krypton gold cheat':
 		if $Kryptonpassword=$Kryptongoldcorrectpassword:'<div class="buttonG"><a href="exec:  gt ''Empire_Dome'',''President Liyi3''">Got it, get back to life</a></div>'
 		if $Kryptonpassword!$Kryptongoldcorrectpassword:
 			'<div class="button"><a href="exec:  gt ''Residential_area''">Wrong password</a></div>'
-			'<div class="buttonG"><a href="exec:  gt ''reward'',''Krypton cheating3''">Try again</a></div>'
+			'<div class="buttonG"><a href="exec:  gt ''reward'',''Krypton cheating2''">Try again</a></div>'
 		end
 	'</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
@@ -230,8 +230,8 @@ if $args[0] ='Enter the password Krypton gold cheat':
 		'<p>·Of course, the plot of the convenience store can be experienced repeatedly, regardless of whether there is100The conditions of ten thousand have nothing to do with it.</p>'
 		'<p>·————————————————————————</p>'
 		'<p>·Finally, I still have a question: After spending time, money, and precious brain cells, do you still want to share this jump strategy with others?</p>'
-		else:
-		'<p>·Ah, the password is wrong, when you enter it [no need to enter“+"].</p>'
+		else
+			'<p>·Sorry, the password is wrong.</p>'
 		end
 	'</div>'
 End

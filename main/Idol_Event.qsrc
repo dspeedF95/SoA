@@ -47,7 +47,7 @@ if $args[0]="OX_Fuck_kidnapping":
 			if a<6 and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Idol_Event'',''OX_Fuck_kidnapping''">Orgasm humiliation </a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Idol_Event'',''OX_Fuck_kidnapping''">Ejaculation </a></div>'
 			end
 			if a=7:
@@ -56,9 +56,9 @@ if $args[0]="OX_Fuck_kidnapping":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if a=-1 :'<div class="button"><a href="exec:a=0 & minutes+=120 & gt ''Residential_area''">leave </a></div>'
+				if a=-1:'<div class="button"><a href="exec:a=0 & minutes+=120 & gt ''Residential_area''">leave </a></div>'
 				if a=8:'<div class="button"><a href="exec:a=9 & gt ''Idol_Event'',''OX_Fuck_kidnapping''">Get down!</a></div>'
 				if a=9:'<div class="button"><a href="exec:a=10 & gt ''Idol_Event'',''OX_Fuck_kidnapping''">It`s black in front of me</a></div>'
 				if a=10:'<div class="button"><a href="exec:a=11 & gt ''Idol_Event'',''OX_Fuck_kidnapping''">In a coma</a></div>'
@@ -170,7 +170,7 @@ if $args[0]="OX_Event_love":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & gt ''home''">Accept the address</a></div>'
 			'</div>'
@@ -178,7 +178,7 @@ if $args[0]="OX_Event_love":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$OX.name>>:<<$Protagonist`s_surname>> Sir!I`ve been waiting for you for a long time!</p>'
+			 '<p><<$OX.name>>:<<$Protagonists_surname>> Sir!I`ve been waiting for you for a long time!</p>'
 			 '<p>I:Which one are you...The girl who was rescued by me, let`s go inside and talk.</p>'
 			 '<p><<$OX.name>>:(Ah ah ah----really handsome!）</p>'
 		 '</div>'
@@ -234,7 +234,7 @@ if $args[0]="OXroom":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=15 & $Attheidolshouse=1 & gt ''Idol_Event'',''OXroom_Ex''">Enter the house</a></div>'
 			'</div>'
@@ -242,7 +242,7 @@ if $args[0]="OXroom":
 
 
 	 '<div class="dialog_menu">'
-		 '<p><<$OX.name>>:<<$Protagonist`s_surname>> ！I want to be with you forever and be my doll!Don`t worry, I won`t hurt you~</p>'
+		 '<p><<$OX.name>>:<<$Protagonists_surname>> ！I want to be with you forever and be my doll!Don`t worry, I won`t hurt you~</p>'
 		 '<p>I:You are really in love.</p>'
 		 '<p><<$OX.name>>:(Ah ah ah----There are many people who like you, and I am not short of one.I like very few people, except you...）</p>'
 		 if a=3:
@@ -283,19 +283,19 @@ if $args[0]="OX_Domestic incident":
 			'<div class="button"><a href="exec:a+=1 & gt ''Idol_Event'',''OX_Domestic incident''">Tired of talking to her </a></div>'
 		'</div>'
 
-	else:
+	else
 		'<div class="button_menu">'
-			if $B='床上前' or $B='晨炮' :'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_On the bed''">Do it in bed</a></div>'else:'<div class="buttonGr"><a href="exec:">Do it in bed</a></div>'
-			if 10<=hour and hour<=19:'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_Take a bath''">Take a bath in the bathroom</a></div>'else:'<div class="buttonGr"><a href="exec:">Take a bath in the bathroom</a></div>'
-			if $B='做饭' :'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_dinner''">Have dinner</a></div>'else:'<div class="buttonGr"><a href="exec:">Have dinner</a></div>'
-			if $B='偷窥' :'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_bedroom''">overnight</a></div>'else:'<div class="buttonGr"><a href="exec:">overnight</a></div>'
+			if $B='床上前' or $B='晨炮':'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_On the bed''">Do it in bed</a></div>'else'<div class="buttonGr"><a href="exec:">Do it in bed</a></div>'
+			if 10<=hour and hour<=19:'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_Take a bath''">Take a bath in the bathroom</a></div>'else'<div class="buttonGr"><a href="exec:">Take a bath in the bathroom</a></div>'
+			if $B='做饭':'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_dinner''">Have dinner</a></div>'else'<div class="buttonGr"><a href="exec:">Have dinner</a></div>'
+			if $B='偷窥':'<div class="button"><a href="exec:a=0 &q=0 & gt ''Idol_Event'',''OX_Fuck_bedroom''">overnight</a></div>'else'<div class="buttonGr"><a href="exec:">overnight</a></div>'
 			'<div class="button"><a href="exec:$Attheidolshouse=0 & gt ''Deep_alley''">leave</a></div>'
 		'</div>'
 	end
 
  if $B='床上前':
 	 '<div class="dialog_menu">'
-		 if a=0:'<p><<$OX.name>>:<<$Protagonist`s_surname>> ！Yes, just keep playing with me like this, you can do whatever you want.Let me be ravaged by you as a fool who only loves you.</p>'
+		 if a=0:'<p><<$OX.name>>:<<$Protagonists_surname>> ！Yes, just keep playing with me like this, you can do whatever you want.Let me be ravaged by you as a fool who only loves you.</p>'
 		 if a=1:'<p><<$OX.name>>:My nipples are very sensitive, if you touch them again....Will want..</p>'
 		 if a=2:'<p><<$OX.name>>:Can`t do it anymore....I want it.....</p>'
 	 '</div>'
@@ -374,7 +374,7 @@ if $args[0]="OX_Fuck_On the bed":
 			if a<6 and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Idol_Event'',''OX_Fuck_On the bed''">sprint </a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="button"><a href="exec:a=7 & gt ''Idol_Event'',''OX_Fuck_On the bed''">Ejaculation </a></div>'
 			end
 			if a=7:
@@ -382,7 +382,7 @@ if $args[0]="OX_Fuck_On the bed":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=180 & gt ''Idol_Event'',''OXroom_Ex''">Kill time </a></div>'
 			'</div>'
@@ -451,7 +451,7 @@ if $args[0]="OX_Fuck_dinner":
 			if a<8 and q>=6:
 			'<div class="button"><a href="exec:a=8 & gt ''Idol_Event'',''OX_Fuck_dinner''">Table sprint </a></div>'
 			end
-			if a=8 :
+			if a=8:
 			'<div class="button"><a href="exec:a=9 & gt ''Idol_Event'',''OX_Fuck_dinner''">Ejaculation </a></div>'
 			end
 			if a=9:
@@ -460,7 +460,7 @@ if $args[0]="OX_Fuck_dinner":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=200 & gt ''Idol_Event'',''OXroom_Ex''">Kill time </a></div>'
 			'</div>'
@@ -540,7 +540,7 @@ if $args[0]="OX_Fuck_bedroom":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec: minutes+=300 & gt ''Idol_Event'',''OXroom_Ex''">overnight </a></div>'
 			'</div>'
@@ -600,7 +600,7 @@ if $args[0]="OX_Fuck_Take a bath":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=180 & gt ''Idol_Event'',''OXroom_Ex''">Kill time </a></div>'
 			'</div>'
@@ -682,7 +682,7 @@ if $args[0]="OX_Fuck_Play drums":
 			if a<6 and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Idol_Event'',''OX_Fuck_Play drums''">sprint </a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="buttonS"><a href="exec:a=7 & gt ''Idol_Event'',''OX_Fuck_Play drums''">Ejaculation </a></div>'
 			end
 			if a=7:
@@ -690,9 +690,9 @@ if $args[0]="OX_Fuck_Play drums":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if OXcos=0 :'<div class="buttonPu3"><a href="exec:minutes+=30 & OXcos=1 & gt ''company''">COSinvite</a></div>'
+				if OXcos=0:'<div class="buttonPu3"><a href="exec:minutes+=30 & OXcos=1 & gt ''company''">COSinvite</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Entertainment''">return </a></div>'
 			'</div>'
 	end
@@ -757,7 +757,7 @@ if $args[0]="OX_Fuck_Rem":
 			if a<6 and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Idol_Event'',''OX_Fuck_Rem''">Hand and mouth combined </a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="buttonS"><a href="exec:a=7 & gt ''Idol_Event'',''OX_Fuck_Rem''">Ejaculation </a></div>'
 			end
 			if a=7:
@@ -765,9 +765,9 @@ if $args[0]="OX_Fuck_Rem":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if OXcos=0 :'<div class="buttonPu2"><a href="exec:minutes+=30 & OXcos=1 & gt ''company''">COSinvite</a></div>'
+				if OXcos=0:'<div class="buttonPu2"><a href="exec:minutes+=30 & OXcos=1 & gt ''company''">COSinvite</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Entertainment''">return </a></div>'
 			'</div>'
 	end
@@ -832,7 +832,7 @@ if $args[0]="OX_Fuck_Swimsuit":
 			if a<6 and q>=5:
 			'<div class="button"><a href="exec:a=6 & gt ''Idol_Event'',''OX_Fuck_Swimsuit''">Hold hands and fap </a></div>'
 			end
-			if a=6 :
+			if a=6:
 			'<div class="buttonS"><a href="exec:a=7 & gt ''Idol_Event'',''OX_Fuck_Swimsuit''">Ejaculation </a></div>'
 			end
 			if a=7:
@@ -840,9 +840,9 @@ if $args[0]="OX_Fuck_Swimsuit":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if OXcos=0 :'<div class="buttonPu3"><a href="exec:minutes+=30 & OXcos=1 & gt ''company''">COSinvite</a></div>'
+				if OXcos=0:'<div class="buttonPu3"><a href="exec:minutes+=30 & OXcos=1 & gt ''company''">COSinvite</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Entertainment''">return </a></div>'
 			'</div>'
 	end
@@ -893,7 +893,7 @@ if $args[0]="OX_Fuck_Coercion":
 			'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Entertainment''">leave </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Empire_Entertainment''">leave </a></div>'
 			'</div>'

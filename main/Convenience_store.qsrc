@@ -72,7 +72,7 @@ if hour>=22 or hour <=5:
 	Nightshift.enthusiasm+=rand(-5,0)
 	Customerpatiencevalue-=(50-Nightshift.enthusiasm)
 	if $QBStoremanager>0:Nightshift.enthusiasm+=6
-else:
+else
 	$times_of_Conveniencestore=''
 	$FW.enthusiasm+=rand(-5,0)
 	Customerpatiencevalue-=(50-$FW.enthusiasm)
@@ -136,7 +136,7 @@ if  $times_of_Conveniencestore='':
 					!#↑This is automatic insurance consumption
 				if $Thief1Entertheroom>100 and $Random_number>=50:
 				'<a class="photo"  href="exec:$Thiefnumber=1 & gt ''Group_performation_event'',''Convenience store_Fuck_Come to the store to do it''"> <img class="img_stretch" src="images\place\market\顾客95.jpg"></a>'
-				else:
+				else
 				Additionalprofitandloss-=250
 				'<a class="photo"  href="exec:$Thiefnumber=rand(1,2) & gt ''Group_performation_event'',''Convenience store_Fuck_stealing''"> <img class="img_stretch" src="images\place\market\顾客96.jpg"></a>'
 				end
@@ -175,7 +175,7 @@ if  $times_of_Conveniencestore='':
 	'</div>'
 '</div>'
 
-else:
+else
 	'<div class="actions_menu">'
 	
 		'<div class="action">'
@@ -212,7 +212,7 @@ else:
 				'<a class="photo"  href="exec:$Inspectornumber=day/7 & gt ''Group_performation_event'',''Convenience store_Fuck_inspector2''"> <img class="img_stretch" src="images\place\market\顾客97.jpg"></a>'
 				elseif Schoolexclusive=2 and day=10: '<a class="photo"  href="exec:gt ''Group_performation_event'',''Convenience store_Fuck_principal2''"> <img class="img_stretch" src="images\place\market\顾客94.jpg"></a>'
 				elseif Hospitalexclusive=2 and day=20: '<a class="photo"  href="exec:gt ''Group_performation_event'',''Convenience store_Fuck_dean2''"> <img class="img_stretch" src="images\place\market\顾客94.jpg"></a>'
-				else:'<a class="photo"  ><img class="img_stretch" src="images\place\market\blank.jpg"></a>'
+				else'<a class="photo"  ><img class="img_stretch" src="images\place\market\blank.jpg"></a>'
 			end
 		'</div>'
 		! ##################At night##At night##At night##At night##At night##At night##At night##At night##At night##At night##At night##At night##At night###
@@ -248,6 +248,8 @@ if $args[0]="":
 	 if BDadvertising>0:'<div class="buttonGn"><a href="exec:BDadvertising-=1 & gt ''Group_performation_event'',''Convenience store_Fuck_BD1''">Shooting advertising<<BDadvertising>>times</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Talent_Apartment''">leave</a></div>'
 	'</div>'
+	if $CTtest2>=1 and $DY.available=0:'<div class="buttonP"><a href="exec:gt ''Convenience_store'',''First acquaintance with the clerk''">Hello ❤</a></div>'
+	if $DY.available>0:'<div class="buttonP"><a href="exec:gt ''Clerk_event'',''Clumsy''"><<$DY.name>></a></div>'
 	
 	if $CTtest2>=1 and $Random_number>=50:
 		if $HS.love>=200 and week_day=7:'<div class="buttonP"><a href="exec:$m=''HS'' & $ma=$HS.name & gt ''Group_performation_event'',''Convenience store_Fuck_exclusive''">Acquaintances visit</a></div>'
@@ -267,7 +269,7 @@ if $args[0]="":
 		'<p>·Number of visitors yesterday：<<Numberofcustomersyesterday>>People; yesterday`s net income: ￥<<Yesterdaysprofit>>; Commodityprofitmargin：<span class="tooltip" data-title="=basic10%+<<Hospitalexclusive>>%+<<Schoolexclusive>>%+<<Entryandexitexclusive>>%+<<TVstationexclusive>>%, The upper limit is 18%"><<Commodityprofitmargin>>%</span></p>'
 		if hour>=22 or hour <=5:
 			'<p>㊰Service enthusiasm：<<Nightshift.enthusiasm>>%; Commodity richness：<<Typesofconveniencestoreproducts>>%; Store cleanliness：<<Conveniencestoreenvironment>>%</p>'
-		else:
+		else
 			'<p>㊐Service enthusiasm：<<$FW.enthusiasm>>%; Commodity richness：<<Typesofconveniencestoreproducts>>%; Store cleanliness：<<Conveniencestoreenvironment>>%</p>'
 		end
 		'<p>·➤Past seven reviews➤：<<$Storeevaluationa[6]>><<$Storeevaluationa[5]>><<$Storeevaluationa[4]>><<$Storeevaluationa[3]>><<$Storeevaluationa[2]>><<$Storeevaluationa[1]>><<$Storeevaluationa[0]>>➤</p>'
@@ -322,6 +324,24 @@ if $args[0]="backstage":
 	
 end
 
+if $args[0]="First acquaintance with the clerk":
+	$DY.available=1
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\NPC\DY\vids\1-0.webm" type=''video/webm;''></video></div>'
+	'</div>'
+
+'<div class="button_menu">'
+	'<div class="button"><a href="exec:gt ''Convenience_store''">Hire her</a></div>'
+'</div>'
+
+'<div class="dialog_menu">'
+	'<p><<$DY.name>>:Aha ❤ Are you still recruiting people here?</p>'
+	'<p>I:After reaching the million-dollar goal, the convenience store has become a well-known Internet celebrity store in the city, but now it is suffering from insufficient manpower.</p>'
+	'<p><<$DY.name>>*Raise your hand</p>'
+'</div>'
+
+end
 
 if $args[0]="Normal night shift":
         '<div class="show_menu">'

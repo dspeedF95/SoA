@@ -270,7 +270,7 @@ if $WH.available=0:
 	$WH.name = "Nanasawa Mia (Internet Celebrity)"
 	$WH.love = 0
 	$WH.bad = 0
-	$WH.bio ="A female Internet celebrity with a sweet appearance and a certain fan base.There is no lack of money, and even a certain economic strength.She likes to let fans do ridiculous things in order to get her attention, which makes her feel very excited and fulfilled."
+	$WH.bio ="This female net celebrity has a sweet face, fair and delicate skin, big and bright eyes, rosy lips, and slightly upturned, giving people a lovely feeling.But in private, she is a gold worshipper who can give up morality for money.[Her plot has been completely reset, please go home and swipe Douyin to reset the plot line]"
 End
 
 if $TZ.available=0:
@@ -587,7 +587,7 @@ if $YA_dAPc.available=0:
      $YA_dAPc.name = "Kinoshita Himari"
      $YA_dAPc.love = 0
      $YA_dAPc.bad = 0
-     $YA_dAPc.bio ="？？？"
+     $YA_dAPc.bio ="???"
 End
 
 if $SJ.available=0:
@@ -599,9 +599,30 @@ if $SJ.available=0:
  	$SJ.baby = 1
 End
 
+if $SWD.available=0:
+    $SWD.name = "Migu Juli(Stockings shopkeeper)"
+    $SWD.love = 0
+    $SWD.bad = 0
+    $SWD.bio ="After several years of part-time work, she decided to use her savings to open a women`s stockings store.She had hoped to make more money through this business, but she did not expect that it would not be easy to open a shop. In addition to facing fierce market competition, she also needed to face various business problems.Now, her stockings store has encountered difficulties and is facing an economic crisis.She urgently needs support and help to get her business back on its feet."
+End
+
+if $DY.available=0:
+    $DY.name = "Ye Ye Uranuan(Rookie clerk)"
+    $DY.love = 0
+    $DY.bad = 0
+    $DY.bio ="The rookie clerk who came to work in the convenience store after the fire in the convenience store, she was clumsy and she needed my personal guidance from the store manager ❤ Her wish is to save a sum of money to see the sea."
+End
+
+if $YH.available=0:
+    $YH.name = "Xinggong Yihua(Fund Manager)"
+    $YH.love = 0
+    $YH.bad = 0
+    $YH.bio ="She is a newly appointed bank manager. In the fund department, she is responsible for evaluating the credit status of customers, formulating loan plans, approving loans, and supervising loan recovery.If the customer defaults or fails to repay on time, bad debts will arise.Banks will write off bad debts and count them as losses, which usually leads to an adverse impact on the bank`s profits and financial situation.However, it is very unfortunate that this is happening to her…"
+End
+
 if $JJ.name = "Hatsukawa Minami (Big Sister)":
 	$JJ.name = "Hatsukawa Minami (Big Sister)"
-else:
+else
 	$JM.name = "Kaede Karen (Stepmother)"
 	$JM.bio ="My father`s new love is only older than me, but he is already an executive director of a pharmaceutical company. When she was young, she broke into my life as a [family] with her two children.
 				With my father in a coma and unconscious for several years.Her attitude towards me has gradually changed.....Out of courtesy, I still call her mom."
@@ -840,7 +861,7 @@ else:
 	$HB.bio ="She owns170Her tall figure, when she put on black stockings, immediately became charming.The delicate silk fits her slender legs and outlines the perfect curve, making it impossible to look away.With this advantage, she once served as a professional model and a member of the [Ferris Girl Group] group.But later, she was exposed to an affair with a rapper. Although she once denied it, she was eventually hacked out of the sex video.In the face of hard evidence, she couldn`t refute it, and she was depressed several times after the dissolution of the women`s group.But under the guidance of her best friend, she simply broke the jar and broke it. Since her reputation was already rotten, she simply became an online porn anchor."
 
 	$YA_dAPc.name = "Kinoshita Himari"
-	$YA_dAPc.bio ="？？？"
+	$YA_dAPc.bio ="???"
 
 	$SJ.name = "Satsuki Ena (Stupid Secretary)"
 	$SJ.bio ="Secretary of the Student Association."

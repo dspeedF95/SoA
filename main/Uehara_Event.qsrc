@@ -32,7 +32,7 @@ if $ARGS[0]="Learn to cook":
 		if a=1:
 			'<div class="button"><a href="exec:a=4 &  gt ''Uehara_Event'',''Learn to cook''"><<$ContentsauceA[rand(0,3)]>></a></div>'
 			'<div class="button"><a href="exec:a=4 &  gt ''Uehara_Event'',''Learn to cook''"><<$ContentsauceA[rand(4,6)]>></a></div>'
-			if $SY.bad>=15:'<div class="button"><a href="exec:a=2 &  gt ''Uehara_Event'',''Learn to cook''">semen</a></div>'else:'<div class="buttonGr"><a href="exec:">semen</a></div>'
+			if $SY.bad>=15:'<div class="button"><a href="exec:a=2 &  gt ''Uehara_Event'',''Learn to cook''">semen</a></div>'else'<div class="buttonGr"><a href="exec:">semen</a></div>'
 			'<div class="button"><a href="exec:a=4 &  gt ''Uehara_Event'',''Learn to cook''"><<$ContentsauceA[rand(7,9)]>></a></div>'
 			'<div class="button"><a href="exec:a=4 &  gt ''Uehara_Event'',''Learn to cook''"><<$ContentsauceA[rand(10,12)]>></a></div>'
 			'<div class="button"><a href="exec:a=4 &  gt ''Uehara_Event'',''Learn to cook''"><<$ContentsauceA[rand(13,15)]>></a></div>'
@@ -42,7 +42,7 @@ if $ARGS[0]="Learn to cook":
 		if a=2:'<div class="button"><a href="exec:a=3 &  gt ''Uehara_Event'',''Learn to cook''">Let her taste</a></div>'
 		if a=3:
 			'<div class="button"><a href="exec:a=4 &  gt ''Uehara_Event'',''Uehara Family''">Can`t</a></div>'
-			if week_day=7:'<div class="buttonS"><a href="exec:a=0 & q=0 &  gt ''Uehara_Event'',''SY_Fuck_DKH''">Sunday drinking party</a></div>'else:'<div class="buttonGr"><a href="exec:">Sunday drinking party</a></div>'
+			if week_day=7:'<div class="buttonS"><a href="exec:a=0 & q=0 &  gt ''Uehara_Event'',''SY_Fuck_DKH''">Sunday drinking party</a></div>'else'<div class="buttonGr"><a href="exec:">Sunday drinking party</a></div>'
 		end
 		
 		if a=4:'<div class="button"><a href="exec:a=4 &  gt ''Uehara_Event'',''Uehara Family''">Go to the living room</a></div>'
@@ -72,7 +72,7 @@ if $args[0] ='Uehara Family':
 	
 		if rand(0,2)=0:
 			'<div class="buttonPu2"><a href="exec:$SY.bathroom=1 & minutes+=5 & gt ''Uehara_Event'',''bathroom''">Go to the main bath→</a></div>'
-			else:
+			else
 			'<div class="buttonP"><a href="exec:$SY.bathroom=2 & minutes+=5 & gt ''Uehara_Event'',''bathroom''">Go to the second bath→</a></div>'
 		end
 		
@@ -108,9 +108,9 @@ if $args[0] ='bathroom':
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                if $SY.FUCK>=2 :'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara_Fuck_Rear bathroom''">Go back to the living room together</a></div>'else:'<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara Family''">Go back to the living room alone</a></div>'
+                if $SY.FUCK>=2:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara_Fuck_Rear bathroom''">Go back to the living room together</a></div>'else'<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara Family''">Go back to the living room alone</a></div>'
                 '<div class="button"><a href="exec:gt ''subway''">leave</a></div>'
             '</div>'
     end
@@ -169,9 +169,9 @@ if $args[0]="Uehara_Fuck_Daughter`s room":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                if $SY.SECOND>=1: '<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara_Fuck_Sleep at night''">overnight</a></div>'else:'<div class="buttonGr"><a href="exec:">overnight</a></div>'
+                if $SY.SECOND>=1: '<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara_Fuck_Sleep at night''">overnight</a></div>'else'<div class="buttonGr"><a href="exec:">overnight</a></div>'
                 '<div class="button"><a href="exec:gt ''subway''">leave</a></div>'
             '</div>'
     end
@@ -237,9 +237,9 @@ if $args[0]="Uehara_Fuck_Rear bathroom":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                if  $SY.SECOND>=1: '<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara_Fuck_Sleep at night''">overnight</a></div>'else:'<div class="buttonGr"><a href="exec:">overnight</a></div>'
+                if  $SY.SECOND>=1: '<div class="buttonGn"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''Uehara_Fuck_Sleep at night''">overnight</a></div>'else'<div class="buttonGr"><a href="exec:">overnight</a></div>'
                 '<div class="button"><a href="exec:gt ''subway''">leave</a></div>'
             '</div>'
     end
@@ -299,7 +299,7 @@ if $args[0]="Uehara_Fuck_Sleep at night":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=1440 & hour=7 & gt ''subway''">The next day</a></div>'
             '</div>'
@@ -382,14 +382,14 @@ if $args[0]="SY_Fuck_work2":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">Checkout and leave</a></div>'
-				if tuc_level3>=1 and $SY.bad>=100 and SYcos!1:'<div class="buttonS"><a href="exec:SYcos=1 & gt ''Kabukicho''">inviteCOS</a></div>'else:'<div class="buttonGr"><a href="exec:">inviteCOS</a></div>'
+				if tuc_level3>=1 and $SY.bad>=100 and SYcos!1:'<div class="buttonS"><a href="exec:SYcos=1 & gt ''Kabukicho''">inviteCOS</a></div>'else'<div class="buttonGr"><a href="exec:">inviteCOS</a></div>'
             '</div>'
     end
 
-    if a=0 :
+    if a=0:
          '<div class="dialog_menu">'
              '<p><<$SY.name>>: Thank you for your name!Do you like my boobs?</p>'
              '<p>I:Bunny girl dress up pretty good…</p>'
@@ -398,21 +398,21 @@ if $args[0]="SY_Fuck_work2":
 
 
 
-    if 3>=a and a>=1 :
+    if 3>=a and a>=1:
          '<div class="dialog_menu">'
              '<p><<$SY.name>>:Very soft, right?<<$Panting>></p>'
              if a=3:'<p><<$SY.name>>:Do you want more?</p>'
          '</div>'
     end
 
-    if 7>=a and a>=4 :
+    if 7>=a and a>=4:
          '<div class="dialog_menu">'
              '<p><<$SY.name>>:<<$Panting>><<$words>></p>'
              if a=7:'<p><<$SY.name>>:Do you want more?</p>'
          '</div>'
     end
 
-    if 11>=a and a>=8 :
+    if 11>=a and a>=8:
          '<div class="dialog_menu">'
              '<p><<$SY.name>>:<<$Panting>><<$words>></p>'
          '</div>'
@@ -443,10 +443,10 @@ if $ARGS[0]="Uehara Family Vertical Painting":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:gt ''Uehara_Event'',''SY_Fuck_JIAWU''">Entrust</a></div>'
-		if Essential_oil>0 and MGF>0:'<div class="buttonS2"><a href="exec:Essential_oil-=1 & MGF-=1 & gt ''Uehara_Event'',''SY_Fuck_AM1''">Get started with Essential_oil massage</a></div>'else:'<div class="buttonGr"><a href="exec: ">Lack of massage materials</a></div>'
-		if $SY.bad>=50:'<div class="buttonS3"><a href="exec:gt ''Uehara_Event'',''SY_Fuck_nxkh''">Son-in-law assessment</a></div>'else:'<div class="buttonGr"><a href="exec: ">？？？</a></div>'
-		if $SY.FUCK>=4:'<div class="buttonS4"><a href="exec:gt ''Uehara_Event'',''SY_Fuck_nxkh2''">Firm assessment</a></div>'else:'<div class="buttonGr"><a href="exec: ">？？？</a></div>'
-		if  $SY.unlimited=1 and $SY.SECOND=1:'<div class="buttonS5"><a href="exec:gt ''Uehara_Event'',''SY_Fuck_nxkh3''">Hundred-person assessment</a></div>'else:'<div class="buttonGr"><a href="exec: ">？？？</a></div>'
+		if Essential_oil>0 and MGF>0:'<div class="buttonS2"><a href="exec:Essential_oil-=1 & MGF-=1 & gt ''Uehara_Event'',''SY_Fuck_AM1''">Get started with Essential_oil massage</a></div>'else'<div class="buttonGr"><a href="exec: ">Lack of massage materials</a></div>'
+		if $SY.bad>=50:'<div class="buttonS3"><a href="exec:gt ''Uehara_Event'',''SY_Fuck_nxkh''">Son-in-law assessment</a></div>'else'<div class="buttonGr"><a href="exec: ">???</a></div>'
+		if $SY.FUCK>=4:'<div class="buttonS4"><a href="exec:gt ''Uehara_Event'',''SY_Fuck_nxkh2''">Firm assessment</a></div>'else'<div class="buttonGr"><a href="exec: ">???</a></div>'
+		if  $SY.unlimited=1 and $SY.SECOND=1:'<div class="buttonS5"><a href="exec:gt ''Uehara_Event'',''SY_Fuck_nxkh3''">Hundred-person assessment</a></div>'else'<div class="buttonGr"><a href="exec: ">???</a></div>'
 		'<div class="button"><a href="exec:gt ''subway''">leave</a></div>'
 	'</div>'
 
@@ -492,7 +492,7 @@ if $args[0]="SY_Fuck_AM1":
             '<div class="button"><a href="exec:a=9 & gt ''Uehara_Event'',''SY_Fuck_AM1''">Invitation to dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">leave</a></div>'
             '</div>'
@@ -557,7 +557,7 @@ if $args[0]="SY_Fuck_WQ":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Hot_spring_corridor''">leave</a></div>'
             '</div>'
@@ -602,7 +602,7 @@ if $args[0]="SY_Fuck_DKH":
             if a=10 and my.cooking<8:'<div class="button"><a href="exec:gt ''subway''">Leaving: cooking8Not enough level </a></div>'
             if a=10 and my.cooking>=8:'<div class="buttonS1"><a href="exec:a+=1 & gt ''Uehara_Event'',''SY_Fuck_DKH''">cooking8grade </a></div>'
             if a=11:
-                if my.cooking>=10:'<div class="buttonS3"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''SY_Fuck_DKH2''">Exclusive enjoyment </a></div>'else:'<div class="buttonGr"><a href="exec:gt ''subway''">Insufficient cooking level </a></div>'
+                if my.cooking>=10:'<div class="buttonS3"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''SY_Fuck_DKH2''">Exclusive enjoyment </a></div>'else'<div class="buttonGr"><a href="exec:gt ''subway''">Insufficient cooking level </a></div>'
                 '<div class="buttonS1"><a href="exec:a=0 & q=0 & gt ''subway''">leave </a></div>'
             end
 
@@ -667,7 +667,7 @@ if $args[0]="SY_Fuck_DKH2":
             '<div class="buttonS4"><a href="exec:a=7 & gt ''Uehara_Event'',''SY_Fuck_DKH2''">afterwards</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">leave</a></div>'
             '</div>'
@@ -725,7 +725,7 @@ if $args[0]="SY_Fuck_JIAWU":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 if $SY.uniform>=1:'<div class="button"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Uehara_Event'',''SY_Fuck_JIAWU2''">Give her a uniform</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">leave</a></div>'
@@ -786,7 +786,7 @@ if $args[0]="SY_Fuck_JIAWU2":
             '<div class="buttonS3"><a href="exec:a=5 & gt ''Uehara_Event'',''SY_Fuck_JIAWU2''">Fuck her</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">leave</a></div>'
             '</div>'
@@ -845,7 +845,7 @@ if $args[0]="SY_Fuck_WC":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Uehara_Event'',''SY_Fuck_WC''">Drink clean</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''university''">Next</a></div>'
             '</div>'
@@ -905,7 +905,7 @@ if $args[0]="SY_Fuck_nxkh":
             '<div class="buttonS3"><a href="exec:a=5 & gt ''Uehara_Event'',''SY_Fuck_nxkh''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 if $SY.FUCK<=1:'<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Go back and think about it</a></div>'
                 if $SY.FUCK>=2:'<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Got it</a></div>'
@@ -975,7 +975,7 @@ if $args[0]="SY_Fuck_nxkh2":
             '<div class="buttonS4"><a href="exec:a=6 & gt ''Uehara_Event'',''SY_Fuck_nxkh2''">What about loyalty?</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Go back and think about it</a></div>'
             '</div>'
@@ -1048,9 +1048,9 @@ if $args[0]="SY_Fuck_FNN":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
-                if $SY.uniform>1:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''SY_Fuck_FNN2''">Change into uniform</a></div>'else:'<div class="buttonGr"><a href="exec:">Change uniform</a></div>'
+                if $SY.uniform>1:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Uehara_Event'',''SY_Fuck_FNN2''">Change into uniform</a></div>'else'<div class="buttonGr"><a href="exec:">Change uniform</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">That`s it</a></div>'
             '</div>'
     end
@@ -1132,7 +1132,7 @@ if $args[0]="SY_Fuck_FNN2":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">Leave first</a></div>'
             '</div>'
@@ -1200,7 +1200,7 @@ if $args[0]="SY_Fuck_nxkh3":
             '<div class="buttonS5"><a href="exec:a=10 & gt ''Uehara_Event'',''SY_Fuck_nxkh3''">Unlimited creampie</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''subway''">Leave first</a></div>'
             '</div>'

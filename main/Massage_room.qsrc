@@ -28,8 +28,8 @@ if  $args[0]="":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:n=rand(1,2)& gt ''Group_performation_event'',''SPA_Fuck_Niche massage''">Niche massage</a></div>'
-		if spa>10:'<div class="buttonS2"><a href="exec:n=rand(-1,3)& gt ''Group_performation_event'',''SPA_Fuck_Light luxury massage''">Light luxury massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Light luxury massage</a></div>'
-		if spa>=50:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Massage_room'',''Private massage''">Private massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Private massage</a></div>'
+		if spa>10:'<div class="buttonS2"><a href="exec:n=rand(-1,3)& gt ''Group_performation_event'',''SPA_Fuck_Light luxury massage''">Light luxury massage</a></div>'else'<div class="buttonGr"><a href="exec:">Light luxury massage</a></div>'
+		if spa>=50:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Massage_room'',''Private massage''">Private massage</a></div>'else'<div class="buttonGr"><a href="exec:">Private massage</a></div>'
 		'<div class="buttonG"><a href="exec:minutes+=15 & gt ''Massage_room'',''Withdraw''">Withdraw</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''company''">leave</a></div>'
 	'</div>'
@@ -47,12 +47,12 @@ if  $args[0]="Private massage":
 	'<div class ="show_menu"><img src="images\place\按摩房里.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $NY.SPA=1:'<div class="button"><a href="exec:gt ''Massage_room'',''NY''">㊕<<$NY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">㊕？？？</a></div>'
-		if $XZ.love>=200 and $XZ.bad>=200:'<div class="button"><a href="exec:$m=''XZ'' & $ma=$XZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①<<$XZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①？？？</a></div>'
-		if $FXZ.love>=200 and $FXZ.bad>=200:'<div class="button"><a href="exec:$m=''FXZ'' & $ma=$FXZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②<<$FXZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②？？？</a></div>'
-		if $TZ.Pressed=1:'<div class="button"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">③<<$TZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">③？？？</a></div>'
-		if $XM.massage=1:'<div class="button"><a href="exec:$m=''XM'' & $ma=$XM.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">④<<$XM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">④？？？</a></div>'
-		if ($HS.love>=200 and $HS.bad>=200) or ($HS.Massageparlorinvitation=1):'<div class="button"><a href="exec:$m=''HS'' & $ma=$HS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑤<<$HS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑤？？？</a></div>'
+		if $NY.SPA=1:'<div class="button"><a href="exec:gt ''Massage_room'',''NY''">㊕<<$NY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">㊕???</a></div>'
+		if $XZ.love>=200 and $XZ.bad>=200:'<div class="button"><a href="exec:$m=''XZ'' & $ma=$XZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①<<$XZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①???</a></div>'
+		if $FXZ.love>=200 and $FXZ.bad>=200:'<div class="button"><a href="exec:$m=''FXZ'' & $ma=$FXZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②<<$FXZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">②???</a></div>'
+		if $TZ.Pressed=1:'<div class="button"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">③<<$TZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">③???</a></div>'
+		if $XM.massage=1:'<div class="button"><a href="exec:$m=''XM'' & $ma=$XM.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">④<<$XM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">④???</a></div>'
+		if ($HS.love>=200 and $HS.bad>=200) or ($HS.Massageparlorinvitation=1):'<div class="button"><a href="exec:$m=''HS'' & $ma=$HS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑤<<$HS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑤???</a></div>'
 		if $CJ.tendencyG=1:'<div class="buttonP"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_massage1''">㊕<<$CJ.name>></a></div>'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage2''">▶Next page</a></div>'
 	'</div>'
@@ -86,7 +86,7 @@ end
 if  $args[0]="NY":
 	if $NY_Event_imprisonment=1:
 		'<div class ="show_menu"><img src="images\place\按摩房里.jpg" width="854"></div>'
-	else:
+	else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\NY\vids\按摩0-0~1.webm" type=''video/webm;''></video></div>'
@@ -96,7 +96,7 @@ if  $args[0]="NY":
 	'<div class="button_menu">'
 		if $NY_Event_imprisonment=1:
 			'<div class="buttonR"><a href="exec:gt''Energy_event'', ''NY_Fuck_imprisonment''">Torture her</a></div>'
-		else:
+		else
 			'<div class="button"><a href="exec:gt ''Energy_event'',''NY_Fuck_massage''">Massage service</a></div>'
 			if $NY.bad>=50:'<div class="button"><a href="exec:gt ''Energy_event'',''NY_home''">Door-to-door service</a></div>'
 			if $NY_Event_imprisonment=0:'<div class="button"><a href="exec:gt''Energy_event'', ''NY_Fuck_ask''">Eavesdropping in the toilet</a></div>'
@@ -118,11 +118,11 @@ if  $args[0]="Private massage2":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage''">▶Previous page</a></div>'
-        if $SSYYPressed=1:'<div class="button"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑥<<$SSYY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑥？？？</a></div>'
-        if $QBPressed=1:'<div class="button"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑦<<$QB.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑦？？？</a></div>'
-        if $TS.love>=200 and $TS.bad>=200:'<div class="button"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑧<<$TS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑧？？？</a></div>'
-        if  $JZ.massage=1:'<div class="button"><a href="exec:$m=''JZ'' & $ma=$JZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑨<<$JZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑨？？？</a></div>'
-        if  $JY.Pressed=1:'<div class="button"><a href="exec:$m=''JY'' & $ma=$JY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑩<<$JY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">⑩？？？</a></div>'
+        if $SSYYPressed=1:'<div class="button"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑥<<$SSYY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑥???</a></div>'
+        if $QBPressed=1:'<div class="button"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑦<<$QB.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑦???</a></div>'
+        if $TS.love>=200 and $TS.bad>=200:'<div class="button"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑧<<$TS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑧???</a></div>'
+        if  $JZ.massage=1:'<div class="button"><a href="exec:$m=''JZ'' & $ma=$JZ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑨<<$JZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑨???</a></div>'
+        if  $JY.Pressed=1:'<div class="button"><a href="exec:$m=''JY'' & $ma=$JY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">⑩<<$JY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑩???</a></div>'
 		if $CJ.tendencyB=1:'<div class="buttonS"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_massage2''">㊕<<$CJ.name>></a></div>'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage3''">▶Next page</a></div>'
 	'</div>'
@@ -141,11 +141,11 @@ if  $args[0]="Private massage3":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage2''">▶Previous page</a></div>'
-        if  $SY.massage=1:'<div class="button"><a href="exec:$m=''SY'' & $ma=$SY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①①<<$SY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①①？？？</a></div>'
-        if $CH.Pressed=1:'<div class="button"><a href="exec:$m=''CH'' & $ma=$CH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①②<<$CH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①②？？？</a></div>'
-        if  $ZX.massage=1:'<div class="button"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①③<<$ZX.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①③？？？</a></div>'
-		if $LXS.Pressed=1:'<div class="button"><a href="exec:$m=''LXS'' & $ma=$LXS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①④<<$LXS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①④？？？</a></div>'
-        if $YS.massage=1:'<div class="button"><a href="exec:$m=''YS'' & $ma=$YS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑤<<$YS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑤？？？</a></div>'
+        if  $SY.massage=1:'<div class="button"><a href="exec:$m=''SY'' & $ma=$SY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①①<<$SY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①①???</a></div>'
+        if $CH.Pressed=1:'<div class="button"><a href="exec:$m=''CH'' & $ma=$CH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①②<<$CH.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①②???</a></div>'
+        if  $ZX.massage=1:'<div class="button"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①③<<$ZX.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①③???</a></div>'
+		if $LXS.Pressed=1:'<div class="button"><a href="exec:$m=''LXS'' & $ma=$LXS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①④<<$LXS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①④???</a></div>'
+        if $YS.massage=1:'<div class="button"><a href="exec:$m=''YS'' & $ma=$YS.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑤<<$YS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑤???</a></div>'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage4''">▶Next page</a></div>'
 	'</div>'
 
@@ -162,11 +162,29 @@ if  $args[0]="Private massage4":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage3''">▶Previous page</a></div>'
-        if $YY.massage=1:'<div class="button"><a href="exec:$m=''YY'' & $ma=$YY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑥<<$YY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑥？？？</a></div>'
-        if $QJ.massage=1:'<div class="button"><a href="exec:$m=''QJ'' & $ma=$QJ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑦<<$QJ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑦？？？</a></div>'
-        if $CT.massage=1:'<div class="button"><a href="exec:$m=''CT'' & $ma=$CT.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑧<<$CT.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑧？？？</a></div>'
-		if $LEI.massage=1:'<div class="button"><a href="exec:$m=''LEI'' & $ma=$LEI.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑨<<$LEI.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">①⑨？？？</a></div>'
-        if $XN.massage=1:'<div class="button"><a href="exec:$m=''XN'' & $ma=$XN.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②⓪<<$XN.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②⓪？？？</a></div>'
+        if $YY.massage=1:'<div class="button"><a href="exec:$m=''YY'' & $ma=$YY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑥<<$YY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑥???</a></div>'
+        if $QJ.massage=1:'<div class="button"><a href="exec:$m=''QJ'' & $ma=$QJ.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑦<<$QJ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑦???</a></div>'
+        if $CT.massage=1:'<div class="button"><a href="exec:$m=''CT'' & $ma=$CT.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑧<<$CT.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑧???</a></div>'
+		if $LEI.massage=1:'<div class="button"><a href="exec:$m=''LEI'' & $ma=$LEI.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑨<<$LEI.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑨???</a></div>'
+        if $XN.massage=1:'<div class="button"><a href="exec:$m=''XN'' & $ma=$XN.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②⓪<<$XN.name>></a></div>'else'<div class="buttonGr"><a href="exec:">②⓪???</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'
+		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>——————————</p>'
+		'<p>·Private massage is only acceptedVIPcustomer.We keep the identity of potential customers fully confidential.</p>'
+	'</div>'
+end
+
+if  $args[0]="Private massage5":
+	'<div class ="show_menu"><img src="images\place\按摩房里.jpg" width="854"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage4''">▶Previous page</a></div>'
+        if $DY.massage=1:'<div class="button"><a href="exec:$m=''DY'' & $ma=$DY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②①<<$DY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②①？？？</a></div>'
+	   if $SWD.massage=1:'<div class="button"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②②<<$SWD.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②②？？？</a></div>'
+       if $YH.massage=1:'<div class="button"><a href="exec:$m=''YH'' & $ma=$YH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②③<<$YH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②③？？？</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -178,257 +196,4 @@ if  $args[0]="Private massage4":
 end
 
 --- Massage_room ---------------------------------
-
-# Mayor`s_Office
-cls
-$metka = $ARGS[0]   
-$loc = $CURLOC
-gs'menu_gif'
-a=0 & q=0
-minutes+=10
-
-
-'<div id="right-column">'
-	gs'menu_time'
-	gs'menu_status_show'
-	gs'menu_option_show'
-	'<div class="actions_menu">'
-		'<div class="action">'
-			'<a class="photo" data-title="City Hall" href="exec:minutes+=15 & gt ''City_hall''"><img class="img_stretch" src="images\place\市政厅.jpg"></a>'
-		'</div>'
-	'</div>'
-'</div>'
-
-
-if $ARGS[0]="":
-	'<div class ="show_menu"><img src="images\place\市长办公室.jpg" width="854"></div>'
-	
-	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Wuchang Conference Room''">Wuchang Conference Room</a></div>'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Mayor`s Office''">Mayor`s Office</a></div>'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Urban Construction Minister`s Office''">Urban Construction Minister`s Office</a></div>'
-		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p>"Proposed by the mayor20"Core values"</p>'
-		'<p>·Equal competition: based on fairness, abandon privileges, and never go through the back door for personal gain</p>'
-		'<p>·Scientific decision-making: adhere to science and democracy, avoid subjectivity and arbitrariness, and ensure reasonable and stable decision-making</p>'
-		'<p>·Due diligence: honesty, consistency in words and deeds, and stay away from false promises</p>'
-		'<p>·Plan ahead: plan ahead, avoid regrets, take responsibility, and don`t run away</p>'
-		'<p>·Dare to take responsibility: we will not evade responsibility for wrong decisions, but take it bravely and make necessary changes.</p>'
-		'<p>·——————————————</p>'
-		'<p>·However, it was ridiculed by the citizens as a typical example of being brainless.20The word value is misinterpreted as：</p>'
-		'<p>·Flatter the upper echelons; pat your forehead to decide; pat your chest to guarantee; pat your thighs to regret, pat your ass and leave</p>'
-	'</div>'
-end
-
-if $ARGS[0]="Mayor`s Office":
-	'<div class ="show_menu"><img src="images\place\不开放.jpg" width="854"></div>'
-
-
-	'<div class="button_menu">'
-		'<div class="buttonR2"><a href="exec:gt ''City_hall''">leave</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p></p>'
-	'</div>'
-end
-
-if $ARGS[0]="Wuchang Conference Room":
-
-	'<div class ="show_menu"><img src="images\place\五常会议室0.jpg" width="854"></div>'
-	
-	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Read the notice''">Read the notice</a></div>'
-		if $Canbeproposed=1:'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''proposal''">Citizen proposal</a></div>'
-		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p>·The Fifth Standing Committee meeting is being held as scheduled, and the security guard stopped you and pointed to the notice next to you.</p>'
-		'<p>·As you can see, the five permanent decision-making officers in the conference room are the Minister of Justice and the Minister of Urban Construction from left to right.(agent), The Minister of the Interior, the Minister of Education and the Minister of Economic and Trade.</p>'
-	'</div>'
-end
-
-
-if $ARGS[0]="Read the notice":
-
-	'<div class ="show_menu"><img src="images\place\五常会议室0.jpg" width="854"></div>'
-
-
-	'<div class="button_menu">'
-		'<div class="buttonGn"><a href="exec:gt ''Mayor`s_Office''">return</a></div>'
-		'<div class="buttonR2"><a href="exec:gt ''City_hall''">leave</a></div>'
-		
-		
-		
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p>·<notice></p>'
-		'<p>·The Minister of Justice is composed of<<$DYZ.name>>Re-election、<<$CJ.name>>Replace the original Minister of Foreign Affairs and Minister of the Interior by<<$SZ.name>>Part-time、<<$JYB.name>>The Minister of Economic and Trade who is presiding over the meeting is<<$CT.name>>Concurrently.</p>'
-		'<p>————Warning————</p>'
-		'<p>During the meeting, all participants are required to put mobile phones and other electronic devices in designated storage boxes to prevent any risk of information leakage or eavesdropping.No recording or video recording equipment is allowed in the meeting room.</p>'
-		'<p>Discussions and document exchanges between participants are conducted in a strictly confidential environment.Files are encrypted, encapsulated, or transmitted in other secure ways to ensure that sensitive information is not leaked.The content of the discussion is also subject to a confidentiality agreement. Participants must strictly abide by their confidentiality responsibilities and destroy or return all documents and materials related to the meeting after the meeting.</p>'
-		
-	'</div>'
-end
-
-
-if $ARGS[0]="Urban Construction Minister`s Office":
-	 $CJ.available=1
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\CJ\vids\立绘<<rand(0,3)>>.webm" type=''video/webm;''></video></div>'
-        '</div>'
-
-	'<div class="button_menu">'
-		if $Boss_event_chain=6 and $Bossonthetop<=1:'<div class="button"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama1''">Eavesdropping: Minister`s room</a></div>'
-		if $CJ.Reportup>=1:'<div class="buttonR5"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_report''">Wuchang Meeting: Camping Area</a></div>'
-		if  $Thebosssuspendedtheinvestigation=1 and $Bossonthetop>=3 and $Thethiefwascaught>=2 :'<div class="buttonR3"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama2''">Description: Camping area</a></div>'
-
-		
-		if $CJ.Reportup>=2 and $YJB_CJ=0:'<div class="buttonB5"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field：<<$JYB.name>></a></div>'
-		if $CJ.Reportup>=2 and $YJB_CJ>0 and rand(0,100)>=95:'<div class="buttonB5"><a href="exec:a=4 & gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field：<<$JYB.name>></a></div>'
-
-		if $Bossonthetop=999:
-			if $CJ.tendencyB!1:'<div class="buttonS"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_home1''">Buoyancy: Skip work and make an appointment</a></div>'else:'<div class="buttonGr"><a href="exec:"><del>Buoyancy: Skip work and make an appointment</del></a></div>'
-			if $CJ.tendencyG!1:
-				if hour>=17:
-					'<div class="buttonPu2"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_E0''">Ready to get off work</a></div>'
-				else:
-					'<div class="button"><a href="exec:minutes+=50 & gt ''Mayor`s_Office'',''Urban Construction Minister`s Office''">Patience: Wait for her to get off work</a></div>'
-				end
-			end
-		end
-		if $CJ.Reportup>=2:'<div class="buttonB5"><a href="exec:$Adjutantdialogue=0 & gt ''Mayor`s_Office'',''Adjutant`s Office''">Adjutant`s Office</a></div>'
-		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p><<$CJ.name>>: What`s the matter?</p>'
-		'<p>·<a href="exec:gt ''Mayor`s_Office'',''prompt''">【?？？】</a></p>'
-	'</div>'
-end
-
-
-if $ARGS[0]="prompt":
-	'<div class ="show_menu"><img src="images\NPC\CJ\pics\变数.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''Mayor`s_Office'',''Urban Construction Minister`s Office''">return</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p>·The character will have two different branches, and the relationship with you can be innocent or debauchery.</p>'
-		'<p>·Debauchery----relationship&Tendency----innocence·</p>'
-		if $CJ.tendency>0:
-		'<p>·↑←—————❤<font color=#FF7F50><<$CJ.tendency>>❤—————→↑·</font></p>'
-		else:
-		'<p><font color=#FF00FF>·↑←—————❤<<$CJ.tendency>></font>❤—————→↑·</p>'
-		end
-	'</div>'
-end
-
-
-if $ARGS[0]="Adjutant`s Office":
-	if Urbanconstructionsatisfaction<=-100:gt 'Boss_event','boss_Fuck_Evil punishment'
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\LB\vids\立绘.webm" type=''video/webm;''></video></div>'
-        '</div>'
-
-	'<div class="button_menu">'
-		'<div class="button"><a href="exec:$Adjutantdialogue=1 & gt ''Mayor`s_Office'',''Adjutant`s Office''">处理Handling complaints from citizens↓</a></div>'
-		if $Campinggarbage=2:'<div class="buttonGn"><a href="exec:Urbanconstructionsatisfaction+=rand(30,40) & gt ''Boss_event'',''boss_Fuck_rubbishS''">↑I`ve cleaned it all up↑</a></div>'
-		if $Campinggarbage=3:'<div class="buttonR4"><a href="exec:Urbanconstructionsatisfaction-=rand(50,60) & gt ''Boss_event'',''boss_Fuck_Garbage failure''">耽误Delayed by the woman↑</a></div>'
-		if Urbanconstructionsatisfaction>=100:'<div class="buttonGn"><a href="exec:gt ''Boss_event'',''boss_Fuck_Next house1''">↑You can get off work early↑</a></div>'
-		
-		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p><<$LB.name>>：<<$Protagonist`s_name>>, Help me eat the urban construction department together❤</p>'
-		if $Adjutantdialogue=1:
-		'<p>Me: Happy to help.</p>'
-		'<p><<$LB.name>>: Since the fire in the camping area, the citizens have paid special attention to the problem of cleaning up flammable garbage. Go and see the garbage removal situation in the camping area.</p>'
-		if $Campinggarbage=0:$Campinggarbage=1
-		end
-		'<p>·Citizens` satisfaction with the Ministry of Urban Construction：<<Urbanconstructionsatisfaction>>%</p>'
-	'</div>'
-end
-
-
-if $ARGS[0]="proposal":
-
-	'<div class ="show_menu"><img src="images\place\提案.jpg" width="854"></div>'
-	
-	'<div class="button_menu">'
-		if Restaurantmanagement=1 and Therestaurantcanpropose=1:'<div class="buttonB1"><a href="exec:$Proposedcontent=''The restaurant provides sexual services'' & gt ''Mayor`s_Office'',''Dark Council''">The restaurant provides sexual services</a></div>'
-		if Opencoast!1:'<div class="buttonR1"><a href="exec:$Proposedcontent=''Open the coast to the public'' & $parliament.Empire=1  & gt ''Mayor`s_Office'',''Dark Council''">Open the coast to the public</a></div>'
-		if $Airportprogress=2:'<div class="buttonS"><a href="exec:$Proposedcontent=''Aerial sex Service'' & $parliament.warden=1  & gt ''Mayor`s_Office'',''Dark Council''">Aerial sex Service</a></div>'
-		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p>·Rule: I can put forward a certain proposal, but each minister has a veto system…</p>'
-	'</div>'
-end
-
-
-if $ARGS[0]="Dark Council":
-	'<div class ="show_menu"><img src="images\place\黑暗议会.jpg" width="854"></div>'
-	
-	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
-	'</div>'
-	
-	'<div class="dialog_menu">'
-		'<p><<$JYB.name>>: The next proposal is…<<$Proposedcontent>></p>'
-		if $Proposedcontent='The restaurant provides sexual services':
-		'<p><<$SZ.name>>: Clam?It`s really interesting, the proposer is<<$QJ.name>>What, do you mean?</p>'
-		'<p><<$CT.name>>: If she believes that adding new elements will help develop and increase competitiveness, then supporting this view may bring more opportunities and success to the restaurant. As a mother, I will fully support her.</p>'
-		'<p><<$DYZ.name>>: Is there any benefit in getting me to agree?</p>'
-		'<p><<$CT.name>>: I will lower10%The total amount of semen handed over in the prison.And everyone here can continue to enjoy the one-year Imperial GroupSVIPPrivate jet service.</p>'
-		'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
-		'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
-		Restaurantmanagement=2
-		end
-		
-		if $Proposedcontent='Open the coast to the public':
-		'<p><<$CT.name>>: This is my private beach, I would never agree.</p>'
-		'<p><<$SZ.name>>: Isn`t this public property?When is your private beach?</p>'
-		'<p><<$DYZ.name>>: I don`t care.</p>'
-		'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
-		if $parliament.Empire=1:'<p>【Agree】【Agree】【Reject】【Agree】【Agree】·One vote rejected<a href="exec:gt ''Empire_Event'',''Empire_Fuck_Buy''">-Private conversation</a></p>'
-		if $parliament.Empire=0:
-			'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
-			Opencoast=1
-			end
-		end
-		
-		if $Proposedcontent='Aerial sex Service':
-		'<p><<$SZ.name>>: Look at this, is it your baby daughter`s idea again?At the end of the table, read me the rules.</p>'
-		'<p><<$CJ.name>>: Sex is a way to relieve anxiety and stress. Providing sexual services on an airplane can help passengers relax and generate revenue.At the same time, sex can show the openness and tolerance of our city, and enhance passengers` first impression of our city.</p>'
-		'<p><<$DYZ.name>>: Isn`t this nonsense? Is there any benefit in letting me agree?</p>'
-		'<p><<$CT.name>>: What do you want?</p>'
-		if $parliament.warden=1:'<p><<$DYZ.name>>: Let me take a break and let me think about it... I will never agree easily.…<a href="exec:gt ''Warden_Incident'',''warden_Fuck_Buy''">-Private conversation</a></p>'
-		if $parliament.warden=0:
-			'<p><<$DYZ.name>>: I don`t need anything, just give you a favor.</p>'
-			'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
-			'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
-			if $Airportprogress=2:$Airportprogress=3
-		 end
-			
-		end
-		
-		
-	'</div>'
-end
-
-
-
---- Mayor`s_Office ---------------------------------
 

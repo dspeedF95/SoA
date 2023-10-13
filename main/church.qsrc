@@ -39,7 +39,7 @@ if $ARGS[0]="":
 			if hour=0:'<p>·Accidentally stepped on the mysterious fragment<a href="exec:$Mysteriousstring=''·—·'' & gt ''mysterious''">-Reach out and touch</a></p>'
 	'</div>'
  !###################↓↓↓↓↓↓↓↓↓↓↓ During the day白天白天白天白天白天白天 During the day白天白天白天白天白天白天during the day白天白天白天白天白天白天during the day白天白天白天白天白天during the day白天白天白天白天白天during the day白天白天白天白天白天During the day白天白天白天白天白天
-	else:
+	else
 	'<div class="button_menu">'
 		if $XN.available=1 and Bishopschoice=0:'<div class="button"><a href="exec:minutes+=15 &  gt ''church'',''Bishopschoice''">Dialogue with the bishop</a></div>'
 		if Bishopschoice=1 and $XN.trial<2:'<div class="buttonGn4"><a href="exec:gt ''church'',''ConfessionoftheBishop''">"Confession”&"Dedication”</a></div>'
@@ -47,6 +47,7 @@ if $ARGS[0]="":
 		if $XN.trial=1:'<div class="buttonG1"><a href="exec:gt ''church'',''Trainee nun''"> Trainee nun</a></div>'
 		if $XN.trial=1:'<div class="buttonG2"><a href="exec:gt ''Nun_event'',''XN_Fuck_Female believer''"> ❐Female believers are "consecrated”</a></div>'
 		if $Mybishop=1:'<div class="buttonG4"><a href="exec:minutes+=15 & gt ''church'',''Bishop position''">Sit on the bishop`s seat</a></div>'
+        if $LEI.finally=1:'<div class="buttonG5"><a href="exec:minutes+=15 & gt ''church'',''Church wedding''">business:Church wedding</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''suburbs''">leave</a></div>'
 	'</div>'
 	
@@ -90,9 +91,9 @@ if $args[0]="ConfessionoftheBishop":
              <source src="images\NPC\XN\vids\主教忏悔.webm" type=''video/webm;''></video></div>'
         '</div>'
         '<div class="button_menu">'
-            if JM.confession=1:'<div class="buttonG1"><a href="exec:$m=''JM'' & $ma=$JM.name & gt ''Nun_event'',''XN_Fuck_confession''">dedication<<$JM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">Invitation required<<$JM.name>></a></div>'
-            if JJ.confession=1:'<div class="buttonG2"><a href="exec:$m=''JJ'' & $ma=$JJ.name & gt ''Nun_event'',''XN_Fuck_confession''">dedication<<$JJ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">Invitation required<<$JJ.name>></a></div>'
-            if MM.confession=1:'<div class="buttonG3"><a href="exec:$m=''MM'' & $ma=$MM.name & gt ''Nun_event'',''XN_Fuck_confession''">dedication<<$MM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">Invitation required<<$MM.name>></a></div>'
+            if JM.confession=1:'<div class="buttonG1"><a href="exec:$m=''JM'' & $ma=$JM.name & gt ''Nun_event'',''XN_Fuck_confession''">dedication<<$JM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">Invitation required<<$JM.name>></a></div>'
+            if JJ.confession=1:'<div class="buttonG2"><a href="exec:$m=''JJ'' & $ma=$JJ.name & gt ''Nun_event'',''XN_Fuck_confession''">dedication<<$JJ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">Invitation required<<$JJ.name>></a></div>'
+            if MM.confession=1:'<div class="buttonG3"><a href="exec:$m=''MM'' & $ma=$MM.name & gt ''Nun_event'',''XN_Fuck_confession''">dedication<<$MM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">Invitation required<<$MM.name>></a></div>'
             if JM.confession+JJ.confession+MM.confession=3:'<div class="buttonG5"><a href="exec:gt ''Nun_event'',''XN_Fuck_trial''">I became a believer</a></div>'
             '<div class="button"><a href="exec: gt ''church''">leave</a></div>'
         '</div>'
@@ -186,7 +187,7 @@ if $args[0]="Nun standing painting":
             '<div class="buttonPu1"><a href="exec: gt ''Nun_event'',''XN_Fuck_boys''">Her prayer room</a></div>'
             if $Nunguilt>0:'<div class="buttonR"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession training''">Repent of sin</a></div>'
             if $XN.Bitch=1:'<div class="buttonS"><a href="exec: gt ''Nun_event'',''XN_Fuck_Bitch set''">Training bitch</a></div>'
-            if $XN.Fallin=1:'<div class="buttonPu5"><a href="exec: gt ''Nun_event'',''XN_Fuck_KFC''">ending:Fallen nun</a></div>'else:'<div class="buttonGr"><a href="exec: ">ending:???</a></div>'
+            if $XN.Fallin=1:'<div class="buttonPu5"><a href="exec: gt ''Nun_event'',''XN_Fuck_KFC''">ending:Fallen nun</a></div>'else'<div class="buttonGr"><a href="exec: ">ending:???</a></div>'
             '<div class="button"><a href="exec: gt ''church''">Got it</a></div>'
         '</div>'
         
@@ -196,7 +197,7 @@ if $args[0]="Nun standing painting":
 			  '<p>Me: No, according to your habits, do you have any plans?</p>'
 			  if $Nunguilt>0:
               '<p><B><span class =''red''><<$XN.name>>：<<$Protagonist`s_name>>My lord, I need to repent of my sins... please punish me!</p>' 
-			  else:
+			  else
               '<p><<$XN.name>>: I...after the restoration of the Ming Dynasty...I want to go outside more, can you take me there?</p>' 
               end
               '<p>·Her guilt: "<<$Nunguilt>>✟</p>' 
@@ -234,10 +235,10 @@ if $args[0]="Lei Liyi":
         '<div class="button_menu">'
 			if $LEIVideo_event_chain=3:'<div class="buttonS"><a href="exec: gt ''Nun_event'',''LEI_Fuck_Video1Candid shot''">Talk about the videotape ①</a></div>'
 			if $LEIVideo_event_chain=6:
-				if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Nun_event'',''LEI_Fuck_MGF''">Talk about the videotape ②</a></div>'else:'<div class="buttonGr"><a href="exec: ">Need McGovern</a></div>'
+				if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Nun_event'',''LEI_Fuck_MGF''">Talk about the videotape ②</a></div>'else'<div class="buttonGr"><a href="exec: ">Need McGovern</a></div>'
 			end
 			if $LEIVideo_event_chain>=9:
-				if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Nun_event'',''LEI_Fuck_MGF''">Use McGovern</a></div>'else:'<div class="buttonGr"><a href="exec: ">Need McGovern</a></div>'
+				if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Nun_event'',''LEI_Fuck_MGF''">Use McGovern</a></div>'else'<div class="buttonGr"><a href="exec: ">Need McGovern</a></div>'
 				'<div class="buttonG"><a href="exec:gt ''Nun_event'',''LEI_Fuck_LEI''">Celebrate liberation</a></div>'
 			end
             '<div class="button"><a href="exec: gt ''church''">Got it</a></div>'
@@ -255,6 +256,7 @@ End
 if $args[0]="Confession room":
 	 Churchgrade=(Churchprestige/10)+1
 	 $Numberofconfessors=rand(1,Churchgrade)
+     if  $Numberofconfessors>=6: $Numberofconfessors=rand(1,6)
 		'<div class ="show_menu"><img src="images\NPC\XN\pics\忏悔室.jpg" width="854"></div>'
 		
         '<div class="button_menu">'
@@ -324,15 +326,15 @@ if $args[0]="Confession man":
              <source src="images\NPC\XN\vids\对话0.webm" type=''video/webm;''></video></div>'
         '</div>'
         '<div class="button_menu">'
-			if $Numberofconfessors=1:'<div class="buttonS1"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 1people</a></div>'else:'<div class="buttonGr"><a href="exec: ">Number of people 1people</a></div>'
-			if $Numberofconfessors=2:'<div class="buttonS2"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 2people</a></div>'else:'<div class="buttonGr"><a href="exec: ">Number of people 2people</a></div>'
-			if $Numberofconfessors=3:'<div class="buttonS3"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 3people</a></div>'else:'<div class="buttonGr"><a href="exec: ">Number of people 3people</a></div>'
-			if $Numberofconfessors=4:'<div class="buttonS4"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 4people</a></div>'else:'<div class="buttonGr"><a href="exec: ">Number of people 4people</a></div>'
+			if $Numberofconfessors=1:'<div class="buttonS1"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 1people</a></div>'else'<div class="buttonGr"><a href="exec: ">Number of people 1people</a></div>'
+			if $Numberofconfessors=2:'<div class="buttonS2"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 2people</a></div>'else'<div class="buttonGr"><a href="exec: ">Number of people 2people</a></div>'
+			if $Numberofconfessors=3:'<div class="buttonS3"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 3people</a></div>'else'<div class="buttonGr"><a href="exec: ">Number of people 3people</a></div>'
+			if $Numberofconfessors=4:'<div class="buttonS4"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man''">Number of people 4people</a></div>'else'<div class="buttonGr"><a href="exec: ">Number of people 4people</a></div>'
 			
 			if $LEI.Teachingassistant=1:
-				if $Numberofconfessors>4:'<div class="buttonS5"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man2''">Number of people5+people</a></div>'else:'<div class="buttonGr"><a href="exec: ">Number of people5+people</a></div>'
-			else:
-				if $Numberofconfessors>4:'<div class="buttonR"><a href="exec: gt ''church''">Understaffed</a></div>'else:'<div class="buttonGr"><a href="exec: ">Number of people5+people</a></div>'
+				if $Numberofconfessors>4:'<div class="buttonS5"><a href="exec: gt ''Nun_event'',''XN_Fuck_Confession man2''">Number of people5+people</a></div>'else'<div class="buttonGr"><a href="exec: ">Number of people5+people</a></div>'
+			else
+				if $Numberofconfessors>4:'<div class="buttonR"><a href="exec: gt ''church''">Understaffed</a></div>'else'<div class="buttonGr"><a href="exec: ">Number of people5+people</a></div>'
 			end
 			
 			
@@ -351,12 +353,12 @@ if $args[0]="Confessor":
 		
         '<div class="button_menu">'
 			'<div class="buttonR"><a href="exec:Confessionnumber=2 & $Repentofthecrime=''arrogant'' & gt ''Nun_event'',''XN_Fuck_Confessor''">Crime of arrogance</a></div>'
-			if Churchgrade>=2:'<div class="buttonR"><a href="exec:Confessionnumber=1 & $Repentofthecrime=''lazy'' & gt ''Nun_event'',''XN_Fuck_Confessor''">The crime of laziness</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
-			if Churchgrade>=3:'<div class="buttonR"><a href="exec:Confessionnumber=3 & $Repentofthecrime=''jealous'' & gt ''Nun_event'',''XN_Fuck_Confessor''">Crime of jealousy</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
-			if Churchgrade>=4:'<div class="buttonR"><a href="exec:Confessionnumber=4 & $Repentofthecrime=''greedy'' & gt ''Nun_event'',''XN_Fuck_Confessor''">Crime of greed</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
-			if Churchgrade>=5:'<div class="buttonR"><a href="exec:Confessionnumber=5 & $Repentofthecrime=''Rage'' & gt ''Nun_event'',''XN_Fuck_Confessor''">Crime of wrath</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
-			if Churchgrade>=6:'<div class="buttonR"><a href="exec:Confessionnumber=6 & $Repentofthecrime=''Lust'' & gt ''Nun_event'',''XN_Fuck_Confessor''">The crime of lust</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
-			if Churchgrade>=7:'<div class="buttonR"><a href="exec:gt ''Nun_event'',''XN_Fuck_Gluttony''">The crime of gluttony</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
+			if Churchgrade>=2:'<div class="buttonR"><a href="exec:Confessionnumber=1 & $Repentofthecrime=''lazy'' & gt ''Nun_event'',''XN_Fuck_Confessor''">The crime of laziness</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
+			if Churchgrade>=3:'<div class="buttonR"><a href="exec:Confessionnumber=3 & $Repentofthecrime=''jealous'' & gt ''Nun_event'',''XN_Fuck_Confessor''">Crime of jealousy</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
+			if Churchgrade>=4:'<div class="buttonR"><a href="exec:Confessionnumber=4 & $Repentofthecrime=''greedy'' & gt ''Nun_event'',''XN_Fuck_Confessor''">Crime of greed</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
+			if Churchgrade>=5:'<div class="buttonR"><a href="exec:Confessionnumber=5 & $Repentofthecrime=''Rage'' & gt ''Nun_event'',''XN_Fuck_Confessor''">Crime of wrath</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
+			if Churchgrade>=6:'<div class="buttonR"><a href="exec:Confessionnumber=6 & $Repentofthecrime=''Lust'' & gt ''Nun_event'',''XN_Fuck_Confessor''">The crime of lust</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
+			if Churchgrade>=7:'<div class="buttonR"><a href="exec:gt ''Nun_event'',''XN_Fuck_Gluttony''">The crime of gluttony</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of prestige</a></div>'
         '</div>'
         
          '<div class="dialog_menu">'
@@ -383,7 +385,24 @@ if $args[0]="Lei finally":
 End
 
 
+if $args[0]="Church wedding":
+    '<div class ="show_menu2"><img src="images\NPC\XN\pics\wed (<<rand(1,7)>>).jpg" height="492"></div>'
+   
+    '<div class="button_menu">'
+      '<div class="buttonS"><a href="exec: gt ''Nun_event'',''XN_Fuck_WED''">Take her to your room</a></div>'
+        '<div class="buttonGn3"><a href="exec: gt ''church''">leave</a></div>'
+        if $Bank_event_chainB>=8:'<div class="buttonG4"><a href="exec: gt ''Bank_event'',''YH_Fuck_B8''">㊕<<$YH.name>></a></div>'
+        if $WH.Weddingdress=1:'<div class="buttonG4"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hun''">㊕<<$WH.name>></a></div>'
+    '</div>'
 
+     '<div class="dialog_menu">'
+          '<p>Bride: Damn it... how could anyone be late for the wedding rehearsal!</p>'
+          '<p>Me: That`s contempt and blasphemy for sacred marriage…</p>'
+          '<p>Bride: Master Priest!You are really right!How can I punish him so that he can know his mistake?</p>'
+          '<p>Me: The deepest way to punish a person is...not to love him at all.</p>'
+          '<p>Bride: I see, Master Priest... why don`t you take advantage of him before he comes... you “punish” me first?Don`t look at me like this, I`m a bitch❤</p>'
+     '</div>'
+End
 
 --- church ---------------------------------
 

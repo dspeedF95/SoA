@@ -14,16 +14,16 @@ my.energy-=5
 	gs "Energy_judgment"
 	'<div class="actions_menu">'
 		'<div class="action">'
-			if hour>=21 and $LY.available=0:'<a class="photo" href="exec:gt ''Home_live'',''ASMR''"><img class="img_stretch" src="images\items\ly1.png"></a>'else:'<a class="photo" data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\ly0.png"></a>'
+			if hour>=21 and $LY.available=0:'<a class="photo" href="exec:gt ''Home_live'',''ASMR''"><img class="img_stretch" src="images\items\ly1.png"></a>'else'<a class="photo" data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\ly0.png"></a>'
 		'</div>'
 		!'<div class="action">'
-		!	if hour>=18:'<a class="photo" href="exec:gt ''Home_live'',''mina''"><img class="img_stretch" src="images\items\minad1.png"></a>'else:'<a class="photo"data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\minad0.png"></a>'
+		!	if hour>=18:'<a class="photo" href="exec:gt ''Home_live'',''mina''"><img class="img_stretch" src="images\items\minad1.png"></a>'else'<a class="photo"data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\minad0.png"></a>'
 		!'</div>'
 		'<div class="action">'
-			if 17>=hour and hour>=12:'<a class="photo" href="exec:gt ''Home_live'',''domestic''"><img class="img_stretch" src="images\items\cnd1.png"></a>'else:'<a class="photo"data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\cnd0.png"></a>'
+			if 17>=hour and hour>=12:'<a class="photo" href="exec:gt ''Home_live'',''domestic''"><img class="img_stretch" src="images\items\cnd1.png"></a>'else'<a class="photo"data-title="The anchor is not here"  href="exec:"><img class="img_stretch" src="images\items\cnd0.png"></a>'
 		'</div>'
 		'<div class="action">'
-			if hour>=22 or hour<=5:'<a class="photo" href="exec:gt ''Home_live'',''South Korea''"><img class="img_stretch" src="images\items\krd1.png"></a>'else:'<a class="photo" data-title="The anchor is not here" href="exec:"><img class="img_stretch" src="images\items\krd0.png"></a>'
+			if hour>=22 or hour<=5:'<a class="photo" href="exec:gt ''Home_live'',''South Korea''"><img class="img_stretch" src="images\items\krd1.png"></a>'else'<a class="photo" data-title="The anchor is not here" href="exec:"><img class="img_stretch" src="images\items\krd0.png"></a>'
 		'</div>'
 		
 
@@ -143,7 +143,7 @@ if $args[0] ='ASMR':
 
  
 	'<div class="button_menu">'
-		if top1<100:'<div class="buttonR2"><a href="exec: ">Become number one on the list <<top1>>﹪</a></div>'else:'<div class="buttonG"><a href="exec:& gt ''Home_live'',''List One private message''">✈Send Private Message ￥</a></div>'
+		if top1<100:'<div class="buttonR2"><a href="exec: ">Become number one on the list <<top1>>﹪</a></div>'else'<div class="buttonG"><a href="exec:& gt ''Home_live'',''List One private message''">✈Send Private Message ￥</a></div>'
 		if money>=500:'<div class="buttonG"><a href="exec: money-=500 & top1+=rand(4,5) & gt ''Home_live'',''Thanks''">Boost the rocket 500￥</a></div>'
 		'<div class="buttonB1"><a href="exec: gt ''Home_live'',''Doze off''">Doze off</a></div>'
 		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
@@ -163,7 +163,7 @@ if $args[0] ='Thanks':
 	'</div>'
 	
 	'<div class="button_menu">'
-		if top1<100:'<div class="buttonR2"><a href="exec: ">Become number one on the list <<top1>>﹪</a></div>'else:'<div class="buttonG"><a href="exec:& gt ''Home_live'',''List One private message''">✈Send Private Message ￥</a></div>'
+		if top1<100:'<div class="buttonR2"><a href="exec: ">Become number one on the list <<top1>>﹪</a></div>'else'<div class="buttonG"><a href="exec:& gt ''Home_live'',''List One private message''">✈Send Private Message ￥</a></div>'
 		if money>=500:'<div class="buttonG"><a href="exec: money-=500 & top1+=rand(2,5) & gt ''Home_live'',''Thanks''">Boost the rocket 500￥</a></div>'
 		'<div class="buttonB1"><a href="exec: gt ''Home_live'',''Doze off''">Doze off</a></div>'
 		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Exit</a></div>
@@ -184,7 +184,7 @@ if $args[0] ='List One private message':
 	'</div>'
 	
 	'<div class="button_menu">'
-		if money>=50000:'<div class="buttonG"><a href="exec: money-=50000 & gt ''Home_live'',''Thanks2''">Send 100 rockets! 50000￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Brush her off!</a></div>'
+		if money>=50000:'<div class="buttonG"><a href="exec: money-=50000 & gt ''Home_live'',''Thanks2''">Send 100 rockets! 50000￥</a></div>'else'<div class="buttonGr"><a href="exec:">Brush her off!</a></div>'
 		'<div class="button"><a href="exec: minutes+=30 & gt ''Home_computer''">Get the hell outta here! (''o'')</a></div>
 	</div>'
 	!++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++ 

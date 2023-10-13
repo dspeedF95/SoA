@@ -139,7 +139,7 @@ if $ARGS[0]="Play tennis2":
 		'<p>Me: Easy!Come again!</p>'
 		'<p>Tennis girl: Little brother, you are so good!</p>'
 		'</div>'
-	else:
+	else
 		'<div class ="show_menu"><img src="images\task\网球 (10).jpg" height="492"></div>'
 		
 		'<div class="button_menu">'
@@ -277,7 +277,7 @@ if $ARGS[0]="Hunting_passersby":
 		if Huntingdifficulty>my.intelligence*10:
 			'<p>·Persuasion judgment: ▶Complete failure▶</p>'
 		    '<p>Anxious woman: Where are you beeping and what are you beeping? Get up and go, don`t be the way.</p>'
-		else:
+		else
 			'<p>·Persuasion judgment: ▶Lucky to succeed▶</p>'
 		    '<p>Anxious woman: Really?Can you take me there?</p>'
 		end

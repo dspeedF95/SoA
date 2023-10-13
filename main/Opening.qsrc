@@ -37,9 +37,9 @@ end
 if year >2020:
 $Protagonist_name = $TRIM(($input('My first name is:')))
 if $Protagonist_name="":$Protagonist_name="Name"
-$Protagonist`s_surname = $TRIM(($input('My last name is:')))
-if $Protagonist`s_surname="":$Protagonist`s_surname="Wei"
-$Protagonist`s_name="<<$Protagonist_name>> <<$Protagonist`s_surname>> "
+$Protagonists_surname = $TRIM(($input('My last name is:')))
+if $Protagonists_surname="":$Protagonists_surname="Wei"
+$Protagonist`s_name="<<$Protagonist_name>> <<$Protagonists_surname>> "
 '<div class ="show_menu"><img src="images\intro\intro1.jpg" width="850"></div>'
 
 '<div class="button_menu">

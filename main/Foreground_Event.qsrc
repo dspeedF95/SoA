@@ -32,7 +32,7 @@ if $ARGS[0]="Accompany her off work":
 		if $Getoffworknum=0:
 		'<p><<$QT.name>>I don`t seem to be in a very good mood today...</p>'
 		$QT.love+=1
-		else:
+		else
 		'<p><<$QT.name>>:Are you waiting for me to get off work?You are also free enough. Friendly reminder, now I put my career first.</p>'
 		'<p>I:Then I just stopped by home.</p>'
 		'<p>·Laughter and laughter on the way back..Favorability rose slightly.</p>'
@@ -66,9 +66,9 @@ if $ARGS[0]="chat":
 		'</div>'
 	
 	'<div class="button_menu">'
-		if money>=50:'<div class="buttonG"><a href="exec:money-=50 & gt ''Foreground_Event'',''Eat''">Invite her to eat50￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Invite her to eat50￥</a></div>'
-		if bag > 0:'<div class="buttonR2"><a href="exec:bag -=1 & gt ''Foreground_Event'',''Give her a bag''">Give her a designer bag</a></div>'else:'<div class="buttonGr"><a href="exec:">Give her a designer bag</a></div>'
-		if $QT.love >= 50:'<div class="buttonP"><a href="exec:minutes+=20 & gt ''Foreground_Event'',''Talk about occupation''">Talk about the future</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		if money>=50:'<div class="buttonG"><a href="exec:money-=50 & gt ''Foreground_Event'',''Eat''">Invite her to eat50￥</a></div>'else'<div class="buttonGr"><a href="exec:">Invite her to eat50￥</a></div>'
+		if bag > 0:'<div class="buttonR2"><a href="exec:bag -=1 & gt ''Foreground_Event'',''Give her a bag''">Give her a designer bag</a></div>'else'<div class="buttonGr"><a href="exec:">Give her a designer bag</a></div>'
+		if $QT.love >= 50:'<div class="buttonP"><a href="exec:minutes+=20 & gt ''Foreground_Event'',''Talk about occupation''">Talk about the future</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
 		'<div class="button"><a href="exec:gt ''suburbs''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
@@ -133,7 +133,7 @@ if $ARGS[0]="Throat department":
 	'<div class ="show_menu"><img src="images\NPC\QT\pics\咽喉科.jpg" width="854"></div>'
 	
 	'<div class="button_menu">'
-		if money>=5000:'<div class="buttonG"><a href="exec:money-=5000 & gt ''Foreground_Event'',''Intraoperative''">Pay for her5000￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Pay for her5000￥</a></div>'
+		if money>=5000:'<div class="buttonG"><a href="exec:money-=5000 & gt ''Foreground_Event'',''Intraoperative''">Pay for her5000￥</a></div>'else'<div class="buttonGr"><a href="exec:">Pay for her5000￥</a></div>'
 		'<div class="button"><a href="exec:minutes+=10 & gt ''hospital''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
@@ -186,8 +186,8 @@ if $args[0]="Front desk_jia":
 		'<div class="buttonS1"><a href="exec:minutes+=15 & gt ''Foreground_Event'',''QT_Fuck_That`s it''">kiss</a></div>'
 		'<div class="buttonS2"><a href="exec:minutes+=15 & gt ''Foreground_Event'',''QT_Fuck_Eat''">Eat</a></div>'
 		'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Foreground_Event'',''QT_Fuck_Take a bath''">Take a bath</a></div>'
-		if $QT.BAD>=60:'<div class="buttonS4"><a href="exec:minutes+=15 & gt ''Foreground_Event'',''QT_Fuck_Pop pop''">Pop pop</a></div>'else:'<div class="buttonGr"><a href="exec:">???</a></div>'
-		if Essential_oil>0:'<div class="buttonS3"><a href="exec:Essential_oil-=1 & gt ''Foreground_Event'',''QT_Fuck_Oiled''">Essential_oil massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Essential oil massage</a></div>'
+		if $QT.BAD>=60:'<div class="buttonS4"><a href="exec:minutes+=15 & gt ''Foreground_Event'',''QT_Fuck_Pop pop''">Pop pop</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if Essential_oil>0:'<div class="buttonS3"><a href="exec:Essential_oil-=1 & gt ''Foreground_Event'',''QT_Fuck_Oiled''">Essential_oil massage</a></div>'else'<div class="buttonGr"><a href="exec:">Essential oil massage</a></div>'
 		'<div class="button"><a href="exec:minutes+=20 & gt ''Deep_alley''">leave</a></div>'
 	'</div>'
 	
@@ -212,7 +212,7 @@ if $args[0]="QT_Fuck_Eat":
 			if a!2 and 1<=q and q<=4:
 			'<div class="button"><a href="exec:a=2 & gt ''Foreground_Event'',''QT_Fuck_Eat''">Rub </a></div>'
 			end
-			if a!3 and 2<=q :
+			if a!3 and 2<=q:
 			'<div class="button"><a href="exec:a=3 & gt ''Foreground_Event'',''QT_Fuck_Eat''">insert </a></div>'
 			end
 			if a=3:
@@ -220,7 +220,7 @@ if $args[0]="QT_Fuck_Eat":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Foreground_Event'',''QTovernight''">overnight</a></div>'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Deep_alley''">leave</a></div>'
@@ -262,7 +262,7 @@ if $args[0]="QT_Fuck_That`s it":
 			if a!0 and 0<=q and q<=3:
 			'<div class="button"><a href="exec:a=0 & gt ''Foreground_Event'',''QT_Fuck_That`s it''">kiss </a></div>'
 			end
-			if a!1 and 0<=q :
+			if a!1 and 0<=q:
 			'<div class="button"><a href="exec:a=1 & gt ''Foreground_Event'',''QT_Fuck_That`s it''">Oral sex </a></div>'
 			end
 			if a=1:
@@ -270,7 +270,7 @@ if $args[0]="QT_Fuck_That`s it":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Foreground_Event'',''QTovernight''">overnight</a></div>'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Deep_alley''">leave</a></div>'
@@ -313,7 +313,7 @@ if $args[0]="QT_Fuck_Take a bath":
 			if a!0 and 0<=q and q<=3:
 			'<div class="button"><a href="exec:a=0 & gt ''Foreground_Event'',''QT_Fuck_Take a bath''">kiss </a></div>'
 			end
-			if a!1 and 0<=q :
+			if a!1 and 0<=q:
 			'<div class="button"><a href="exec:a=1 & gt ''Foreground_Event'',''QT_Fuck_Take a bath''">Oral sex </a></div>'
 			end
 			if a=1:
@@ -321,7 +321,7 @@ if $args[0]="QT_Fuck_Take a bath":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Foreground_Event'',''QTovernight''">overnight</a></div>'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Deep_alley''">leave</a></div>'
@@ -375,7 +375,7 @@ if $args[0]="QT_Fuck_Pop pop":
 			if a!5 and 4<=q and q<=7:
 			'<div class="button"><a href="exec:a=5 & gt ''Foreground_Event'',''QT_Fuck_Pop pop''">Back body </a></div>'
 			end
-			if a!6 and 5<=q :
+			if a!6 and 5<=q:
 			'<div class="button"><a href="exec:a=6 & gt ''Foreground_Event'',''QT_Fuck_Pop pop''">sprint </a></div>'
 			end
 			if a=6:
@@ -384,7 +384,7 @@ if $args[0]="QT_Fuck_Pop pop":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Foreground_Event'',''QTovernight''">overnight</a></div>'
 				'<div class="button"><a href="exec:a=0 & q=0 & gt ''Deep_alley''">leave</a></div>'
@@ -468,7 +468,7 @@ if $args[0]="QT_Fuck_Powder room":
 			if a!2 and 2<=q and q<=6:
 			'<div class="button"><a href="exec:a=2 & gt ''Foreground_Event'',''QT_Fuck_Powder room''">After entering her </a></div>'
 			end
-			if a!3 and 3<=q :
+			if a!3 and 3<=q:
 			'<div class="button"><a href="exec:a=3 & gt ''Foreground_Event'',''QT_Fuck_Powder room''">Accelerate the sprint </a></div>'
 			end
 			if a=3:
@@ -477,7 +477,7 @@ if $args[0]="QT_Fuck_Powder room":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if a=4:'<div class="button"><a href="exec:a=5 & gt ''Foreground_Event'',''QT_Fuck_Powder room''">Coughing</a></div>'
 				'<div class="button"><a href="exec:gt ''TV_station''">leave</a></div>'
@@ -568,7 +568,7 @@ if $args[0]="QT_Fuck_hotel":
 			if a!4 and 3<=q and q<=5:
 			'<div class="button"><a href="exec:a=4 & gt ''Foreground_Event'',''QT_Fuck_hotel''">Hip wave </a></div>'
 			end
-			if a!5 and 4<=q :
+			if a!5 and 4<=q:
 			'<div class="button"><a href="exec:a=5 & gt ''Foreground_Event'',''QT_Fuck_hotel''">Accelerate the sprint </a></div>'
 			end
 			if a=5:
@@ -579,7 +579,7 @@ if $args[0]="QT_Fuck_hotel":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''TV_station''">leave</a></div>'
 			'</div>'
@@ -657,7 +657,7 @@ if $args[0]="QT_Fuck_Eat in the hot spring":
 			if a!4 and 3<=q and q<=5:
 			'<div class="button"><a href="exec:a=4 & gt ''Foreground_Event'',''QT_Fuck_Eat in the hot spring''">Ride up </a></div>'
 			end
-			if a!5 and 4<=q :
+			if a!5 and 4<=q:
 			'<div class="button"><a href="exec:a=5 & gt ''Foreground_Event'',''QT_Fuck_Eat in the hot spring''">Back in </a></div>'
 			end
 			if a=5:
@@ -671,9 +671,9 @@ if $args[0]="QT_Fuck_Eat in the hot spring":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if hour>=18:'<div class="button"><a href="exec:a=0 & q=0 &gt ''Foreground_Event'',''QT_Fuck_Overnight in the hot spring''">Spend the night here </a></div>'else:'<div class="buttonGr"><a href="exec:">Overnight-before night </a></div>'
+				if hour>=18:'<div class="button"><a href="exec:a=0 & q=0 &gt ''Foreground_Event'',''QT_Fuck_Overnight in the hot spring''">Spend the night here </a></div>'else'<div class="buttonGr"><a href="exec:">Overnight-before night </a></div>'
 				'<div class="button"><a href="exec:gt ''suburbs''">leave</a></div>'
 			'</div>'
 	end
@@ -732,9 +732,9 @@ if $args[0]="QT_Fuck_Hot spring bath":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
-				if hour>=18:'<div class="button"><a href="exec:a=0 & q=0 &gt ''Foreground_Event'',''QT_Fuck_Overnight in the hot spring''">Spend the night here </a></div>'else:'<div class="buttonGr"><a href="exec:">Overnight-before night </a></div>'
+				if hour>=18:'<div class="button"><a href="exec:a=0 & q=0 &gt ''Foreground_Event'',''QT_Fuck_Overnight in the hot spring''">Spend the night here </a></div>'else'<div class="buttonGr"><a href="exec:">Overnight-before night </a></div>'
 				'<div class="button"><a href="exec:gt ''suburbs''">leave</a></div>'
 			'</div>'
 	end
@@ -803,7 +803,7 @@ if $args[0]="QT_Fuck_Overnight in the hot spring":
 			if a!4 and 3<=q and q<=9:
 			'<div class="button"><a href="exec:a=4 & gt ''Foreground_Event'',''QT_Fuck_Overnight in the hot spring''">Slow down </a></div>'
 			end
-			if a!5 and 4<=q :
+			if a!5 and 4<=q:
 			'<div class="button"><a href="exec:a=5 & gt ''Foreground_Event'',''QT_Fuck_Overnight in the hot spring''">Vigorously pump </a></div>'
 			end
 			if a=5:
@@ -821,7 +821,7 @@ if $args[0]="QT_Fuck_Overnight in the hot spring":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				if a=9:'<div class="button"><a href="exec:a=10 & minutes+=1440 & hour=8 & my.energy = mymax[energy] & gt ''Foreground_Event'',''QT_Fuck_Overnight in the hot spring''">zzZ-The next day</a></div>'
 				if a=10:'<div class="button"><a href="exec:gt ''City_hall''">Leave together</a></div>'
@@ -852,7 +852,7 @@ if $args[0]="QT_Fuck_Overnight in the hot spring":
 		 $WQ.love+=1
 		 $WQ.bad+=1
 		 '<div class="dialog_menu">'
-			 '<p>？？？:Damn it... it feels so cool... I want to be fucked by a big dick too……</p>'
+			 '<p>???:Damn it... it feels so cool... I want to be fucked by a big dick too……</p>'
 		 '</div>'
 	end
 
@@ -886,7 +886,7 @@ if $args[0]="QT_Fuck_Oiled":
 		'<div class="button_menu">'
 			if a=0:
 			'<div class="button"><a href="exec:a=1 & gt ''Foreground_Event'',''QT_Fuck_Oiled''">Normal massage </a></div>'
-			if MGF>0:'<div class="button"><a href="exec:a=2 & MGF-=1 & gt ''Foreground_Event'',''QT_Fuck_Oiled''">Add McGovern </a></div>'else:'<div class="buttonGr"><a href="exec:">Add McGovern </a></div>'
+			if MGF>0:'<div class="button"><a href="exec:a=2 & MGF-=1 & gt ''Foreground_Event'',''QT_Fuck_Oiled''">Add McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Add McGovern </a></div>'
 			end
 
 			if a=2:
@@ -904,7 +904,7 @@ if $args[0]="QT_Fuck_Oiled":
 			if a!7 and 5<=q and q<=10:
 			'<div class="button"><a href="exec:a=7 & gt ''Foreground_Event'',''QT_Fuck_Oiled''">Normal sexual intercourse </a></div>'
 			end
-			if a!8 and 6<=q :
+			if a!8 and 6<=q:
 			'<div class="button"><a href="exec:a=8 & gt ''Foreground_Event'',''QT_Fuck_Oiled''">Back position </a></div>'
 			end
 			if a=8:
@@ -918,7 +918,7 @@ if $args[0]="QT_Fuck_Oiled":
 			end
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Deep_alley''">Satisfied to leave</a></div>'
 			'</div>'
@@ -944,14 +944,14 @@ if $args[0]="QT_Fuck_Oiled":
 	end
 
 
-	if 3>=a and a>=2 :
+	if 3>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$QT.name>>:...Well, the body is starting to get slightly hotter…</p>'
 			 if a=3:'<p><<$QT.name>>:It feels crisp and numb... it`s weird……</p>'
 		 '</div>'
 	end
 
-	if 6>=a and a>=4 :
+	if 6>=a and a>=4:
 		 '<div class="dialog_menu">'
 			 '<p><<$QT.name>>:Sure enough, something strange was added!</p>'
 			 '<p>I:No, no!</p>'
@@ -959,7 +959,7 @@ if $args[0]="QT_Fuck_Oiled":
 		 '</div>'
 	end
 
-	if 10>=a and a>=7 :
+	if 10>=a and a>=7:
 		 '<div class="dialog_menu">'
 			 '<p><<$QT.name>>:<<$words>></p>'
 		 '</div>'
@@ -987,7 +987,7 @@ if $args[0]="QT_Fuck_Excellent host":
     if a!10:
         '<div class="button_menu">'
             if a=0:
-            if $TZ.bad>=my.charm*25 and $QT.bad>=my.charm*25 :'<div class="buttonG"><a href="exec:a=1 & gt ''Foreground_Event'',''QT_Fuck_Excellent host''">Want you guys! </a></div>'else:'<div class="buttonGr"><a href="exec:">Someone can`t let it go </a></div>'
+            if $TZ.bad>=my.charm*25 and $QT.bad>=my.charm*25:'<div class="buttonG"><a href="exec:a=1 & gt ''Foreground_Event'',''QT_Fuck_Excellent host''">Want you guys! </a></div>'else'<div class="buttonGr"><a href="exec:">Someone can`t let it go </a></div>'
             '<div class="button"><a href="exec:a=1 & gt ''TV_station''">leave </a></div>'
             end
             if a!0:
@@ -1013,7 +1013,7 @@ if $args[0]="QT_Fuck_Excellent host":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonS5"><a href="exec:a=rand(2,8) & gt ''Foreground_Event'',''QT_Fuck_Excellent host''">Then come again! </a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">Lick it clean❤</a></div>'
@@ -1111,7 +1111,7 @@ if $args[0]="QT_Fuck_visit":
 
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:gt ''Big_villa''">Send her away</a></div>'
 			'</div>'

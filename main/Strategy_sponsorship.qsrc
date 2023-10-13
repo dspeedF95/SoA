@@ -13,23 +13,22 @@ gs'menu_time_calc'
 if $args[0] ='':
 	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
 	'<div class="show_menu">'
-		'<img src="images\place\对话.jpg" width="854">'
+		'<img src="images\place\对话1.jpg" width="854">'
 	'</div>'
 	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec: gt $loc,$metka">leave</a></div>'
-		'<div class="buttonG"><a href="exec:gt ''Strategy_sponsorship2''">Activate strategy</a></div>'
+	if $Strategyunlock!46:'<div class="buttonG"><a href="exec:gt ''Strategy_sponsorship3''">Click to activate the strategy</a></div>'
+	if $Strategyunlock=46:'<div class="buttonGn5"><a href="#" onclick="recordmsgA()">activatedV<<$Strategyunlock>>Strategy</a></div>'
 	'</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
-		'<p>First of all, thank you for your continued support and love for me.I sincerely thank you for your trust and favor.</p>'
-		'<p>Since everyone doesn`t like it very muchPDFI also find it troublesome to get all kinds of messy barcodes.so：</p>'
-		'<p>inV40After the version, I will take this brand new approach-directly add the new<span class="bold"><font color="#FF3939">Character_strategy integrated into the game</font></p>'
-		'<p><font color="#019435">On the one hand, you can view the progress of the Character_strategy in real time；</font><font color="#b00522">On the other hand, I`m investigatingBUGYou can see more clearly when you are there</font></p>'
-		'<p>·————</p>'
-		'<p>·<<$YS.name>>The Character_strategy is free and open, you can take a look at the specific mode.</p>'
-		'<p>Players who have previously participated in sponsorship can contact<font color="#FF3939">Email address provided after sponsorship</font>, Attach a simple proof to receive the strategy activation pattern.</p>'
-		'<p><B><span class =''red''>note：126@The mailbox cannot receive my email reply, please change the mailbox</p>'
+	'<p><span class="bold"><font color="#2E8B57">First of all, thank you for your continued support and love for me.I sincerely thank you for your trust and favor.</p>'
+	'<p><span class="bold"><font color="#808000">inV40After the version, I directly integrated the new character strategy into the game：</font></p>'
+	'<p><B><font color="#FF6347">I used pictures to unlock it before, which really exhausted me physically and mentally. A few friends didn`t know how to download, how to unzip...how to click on pictures...Because I couldn`t unlock the strategy, my mentality changed from a warm-hearted sponsor to a cold consumer.o(╥﹏╥)o
+I basically check my mailbox as soon as I have time. If I don`t reply in time, some impatient friends will behave very scary and even attack me personally, which brings me a lot of mental pressure.…</p>'
+	'<p><font color="#2E8B57">So the current mode is very simple, enter10Bit ofCDKThe password can be unlocked directly…</p>'
+	'<p><font color="#DAA520">㊟If you areV44And previously sponsored players, please contact me by email, I will give you two more in the endCDK, One for thisV46Version, the other one is used for the next version.I did this because I didn`t want you to suffer.</p>'
 	'</div>'
 End
 

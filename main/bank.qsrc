@@ -24,12 +24,27 @@ if $ARGS[0]="":
 
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:gt ''bank'',''Stock trading''">Stock trading</a></div>'
-		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	if $MY.bank=1:'<div class="buttonG3"><a href="exec:gt ''bank'',''Vice President`s Office''">Vice President`s Office</a></div>'
+	'<div class="buttonG2"><a href="exec:gt ''bank'',''Financial products''">Financial products</a></div>'
+	'<div class="buttonG1"><a href="exec:gt ''bank'',''Stock trading''">Stock trading</a></div>'
+	'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 	'</div>'
 	
 	'<div class="dialog_menu">'
 		'<p>·The financial center is formed with the development of the economic center, and it is also the highest form of the economic center.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Vice President`s Office":
+	'<div class ="show_menu"><img src="images\NPC\YH\pics\副行长室.jpg" height="492"></div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Me: The president asked me to find out the corrupt elements in the bank... It`s a bit difficult.…</p>'
+		'<p>·<<$YH.name>>:<<$Protagonist`s_surname>>Sir, that`s not right<<$Protagonist`s_surname>>Vice President... are you free?<a href="exec:gt ''Bank_event'',''YH_Fuck_B7''">-Knock on the door</a></p>'
 	'</div>'
 end
 
@@ -64,28 +79,168 @@ if $ARGS[0]="Stock trading":
 		if stockPharmaceuticalC>0:'·<a href="exec:money+=stockPharmaceuticalN*stockPharmaceuticalC & stockPharmaceuticalC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
 		if money>=stockPharmaceuticalN: '·<a href="exec:stockPharmaceuticalC=money/stockPharmaceuticalN & money-=stockPharmaceuticalC*stockPharmaceuticalN & stockPharmaceuticalB=stockPharmaceuticalN  & gt ''bank'',''Stock trading''">Full warehouse￥</a>·'
 		'</p>'
-		
-		'<p>【Empire Entertainment】 Current Price：<<stockentertainmentN>> Bid price：<<stockentertainmentB>> </p>'
-		'<p>【Imperial Health】 Current Price：<<stockhealthN>> Bid price：<<stockhealthB>> </p>'
-		'<p>【Imperial Energy】 Current Price：<<stockenergyN>> Bid price：<<stockenergyB>> </p>'
+		'<p>【Empire Entertainment】 Current Price：<<stockentertainmentN>> Bid price：<<stockentertainmentB>> Number of shares held：<<stockentertainmentC>>' 
+		if stockentertainmentC>0:'·<a href="exec:money+=stockentertainmentN*stockentertainmentC & stockentertainmentC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
+		if money>=stockentertainmentN*100 and stockentertainmentC=0: '·<a href="exec:stockentertainmentC=100 & money-=stockentertainmentN*100 & stockentertainmentB=stockentertainmentN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
+		'</p>'
+		'<p>【Imperial Health】 Current Price：<<stockhealthN>> Bid price：<<stockhealthB>> Number of shares held：<<stockhealthC>>' 
+		if stockhealthC>0:'·<a href="exec:money+=stockhealthN*stockhealthC & stockhealthC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
+		if money>=stockhealthN*100 and stockhealthC=0: '·<a href="exec:stockhealthC=100 & money-=stockhealthN*100 & stockhealthB=stockhealthN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
+		'</p>'
+		'<p>【Imperial Energy】 Current Price：<<stockenergyN>> Bid price：<<stockenergyB>> Number of shares held：<<stockenergyC>>' 
+		if stockenergyC>0:'·<a href="exec:money+=stockenergyN*stockenergyC & stockenergyC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
+		if money>=stockenergyN*100 and stockenergyC=0: '·<a href="exec:stockenergyC=100 & money-=stockenergyN*100 & stockenergyB=stockenergyN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
+		'</p>'
         '<p>【Contemplation Wine Company】 Current Price：<<stockWinecompanyN>> Bid price：<<stockWinecompanyB>> Number of shares held：<<stockWinecompanyC>>' 
         if stockWinecompanyC>0:'·<a href="exec:money+=stockWinecompanyN*stockWinecompanyC & stockWinecompanyC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
         if money>=stockWinecompanyN*100 and stockWinecompanyC=0: '·<a href="exec:stockWinecompanyC=100 & money-=stockWinecompanyN*100 & stockWinecompanyB=stockWinecompanyN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
         '</p>'
-        
-		'<p>·———Still in production for the time being——— </p>'
+	'</div>'
+End
+
+	
+if $ARGS[0]="Financial products":
+	'<div class ="show_menu"><img src="images\NPC\YH\pics\bank (<<rand(1,14)>>).jpg" height="492"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonG3"><a href="exec:gt ''Bank_event'',''YH_Fuck_Bank''">Listen to her introduction</a></div>'
+		if $YH.fund>=1:'<div class="buttonR"><a href="exec:gt ''bank'',''Fund loss''">The fund lost money</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Fund manager：<<$Protagonist`s_surname>>Sir, we are currently launching a monthly profit project with an annualized interest rate of up to200%Are you interested?</p>'
+		'<p>Me: So tall?</p>'
+		'<p>Fund Manager: Yes, I can introduce you when you come over.</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Fund loss":
+	'<div class ="show_menu"><img src="images\NPC\YH\pics\基金亏损.jpg" height="492"></div>'
+
+	'<div class="button_menu">'
+		'<div class="buttonG3"><a href="exec:gt ''Bank_event'',''YH_Fuck_Bank''">Shall I buy another order?</a></div>'
+		if $Bank_event_chainA!4 or $Bank_event_chainB>=1:'<div class="buttonP"><a href="exec:gt ''bank'',''Manager Liyi''">Call your manager!</a></div>'
+		if $Bank_event_chainA=4:'<div class="buttonR"><a href="exec:gt ''Bank_event'',''YH_Fuck_be''">Call your manager!</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Me: What`s the matter?Lose money as soon as you buy it99%？！You are not a financial product!Is it a scam?</p>'
+		'<p>Fund manager：<<$Protagonist`s_surname>>Sir, don`t worry... I believe you can turn a loss into a profit by buying another order for your little sister ❤Now is the perfect time to copy the bottom!</p>'
 	'</div>'
 end
 
 
+if $ARGS[0]="Manager Liyi":
+	 $YH.available=1
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\YH\vids\立绘.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		if $Bank_event_chainB<=6:'<div class="button"><a href="exec:gt ''Bank_event'',''YH_Fuck_km''">Go to the vice president`s office</a></div>'
+		if $Bank_event_chain=1 or $Bank_event_chain=2:'<div class="button"><a href="exec:gt ''bank'',''Dialogue with the credit manager''">Keep up with her</a></div>'
+		if $Bank_event_chainB=1:'<div class="button"><a href="exec:gt ''bank'',''Investigate bad debts''">Investigate bad debts with her</a></div>'
+		if $Bank_event_chainB=3:'<div class="button"><a href="exec:gt ''bank'',''Men`s room monitor''">Go to the men`s room to monitor</a></div>'
+		if $Bank_event_chainB=6:'<div class="buttonR"><a href="exec:gt ''Bank_event'',''Board of Directors of the head office''">Board of Directors of the head office</a></div>'
+		if $Bank_event_chainB>=7:'<div class="buttonS"><a href="exec:gt ''Bank_event'',''YH_Fuck_B7''">Go to my office</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		if $Bank_event_chainB>=7:'<p>Me: Now I am the deputy governor... Do you want to go to my office to sit down?</p>'
+		if $Bank_event_chain>=0:'<p><<$YH.name>>: Okay, okay, Vice President... I... I`ll be right over……</p>'
+		if $Bank_event_chain=1 or $Bank_event_chain=2:'<p>Credit manager: Come with me!</p>'
+	'</div>'
+end
+
+if $ARGS[0]="Dialogue with the credit manager":
+	if $Bank_event_chain=1:$Bank_event_chain=2
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\YH\vids\km1-1.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Manager of the credit department: The deputy governor temporarily pressed this matter and did not report it to the governor!</p>'
+		'<p><<$YH.name>>: Um...please thank him for me…</p>'
+		'<p>Credit manager: I have some good news, tonight23I`ll tell you when we meet in the paradise escort.</p>'
+		'<p><<$YH.name>>: Paradise escorts?What kind of place to meet in Kabukicho?</p>'
+		'<p>Credit manager: What`s the matter?Don`t want to put this5Will the billion bad debts be recovered?</p>'
+		'<p><<$YH.name>>: Ok...I see…</p>'
+	'</div>'
+end
 
 
+if $ARGS[0]="Investigate bad debts":
+	if $Bank_event_chainB=1:$Bank_event_chainB=2
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\YH\vids\调查.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:gt ''City_hall''">I can go by myself</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Me: What did you find?</p>'
+		'<p><<$YH.name>>: We put5A one-time loan of 100 million... was handed over to Dongtian Iron and Steel Plant.But the factory director applied for bankruptcy liquidation immediately after confirming the receipt of the payment... This is too wrong.…</p>'
+		'<p>Me: Indeed, why don`t we go on a field trip?</p>'
+		'<p><<$YH.name>>: Good idea... its factory site is in the suburbs, do you want to go with me?</p>'
+	'</div>'
+end
 
 
+if $ARGS[0]="Men`s room monitor":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\YH\vids\B0.webm" type=''video/webm;''></video></div>'
+        '</div>'
 
+	'<div class="button_menu">'
+		if week_day=3:'<div class="buttonPu2"><a href="exec:gt ''bank'',''Men`s room monitor2''">He`s here</a></div>'else:'<div class="buttonS"><a href="exec:gt ''Bank_event'',''YH_Fuck_B4''">Push her out</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p><<$YH.name>>: What did you find?</p>'
+		'<p>Me: His secretary said that the credit manager will have a secret deal with the factory director on Wednesday…</p>'
+		'<p><<$YH.name>>: So we are going to hide here now?Are you simply waiting?</p>'
+		'<p>I：…………</p>'
+	'</div>'
+end
 
+if $ARGS[0]="Men`s room monitor2":
+	if $Bank_event_chainB=3:$Bank_event_chainB=4
+     '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\YH\vids\B1.webm" type=''video/webm;''></video></div>'
+        '</div>'
 
-
+	'<div class="button_menu">'
+		'<div class="buttonS"><a href="exec:gt ''Bank_event'',''YH_Fuck_B4''">Celebrate</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
+	'</div>'
+	
+	'<div class="dialog_menu">'
+		'<p>Credit department manager: I have changed my mind... Recently, the bank has been checked more strictly, and I cannot accept remittances.</p>'
+		'<p>？？？: Then what do you want?My good friend…</p>'
+		'<p>Credit department manager: A written contract for the transfer of title deeds... I know you have purchased more than a dozen luxury villas overseas, and that`s what you used.5billion…</p>'
+		'<p>？？？: Your news is quite well-informed... Are you too greedy?</p>'
+		'<p>Credit manager: Listen, if you don`t have me, you won`t be able to borrow at all.5Billion, your books are full of holes.If it weren`t for me<<$YH.name>>That idiot woman put pressure on…</p>'
+		'<p>？？？: Okay, okay, I see.Send me the basic information such as the transferee`s name, address, passport number, etc.…</p>'
+		'<p>Credit manager: You will be tomorrow afternoon14:00, Find a stranger and let him put it in the subway stationA9522In the locker of the number…</p>'
+		'<p>？？？: You need to act like007Is it the same?</p>'
+		'<p>Credit manager: Idiot!How can you be careless!Be careful that the wall has ears!</p>'
+	'</div>'
+end
 
 --- bank ---------------------------------
 

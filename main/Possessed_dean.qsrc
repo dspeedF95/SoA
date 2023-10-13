@@ -16,7 +16,7 @@ a=0 & q=0
 		'<div class="action">'
 			if hour <=6 or hour>=21:
 			'<a class="photo" data-title="Master bedroom" href="exec:minutes+=5 & gt ''Possessed_dean'',''Master bedroom''"><img class="img_stretch" src="images\NPC\YZ\pics\主卧0.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="Master bedroom" href="exec:minutes+=5 & gt ''Possessed_dean'',''Master bedroom''"><img class="img_stretch" src="images\NPC\YZ\pics\主卧1.jpg"></a>'
 			end
 		'</div>'
@@ -24,7 +24,7 @@ a=0 & q=0
 		'<div class="action">'
 			if hour <=6 or hour>=21:
 			'<a class="photo" data-title="Living room"><img class="img_stretch" src="images\NPC\YZ\pics\客厅0.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="Living room" href="exec:minutes+=5 & gt ''Possessed_dean'',''Living room''"><img class="img_stretch" src="images\NPC\YZ\pics\客厅1.jpg"></a>'
 			end
 		'</div>'
@@ -32,7 +32,7 @@ a=0 & q=0
 		'<div class="action">'
 			if hour <=6 or hour>=21:
 			'<a class="photo" data-title="Sons` room" href="exec:minutes+=5 & gt ''Possessed_dean'',''Son`s room0''"><img class="img_stretch" src="images\NPC\YZ\pics\儿子房间0.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="Sons` room" href="exec:minutes+=5 & gt ''Possessed_dean'',''Son`s room1''"><img class="img_stretch" src="images\NPC\YZ\pics\儿子房间1.jpg"></a>'
 			end
 		'</div>'
@@ -72,7 +72,7 @@ if $args[0]="Master bedroom":
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\YZ\vids\睡觉0.webm" type=''video/webm;''></video></div>'
 		'</div>'
-	else:
+	else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\YZ\vids\睡觉1.webm" type=''video/webm;''></video></div>'
@@ -81,7 +81,7 @@ if $args[0]="Master bedroom":
 	'<div class="button_menu">'
 		'<div class="buttonP"><a href="exec:gt ''Possessed_dean'',''masturbation''">Masturbate and sleep</a></div>'
 	if hour <=6 or hour>=21:
-		if $Thesecondsonfoundout=1:'<div class="buttonS"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Counterattack''">Light sleep</a></div>'else:'<div class="buttonGr"><a href="exec:">Light sleep</a></div>'
+		if $Thesecondsonfoundout=1:'<div class="buttonS"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Counterattack''">Light sleep</a></div>'else'<div class="buttonGr"><a href="exec:">Light sleep</a></div>'
 	end
 	'</div>'
 
@@ -117,7 +117,7 @@ if $args[0]="Son`s room0":
         '</div>'
 
 	'<div class="button_menu">'
-            if $YZ.bad>=65:'<div class="buttonPu2"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Night attack''">enter </a></div>'else:'<div class="buttonGr"><a href="exec:">enter </a></div>'
+            if $YZ.bad>=65:'<div class="buttonPu2"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Night attack''">enter </a></div>'else'<div class="buttonGr"><a href="exec:">enter </a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -168,7 +168,7 @@ if $args[0]="Criticize and educate them":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Possessed_dean'',''Master bedroom''">Back to the room</a></div>'
-		if $Thesecondsonfoundout=1 and $YZ.bad>=100:'<div class="buttonS"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Children`s roomSEX''">Let the eldest son stay</a></div>'else: '<div class="buttonGr"><a href="exec:">Let the eldest son stay</a></div>'
+		if $Thesecondsonfoundout=1 and $YZ.bad>=100:'<div class="buttonS"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Children`s roomSEX''">Let the eldest son stay</a></div>'else '<div class="buttonGr"><a href="exec:">Let the eldest son stay</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -203,7 +203,7 @@ if $args[0]="Daughter`s room0":
 		'</div>'
 
 	'<div class="button_menu">'
-		if $YZ.bad>=15 and  $Daughterfinishedwashing=1:'<div class="buttonPu3"><a href="exec:a=1 & q=0 & gt ''Dean_event'',''YZ_Fuck_Attacking women''">Night attack daughter </a></div>'else:'<div class="buttonGr"><a href="exec:">Night attack daughter </a></div>'
+		if $YZ.bad>=15 and  $Daughterfinishedwashing=1:'<div class="buttonPu3"><a href="exec:a=1 & q=0 & gt ''Dean_event'',''YZ_Fuck_Attacking women''">Night attack daughter </a></div>'else'<div class="buttonGr"><a href="exec:">Night attack daughter </a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -235,9 +235,9 @@ if $args[0]="Daughter`s room2":
 		'</div>'
 
 	'<div class="button_menu">'
-		if $Theattackonthegirlisover=1:'<div class="buttonPu1"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Female bedroom''">Alone with my daughter</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if $Finishwashingwithboyfriend=1:'<div class="buttonPu2"><a href="exec:gt ''Dean_event'',''YZ_Fuck_girlfriend''">Waiting outside the door</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if $Finishwithboyfriend=1:'<div class="buttonPu3"><a href="exec:gt ''Dean_event'',''YZ_Fuck_girlfriend3''">Bring tea in</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $Theattackonthegirlisover=1:'<div class="buttonPu1"><a href="exec:gt ''Dean_event'',''YZ_Fuck_Female bedroom''">Alone with my daughter</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $Finishwashingwithboyfriend=1:'<div class="buttonPu2"><a href="exec:gt ''Dean_event'',''YZ_Fuck_girlfriend''">Waiting outside the door</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $Finishwithboyfriend=1:'<div class="buttonPu3"><a href="exec:gt ''Dean_event'',''YZ_Fuck_girlfriend3''">Bring tea in</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -257,7 +257,7 @@ if $args[0]="bathroom":
 	'<div class="button_menu">'
 	
 		if 20>=hour and hour>=13 and $Metmydaughtersboyfriend=1:'<div class="button"><a href="exec:gt ''Dean_event'',''YZ_Fuck_bathroom2''">Who is peeking?</a></div>'
-		if $YZ.bad>=5 and hour>=18:'<div class="buttonP"><a href="exec:gt ''Dean_event'',''YZ_Fuck_bathroom''">Wash with my daughter</a></div>'else:'<div class="buttonGr"><a href="exec:">Wash with my daughter</a></div>'
+		if $YZ.bad>=5 and hour>=18:'<div class="buttonP"><a href="exec:gt ''Dean_event'',''YZ_Fuck_bathroom''">Wash with my daughter</a></div>'else'<div class="buttonGr"><a href="exec:">Wash with my daughter</a></div>'
 		'<div class="buttonGn"><a href="exec:minutes+=45 & gt ''Possessed_dean'',''Master bedroom''">Go back to the room</a></div>'
 	'</div>'
 

@@ -94,10 +94,10 @@ if $args[0]="President Liyi":
 	'<div class="button_menu">'
 		if $CT.home>0 and $Airportprogress<3:'<div class="button"><a href="exec:gt ''Empire_Dome'',''Cooperate with execution''">Assist and cooperate</a></div>'
 		if Heterochromaticplantseeds>0:
-			if Heterochromatic_plant_seedlings>0:'<div class="buttonGn5"><a href="exec:Heterochromatic_plant_seedlings-=1 & gt ''Empire_Event'',''Empire_Fuck_Heterochromatic seedlings''">Give her Heterochromatic_plant_seedlings</a></div>'else:'<div class="buttonGr"><a href="exec:">No Heterochromatic_plant_seedlings</a></div>'
+			if Heterochromatic_plant_seedlings>0:'<div class="buttonGn5"><a href="exec:Heterochromatic_plant_seedlings-=1 & gt ''Empire_Event'',''Empire_Fuck_Heterochromatic seedlings''">Give her Heterochromatic_plant_seedlings</a></div>'else'<div class="buttonGr"><a href="exec:">No Heterochromatic_plant_seedlings</a></div>'
 		end
-		if $CT.love>=50+my.charm*10:'<div class="buttonP"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_CTmassage''">Propose massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability<<50+my.charm*10>></a></div>'
-		if $CT.bad>=115+my.charm*15:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Toilet engage''">Drag it into the toilet to engage in</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<115+my.charm*15>></a></div>'
+		if $CT.love>=50+my.charm*10:'<div class="buttonP"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_CTmassage''">Propose massage</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability<<50+my.charm*10>></a></div>'
+		if $CT.bad>=115+my.charm*15:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Toilet engage''">Drag it into the toilet to engage in</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity<<115+my.charm*15>></a></div>'
 		
 		'<div class="button"><a href="exec:gt ''Empire_Group''">leave</a></div>'
 	'</div>'

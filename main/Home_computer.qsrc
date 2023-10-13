@@ -45,6 +45,9 @@ if $args[0] = 'Brushing Douyin':
 	if $Vibrato_num = $Vibrato_num2:
 		$Vibrato_num = rand(1,212)
 	end
+
+	if $WH.available=0:$Vibrato_num=50
+	
 	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">
@@ -91,19 +94,19 @@ if $args[0] = 'monitor':
 		'<div class="button"><a href="exec: $B=''仓库''  &  C=1 & gt ''Stepmom_event'',''Warehouse monitoring''">Pharmaceutical warehouse: Saturday 23:00~24:00</a></div>'
 		end 
 		
-		if $camera_SS>=1 :
+		if $camera_SS>=1:
 		'<div class="button"><a href="exec:gt ''Killer_Event'',''Kitchen monitoring''"><<$SS.name>> kitchen</a></div>'
 		end 
 
-		if $camera_LY>=1 :
+		if $camera_LY>=1:
 		'<div class="button"><a href="exec:gt ''Anchor_event'',''Kitchen monitoring''"><<$LY.name>> kitchen</a></div>'
 		end 
 		
-		if $Camera_MS>=1 :
+		if $Camera_MS>=1:
 		'<div class="button"><a href="exec: a=0 &gt ''Secretary_event'',''secretary_Fuck_visitor2''">Anonymous videotape</a></div>'
 		end 
 		
-		if XMVideotape>=2 :
+		if XMVideotape>=2:
 		'<div class="button"><a href="exec: a=0 & $XMNumberofdaysthevideohasnotbeenwatched=0 & gt ''School_girl_event'',''Tape selection''">Stolen photo<<$XM.name>></a></div>'
 		end 
 		
@@ -208,11 +211,11 @@ if $args[0] = 'Contact her':
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'
 		'<p>·Honk honk honk————</p>'
-		'<p>？？？: Hey, ow— You''re the free cosplay photographer, right? Let''s get one thing straight, I''ll take care of the costumes, and you''ll take care of the filming and post-production. I''m not pay a single penny, whether you like it or not. There are plenty of rookies who want to be my photographer.</p>'
+		'<p>???: Hey, ow— You''re the free cosplay photographer, right? Let''s get one thing straight, I''ll take care of the costumes, and you''ll take care of the filming and post-production. I''m not pay a single penny, whether you like it or not. There are plenty of rookies who want to be my photographer.</p>'
 		'<p>Me: Uh... that''s fine. Then it''s just for practice?</p>'
-		'<p>？？？: Can you do it or not? Don''t waste my time, rookie.</p>'
+		'<p>???: Can you do it or not? Don''t waste my time, rookie.</p>'
 		'<p>Me: Yes, ok!</p>'
-		'<p>？？？: Come to the university student union in the city to pick me up on weekends! You know where, right? Country bumpkin. If you dare to stand me up, I''ll expose you as a lousy greenhorn online.</p>'
+		'<p>???: Come to the university student union in the city to pick me up on weekends! You know where, right? Country bumpkin. If you dare to stand me up, I''ll expose you as a lousy greenhorn online.</p>'
          if $HZ_Event_coser=0:$HZ_Event_coser=1
 	'</div>'
 End
@@ -225,7 +228,7 @@ if $args[0] = 'Private message':
 		'</div>'
 	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
 	'<div class="button_menu">'
-		if money>=488:'<div class="buttonG"><a href="exec:money-=488 & gt ''Net_celebrity_Event'',''meet''">Meet 488￥</a></div>'else:'<div class="buttonGr"><a href="exec:">Meet 488￥</a></div>'
+		if money>=488:'<div class="buttonG"><a href="exec:money-=488 & gt ''Net_celebrity_Event'',''meet''">Meet 488￥</a></div>'else'<div class="buttonGr"><a href="exec:">Meet 488￥</a></div>'
 	'</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'

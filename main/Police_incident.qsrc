@@ -27,7 +27,7 @@ if $args[0]="JY_Event_bar":
 			'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''JY_Event_bar''">Observe words and colors </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">leave </a></div>'
 			'</div>'
@@ -82,7 +82,7 @@ if $args[0]="JY_Event_Incoming call":
 			'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''JY_Event_Incoming call''">Listen on </a></div>'
 		'</div>'
 
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''home''">Hang up </a></div>'
 			'</div>'
@@ -216,7 +216,7 @@ if $args[0]="JY_Fuck_barber":
             '<div class="button"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_barber''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Shopping_mall''">leave</a></div>'
             '</div>'
@@ -289,7 +289,7 @@ if $args[0]="JY_Fuck_Fitness person":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Shopping_mall''">leave</a></div>'
             '</div>'
@@ -340,7 +340,7 @@ if $args[0]="JY_Fuck_Teacher encounter":
             end
             if a=2:
             '<div class="buttonS2"><a href="exec:a=3 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">Go to the infirmary</a></div>'
-			if $Succubus_Energy>0:'<div class="buttonPu3"><a href="exec: $m=''FT_1'' & $ma=''Female teacher'' &a=0&q=0& gt ''Group_performation_event'',''Universal_Fuck_Hypnosis''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else:'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
+			if $Succubus_Energy>0:'<div class="buttonPu3"><a href="exec: $m=''FT_1'' & $ma=''Female teacher'' &a=0&q=0& gt ''Group_performation_event'',''Universal_Fuck_Hypnosis''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
             end
             if a=3:
             '<div class="buttonS3"><a href="exec:a=4 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">Check the injury</a></div>'
@@ -365,7 +365,7 @@ if $args[0]="JY_Fuck_Teacher encounter":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''university''">leave</a></div>'
             '</div>'
@@ -405,7 +405,7 @@ if $args[0]="Ask the teacher":
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\JY\vids\R0.webm" type=''video/webm;''></video></div>'
 		'</div>'
-		else:
+		else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\JY\vids\R1.webm" type=''video/webm;''></video></div>'
@@ -414,8 +414,8 @@ if $args[0]="Ask the teacher":
 
 		'<div class="button_menu">'
 			'<div class="button"><a href="exec: gt ''Police_incident'',''JY_Fuck_Utility room''">Take me to the utility room </a></div>'
-			if (week_day=3 or week_day=5) and hour>=16:'<div class="button"><a href="exec: gt ''Police_incident'',''JY_Fuck_badminton''">Take me to the badminton department </a></div>'else:'<div class="buttonGr"><a href="exec: ">Take me to the badminton department </a></div>'
-			if week_day=7:'<div class="button"><a href="exec: gt ''Police_incident'',''JY_Fuck_Psychological room''">Take me to the counseling room </a></div>'else:'<div class="buttonGr"><a href="exec: ">Take me to the counseling room </a></div>'
+			if (week_day=3 or week_day=5) and hour>=16:'<div class="button"><a href="exec: gt ''Police_incident'',''JY_Fuck_badminton''">Take me to the badminton department </a></div>'else'<div class="buttonGr"><a href="exec: ">Take me to the badminton department </a></div>'
+			if week_day=7:'<div class="button"><a href="exec: gt ''Police_incident'',''JY_Fuck_Psychological room''">Take me to the counseling room </a></div>'else'<div class="buttonGr"><a href="exec: ">Take me to the counseling room </a></div>'
 			'<div class="button"><a href="exec:gt ''university''">leave </a></div>'
 		'</div>'
 
@@ -465,7 +465,7 @@ if $args[0]="JY_Fuck_badminton":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''university''">leave</a></div>'
             '</div>'
@@ -539,7 +539,7 @@ if $args[0]="JY_Fuck_Psychological room":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''university''">leave</a></div>'
             '</div>'
@@ -604,7 +604,7 @@ if $args[0]="JY_Fuck_Utility room":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''university''">leave</a></div>'
             '</div>'
@@ -671,7 +671,7 @@ if $args[0]="JY_Fuck_Female teacher card":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Police_incident'',''Ask the teacher''">Hide</a></div>'
             '</div>'
@@ -710,7 +710,7 @@ if $args[0]="Gun-hunting suspect":
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\JY\vids\起因.webm" type=''video/webm;''></video></div>'
 		'</div>'
-		else:
+		else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\JB\vids\酒保.webm" type=''video/webm;''></video></div>'
@@ -731,7 +731,7 @@ if $args[0]="Gun-hunting suspect":
 			 '<p><<$JB.name>>: What was lost was a pistol, right?</p>'
 			 '<p><<$JY.name>>: That`s right!！Where is it?</p>'
 			 '<p><<$JB.name>>: Well, I owe a lot of loan sharks, if you can pay part of it for me…</p>'
-		 else:
+		 else
 			 '<p><<$JB.name>>: Thank you boss!</p>'
 			 '<p>I: After receiving the money, move your mouth quickly.</p>'
 			 '<p><<$JB.name>>: Fierce what?</p>'
@@ -752,7 +752,7 @@ if $args[0]="Ready to go":
 		'<div class="button_menu">'
 			if a=0:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Ready to go''">compromise </a></div>'
 			if a=1:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Ready to go''">In-depth search </a></div>'
-			if a=2:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Ready to go''">？？？ </a></div>'
+			if a=2:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Ready to go''">??? </a></div>'
 			if a=3:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Ready to go''">Try to talk </a></div>'
 			if a=4:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Ready to go''">Sneak attack her </a></div>'
 			if a=5:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Ready to go''">Fight to the death </a></div>'
@@ -780,19 +780,19 @@ if $args[0]="Ready to go":
 			 '<p>I: Shhh, someone is coming.</p>'
 			 end
 			if a=3:
-			 '<p>？？？: Who are you guys?This is private territory!</p>'
+			 '<p>???: Who are you guys?This is private territory!</p>'
 			 '<p>I: What you are holding in your hand...is a pistol, right?</p>'
 			 '<p><<$JY.name>>: It`s him…</p>'
 			 end
 			if a=4:
 			 '<p>I: Oh?Is it actually a woman?</p>'
-			 '<p>？？？: She is a cop, right?I recognize her!</p>'
+			 '<p>???: She is a cop, right?I recognize her!</p>'
 			 '<p>I: Can you put away the guy in your hand first?She is a police officer, and it is very dangerous to go off fire.</p>'
 			 '<p><<$JY.name>>: ………</p>'
-			 '<p>？？？: Who are you?</p>'
+			 '<p>???: Who are you?</p>'
 			 end
 			if a=5:
-			 '<p>？？？: Why don`t you look back?Don`t think I don`t know what you are thinking!</p>'
+			 '<p>???: Why don`t you look back?Don`t think I don`t know what you are thinking!</p>'
 			 '<p>Little brotherA: Big sister!Leave this girl to me!</p>'
 			 '<p><<$JY.name>>: Ah!！</p>'
 			 '<p>I: Damn it……</p>'
@@ -817,13 +817,13 @@ if $args[0]="JY_Fuck_Hypnosis":
     if a<13:
         '<div class="button_menu">'
             if q=0:
-            if $Succubus_Energy>=1:'<div class="buttonPu3"><a href="exec:$Succubus_Energy-=1 & a=1 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else:'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
+            if $Succubus_Energy>=1:'<div class="buttonPu3"><a href="exec:$Succubus_Energy-=1 & a=1 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
             '<div class="button"><a href="exec:gt ''TV_station''">leave</a></div>'
             end
             if q=1:
             '<div class="buttonPu4"><a href="exec:a=3 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Debugging sensitivity</a></div>'
             '<div class="buttonPu4"><a href="exec:a=2 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Blowjob for me</a></div>'
-            if $Succubus_Energy>=1:'<div class="buttonPu4"><a href="exec:$Succubus_Energy-=1 & a=4 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Pull and spray her❤❤</font></a></div>'else:else:'<div class="buttonGr"><a href="exec:">Pull and spray her❤❤</a></div>'
+            if $Succubus_Energy>=1:'<div class="buttonPu4"><a href="exec:$Succubus_Energy-=1 & a=4 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Pull and spray her❤❤</font></a></div>'elseelse'<div class="buttonGr"><a href="exec:">Pull and spray her❤❤</a></div>'
  
             end
             if q=2:
@@ -832,8 +832,8 @@ if $args[0]="JY_Fuck_Hypnosis":
             '<div class="buttonPu5"><a href="exec:a=7 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Press it on the table.</a></div>'
             end
             if q=3:
-            if $Succubus_Energy>=2:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=2 & a=9 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Internal shot ❤❤❤</font></a></div>'else:else:'<div class="buttonGr"><a href="exec:">Internal shot ❤❤❤</a></div>'
-            if $Succubus_Energy>=1:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & a=8 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Fuck her❤❤</font></a></div>'else:else:'<div class="buttonGr"><a href="exec:">Fuck her❤❤</a></div>'
+            if $Succubus_Energy>=2:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=2 & a=9 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Internal shot ❤❤❤</font></a></div>'elseelse'<div class="buttonGr"><a href="exec:">Internal shot ❤❤❤</a></div>'
+            if $Succubus_Energy>=1:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & a=8 & gt ''Police_incident'',''JY_Fuck_Hypnosis''"><font color="#FF00FF">Fuck her❤❤</font></a></div>'elseelse'<div class="buttonGr"><a href="exec:">Fuck her❤❤</a></div>'
             '<div class="buttonPu5"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Hypnosis''">Bukkake</a></div>'
 
             end
@@ -848,7 +848,7 @@ if $args[0]="JY_Fuck_Hypnosis":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''TV_station''">leave</a></div>'
             '</div>'
@@ -895,7 +895,7 @@ if $args[0]="JY_Fuck_Coercion":
         '<div class="button_menu">'
             '<div class="buttonGn"><a href="exec:a+=1 & gt ''Police_incident'',''JY_Fuck_Coercion''">Mandatory viewing</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Police_incident'',''Before execution''">。。。</a></div>'
             '</div>'
@@ -906,10 +906,10 @@ if $args[0]="JY_Fuck_Coercion":
 
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
-           '<p>？？？: What a little beauty, let our brothers have a good time!</p>'
+           '<p>???: What a little beauty, let our brothers have a good time!</p>'
            '<p><<$JY.name>>:<<$Protagonist`s_name>>...don`t look at me…</p>'
             if a>=1:
-           '<p>？？？: Are you ready to be fucked by us?！</p>'
+           '<p>???: Are you ready to be fucked by us?！</p>'
            '<p><<$JY.name>>:Stop it<<$Panting>></p>'
             end
          '</div>'
@@ -917,8 +917,8 @@ if $args[0]="JY_Fuck_Coercion":
 
     if a=9:
          '<div class="dialog_menu">'
-             '<p>？？？: What about that man?</p>'
-           '<p><<$JY.name>>:<<$Protagonist`s_surname>> …<<$Protagonist`s_name>>…...run…</p>'
+             '<p>???: What about that man?</p>'
+           '<p><<$JY.name>>:<<$Protagonists_surname>> …<<$Protagonist`s_name>>…...run…</p>'
          '</div>'
     end
 
@@ -952,9 +952,9 @@ if $args[0]="Before execution2":
 		'<div class="button_menu">'
 			if a!3:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Before execution2''">。。。 </a></div>'
 			if a>=3:
-			if $TZ.bad>=500-$TZ.love:'<div class="buttonB"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$TZ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">？？A certain director</a></div>'
-            if $QT.bad>=500-$QT.love:'<div class="buttonB"><a href="exec:$m=''QT'' & $ma=$QT.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$QT.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">？？A certain announcer</a></div>'
-            if $JM.bad>=500-$JM.love:'<div class="buttonB"><a href="exec:$m=''JM'' & $ma=$JM.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$JM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">？？A certain stepmother</a></div>'
+			if $TZ.bad>=500-$TZ.love:'<div class="buttonB"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$TZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">？？A certain director</a></div>'
+            if $QT.bad>=500-$QT.love:'<div class="buttonB"><a href="exec:$m=''QT'' & $ma=$QT.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$QT.name>></a></div>'else'<div class="buttonGr"><a href="exec:">？？A certain announcer</a></div>'
+            if $JM.bad>=500-$JM.love:'<div class="buttonB"><a href="exec:$m=''JM'' & $ma=$JM.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$JM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">？？A certain stepmother</a></div>'
 			'<div class="button"><a href="exec:a+=1 & gt ''hospital''">Discharged from the hospital </a></div>'
 			end
 		'</div>'
@@ -1003,7 +1003,7 @@ if $args[0]="Thegunhuntisover":
         '<div class="button_menu">'
             '<div class="buttonP"><a href="exec:a+=1 & gt ''Police_incident'',''Thegunhuntisover''">Close your eyes</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''subway''">leave</a></div>'
             '</div>'
@@ -1021,7 +1021,7 @@ if $args[0]="Thegunhuntisover":
     if a=1:
          '<div class="dialog_menu">'
              '<p>I: ………</p>'
-           '<p><<$JY.name>>:<<$Protagonist`s_surname>> …<<$Protagonist`s_name>>...thank you…</p>'
+           '<p><<$JY.name>>:<<$Protagonists_surname>> …<<$Protagonist`s_name>>...thank you…</p>'
            $JY.love+=50
            if $Gun_hunting_incident_chain=4:$Gun_hunting_incident_chain=5
            $Thegunhuntisover=1
@@ -1058,7 +1058,7 @@ if $args[0]="JY_Fuck_After the date2":
             end
             if a=5:
 
-            if $JY.bad>=50:'<div class="buttonS4"><a href="exec:a=6 & gt ''Police_incident'',''JY_Fuck_After the date2''">Insert the meat hole</a></div>'else:'<div class="button"><a href="exec:gt ''Residential_area''">Stop</a></div>'
+            if $JY.bad>=50:'<div class="buttonS4"><a href="exec:a=6 & gt ''Police_incident'',''JY_Fuck_After the date2''">Insert the meat hole</a></div>'else'<div class="button"><a href="exec:gt ''Residential_area''">Stop</a></div>'
             end
 
             if a=6:
@@ -1071,7 +1071,7 @@ if $args[0]="JY_Fuck_After the date2":
             '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_After the date2''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1129,8 +1129,8 @@ if $args[0]="date":
 		'<div class="button_menu">'
 			'<div class="buttonS1"><a href="exec:gt ''Police_incident'',''JY_Fuck_Ice cream''">Go eat ice cream </a></div>'
 			'<div class="buttonS2"><a href="exec:gt ''Police_incident'',''JY_Fuck_Have a drink''">Go for a drink </a></div>'
-			if $JY.bad>=50:'<div class="buttonS3"><a href="exec:gt ''Police_incident'',''JY_Fuck_After the date2''">Go to the hotel </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
-			if $JY.Onbase=1:'<div class="buttonS4"><a href="exec:gt ''Police_incident'',''Fish until night''">Fish until night </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
+			if $JY.bad>=50:'<div class="buttonS3"><a href="exec:gt ''Police_incident'',''JY_Fuck_After the date2''">Go to the hotel </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
+			if $JY.Onbase=1:'<div class="buttonS4"><a href="exec:gt ''Police_incident'',''Fish until night''">Fish until night </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
 			'<div class="button"><a href="exec:gt ''subway''">leave </a></div>'
 		'</div>'
 
@@ -1155,7 +1155,7 @@ if $args[0]="JY_Fuck_Ice cream":
             end
             if a=1:
 
-            if $JY.bad>=30:'<div class="buttonS2"><a href="exec:a=2 & gt ''Police_incident'',''JY_Fuck_Ice cream''">Lean down</a></div>'else:'<div class="buttonGn"><a href="exec:gt ''Shopping_mall''">leave</a></div>'
+            if $JY.bad>=30:'<div class="buttonS2"><a href="exec:a=2 & gt ''Police_incident'',''JY_Fuck_Ice cream''">Lean down</a></div>'else'<div class="buttonGn"><a href="exec:gt ''Shopping_mall''">leave</a></div>'
 
             end
             if a!3 and 2<=q and q<=5:
@@ -1168,7 +1168,7 @@ if $args[0]="JY_Fuck_Ice cream":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Police_incident'',''JY_Fuck_Ice cream''">Ejaculation</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Shopping_mall''">leave</a></div>'
             '</div>'
@@ -1233,7 +1233,7 @@ if $args[0]="JY_Fuck_office":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
             '</div>'
@@ -1300,7 +1300,7 @@ if $args[0]="JY_Fuck_Have a drink":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1359,7 +1359,7 @@ if $args[0]="JY_Fuck_In the car":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="buttonP"><a href="exec:gt ''Police_incident'',''date''">Continue dating</a></div>'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
@@ -1400,8 +1400,8 @@ if $args[0]="Fish until night":
         
 		'<div class="button_menu">'
 			'<div class="buttonP"><a href="exec:gt ''Police_incident'',''Go to her house''">Go to her house </a></div>'
-			if $JY.bad>=150:'<div class="buttonR2"><a href="exec:gt ''Police_incident'',''JY_Fuck_Corrections Room''">Sneak back to the correctional room </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
-			if $JY.bad>=250:'<div class="buttonR4"><a href="exec:gt ''Police_incident'',''JY_Fuck_WC''">Go to the public toilet to do it </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
+			if $JY.bad>=150:'<div class="buttonR2"><a href="exec:gt ''Police_incident'',''JY_Fuck_Corrections Room''">Sneak back to the correctional room </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
+			if $JY.bad>=250:'<div class="buttonR4"><a href="exec:gt ''Police_incident'',''JY_Fuck_WC''">Go to the public toilet to do it </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
 			'<div class="button"><a href="exec:gt ''Residential_area''">leave </a></div>'
 		'</div>'
 
@@ -1441,7 +1441,7 @@ if $args[0]="JY_Fuck_Corrections Room":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Police_station''">leave</a></div>'
             '</div>'
@@ -1505,7 +1505,7 @@ if $args[0]="JY_Fuck_WC":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1549,8 +1549,8 @@ if $args[0]="Go to her house":
 
 		'<div class="button_menu">'
 			'<div class="buttonS1"><a href="exec:$Tlocation=1 & gt ''Police_incident'',''JY_Fuck_Universal port''">Here </a></div>'
-			if $JY.bad>=200:'<div class="buttonS3"><a href="exec:$Tlocation=2 &gt ''Police_incident'',''JY_Fuck_Universal port''">Go cook </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
-			if $JY.bad>=300:'<div class="buttonS5"><a href="exec:$Tlocation=3 &gt ''Police_incident'',''JY_Fuck_Universal port''">Go take a shower </a></div>'else:'<div class="buttonGr"><a href="exec:">？？？ </a></div>'
+			if $JY.bad>=200:'<div class="buttonS3"><a href="exec:$Tlocation=2 &gt ''Police_incident'',''JY_Fuck_Universal port''">Go cook </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
+			if $JY.bad>=300:'<div class="buttonS5"><a href="exec:$Tlocation=3 &gt ''Police_incident'',''JY_Fuck_Universal port''">Go take a shower </a></div>'else'<div class="buttonGr"><a href="exec:">??? </a></div>'
 			'<div class="button"><a href="exec:gt ''Residential_area''">leave </a></div>'
 		'</div>'
 
@@ -1582,7 +1582,7 @@ if $args[0]="JY_Fuck_Universal port":
 
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec: gt ''Police_incident'',''Take a break''">Go to the living room to rest</a></div>'
             '</div>'
@@ -1623,9 +1623,9 @@ if $args[0]="Take a break":
 
 		'<div class="button_menu">'
 			if $JY.love>=200:'<div class="buttonS1"><a href="exec:gt ''Police_incident'',''JY_Fuck_Pure love''">Pure loveSEX </a></div>'
-			if $JY.bad>=400-$JY.love:'<div class="buttonS2"><a href="exec:gt ''Police_incident'',''JY_Fuck_JK''">Wear funJK </a></div>'else:'<div class="buttonGr"><a href="exec:">fun?？ </a></div>'
-			if Essential_oil>0 and MGF>0:'<div class="buttonS3"><a href="exec:MGF-=1 & Essential_oil-=1 &gt ''Police_incident'',''JY_Fuck_Essential oil''">Apply Essential_oil&McGovern </a></div>'else:'<div class="buttonGr"><a href="exec:">Apply Essential_oil&McGovern </a></div>'
-			if $JY.love>=my.charm*25 and $JY.bad>=my.charm*25:'<div class="buttonS5"><a href="exec:gt ''Police_incident'',''JY_Fuck_ZZ''">Ultimate sex </a></div>'else:'<div class="buttonGr"><a href="exec:">Ultimate?？ </a></div>'
+			if $JY.bad>=400-$JY.love:'<div class="buttonS2"><a href="exec:gt ''Police_incident'',''JY_Fuck_JK''">Wear funJK </a></div>'else'<div class="buttonGr"><a href="exec:">fun?？ </a></div>'
+			if Essential_oil>0 and MGF>0:'<div class="buttonS3"><a href="exec:MGF-=1 & Essential_oil-=1 &gt ''Police_incident'',''JY_Fuck_Essential oil''">Apply Essential_oil&McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Apply Essential_oil&McGovern </a></div>'
+			if $JY.love>=my.charm*25 and $JY.bad>=my.charm*25:'<div class="buttonS5"><a href="exec:gt ''Police_incident'',''JY_Fuck_ZZ''">Ultimate sex </a></div>'else'<div class="buttonGr"><a href="exec:">Ultimate?？ </a></div>'
 			'<div class="button"><a href="exec:gt ''Residential_area''">leave </a></div>'
 		'</div>'
 
@@ -1671,7 +1671,7 @@ if $args[0]="JY_Fuck_JK":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1740,7 +1740,7 @@ if $args[0]="JY_Fuck_Pure love":
             '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_Pure love''">Wipe her clean</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1808,7 +1808,7 @@ if $args[0]="JY_Fuck_Essential oil":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1879,7 +1879,7 @@ if $args[0]="JY_Fuck_ZZ":
             '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_ZZ''">afterwards</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                     '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1947,7 +1947,7 @@ if $args[0]="JY_Fuck_basement":
 			'<div class="buttonP"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_basement''">dialogue</a></div>'
 			end
 		'</div>'
-		else:
+		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''Police_station'',''Touch the fish''">Take her to eat</a></div>'
 			'</div>'

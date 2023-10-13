@@ -1,0 +1,291 @@
+# cheat_menu
+if $args[0] = 'test':
+	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
+	'<div class="show_menu">'
+		'<img src="images\place\测试.jpg" width="854">'
+	'</div>'
+	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
+	'<div class="button_menu">
+		<div class="button"><a href="exec: minutes+=30 & gt ''cheat_menu'',''True test''">Insist on entering</a></div>
+	</div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
+	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>·This room is for programmers/The place to test the game is not where you, a player, should come!</p>'
+		'<p>·This room is for programmers/The place to test the game is not where you, a player, should come!</p>'
+		'<p>·This room is for programmers/The place to test the game is not where you, a player, should come!</p>'
+	'</div>'
+End
+
+if $args[0] = 'True test':
+	a=0
+	q=0
+
+	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
+	'<div class="show_menu">'
+		'<img src="images\place\测试.jpg" width="854">'
+	'</div>'
+	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
+	'<div class="button_menu">'
+		'<div class="buttonG1"><a href="exec: money+=3000000">Add money</a></div>'
+		'<div class="buttonG"><a href="exec: mymax[energy]=1000">Set Max Energy to 1000</a></div>'
+		'<div class="buttonG"><a href="exec: my.ethics -=100">Lower your ethics/depravity by 100</a></div>'
+		'<div class="buttonG"><a href="exec: my.charm=15 & my.intelligence=15 & my.Physical_strength=15">Max personal variables sensibly (charm/int/str)</a></div>'
+		'<div class="buttonG"><a href="exec: my.cooking=10">Max cooking</a></div>'
+		
+		'<div class="buttonG5"><a href="exec: minutes+=30 & gt ''cheat_menu'',''True test2''">Next</a></div>'
+	'</div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
+	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+ 		'<p>·Cheats are used at own risk. They might break the game (the light cheats here probably won`t).</p>'
+	'</div>'
+	
+End
+
+if $args[0] = 'True test2':
+	a=0
+	q=0
+
+	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
+	'<div class="show_menu">'
+		'<img src="images\place\测试.jpg" width="854">'
+	'</div>'
+	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
+	'<div class="button_menu">'
+				
+		if Empirelevel>0:'<div class="buttonG"><a href="exec: Empirelevel=10 & gt ''cheat_menu''">Go to Empire Level 10</a></div>'
+		if $Enteringaconveniencestoreforthefirsttime=1: '<div class="buttonG"><a href="exec:gt ''Empire_Dome'',''President Liyi3''">Skip the convenience store grind</a></div>'
+		if $Enteringaconveniencestoreforthefirsttime=1: '<div class="buttonG"><a href="exec:gt ''cheat_menu'',''Convenience Store Easy''">Convenience Store - Full Benefits</a></div>'
+		'<div class="buttonG"><a href="exec: plant+=50">Seeds for sister (+50)</a></div>'
+		'<div class="buttonG"><a href="exec: gt ''cheat_menu'',''Console''">Console</a></div>'
+		'<div class="buttonG5"><a href="exec: minutes+=30 & gt ''cheat_menu'',''Woman cheat''">HEAVY CHEATS (probably game breaking)</a></div>'
+		'<div class="buttonG"><a href="exec: minutes+=30 & gt ''cheat_menu'',''True test''">Back</a></div>'
+	'</div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
+	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+ 		'<p>·Cheats are used at own risk. They might break the game (the light cheats here probably won`t).</p>'
+	'</div>'
+	
+End
+
+if $args[0] = 'Console':
+    $command = $TRIM($LCASE($input('CONSOLE, FOR DEBUG, USE AT YOUR OWN PERIL')))
+    if mid($command,1,1) = '@':
+        dynamic $mid($command,2)
+    elseif instr($command, ' ') > 0:
+        msg 'invalid input (contains whitespace): use @ prefix for commands'
+    else
+        dynamic "msg " + $command
+    end
+    gs 'cheat_menu', 'True test2'
+end
+
+if $args[0] = 'Convenience Store Easy':
+	'<div class="show_menu">'
+		'<img src="images\place\测试.jpg" width="854">'
+	'</div>'
+	
+	'<div class="button_menu">'
+		if $ConvenienceStoreEasyModeMoney = 0:
+			'<div class="buttonG5"><a href="exec: $ConvenienceStoreEasyModeMoney = 1 & gt ''cheat_menu'', ''Convenience Store Easy''">Enable Max Profits</a></div>'
+		else
+			'<div class="buttonG5"><a href="exec: $ConvenienceStoreEasyModeMoney = 0 & gt ''cheat_menu'', ''Convenience Store Easy''">Disable Max Profits</a></div>'
+		end
+		
+		if $ConvenienceStoreEasyModePraise = 0:
+			'<div class="buttonG5"><a href="exec: $ConvenienceStoreEasyModePraise = 1 & gt ''cheat_menu'', ''Convenience Store Easy''">Enable Max Praise</a></div>'
+		else
+			'<div class="buttonG5"><a href="exec: $ConvenienceStoreEasyModePraise = 0 & gt ''cheat_menu'', ''Convenience Store Easy''">Disable Max Praise</a></div>'
+		end
+		
+	'</div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
+	'<div class="dialog_menu">'
+ 		'<p>This cheat lets you keep profits and/or priase full. A combination of these 2 should let you experience all scene in the convenience store.</p>'
+	'</div>'
+end
+
+if $args[0] = 'Woman cheat':
+
+	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
+	'<div class="show_menu">'
+		'<img src="images\place\测试.jpg" width="854">'
+	'</div>'
+	
+	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''cheat_menu'', ''Woman cheat2'' ">Set Love/Depravity to 1000 (all chars)</a></div>'
+	'</div>'
+	'<div class="options_back"><a href="exec:gt $loc,$metka"><div class="settings_back_menu_cheat"></div></a></div>'
+	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>·	This will probably break everything, fair warning.	</p>'
+		'<p>·It will not open up characters/locations you havent opened but when you get there, you won`t have to grind</p>'
+		'<p>·</p>'
+	'</div>'
+End
+
+if $args[0] = 'Woman cheat2':
+
+!Theres no character array setup for some reason and I dont want to add something the original dev cant handle so we do it pleb way
+
+	$JM.love = 1000
+	$JJ.love = 1000
+	$MM.love = 1000
+	$DZ.love = 1000
+	$RION.love = 1000
+	$TS.love = 1000
+	$HS.love = 1000
+	$YZ.love = 1000
+	$NK.love = 1000
+	$ZX.love = 1000
+	$SF.love = 1000
+	$YS.love = 1000
+	$XZ.love = 1000
+	$FXZ.love = 1000
+	$SW.love = 1000
+	$XY.love = 1000
+	$ZL.love = 1000
+	$LJ.love = 1000
+	$ZJ.love = 1000
+	$WQ.love = 1000
+	$HZ.love = 1000
+	$DYZ.love = 1000
+	$YJ.love = 1000
+	$SY.love = 1000
+	$JZ.love = 1000
+	$JY.love = 1000
+	$SS.love = 1000
+	$OX.love = 1000
+	$JK.love = 1000
+	$DL.love = 1000
+	$XS.love = 1000
+	$WN.love = 1000
+	$EDM.love = 1000
+	$YDM.love = 1000
+	$NY.love = 1000
+	$MS.love = 1000
+	$WH.love = 1000
+	$TZ.love = 1000
+	$BD.love = 1000
+	$LY.love = 1000
+	$QT.love = 1000
+	$XM.love = 1000
+	$PW.love = 1000
+	$SSYY.love = 1000
+	$QB.love = 1000
+	$GJ.love = 1000
+	$SX.love = 1000
+	$BGH.love = 1000
+	$ZXG.love = 1000
+	$DD.love = 1000
+	$TJ.love = 1000
+	$DC.love = 1000
+	$MMS.love = 1000
+	$CH.love = 1000
+	$RQ.love = 1000
+	$LXS.love = 1000
+	$GS.love = 1000
+	$SZ.love = 1000
+	$CT.love = 1000
+	$JYB.love = 1000
+	$CJ.love = 1000
+	$LB.love = 1000
+	$XN.love = 1000
+	$LEI.love = 1000
+	$QJ.love = 1000
+	$YY.love = 1000
+	$HB.love = 1000
+	$YA_dAPc.love = 1000
+
+	$JM.bad = 1000
+	$JJ.bad = 1000
+	$MM.bad = 1000
+	$DZ.bad = 1000
+	$RION.bad = 1000
+	$TS.bad = 1000
+	$HS.bad = 1000
+	$YZ.bad = 1000
+	$NK.bad = 1000
+	$ZX.bad = 1000
+	$SF.bad = 1000
+	$YS.bad = 1000
+	$XZ.bad = 1000
+	$FXZ.bad = 1000
+	$SW.bad = 1000
+	$XY.bad = 1000
+	$ZL.bad = 1000
+	$LJ.bad = 1000
+	$ZJ.bad = 1000
+	$WQ.bad = 1000
+	$HZ.bad = 1000
+	$DYZ.bad = 1000
+	$YJ.bad = 1000
+	$SY.bad = 1000
+	$JZ.bad = 1000
+	$JY.bad = 1000
+	$SS.bad = 1000
+	$OX.bad = 1000
+	$JK.bad = 1000
+	$DL.bad = 1000
+	$XS.bad = 1000
+	$WN.bad = 1000
+	$EDM.bad = 1000
+	$YDM.bad = 1000
+	$NY.bad = 1000
+	$MS.bad = 1000
+	$WH.bad = 1000
+	$TZ.bad = 1000
+	$BD.bad = 1000
+	$LY.bad = 1000
+	$QT.bad = 1000
+	$XM.bad = 1000
+	$PW.bad = 1000
+	$SSYY.bad = 1000
+	$QB.bad = 1000
+	$GJ.bad = 1000
+	$SX.bad = 1000
+	$BGH.bad = 1000
+	$ZXG.bad = 1000
+	$DD.bad = 1000
+	$TJ.bad = 1000
+	$DC.bad = 1000
+	$MMS.bad = 1000
+	$CH.bad = 1000
+	$RQ.bad = 1000
+	$LXS.bad = 1000
+	$GS.bad = 1000
+	$SZ.bad = 1000
+	$CT.bad = 1000
+	$JYB.bad = 1000
+	$CJ.bad = 1000
+	$LB.bad = 1000
+	$XN.bad = 1000
+	$LEI.bad = 1000
+	$QJ.bad = 1000
+	$YY.bad = 1000
+	$HB.bad = 1000
+	$YA_dAPc.bad = 1000
+
+	!++++++++++++++++++主Main screen↓+++++++++++++++++++++++++++++++++++
+	'<div class="show_menu">'
+		'<img src="images\place\测试.jpg" width="854">'
+	'</div>'
+	
+	
+	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec: minutes+=30 & gt ''cheat_menu'', ''True test2''">Done</a></div>'
+	'</div>'
+	
+	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
+	'<div class="dialog_menu">'
+		'<p>README - DO NOT IGNORE</p>'
+		'<p>So this leads to some confusing scenes. But also, it only maxes the love/depravity of people you have already met (as they are reset to 0 on first meeting and triggering all first meetings breaks the game)</p>'
+		'<p>Therefore if you are getting messages that you need more love or depravity, come and click it again.</p>'
+	'</div>'
+End
+
+--- menu_option_showhalf ---------------------------------

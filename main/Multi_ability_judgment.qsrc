@@ -8,15 +8,16 @@ if Thereisnotriggerdatecount=0:
 	Thereisnotriggerdatecount=1
 end
 
-if V44check=0:
+if V46check=0:
 	if my.charm>=30:my.charm=9
+	$WH.available=0
 	!5+2+2+5+3=17
-	V44check=1
+	V46check=1
 end
 
 $figure[0]="vase" & $figure[1]="Weak can`t help the wind" & $figure[2]="Skinny monkey" & $figure[3]="Thin dog" & $figure[4]="Mao Rui" & $figure[5]="Fitness person"
-$figure[6]="strong" & $figure[7]="Burly" & $figure[8]="Mr. Bodybuilder" & $figure[9]="Bodybuilding star" & $figure[10]="Olympic champion" & $figure[11]="？？？" 
-$figure[12]="？？？" & $figure[13]="？？？" & $figure[14]="？？？" & $figure[15]="？？？" & $figure[16]="？？？" 
+$figure[6]="strong" & $figure[7]="Burly" & $figure[8]="Mr. Bodybuilder" & $figure[9]="Bodybuilding star" & $figure[10]="Olympic champion" & $figure[11]="???" 
+$figure[12]="???" & $figure[13]="???" & $figure[14]="???" & $figure[15]="???" & $figure[16]="???" 
 needExp_figure=my.Physical_strength *my.Physical_strength +3
 
 if Exp_figure>= needExp_figure:
@@ -29,8 +30,8 @@ end
 
 
 $intelligence[0]="Imbecile" & $intelligence[1]="idiot" & $intelligence[2]="Normal person" & $intelligence[3]="Be smart" & $intelligence[4]="Alert" & $intelligence[5]="Wisdom"
-$intelligence[6]="Little genius" & $intelligence[7]="genius" & $intelligence[8]="Just a little bit" & $intelligence[9]="See and know" & $intelligence[10]="Brilliant insight" & $intelligence[11]="？？？" 
-$intelligence[12]="？？？" & $intelligence[13]="？？？" & $intelligence[14]="？？？" & $intelligence[15]="？？？" & $intelligence[16]="？？？" 
+$intelligence[6]="Little genius" & $intelligence[7]="genius" & $intelligence[8]="Just a little bit" & $intelligence[9]="See and know" & $intelligence[10]="Brilliant insight" & $intelligence[11]="???" 
+$intelligence[12]="???" & $intelligence[13]="???" & $intelligence[14]="???" & $intelligence[15]="???" & $intelligence[16]="???" 
 needExp_intelligence=my.intelligence *my.intelligence*my.intelligence +9*my.intelligence
 
 if Exp_intelligence>= needExp_intelligence:

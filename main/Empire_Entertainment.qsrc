@@ -18,7 +18,7 @@ q=0
 		'<div class="action">'
 			'<a class="photo" data-title="Dance practice room" href="exec:minutes+=15 & gt ''Dance_room''"><img class="img_stretch" src="images\NPC\MM\pics\舞蹈房2.jpg"></a>'
 		'</div>'
-		else:
+		else
 		'<div class="action">'
 			'<a class="photo" data-title="Dance practice room" ><img class="img_stretch" src="images\place\舞蹈房.jpg"></a>'
 		'</div>'
@@ -66,7 +66,7 @@ if  $args[0]="talk":
              '<video preload="metadata" autoplay loop height="480">
              <source src="images\NPC\TS\vids\晚办公室.webm" type=''video/webm;''></video></div>'
          '</div>'
-	else:
+	else
 		'<div class ="show_menu"><img src="images\NPC\TS\pics\天使立绘.jpg" width="854"></div>'
 	end
 	
@@ -84,7 +84,7 @@ if  $args[0]="talk":
 		if $Draft_event_chain=4:'<div class="button"><a href="exec:minutes+=5 & gt ''Empire_Entertainment'',''Proposed draft4''">Entry: Draft competition</a></div>'
 		if Bigvillaforthefirsttime>0 and $Angel_event_chain<=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Empire_Entertainment'',''Dinner to celebrate''">Dinner to celebrate</a></div>'
 		if $Angel_event_chain>=2:'<div class="buttonPu1"><a href="exec:$m=''TS'' & $mcat=$TS.name & gt ''Task_event'',''Feeding task''">Feeding task</a></div>'
-		if $Succubus_Energy>0:'<div class="buttonPu3"><a href="exec: $m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Hypnosis''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else:'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
+		if $Succubus_Energy>0:'<div class="buttonPu3"><a href="exec: $m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Hypnosis''"><font color="#FF00FF">Hypnotize her❤❤</font></a></div>'else'<div class="buttonGr"><a href="exec:">Hypnotize her❤❤</a></div>'
 
 	'</div>'
 
@@ -198,7 +198,7 @@ if  $args[0]="Underground idol2":
 		if $oxhbao=0:
 		'<p>Me: Wow, the scale is not small....(It seems that the nipples can be seen vaguely)</p>'
 		'<p><<$ts.name>>: What is this, take a look at this one again.</p>'
-		else:
+		else
 		'<p>Me: Wow, my world is lit up!but...It seems that the quality is not very good either...There is no one comparable to you.</p>'
 		'<p><<$ts.name>>: Huh, that`s for sure.</p>'
 		'<p>Me: I should also experience it if I have the opportunity......</p>'
@@ -249,10 +249,10 @@ if  $args[0]="studio":
 	'<div class ="show_menu"><img src="images\NPC\OX\pics\摄影室.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if Idolphotographyseries=1:'<div class="buttonS1"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Play drums''">Idol costume</a></div>'else:'<div class="buttonGn"><a href="exec:">？？？</a></div>'
-		if Idolphotographyseries=2:'<div class="buttonS2"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Rem''">COSRem</a></div>'else:'<div class="buttonGn"><a href="exec:">？？？</a></div>'
-		if Idolphotographyseries=3:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Swimsuit''">Wear swimwear</a></div>'else:'<div class="buttonGn"><a href="exec:">？？？</a></div>'
-		if Idolphotographyseries=4:'<div class="buttonS5"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Coercion''">stranger</a></div>'else:'<div class="buttonGn"><a href="exec:">？？？</a></div>'
+		if Idolphotographyseries=1:'<div class="buttonS1"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Play drums''">Idol costume</a></div>'else'<div class="buttonGn"><a href="exec:">???</a></div>'
+		if Idolphotographyseries=2:'<div class="buttonS2"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Rem''">COSRem</a></div>'else'<div class="buttonGn"><a href="exec:">???</a></div>'
+		if Idolphotographyseries=3:'<div class="buttonS3"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Swimsuit''">Wear swimwear</a></div>'else'<div class="buttonGn"><a href="exec:">???</a></div>'
+		if Idolphotographyseries=4:'<div class="buttonS5"><a href="exec:minutes+=15 & gt ''Idol_Event'',''OX_Fuck_Coercion''">stranger</a></div>'else'<div class="buttonGn"><a href="exec:">???</a></div>'
 		
 !ds		if week_day>=6 and hour=13 and $CH.rice>=2:'<div class="buttonG"><a href="exec:minutes+=15 & gt ''Dealer_Event'',''Temporary studio''">Temporary studio</a></div>'
 		if hour=13 and $CH.rice>=2:'<div class="buttonG"><a href="exec:minutes+=15 & gt ''Dealer_Event'',''Temporary studio''">Temporary studio</a></div>'
@@ -410,8 +410,8 @@ if  $args[0]="View mail":
 
 	'<div class="dialog_menu">'
 		'<p><Email></p>'
-		'<p>？？？: Hello, take the liberty to interrupt, my husband was in a car accident not long ago... now he is in the hospital... to tell the truth... I have had enough of him!I originally wanted to be a young lady, but I never imagined that it would be my turn to work to pay for his hospitalization!</p>'
-		'<p>？？？: The money earned from working part-time to wash dishes is completely not enough for his expenses. My credit card has been cashed out in turns... I was the lead singer of the school band when I was a student. I hope your company can provide me with an electric guitar... and sign me!</p>'
+		'<p>???: Hello, take the liberty to interrupt, my husband was in a car accident not long ago... now he is in the hospital... to tell the truth... I have had enough of him!I originally wanted to be a young lady, but I never imagined that it would be my turn to work to pay for his hospitalization!</p>'
+		'<p>???: The money earned from working part-time to wash dishes is completely not enough for his expenses. My credit card has been cashed out in turns... I was the lead singer of the school band when I was a student. I hope your company can provide me with an electric guitar... and sign me!</p>'
 		'<p><<$TS.name>>: What do you think...?I have heard of this person, she used to be my senior sister!</p>'
 		'<p>I: I see what you mean…</p>'
 	'</div>'
@@ -438,10 +438,10 @@ if  $args[0]="Proposed draft4":
 
 	'<div class="button_menu">'
 		if  $Sisterisallowed=0: 
-			if mm_fans>=50:'<div class="button"><a href="exec:$Sisterisallowed=1 & gt ''Empire_Entertainment'',''Proposed draft4''">Bring<<$MM.name>></a></div>'else:'<div class="buttonGr"><a href="exec:"><<$MM.name>>Insufficient number of fans</a></div>'
+			if mm_fans>=50:'<div class="button"><a href="exec:$Sisterisallowed=1 & gt ''Empire_Entertainment'',''Proposed draft4''">Bring<<$MM.name>></a></div>'else'<div class="buttonGr"><a href="exec:"><<$MM.name>>Insufficient number of fans</a></div>'
 		 end
 		if $AllowtobringSF=0: '<div class="button"><a href="exec:$AllowtobringSF=1 & gt ''Empire_Entertainment'',''Proposed draft4''">Bring<<$SF.name>></a></div>'
-		if $AllowtobringSF=1 and $Sisterisallowed=1: '<div class="buttonG"><a href="exec:gt ''Empire_Entertainment'',''Departure registration''">Set off to sign up!</a></div>'else:'<div class="buttonGr"><a href="exec:">Set off to sign up!</a></div>'
+		if $AllowtobringSF=1 and $Sisterisallowed=1: '<div class="buttonG"><a href="exec:gt ''Empire_Entertainment'',''Departure registration''">Set off to sign up!</a></div>'else'<div class="buttonGr"><a href="exec:">Set off to sign up!</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Empire_Entertainment''">leave</a></div>'
 	'</div>'
 
@@ -461,7 +461,7 @@ if  $args[0]="Departure registration":
 	'<div class ="show_menu"><img src="images\place\竞演\出发报名.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if $QT.job=2:'<div class="buttonG"><a href="exec:minutes+=5 & $Draft_event_chain=5 & $Thecompetitionbegins=1 & gt ''TV_station''">90Tian Jing performance competition begins</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of announcer</a></div>'
+		if $QT.job=2:'<div class="buttonG"><a href="exec:minutes+=5 & $Draft_event_chain=5 & $Thecompetitionbegins=1 & gt ''TV_station''">90Tian Jing performance competition begins</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of announcer</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Empire_Entertainment''">Wait a minute</a></div>'
 	'</div>'
 
@@ -528,7 +528,7 @@ if  $args[0]="Recording studio":
 			
 		if albumnum<100:
 			'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Empire_Entertainment'',''Record music''">Record album<<albumnum>>%</a></div>'
-		else:
+		else
 			'<div class="buttonPu3"><a href="exec:$Universallocation=''演出1'' & fxnum=8 & 
 			$Generalselection1=''Go behind the scenes'' & $Generalselection2=''Fuck her'' & $Generalselection3=''Lift your thighs'' & $Generalselection4=''Accelerate thrusting'' &
 			$Generalselection5=''Sprint vigorously'' & $Generalselection6=''Ejaculation'' & $Generalselection7=''Stuff in the vibrating egg'' & $Generalselection8=''Continue the show'' &

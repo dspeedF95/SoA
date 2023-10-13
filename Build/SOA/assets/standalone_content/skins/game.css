@@ -1,0 +1,2354 @@
+﻿
+
+br {
+	display: none !important;
+}
+
+
+
+/*Global ============================================*/
+html, body {
+	color: #000;
+}
+html {
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: auto;
+	background-color:white;
+	background-size:cover;
+}
+body {
+	position:relative;
+	min-width: 1280px;
+	max-width: 1280px;
+	min-height: 720px;
+	max-height: 720px;
+	margin: 0px auto;
+	background-color: transparent;	
+	overflow: hidden;
+}
+.pass-line{margin-bottom:1em;}
+
+#qsp-main > div, #right-column > div{
+	/*float: left;*/
+	float: right;
+	
+}
+#qsp-main::after, #right-column::after{
+	content: ' ';
+	clear: both;
+}
+#left-column{
+	position: relative;
+    left: 0px;
+    top: 0px;
+    width: 854px;
+    /*height: 720px;*/
+	height: 480px;
+	font-family:COMIC SANS MS;
+}
+#left-column1{
+	position: relative;
+	line-height: 16px;
+    left: 0px;
+    top: 0px;
+    width: 854px;
+    /*height: 720px;*/
+	height: 800px;
+	font-family:黑体;
+text-align:left;	
+font-size: 16px;
+background: #E9D1FB;
+}
+
+
+#left-column2{
+	position: relative;
+line-height: 25px;
+    left: 0px;
+    top: 0px;
+    width: 820px;
+    /*height: 720px;*/
+	height: 480px;
+
+text-align:left;	
+font-size: 22px;
+font-family: 黑体;
+}
+
+#left-column998{
+	position: relative;
+	line-height: 18px;
+    left: 0px;
+    top: 0px;
+    width: 854px;
+    /*height: 720px;*/
+	height: 800px;
+	font-family:黑体;
+	height: 800px; /* 指定容器高度 */
+    overflow: auto; /* 添加滚动条 */
+text-align:left;	
+font-size: 16px;
+background: #E9D1FB;
+text-shadow: 0px 0px 20px #fff;
+}
+
+#left-column999{
+    position: relative;
+    line-height: 18px; /* 设置行高 */
+    left: 0px;
+    top: 0px;
+    width: 820px;
+    height: 480px;
+    text-align:left;
+    font-size: 17px;
+    font-family: 黑体;
+    margin-bottom: 10px; /* 设置段落之间的下边距为10px */
+    text-shadow: 0px 0px 20px #fff;
+}
+
+#right-column{
+	position: relative;
+	background:white;
+    left: 0px;
+    top: 0px;
+    width: 426px;
+    height: 240px;
+	
+}
+
+#right-columnNEW{
+	position: relative;
+	background:white;
+    left: 0px;
+    top: 0px;
+    width: 426px;
+    height: 240px;
+text-align:left;	
+font-size: 22px;
+font-family: 黑体;
+}
+
+.main{
+position: relative;
+	top:0;
+	left:0;
+	min-width: 1280px;
+	max-width: 1280px;
+	min-height: 720px;
+	max-height: 720px;
+}
+
+.start_menu{
+/*border:1px solid red;*/
+position: absolute;
+background:Azure;
+min-width: 800px;
+max-width: 800px;
+min-height: 600px;
+max-height: 600px;
+text-align:center;
+left:35%;
+top: 10%;
+background: rgba(17,34,51,0);
+overflow: auto;
+color: Yellow;
+font-size: 35px;
+font-family: SEGOE PRINT;
+}
+.start_menu_txt{
+/*border:1px solid red;
+left:4%;
+bottom: 25%;
+*/
+left:4%;
+top: 20%;
+position: absolute;
+background:Azure;
+text-align:center;
+margin:auto;
+background: rgba(17,34,51,0);
+overflow: auto;
+color: Black;
+font-size: 30px;
+font-family: 黑体;
+font-weight:854;
+}
+.start_act{
+/*border:1px solid red;*/
+position: relative;
+
+    right:200px;
+	top:0px;
+background:Azure;
+width:400px;
+height:30px;
+float:left;
+z-index: 3;
+background: rgba(17,34,51,0);
+}
+.start_menu a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки ARIAL BLACKT*/
+	color: DodgerBlue;
+	display: inline-block;
+	text-align:center;
+	font-size: 42px;
+	font-family: 黑体;
+	background: rgba(17,34,51,0);
+}
+.start_act1{
+/*border:1px solid red;*/
+position: relative;
+
+    right:200px;
+	top:350px;
+background:Azure;
+width:400px;
+height:100px;
+float:left;
+z-index: 3;
+background: rgba(17,34,51,0);
+}
+.start_menu b {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: OrangeRed;
+	display: inline-block;
+	text-align:center;
+	font-size: 42px;
+	font-family: ARIAL BLACKT;
+	background: rgba(17,34,51,0);
+}
+.e18{
+/*border:1px solid red;*/
+font-weight:900;
+color: Red;
+font-size: 35px;
+font-family: ARIAL BLACK;
+position: absolute;
+background:oldlace;
+text-align:center;
+left:0%;
+top: 0%;
+background: rgba(17,34,51,0);
+overflow: auto;
+}
+.version{
+/*border:1px solid red;*/
+color: Yellow;
+font-size: 25px;
+font-family: SEGOE PRINT;
+position: absolute;
+background:Azure;
+text-align:center;
+left:0%;
+ /*top: 100%;*/
+bottom: 0px;
+background: rgba(17,34,51,0);
+overflow: auto;
+}
+
+.show_menu{
+position: relative;
+margin: auto;
+text-align: center;
+background:black;
+background-color: transparent;
+
+width:854px;
+height:480px;
+border-radius:100%;
+overflow:hidden;
+float:left;
+background: rbga(66, 66, 66, 0.75);
+
+/*overflow: auto;*/
+}
+
+
+.show_menu2{
+position: relative;
+margin: auto;
+text-align: center;
+
+
+width:854px;
+height:480px;
+
+overflow:hidden;
+float:left;
+background-image: url(../content/menu/检查室.jpg);
+
+/*overflow: auto;*/
+}
+
+.show_menu3{
+position: relative;
+margin: auto;
+text-align: center;
+background:black;
+background-color: transparent;
+
+width:854px;
+height:480px;
+overflow:hidden;
+float:left;
+background: rbga(66, 66, 66, 0.75);
+background-image: url(../images/place/black.jpg);
+
+/*overflow: auto;*/
+}
+
+
+
+
+
+
+.img_stretch{
+
+width:100%;
+height:100%;
+}
+.img_stretch2{
+
+height:100%;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.video_stretch{
+width:100%;
+height:100%;
+}
+.video_stretch2{
+
+height:100%;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.dop_show_menus_right{
+border:1px solid red;
+position: absolute;
+background:Azure;
+width:80px;
+height:330px;
+left:410px;
+top: 0px;
+z-index: 2;
+background: rgba(17,34,51,.6);
+overflow: auto;
+text-align:left;
+}
+.dop_show_menu_right{
+/*border:1px solid red;*/
+position: relative;
+background:Azure;
+width:80px;
+height:50px;
+float:left;
+z-index: 3;
+background: rgba(17,34,51,.6);
+}
+.dop_button_txt_right{
+border:1px solid red;
+position: absolute;
+background:Azure;
+width:78px;
+height:10px;
+top:0px;
+left:0px;
+z-index: 2;
+background: rgba(17,34,51,.6);
+font-size: 10px;
+/*font-size-adjust: 0.005;*/
+}
+.time_menu{
+
+background:Azure;
+width:424px;
+height:70px;
+float:right;
+z-index: 1;
+font-family:neuropol_x_cnd_italic;
+text-align: center;
+font-size: 18px;
+line-height: 18px;
+}
+.time_menu p{
+margin-top: 10px; /* Отступ сверху */
+ margin-bottom: 10px; /* Отступ снизу */
+}
+.timer {
+font-weight: 600;
+text-align: center;
+font-size: 35px;
+font-family:Unispace-Bold;
+line-height: 28px;
+}
+.status_menu{
+
+background:Azure;
+width:424px;
+height:67px;
+float:right;
+z-index: 1;
+font-family:neuropol_x_cnd_italic;
+text-align: center;
+font-size: 18px;
+line-height: 18px;
+}
+.status_menu p{
+margin-top: 10px; /* Отступ сверху */
+ margin-bottom: 10px; /* Отступ снизу */
+}
+.option_menu{
+background:Azure;
+width:424px;
+height:62px;
+float:right;
+}
+.option_gg{
+margin: 2px;
+
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: hidden;
+background-image: url(../content/menu/gg.png);
+background-size: cover;
+}
+.option_journal{
+margin: 2px;
+background:white;
+width:60px;
+height:60px;
+float:left;
+overflow: hidden;
+background-image: url(../content/menu/Journal.png);
+background-size: cover;
+}
+.option_items{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: hidden;
+background-image: url(../content/menu/items.png);
+background-size: cover;
+}
+.option_settings{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/settings.png);
+background-size: cover;
+}
+.option_cheat{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/cheat.jpg);
+background-size: cover;
+}
+
+.option_15m{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/15m.png);
+background-size: cover;
+}
+
+.option_1h{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/时间1h.png);
+background-size: cover;
+}
+
+.option_3h{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/时间3h.png);
+background-size: cover;
+}
+
+.option_6h{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/时间6h.png);
+background-size: cover;
+}
+
+.option_24hjia{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/24小时+.png);
+background-size: cover;
+}
+
+
+.option_error{
+margin: 2px;
+background:white;
+width:60px;
+height:60px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/error.jpg);
+background-size: cover;
+}
+.option_nps{
+margin: 2px;
+background:Azure;
+width:47px;
+height:47px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/nps.png);
+background-size: cover;
+}
+
+.option_rebugs{
+margin: 2px;
+background:Azure;
+width:47px;
+height:47px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/rebugs.png);
+background-size: cover;
+position: relative;
+}
+
+.option_rebugs:hover::after {
+	text-decoration: none; /* 去除默认的下划线样式 */
+    content: attr(data-title);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    background: rgba(220, 220, 220, 0.73);
+    font-family: 黑体;
+    font-size: 10px;
+    border: 1px solid #333;
+    color: black; /* 设置字体颜色为黑色 */
+}
+
+.option_update{
+margin: 2px;
+background:Azure;
+width:47px;
+height:47px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/update.png);
+background-size: cover;
+position: relative;
+}
+
+.option_update:hover::after {
+	text-decoration: none; /* 去除默认的下划线样式 */
+    content: attr(data-title);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    background: rgba(220, 220, 220, 0.73);
+    font-family: 黑体;
+    font-size: 10px;
+    border: 1px solid #333;
+    color: black; /* 设置字体颜色为黑色 */
+}
+
+
+
+.option_mainnpcs{
+margin: 2px;
+background:Azure;
+width:47px;
+height:47px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/main_npcs.png);
+background-size: cover;
+position: relative;
+}
+
+.option_mainnpcs:hover::after {
+	text-decoration: none; /* 去除默认的下划线样式 */
+    content: attr(data-title);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    background: rgba(220, 220, 220, 0.73);
+    font-family: 黑体;
+    font-size: 10px;
+    border: 1px solid #333;
+    color: black; /* 设置字体颜色为黑色 */
+}
+
+.option_gonglue{
+margin: 2px;
+background:Azure;
+width:47px;
+height:47px;
+float:left;
+overflow: auto;
+background-image: url(../content/menu/攻略.png);
+background-size: cover;
+position: relative;
+}
+.option_gonglue:hover::after {
+	text-decoration: none; /* 去除默认的下划线样式 */
+    content: attr(data-title);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    background: rgba(220, 220, 220, 0.73);
+    font-family: 黑体;
+    font-size: 10px;
+    border: 1px solid #333;
+    color: black; /* 设置字体颜色为黑色 */
+}
+
+/*gg characteristics */
+
+.charac_gg_foto{
+line-height: 21px;
+margin: 2px;
+border:4px solid #930F7E;
+position: relative;
+background:#930F7E;
+
+/*background-color: transparent;*/
+width:300px;
+height:430px;
+overflow:hidden;
+float:left;
+/*background-image: url(../content/personages/pick<<intro_pick>>.jpg)*/;
+background-size: cover;
+}
+.charac_gg_param{
+margin: 2px;
+border:1px solid black;
+position: relative;
+background:black;
+background-color: transparent;
+width:818px;
+height:112px;
+overflow:auto;
+float:left;
+background-size: cover;
+}
+.charac_quest{
+/*margin: 2px;
+border:1px solid black;*/
+position: relative;
+background:black;
+background-color: transparent;
+width:818px;
+height:45px;
+overflow:hidden;
+float:left;
+background-size: cover;
+font-family:neuropol_x_cnd_italic;
+text-align: center;
+font-size: 22px;
+line-height: 12px;
+}
+.charac_quest_txt{
+
+position: relative;
+background:black;
+background-color: transparent;
+width:818px;
+height:100px;
+overflow:hidden;
+background:white;
+float:left;
+background-size: cover;
+text-align: center;
+font-family:neuropol_x_cnd_italic;
+font-size: 21px;
+}
+.charac_quest_txt1{
+
+position: relative;
+line-height: 20px;
+width:840px;
+height:250px;
+overflow:hidden;
+background:#E9D1FB;
+float:left;
+background-size: cover;
+text-align:left;
+font-family:neuropol_x_cnd_italic;
+font-size: 17px;
+}
+.charac_pic{
+margin: 2px;
+border:1px solid black;
+position: relative;
+background:black;
+background-color: transparent;
+width:47px;
+height:47px;
+overflow:hidden;
+float:left;
+text-align: center;
+font-size: 26px;
+}
+
+.charac_txt{
+margin: 2px;
+border:1px solid black;
+position: relative;
+background:black;
+background-color: transparent;
+width:347px;
+height:50px;
+overflow:hidden;
+float:left;
+text-align: center;
+}
+/*nps characteristics */
+.charac_npc_list{
+overflow-x: scroll;
+overflow-y:hidden;
+width:854px;
+height:720px;
+
+/*position: relative;
+background:black;
+background-color: transparent;*/
+float:left;
+overflow: auto;
+background:#FBCDCD;
+}
+
+.charac_nps_list_foto{
+float:left;
+vertical-align: left;
+margin: 2px;
+border:4px solid #FB7777;
+background:#FB7777;
+width:128px;
+height:228px;
+font-family:黑体;
+background-size: cover;
+text-align: center;
+}
+
+.charac_nps_info{
+position: relative;
+ width:848px;
+ height:710px;
+overflow:auto;
+float:left;
+background-size: cover;
+background:#E9D1FB;
+}
+
+.charac_nps_info999 {
+    position: relative;
+    width: 848px;
+    height: 710px;
+    overflow: auto;
+    float: left;
+    background: url(../content/menu/攻略地图.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE, Edge */
+    user-select: none;
+}
+
+.charac_nps_info15{
+position: relative;
+background:black;
+background-color: transparent;
+ width:848px;
+ height:510px;
+overflow:auto;
+float:left;
+background-size: cover;
+background:white;
+text-align: center;
+font-size: 36px;
+}
+
+.charac_nps_list_foto a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: #930F7E;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+}
+.charac_nps_foto{
+margin: 2px;
+border:1px solid black;
+position: relative;
+background:black;
+background-color: transparent;
+width:300px;
+height:430px;
+overflow:hidden;
+float:left;
+background-size: cover;
+}
+
+
+.tooltip {
+  position: relative;
+  text-decoration: underline;
+  color: gold; /* 将字体颜色设置为金色 */
+}
+
+.tooltip::after {
+  content: attr(data-title);
+  position: absolute;
+  top: 50%;
+  left: 100%; /* 调整提示框位置，设置为100%将其显示在"需要特殊处理的字"的正右侧 */
+  transform: translateY(-50%);
+  padding: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.tooltip:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.item_pic{
+margin: 2px;
+border:1px solid black;
+position: relative;
+background:black;
+background-color: transparent;
+width:117px;
+height:175px;
+overflow:hidden;
+float:left;
+text-align: center;
+font-size: 26px;
+}
+
+.actions_menu{
+
+/*background:white;*/
+background:Azure;
+width:424px;
+height:282px;
+float:left;
+/*overflow: hidden;*/
+overflow: auto;
+}
+.action{
+margin: 2px;
+background:Azure;
+width:97px;
+height:74px;
+top: 0px;
+float:left;
+}
+
+.action2{
+margin: 2px;
+background:Azure;
+width:76px;
+height:74px;
+top: 0px;
+float:left;
+}
+
+
+.actions_menu_quick{
+
+/*background:white;*/
+background:Azure;
+width:424px;
+height:280px;
+/*overflow: hidden;*/
+text-align: center;
+}
+
+.actions_menu_quick p,.actions_menu_quick a{
+text-align: center;
+line-height: 17px;
+font-size: 17px;
+}
+
+.charac_gg_foto{
+background:#930F7E;
+width:300px;
+height:400px;
+overflow:hidden;
+float:left;
+/*background-image: url(../content/personages/pick<<intro_pick>>.jpg)*/;
+background-size: cover;
+}
+
+.tags_menu{
+margin: 2px;
+border:1px solid black;
+/*background:white;*/
+background:Azure;
+width:50px;
+height:430px;
+float:left;
+/*overflow: hidden;*/
+overflow: auto;
+}
+.tag{
+margin: 1px;
+background:white;
+width:47px;
+height:47px;
+top: 0px;
+float:left;
+}
+
+.action a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+	display: inline-block;
+	text-align:left;
+	font-family: georgia;
+}
+.photo {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+   .photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left:0%; top:0%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+	background: rgba(220, 220, 220, 0.73); /* Полупрозрачный цвет фона */
+    font-family: 黑体; /* Гарнитура шрифта */
+    font-size: 15px; /* Размер текста подсказки */
+    border: 1px solid #333; /* Параметры рамки */
+   }
+   
+.dialog_menu{
+/*background:#CCE8CF;*/
+background:#dce8f4;
+width:854px;
+height:240px;
+float:left;
+overflow: auto;
+text-align:left;
+font-size: 18px;
+font-family:黑体;
+/*font-family: georgia;*/
+line-height: 21px;
+}
+.dialog_menu p{
+margin-top: 5px; /* Отступ сверху */
+margin-bottom: 5.8px; /* Отступ снизу */
+margin-left: 8px; /* Отступ слева */
+margin-right: 8px; /* Отступ слева */
+}
+.txt_angel{
+color:blue;
+}
+.txt_devil{
+color:red;
+}
+.txt_wm{
+color:#E40FDC;
+}
+.txt_wm2{
+color:#8A2BE2;
+}
+.txt_man{
+color:#4B0082;
+}
+.DP{
+color:#228B22;
+}
+.button_menu{
+/*background:FFFFFF;*/
+background:#C2E9FB;
+width:426px;
+height:240px;
+float:left;
+overflow: auto
+}
+
+.button{
+margin: 1px;s
+background:transparent;
+width:420px;
+height:25px;
+float:left;
+box-shadow: inset 0px 0px 30px Azure;
+border: 2px solid black;
+}
+
+.button:hover a {
+	color: #355c7d;
+
+}
+
+.button a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+    text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonS {
+  margin: 1px;
+  background: #F463C0;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #F463C0;
+}
+
+.buttonS a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonG{
+margin: 1px;
+background:#FFE022;
+width:420px;
+height:25px;
+float:left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FFE022;
+}
+
+.buttonG a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+
+.buttonR {
+  margin: 1px;
+  background: #d7000f;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #d7000f;
+}
+
+.buttonR a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonP{
+margin: 1px;
+background:#FFCCD7;
+width:420px;
+height:25px;
+float:left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FFCCD7;
+}
+
+.buttonP a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonGn {
+  margin: 1px;
+  background: #c5eacd;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #c5eacd;
+}
+
+.buttonGn a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonB{
+margin: 1px;
+background:#3FE0F7;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #3FE0F7;
+border: 2px solid black;
+}
+
+.buttonB a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonGr{
+margin: 1px;
+background:#8f8077;
+width:420px;
+height:25px;
+float:left;
+border: 2px solid black;
+box-shadow: inset 0px 0px 30px #FBE0CD;
+}
+
+.buttonGr a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+.buttonGn1 {
+  margin: 1px;
+  background: #EBFEDF;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #EBFEDF;
+}
+
+.buttonGn1 a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonGn2 {
+  margin: 1px;
+  background: #D2FDBF;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #D2FDBF;
+}
+
+.buttonGn2 a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonGn3 {
+  margin: 1px;
+  background: #B3F99E;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #B3F99E;
+}
+
+.buttonGn3 a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonGn4 {
+  margin: 1px;
+  background: #95F484;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #95F484;
+}
+
+.buttonGn4 a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonGn5 {
+  margin: 1px;
+  background: #98f768;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #66ED5D;
+}
+
+.buttonGn5 a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+
+
+.buttonQ{
+margin: 1px;
+background:#D5FF95;
+width:420px;
+height:25px;
+float:left;
+/*background-image: url(../content/skins/button.png);*/
+border: 2px solid black;
+}
+
+.buttonQ a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+
+
+.buttonS1{
+margin: 1px;
+background:#f8bbd0;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #f8bbd0;
+border: 2px solid black;
+}
+
+.buttonS1 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonS2{
+margin: 1px;
+background:#f48fb1;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #f48fb1;
+border: 2px solid black;
+}
+
+.buttonS2 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonS3{
+margin: 1px;
+background:#f06292;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #f06292;
+border: 2px solid black;
+}
+
+.buttonS3 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonS4{
+margin: 1px;
+background:#ec407a;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #ec407a;
+border: 2px solid black;
+}
+
+.buttonS4 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonS5 {
+  margin: 1px;
+  background: #e91e63;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0px 0px 30px #e91e63;
+}
+
+.buttonS5 a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonB1{
+margin: 1px;
+background:#B2EBF2;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #B2EBF2;
+border: 2px solid black;
+}
+
+.buttonB1 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonB2{
+margin: 1px;
+background:#80DEEA;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #80DEEA;
+border: 2px solid black;
+}
+
+.buttonB2 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonB3{
+margin: 1px;
+background:#4DD0E1;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #4DD0E1;
+border: 2px solid black;
+}
+
+.buttonB3 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonB4{
+margin: 1px;
+background:#26C6DA;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #26C6DA;
+border: 2px solid black;
+}
+
+.buttonB4 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.buttonB5{
+margin: 1px;
+background:#00BCD4;
+width:420px;
+height:25px;
+float:left;
+box-shadow: 0px 0px 30px #00BCD4;
+border: 2px solid black;
+}
+
+.buttonB5 a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: black;
+        text-indent: 10px;
+	margin-top: 2px;
+	width: 406px;
+	display: inline-block;
+	text-align:left;
+	font-family:黑体;
+	 /*font-family: Verdana;*/
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+.buttonR1 {
+margin: 1px;
+background: #FFB299;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FFB299;
+}
+
+.buttonR1 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonR2 {
+margin: 1px;
+background: #FF7F66;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FF7F66;
+}
+
+.buttonR2 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonR3 {
+margin: 1px;
+background: #FF4E3F;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FF4E3F;
+}
+
+.buttonR3 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonR4 {
+margin: 1px;
+background: #FF0002;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FF0002;
+}
+
+.buttonR4 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonR5 {
+margin: 1px;
+background: #DB0014;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #DB0014;
+}
+
+.buttonR5 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonG1 {
+margin: 1px;
+background: #FEFBCE;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FEFBCE;
+}
+
+.buttonG1 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonG2 {
+margin: 1px;
+background: #FEF59D;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FEF59D;
+}
+
+.buttonG2 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonG3 {
+margin: 1px;
+background: #FEF883;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FEF883;
+}
+
+.buttonG3 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonG4 {
+margin: 1px;
+background: #FEF464;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FEF464;
+}
+
+.buttonG4 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonG5 {
+margin: 1px;
+background: #FEF031;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #FEF031;
+}
+
+.buttonG5 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonPu1 {
+margin: 1px;
+background: #E497FB;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #E497FB;
+}
+
+.buttonPu1 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonPu2 {
+margin: 1px;
+background: #CA62F4;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #CA62F4;
+}
+
+.buttonPu2 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonPu3 {
+margin: 1px;
+background: #AD3BEA;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #AD3BEA;
+}
+
+.buttonPu3 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonPu4 {
+margin: 1px;
+background: #8401DD;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #8401DD;
+}
+
+.buttonPu4 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+.buttonPu5 {
+margin: 1px;
+background: #6600BE;
+width: 420px;
+height: 25px;
+float: left;
+border: 2px solid black;
+box-shadow: 0px 0px 30px #6600BE;
+}
+
+.buttonPu5 a {
+text-decoration: none;
+color: black;
+text-indent: 10px;
+margin-top: 2px;
+width: 406px;
+display: inline-block;
+text-align: left;
+font-family: 黑体;
+font-size: 18px;
+font-weight: 600;
+}
+
+
+.buttonD1 {
+  margin: 1px;
+  background: #FF0000;
+  width: 420px;
+  height: 25px;
+  float: left;
+  border: 2px solid black;
+  box-shadow: 0 0 30px #FF0000;
+  transition: background-color 0.5s, box-shadow 0.3s; /* 添加过渡效果 */
+}
+
+.buttonD1:hover a {
+  color: white; /* 鼠标悬停时字体颜色变为黑色 */
+}
+
+.buttonD1 a {
+  text-decoration: none;
+  color: black;
+  text-indent: 10px;
+  margin-top: 2px;
+  width: 406px;
+  display: inline-block;
+  text-align: left;
+  font-family: 黑体;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+
+/*options*/
+.options_buttons{
+background:white;
+width:854px;
+height:440px;
+float:left;
+overflow: auto;
+text-align:left;
+font-size: 18px;
+font-family:COMIC SANS MS;
+/*font-family: Verdana;*/
+line-height: 20px;
+}
+.options_back{
+/*border:1px solid black;*/
+background:white;
+width:200px;
+height:100px;
+float:right;
+overflow: auto
+}
+/*settings*/
+.settings_show_menu{
+border:1px solid black;
+margin: 4px;
+background:white;
+width:854px;
+height:510px;
+float:left;
+overflow: hidden;
+/*background: rbga(66, 66, 66, 0.75);*/
+background-image: url(../content/menu/depravity.jpg);
+z-index: 1;
+/*overflow: auto;*/
+}
+
+.settings_save_menu{
+position:absolute;
+    left:200px;
+	top:300px;
+margin: 4px;
+background:white;
+width:200px;
+height:200px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/save.png);
+}
+.settings_load_menu{
+position:absolute;
+    left:880px;
+	top:300px;
+margin: 4px;
+background:white;
+width:200px;
+height:200px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/DownloadIcon.png);
+}
+
+.settings_ZZ{
+position:absolute;
+    left:450px;
+	top:150px;
+margin: 4px;
+
+width:400px;
+height:484px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/ZZ.png);
+}
+
+
+.settings_more_info{
+margin: 4px;
+background:white;
+width:200px;
+height:200px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/more_info.jpg);
+}
+.settings_en_ru{
+margin: 4px;
+background:white;
+width:200px;
+height:200px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/en_ru.jpg);
+}
+.settings_back_menu{
+position:absolute;
+    left:1000px;
+	top:550px;
+margin-left: 84px;
+margin-top: 4px;
+background:white;
+width:128px;
+height:128px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/back.png);
+}
+.settings_back_menu_cheat{
+position:absolute;
+    left:1000px;
+	top:550px;
+margin-left: 84px;
+margin-top: 4px;
+background:transparent;
+width:128px;
+height:128px;
+float:left;
+overflow: hidden;
+float:left;
+background-image: url(../content/menu/back.png);
+}
+.settings_back_menu1{
+position:absolute;
+    left:660px;
+	top:0px;
+margin-left: 84px;
+margin-top: 4px;
+background:Azure;
+width:100px;
+height:100px;
+float:left;
+overflow: hidden;
+float:left;
+z-index: 400;
+background-image: url(../content/menu/gg-info.png);
+}
+.settings_back_menu2{
+	position:absolute;
+    right:820px;
+	top:345px;
+}
+
+.settings_back_menuGIF{
+	position:absolute;
+	bottom:0;
+    right:0;
+    max-width:325px;
+    height:236px;
+	border: 2px solid #F0FFFF;
+}
+
+
+/* controls link*/
+.control{
+	overflow: hidden;
+}
+.control > a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/* main content blur */
+#dialog-overlay.blur{
+  -webkit-filter: blur(5px);
+}
+.black{
+
+color:black;
+}
+.red{
+
+color:red;
+}
+.green{
+
+color:green;
+}
+.blue{
+
+color:blue;
+}
+.bold{
+
+	font-weight: 600;
+}
+
+.purple{
+color:purple;
+}
+.Pink{
+color:Pink;
+}
+.lightcoral{
+color:lightcoral;
+}
+
+
+
+
+/* End Global =======================================*/
+
+
+/* End Nav block ==================================================*/
+
+/* Dialogs ============================================*/
+#qsp-dialog-msg,
+#qsp-dialog-input,
+#qsp-dialog-error,
+#qsp-dialog-save-slots {
+	display: none;
+}
+/* 195 */
+
+/* ГѓВђГ‚ВЎГѓвЂГўв‚¬ЕЎГѓВђГ‚ВёГѓВђГ‚В»ГѓВђГ‚Вё ГѓВђГ‚ВєГѓВђГ‚ВѕГѓВђГ‚ВЅГѓвЂГўв‚¬ЕЎГѓВђГ‚ВµГѓВђГ‚В№ГѓВђГ‚ВЅГѓВђГ‚ВµГѓвЂГўвЂљВ¬ГѓВђГ‚В° ГѓВђГ‚ВґГѓВђГ‚ВёГѓВђГ‚В°ГѓВђГ‚В»ГѓВђГ‚ВѕГѓВђГ‚ВіГѓВђГ‚В° */
+#qsp-dialog-msg,
+#qsp-dialog-input,
+#qsp-dialog-save-slots,
+#qsp-dialog-error  {
+	z-index: 500;
+    position: absolute;
+	top: 0;
+	left: 0;
+    width: 1280px;
+    height: 720px;
+	background-color: transparent;
+}
+#qsp-dialog-msg > .qsp-overlay,
+#qsp-dialog-input > .qsp-overlay,
+#qsp-dialog-save-slots > .qsp-overlay,
+#qsp-dialog-error > .qsp-overlay  {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	background-color: transparent;
+}
+
+#qsp-dialog-msg > .skin-dialog-centering,
+#qsp-dialog-input > .skin-dialog-centering,
+#qsp-dialog-save-slots > .skin-dialog-centering,
+#qsp-dialog-error > .skin-dialog-centering  {
+	position: absolute;
+    width: 508px;
+    top: 360px;
+    left: 640px;
+    margin: -150px 0 0 -250px;
+    z-index: 501;
+    background-color: transparent;
+}
+
+#skin-dialog-msg-container, 
+#skin-dialog-input-container,
+#qsp-dialog-save-slots-container,
+#skin-dialog-error-container{
+	width: 500px;
+    background:  #fff;
+	border-radius: 0px;
+	border: 4px outset rgba(16, 16, 16, 0.14);
+    padding-top: 25px;
+}
+#skin-dialog-error-container{
+	border: 4px outset red;
+}
+#skin-dialog-msg-container > .skin-dialog-background, 
+#skin-dialog-input-container > .skin-dialog-background, 
+#qsp-dialog-save-slots-container > .skin-dialog-background, 
+#skin-dialog-error-container > .skin-dialog-background{
+	display: none;
+}
+#skin-dialog-msg-bottom-block,
+#skin-dialog-input-bottom-row,
+#skin-dialog-error-bottom-row {
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+#skin-dialog-msg-bottom-wrapper,
+#skin-dialog-input-bottom-wrapper,
+#skin-save-slots-wrapper,
+#skin-dialog-error-bottom-wrapper {	
+	text-align: center;
+}
+.skin-button-ok {
+	display: inline-block;
+    min-width: 92px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 1.6em;
+}
+.skin-button-ok{
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	-webkit-border-radius:0px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color: #333;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.skin-button-ok:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+
+/* save */
+.qsp-save-slot-enabled.qsp-button , .qsp-save-slot-disabled.qsp-button{
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+#autosave-holder {
+	background-color: #fff;
+    padding: 5px;
+}
+
+/* msg & error */
+#skin-dialog-msg-top-block,
+#skin-dialog-error-top-row {
+    width: 450px;
+    margin: 0 auto;
+	min-height: 50px;
+    max-height: 150px;
+    overflow: auto;
+}
+#qsp-dialog-msg-content,
+#qsp-dialog-error-content  {
+	text-align: center;
+    padding: 0 16px 0 0;
+    font-size: 1.3em;
+}
+
+/* input */
+#qsp-dialog-input-content {
+	text-align: center;
+    padding: 0 16px 0 0;
+    font-size: 1.3em;
+}
+#skin-dialog-input-top-row {
+    width: 450px;
+    margin: 0 auto;
+	min-height: 50px;
+    max-height: 150px;
+    overflow: auto;
+}
+#skin-dialog-input-middle-row{
+	padding-top: 10px;
+}
+
+#skin-dialog-input-top-wrapper,
+#skin-dialog-input-middle-wrapper,
+#skin-dialog-input-bottom-wrapper { 
+	
+	text-align: center;
+}
+
+#qsp-dialog-input-content,
+#qsp-dialog-input-text,
+#skin-dialog-input-button-ok {
+	display: inline-block;
+}
+#qsp-dialog-input-text {
+	width: 200px;
+    /* height: 25px; */
+    font-size: 1.2em;
+    padding: 2px 0;
+}
+
+/* End Dialogs =======================================*/

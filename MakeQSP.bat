@@ -10,7 +10,7 @@ set QSPGUI=QSP\Player-video\qspgui.exe
 set QGEN=QSP\QGen4\QGen.exe
 
 :: The file that will be generated or open
-set QSPFILE=SOA_EE.qsp
+set QSPFILE=SOA_466.qsp
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -55,7 +55,7 @@ if defined NOT_FOUND (
 )
 
 echo.
-echo ACTIONS: (B)uild  (R)un  (F)ull  (Q)Gen  (E)xit
+echo ACTIONS: (B)uild .qsp file (G)enerate .qsrc files (C)reate .qproj file (R)un  (F)ull  (Q)Gen (E)xit
 echo.
 set /p action=Choose an action:
 
@@ -64,6 +64,8 @@ if defined QSPFILE (
 	if %action% == r goto run
 	if %action% == f goto build
 	if %action% == q goto qgen
+	if %action% == c goto create
+	if %action% == g goto generate
 )
 
 if %action% == e goto exit
@@ -76,8 +78,8 @@ echo.
 echo Building ...
 
 @ECHO ON
-python txtmerge.py main SOA_EE.txt
-txt2gam.exe SOB_CE.txt %QSPFILE% > nul
+py txtmerge.py main soa466.txt
+txt2gam.exe soa466.txt %QSPFILE% > nul
 @ECHO OFF
 
 echo.
@@ -99,5 +101,25 @@ echo.
 echo Running ...
 
 if defined CP_TO ( start %QSPGUI% %CP_TO%\%QSPFILE% ) else ( start %QSPGUI% %QSPFILE% )
+
+:create
+echo.
+echo Creating .qproj file ...
+
+@ECHO ON
+python qprojgen.py main SOA_466.qproj
+@ECHO OFF
+
+goto menu
+
+:generate
+echo.
+echo Creating .qsrc files ...
+
+@ECHO ON
+python txtsplit_fromtxt.py soa466.txt main
+@ECHO OFF
+
+goto menu
 
 :exit

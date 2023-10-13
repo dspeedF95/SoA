@@ -76,6 +76,9 @@ if $ARGS[0]="":
    !#
    if $Mysteriousstring='·—·ωη▌Λ▋▋ςΨφΩ':gt'mysterious','Color code4'	
    if $Mysteriousstring='·—·ωη▌Λ▋▋ςΨφΘ':gt'mysterious','Color code4'	
+   if $Mysteriousstring='·—·ΩΩΩΩΩΩΩΩΩΩ':gt'mysterious','Color code5'	
+   if $Mysteriousstring='·—·ΘΘΘΘΘΘΘΘΘΘ':gt'mysterious','Color code6'	
+   
    !#
 	
    
@@ -136,10 +139,10 @@ if $ARGS[0]="Color code3":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·Citizens` Urbanconstructionsatisfaction can be rewritten：</p>'
-		'<p>·<a href="exec:Urbanconstructionsatisfaction=999 & gt ''mysterious''">【+999】</a></p>'
-		'<p>·<a href="exec:Urbanconstructionsatisfaction=0 & gt ''mysterious''">【Reset to0】</a></p>'
-		'<p>·<a href="exec:Urbanconstructionsatisfaction=-999 & gt ''mysterious''">【-999】</a></p>'
+		'<p>·Citizens` urban construction satisfaction can be rewritten：</p>'
+		'<p>·<a href="exec:Urban construction satisfaction=999 & gt ''mysterious''">【+999】</a></p>'
+		'<p>·<a href="exec:Urban construction satisfaction=0 & gt ''mysterious''">【Reset to0】</a></p>'
+		'<p>·<a href="exec:Urban construction satisfaction=-999 & gt ''mysterious''">【-999】</a></p>'
 	'</div>'
 End
 
@@ -194,12 +197,40 @@ if $ARGS[0]="Cai Airport":
 	'</div>'
 End
 
+if $ARGS[0]="Color code5":
+    $Mysteriousstring='【Please do not disclose the trigger method·Otherwise I will change it and no longer make it public】'
+    if dogteam=0:dogteam=1 
+	'<div class ="show_menu">'
+	'<img src="images\videos\gif\改变.gif" width="854" height="480">'
+	'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
 
+	'<div class="dialog_menu">'
+		'<p>·I really don`t know how to unlock the warden!Who will help me!</p>'
+		'<p>·Suddenly a bolt of lightning struck you!</p>'
+		'<p>·Now I can go directly to the warden`s office.</p>'
+	'</div>'
+End
 
+if $ARGS[0]="Color code6":
+    $Mysteriousstring='【Please do not disclose the trigger method·Otherwise I will change it and no longer make it public】'
+    $Gun_hunting_incident_chain=2
+	'<div class ="show_menu">'
+	'<img src="images\videos\gif\改变.gif" width="854" height="480">'
+	'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
+	'</div>'
 
-
-
+	'<div class="dialog_menu">'
+		'<p>·<<$JY.name>>The task line has been reset</p>'
+		'<p>·Now I can go to the bartender again to ask for specialty smoothies.</p>'
+	'</div>'
+End
 
 
 --- mysterious ---------------------------------
-

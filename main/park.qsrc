@@ -57,7 +57,7 @@ if $ARGS[0]="":
 		'<div class ="show_menu"><img src="images\videos\杂\park<<$Random_number>>.jpg"  height="480"></div>'
 		$Randomeventsinthepark=1
 
-	else:
+	else
 		if $Random_number<=5 and $times_of_day!'':
 		'<div class ="show_menu"><img src="images\videos\杂\parkN<<$Random_number>>.jpg"  height="480"></div>'
 		$Randomeventsinthepark=1
@@ -67,7 +67,7 @@ if $ARGS[0]="":
 	end
 	
 	'<div class="button_menu">'
-		if $Randomeventsinthepark=0:'<div class="button"><a href="exec:minutes+=15 & gt ''park''">Take a walk</a></div>'else:'<div class="buttonGr"><a href="exec:">Take a walk</a></div>'
+		if $Randomeventsinthepark=0:'<div class="button"><a href="exec:minutes+=15 & gt ''park''">Take a walk</a></div>'else'<div class="buttonGr"><a href="exec:">Take a walk</a></div>'
 		if hour=8 and minutes<30:'<div class="button"><a href="exec:gt ''park'',''Ridicule''">Ridicule</a></div>'
 		if week_day=6 and hour=16:'<div class="button"><a href="exec:gt ''park'',''In preparation for the music festival''">In preparation for the music festival</a></div>'
 		if week_day=6 and hour=21:'<div class="button"><a href="exec:gt ''park'',''Music festival''">Music festival in progress</a></div>'
@@ -80,13 +80,13 @@ if $ARGS[0]="":
 	'<div class="dialog_menu">'
 		'<p>·After a lapse of several years, the City Council finally passed the "Special Park Management Law", which promoted the development of the city`s central Park and provided a leisurely place for people`s busy and stressful lives.</p>'
 		if $Random_number<1:'<p>·"Special Park Management Law": Regulations ① If the weather is too hot, you don`t want to wear it. There are no hard and fast regulations.——When Adam and Eve wandered unknowingly in the Garden of Eden, as God`s creation, their bodies were empty and they never felt uncomfortable about it.</p>'
-		if $Random_number=1 and $times_of_day='':'<p>？？？: Hey, I fell, can you help me up?</p>'
-		if ($Random_number=2 or $Random_number=6 or $Random_number=7or $Random_number=8)  and $times_of_day='':'<p>？？？: Hello, can you take a picture for me?</p>'
-		if ($Random_number=3 or $Random_number=9or $Random_number=10) and $times_of_day='':'<p>？？？: Hi, I can`t find my belongings, can you help me find them?</p>'
-		if ($Random_number=4 or $Random_number=5) and $times_of_day='':'<p>？？？: I heard that there will be exposed people in this area. Can you help me see if there are any suspicious people?</p>'
-		if $Random_number=3 and  $times_of_day!'':'<p>？？？: I heard that there will be exposed people in this area. Can you help me see if there are any suspicious people?</p>'
+		if $Random_number=1 and $times_of_day='':'<p>???: Hey, I fell, can you help me up?</p>'
+		if ($Random_number=2 or $Random_number=6 or $Random_number=7 or $Random_number=8)  and $times_of_day='':'<p>???: Hello, can you take a picture for me?</p>'
+		if ($Random_number=3 or $Random_number=9or $Random_number=10) and $times_of_day='':'<p>???: Hi, I can`t find my belongings, can you help me find them?</p>'
+		if ($Random_number=4 or $Random_number=5) and $times_of_day='':'<p>???: I heard that there will be exposed people in this area. Can you help me see if there are any suspicious people?</p>'
+		if $Random_number=3 and  $times_of_day!'':'<p>???: I heard that there will be exposed people in this area. Can you help me see if there are any suspicious people?</p>'
 		if $YY.Homecanbeentered=1 and $times_of_day='' and $Random_number>=250:
-			if $YY.Playedbig=1:'<p>·Someone is sleeping on the bench<a href="exec:a=3 & gt ''Empire_Event'',''Empire_Fuck_Swimming coach big''">-Wake him up</a></p>'else:'<p>·Someone is sleeping on the bench</p>'
+			if $YY.Playedbig=1:'<p>·Someone is sleeping on the bench<a href="exec:a=3 & gt ''Empire_Event'',''Empire_Fuck_Swimming coach big''">-Wake him up</a></p>'else'<p>·Someone is sleeping on the bench</p>'
 		end
 	'</div>'
 end
@@ -99,7 +99,7 @@ if $ARGS[0]="Music festival":
 	'</div>'
 
 	'<div class="button_menu">'
-		if hour>=21:'<div class="button"><a href="exec:minutes+=45 & my.energy+=99 & gt ''park'',''Music festival''">Immersed in music</a></div>'else:'<div class="button"><a href="exec:gt ''park''">leave</a></div>'
+		if hour>=21:'<div class="button"><a href="exec:minutes+=45 & my.energy+=99 & gt ''park'',''Music festival''">Immersed in music</a></div>'else'<div class="button"><a href="exec:gt ''park''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
 		'<p>·A limited-time music festival that will only open on Saturday night.</p>'
@@ -187,14 +187,14 @@ end
 if $ARGS[0]="Help her":
 	 if $times_of_day!'':
 	   '<div class ="show_menu"><img src="images\videos\杂\parkN<<ParkGreen>>.jpg"  height="480"></div>'
-	 else:
+	 else
 		'<div class ="show_menu"><img src="images\videos\杂\park<<ParkGreen>>.jpg"  height="480"></div>'
 	 end
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''park''">。。。</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>？？？: Hehe!Thank you❤</p>'
+		'<p>???: Hehe!Thank you❤</p>'
 	'</div>'
 end
 
@@ -206,7 +206,7 @@ if $ARGS[0]="Public toilets":
 		if ($ZXEvent_chain=2 or $ZXEvent_chain=3) and hour=23:'<div class="buttonPu4"><a href="exec:minutes+=15 & gt ''Plasticity_event'',''ZX_Fuck_Strategy''">等待Wait<<$ZX.name>></a></div>'
 		if $ZXEvent_chain=4 and hour=23:'<div class="buttonPu3"><a href="exec:minutes+=15 & gt ''Plasticity_event'',''ZX_Fuck_Strategy2''">等待Wait<<$ZX.name>></a></div>'
 		if hour=7:'<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Group_performation_event'',''ZYtoilet''">Cleaning time</a></div>'
-		if hour=1 and minutes>=30 :'<div class="buttonPu2"><a href="exec:minutes+=15 & gt ''Andrology_Event'',''NK_Fuck_toilet''">Phantom of the Toilet</a></div>'
+		if hour=1 and minutes>=30:'<div class="buttonPu2"><a href="exec:minutes+=15 & gt ''Andrology_Event'',''NK_Fuck_toilet''">Phantom of the Toilet</a></div>'
 		if week_day=7 and hour=12 and $JM.love>=300:'<div class="buttonS"><a href="exec:$m=''JM'' & $ma=$JM.name & gt ''Group_performation_event'',''Universal_Fuck_Public_toilet''"><<$JM.name>>inside</a></div>'
 		if week_day=1 and hour=12 and $WQ.love>=300:'<div class="buttonS"><a href="exec:$m=''WQ'' & $ma=$WQ.name & gt ''Group_performation_event'',''Universal_Fuck_Public_toilet''"><<$WQ.name>>inside</a></div>'
 		if hour=21 and $ImperialSwimmingCoach>=1:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Swimming coach toilet''">Coercion<<$YY.name>></a></div>'

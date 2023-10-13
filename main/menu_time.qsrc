@@ -25,12 +25,12 @@
 		'<p> <<$weather>> <<$week_day[week_day]>> <<day>> <<$month_name[month]>> <<year>>   '
 		if  Customsclearancerewardcollection>0:
 		'✌'
-		else:
+		else
 		''
 		end
 		if  Devils_Pupil>0:
 		'♕'
-		else:
+		else
 		''
 		end
 		'</p>'

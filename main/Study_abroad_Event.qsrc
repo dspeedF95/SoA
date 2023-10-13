@@ -60,7 +60,7 @@ if $args[0]="home":
 	   if $DialoguewithInternationalStudents=0:'<div class="button"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''home''">Persuade her</a></div>'
 	   if $DialoguewithInternationalStudents=1:
 		   '<div class="buttonR3"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_lesson''">Teach her a lesson</a></div>'
-		   if $LXS.love>=100:'<div class="buttonP"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Play with her</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
+		   if $LXS.love>=100:'<div class="buttonP"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_Play with''">Play with her</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability</a></div>'
 	   end
 	   if Porsche=1:'<div class="buttonG"><a href="exec: $DialoguewithInternationalStudents=0 & gt ''Study_abroad_Event'',''Get in the car''">Take her out to play</a></div>'
 		'<div class="button"><a href="exec:gt ''Kabukicho''">leave</a></div>'
@@ -125,7 +125,7 @@ if $args[0]="Study abroad_Fuck_Entry11":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">Send her away</a></div>'
             '</div>'
@@ -228,7 +228,7 @@ if $args[0]="Study abroad_Fuck_lesson":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
@@ -283,7 +283,7 @@ if $args[0]="Study abroad_Fuck_Play with":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG"><a href="exec:money-=648 & gt ''Kabukicho''">Give her money</a></div>'
             '</div>'
@@ -351,7 +351,7 @@ if $args[0]="Check materials in the library":
 
 	'<div class="button_menu">'
 		if $DialoguewithInternationalStudents=0:'<div class="button"><a href="exec:$DialoguewithInternationalStudents=1 & gt ''Study_abroad_Event'',''Check materials in the library''">Peek at the bottom of the skirt</a></div>'
-		if Essential_oil>0:'<div class="buttonS"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Massage her</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient essential oils</a></div>'
+		if Essential_oil>0:'<div class="buttonS"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_Massage her''">Massage her</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient essential oils</a></div>'
 		if $DialoguewithInternationalStudents=1:'<div class="buttonR3"><a href="exec:gt ''Study_abroad_Event'',''Study abroad_Fuck_massage''">Pretend to fall</a></div>'
 		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
 	'</div>'
@@ -399,7 +399,7 @@ if $args[0]="Study abroad_Fuck_Supplementary studies":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
             '</div>'
@@ -440,7 +440,7 @@ if $args[0]="Study abroad_Fuck_secretly":
             '<div class="button"><a href="exec:minutes+=60 & gt ''university''">Don`t watch it anymore</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
             '</div>'
@@ -451,17 +451,17 @@ if $args[0]="Study abroad_Fuck_secretly":
     if 4>=a and a>=0:
          '<div class="dialog_menu">'
              '<p><<$LXS.name>>:Baby❤ Why are you here so late today?</p>'
-             '<p>？？？:Little foreign girl❤ Brother is here to satisfy you.</p>'
+             '<p>???:Little foreign girl❤ Brother is here to satisfy you.</p>'
              if a>=1:'<p><<$LXS.name>>:Brother fuck me<<$Panting2>></p>'
-             if a>=2:'<p>？？？:Is it your brother who makes you comfortable or<<$Protagonist`s_name>>Fuck you comfortably?</p>'
+             if a>=2:'<p>???:Is it your brother who makes you comfortable or<<$Protagonist`s_name>>Fuck you comfortably?</p>'
              if a>=3:'<p><<$LXS.name>>:Of course it`s the baby`s big cock that is the most comfortable❤</p>'
-             if a>=4:'<p>？？？:Haha❤You little slut, pick up my brother`s essence for me❤</p>'
+             if a>=4:'<p>???:Haha❤You little slut, pick up my brother`s essence for me❤</p>'
          '</div>'
     end
 
     if a=5:
          '<div class="dialog_menu">'
-         	 '<p>？？？:<<$Protagonist`s_name>>Do you know that you mess with different men every day?</p>'
+         	 '<p>???:<<$Protagonist`s_name>>Do you know that you mess with different men every day?</p>'
              '<p><<$LXS.name>>:Don`t tell him, it`s okay ❤ Besides, we are not boyfriend and girlfriend❤</p>'
              '<p>I:Really fakeO_o</p>'
          '</div>'
@@ -482,7 +482,7 @@ if $args[0]="Study abroad_Fuck_massage":
             '<div class="button"><a href="exec:minutes+=60 & gt ''university''">Don`t press anymore</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
             '</div>'
@@ -542,7 +542,7 @@ if $args[0]="Study abroad_Fuck_Massage her":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
 				if $LXS.Pressed=0:'<div class="button"><a href="exec:$LXS.Pressed=1 & gt ''university''">Invite to the massage parlor</a></div>'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''university''">leave</a></div>'
@@ -594,7 +594,7 @@ if $args[0]="Get in the car":
 	       '<div class="button"><a href="exec:gt ''company''">recommendCOSpavilion</a></div>'
 	  end
 	   if $DialoguewithInternationalStudents=4:
-	       if $LXS.bad>=my.charm*25:'<div class="button"><a href="exec:LXSNightclubwork=1 & gt ''The_night_is_fine''">Keep her as a custom girl</a></div>'else:'<div class="buttonGr"><a href="exec:">It takes depravity to be a custom girl><<my.charm*25>></a></div>'
+	       if $LXS.bad>=my.charm*25:'<div class="button"><a href="exec:LXSNightclubwork=1 & gt ''The_night_is_fine''">Keep her as a custom girl</a></div>'else'<div class="buttonGr"><a href="exec:">It takes depravity to be a custom girl><<my.charm*25>></a></div>'
 	  end
 		'<div class="button"><a href="exec:gt ''Residential_area''">respectively</a></div>'
 	'</div>'
@@ -639,13 +639,13 @@ if $args[0]="Study abroad_Fuck_Press her":
 
     if a<4:
         '<div class="button_menu">'
-            if q=0 :'<div class="buttonS2"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Blowjob for me </a></div>'
-			if q=1 :'<div class="buttonS3"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Suck hard </a></div>'
-            if q=2 :'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Blow her up </a></div>'
-			if q=3 :'<div class="buttonS5"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">dialogue </a></div>'
+            if q=0:'<div class="buttonS2"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Blowjob for me </a></div>'
+			if q=1:'<div class="buttonS3"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Suck hard </a></div>'
+            if q=2:'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">Blow her up </a></div>'
+			if q=3:'<div class="buttonS5"><a href="exec:a=4 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Press her''">dialogue </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:$DialoguewithInternationalStudents=2 & gt ''Study_abroad_Event'',''Get in the car''">Take her to eat some staple food</a></div>'
             '</div>'
@@ -682,10 +682,10 @@ if $args[0]="Hot spring start":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:$StudyabroadhotSpringnum=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Do it here</a></div>'
-		if $LXS.bad>=my.charm*6:'<div class="buttonS3"><a href="exec:$StudyabroadhotSpringnum=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Do it in the hot spring</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*6>></a></div>'
-		if $LXS.bad>=my.charm*13:'<div class="buttonS5"><a href="exec:$StudyabroadhotSpringnum=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Go do it outdoors</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*13>></a></div>'
+		if $LXS.bad>=my.charm*6:'<div class="buttonS3"><a href="exec:$StudyabroadhotSpringnum=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Do it in the hot spring</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*6>></a></div>'
+		if $LXS.bad>=my.charm*13:'<div class="buttonS5"><a href="exec:$StudyabroadhotSpringnum=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Go do it outdoors</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*13>></a></div>'
 		if HotspringOilPressureHall=1:
-				if $LXS.bad>=my.charm*20:'<div class="buttonG"><a href="exec:LSXHotspring=1 & gt ''Hot_spring_corridor''">Introduce working in the hydraulic hall</a></div>'else:'<div class="buttonGr"><a href="exec:">Work needs to be depraved><<my.charm*20>></a></div>'
+				if $LXS.bad>=my.charm*20:'<div class="buttonG"><a href="exec:LSXHotspring=1 & gt ''Hot_spring_corridor''">Introduce working in the hydraulic hall</a></div>'else'<div class="buttonGr"><a href="exec:">Work needs to be depraved><<my.charm*20>></a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''Kabukicho''">leave</a></div>'
 	'</div>'
@@ -711,12 +711,12 @@ if $args[0]="Study abroad_Fuck_Hot spring":
 
     if a<3:
         '<div class="button_menu">'
-            if q=0 :'<div class="buttonS2"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Secretly insert </a></div>'
-			if q=1 :'<div class="buttonS3"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Accelerate thrusting </a></div>'
-            if q=2 :'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Ejaculation </a></div>'
+            if q=0:'<div class="buttonS2"><a href="exec:a=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Secretly insert </a></div>'
+			if q=1:'<div class="buttonS3"><a href="exec:a=2 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Accelerate thrusting </a></div>'
+            if q=2:'<div class="buttonS4"><a href="exec:a=3 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Hot spring''">Ejaculation </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:a=0 & q=0 & gt ''Study_abroad_Event'',''Study abroad_Fuck_In the room''">Go to the room</a></div>'
             '</div>'
@@ -776,7 +776,7 @@ if $args[0]="Study abroad_Fuck_In the room":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -837,7 +837,7 @@ if $args[0]="Study abroad_Fuck_Pick up":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG"><a href="exec:gt ''Kabukicho''">Checkout and leave</a></div>'
             '</div>'
@@ -884,7 +884,7 @@ if $args[0]="Tent dating":
 		if $Internationalstudenttent=1:'<div class="button"><a href="exec:$Internationalstudenttent=3 & gt ''Study_abroad_Event'',''Tent dating''">Grilled steak</a></div>'
 		if $Internationalstudenttent=3:
 			'<div class="buttonG3"><a href="exec:money-=200 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent flower''">Fireworks￥200</a></div>'
-			if Maotai>0:'<div class="buttonR3"><a href="exec:Maotai-=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Drink red Maotai wine</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of Maotai wine</a></div>'
+			if Maotai>0:'<div class="buttonR3"><a href="exec:Maotai-=1 & gt ''Study_abroad_Event'',''Study abroad_Fuck_Tent wine''">Drink red Maotai wine</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of Maotai wine</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''park''">Almost there</a></div>'
 	'</div>'
@@ -926,7 +926,7 @@ if $args[0]="Study abroad_Fuck_Tent wine":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">Take her home</a></div>'
             '</div>'
@@ -985,7 +985,7 @@ if $args[0]="Study abroad_Fuck_Tent flower":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Kabukicho''">Take her home</a></div>'
             '</div>'

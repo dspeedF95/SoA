@@ -40,7 +40,7 @@ if QB.pressure>=13+$QBEvent_chain and $QBEvent_chain>=4:gt 'Hashimoto_Event','pr
 		'<div class="action">'
 			if $Champion_event_chain!13:
 				'<a class="photo" data-title="<<$GJ.name>>" href="exec:gt ''Competition'',''Champion Liyi''"><img class="img_stretch" src="images\place\竞演\GJ1.jpg"></a>'
-			else:
+			else
 				'<a class="photo" data-title="Lost contact" ><img class="img_stretch" src="images\place\竞演\GJ2.jpg"></a>'
 			end
 		'</div>'
@@ -64,12 +64,12 @@ if $ARGS[0]="":
 	'<div class="button_menu">'
 		!'<div class="button"><a href="exec:gt ''Competition'',''SisterHuaLiyi''">contact<<$PW.name>></a></div>'
 		!'<div class="button"><a href="exec:gt ''Competition'',''Yuya Liyi''">view<<$SSYY.name>></a></div>'
-		!if $Champion_event_chain!13:'<div class="button"><a href="exec:gt ''Competition'',''Champion Liyi''">view<<$GJ.name>></a></div>'else:'<div class="buttonGr"><a href="exec:"><<$GJ.name>>Lost contact</a></div>'
+		!if $Champion_event_chain!13:'<div class="button"><a href="exec:gt ''Competition'',''Champion Liyi''">view<<$GJ.name>></a></div>'else'<div class="buttonGr"><a href="exec:"><<$GJ.name>>Lost contact</a></div>'
 		'<div class="buttonPu1"><a href="exec:gt ''Competition'',''Xunguo Liyi''">view<<$SF.name>></a></div>'
 		!'<div class="button"><a href="exec:gt ''Competition'',''Hashimoto Tachie''">contact<<$QB.name>></a></div>'
-		if $Champion_event_chain=10 or $Champion_event_chain=11:'<div class="buttonR4"><a href="exec:gt ''Competition'',''Sister Liyi''"><<$MM.name>>Call for help!</a></div>'else:'<div class="buttonS2"><a href="exec:gt ''Competition'',''Sister Liyi''">contact<<$MM.name>></a></div>'
+		if $Champion_event_chain=10 or $Champion_event_chain=11:'<div class="buttonR4"><a href="exec:gt ''Competition'',''Sister Liyi''"><<$MM.name>>Call for help!</a></div>'else'<div class="buttonS2"><a href="exec:gt ''Competition'',''Sister Liyi''">contact<<$MM.name>></a></div>'
 		'<div class="button"><a href="exec:minutes+=30 & gt ''City_hall''">leave</a></div>'
-		if $Finalpreparation=2:'<div class="buttonG"><a href="exec:minutes+=30 & gt ''Group_performation_event'',''Group performance_Event_Awards''">Finals&Award ceremony</a></div>'else:'<div class="buttonGr"><a href="exec:">Finals&Award ceremony</a></div>'
+		if $Finalpreparation=2:'<div class="buttonG"><a href="exec:minutes+=30 & gt ''Group_performation_event'',''Group performance_Event_Awards''">Finals&Award ceremony</a></div>'else'<div class="buttonGr"><a href="exec:">Finals&Award ceremony</a></div>'
 	'</div>'
 	
 	'<div class="dialog_menu">'
@@ -142,14 +142,14 @@ if  $args[0]="SisterHuaLiyi":
 		if $SisterHuaLiyi=3:
 			if $Sister_Hua_Event_Chain=4 or $Sister_Hua_Event_Chain=5:
 				'<div class="buttonR1"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing1''">Communicate privately</a></div>'
-				if $PW.bad>=10:'<div class="buttonR2"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing2''">In-depth communication</a></div>'else:'<div class="buttonGr"><a href="exec:">？？communication</a></div>'
-				if $Sister_Hua_Event_Chain=5 and $PW.love<=-100 and $Thephoneisformatted=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage''">Safe passage</a></div>'else:'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
+				if $PW.bad>=10:'<div class="buttonR2"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing2''">In-depth communication</a></div>'else'<div class="buttonGr"><a href="exec:">？？communication</a></div>'
+				if $Sister_Hua_Event_Chain=5 and $PW.love<=-100 and $Thephoneisformatted=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage''">Safe passage</a></div>'else'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
 			end
 		end
 		if $Sister_Hua_Event_Chain>=7 and $SisterHuaLiyi!4:'<div class="buttonR3"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing3''">Strong communication</a></div>'
 		if $SisterHuaLiyi=4:
 			'<div class="buttonR3"><a href="exec:gt ''Judges_Event'',''PW_Fuck_company''">Intercept her outside the door</a></div>'
-			if $PW.bad>=70:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage2''">Intercept her in a safe passage</a></div>'else:'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
+			if $PW.bad>=70:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage2''">Intercept her in a safe passage</a></div>'else'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
 		end
 	'</div>'
 
@@ -203,9 +203,9 @@ if  $args[0]="Yuya Liyi":
 			if $Yuya_Event_Chain=4 or $Yuya_Event_Chain=5:'<div class="buttonR"><a href="exec:gt ''Yuya_Event'',''I can`t do anything with her''">What about the photos?！</a></div>'
 			if $Yuya_Event_Chain=5:'<div class="buttonR2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">What did you see?</a></div>'
 		end
-		if $SSYY.love>=200 and $SSYY.love>=200:'<div class="buttonS2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Make an appointment to the hotel</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if $Yuya_Event_Chain>=7:'<div class="buttonS3"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_toilet''">Pull to the toilet for a shot</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
-		if $SSYY.love>=250 and $SSYY.love>=250:'<div class="buttonS4"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_massage''">Massage to relieve fatigue</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $SSYY.love>=200 and $SSYY.love>=200:'<div class="buttonS2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Make an appointment to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $Yuya_Event_Chain>=7:'<div class="buttonS3"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_toilet''">Pull to the toilet for a shot</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
+		if $SSYY.love>=250 and $SSYY.love>=250:'<div class="buttonS4"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_massage''">Massage to relieve fatigue</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
 		if $Finalpreparation>=1:'<div class="buttonG"><a href="exec:a=1 & gt ''Yuya_Event'',''SSYY_Fuck_Before the end''">Come to the final </a></div>'
 		
 	'</div>'
@@ -264,7 +264,7 @@ if  $args[0]="Hashimoto Tachie":
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''Hashimoto Tachie''">Wait a moment</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Competition'',''Discuss countermeasures''">Discuss countermeasures</a></div>'
-		if $QBEvent_chain=5 :'<div class="button"><a href="exec:minutes+=15 & gt ''Hashimoto_Event'',''QB_Fuck_ask''">About the toilet</a></div>'
+		if $QBEvent_chain=5:'<div class="button"><a href="exec:minutes+=15 & gt ''Hashimoto_Event'',''QB_Fuck_ask''">About the toilet</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -283,7 +283,7 @@ if  $args[0]="Champion Liyi":
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\GJ\vids\立绘0.webm" type=''video/webm;''></video></div>'
 		'</div>'
-		else:
+		else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\GJ\vids\下药1-0.webm" type=''video/webm;''></video></div>'
@@ -299,8 +299,8 @@ if  $args[0]="Champion Liyi":
 			'<div class="button"><a href="exec:minutes+=15 & a=2 & q=2 & gt ''Champion_event'',''GJ_Fuck_hotel''">Make an appointment to the hotel</a></div>'
 			'<div class="button"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_office''">Test her here</a></div>'
 		end
-		if $Champion_event_chain=11 or $Champion_event_chain=12 :'<div class="buttonR4"><a href="exec:minutes+=15 & gt ''Champion_event'',''angry''">Ask about my sister</a></div>'
-		if $Champion_event_chain>=14 :'<div class="button"><a href="exec:$GDruggednum=1 & gt ''Competition'',''Close''">Close</a></div>'
+		if $Champion_event_chain=11 or $Champion_event_chain=12:'<div class="buttonR4"><a href="exec:minutes+=15 & gt ''Champion_event'',''angry''">Ask about my sister</a></div>'
+		if $Champion_event_chain>=14:'<div class="button"><a href="exec:$GDruggednum=1 & gt ''Competition'',''Close''">Close</a></div>'
 		
 		
 	'</div>'
@@ -308,7 +308,7 @@ if  $args[0]="Champion Liyi":
 	'<div class="dialog_menu">'
 		if $Champion_event_chain<14:
 			'<p>·I: …... (She doesn`t sing very well... It`s hard to imagine that she was the champion of the last time...)</p>'
-			else:
+			else
 			'<p>·<<$GJ.name>>I dyed my blond hair after I came back from the loss of contact... my clothes were even more exposed.…</p>'
 			end
 		if $Champion_event_chain=7:'<p>·I: ...The candid photos have been<<$SSYY.name>>Deleted... it`s impossible to take pictures again... (Is there anyone who does what I say to accompany me to do a scene?)</p>'
@@ -328,11 +328,11 @@ if  $args[0]="Sister Liyi":
 
 		'<div class="dialog_menu">'
 			'<p><<$MM.name>>: What are you going to do?！Ah ah ah?！Help!</p>'
-			'<p>？？？: Someone sent me to teach you a lesson!You convey it to your brother, if he doesn`t cooperate honestly, your whole family will wait to be arranged by me one by one!</p>'
+			'<p>???: Someone sent me to teach you a lesson!You convey it to your brother, if he doesn`t cooperate honestly, your whole family will wait to be arranged by me one by one!</p>'
 			'<p>I: stop it!You let her go for me!</p>'
-			'<p>？？？: Huh, Lao Tzu has plenty of opportunities, can you protect them for the rest of your life?！Hahahaha!</p>'
+			'<p>???: Huh, Lao Tzu has plenty of opportunities, can you protect them for the rest of your life?！Hahahaha!</p>'
 		'</div>'
-		else:
+		else
 			'<div class="show_menu">'
 				 '<video preload="metadata" autoplay loop height="480">
 				 <source src="images\NPC\MM\vids\竞演0.webm" type=''video/webm;''></video></div>'
@@ -357,13 +357,13 @@ if $ARGS[0]="Close":
         
 	'<div class="button_menu">'
 		if $GDruggednum=1:
-			if $CanGDrugged=1 and $QBEvent_chain=8 and $Yuya_Event_Chain>=7 :'<div class="buttonS"><a href="exec:$GDruggednum=2 & gt ''Competition'',''Close''">Sprinkle in McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">The time is immature</a></div>'
+			if $CanGDrugged=1 and $QBEvent_chain=8 and $Yuya_Event_Chain>=7:'<div class="buttonS"><a href="exec:$GDruggednum=2 & gt ''Competition'',''Close''">Sprinkle in McGovern</a></div>'else'<div class="buttonGr"><a href="exec:">The time is immature</a></div>'
 			'<div class="button"><a href="exec:minutes+=15 & gt ''Competition''">leave</a></div>'
 		end
 		if $GDruggednum=2:'<div class="button"><a href="exec:$GDruggednum=3 & gt ''Competition'',''Close''">Cheers</a></div>'
 		if $GDruggednum=3:
-			if $Champion_event_chain>=14 :'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_DL''">After a while</a></div>'
-			if $Champion_event_chain>=15 :'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_DL2''">❤❤❤</a></div>'
+			if $Champion_event_chain>=14:'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_DL''">After a while</a></div>'
+			if $Champion_event_chain>=15:'<div class="buttonR"><a href="exec:minutes+=15 & gt ''Champion_event'',''GJ_Fuck_DL2''">❤❤❤</a></div>'
 		end
 	'</div>'
 	
@@ -403,10 +403,10 @@ if  $args[0]="Promotional materials":
 		if $QBEvent_chain>=6 and $HashimotoSleepAid!1:'<div class="buttonS1"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Sleep aid''">Take a sleep aid video</a></div>'
 		if $QBEvent_chain>=7 and $Hashimotoistempting!1:'<div class="buttonS5"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Seductive''">Take a seductive photo</a></div>'
 		
-		if $HashimotoSleepAid=1:'<div class="buttonS1"><a href="exec:$QBmaterial=2 & gt ''Competition'',''Promotional materials''">Sleep aid video</a></div>'else:'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
-		if $Hashimotogoodnight=1:'<div class="buttonS3"><a href="exec:$QBmaterial=1 & gt ''Competition'',''Promotional materials''">Bedside photography</a></div>'else:'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
-		if $Hashimotoistempting=1:'<div class="buttonS5"><a href="exec:$QBmaterial=0 & gt ''Competition'',''Promotional materials''">Seductive photo</a></div>'else:'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
-		if $HashimotoSleepAid=1 and $Hashimotogoodnight=1 and $Hashimotoistempting=1:'<div class="button"><a href="exec:$rankingnu=1 & gt ''Competition'',''Ranking rise''">Ranking up!</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if $HashimotoSleepAid=1:'<div class="buttonS1"><a href="exec:$QBmaterial=2 & gt ''Competition'',''Promotional materials''">Sleep aid video</a></div>'else'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
+		if $Hashimotogoodnight=1:'<div class="buttonS3"><a href="exec:$QBmaterial=1 & gt ''Competition'',''Promotional materials''">Bedside photography</a></div>'else'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
+		if $Hashimotoistempting=1:'<div class="buttonS5"><a href="exec:$QBmaterial=0 & gt ''Competition'',''Promotional materials''">Seductive photo</a></div>'else'<div class="buttonGr"><a href="exec:">Not shot</a></div>'
+		if $HashimotoSleepAid=1 and $Hashimotogoodnight=1 and $Hashimotoistempting=1:'<div class="button"><a href="exec:$rankingnu=1 & gt ''Competition'',''Ranking rise''">Ranking up!</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -414,7 +414,7 @@ if  $args[0]="Promotional materials":
 		if $QBmaterial=3:
 		'<p><<$BD.name>>: What the hell?Why are you again?Change someone to shoot!This guy is a broom star!We have to hide away!</p>'
 		'<p>I: Oh... why are you talking so heavily?…</p>'
-		else:
+		else
 		'<p>·Her popularity has risen!</p>'
 		end
 		'<p>♯ Her pressure value：<<QB.pressure>></p>'

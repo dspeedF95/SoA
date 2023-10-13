@@ -60,12 +60,12 @@ if $args[0]="YS_Fuck_Kitchen sleep":
     if a<6:
         '<div class="button_menu">'
             '<div class="buttonR"><a href="exec:a+=1 & gt ''Widow_Incident'',''YS_Fuck_Kitchen sleep''">Eavesdropping on conversations</a></div>'
-            '<div class="buttonGn"><a href="exec: gt ''Widow`s_house''">Don`t watch it anymore</a></div>'
+            '<div class="buttonGn"><a href="exec: gt ''Widows_house''">Don`t watch it anymore</a></div>'
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
 				if Drawingrepairdegree>=100:'<div class="buttonGn"><a href="exec: gt ''Widow_Incident'',''Floor plan''">Take a look at the drawings</a></div>'
-                '<div class="buttonGn"><a href="exec: gt ''Widow`s_house''">Don`t watch it anymore</a></div>'
+                '<div class="buttonGn"><a href="exec: gt ''Widows_house''">Don`t watch it anymore</a></div>'
                 
             '</div>'
     end
@@ -124,7 +124,7 @@ if $args[0]="The second-in-command returns":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>？？？: Hey, which side is which, who is in charge of the Longkou Group now?</p>'
+		'<p>???: Hey, which side is which, who is in charge of the Longkou Group now?</p>'
 	'</div>'
 end
 
@@ -141,7 +141,7 @@ if $args[0]="dispute":
 
 	if a!8:
 	'<div class="dialog_menu">'
-		'<p>？？？: Impossible!You said the team leader is dead. How is this possible?！</p>'
+		'<p>???: Impossible!You said the team leader is dead. How is this possible?！</p>'
 		if a>=2:'<p><<$YS.name>>: Who are you?The Longkou Group disbanded a few years ago.</p>'
 		if a>=3:'<p>Ma Dongyu: Who am I?When I was with my eldest brother, I didn`t have you yet!I am the captain of the Yifan team, known as “People cut ten thousand horses”, and the second deputy of the Longkou Group!The Longkou Group was formed by me following my eldest brother from birth to death!</p>'
 		if a>=4:'<p><<$YS.name>>: Hehe, since you said you are the second deputy of the Longkou Group, why haven`t I heard of you?</p>'
@@ -184,7 +184,7 @@ if $args[0]="YS_Fuck_Warehouse dialogue2":
 		'<div class="buttonR3"><a href="exec:DXdialogue=1 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue2''">threat:Then I called the police</a></div>'
 		'<div class="buttonS3"><a href="exec:DXdialogue=2 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue2''">lie:I bought it</a></div>'
 		'<div class="buttonG4"><a href="exec:DXdialogue=3 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue2''">sincere:I stole it</a></div>'
-	 else:
+	 else
 		'<div class="buttonGn4"><a href="exec:DXdialogue=0 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue3''">Calm down and talk</a></div>'
 	 end
 	'</div>'
@@ -232,7 +232,7 @@ if $args[0]="YS_Fuck_Warehouse dialogue4":
          '<div class="dialog_menu">'
 			 '<p>Ma Dongyu: This woman?</p>'
              '<p>Me: She`s useless to you, right?</p>'
-			 '<p><<$YS.name>>: save…<<$Protagonist`s_surname>> ...save me……</p>'
+			 '<p><<$YS.name>>: save…<<$Protagonists_surname>> ...save me……</p>'
 			 '<p>Ma Dongmao: It`s not impossible. If this woman is played to death here, she will be in trouble.I promised you.</p>'
              '<p>Me: I know that the Longkou Group has always kept its word.*Help her up</p>'
 			 '<p>Ma Dongyu: Of course.</p>'
@@ -266,7 +266,7 @@ if $args[0]="YS_Fuck_warehouse":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
 				'<div class="buttonGn3"><a href="exec:a=0 & gt ''Widow_Incident'',''YS_Fuck_Warehouse dialogue''">The boss is back </a></div>'
                 '<div class="button"><a href="exec:gt ''Kabukicho''">leave </a></div>'
@@ -347,7 +347,7 @@ if $args[0]="YS_Fuck_comfort":
             if a>=7:'<div class="buttonR5"><a href="exec:a=8 & gt ''Widow_Incident'',''YS_Fuck_comfort''">Ejaculation </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG4"><a href="exec:$YS.massage=1 & gt ''company''">Invitation to self-operated massage shop </a></div>'
                 '<div class="buttonG5"><a href="exec:YScos=1 & gt ''company''">Invitation to self-operated photo studio </a></div>'
@@ -440,7 +440,7 @@ if $args[0]="YS_Fuck_sofa":
             if a=8:'<div class="button"><a href="exec:a=9 & gt ''Widow_Incident'',''YS_Fuck_sofa''">dialogue </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Town_house''">leave </a></div>'
             '</div>'
@@ -515,9 +515,9 @@ if $args[0]="YS_Fuck_Same sheriff":
             if a=8:'<div class="button"><a href="exec:a=9 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff''"><<$YS.name>>understand </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                if 100<=YSJZUnderstandingvalue:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Let her have fun together </a></div>'else:'<div class="buttonGr"><a href="exec:">Remaining anger<<100-YSJZUnderstandingvalue>>% </a></div>'
+                if 100<=YSJZUnderstandingvalue:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Let her have fun together </a></div>'else'<div class="buttonGr"><a href="exec:">Remaining anger<<100-YSJZUnderstandingvalue>>% </a></div>'
                 '<div class="button"><a href="exec:gt ''Town_house''">leave </a></div>'
             '</div>'
     end
@@ -583,7 +583,7 @@ if $args[0]="YS_Fuck_Same sheriff2":
             if a=12 or a=6:'<div class="buttonB5"><a href="exec:a=13 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Lick cock Yanhe </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Town_house''">The anger subsided</a></div>'
             '</div>'
@@ -664,7 +664,7 @@ if $args[0]="YS_Fuck_divorce":
             if a=12:'<div class="buttonB5"><a href="exec:a=13 & gt ''Widow_Incident'',''YS_Fuck_divorce''">Sign a divorce agreement </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''Town_house''">The anger subsided</a></div>'
             '</div>'
@@ -768,7 +768,7 @@ if $args[0]="YS_Fuck_shares":
             if q=0:
                 '<div class="buttonS1"><a href="exec:a=1 & gt ''Widow_Incident'',''YS_Fuck_shares''">Gain trust</a></div>'
             end
-            if 3>=q and q>=1 :
+            if 3>=q and q>=1:
                 '<div class="buttonS2"><a href="exec:a=2 & gt ''Widow_Incident'',''YS_Fuck_shares''">Playing with her pussy</a></div>'
                 '<div class="buttonS3"><a href="exec:a=3 & gt ''Widow_Incident'',''YS_Fuck_shares''">Lick my egg</a></div>'
                 '<div class="buttonS4"><a href="exec:a=4 & gt ''Widow_Incident'',''YS_Fuck_shares''">Listen to me carefully</a></div>'
@@ -789,7 +789,7 @@ if $args[0]="YS_Fuck_shares":
                 if a=11:'<div class="buttonB5"><a href="exec:a=12 & gt ''Widow_Incident'',''YS_Fuck_shares''">Equity custody agreement</a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG5"><a href="exec:gt ''Town_house''">get20%Restaurantshares</a></div>'
             '</div>'
@@ -842,278 +842,4 @@ if $args[0]="YS_Fuck_shares":
 End
 
 --- Widow_Incident ---------------------------------
-
-# Widow`s_house
-cls
-$metka = $ARGS[0]   
-$loc = $CURLOC
-a=0 & q=0
-gs'menu_gif'
-
-
-
-'<div id="right-column">'
-	gs'menu_time'
-	gs'menu_status_show'
-	gs'menu_option_show'
-	'<div class="actions_menu">'
-		'<div class="action">'
-		 '<a class="photo" data-title="Return to the gate" href="exec:gt ''Widow`s_house''"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
-		'</div>'
-	'</div>'
-'</div>'
-
-
-
-
-
-
-if $args[0]="":
-	if $Haveseenthefloorplan=2: a=1 & gt'Widow_Incident','dispute'
-'<div class ="show_menu"><img src="images\place\遗孀家.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		if $Haveseenthefloorplan<3:
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Cannot enter''">Knock on the door</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Back''">Go around the back</a></div>'
-		end
-		if $Haveseenthefloorplan=3:
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Gatekeeper''">enter</a></div>'
-		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Back''">Go around the back</a></div>'
-		end
-		if $Haveseenthefloorplan>3:
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Living room2''">enter</a></div>'
-		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Back''">Go around the back</a></div>'
-		end
-		
-		
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Residential_area''">leave</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p>·Unlike the surrounding architectural style, it is completely Japanese style.</p>'
-	'</div>'
-
-end
-
-if $args[0]="Cannot enter":
- msg'She doesn`t welcome you'  & gt 'Widow`s_house'
-end
-
-if $args[0]="Gatekeeper":
- '<div class ="show_menu"><img src="images\NPC\YS\pics\DX99.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p>New team member: The boss has an order. As new entrants in the New Longkou Group, we must take care of the door here!No fly can let it fly in!Do you understand?！</p>'
-		'<p>New team memberA: Received!</p>'
-		'<p>New team memberB:Understand!</p>'
-		'<p>New team memberC: How can the people in the daily knot group pretend to be the underworld?*Yawn<a href="exec:money-=200 & gt ''Widow`s_house'',''Living room''">-Bribe him￥200</a></p>'
-	'</div>'
-end
-
-if $args[0]="bedroom":
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\YS\vids\主卧_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
-        '</div>'
-
-	'<div class="button_menu">'
-		if $times_of_day!'':'<div class="buttonS"><a href="exec:a=2 & gt ''Widow_Incident'',''YS_Fuck_comfort''">Go in and fuck her</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		if $times_of_day='':
-		'<p>·<<$YS.name>>Not in the bedroom during the day.</p>'
-		else:
-		'<p><<$YS.name>>: Want to...seem to be fucked...no matter who it is... come and fuck me...have I been imprisoned by them for too long...or do I like to be humiliated?It doesn`t matter... come on... hurry up.……</p>'
-		end
-	'</div>'
-end
-
-
-
-
-if $args[0]="Living room":
- '<div class ="show_menu"><img src="images\place\遗孀家客厅.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		!'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''bedroom''">bedroom</a></div>'
-		if $Haveseenthefloorplan=3:'<div class="buttonGr"><a href="exec:">Horse winter mold is in it</a></div>'
-		if $Haveseenthefloorplan>3:'<div class="button"><a href="exec:gt ''Widow`s_house'',''bedroom''">bedroom</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Study room''">Study room</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p>·The living room is empty</p>'
-	'</div>'
-end
-
-if $args[0]="Living room2":
-		if $Hellochef=2:gt'Widow_Incident','YS_Fuck_divorce'
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\YS\vids\遗孀家客厅_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
-        '</div>'
-
-	'<div class="button_menu">'
-		if $times_of_day='':'<div class="buttonS1"><a href="exec:Revengedialogue=0 & gt ''Widow`s_house'',''Living room2dialogue''">Close to the conversation</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''bedroom''">bedroom</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Study room''">Study room</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		if $times_of_day='':
-		'<p>·In the living room<<$YS.name>>He was in a daze.</p>'
-		else:
-		'<p>·There is no one in the living room at night, she should be asleep already…</p>'
-		end
-	'</div>'
-end
-
-if $args[0]="Living room2dialogue":
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\YS\vids\遗孀家客厅0.webm" type=''video/webm;''></video></div>'
-        '</div>'
-
-	'<div class="button_menu">'
-		'<div class="buttonR2"><a href="exec:Revengedialogue=1 & gt ''Widow`s_house'',''Living room2dialogue2''">Chef: Coward</a></div>'
-		'<div class="buttonR3"><a href="exec:Revengedialogue=2 & gt ''Widow`s_house'',''Living room2dialogue2''"><<$JZ.name>></a></div>'
-		'<div class="buttonR4"><a href="exec:Revengedialogue=3 & gt ''Widow`s_house'',''Living room2dialogue2''">Horse winter mold: the culprit</a></div>'
-		'<div class="buttonGn"><a href="exec:minutes+=15 & gt ''Widow`s_house''">leave</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p><<$YS.name>>:Damn bastard, I must retaliate against them, I really can`t stand this humiliation.</p>'
-		'<p>I: Who are you going to retaliate against?</p>'
-	'</div>'
-end
-
-if $args[0]="Living room2dialogue2":
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\YS\vids\遗孀家客厅1.webm" type=''video/webm;''></video></div>'
-        '</div>'
-
-	'<div class="button_menu">'
-		'<div class="buttonGn"><a href="exec:gt ''Widow_Incident'',''YS_Fuck_sofa''">I will support you</a></div>'
-		if $Hellosheriff=2 and Revengedialogue=2:'<div class="buttonR2"><a href="exec:gt ''Widow_Incident'',''YS_Fuck_Same sheriff''">Alarm:Falsely claimed to be stolen</a></div>'
-		if $Hellochef=3:'<div class="buttonG4"><a href="exec:gt ''Widow_Incident'',''YS_Fuck_shares''">Take care of her 20% shares</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p>I: What is the reason?</p>'
-		if Revengedialogue=1:
-		'<p><<$YS.name>>:That bastard cook, who is fierce on the surface, is actually a weak coward!I must make him pay the price for turning a blind eye to my death or not!</p>'
-		'<p>I: What do you want to do?</p>'
-		'<p><<$YS.name>>:I`m going to ruin his restaurant!That was his life`s work!I want him to watch his red restaurant fall into the hands of others!</p>'
-		'<p><B><span class =''red''>I: He owns 80% The shares...as long as you divorce, you will lose half of it, right?…</p>'
-			if $Hellochef!3:
-				'<p><<$YS.name>>:That`s right!！！You reminded me, I have a good idea, you go and help me call him over❤</p>'
-				 if $Hellochef=0:$Hellochef=1
-			 else:
-				'<p><<$YS.name>>:After2Divorced twice, he now only has80%Half of it and half of it, only20%Hahahahaha❤</p>'
-			 end
-		end
-		if Revengedialogue=2:
-		'<p><<$YS.name>>:I am a taxpayer!It is her duty to protect every citizen!I must make her pay the price for turning a blind eye to my death or not!</p>'
-		'<p>I: What do you want to do?</p>'
-		'<p><<$YS.name>>:I don`t know... it`s not a wise move to challenge her without a careful plan.…</p>'
-		'<p><B><span class =''red''>I: If I and<<$JZ.name>>Say hello in advance, hoping there will be a peaceful way to calm her anger…</p>'
-		 if $Hellosheriff=0:$Hellosheriff=1
-		end
-		if Revengedialogue=3:
-		'<p><<$YS.name>>:The abominable culprit!Why let his newly recruited horse invade me!He must be impotent...no...he must be a eunuch!</p>'
-		'<p>I: What do you want to do?</p>'
-		'<p><<$YS.name>>:I want to imprison him in the dungeon... humiliate his dick every night I want!</p>'
-		'<p>I: Hope you can succeed……</p>'
-		'<p><B><span class =''red''>·The current version cannot complete the revenge on him</p>'
-		end
-		'<p><<$YS.name>>:Do you think I am a vicious woman?But it`s my character to be vindicated.…</p>'
-	'</div>'
-end
-
-
-if $args[0]="Study room":
-	$compass[0]="East"
-	$compass[1]="West"
-	$compass[2]="South"
-	$compass[3]="North"
-	$compass="<<$compass[rand(0,3)]>>"
-	$compassA=$compass
-
-	'<div class ="show_menu"><img src="images\place\遗孀家书房<<Kerosenelampgoesout>>.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		'<div class="buttonGn4"><a href="exec:gt ''Widow`s_house'',''Nothing happened''">Press the abrupt button</a></div>'
-		'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Living room''">return</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p>·Study room, this room gives people a crowded feeling.</p>'
-		'<p>·————————————</p>'
-		'<p>·Broken watch pointing<<Badwatchtime>>Point ✮ <a href="exec:Badwatchtime+=1 & gt ''Widow`s_house'',''Study room''">Dial one hour faster</a> ✮ <a href="exec:Badwatchtime-=1 & gt ''Widow`s_house'',''Study room''">Dial slowly for one hour</a>            </p>'
-		'<p>·The orientation of the compass <<$compass>> ✮ <a href="exec:gt ''Widow`s_house'',''Study room''">Shake</a>            </p>'
-		if Kerosenelampgoesout=0:
-			'<p>·The ancient kerosene lamp lights up. <a href="exec:Kerosenelampgoesout=1 & gt ''Widow`s_house'',''Study room''">Extinguish</a>            </p>'
-			'<p>·Cross reflection length<<Thelengthoftheshadow>>Beige <a href="exec:Thelengthoftheshadow+=1 & gt ''Widow`s_house'',''Study room''">Move forward</a> ✮ <a href="exec:Thelengthoftheshadow-=1 & gt ''Widow`s_house'',''Study room''">Move back</a>            </p>'
-		end
-		if Kerosenelampgoesout=1:
-			'<p>·The ancient kerosene lamp went out. <a href="exec:Kerosenelampgoesout=0 & gt ''Widow`s_house'',''Study room''">Light up</a>            </p>'
-		end
-	'</div>'
-end
-
-if $args[0]="Nothing happened":
- if  Badwatchtime=3 and $compassA="North" and Thelengthoftheshadow=3:gt'Widow`s_house','Hidden room'
- msg'Nothing happened'  & gt 'Widow`s_house','Study room'
-end
-
-if $args[0]="Hidden room":
- '<div class ="show_menu"><img src="images\place\暗间0.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		if $Haveseenthefloorplan=3:'<div class="button"><a href="exec:minutes+=15 & gt ''Widow`s_house'',''Hidden room2''">Surveillance weapon</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p>·Om----a hidden trapdoor opened</p>'
-		'<p>Me: This should be the secret compartment that has been dusty for many years.…</p>'
-	'</div>'
-end 
-
-if $args[0]="Hidden room2":
- '<div class ="show_menu"><img src="images\place\暗间1.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		'<div class="button"><a href="exec:$goldAK=1 & gt ''Residential_area''">Take it away</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p>Me: There is really a handful of goldAKAh…</p>'
-	'</div>'
-end 
-
-
-
-if $args[0]="Back":
- '<div class ="show_menu"><img src="images\place\遗孀家背面.jpg" width="854"></div>'
-
-	'<div class="button_menu">'
-		if $Haveseenthefloorplan<3:'<div class="button"><a href="exec:minutes+=15 & gt ''Widow_Incident'',''YS_Fuck_Kitchen sleep''">Look through the window</a></div>'
-	'</div>'
-
-	'<div class="dialog_menu">'
-		'<p></p>'
-	'</div>'
-end 
-
---- Widow`s_house ---------------------------------
 

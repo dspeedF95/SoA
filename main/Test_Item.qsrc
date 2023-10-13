@@ -33,7 +33,7 @@ gs'menu_gif'
 	if $args[0] = 'There was an explosion after leaving':
 		'<img src="images\place\房间0.jpg" width="854">'
 
-	else:
+	else
 
 		'<img src="images\place\研究所.jpg" width="854">'
 

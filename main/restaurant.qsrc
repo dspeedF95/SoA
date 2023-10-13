@@ -19,13 +19,13 @@ if $ARGS[0] ="":
 
 	'<div class="button_menu">'
 		if $Gun_hunting_incident_chain>=2:'<div class="buttonP"><a href="exec:minutes+=5 & gt ''restaurant'',''Bartender Liyi''">Bartender</a></div>'
-		if $JJ.bad>=50 and $Random_number<=50 and 20<=hour and hour<=22 :
+		if $JJ.bad>=50 and $Random_number<=50 and 20<=hour and hour<=22:
 		'<div class="button"><a href="exec:minutes+=5 & gt ''restaurant'',''Sister eats''">Familiar voice</a></div>'
 		end
-		if $DZ.event_meet=1 and 13<=hour and hour<=14 :
+		if $DZ.event_meet=1 and 13<=hour and hour<=14:
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Geology_Event'',''First meeting'',''et al''">Meet my sister</a></div>'
 		end
-		if $DZ.event_Restaurant_date=1 and 18<=hour and hour<=20 and  week_day >=6 :
+		if $DZ.event_Restaurant_date=1 and 18<=hour and hour<=20 and  week_day >=6:
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Geology_Event'',''Weekend date''">and<<$DZ.name>>Eat</a></div>'
 		$DZ.event_Restaurant_date=0
 		end
@@ -72,7 +72,7 @@ if $ARGS[0] ="":
 	'<div class="dialog_menu">'
 		'<p><<$JJ.name>>Having dinner with male friends.</p>'
 		'<p><<$JJ.name>>:Senior, I didn`t expect you to return home too. If you have time, come to my laboratory. I have new research results to show you.</p>'
-		'<p>？？？:It really deserves to be you. In my former assistant group, what I admire most is you.</p>'
+		'<p>???:It really deserves to be you. In my former assistant group, what I admire most is you.</p>'
 		'<p><<$JJ.name>>:Senior, are you still single now?</p>'
 	'</div>'
 
@@ -87,7 +87,7 @@ if $ARGS[0] ="Bartender Liyi":
 	'</div>'
 	
 	'<div class="button_menu">'
-		if $Gun_hunting_incident_chain=2:'<div class="button"><a href="exec:gt ''Police_incident'',''Gun-hunting suspect''">✣Ask about specialty smoothies </a></div>'
+		if $Gun_hunting_incident_chain=2:'<div class="button"><a href="exec:my.energy+=300 & gt ''Police_incident'',''Gun-hunting suspect''">✣Ask about specialty smoothies </a></div>'
 		if $Debtcollection=1:'<div class="buttonR"><a href="exec:a=0 & q=0 & Debtcollectionnumber=1 & gt ''Group_performation_event'',''Universal_Fuck_Debtcollection''">Violent collection</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
 	'</div>'

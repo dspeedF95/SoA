@@ -34,9 +34,9 @@ if $args[0]="Urban construction_Fuck_home1":
             if q=7:'<div class="buttonS3"><a href="exec:a=8 & gt ''Urban_construction_Event'',''Urban construction_Fuck_home1''">Finished production </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-				if $CJ.tendency>=2:'<div class="buttonPu5"><a href="exec:a=0 & q=0 & gt ''Urban_construction_Event'',''Urban construction_Fuck_home2''">Continue the one-night stand</a></div>'else:'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
+				if $CJ.tendency>=2:'<div class="buttonPu5"><a href="exec:a=0 & q=0 & gt ''Urban_construction_Event'',''Urban construction_Fuck_home2''">Continue the one-night stand</a></div>'else'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
                 '<div class="button"><a href="exec:gt ''Residential_area''">respectively</a></div>'
             '</div>'
     end
@@ -84,7 +84,7 @@ if $args[0]="Urban construction_Fuck_home1":
     	 $CJ.love+=q+my.charm
          '<div class="dialog_menu">'
              '<p>I:Will you always carry it with you❤</p>'
-             if $CJ.love<100:'<p><<$CJ.name>>:Of course not... I just want one.</p>'else:'<p><<$CJ.name>>:Um... I will.</p>'
+             if $CJ.love<100:'<p><<$CJ.name>>:Of course not... I just want one.</p>'else'<p><<$CJ.name>>:Um... I will.</p>'
          '</div>'
     end
 
@@ -117,7 +117,7 @@ if $args[0]="Urban construction_Fuck_home2":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:a=0 & q=0 & minutes+=1440 & hour=7 & gt ''Urban_construction_Event'',''Urban construction_Fuck_home3''">Wake up </a></div>'
             '</div>'
@@ -167,9 +167,9 @@ if $args[0]="Urban construction_Fuck_home3":
             if q=3:'<div class="buttonS5"><a href="exec:a=4 & gt ''Urban_construction_Event'',''Urban construction_Fuck_home3''">Semen breakfast </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-				if $CJ.tendency>=5:'<div class="buttonP"><a href="exec:$CJ.tendencyG=1 & gt ''City_hall''">Massage shop invitation </a></div>'else:'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
+				if $CJ.tendency>=5:'<div class="buttonP"><a href="exec:$CJ.tendencyG=1 & gt ''City_hall''">Massage shop invitation </a></div>'else'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
                 '<div class="buttonS1"><a href="exec:gt ''City_hall''">Work together </a></div>'
                 '<div class="button"><a href="exec:gt ''Residential_area''">Leave alone </a></div>'
             '</div>'
@@ -212,7 +212,7 @@ if $args[0]="Urban construction_Fuck_massage1":
             if q=0:
             '<div class="buttonS1"><a href="exec:a=1 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage1''">Receive in person </a></div>'
             end
-            if q=1 or q=2 or q=3 or q=4 :
+            if q=1 or q=2 or q=3 or q=4:
             '<div class="buttonS1"><a href="exec:a=2 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage1''">Chest massage </a></div>'
             '<div class="buttonS1"><a href="exec:a=3 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage1''">Open your legs </a></div>'
             if a=3:'<div class="buttonS5"><a href="exec:a=4 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage1''">Massage the vulva </a></div>'
@@ -238,7 +238,7 @@ if $args[0]="Urban construction_Fuck_massage1":
             if a=18:'<div class="buttonB5"><a href="exec:a=19 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage1''">Declaration of Pure Love </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''company''">Kiss goodbye </a></div>'
             '</div>'
@@ -298,9 +298,9 @@ if $args[0]="Urban construction_Fuck_E0":
             if a=13:'<div class="buttonS"><a href="exec:a=14 & gt ''Urban_construction_Event'',''Urban construction_Fuck_E0''">dialogue </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-            	if $CJ.tendency<=-2:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Urban_construction_Event'',''Urban construction_Fuck_E1''">Send her downstairs </a></div>'else:'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
+            	if $CJ.tendency<=-2:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Urban_construction_Event'',''Urban construction_Fuck_E1''">Send her downstairs </a></div>'else'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
                 '<div class="button"><a href="exec:gt ''City_hall''">leave </a></div>'
             '</div>'
     end
@@ -375,9 +375,9 @@ if $args[0]="Urban construction_Fuck_E1":
             if a=11 or q=9:'<div class="buttonS"><a href="exec:a=12 & gt ''Urban_construction_Event'',''Urban construction_Fuck_E1''">dialogue </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-            	if $CJ.tendency<=-5:'<div class="buttonS"><a href="exec:$CJ.tendencyB=1 & gt ''Residential_area''">Massage shop invitation </a></div>'else:'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
+            	if $CJ.tendency<=-5:'<div class="buttonS"><a href="exec:$CJ.tendencyB=1 & gt ''Residential_area''">Massage shop invitation </a></div>'else'<div class="buttonGr"><a href="exec:">The tendency is insufficient</a></div>'
                 '<div class="buttonG"><a href="exec:money+=2000 & gt ''Residential_area''">Take the money and leave </a></div>'
             '</div>'
     end
@@ -426,7 +426,7 @@ if $args[0]="Urban construction_Fuck_massage2":
 
     if a<18:
         '<div class="button_menu">'
-            if q=0 or q=1 or q=2 :
+            if q=0 or q=1 or q=2:
             '<div class="buttonS1"><a href="exec:a=1 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage2''">Mouth male model </a></div>'
             '<div class="buttonB1"><a href="exec:a=2 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage2''">Mouth me </a></div>'
             '<div class="buttonS2"><a href="exec:a=3 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage2''">Enjoy at the same time </a></div>'
@@ -450,7 +450,7 @@ if $args[0]="Urban construction_Fuck_massage2":
             if a=17:'<div class="buttonGn"><a href="exec:a=18 & gt ''Urban_construction_Event'',''Urban construction_Fuck_massage2''">Lick clean </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''company''">Retreat first </a></div>'
             '</div>'
@@ -499,7 +499,7 @@ if $args[0]="Urban construction_Fuck_report":
             '<div class="buttonR5"><a href="exec:a+=1 & gt ''Urban_construction_Event'',''Urban construction_Fuck_report''">Peek </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''City_hall''">Go away </a></div>'
             '</div>'
@@ -582,7 +582,7 @@ if $args[0]="Urban construction_Fuck_Clear the field1":
             '<div class="buttonB5"><a href="exec:a+=1 & gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Peek </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:gt ''City_hall''">Go away </a></div>'
             '</div>'

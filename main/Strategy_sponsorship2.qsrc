@@ -62,20 +62,20 @@ if $ARGS[0]="":
         
     '<div class="button_menu">'
 !ds        if q=6 and a=35:'<div class="buttonG"><a href="exec:$Strategyunlock=44 & gt $loc,$metka">Unlock strategy</a></div>'
-		if q=6:'<div class="buttonG"><a href="exec:$Strategyunlock=44 & gt $loc,$metka">Unlock strategy</a></div>'
+		if q=6:'<div class="buttonG"><a href="exec:$Strategyunlock=46 & gt $loc,$metka">Unlock strategy</a></div>'
         if q>6: '<div class="buttonGr"><a href="exec:">Seeing this description has been clicked wrong</a></div>'
         '<div class="buttonS2"><a href="exec:q-=1 & gt ''Strategy_sponsorship2''">No pattern·refresh</a></div>'
         '<div class="button"><a href="exec: gt $loc,$metka">leave</a></div>'
     '</div>'
 
     '<div class="dialog_menu">'
-        '<p>·Thank you very much for your generous sponsorship. Your support is a great incentive for me.</p>'
-        '<p>·I`m too tired to update two versions in a row for a month, and I want to catch my breath a little bit.The picture above is a featured class plan a long time ago, used to complete Matsumoto Ichika(Minister`s daughter)Unlock later<<$JYB.name>>。But every time I think about it, I feel a headache. It feels very troublesome to do it. If you don`t do it, you feel that the film is in vain... If you have any ideas, you can download the submitted plot template.：https://gofile.io/d/4RDLyu</p>'
-        '<p>·——————————————————</p>'
-        '<p>·May need you to have a good look</p>'
-        '<p>·——————————————————</p>'
-		'<p><B><span class =''red''>note：126@The mailbox cannot receive my email reply, please change the mailbox</p>'
-        '<p>·The strategy is backward compatible, for examplev44.4After the version is unlocked, the previous one is coveredV42Will also be unlocked together</p>'
+    '<p>·Thank you very much for your generous sponsorship. Your support is a great incentive for me.</p>'
+    '<p>·I`m too tired to update two versions in a row for a month, and I want to catch my breath a little bit.The picture above is a featured class plan a long time ago, used to complete Matsumoto Ichika(Minister`s daughter)Unlock later<<$JYB.name>>。But every time I think about it, I feel a headache. It feels very troublesome to do it. If you don`t do it, you feel that the film is in vain... If you have any ideas, you can download the submitted plot template.：https://gofile.io/d/4RDLyu</p>'
+    '<p>·——————————————————</p>'
+    '<p>·May need you to have a good look</p>'
+    '<p>·——————————————————</p>'
+    '<p><B><span class =''red''>Note: Netease126@163The mailbox cannot receive my email reply, please change the mailbox</p>'
+    '<p>·The strategy is backward compatible, for examplev46.6After the version is unlocked, the previous one is coveredV44Will also be unlocked together</p>'
     '</div>'
 End
 

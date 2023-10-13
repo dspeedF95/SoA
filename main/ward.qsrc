@@ -25,10 +25,10 @@ if $args[0]="":
 		'<div class="button"><a href="exec:minutes+=5 &my.ethics+=1 &jx_1=1& gt ''ward''">Filial piety</a></div>'
 		if $YS.available=0:'<div class="button"><a href="exec:minutes+=5 & gt ''ward'',''Quarrel1''">Quarrel</a></div>'
 		if $SF.available=1:'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''ward'',''Eavesdropping''">Eavesdropping</a></div>'
-		if Dailyneighborbed=0 and Nextbedearly<=hour and hour <=Nextbednight:'<div class="buttonS2"><a href="exec:minutes+=5 &gt ''Group_performation_event'',''Group_performance_Fuck_Adjacentbed''">㊐ Visit the next bed</a></div>'else:'<div class="buttonGr"><a href="exec:">No one visits</a></div>'
+		if Dailyneighborbed=0 and Nextbedearly<=hour and hour <=Nextbednight:'<div class="buttonS2"><a href="exec:minutes+=5 &gt ''Group_performation_event'',''Group_performance_Fuck_Adjacentbed''">㊐ Visit the next bed</a></div>'else'<div class="buttonGr"><a href="exec:">No one visits</a></div>'
 		if Dailyneighborbed=0 and week_day>=6 and Nexttothebed>=6 and hour>=12:'<div class="buttonS3"><a href="exec:minutes+=5 &gt ''Group_performation_event'',''Group_performance_Fuck_AdjacentbedS''">The slut in the bed next to me</a></div>'
 		if $SF_Event_gold=10 and $SF.love>=100:'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''ward'',''NTR''"><<$SF.name>></a></div>'
-		if $ZX.bad>100:'<div class="buttonB4"><a href="exec:minutes+=5 & gt ''ward'',''Eavesdropping on plastic surgery''">Eavesdropping<<$ZX.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">Eavesdropping<<$ZX.name>></a></div>'
+		if $ZX.bad>100:'<div class="buttonB4"><a href="exec:minutes+=5 & gt ''ward'',''Eavesdropping on plastic surgery''">Eavesdropping<<$ZX.name>></a></div>'else'<div class="buttonGr"><a href="exec:">Eavesdropping<<$ZX.name>></a></div>'
 		'<div class="button"><a href="exec:minutes+=5 &jx_1=0 & gt ''hospital''">leave</a></div>'
 	'</div>'
 
@@ -49,7 +49,7 @@ if $args[0]="Quarrel1":
 
 	'<div class="dialog_menu">'
 		'<p>·The roar of a man came from the hospital bed next door*You look around...</p>'
-		'<p>？？？:Why do I live here?Is this where a person of my status should live, Xiao Ye?Go and arrange for meVIPward!</p>'
+		'<p>???:Why do I live here?Is this where a person of my status should live, Xiao Ye?Go and arrange for meVIPward!</p>'
 		'<p>I:Ahem, this is a hospital, please keep quiet...</p>'
 		'<p>·The woman turned her back to you, and the man yelled at the other end of the phone.As if your existence is air.</p>'
 		
@@ -81,7 +81,7 @@ if $args[0]="Quarrel3":
 		'<p>Lu Maonan:How to endure?Comminuted fractures of the ribs, crotch, pelvis, and right foot are already considered disabled!My ribs also pierced my lungs, and I can`t exercise strenuously in my life. The doctor told me that I can`t even drive a racing car! </p>'
 		'<p><<$SF.name>>:What are you angry at me for?Am I happy when you hit like this?Are you happy to serve you for the rest of your life? </p>'
 		'<p>Lu Maonan:Xiao Ye needs you to serve?The old man returned to the west with his life, and the little master survived the catastrophe.This shows that my life is hard!</p>'
-		'<p>？？？: Humph!Your life is hard, it`s not hard money!It`s not a flower150Wan gave you a heart stent, you would have died a long time ago.</p>'
+		'<p>???: Humph!Your life is hard, it`s not hard money!It`s not a flower150Wan gave you a heart stent, you would have died a long time ago.</p>'
 	'</div>'
 End
 
@@ -145,17 +145,17 @@ if $args[0]="NTRlocation":
 		'<div class="buttonS"><a href="exec:minutes+=5  &gt ''Young_woman_event'',''SF_Fuck_Toilet conception''">Go to the toilet</a></div>'
 		if $SF.bad>=50:
 		'<div class="buttonS"><a href="exec:minutes+=5  &gt ''Young_woman_event'',''SF_Fuck_Ward conception''">Do it here</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Do it here</a></div>'
 		end
 		if $SF.bad>=100:
 			if q_num>=6:'<div class="buttonS"><a href="exec:minutes+=5  &gt ''Young_woman_event'',''Go to her house''">Go to her house</a></div>'
 			if q_num<6:'<div class="buttonS"><a href="exec:minutes+=5  &gt ''Young_woman_event'',''SF_Fuck_home''">Go to her house</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Go to her house</a></div>'
 		 end
 		if Electricguitar=1:
-			if $SF.love>=200:'<div class="buttonG"><a href="exec:Electricguitar-=1 & gt ''Young_woman_event'',''Electric guitar''">Gift: Electric guitar</a></div>'else:'<div class="buttonGr"><a href="exec:">Gift: Insufficient favorability</a></div>'
+			if $SF.love>=200:'<div class="buttonG"><a href="exec:Electricguitar-=1 & gt ''Young_woman_event'',''Electric guitar''">Gift: Electric guitar</a></div>'else'<div class="buttonGr"><a href="exec:">Gift: Insufficient favorability</a></div>'
 		end
 	'</div>'
 
@@ -175,7 +175,7 @@ if $args[0]="Eavesdropping on plastic surgery":
 	'<div class="button_menu">'
 		if Antioxidantequipment=0:'<div class="button"><a href="exec:minutes+=5  &gt ''hospital''">Keep it in mind</a></div>'
 		if Antioxidantequipment=1:'<div class="buttonS"><a href="exec:gt ''Plasticity_event'',''ZX_Fuck_SD2''">Come forward to explain</a></div>'
-		if $ZX.love>=400-$ZX.bad:'<div class="buttonR3"><a href="exec:gt ''Plasticity_event'',''ZX_Fuck_Fake fall''">Pretend to fall</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+		if $ZX.love>=400-$ZX.bad:'<div class="buttonR3"><a href="exec:gt ''Plasticity_event'',''ZX_Fuck_Fake fall''">Pretend to fall</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="buttonS"><a href="exec:minutes+=5  &gt ''hospital''">leave</a></div>'
 	'</div>'
 

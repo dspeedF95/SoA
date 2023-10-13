@@ -78,8 +78,8 @@ if $ARGS[0]="Crew office2":
 		'<div class="buttonG3"><a href="exec:minutes+=15 & gt ''Empire_Event'',''Empire_Fuck_Stewardesstraining''">recruit&training<<$Trainingprogress>>/3</a></div>'
 		if $Airportprogress>=4 and $Trainingprogress>=3:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Internally selected candidates''">Select candidates within the inspection<<Internalschedule>>/5</a></div>'
 		if Internalschedule>=5:
-			if $times_of_day!'':'<div class="buttonS2"><a href="exec:$QJ.love+=1 & gt ''Empire_Event'',''Empire_Fuck_Take her home''">Take her home</a></div>'else:'<div class="buttonGr"><a href="exec:">Wait for her to finish</a></div>'
-			if $QJ.bad>=100+my.charm*15:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Female office1''">Close the door and fuck her</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*15+100>></a></div>'
+			if $times_of_day!'':'<div class="buttonS2"><a href="exec:$QJ.love+=1 & gt ''Empire_Event'',''Empire_Fuck_Take her home''">Take her home</a></div>'else'<div class="buttonGr"><a href="exec:">Wait for her to finish</a></div>'
+			if $QJ.bad>=100+my.charm*15:'<div class="buttonS"><a href="exec:gt ''Empire_Event'',''Empire_Fuck_Female office1''">Close the door and fuck her</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity<<my.charm*15+100>></a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=15 & gt ''airport''">return</a></div>'
 	'</div>'

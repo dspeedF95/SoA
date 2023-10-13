@@ -182,12 +182,12 @@ if $ARGS[0]="Release time":
 	'</div>'
 	
 	'<div class="button_menu">'
-		if money>=10000:'<div class="buttonG"><a href="exec:money-=10000 & coins+=1 & gt ''Daily_life_in_prison'',''Release time''">Purchase labor certificate￥10000</a></div>'else:'<div class="buttonGr"><a href="exec:">Purchase labor certificate￥10000</a></div>'
-		if Soapkey<=0 and coins>=10:'<div class="buttonG"><a href="exec:coins-=10 &  Soapkey+=1 & gt ''Daily_life_in_prison''">Buy Soapkey·10pieces</a></div>'else:'<div class="buttonGr"><a href="exec:">Soapkey·10pieces</a></div>'
-		if dogteam=2 and jings>=10:'<div class="buttonR3"><a href="exec:gt ''Group_performation_event'',''prison_Fuck_mouth''">For sale·Semen of breeding dogs</a></div>'else:else:'<div class="buttonGr"><a href="exec:">For sale·???</a></div>'
-		if coins>=20:'<div class="buttonS"><a href="exec:coins-=20 & gt ''Group_performation_event'',''prison_Fuck_lesbian''">Sexual services:Girls Love·20pieces</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？20pieces</a></div>'
-		if coins>=40:'<div class="buttonS"><a href="exec: gt ''Group_performation_event'',''prison_Fuck_shop3P''">Sexual services:Shuangfei·40pieces</a></div>'else:'<div class="buttonGr"><a href="exec:">？？？40pieces</a></div>'
-		if 10>$YDM_Event_free and $YDM_Event_free>0:'<div class="buttonR3"><a href="exec:gt ''Daily_life_in_prison'',''Go to jail for a generation''">Go toAdistrict</a></div>'else:'<div class="buttonR5"><a href="exec:">AThe district is under lockdown</a></div>'
+		if money>=10000:'<div class="buttonG"><a href="exec:money-=10000 & coins+=1 & gt ''Daily_life_in_prison'',''Release time''">Purchase labor certificate￥10000</a></div>'else'<div class="buttonGr"><a href="exec:">Purchase labor certificate￥10000</a></div>'
+		if Soapkey<=0 and coins>=10:'<div class="buttonG"><a href="exec:coins-=10 &  Soapkey+=1 & gt ''Daily_life_in_prison''">Buy Soapkey·10pieces</a></div>'else'<div class="buttonGr"><a href="exec:">Soapkey·10pieces</a></div>'
+		if dogteam=2 and jings>=10:'<div class="buttonR3"><a href="exec:gt ''Group_performation_event'',''prison_Fuck_mouth''">For sale·Semen of breeding dogs</a></div>'elseelse'<div class="buttonGr"><a href="exec:">For sale·???</a></div>'
+		if coins>=20:'<div class="buttonS"><a href="exec:coins-=20 & gt ''Group_performation_event'',''prison_Fuck_lesbian''">Sexual services:Girls Love·20pieces</a></div>'else'<div class="buttonGr"><a href="exec:">???20pieces</a></div>'
+		if coins>=40:'<div class="buttonS"><a href="exec: gt ''Group_performation_event'',''prison_Fuck_shop3P''">Sexual services:Shuangfei·40pieces</a></div>'else'<div class="buttonGr"><a href="exec:">???40pieces</a></div>'
+		if 10>$YDM_Event_free and $YDM_Event_free>0:'<div class="buttonR3"><a href="exec:gt ''Daily_life_in_prison'',''Go to jail for a generation''">Go toAdistrict</a></div>'else'<div class="buttonR5"><a href="exec:">AThe district is under lockdown</a></div>'
 
 
 		'<div class="button"><a href="exec:gt ''Daily_life_in_prison''">backCdistrict</a></div>'
@@ -231,12 +231,12 @@ if $ARGS[0]="Warden`s Office":
 		if dogteam=2:
 			if DYZcos=0 and tuc_level3=1:'<div class="buttonPu1"><a href="exec:DYZcos=1 & gt ''Daily_life_in_prison'',''Warden`s Office''">Hand out the photo studio business card</a></div>'
 			'<div class="buttonS1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_feast''">Provide a feast</a></div>'
-			if $DYZ.bad>=110-$DYZ.love:'<div class="buttonR1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_3P''">Group sex competition</a></div>'else:'<div class="buttonGr"><a href="exec:">？？competition</a></div>'
+			if $DYZ.bad>=110-$DYZ.love:'<div class="buttonR1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_3P''">Group sex competition</a></div>'else'<div class="buttonGr"><a href="exec:">？？competition</a></div>'
 			if $DYZ.bad>=100:
-			 if jings>=30 and  $DYZ.friend=1:'<div class="buttonR3"><a href="exec:  gt ''Warden_Incident'',''DYZ_Event_entertain2''">Semen martini</a></div>'else:'<div class="buttonR2"><a href="exec:gt ''Warden_Incident'',''DYZ_Event_entertain''">Introduce guests</a></div>'
+			 if jings>=30 and  $DYZ.friend=1:'<div class="buttonR3"><a href="exec:  gt ''Warden_Incident'',''DYZ_Event_entertain2''">Semen martini</a></div>'else'<div class="buttonR2"><a href="exec:gt ''Warden_Incident'',''DYZ_Event_entertain''">Introduce guests</a></div>'
 			end
-			if $DYZ.entertain>=1:'<div class="buttonR4"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P''">Exclusive for two</a></div>'else:'<div class="buttonGr"><a href="exec:">Two people?？</a></div>'
-			if $DYZ.entertain>=2 and $DYZ.bad>=400-$DYZ.love:'<div class="buttonR5"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P2''">Gathering of elites</a></div>'else:'<div class="buttonGr"><a href="exec:">？？Gathering</a></div>'
+			if $DYZ.entertain>=1:'<div class="buttonR4"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P''">Exclusive for two</a></div>'else'<div class="buttonGr"><a href="exec:">Two people?？</a></div>'
+			if $DYZ.entertain>=2 and $DYZ.bad>=400-$DYZ.love:'<div class="buttonR5"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P2''">Gathering of elites</a></div>'else'<div class="buttonGr"><a href="exec:">？？Gathering</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''Daily_life_in_prison''">Go back</a></div>'
 	'</div>'

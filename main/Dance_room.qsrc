@@ -18,7 +18,7 @@ q=0
 		'<div class="action">'
 			'<a class="photo" data-title="Dance practice room" href="exec:minutes+=15 & gt ''Dance_room''"><img class="img_stretch" src="images\NPC\MM\pics\舞蹈房2.jpg"></a>'
 		'</div>'
-		else:
+		else
 		'<div class="action">'
 			'<a class="photo" data-title="Dance practice room" ><img class="img_stretch" src="images\place\舞蹈房.jpg"></a>'
 		'</div>'
@@ -35,30 +35,30 @@ if  $args[0]="":
 	'<div class="button_menu">'
 		if $MM_Event_idol<5:
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Dance_room'',''Other trainees''">Other trainees</a></div>'
-		else:
+		else
 		 if camera>0:
 		  '<div class="button"><a href="exec:minutes+=15 & gt ''Dance_room'',''Take a sexy photo''">Take a sexy photo</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Need a camera</a></div>'
 		 end
 		 if Essential_oil>0:
 		  '<div class="button"><a href="exec:minutes+=15 & Essential_oil-=1 & gt ''Sister2_event'',''MM_Fuck_Essential oil''">Essential_oil massage</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Need essential oils</a></div>'
 		 end
 		 if $mm.bad>=200 and $mm.love>=200 and $jm.love>=200 and $jm.bad>=200:
 		  '<div class="buttonS"><a href="exec:minutes+=15 & gt ''Sister2_event'',''MM_Fuck_Mother and sister''">Mother and daughter guidance</a></div>'
-		 else:
+		 else
 		 '<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
 		 end
 		end
-		if money>=1280 :
+		if money>=1280:
 		'<div class="button"><a href="exec:minutes+=30 & money-=1280 & gt ''Sister2_event'',''MM_Event_Hot spring tour''">Hot spring travel￥1280</a></div>'
-		else:
+		else
 		 '<div class="buttonGr"><a href="exec:">Hot spring travel￥1280</a></div>'
 		end
 		
-		if Bluetooth_maid>=3:'<div class="buttonB2"><a href="exec:gt ''Anchor_event'',''Sister cycle0''">and<<$LY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">With a certain anchor?</a></div>'
+		if Bluetooth_maid>=3:'<div class="buttonB2"><a href="exec:gt ''Anchor_event'',''Sister cycle0''">and<<$LY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">With a certain anchor?</a></div>'
 		
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Dance_room''">Kill time</a></div>'
 	'</div>'
@@ -80,7 +80,7 @@ if  $args[0]="Other trainees":
 	'<div class="button_menu">'
 		if $MM_Event_idol=4 and $mm.love>=-$mm.bad+250:
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Sister2_event'',''MM_Fuck_4p''">Convince the four of them to love</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Empire_Entertainment''">leave</a></div>'
@@ -107,9 +107,9 @@ if  $args[0]="Take a sexy photo":
 	'</div>'
 	
 	'<div class="button_menu">'
-		if mm_fans > 0 :
+		if mm_fans > 0:
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Sister2_event'',''MM_Fuck_Thanksgiving Festival''">Hold a thanksgiving festival</a></div>'
-		else:
+		else
 		'<div class="buttonGr"><a href="exec:">Insufficient number of fans</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Empire_Entertainment''">leave</a></div>'

@@ -27,15 +27,15 @@ if  SuccubusCD>=27: gt'Succubus_event','Succubus_Fuck_daily'
 	'<div class="actions_menu">'
 		'<div class="action">'
 			if area11=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area11=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area11=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
 				'<a class="photo" data-title="Secret office"  href="exec: Secretofficedialogue=0 & gt ''Big_villa'',''Secret office''"><img class="img_stretch" src="images\place\大别墅\大别墅.jpg"></a>'
 			end
 			
 			'<a class="photo" data-title="Main hall" href="exec: gt ''Big_villa''"><img class="img_stretch" src="images\place\大别墅\大别墅.jpg"></a>'
 			if Porsche=1:
 				'<a class="photo" data-title="Driving"href="exec:minutes+=5 & gt ''Driving''"><img class="img_stretch" src="images\place\车.jpg"></a>'
-			else:
+			else
 				'<a class="photo" data-title="Residential area" href="exec:minutes+=5 & gt ''Residential_area''"><img class="img_stretch" src="images\place\居民区_<<$times_of_day>>.jpg"></a>'
 			end
 		'</div>'
@@ -45,47 +45,47 @@ if  SuccubusCD>=27: gt'Succubus_event','Succubus_Fuck_daily'
 			'<a class="photo" data-title="corridor" href="exec: gt ''Big_villa'',''corridor''"><img class="img_stretch" src="images\place\大别墅\走廊.jpg"></a>'
 			
 			if area32=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area32=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area32=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
 				'<a class="photo" data-title="basement" href="exec: gt ''Big_villa'',''basement''"><img class="img_stretch" src="images\place\大别墅\地下室.jpg"></a>'
 			end
 		'</div>'
 		
 		'<div class="action">'
 			if area13=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area13=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area13=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
 				'<a class="photo" data-title="Private massage room"  href="exec:gt ''Big_villa'',''Private massage room''"><img class="img_stretch" src="images\place\大别墅\私人按摩室.jpg"></a>'
 			end
 			if area23=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area23=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area23=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
 				'<a class="photo" data-title="Fun infirmary"  href="exec:gt ''Big_villa'',''Fun infirmary''"><img class="img_stretch" src="images\place\大别墅\情趣医务室.jpg"></a>'
 			end
 			if area33=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area33=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area33=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
 				'<a class="photo" data-title="Training room"  href="exec:gt ''Big_villa'',''Training room''"><img class="img_stretch" src="images\place\大别墅\调教室.jpg"></a>'
 			end
 		'</div>'
 		
 		'<div class="action">'
 			if area14=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area14=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area14=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
 				'<a class="photo" data-title="A brick wall" ><img class="img_stretch" src="images\place\大别墅\金墙.jpg"></a>'
 			end
 			
 			if area24=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area24=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area24=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
 				'<a class="photo" data-title="Fun classroom"  href="exec:gt ''Big_villa'',''Fun classroom''"><img class="img_stretch" src="images\place\大别墅\情趣教室.jpg"></a>'
 			end
 			
 			if area34=0:
-				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else:'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area34=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
-			else:
-				'<a class="photo" data-title="？？？"  href="exec:gt ''Big_villa'',''Summoning ceremony''"><img class="img_stretch" src="images\place\大别墅\召唤仪式.jpg"></a>'
+				if Sledgehammer<=0:'<a class="photo" data-title="Smash open" ><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'else'<a class="photo" data-title="Smash open-consume hammer" href="exec: Sledgehammer-=1 & area34=1 &gt''Big_villa''"><img class="img_stretch" src="images\place\大别墅\待砸.jpg"></a>'
+			else
+				'<a class="photo" data-title="???"  href="exec:gt ''Big_villa'',''Summoning ceremony''"><img class="img_stretch" src="images\place\大别墅\召唤仪式.jpg"></a>'
 			end
 		'</div>'
 		
@@ -105,7 +105,7 @@ if $args[0] ='':
 		if Largevillavilla>=80 and $times_of_day='':'<div class="buttonG<<rand(1,5)>>"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Visitordoorbell<<rand(-2,10)>>''">Visitor doorbell</a></div>'
 		if CHWQbefore>=100 and hour=18:'<div class="buttonG"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Visitordoorbell9''">Fierce doorbell</a></div>'
 		if day=30 and  hour=19:'<div class="buttonG"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Water meter''">Fierce doorbell</a></div>'
-		if Bluetooth_maid>=3 and TSMM=1 and $TS.Multifaceted>=40:'<div class="buttonS"><a href="exec:gt ''Angel_event'',''TS_Fuck_Big group''">Empire Entertainment (Xinhui</a></div>'else:'<div class="buttonGr"><a href="exec:">Hold a new meeting</a></div>'
+		if Bluetooth_maid>=3 and TSMM=1 and $TS.Multifaceted>=40:'<div class="buttonS"><a href="exec:gt ''Angel_event'',''TS_Fuck_Big group''">Empire Entertainment (Xinhui</a></div>'else'<div class="buttonGr"><a href="exec:">Hold a new meeting</a></div>'
 		if 25<=Largevillavilla and Largevillavilla<=30 and $times_of_day='':'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Group_performation_event'',''Group_performance_Fuck_Three women4P2''">Laughter and laughter</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
 	'</div>'
@@ -141,7 +141,7 @@ if $args[0] ='Master bedroom':
 
 	'<div class="dialog_menu">'
 		'<p>·It deserves to be the former mayor`s house... with a view of the entire city.</p>'
-		if $Wakeupinthebigvilla=0:'<p>Where I woke up after I was exhausted: [home] <a href="exec:$Wakeupinthebigvilla=1 & gt ''Big_villa'',''Master bedroom''">switch</a></p>'else:'<p>Where I woke up after I was exhausted: [here] <a href="exec:$Wakeupinthebigvilla=0 & gt ''Big_villa'',''Master bedroom''">switch</a></p>'
+		if $Wakeupinthebigvilla=0:'<p>Where I woke up after I was exhausted: [home] <a href="exec:$Wakeupinthebigvilla=1 & gt ''Big_villa'',''Master bedroom''">switch</a></p>'else'<p>Where I woke up after I was exhausted: [here] <a href="exec:$Wakeupinthebigvilla=0 & gt ''Big_villa'',''Master bedroom''">switch</a></p>'
 	'</div>'
 end
 
@@ -150,10 +150,10 @@ if $args[0] ='corridor':
 
 	'<div class="button_menu">'
 		'<div class="buttonS3"><a href="exec:gt ''Big_villa'',''Three upper rooms''"><<$SSYY.name>>room</a></div>'
-		if Sister_Hua_Maid>=2:'<div class="buttonS2"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Villa room''"><<$PW.name>>room</a></div>'else:'<div class="buttonGr"><a href="exec:">Empty room</a></div>'
+		if Sister_Hua_Maid>=2:'<div class="buttonS2"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Villa room''"><<$PW.name>>room</a></div>'else'<div class="buttonGr"><a href="exec:">Empty room</a></div>'
 		'<div class="buttonS1"><a href="exec:gt ''Big_villa'',''Hashimoto Room''"><<$QB.name>>room</a></div>'
 		'<div class="buttonS2"><a href="exec:gt ''Big_villa'',''Xunguo Room''"><<$SF.name>>room</a></div>'
-		if $TS.ROOM=1:'<div class="buttonS3"><a href="exec:gt ''Big_villa'',''Angel Room''"><<$TS.name>>room</a></div>'else:'<div class="buttonGr"><a href="exec:">Empty room</a></div>'
+		if $TS.ROOM=1:'<div class="buttonS3"><a href="exec:gt ''Big_villa'',''Angel Room''"><<$TS.name>>room</a></div>'else'<div class="buttonGr"><a href="exec:">Empty room</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
 	'</div>'
 
@@ -192,7 +192,7 @@ if $args[0] ='Secret office':
 		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=4 & gt ''Big_villa'',''Secret office''">快递Courier receipt</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=5 & gt ''Big_villa'',''Secret office''">⑤Search record</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & Secretofficedialogue=6 & gt ''Big_villa'',''Secret office''">⑥Personnel changes 【Unread】</a></div>'
-		if OMoney>0:'<div class="buttonG"><a href="exec:minutes+=5 & Secretofficedialogue=7 & gt ''Big_villa'',''Secret office''">经纪人Broker commission</a></div>'else:'<div class="buttonGr"><a href="exec:">经纪人Broker commission</a></div>'
+		if OMoney>0:'<div class="buttonG"><a href="exec:minutes+=5 & Secretofficedialogue=7 & gt ''Big_villa'',''Secret office''">经纪人Broker commission</a></div>'else'<div class="buttonGr"><a href="exec:">经纪人Broker commission</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -264,10 +264,10 @@ if $args[0] ='Private massage room':
 	'<div class ="show_menu"><img src="images\place\大别墅\私人按摩室.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if Largevillavilla>=75:'<div class="buttonP"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$SSYY.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
-        if 45<=Largevillavilla and Largevillavilla<=80:'<div class="buttonP"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$QB.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
-        if 20<=Largevillavilla and Largevillavilla<=55:'<div class="buttonP"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$SF.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
-        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonP"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$TS.name>>service</a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+		if Largevillavilla>=75:'<div class="buttonP"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$SSYY.name>>service</a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 45<=Largevillavilla and Largevillavilla<=80:'<div class="buttonP"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$QB.name>>service</a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 20<=Largevillavilla and Largevillavilla<=55:'<div class="buttonP"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$SF.name>>service</a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonP"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Massage room''"><<$TS.name>>service</a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
 		'<div class="buttonP"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
 	'</div>'
 
@@ -280,10 +280,10 @@ if $args[0] ='Fun infirmary':
 	'<div class ="show_menu"><img src="images\place\大别墅\情趣医务室.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if Largevillavilla>=75:'<div class="buttonGn"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$SSYY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">She is not free</a></div>'
-        if 50<=Largevillavilla and Largevillavilla<=75:'<div class="buttonGn"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$QB.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
-        if 25<=Largevillavilla and Largevillavilla<=50:'<div class="buttonGn"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$SF.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
-        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonGn"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$TS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+		if Largevillavilla>=75:'<div class="buttonGn"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$SSYY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">She is not free</a></div>'
+        if 50<=Largevillavilla and Largevillavilla<=75:'<div class="buttonGn"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$QB.name>></a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 25<=Largevillavilla and Largevillavilla<=50:'<div class="buttonGn"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$SF.name>></a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonGn"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Infirmary''">Call<<$TS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
 
 		'<div class="buttonGn"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
 	'</div>'
@@ -297,10 +297,10 @@ if $args[0] ='Fun classroom':
 	'<div class ="show_menu"><img src="images\place\大别墅\情趣教室.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if Largevillavilla>=70:'<div class="buttonS2"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$SSYY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">She is busy</a></div>'
-        if 50<=Largevillavilla and Largevillavilla<=80:'<div class="buttonS2"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$QB.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
-        if 25<=Largevillavilla and Largevillavilla<=50:'<div class="buttonS2"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$SF.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
-        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonS2"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$TS.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+		if Largevillavilla>=70:'<div class="buttonS2"><a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$SSYY.name>></a></div>'else'<div class="buttonGr"><a href="exec:">She is busy</a></div>'
+        if 50<=Largevillavilla and Largevillavilla<=80:'<div class="buttonS2"><a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$QB.name>></a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if 25<=Largevillavilla and Largevillavilla<=50:'<div class="buttonS2"><a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$SF.name>></a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
+        if Largevillavilla<=25 and $TS.room=1:'<div class="buttonS2"><a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_classroom''">counseling<<$TS.name>></a></div>'else'<div class="buttonGr"><a href="exec:">People are not here</a></div>'
 
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
 	'</div>'
@@ -319,11 +319,11 @@ if $args[0] ='Training room':
 
 	'<div class="dialog_menu">'
 		'<p>·In the training room, I didn`t expect the former mayor to have this kind of hobby.…</p>'
-		if $SSYY.Restraint=1:'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SSYY.name>>】</a></p>'else:'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
-        if $QB.Restraint=1:'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$QB.name>>】</a></p>'else:'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
-        if $SF.Restraint=1:'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SF.name>>】</a></p>'else:'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+		if $SSYY.Restraint=1:'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SSYY.name>>】</a></p>'else'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+        if $QB.Restraint=1:'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$QB.name>>】</a></p>'else'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+        if $SF.Restraint=1:'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SF.name>>】</a></p>'else'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
         if $TS.room=1:
-			if $TS.Restraint=1:'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$TS.name>>】</a></p>'else:'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+			if $TS.Restraint=1:'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$TS.name>>】</a></p>'else'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
 		end
 	'</div>'
 end
@@ -332,7 +332,7 @@ if $args[0] ='Summoning ceremony':
 	'<div class ="show_menu"><img src="images\place\大别墅\召唤仪式.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if year>=2024 and DatecountJun>=20:'<div class="buttonS"><a href="exec:gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">？？？</a></div>'
+		if year>=2024 and DatecountJun>=20:'<div class="buttonS"><a href="exec:gt ''Group_performation_event'',''fan_Fuck_DSuccubus''">???</a></div>'
 		if $MMS.available=1:'<div class="buttonS"><a href="exec:Succubus_Dialogue=0 & gt ''Big_villa'',''Succubus vertical painting''">Summon her</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Residential_area''">leave</a></div>'
 	'</div>'
@@ -395,11 +395,11 @@ if $args[0] ='Three upper rooms':
 		if $times_of_day='':
 			'<div class="buttonS1"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Eatinthevilla''">Eat sausage </a></div>'
 			'<div class="buttonS2"><a href="exec:gt ''Yuya_Event'',''Selection of jobs''">Selection of jobs</a></div>'
-			if Essential_oil>0:'<div class="buttonS3"><a href="exec:Essential_oil-=1 & gt ''Yuya_Event'',''SSYY_Fuck_Villa massage''">Essential oil massage</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of essential oils</a></div>'
+			if Essential_oil>0:'<div class="buttonS3"><a href="exec:Essential_oil-=1 & gt ''Yuya_Event'',''SSYY_Fuck_Villa massage''">Essential oil massage</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of essential oils</a></div>'
 			if $QB.bad+$SSYY.bad>=my.charm*50:'<div class="buttonS4"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Double''">find<<$QB.name>>❤</a></div>'
 			if SSYYcos=0 and tuc_level3=1:'<div class="buttonS5"><a href="exec: SSYYcos=1 & gt ''company''">invitecosshooting</a></div>'
-		else:
-			if $SSYY.love>=my.charm*20:'<div class="buttonPu1"><a href="exec:minutes+=120 & gt ''Yuya_Event'',''SSYY_Fuck_Late_attack''">Exercise before going to bed</a></div>'else:'<div class="buttonPu1"><a href="exec:">Lack of favorability</a></div>'
+		else
+			if $SSYY.love>=my.charm*20:'<div class="buttonPu1"><a href="exec:minutes+=120 & gt ''Yuya_Event'',''SSYY_Fuck_Late_attack''">Exercise before going to bed</a></div>'else'<div class="buttonPu1"><a href="exec:">Lack of favorability</a></div>'
 			'<div class="buttonPu2"><a href="exec:minutes+=120 & gt ''Yuya_Event'',''SSYY_Fuck_sleep''">Wait for her to fall asleep</a></div>'
 		end
 		
@@ -418,7 +418,7 @@ if $args[0] ='Hashimoto Room':
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\QB\vids\早房间0.webm" type=''video/webm;''></video></div>'
 		'</div>'
-	 else:
+	 else
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
 			 <source src="images\NPC\QB\vids\房间_<<$times_of_day>>.webm" type=''video/webm;''></video></div>'
@@ -430,7 +430,7 @@ if $args[0] ='Hashimoto Room':
 			'<div class="buttonGn"><a href="exec:gt ''Hashimoto_Event'',''Selection of jobs''">Wait for her to make up</a></div>'
 			'<div class="buttonS1"><a href="exec:minutes+=120 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Let`s start first</a></div>'
 			if $QB.bad+$SSYY.bad>=my.charm*50:'<div class="buttonS4"><a href="exec:gt ''Hashimoto_Event'',''QB_Fuck_Double''">find<<$SSYY.name>>❤</a></div>'
-		else:
+		else
 			'<div class="buttonPu1"><a href="exec:minutes+=120 & gt ''Hashimoto_Event'',''QB_Fuck_Dontroom''">Have a shot</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Big_villa''">leave</a></div>'
@@ -454,7 +454,7 @@ if $args[0] ='Xunguo Room':
 		if $times_of_day='':
 			'<div class="buttonG"><a href="exec:gt ''Young_woman_event'',''Work shooting''">Work shooting</a></div>'
 			'<div class="buttonR"><a href="exec:minutes+=120 & gt ''Young_woman_event'',''SF_Fuck_Uninvited guest''">Uninvited guest</a></div>'
-		else:
+		else
 			'<div class="buttonPu1"><a href="exec:minutes+=120 & a=1 & gt ''Young_woman_event'',''SF_Fuck_Have a shot''">❤Fuck her❤</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Big_villa''">leave</a></div>'
@@ -476,8 +476,8 @@ if $args[0] ='Angel Room':
 		if $times_of_day='':
 			'<div class="buttonS1"><a href="exec:gt ''Angel_event'',''TS_Fuck_white''">Have a shot </a></div>'
 			'<div class="buttonS2"><a href="exec:gt ''Angel_event'',''Selection of jobs''">Preparation</a></div>'
-			if TSMM=1:'<div class="buttonS3"><a href="exec:gt ''Angel_event'',''TS_Fuck_TSM2''">and<<$MM.name>>training</a></div>'else:'<div class="buttonGr"><a href="exec:">and<<$MM.name>>training</a></div>'
-		else:
+			if TSMM=1:'<div class="buttonS3"><a href="exec:gt ''Angel_event'',''TS_Fuck_TSM2''">and<<$MM.name>>training</a></div>'else'<div class="buttonGr"><a href="exec:">and<<$MM.name>>training</a></div>'
+		else
 			'<div class="buttonPu4"><a href="exec:$Universallocation=''晚1'' & fxnum=8 & 
             $Generalselection1=''Serve me'' & $Generalselection2=''Interrupt'' & $Generalselection3=''Play with her'' & $Generalselection4=''Thrusting in front of the window'' &
             $Generalselection5=''Train lunch'' & $Generalselection6=''About to launch'' & $Generalselection7=''Ejaculation'' & $Generalselection8=''Lick clean'' &
@@ -487,7 +487,7 @@ if $args[0] ='Angel Room':
             $Panleave=''Big_villa'' & gt ''Angel_event'',''TS_Fuck_Universal''">Have a drink</a></div>'
 		end
 		
-		if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Use McGovern</a></div>'else:'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
+		if MGF>0:'<div class="buttonS"><a href="exec:MGF-=1 & gt ''Angel_event'',''TS_Fuck_Strong medicine''">Use McGovern</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of McGovern</a></div>'
 		
 		
 		

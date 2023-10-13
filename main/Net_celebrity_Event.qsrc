@@ -6,6 +6,8 @@ gs'menu_gif'
 my.energy-=3
 minutes+=15
 
+
+
 '<div id="right-column">'
 	gs"Energy_judgment"
 	gs'menu_time'
@@ -25,267 +27,1153 @@ if $args[0]="meet":
 		'</div>'
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Cinema</a></div>'
-		if $WH.bad>=2:'<div class="buttonS2"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">Take Douyin</a></div>'else:'<div class="buttonGr"><a href="exec:">Take Douyin</a></div>'
-		if $WH.bad>=5:'<div class="buttonS3"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Go to the hotel</a></div>'else:'<div class="buttonGr"><a href="exec:">Go to the hotel</a></div>'
-		if $WH.bad>=20:'<div class="buttonS4"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_library''">library</a></div>'else:'<div class="buttonGr"><a href="exec:">library</a></div>'
 		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
-
 	'</div>'
 
 
 	'<div class="dialog_menu">'	
-		'<p><<$WH.name>>:Hello❤<<$Protagonist`s_name>>❤…</p>'
-		'<p>I:You are not the same as Douyin…</p>'
-		'<p><<$WH.name>>:They are all automatic beauty pots!Where do you want to play today?</p>'
+		'<p><<$WH.name>>:Have you been waiting for a long time ❤<<$Protagonist`s_name>>❤</p>'
+		'<p>I:In reality, you are different from Douyin.…</p>'
+		'<p><<$WH.name>>:They are all automatic beauty pots!By the way, where do you want to play?</p>'
 	'</div>'
 End
 
 if $args[0]="WH_Fuck_Cinema":
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\WH\vids\电影院1-<<a>>.webm" type=''video/webm;''></video></div>'
-		'</div>'
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\电影院1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
 
-	if a!2:
-		'<div class="button_menu">'
-			if a=0:
-			'<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Want to do</a></div>'
-			end
-			if a=1:
-			'<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Please</a></div>'
-			end
-		'</div>'
-		else:
-			'<div class="button_menu">'
-				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
-			'</div>'
-	end
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Hard</a></div>'
+            end
+            if a=1:
+            '<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Please</a></div>'
+            end
+            if a=2:
+            '<div class="buttonG4"><a href="exec:a=3 & money-=8000 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">￥8000</a></div>'
+            '<div class="buttonR3"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Forget it</a></div>'
+            end
+            if a=3:
+            '<div class="buttonG"><a href="exec:a=4 & money-=8000 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Mouth me</a></div>'
+            end
+            if a=4:
+            '<div class="buttonG"><a href="exec:a=5 & money-=8000 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Be serious!</a></div>'
+            end
+            if a=5:
+            '<div class="buttonR2"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Someone is coming?</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Ejaculation</a></div>'
+            end
+            if a=7:
+            '<div class="buttonGn3"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">dialogue</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:gt ''Net_celebrity_Event'',''Send back''">Send her back</a></div>'
+            '</div>'
+    end
 
-	if a=0:
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>: I really want to do it, right?But people also have principles❤</p>'
-		 '</div>'
-	end
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>: Will it be boring just watching movies?I wore a very sexy pair of panties today❤</p>'
+         '</div>'
+    end
 
-	if a=1 :
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:If you can`t help it... please me❤</p>'
-		 '</div>'
-	end
+    if a=1 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Hahaha, if you can`t help it... please me❤</p>'
+         '</div>'
+    end
 
-	if a=2 :
-		 $WH.love+=1+my.charm
-		 $WH.bad+=q
-		 '<div class="dialog_menu">'
-			 '<p>I:Please……</p>'
-			 '<p><<$WH.name>>:It`s so cute... sure enough, you guys can say whatever nonsense you want to do.……</p>'
-			 '<p>I:It`s not good... someone is coming…</p>'
-			 '<p><<$WH.name>>:If caught... I will not hesitate to betray you…</p>'
-		 '</div>'
-	end
+    if a=2 :
+         '<div class="dialog_menu">'
+             '<p>I:Please……</p>'
+             '<p><<$WH.name>>:If you want me to help you get it out ❤ you have to pay some cleaning fees❤</p>'
+         '</div>'
+    end
+
+
+    if 3<=a and a<=6 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:It`s just that at this level... you shouldn`t be satisfied❤</p>'
+             '<p>I:Can you... help me out?</p>'
+             if a=6:'<p>I:Can I insert you ❤</p>'
+             if a=6:'<p><<$WH.name>>:No, someone is coming outside, it`s so dangerous❤</p>'
+         '</div>'
+    end
+    if a=7 :
+         '<div class="dialog_menu">'
+             '<p>I:Then shoot it on your little ass……</p>'
+             '<p><<$WH.name>>:Don`t forget the cleaning fee ❤</p>'
+         '</div>'
+    end
+
+    if a=8 :
+         $WH.love+=q
+         $WH.bad+=q+2
+         '<div class="dialog_menu">'
+             '<p>I:Does the movie look good?…</p>'
+             '<p><<$WH.name>>:I`m not interested in watching movies❤</p>'
+         '</div>'
+    end
  q+=1
 
 End
 
-if $args[0]="WH_Fuck_shooting":
+
+if $args[0]="Send back":
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\WH\vids\拍摄1-<<a>>.webm" type=''video/webm;''></video></div>'
+			 <source src="images\NPC\WH\vids\送回.webm" type=''video/webm;''></video></div>'
 		'</div>'
+	'<div class="button_menu">'
+		'<div class="buttonPu4"><a href="exec:gt ''Deep_alley''">Delivered to Shenxiang</a></div>'
+	'</div>'
 
-	if a!4:
-		'<div class="button_menu">'
-			if a=0:
-			'<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">Show her</a></div>'
-			end
-			if a=1:
-			'<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">What are you going to do</a></div>'
-			end
-			if a=2:
-			'<div class="button"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">Ejaculation</a></div>'
-			end
-			if a=3:
-			'<div class="button"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_shooting''">wait</a></div>'
-			end
-		'</div>'
-		else:
-			'<div class="button_menu">'
-				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
-			'</div>'
-	end
 
-	if a=0:
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>: How`s it going ❤ Is the filming finished?Is the angle okay?How about the costume?❤Let me see!</p>'
-		 '</div>'
-	end
-
-	if a=1 :
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:Not bad…</p>'
-			 '<p>I:What are you doing…</p>'
-			 '<p><<$WH.name>>:Of course it`s a reward for you❤</p>'
-		 '</div>'
-	end
-
-	if a=2 :
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:What`s your expression?</p>'
-			 '<p>I:I thought you were the kind of soft girl character…</p>'
-			 '<p><<$WH.name>>:Soft girl`s character ❤ It`s not impossible❤</p>'
-		 '</div>'
-	end
-
-	if a=3 :
-		 '<div class="dialog_menu">'
-			 '<p>I:……</p>'
-			 '<p><<$WH.name>>:Hahahaha❤</p>'
-		 '</div>'
-	end
-
-	if a=4 :
-		 $WH.love+=1+my.charm
-		 $WH.bad+=q
-		 '<div class="dialog_menu">'
-			 '<p>I:...hey hey...wait... stop!！</p>'
-			 '<p><<$WH.name>>:Hahahaha❤hahahaha❤</p>'
-		 '</div>'
-	end
- q+=1
-
+	'<div class="dialog_menu">'	
+		'<p>I:Where do you live now?</p>'
+		'<p><span class =''red''><<$WH.name>>:I`m still renting an apartment in [Shenxiang] for the time being ❤ What`s the matter?Do you want to buy me a big house❤*laugh</s></p>'
+		'<p>I:Can I go up and sit down?</p>'
+		'<p><<$WH.name>>:Yes ❤ But you have to pay a visit fee❤</p>'
+		$WH.love+=1
+	'</div>'
 End
 
-if $args[0]="WH_Fuck_hotel":
+if $args[0]="Net celebrity home":
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\WH\vids\旅馆1-<<a>>.webm" type=''video/webm;''></video></div>'
+			 <source src="images\NPC\WH\vids\thom1-<<a>>.webm" type=''video/webm;''></video></div>'
 		'</div>'
-
-	if a!6:
-		'<div class="button_menu">'
-			if a=0:
-			'<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Lick me</a></div>'
+	'<div class="button_menu">'
+            if a=0:'<div class="buttonR2"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''Net celebrity home''">Cleaning fee?</a></div>'
+            if a=1:
+				if money>=4000:
+				'<div class="buttonG"><a href="exec:a=2 & money-=4000+money/10 & gt ''Net_celebrity_Event'',''Net celebrity home''">Pay the cleaning fee￥<<4000+money/10>></a></div>'
+				else:
+				'<div class="buttonGr"><a href="exec:">Pay the cleaning fee￥<<4000+money/10>></a></div>'
+				'<div class="buttonPu4"><a href="exec:gt ''Deep_alley''">leave</a></div>'
+				end
 			end
-			if a=1:
-			'<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Ask for more</a></div>'
-			end
-			if a=2:
-			'<div class="buttonS"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Ejaculation</a></div>'
-			end
-			if a=3:
-			'<div class="button"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Ask for more</a></div>'
-			end
-			if a=4:
-			'<div class="button"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Ask for more</a></div>'
-			end
-			if a=5:
-			'<div class="buttonS"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_hotel''">Ejaculation</a></div>'
-			end
-		'</div>'
-		else:
-			'<div class="button_menu">'
-				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
-			'</div>'
-	end
+            if a=2:'<div class="button"><a href="exec:gt ''Net_celebrity_Event'',''Real net celebrity home''">Sit down and wait for her</a></div>'
+	'</div>'
 
-	if a=0:
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>: What are you looking at❤</p>'
-		 '</div>'
-	end
 
-	if a=1 :
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:<<$Panting>>❤I know you like this❤</p>'
-		 '</div>'
-	end
-
-	if a=2 :
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:<<$Panting>>❤Shoot it in my mouth❤</p>'
-		 '</div>'
-	end
-
-	if 5>=a and a>=3:
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:<<$words>>❤I won`t charge extra❤</p>'
-		 '</div>'
-	end
-
-	if a=6 :
-		 $WH.love+=q+my.charm
-		 $WH.bad+=q
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:Slightly ❤So disgusting❤</p>'
-		 '</div>'
-	end
- q+=1
-
+	'<div class="dialog_menu">'	
+		'<p><span class =''red''><<$WH.name>>:The tour fee is free❤*laugh</s></p>'
+		'<p>I:Do you only have money in your eyes?</p>'
+		'<p><<$WH.name>>:Why do you say that to me!Then I have to charge you ￥<<4000+money/10>>The cleaning fee!*tease</p>'
+		if a>=1:'<p>I:Cleaning fee?</p>'
+		if a>=1:'<p><<$WH.name>>:Can you promise not to stain me ❤*laugh</p>'
+		if a>=2:'<p><<$WH.name>>:Hehe, you sit and wait for me to meet, I have to wash and change clothes❤</p>'
+	'</div>'
 End
 
-if $args[0]="WH_Fuck_library":
+if $args[0]="Real net celebrity home":
+	 a=0 
+	 q=0
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\WH\vids\图书馆1-<<a>>.webm" type=''video/webm;''></video></div>'
+			 <source src="images\NPC\WH\vids\坐下.webm" type=''video/webm;''></video></div>'
 		'</div>'
+	'<div class="button_menu">'
+		'<div class="buttonP"><a href="exec:gt ''Net_celebrity_Event'', ''meet2''">Go out with her</a></div>'
+		if $WH.boyfriend>=1:'<div class="buttonR3"><a href="exec:gt ''Net_celebrity_Event'', ''Knock on the door''">Knock on the door</a></div>'
+		if $WH.Hotspringprocess=1:'<div class="buttonG4"><a href="exec:gt ''Net_celebrity_Event'', ''Take Douyin''">Take Douyin</a></div>'
+		'<div class="buttonPu4"><a href="exec:gt ''Deep_alley''">leave</a></div>'
+	'</div>'
 
-	if a!5:
-		'<div class="button_menu">'
-			if a=0:
-			'<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_library''">Ask for more</a></div>'
-			end
-			if a=1:
-			'<div class="buttonS"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_library''">Ejaculation</a></div>'
-			end
-			if a=2:
-			'<div class="button"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_library''">Fuck her</a></div>'
-			end
-			if a=3:
-			'<div class="button"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_library''">sprint</a></div>'
-			end
-			if a=4:
-			'<div class="buttonS"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_library''">Ejaculation</a></div>'
-			end
+	'<div class="dialog_menu">'	
+		'<p>I:Play the new game for a while, this game is not as serious as the original Krypton gold.…</p>'
+		if $WH.love<30:'<p>*There was a sound in the bathroom*What`s wrong with you, Shinhara?</p>'
+		if $WH.love>=30:'<p>*There was a sound in the bathroom*What`s wrong with you, Shinhara?<a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_wash''">-Go in</a></p>'
+	'</div>'
+End
+
+if $args[0]="Take Douyin":
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\WH\vids\私信.webm" type=''video/webm;''></video></div>'
 		'</div>'
-		else:
-			'<div class="button_menu">'
-				'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
-			'</div>'
-	end
+	'<div class="button_menu">'
+		'<div class="buttonS1"><a href="exec:$WHShootingnumber=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Warm sweet girl</a></div>'
+		if $WH.Shootingiscomplete>=1:'<div class="buttonS2"><a href="exec:$WHShootingnumber=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">shakeSSuccubus</a></div>'else:'<div class="buttonGr"><a href="exec:">shakeSSuccubus</a></div>'
+		if $WH.Shootingiscomplete>=2:'<div class="buttonS3"><a href="exec:$WHShootingnumber=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Personal status idol</a></div>'else:'<div class="buttonGr"><a href="exec:">Personal status idol</a></div>'
+		if $WH.Weddingdress=1:'<div class="buttonG"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Wedding bride</a></div>'else:'<div class="buttonGr"><a href="exec:">Wedding bride</a></div>'
+		'<div class="buttonPu4"><a href="exec:gt ''Deep_alley''">leave</a></div>'
+	'</div>'
 
-	if a=0:
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>: This is what you want, right ❤ Don`t be discovered by others❤</p>'
-		 '</div>'
-	end
 
-	if a=1 :
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:<<$Panting>>❤</p>'
-		 '</div>'
-	end
+	'<div class="dialog_menu">'	
+		'<p><<$WH.name>>:Let`s talk about it first ❤ It was taken for me for free~I won`t pay!</p>'
+	'</div>'
+End
 
-	if a=2 :
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:<<$Panting>>❤Want more❤</p>'
-		 '</div>'
-	end
+if $args[0]="meet2":
+	 a=0
+	 q=0
+	 if $WH.boyfriend=0:gt 'Net_celebrity_Event', 'Before meeting boyfriend'
+	 
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\WH\vids\中转.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="buttonG1"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Cinema</a></div>'
+		if $WH.boyfriend>=3:'<div class="buttonG3"><a href="exec:gt ''Net_celebrity_Event'',''Go to the hot spring''">Go to the hot spring</a></div>'
+		if $WH.boyfriend>=3:'<div class="buttonR2"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_football''">Accompany him to training</a></div>'
+		if $WH.Shootingiscomplete>=3:'<div class="buttonS"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Go straight to the hotel to fuck</a></div>'
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
 
-	if a=3 or a=4:
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:<<$words>></p>'
-		 '</div>'
-	end
 
-	if a=5 :
-		 $WH.love+=q+my.charm
-		 $WH.bad+=q
-		 '<div class="dialog_menu">'
-			 '<p><<$WH.name>>:<<$Panting>>❤Let`s go while no one finds out❤</p>'
-		 '</div>'
-	end
+	'<div class="dialog_menu">'	
+		'<p>Xiaokongyi:Baby, where are you going?</p>'
+		'<p><<$WH.name>>:Don`t call me that outside ❤ I`m a little Internet celebrity now, it`s terrible to be discovered by fans!</p>'
+		'<p>Xiaokongyi:Sorry... I can`t help it... By the way, a wild team paid me to go to sparring!</p>'
+		'<p><<$WH.name>>:Okay, okay, then me and<<$Protagonist`s_name>>And I`m busy in advance❤</p>'
+		'<p>I:Where do you want to go?</p>'
+	'</div>'
+End
+
+if $args[0]="Before meeting boyfriend":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\km1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!3:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''Before meeting boyfriend''">Leave them alone</a></div>'
+            end
+            if a=1:
+            '<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''Before meeting boyfriend''">Eavesdropping</a></div>'
+            end
+            if a=2:
+            '<div class="button"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''Before meeting boyfriend''">Eavesdropping</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>: Eh?Xiaokongyi?Why are you here?Didn`t you go to play football abroad?</p>'
+             '<p>Xiao Kongyi: I... I was expelled from the team for giving up a shot in the league and caused the team to lose.……</p>'
+             '<p><<$WH.name>>: That`s a pity, you used to be the ace striker of our school!</p>'
+             '<p>Xiao Kongyi: Oh... how are you doing now?Which... is it convenient for us to talk alone?I have something to say to you…</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:I haven`t seen you in a few years, you have changed so much!I remember I confessed to you at school, and you rejected it, hahahahaha.</p>'
+             '<p>Xiao Kongyi: I just wanted to talk about that... At that time, I just wanted to concentrate on playing football.…</p>'
+             '<p><<$WH.name>>:It`s okay……</p>'
+         '</div>'
+    end
+
+    if a=2 :
+         '<div class="dialog_menu">'
+             '<p>Xiao Kongyi: I... I actually like you all the time!Please associate with me!</p>'
+             '<p><<$WH.name>>:Eh?！So suddenly... how much deposit do you have?</p>'
+             '<p>Xiaokongyi: The team only sent less than20Ten thousand salary…</p>'
+         '</div>'
+    end
+
+    if a=3 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:20Ten thousand?Okay, then you have to give me all the flowers❤</p>'
+             '<p>Xiao Kongyi: Okay!I will work hard to support you!</p>'
+             if $WH.boyfriend=0:$WH.boyfriend=1
+         '</div>'
+    end
+
  q+=1
+End
 
+if $args[0]="Knock on the door":
+	 a=0 
+	 q=0
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\WH\vids\家.webm" type=''video/webm;''></video></div>'
+		'</div>'
+	'<div class="button_menu">'
+		'<div class="buttonS3"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Have dinner together</a></div>'
+		if $WH.boyfriend>=2:'<div class="buttonR4"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Let him go</a></div>'
+		'<div class="buttonPu4"><a href="exec:gt ''Deep_alley''">leave</a></div>'
+	'</div>'
+
+	'<div class="dialog_menu">'	
+		'<p>Xiaokongyi:Uh... this is……</p>'
+		'<p><<$WH.name>>:I`m an Internet celebrity now, and I have a male assistant. Is it normal for a photographer?</p>'
+		'<p>Xiaokongyi:I understand, but is it weird to shoot at home?</p>'
+		'<p><<$WH.name>>:What`s weird?Otherwise, you rent a venue for me to shoot?！</p>'
+		'<p>I:………</p>'
+	'</div>'
+End
+
+if $args[0]="WH_Fuck_dinner":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\居酒屋1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonG4"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Raise a glass</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">dialogue</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Keep talking to me</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Stand up</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Oral airplane cup</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Ejaculation</a></div>'
+            end
+            if a=6:
+            '<div class="buttonR4"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">He woke up</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Pull away</a></div>'
+            '</div>'
+    end
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>Xiao Kongyi: Eh... does he want to stay and eat with us too?…</p>'
+             '<p><<$WH.name>>: Can`t it work?How much does an extra pair of chopsticks cost you?Do you feel bad about this?</p>'
+             '<p>Xiao Kongyi: That`s not what I meant... I want to have time alone with you……</p>'
+             '<p><<$WH.name>>: When you make enough money, when can`t we stay together?Do you think so?<<$Protagonist`s_surname>>Sir?</p>'
+             '<p>Me: Uh...yes</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Are you drunk like this?It`s so hot, it`s not as cool as when I went to school.</p>'
+             '<p>Xiaokongyi：Zzz…Zzz…Zzz…</p>'
+             '<p>I:Do you like him?Why are you with him if you don`t like him?</p>'
+         '</div>'
+    end
+
+    if 2<=a and a<=6 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Do you ask me if I like him?Do you like me ❤</p>'
+             if a>=3:'<p>Me: You... I can`t answer you like this…</p>'
+             if a>=4:'<p><<$WH.name>>:Then don`t answer, just enjoy it❤</p>'
+         '</div>'
+    end
+
+    if a=7 :
+		 $WH.love+=q
+		 $WH.bad+=q+my.charm
+		  if $WH.boyfriend=1:$WH.boyfriend=2
+         '<div class="dialog_menu">'
+             '<p>Xiao Kongyi: Huh?How long have I slept?</p>'
+             '<p>I：20Minutes, right?</p>'
+             '<p>Xiao Kongyi: Why doesn`t she speak?</p>'
+             '<p>Me: She drank too much too.</p>'
+             '<p>Xiao Kongyi: Then you must...follow me, I don`t... want you to take advantage of my daughter...when she is drunk...!</p>'
+             '<p>Me: You drank too much too.</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_football":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\足球1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonR"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Vent her fire</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Is it exciting?</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Shoot her</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Do you still want it?</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Ejaculate again</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Is it exciting?</a></div>'
+            '<div class="buttonR4"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Someone is coming?</a></div>'
+            end
+            if a=6:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Last shot</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Pull away</a></div>'
+            '</div>'
+    end
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>Xiaokongyi：<<$Protagonist`s_name>>, Do you want to come with me for two rounds?I can make you5A ball!</p>'
+             '<p><<$WH.name>>: Oh, are you a child?<<$Protagonist`s_name>>, Not good at this kind of rough exercise.</p>'
+             '<p>Xiao Kongyi: Then what sports are you good at?</p>'
+             '<p>Me: Uh... hard to say.</p>'
+             '<p>Xiao Kongyi: Huh, a pussy.</p>'
+             '<p>Me: What did you say?！</p>'
+             '<p><<$WH.name>>: Oh, what are you competing with him for?Ignore him, let`s go❤</p>'
+         '</div>'
+    end
+
+
+    if 1<=a and a<=6 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Really<<$words>></p>'
+             if a=2:'<p>Me: Is it exciting?</p>'
+             if a=4:'<p>Me: Do you still want it?</p>'
+             if a=2 or a=4:'<p><<$WH.name>>:Of course<<$words2>></p>'
+             if a=6:'<p>Me: It seems that someone is coming?</p>'
+         '</div>'
+    end
+
+    if a=7 :
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm
+         if $WH.boyfriend=3:$WH.boyfriend=4
+         '<div class="dialog_menu">'
+             '<p>Me: Then this is the last shot!</p>'
+             '<p><<$WH.name>>:Hmm<<$Panting>>...let`s go❤</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_He goes":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\jga1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!7:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonR"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Wait for him to close the door</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Play around wantonly</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Insert her</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Fuck her</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Go to bed and fuck</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Accelerate thrusting</a></div>'
+            end
+            if a=6:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Bukkake her</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+
+                '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">leave</a></div>'
+            '</div>'
+    end
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>: I also want to take some new works with him, you will disturb us here!</p>'
+             '<p>Xiao Kongyi: My dear, it seems that today is not the time, I will go first.<<$Protagonist`s_name>>, I believe you are a righteous man!</p>'
+             '<p><<$WH.name>>: Where did you get so much nonsense, let`s go, let`s go❤</p>'
+         '</div>'
+    end
+
+
+    if 1<=a and a<=6 :
+         '<div class="dialog_menu">'
+             '<p>Me: So anxious to get rid of him?Are you in a hurry?</p>'
+             if a>=2:'<p><<$WH.name>>:I really want it<<$Panting>></p>'
+             if a>=3:'<p>Me: Have you done it with him?</p>'
+             if a>=4:'<p><<$WH.name>>:occasionally<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=7 :
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm
+         if $WH.boyfriend=2:$WH.boyfriend=3
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Your semen is so hot…</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_wash":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\wash1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Help her take off her bra</a></div>'
+            end
+            if a=1:
+            '<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">dialogue</a></div>'
+            end
+            if a=2:
+            '<div class="buttonG"><a href="exec:a=3 & money-=money/4 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Cleaning fee￥<<money/4>></a></div>'
+            '<div class="buttonB2"><a href="exec:minutes+=30 & gt ''Net_celebrity_Event'',''Real net celebrity home''">Go out and wait for her</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Clean cock</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Clean the testicles</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Clean the glans</a></div>'
+            end
+            if a=6:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Bukkake her</a></div>'
+            end
+            if a=7:
+            '<div class="buttonB4"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Wash your whole body</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonP"><a href="exec:minutes+=30 & gt ''Net_celebrity_Event'',''meet2''">Set off for an appointment</a></div>'
+            '</div>'
+    end
+
+    if a<=1:
+         '<div class="dialog_menu">'
+             '<p>Me: What did you just say?</p>'
+             '<p><<$WH.name>>: It`s nothing❤</p>'
+         '</div>'
+    end
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>: Can you wait for me obediently outside?If you take a mandarin duck bath, you have to pay an additional cleaning fee ❤</p>'
+         '</div>'
+    end
+
+    if 3<=a and a<=7 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Good boss, I will serve you with all my heart❤</p>'
+             if a>=4:'<p>Me: Are you short of money?</p>'
+             if a>=5:'<p><<$WH.name>>:Money is everything<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=8:
+         $WH.love+=q+my.charm
+         $WH.bad+=q
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Okay... we can go out together❤</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="Go to the hot spring":
+	 a=0
+	 q=0
+		'<div class="show_menu">'
+			 '<video preload="metadata" autoplay loop height="480">
+			 <source src="images\NPC\WH\vids\温泉.webm" type=''video/webm;''></video></div>'
+		'</div>'
+		
+	'<div class="button_menu">'
+		'<div class="buttonG1"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Card drawing game</a></div>'
+		if $WH.love>=20+my.charm*5:'<div class="buttonG2"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Go for a drink</a></div>'else'<div class="buttonGr"><a href="exec:">Lack of favorability<<20+my.charm*5>></a></div>'
+		if $WH.bad>=120+my.charm*6:'<div class="buttonG3"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Exclusive private soup</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity<<120+my.charm*6>></a></div>'
+		if $WH.bad>=150+my.charm*9:'<div class="buttonG4"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Direct operation</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity<<150+my.charm*9>></a></div>'
+		'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
+	'</div>'
+
+
+	'<div class="dialog_menu">'	
+		'<p><<$WH.name>>:Are you familiar with this place?It seems that I have been here with many women❤</p>'
+	'</div>'
+End
+
+if $args[0]="WH_Fuck_Hot spring game":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\游戏1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!12:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">left</a></div>'
+            '<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">right</a></div>'
+            end
+            if a=1:
+            '<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">I lost</a></div>'
+            end
+            if a=2:
+            '<div class="button"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">left</a></div>'
+            '<div class="button"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">In the middle</a></div>'
+            '<div class="button"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">right</a></div>'
+            end
+            if a=3:
+            '<div class="button"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">I won</a></div>'
+            end
+            if a=4:
+            '<div class="button"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">left</a></div>'
+            '<div class="button"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">right</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS1"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Kiss me with your tongue</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Serve me</a></div>'
+            end
+            if a=7:
+            '<div class="buttonS3"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Play with her</a></div>'
+            end
+            if a=8:
+            '<div class="buttonS4"><a href="exec:a=9 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Insert her</a></div>'
+            end
+            if a=9:
+            '<div class="buttonS5"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">More vigorously</a></div>'
+            end
+            if a=10:
+            '<div class="buttonR5"><a href="exec:a=11 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Ejaculation</a></div>'
+            end
+            if a=11:
+            '<div class="buttonB4"><a href="exec:a=12 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">dialogue</a></div>'
+            end
+
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonG3"><a href="exec:money-=money/4 & gt ''Residential_area''">Satisfied￥<<money/4>></a></div>'
+            '</div>'
+    end
+
+    if a<=5:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>: Can you play the game of catching ghost cards?If you lose, you have to strip naked❤</p>'
+         '</div>'
+    end
+
+
+
+    if 6<=a and a<=11:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Why are you so good ❤ Can you read my heart❤</p>'
+             if a>=7:'<p>Me: You deliberately let me win, right?</p>'
+             if a>=8:'<p><<$WH.name>>:Not yet<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=12:
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:I`m very happy today, how about it?The accompanying service is awesome❤</p>'
+             '<p>Me: Yes.</p>'
+             '<p><<$WH.name>>:Come on, then pay the money❤</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_Hot spring drinking":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\bar1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!8:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Have another drink</a></div>'
+            end
+            if a=1:
+            '<div class="buttonG"><a href="exec:a=2 & money-=money/5 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Super expensive wine￥<<money/5>></a></div>'
+            end
+            if a=2:
+            '<div class="buttonS3"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">I drank it</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Kiss me</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Mouth me</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Mouth to the deepest</a></div>'
+            end
+            if a=6:
+            '<div class="buttonR5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Ejaculation</a></div>'
+            end
+            if a=7:
+            '<div class="buttonB4"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Lick clean</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonG3"><a href="exec:money-=money/4 & gt ''Residential_area''">Satisfied￥<<money/4>></a></div>'
+            '</div>'
+    end
+
+    if a=0:
+         '<div class="dialog_menu">'
+             '<p>Me: Can you drink it?</p>'
+             '<p><<$WH.name>>: It`s nothing, I`ve been a drinker before❤</p>'
+         '</div>'
+    end
+
+    if a=1:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>: Can you buy someone another drink❤</p>'
+         '</div>'
+    end
+
+    if a=2:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>: It`s so delicious❤Drinking makes my whole body hot❤</p>'
+         '</div>'
+    end
+
+    if 3<=a and a<=7 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Are you not hot❤</p>'
+             if a>=4:'<p>Me: It`s a bit now.</p>'
+             if a>=5:'<p><<$WH.name>>:Hmm<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=8:
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:I`m very happy today, how about it?The accompanying service is awesome❤</p>'
+             '<p>Me: Yes.</p>'
+             '<p><<$WH.name>>:Come on, then pay the money❤</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_Hot spring wash":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\dzai1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Tease her</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Tongue kiss</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Tease me</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Mouth me</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Sit up</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Hurry up</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Change posture</a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Violent thrusting</a></div>'
+            end
+            if a=8:
+            '<div class="buttonR4"><a href="exec:a=9 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Ejaculation</a></div>'
+            end
+            if a=9:
+            '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Lick clean</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonG3"><a href="exec:money-=money/4 & gt ''Residential_area''">Satisfied￥<<money/4>></a></div>'
+            '</div>'
+    end
+
+
+    if 0<=a and a<=9 :
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Private soup will always be my favorite❤</p>'
+             if a>=1:'<p>Me: Because can I fuck you while washing?</p>'
+             if a>=2:'<p><<$WH.name>>:Yeah<<$Panting2>></p>'
+         '</div>'
+    end
+
+    if a=10:
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:I`m very happy today, how about it?The accompanying service is awesome❤</p>'
+             '<p>Me: Yes.</p>'
+             '<p><<$WH.name>>:Come on, then pay the money❤</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_Hot spring plug":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\wca1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Tease me</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Mouth me</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Footjob</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Sit up</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Hurry up</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Change posture</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Violent thrusting</a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Sudden deceleration</a></div>'
+            end
+            if a=8:
+            '<div class="buttonR4"><a href="exec:a=9 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Ejaculation</a></div>'
+            end
+            if a=9:
+            '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Lick clean</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn3"><a href="exec: gt ''Residential_area''">Promise to shoot</a></div>'
+            '</div>'
+    end
+
+
+    if 0<=a and a<=9 :
+         '<div class="dialog_menu">'
+             '<p>Me: Can I fuck your anus?</p>'
+             '<p><<$WH.name>>:Hey, don`t think that you can command me with your boyfriend`s tone if you have made love with me dozens of times❤</p>'
+             if a>=1:'<p>Me: Okay.</p>'
+             if a>=2:'<p><<$WH.name>>:Is this not good now?<<$Panting>></p>'
+         '</div>'
+    end
+
+    if a=10:
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm
+         $WH.Hotspringprocess=1
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Is this not good now❤</p>'
+             '<p>Me: It`s pretty good.</p>'
+             '<p><<$WH.name>>:I think we are already familiar with each other, why don`t you come to my house to help me take Douyin next time?</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_Shooting":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\pais<<$WHShootingnumber>>-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Look at the powder increase</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">To reward me</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Tongue kiss</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Mouth me</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Insert her</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Sudden acceleration</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Change posture</a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Vigorously pump</a></div>'
+            end
+            if a=8:
+            '<div class="buttonR4"><a href="exec:a=9 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Ejaculation</a></div>'
+            end
+            if a=9:
+            '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Lick clean</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn3"><a href="exec:gt ''Kabukicho''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if 0<=a and a<=1:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Did you take a good look❤</p>'
+             if a>=1:'<p>Me: How is it?Can it increase the powder?</p>'
+             if a>=1:'<p><<$WH.name>>:Okay, it`s up<<rand(1500,3000)>>A fan.</p>'
+         '</div>'
+    end
+
+    if 2<=a and a<=9:
+         '<div class="dialog_menu">'
+             '<p>Me: Do I have a reward?</p>'
+             if a>=3:'<p><<$WH.name>>:Of course<<$Panting>></p>'
+             if a>=5:'<p>Me: Are you going to be inserted?</p>'
+             if a>=6:'<p><<$WH.name>>:good<<$words>></p>'
+         '</div>'
+    end
+
+    if a=10:
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm
+         if $WH.Shootingiscomplete<$WHShootingnumber:$WH.Shootingiscomplete=$WHShootingnumber
+         '<div class="dialog_menu">'
+             '<p>Me: Your oral work is getting better and better.</p>'
+             '<p><<$WH.name>>:Thanks to you❤</p>'
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_HTL":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\htl1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Blow me hard</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Fuck her</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Sit up by yourself</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Fuck her</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Here comes the call</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Answer the phone</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">The other side</a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Talking while fucking</a></div>'
+            end
+            if a=8:
+            '<div class="buttonR4"><a href="exec:a=9 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Ejaculation</a></div>'
+            end
+            if a=9:
+            '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Doesn`t it matter?</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'
+            '</div>'
+    end
+
+
+    if 0<=a and a<=1:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Hurry up ❤ I can`t wait❤</p>'
+             if a>=1:'<p>Me: Then you have to blow me hard first!</p>'
+         '</div>'
+    end
+
+    if 2<=a and a<=9:
+         '<div class="dialog_menu">'
+             if a<=4:'<p><<$WH.name>>:So cool<<$words>></p>'
+             if a>=5:'<p>Me: You have a call, it seems to be from your boyfriend?</p>'
+             if a>=6:'<p><<$WH.name>>:I`m...busy... what`s the matter with you?……</p>'
+             if a>=7:'<p>Xiaokongyi:I...I have good news for you...I bought you a Weddingdress... I think...how about we get the certificate first?…</p>' 
+             if a>=8:'<p><<$WH.name>>:Slow down<<$words>></p>'
+             if a>=8:'<p>Xiaokongyi:Slow down?Are you...are you in a hurry?</p>' 
+             if a>=9:'<p><<$WH.name>>:Um... I`m...not in a hurry now…</p>'
+         '</div>'
+    end
+
+    if a=10:
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm*2
+         $WH.Weddingdress=1
+         '<div class="dialog_menu">'
+             '<p>Me: It doesn`t matter, does it?</p>'
+             '<p><<$WH.name>>:Did you buy a Weddingdress❤ Send it to my house first, let me see if it fits❤</p>'
+             '<p>Xiaokongyi:Ok, ok.</p>' 
+         '</div>'
+    end
+
+ q+=1
+End
+
+if $args[0]="WH_Fuck_hun":
+        '<div class="show_menu">'
+             '<video preload="metadata" autoplay loop height="480">
+             <source src="images\NPC\WH\vids\hun1-<<a>>.webm" type=''video/webm;''></video></div>'
+        '</div>'
+
+    if a!10:
+        '<div class="button_menu">'
+            if a=0:
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Tongue kiss</a></div>'
+            end
+            if a=1:
+            '<div class="buttonS2"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Serve me</a></div>'
+            end
+            if a=2:
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Mouth me</a></div>'
+            end
+            if a=3:
+            '<div class="buttonS3"><a href="exec:a=4 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Serve her</a></div>'
+            end
+            if a=4:
+            '<div class="buttonS3"><a href="exec:a=5 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Insert slowly</a></div>'
+            end
+            if a=5:
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Accelerate thrusting</a></div>'
+            end
+            if a=6:
+            '<div class="buttonS5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Fuck her</a></div>'
+            end
+            if a=7:
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Love vows</a></div>'
+            end
+            if a=8:
+            '<div class="buttonR4"><a href="exec:a=9 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Ejaculation oath</a></div>'
+            end
+            if a=9:
+            '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">dialogue</a></div>'
+            end
+        '</div>'
+        else:
+            '<div class="button_menu">'
+                '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">Keep a secret</a></div>'
+            '</div>'
+    end
+
+
+    if 0=a:
+         '<div class="dialog_menu">'
+             '<p><<$WH.name>>:Hurry up ❤ I can`t wait❤</p>'
+             '<p>Me: Do you want to shoot vibrato like this?It will be illegal!</p>'
+         '</div>'
+    end
+
+    if 1<=a and a<=9:
+         '<div class="dialog_menu">'
+             if a>=1:'<p><<$WH.name>>:Who said he was going to show it to others?</p>'
+             if a>=2:'<p>Me: Then what are your plans?</p>'
+             if a>=3:'<p><<$WH.name>>:Can`t you take a picture and watch it for yourself?</p>'
+             if a>=4:'<p>I:Okay, that`s our little secret, right?</p>' 
+             if a>=5:'<p><<$WH.name>>:The more you fuck me, the better the effect in the video❤</p>'
+             if a>=8:'<p>I:Wife, would you like to be with me forever?</p>' 
+             if a>=9:'<p><<$WH.name>>:Husband, I do!</p>'
+         '</div>'
+    end
+
+    if a=10:
+         $WH.love+=q+my.charm
+         $WH.bad+=q+my.charm*2
+         $WH.GE=1
+         '<div class="dialog_menu">'
+             '<p>Me: It doesn`t matter, does it?I got the Weddingdress dirty.</p>'
+             '<p><<$WH.name>>:Regardless of it, it`s not my money that`s spent anyway❤</p>'
+             '<p>*Phone sound</p>'
+             '<p>Xiaokongyi:Honey, did you receive the Weddingdress?</p>' 
+             '<p><<$WH.name>>:I received it, the effect of putting it on is very good❤</p>'
+             '<p>Xiaokongyi:When will we go to church to get married?</p>' 
+             '<p><B><span class =''red''><<$WH.name>>:Where is my diamond ring?One more set400A flat mansion!Also888Wan`s bride price, let`s talk about it when you are ready❤</p>'
+             '<p>·————Here is the end of the character`s story—————</p>'
+         '</div>'
+    end
+
+ q+=1
 End
 
 --- Net_celebrity_Event ---------------------------------

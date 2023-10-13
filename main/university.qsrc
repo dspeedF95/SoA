@@ -25,36 +25,36 @@ Universitydialogue=RAND(0,3)
 if $times_of_day="":
 	if Universitydialogue=0:
 	'<div class="dialog_menu">'
-		'<p>？？？: Hey, I heard screams from the student union...？</p>'
-		'<p>？？？: I heard it too.</p>'
-		'<p>？？？: So... the rumors about the student president are true, right?</p>'
-		'<p>？？？: Who knows, but I think there must be something wrong with that woman!</p>'
+		'<p>???: Hey, I heard screams from the student union...？</p>'
+		'<p>???: I heard it too.</p>'
+		'<p>???: So... the rumors about the student president are true, right?</p>'
+		'<p>???: Who knows, but I think there must be something wrong with that woman!</p>'
 	'</div>'
 	end
 	
 	if Universitydialogue=1:
 	'<div class="dialog_menu">'
-		'<p>？？？: Do you know?Once I fell asleep during the exam, and it was already midnight when I woke up!Then I heard it!There is the sound of high heels in the corridor!It is said that the girl whose throat was cut by high heels before came back for revenge!</p>'
-		'<p>？？？: It`s Hanako!That day, I was detained by the president of the student union until the early hours of the morning and found that there was a strange sound in the men`s toilet on the second floor, but after the implementation of the new policy, all boys must be approved to go to the toilet!Who is in the men`s room on the second floor?！It`s still early in the morning!</p>'
+		'<p>???: Do you know?Once I fell asleep during the exam, and it was already midnight when I woke up!Then I heard it!There is the sound of high heels in the corridor!It is said that the girl whose throat was cut by high heels before came back for revenge!</p>'
+		'<p>???: It`s Hanako!That day, I was detained by the president of the student union until the early hours of the morning and found that there was a strange sound in the men`s toilet on the second floor, but after the implementation of the new policy, all boys must be approved to go to the toilet!Who is in the men`s room on the second floor?！It`s still early in the morning!</p>'
 	'</div>'
 	end
 
 	if Universitydialogue=2:
 	'<div class="dialog_menu">'
-		'<p>？？？: You idiot, don`t you like me?I went to school!</p>'
-		'<p>？？？: Actually i....I haven`t been to school either....</p>'
+		'<p>???: You idiot, don`t you like me?I went to school!</p>'
+		'<p>???: Actually i....I haven`t been to school either....</p>'
 	'</div>'
 	end
 
 	if Universitydialogue=3 and  mm_fans >=50:
 	'<div class="dialog_menu">'
-		'<p>？？？: Have you read Twitter?The crazy girl in "Net Biography" turned out to be a trainee of Empire Entertainment?！""Mysterious Bus Aid Girl!"Her true face is a trainee of Empire Entertainment...?！》</p>'
+		'<p>???: Have you read Twitter?The crazy girl in "Net Biography" turned out to be a trainee of Empire Entertainment?！""Mysterious Bus Aid Girl!"Her true face is a trainee of Empire Entertainment...?！》</p>'
 		'<p>Me: The Internet is really developed....</p>'
 	'</div>'
-	else:
+	else
 	'<div class="dialog_menu">'
-		'<p>？？？: Don`t you think the picket team on campus has gone too far?</p>'
-		'<p>？？？: Shhh!Keep your voice down!They are the principal`s guards!You don`t want to be fired, do you?！</p>'
+		'<p>???: Don`t you think the picket team on campus has gone too far?</p>'
+		'<p>???: Shhh!Keep your voice down!They are the principal`s guards!You don`t want to be fired, do you?！</p>'
 	'</div>'
 	end
 end

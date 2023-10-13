@@ -17,16 +17,16 @@ if $Haveseenthefloorplan=1 and $Random_number<=40:gt 'Widow_Incident','The secon
 	gs'menu_option_show'
 	'<div class="actions_menu">'
 		'<div class="action">'
-			if $FXZ.key=1 :
+			if $FXZ.key=1:
 			'<a class="photo" data-title="<<$FXZ.name>>home" href="exec:minutes+=5 & gt ''Vice_Principals_house''"><img class="img_stretch" src="images\place\副校长家小图.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="【Lock】" href="exec:"><img class="img_stretch" src="images\place\副校长家.jpg"></a>'
 			end
 		'</div>'
 		'<div class="action">'
 			if $NY.key=1:
 			'<a class="photo" data-title="<<$NY.name>>home" href="exec:minutes+=5 & gt ''Energy_event'',''NY_home''"><img class="img_stretch" src="images\place\NY家小图.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="【Lock】" href="exec:"><img class="img_stretch" src="images\place\NY家.jpg"></a>'
 			end
 		'</div>'
@@ -39,14 +39,14 @@ if $Haveseenthefloorplan=1 and $Random_number<=40:gt 'Widow_Incident','The secon
 		'<div class="action">'
 			if $Thecompetitionbegins=999:
 			'<a class="photo" data-title="Big_villa" href="exec:minutes+=5 & gt ''Big_villa''"><img class="img_stretch" src="images\place\竞演\别墅1.jpg"></a>'
-			else:
+			else
 			'<a class="photo" data-title="【Lock】" ><img class="img_stretch" src="images\place\竞演\别墅0.jpg"></a>'
 			end
 		'</div>'
 		'<div class="action">'
 			if $YS.key=1:
-			'<a class="photo" data-title="<<$YS.name>>home" href="exec:gt ''Widow`s_house''"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
-			else:
+			'<a class="photo" data-title="<<$YS.name>>home" href="exec:gt ''Widows_house''"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
+			else
 			'<a class="photo" data-title="【Lock】" href="exec:"><img class="img_stretch" src="images\place\YS家.jpg"></a>'
 			end
 		'</div>'

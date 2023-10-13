@@ -37,11 +37,11 @@ if $args[0]="":
 		if CampusRandomnumber<=5 and hour<=15 and $school_Event_hope=2:'<p>On-campus picket team<a href="exec:minutes+=5 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeA''">Collective action</a></p>'
 		if CampusRandomnumber<=50 and hour<=15 and $school_Event_hope=3:'<p>Summon members of the picket team<a href="exec:minutes+=5 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeB''">Correction report</a></p>'
 		if $ZL_Event_face=2 and hour =17:'<p><<$ZL.name>>With her friends<a href="exec:minutes+=5 & gt ''Aid_Event'',''Study room''">Study room</a>inside.</p>'
-		if $ZL.love>=400-$ZL.bad  and $LJ.love>=400-$LJ.bad and 13<=hour and hour<=14 :'<p><<$ZL.name>>and<<$LJ.name>>in<a href="exec:minutes+=5 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Reading room</a>inside.</p>'
+		if $ZL.love>=400-$ZL.bad  and $LJ.love>=400-$LJ.bad and 13<=hour and hour<=14:'<p><<$ZL.name>>and<<$LJ.name>>in<a href="exec:minutes+=5 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Reading room</a>inside.</p>'
 		if $HZ.love>=400-$ZL.bad  and $LJ.love>=400-$LJ.bad and hour=12:'<p><<$LJ.name>>Invited by the student union<a href="exec:minutes+=5 & gt ''President_Event'',''Tea warning''">Drink tea</a>already.</p>'
-		if $XZ_classroomB=1and hour =17:'<p>A few boys are being<<$XZ.name>>Punish to clean<a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">Equipment room</a></p>'
+		if $XZ_classroomB=1 and hour =17:'<p>A few boys are being<<$XZ.name>>Punish to clean<a href="exec:minutes+=5 &gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">Equipment room</a></p>'
 		if $SW.bad>=10 and hour=swhour:'<p><<$SW.name>>Actually went to the first floor<a href="exec:minutes+=5 &gt ''Biological_office'',''Men`s toilet''">In the men`s room</a></p>'
-		if FXZ_XY>=3 and 10<=hour and hour<=12 :'<p><<$FXZ.name>>and<<$XY.name>>Being<a href="exec:minutes+=5 & gt ''Spanish_Event'',''FXZ_Fuck_Henchman''">Staff lounge</a>What is being discussed in it.</p>'
+		if FXZ_XY>=3 and 10<=hour and hour<=12:'<p><<$FXZ.name>>and<<$XY.name>>Being<a href="exec:minutes+=5 & gt ''Spanish_Event'',''FXZ_Fuck_Henchman''">Staff lounge</a>What is being discussed in it.</p>'
 		if $SW_Event_XZ=2 and hour >=17:'<p><<$SW.name>>and<<$XZ.name>>Being<a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_Health room''">Sexual health room</a>What is being discussed in it.</p>'
 		if  $XMEvent_chain>=2 and 13>hour and hour>=11:'<p><<$XM.name>>And her friends are<a href="exec:gt ''School_girl_event'',''XM_Fuck_library''">In the library</a></p>'
 		if CampusRandomnumber<=20 and hour>=15:'<p>Yayoi Mizuki came from the corridor<a href="exec:minutes+=5 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">Sound of high heels</a></p>'
@@ -61,7 +61,7 @@ if $args[0]="Bulletin board":
 	 '<div class ="show_menu"><img src="images\place\学校走廊.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		if FXZ_XY>=10 and SW_XZ>=10:'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">校园Campustalker✩</a></div>'else:'<div class="buttonGr"><a href="exec:">Achievement:?？？？</a></div>'
+		if FXZ_XY>=10 and SW_XZ>=10:'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">校园Campustalker✩</a></div>'else'<div class="buttonGr"><a href="exec:">Achievement:????</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
 	'</div>'
 

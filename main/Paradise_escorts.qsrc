@@ -18,13 +18,13 @@ gs'menu_gif'
 	'</div>'
 '</div>'
 
-if piaozi<2000 : 
+if piaozi<2000: 
 	$piaolv="none"
  elseif piaozi <5000: $piaolv="VIP"
  elseif piaozi <15000: $piaolv="VVIP"
   elseif piaozi <25000: $piaolv="VVVIP"
    elseif piaozi <50000: $piaolv="VVVVIP"
-   else:$piaolv="SVIP"
+   else$piaolv="SVIP"
 END
 
 if $args[0]="":
@@ -32,8 +32,9 @@ if $args[0]="":
 
 	'<div class="button_menu">'
 		'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Paradise_escorts'',''Electronic screen''">(Accompanied by a letter of recommendation)</a></div>'
-		if $Caesar_Event_Chain!0:'<div class="buttonB4"><a href="exec:minutes+=15 & CaesarDialogue=0 & gt ''Paradise_escorts'',''Caesar Gate''">"Caesar`s Office"</a></div>'else:'<div class="buttonGr"><a href="exec:">"Caesar`s Office"</a></div>'
+		if $Caesar_Event_Chain!0:'<div class="buttonB4"><a href="exec:minutes+=15 & CaesarDialogue=0 & gt ''Paradise_escorts'',''Caesar Gate''">"Caesar`s Office"</a></div>'else'<div class="buttonGr"><a href="exec:">"Caesar`s Office"</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Kabukicho''">leave</a></div>'
+		if $Bank_event_chain=2:'<div class="buttonPu4"><a href="exec:minutes+=15 & gt ''Bank_event'',''Drinking choice''"><<$YH.name>></a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -93,7 +94,7 @@ if $args[0]="Apply for an escort":
 		'<p>·Capital verification is being carried out on you, please wait....</p>'
 		if piaozi<2000:
 		'<p>·We are very sorry, the cumulative payment in your account is insufficient.</p>'
-		else:
+		else
 		'<p>·Dear customer, there will be a special car to receive you soon.</p>'
 		end
 	'</div>'
@@ -142,7 +143,7 @@ if $args[0]="Caesar standing Painting":
 		if CaesarDialogue=2:'<div class="buttonS"><a href="exec:CaesarDialogue=3 & gt ''Paradise_escorts'',''Caesar standing Painting''">Evil: Compromise</a></div>'
 		if CaesarDialogue=2:'<div class="buttonGn"><a href="exec:CaesarDialogue=4 & gt ''Paradise_escorts'',''Caesar standing Painting''">Justice: Veto</a></div>'
 		if CaesarDialogue=3 or CaesarDialogue=4:'<div class="buttonGn"><a href="exec:CaesarDialogue=5 & gt ''Paradise_escorts'',''Caesar standing Painting''">Cannot be set no</a></div>'
-		if $Caesar_Event_Chain=3 or $Caesar_Event_Chain=4 :'<div class="buttonS"><a href="exec:CaesarDialogue=6 & gt ''Paradise_escorts'',''Caesar standing Painting''"><<$GJ.name>></a></div>'
+		if $Caesar_Event_Chain=3 or $Caesar_Event_Chain=4:'<div class="buttonS"><a href="exec:CaesarDialogue=6 & gt ''Paradise_escorts'',''Caesar standing Painting''"><<$GJ.name>></a></div>'
 		if CaesarDialogue=6:'<div class="buttonS"><a href="exec: gt ''Champion_event'',''GJ_Fuck_YQH''">Go to dinner together</a></div>'
 		if $Caesar_Event_Chain=6:'<div class="buttonP"><a href="exec:CaesarDialogue=7 & gt ''Paradise_escorts'',''Caesar standing Painting''"><<$GJ.name>></a></div>'
 		if CaesarDialogue=7:
@@ -239,13 +240,13 @@ if $args[0]="ZXLi Erlai":
 		
 	'<div class="button_menu">'
 		'<div class="buttonB3"><a href="exec:minutes+=15 & gt ''Plasticity_event'',''ZX_Fuck_KS1''">Pretend to avoid</a></div>'
-				if $ZX.bad>=600-$ZX.bad:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Plasticity_event'',''ZX_Fuck_KS2''">enter3P </a></div>'else:'<div class="buttonGr"><a href="exec:">enter3P·Lack of favorability </a></div>'
+				if $ZX.bad>=600-$ZX.bad:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Plasticity_event'',''ZX_Fuck_KS2''">enter3P </a></div>'else'<div class="buttonGr"><a href="exec:">enter3P·Lack of favorability </a></div>'
 				'<div class="button"><a href="exec:gt ''Kabukicho''">leave </a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
 		'<p><<$ZX.name>>: Settle the account?</p>'
-		'<p>Caesar: Which way do you want to end?<<$Protagonist`s_surname>> Broker, should you avoid it?</p>'
+		'<p>Caesar: Which way do you want to end?<<$Protagonists_surname>> Broker, should you avoid it?</p>'
 		'<p>I：……</p>'
 	'</div>'
 End

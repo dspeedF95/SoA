@@ -69,7 +69,7 @@ if $args[0]="GJ_Fuck_Hot spring":
             '<div class="buttonS1"><a href="exec:a+=1 & gt ''Champion_event'',''GJ_Fuck_Hot spring''">Keep peeking </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
             '</div>'
@@ -124,7 +124,7 @@ if $args[0]="GJ_Fuck_Hot spring2":
             '<div class="buttonS1"><a href="exec:a+=1 & gt ''Champion_event'',''GJ_Fuck_Hot spring2''">Keep peeking </a></div>'
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
             '</div>'
@@ -196,7 +196,7 @@ if $args[0]="GJ_Fuck_mouth1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonPu4"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -269,7 +269,7 @@ if $args[0]="GJ_Fuck_mouth2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -340,7 +340,7 @@ if $args[0]="GJ_Fuck_mouth3":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -395,7 +395,7 @@ if $args[0]="GJ_Fuck_hotel":
         '<div class="button_menu">'
             if a=0:
             '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Give me some more time </a></div>'
-            if $Secretarialschoolcandidshot=2:'<div class="button"><a href="exec:a=1 & gt ''Champion_event'',''GJ_Fuck_hotel''">Give her fake photos </a></div>'else:'<div class="buttonGr"><a href="exec:">Make a fake photo </a></div>'
+            if $Secretarialschoolcandidshot=2:'<div class="button"><a href="exec:a=1 & gt ''Champion_event'',''GJ_Fuck_hotel''">Give her fake photos </a></div>'else'<div class="buttonGr"><a href="exec:">Make a fake photo </a></div>'
             end
             if a=1:
             '<div class="buttonS1"><a href="exec:a=2 & gt ''Champion_event'',''GJ_Fuck_hotel''">Go to the hotel </a></div>'
@@ -437,7 +437,7 @@ if $args[0]="GJ_Fuck_hotel":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=60 & gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -527,7 +527,7 @@ if $args[0]="GJ_Fuck_office":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">It`s over</a></div>'
             '</div>'
@@ -648,13 +648,13 @@ if $args[0]="GJ_Fuck_Tuning":
             '<div class="buttonR4"><a href="exec:a=7 & gt ''Champion_event'',''GJ_Fuck_Tuning''">Extreme spasm </a></div>'
             end
             if a=7:
-            if $GJ.bad<400: '<div class="buttonR5"><a href="exec:a=8 & gt ''Champion_event'',''GJ_Fuck_Tuning''">Continuous gun machine for ten hours </a></div>'else:'<div class="buttonS5"><a href="exec:a=8 & gt ''Champion_event'',''GJ_Fuck_Tuning''">Libido slave </a></div>'
+            if $GJ.bad<400: '<div class="buttonR5"><a href="exec:a=8 & gt ''Champion_event'',''GJ_Fuck_Tuning''">Continuous gun machine for ten hours </a></div>'else'<div class="buttonS5"><a href="exec:a=8 & gt ''Champion_event'',''GJ_Fuck_Tuning''">Libido slave </a></div>'
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-				if $GJ.bad>=400: '<div class="buttonS"><a href="exec:$GJ.love=400 & $Champion_event_chain=14 & gt ''Deep_alley''">Let her go</a></div>'else:'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
+				if $GJ.bad>=400: '<div class="buttonS"><a href="exec:$GJ.love=400 & $Champion_event_chain=14 & gt ''Deep_alley''">Let her go</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient depravity</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Deep_alley''">leave</a></div>'
             '</div>'
     end
@@ -729,7 +729,7 @@ if $args[0]="GJ_Fuck_DL":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -756,7 +756,7 @@ if $args[0]="GJ_Fuck_DL":
          $GJ.bad+=q
          if $Champion_event_chain=14:$Champion_event_chain=15
          '<div class="dialog_menu">'
-             '<p>？？？: Idle people are waiting to leave!Clear the field!Don`t be rude!</p>'
+             '<p>???: Idle people are waiting to leave!Clear the field!Don`t be rude!</p>'
              '<p><<$PW.name>>: Take it down!Very good, it seems that there are no obstacles now... The champion is already in the bag.…</p>'
              '<p>I:…………</p>'
              '<p>·You two have the right look in your eyes and you understand it.</p>'
@@ -804,7 +804,7 @@ if $args[0]="GJ_Fuck_DL2":
 
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
             '</div>'
@@ -874,11 +874,11 @@ if $args[0]="GJ_Fuck_encounter":
             '<div class="buttonS1"><a href="exec:a=7 & gt ''Champion_event'',''GJ_Fuck_encounter''">What can you give me </a></div>'
             end
             if a=7:
-                if money>=50000:'<div class="buttonG"><a href="exec:a=8 & money-=50000 & gt ''Champion_event'',''GJ_Fuck_encounter''">Pay50,000</a></div>'else:'<div class="button"><a href="exec:gt ''Residential_area''">Not enough money</a></div>'
+                if money>=50000:'<div class="buttonG"><a href="exec:a=8 & money-=50000 & gt ''Champion_event'',''GJ_Fuck_encounter''">Pay50,000</a></div>'else'<div class="button"><a href="exec:gt ''Residential_area''">Not enough money</a></div>'
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">I will convey him</a></div>'
             '</div>'
@@ -910,8 +910,8 @@ if $args[0]="GJ_Fuck_encounter":
     if a=2:
          '<div class="dialog_menu">'
              '<p>I: Ahem, what a coincidence.</p>'
-             '<p><<$GJ.name>>: Yo，<<$Protagonist`s_surname>> Agent, the person who is mixed up is a certain kind of dog.</p>'
-             '<p>man: This is<<$Protagonist`s_surname>> broker?！Nice to meet you!</p>'
+             '<p><<$GJ.name>>: Yo，<<$Protagonists_surname>> Agent, the person who is mixed up is a certain kind of dog.</p>'
+             '<p>man: This is<<$Protagonists_surname>> broker?！Nice to meet you!</p>'
              '<p><<$GJ.name>>: What are you polite to him, he is a scumbag.</p>'
              '<p>man: What?！Isn`t he a star agent in Empire Entertainment now?</p>'
              '<p>I: It seems that he doesn`t know anything about the story between us?</p>'
@@ -934,7 +934,7 @@ if $args[0]="GJ_Fuck_encounter":
 
     if a=4:
          '<div class="dialog_menu">'
-             '<p>man: <<$Protagonist`s_surname>> Agent, is there a plan to support her again?！</p>'
+             '<p>man: <<$Protagonists_surname>> Agent, is there a plan to support her again?！</p>'
              '<p>I: uh……</p>'
              '<p><<$GJ.name>>: Don`t interrupt.</p>'
              '<p>man: Oh oh!I am an outsider!Sorry sorry!</p>'
@@ -991,7 +991,7 @@ if $args[0]="GJ_Fuck_YQH":
     if a!18:
         '<div class="button_menu">'
             if q=0:
-            if MGF>0:'<div class="buttonS1"><a href="exec:MGF-=1 & a=1 & gt ''Champion_event'',''GJ_Fuck_YQH''">Mixed with McGovern </a></div>'else:'<div class="buttonGr"><a href="exec:">Mixed with McGovern </a></div>'
+            if MGF>0:'<div class="buttonS1"><a href="exec:MGF-=1 & a=1 & gt ''Champion_event'',''GJ_Fuck_YQH''">Mixed with McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Mixed with McGovern </a></div>'
             '<div class="buttonS1"><a href="exec:gt ''Residential_area''">Talk about it next time </a></div>'
             end
             if q=1:
@@ -1037,9 +1037,9 @@ if $args[0]="GJ_Fuck_YQH":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-				if GJPatiencevalue<=70:'<div class="buttonS"><a href="exec:a=0 &q=0 & gt ''Champion_event'',''GJ_Fuck_YQH2''">Second round </a></div>'else:'<div class="buttonGr"><a href="exec:">Still patient</a></div>'
+				if GJPatiencevalue<=70:'<div class="buttonS"><a href="exec:a=0 &q=0 & gt ''Champion_event'',''GJ_Fuck_YQH2''">Second round </a></div>'else'<div class="buttonGr"><a href="exec:">Still patient</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Satisfied</a></div>'
             '</div>'
     end
@@ -1159,9 +1159,9 @@ if $args[0]="GJ_Fuck_YQH2":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
-                	if GJPatiencevalue<=0:'<div class="button"><a href="exec:a=0 & q=0 & gt ''Champion_event'',''GJ_Fuck_YQH3''">Get dressed and open the door</a></div>'else:'<div class="buttonGr"><a href="exec:">Be patient</a></div>'
+                	if GJPatiencevalue<=0:'<div class="button"><a href="exec:a=0 & q=0 & gt ''Champion_event'',''GJ_Fuck_YQH3''">Get dressed and open the door</a></div>'else'<div class="buttonGr"><a href="exec:">Be patient</a></div>'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Leave by the back door</a></div>'
             '</div>'
     end
@@ -1253,7 +1253,7 @@ if $args[0]="GJ_Fuck_YQH3":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:a=0 & q=0 & gt ''Champion_event'',''GJ_Fuck_YQH4''">Advice to men </a></div>'
             '</div>'
@@ -1328,7 +1328,7 @@ if $args[0]="GJ_Fuck_YQH4":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Reach an agreement to leave</a></div>'
             '</div>'
@@ -1375,7 +1375,7 @@ if $args[0]="GJ_Fuck_YQH4":
              '<p>Caesar: <<$Protagonist`s_name>>broker!After that, you don`t have to worry about it. My relationship with you is already clear. Come to my office tomorrow to get the negatives.</p>'	
 			 '<p>I: Understood, then I will go first.</p>'	
          '</div>'
-			 if $Caesar_Event_Chain=4 :$Caesar_Event_Chain=5
+			 if $Caesar_Event_Chain=4:$Caesar_Event_Chain=5
 			 
     end
 
@@ -1420,7 +1420,7 @@ if $args[0]="GJ_Fuck_FALL1":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Kabukicho''">Kindness: Praise</a></div>'
                 '<div class="buttonR4"><a href="exec:gt ''Champion_event'',''GJ_Fuck_FALL2''">Evil: Bad reviews</a></div>'
@@ -1514,7 +1514,7 @@ if $args[0]="GJ_Fuck_TuningF":
             end
         '</div>'
 
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">leave</a></div>'
             '</div>'
