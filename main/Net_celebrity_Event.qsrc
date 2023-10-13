@@ -72,7 +72,7 @@ if $args[0]="WH_Fuck_Cinema":
             '<div class="buttonGn3"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:gt ''Net_celebrity_Event'',''Send back''">Send her back</a></div>'
             '</div>'
@@ -155,7 +155,7 @@ if $args[0]="Net celebrity home":
             if a=1:
 				if money>=4000:
 				'<div class="buttonG"><a href="exec:a=2 & money-=4000+money/10 & gt ''Net_celebrity_Event'',''Net celebrity home''">Pay the cleaning fee￥<<4000+money/10>></a></div>'
-				else:
+				else
 				'<div class="buttonGr"><a href="exec:">Pay the cleaning fee￥<<4000+money/10>></a></div>'
 				'<div class="buttonPu4"><a href="exec:gt ''Deep_alley''">leave</a></div>'
 				end
@@ -202,9 +202,9 @@ if $args[0]="Take Douyin":
 		'</div>'
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:$WHShootingnumber=1 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Warm sweet girl</a></div>'
-		if $WH.Shootingiscomplete>=1:'<div class="buttonS2"><a href="exec:$WHShootingnumber=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">shakeSSuccubus</a></div>'else:'<div class="buttonGr"><a href="exec:">shakeSSuccubus</a></div>'
-		if $WH.Shootingiscomplete>=2:'<div class="buttonS3"><a href="exec:$WHShootingnumber=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Personal status idol</a></div>'else:'<div class="buttonGr"><a href="exec:">Personal status idol</a></div>'
-		if $WH.Weddingdress=1:'<div class="buttonG"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Wedding bride</a></div>'else:'<div class="buttonGr"><a href="exec:">Wedding bride</a></div>'
+		if $WH.Shootingiscomplete>=1:'<div class="buttonS2"><a href="exec:$WHShootingnumber=2 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">shakeSSuccubus</a></div>'else'<div class="buttonGr"><a href="exec:">shakeSSuccubus</a></div>'
+		if $WH.Shootingiscomplete>=2:'<div class="buttonS3"><a href="exec:$WHShootingnumber=3 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Personal status idol</a></div>'else'<div class="buttonGr"><a href="exec:">Personal status idol</a></div>'
+		if $WH.Weddingdress=1:'<div class="buttonG"><a href="exec:gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Wedding bride</a></div>'else'<div class="buttonGr"><a href="exec:">Wedding bride</a></div>'
 		'<div class="buttonPu4"><a href="exec:gt ''Deep_alley''">leave</a></div>'
 	'</div>'
 
@@ -260,7 +260,7 @@ if $args[0]="Before meeting boyfriend":
             '<div class="button"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''Before meeting boyfriend''">Eavesdropping</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -354,7 +354,7 @@ if $args[0]="WH_Fuck_dinner":
             '<div class="buttonR4"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">He woke up</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Pull away</a></div>'
             '</div>'
@@ -434,7 +434,7 @@ if $args[0]="WH_Fuck_football":
             '<div class="buttonR5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_football''">Last shot</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Pull away</a></div>'
             '</div>'
@@ -506,7 +506,7 @@ if $args[0]="WH_Fuck_He goes":
             '<div class="buttonR5"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_He goes''">Bukkake her</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
 
                 '<div class="button"><a href="exec:minutes+=30 & gt ''Kabukicho''">leave</a></div>'
@@ -577,7 +577,7 @@ if $args[0]="WH_Fuck_wash":
             '<div class="buttonB4"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Wash your whole body</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonP"><a href="exec:minutes+=30 & gt ''Net_celebrity_Event'',''meet2''">Set off for an appointment</a></div>'
             '</div>'
@@ -687,7 +687,7 @@ if $args[0]="WH_Fuck_Hot spring game":
             end
 
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG3"><a href="exec:money-=money/4 & gt ''Residential_area''">Satisfied￥<<money/4>></a></div>'
             '</div>'
@@ -755,7 +755,7 @@ if $args[0]="WH_Fuck_Hot spring drinking":
             '<div class="buttonB4"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring drinking''">Lick clean</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG3"><a href="exec:money-=money/4 & gt ''Residential_area''">Satisfied￥<<money/4>></a></div>'
             '</div>'
@@ -840,7 +840,7 @@ if $args[0]="WH_Fuck_Hot spring wash":
             '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring wash''">Lick clean</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonG3"><a href="exec:money-=money/4 & gt ''Residential_area''">Satisfied￥<<money/4>></a></div>'
             '</div>'
@@ -907,7 +907,7 @@ if $args[0]="WH_Fuck_Hot spring plug":
             '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring plug''">Lick clean</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec: gt ''Residential_area''">Promise to shoot</a></div>'
             '</div>'
@@ -976,7 +976,7 @@ if $args[0]="WH_Fuck_Shooting":
             '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_Shooting''">Lick clean</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Kabukicho''">leave</a></div>'
             '</div>'
@@ -1052,7 +1052,7 @@ if $args[0]="WH_Fuck_HTL":
             '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_HTL''">Doesn`t it matter?</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">leave</a></div>'
             '</div>'
@@ -1131,7 +1131,7 @@ if $args[0]="WH_Fuck_hun":
             '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">dialogue</a></div>'
             end
         '</div>'
-        else:
+        else
             '<div class="button_menu">'
                 '<div class="buttonGn3"><a href="exec:gt ''Residential_area''">Keep a secret</a></div>'
             '</div>'

@@ -214,7 +214,7 @@ if $args[0]="DZ_Fuck_drunk":
 			'<div class="button"><a href="exec:a=1 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''喂水''">Feed water</a></div>'
 			end
 			if a!2 and q<=3:
-			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''接吻''"">kiss</a></div>'
+			'<div class="button"><a href="exec:a=2 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''接吻''">kiss</a></div>'
 			end
 			if a!3 and  5>= q and q>=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Geology_Event'',''DZ_Fuck_drunk'',''舔奶''">Licking milk</a></div>'

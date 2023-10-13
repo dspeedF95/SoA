@@ -1343,7 +1343,7 @@ End
 
 
 if $args[0]="gym":
-	 if $DC.love<50-$DC.bad:DCexercisenum=1 elseDCexercisenum=2
+	 if $DC.love<50-$DC.bad:DCexercisenum=1 else DCexercisenum=2
 	 
         '<div class="show_menu">'
              '<video preload="metadata" autoplay loop height="480">
