@@ -89,7 +89,7 @@ if $args[0]="Stockings platform":
         '</div>'
     
         '<div class="button_menu">'
-            '<div class="button"><a href="exec:$Stockings_event_chain=2 & gt ''Big villa''">Reluctantly agreed </a></div>'
+            '<div class="button"><a href="exec:$Stockings_event_chain=2 & gt ''Big_villa''">Reluctantly agreed </a></div>'
         '</div>'
 
          '<div class="dialog_menu">'
