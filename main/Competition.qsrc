@@ -115,7 +115,7 @@ if $ARGS[0]="Competition ranking2":
 	
 	'<div class="dialog_menu">'
 		'<p>Me: I have to think of a way, but I can`t end up being a stepping stone for her.…</p>'
-		'<p>I：<<$SF.name>>...is the ranking so high?It seems she really has some strength…</p>'
+		'<p>I:<<$SF.name>>...is the ranking so high?It seems she really has some strength…</p>'
 	'</div>'
 end
 
@@ -142,14 +142,14 @@ if  $args[0]="SisterHuaLiyi":
 		if $SisterHuaLiyi=3:
 			if $Sister_Hua_Event_Chain=4 or $Sister_Hua_Event_Chain=5:
 				'<div class="buttonR1"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing1''">Communicate privately</a></div>'
-				if $PW.bad>=10:'<div class="buttonR2"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing2''">In-depth communication</a></div>'else'<div class="buttonGr"><a href="exec:">？？communication</a></div>'
-				if $Sister_Hua_Event_Chain=5 and $PW.love<=-100 and $Thephoneisformatted=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage''">Safe passage</a></div>'else'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
+				if $PW.bad>=10:'<div class="buttonR2"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing2''">In-depth communication</a></div>'else'<div class="buttonGr"><a href="exec:">??communication</a></div>'
+				if $Sister_Hua_Event_Chain=5 and $PW.love<=-100 and $Thephoneisformatted=1:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage''">Safe passage</a></div>'else'<div class="buttonGr"><a href="exec:">??channel</a></div>'
 			end
 		end
 		if $Sister_Hua_Event_Chain>=7 and $SisterHuaLiyi!4:'<div class="buttonR3"><a href="exec:minutes+=15 & gt ''Judges_Event'',''PW_Fuck_thing3''">Strong communication</a></div>'
 		if $SisterHuaLiyi=4:
 			'<div class="buttonR3"><a href="exec:gt ''Judges_Event'',''PW_Fuck_company''">Intercept her outside the door</a></div>'
-			if $PW.bad>=70:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage2''">Intercept her in a safe passage</a></div>'else'<div class="buttonGr"><a href="exec:">？？channel</a></div>'
+			if $PW.bad>=70:'<div class="buttonGn"><a href="exec:gt ''Judges_Event'',''Safe passage2''">Intercept her in a safe passage</a></div>'else'<div class="buttonGr"><a href="exec:">??channel</a></div>'
 		end
 	'</div>'
 
@@ -175,7 +175,7 @@ if  $args[0]="SisterHuaLiyi":
 		if $SisterHuaLiyi=4:
 		'<p>Director Yu: Let`s discuss the procedures for the transfer of the house again... first of all<<$PW.name>>If you invest in the purchase of the property rights of the house, the application procedures for the first prize in Taiwan should be fine, right?</p>'
 		'<p><<$TZ.name>>: Well, don`t worry about this.If there is such a big award, the ratings this time will definitely go all the way to the red!I will definitely fully support it.</p>'
-		'<p>Director Yu: uh…<<$PW.name>>？Are you okay?My mother wants to give you a big horse, which means that the horse is successful.</p>'
+		'<p>Director Yu: uh…<<$PW.name>>?Are you okay?My mother wants to give you a big horse, which means that the horse is successful.</p>'
 		'<p><<$PW.name>>: Malaysia?I have no place to raise it!</p>'
 		'<p>Director Yu: It`s okay... My mother also said that it`s useless, so I sent it to the circus and let everyone ride it!</p>'
 		'<p><<$PW.name>>: Uh...I... suddenly felt a little chest tightness and wanted to get some air.…</p>'
@@ -200,7 +200,7 @@ if  $args[0]="Yuya Liyi":
 		if $YuyaLiyi=2:
 			if $Yuya_Event_Chain=2 or $Yuya_Event_Chain=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Take out a candid photo</a></div>'
 			if $Yuya_Event_Chain=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Stop shooting, go open a room</a></div>'
-			if $Yuya_Event_Chain=4 or $Yuya_Event_Chain=5:'<div class="buttonR"><a href="exec:gt ''Yuya_Event'',''I can`t do anything with her''">What about the photos?！</a></div>'
+			if $Yuya_Event_Chain=4 or $Yuya_Event_Chain=5:'<div class="buttonR"><a href="exec:gt ''Yuya_Event'',''I can`t do anything with her''">What about the photos?!</a></div>'
 			if $Yuya_Event_Chain=5:'<div class="buttonR2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">What did you see?</a></div>'
 		end
 		if $SSYY.love>=200 and $SSYY.love>=200:'<div class="buttonS2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Make an appointment to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
@@ -270,7 +270,7 @@ if  $args[0]="Hashimoto Tachie":
 	'<div class="dialog_menu">'
 		'<p>·You two look at each other</p>'
 		'<p><<$QB.name>>: broker^_^#So what are we performing?</p>'
-		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+		'<p>♯ Her pressure value:<<QB.pressure>></p>'
 	'</div>'
 End
 
@@ -327,10 +327,10 @@ if  $args[0]="Sister Liyi":
 		'</div>'
 
 		'<div class="dialog_menu">'
-			'<p><<$MM.name>>: What are you going to do?！Ah ah ah?！Help!</p>'
+			'<p><<$MM.name>>: What are you going to do?!Ah ah ah?!Help!</p>'
 			'<p>???: Someone sent me to teach you a lesson!You convey it to your brother, if he doesn`t cooperate honestly, your whole family will wait to be arranged by me one by one!</p>'
 			'<p>I: stop it!You let her go for me!</p>'
-			'<p>???: Huh, Lao Tzu has plenty of opportunities, can you protect them for the rest of your life?！Hahahaha!</p>'
+			'<p>???: Huh, Lao Tzu has plenty of opportunities, can you protect them for the rest of your life?!Hahahaha!</p>'
 		'</div>'
 		else
 			'<div class="show_menu">'
@@ -388,7 +388,7 @@ if  $args[0]="Discuss countermeasures":
 	'<div class="dialog_menu">'
 		'<p><<$QB.name>>: I don`t have any good ideas... what do fans like?…</p>'
 		'<p>I: Let me think about it……</p>'
-		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+		'<p>♯ Her pressure value:<<QB.pressure>></p>'
 	'</div>'
 End
 
@@ -417,7 +417,7 @@ if  $args[0]="Promotional materials":
 		else
 		'<p>·Her popularity has risen!</p>'
 		end
-		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+		'<p>♯ Her pressure value:<<QB.pressure>></p>'
 	'</div>'
 End
 
@@ -432,7 +432,7 @@ if  $args[0]="Ranking rise":
 	'<div class="dialog_menu">'
 		'<p>I: By the way, who is this third place?.. It`s a bit familiar... she still took the initiative to abandon the game.…</p>'
 		if $rankingnu>=2:
-			'<p><<$QB.name>>: broker!！Great!We actually squeezed into the top three!Could it be said?！We are really going to make our debut!</p>'
+			'<p><<$QB.name>>: broker!!Great!We actually squeezed into the top three!Could it be said?!We are really going to make our debut!</p>'
 			'<p>I: Do my best to listen to destiny... It`s time for me to do the job of a competitor…</p>'
 			$QBEvent_chain=8
 		end

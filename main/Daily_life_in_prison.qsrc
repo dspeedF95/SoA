@@ -72,7 +72,7 @@ if $ARGS[0]="":
 
 
 	'<div class="dialog_menu">'
-		'<p>·Remaining sentence：<<jailday>>day.Labor certificate：<<coins>>one.Accumulate semen volume：<<jings>>ml。The bad environment exhausts you physically and mentally.</p>'
+		'<p>·Remaining sentence:<<jailday>>day.Labor certificate:<<coins>>one.Accumulate semen volume:<<jings>>ml。The bad environment exhausts you physically and mentally.</p>'
 		if Prisonanalplug=1: jings+=rand(1,3 )& '<p>·Due to being inserted into the anal plug, semen continues to accumulate with the crazy friction of the prostate.<a href="exec: gt''Prison_guard_Incident'',''YJ_Event_Punishment four''">·Pull it out</a></p>'
 		if Prison_code=1:
 		'<p>·Prison_code: In exchange for labor certificates through different labor, each labor certificate can offset one day`s sentence.</p>'
@@ -97,7 +97,7 @@ if $ARGS[0]="warning":
 
 
 	'<div class="dialog_menu">'
-		'<p><B><span class =''red''>·Warning: The prison is a powerhouse, and idlers are not allowed to enter!！</p>'
+		'<p><B><span class =''red''>·Warning: The prison is a powerhouse, and idlers are not allowed to enter!!</p>'
 		if Bigvillaforthefirsttime>=1 and Prisonhammer=0:'<p>·There is a [sledgehammer] covered with dust and dirt at the entrance of the prison.<a href="exec:Sledgehammer+=1 & Prisonhammer=1 &  gt ''Daily_life_in_prison'',''warning''">-Take it away</a></p>'
 	'</div>'
 
@@ -120,7 +120,7 @@ if $ARGS[0]="Front of the prison":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><B><span class =''red''>·Without saying a word, you were escorted to prison and even skipped the interrogation session.！</p>'
+		'<p><B><span class =''red''>·Without saying a word, you were escorted to prison and even skipped the interrogation session.!</p>'
 		'<p><<$DYZ.name>>:Bastards, welcome toFOXprison!I am your warden!Trainer, I`ll leave it to you next.</p>'
 	'</div>'
 
@@ -169,7 +169,7 @@ if $ARGS[0]="Labor reform":
 		if Laborreformproject=2:'<p>·Jerk off at the measuring cup.</p>' 
 		if Laborreformproject=3:'<p>·Handed over the measuring cup full of semen<<$YJ.name>>, Obtained a labor certificate.</p>'
 		if Laborreformproject=4:'<p>·The labor certificate was exchanged and the sentence was shortened.</p>'
-		'<p>·Remaining sentence：<<jailday>>day.Labor certificate：<<coins>>one.Accumulate semen volume：<<jings>>ml。The bad environment exhausts you physically and mentally.</p>'
+		'<p>·Remaining sentence:<<jailday>>day.Labor certificate:<<coins>>one.Accumulate semen volume:<<jings>>ml。The bad environment exhausts you physically and mentally.</p>'
 	'</div>'
 
 end
@@ -231,12 +231,12 @@ if $ARGS[0]="Warden`s Office":
 		if dogteam=2:
 			if DYZcos=0 and tuc_level3=1:'<div class="buttonPu1"><a href="exec:DYZcos=1 & gt ''Daily_life_in_prison'',''Warden`s Office''">Hand out the photo studio business card</a></div>'
 			'<div class="buttonS1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_feast''">Provide a feast</a></div>'
-			if $DYZ.bad>=110-$DYZ.love:'<div class="buttonR1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_3P''">Group sex competition</a></div>'else'<div class="buttonGr"><a href="exec:">？？competition</a></div>'
+			if $DYZ.bad>=110-$DYZ.love:'<div class="buttonR1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_3P''">Group sex competition</a></div>'else'<div class="buttonGr"><a href="exec:">??competition</a></div>'
 			if $DYZ.bad>=100:
 			 if jings>=30 and  $DYZ.friend=1:'<div class="buttonR3"><a href="exec:  gt ''Warden_Incident'',''DYZ_Event_entertain2''">Semen martini</a></div>'else'<div class="buttonR2"><a href="exec:gt ''Warden_Incident'',''DYZ_Event_entertain''">Introduce guests</a></div>'
 			end
-			if $DYZ.entertain>=1:'<div class="buttonR4"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P''">Exclusive for two</a></div>'else'<div class="buttonGr"><a href="exec:">Two people?？</a></div>'
-			if $DYZ.entertain>=2 and $DYZ.bad>=400-$DYZ.love:'<div class="buttonR5"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P2''">Gathering of elites</a></div>'else'<div class="buttonGr"><a href="exec:">？？Gathering</a></div>'
+			if $DYZ.entertain>=1:'<div class="buttonR4"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P''">Exclusive for two</a></div>'else'<div class="buttonGr"><a href="exec:">Two people??</a></div>'
+			if $DYZ.entertain>=2 and $DYZ.bad>=400-$DYZ.love:'<div class="buttonR5"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P2''">Gathering of elites</a></div>'else'<div class="buttonGr"><a href="exec:">??Gathering</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''Daily_life_in_prison''">Go back</a></div>'
 	'</div>'
@@ -248,7 +248,7 @@ if $ARGS[0]="Warden`s Office":
 		'<p>I:Yes, I can give you... free orders when you come!</p>'
 		end
 		'<p><<$DYZ.name>>:Listen up, you have to shoot at least once a day20mlSemen!If you don`t understand, go back.</p>'
-		if jings<=0:'<p><B><span class =''red''><<$DYZ.name>>:<<$Protagonist`s_name>>？！Why are you here without even a drop of semen?Get out of here!</p>'
+		if jings<=0:'<p><B><span class =''red''><<$DYZ.name>>:<<$Protagonist`s_name>>?!Why are you here without even a drop of semen?Get out of here!</p>'
 	'</div>'
 
 end
@@ -316,7 +316,7 @@ if $ARGS[0]="connector":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>I:I am<<$EDM.name>>Those sent to connect with you, please give instructions.(Fuck me?！？Are you two the escape experts you are looking for?！Isn`t this stable anymore?）</p>'
+		'<p>I:I am<<$EDM.name>>Those sent to connect with you, please give instructions.(Fuck me?!?Are you two the escape experts you are looking for?!Isn`t this stable anymore?）</p>'
 		if $YDM_Event_free=1:
 		'<p>Michael Scofield:The client is detained inAarea.UWhat about the plate?</p>'
 		'<p>I:...Still in my body.</p>'
@@ -331,7 +331,7 @@ if $ARGS[0]="connector":
 		end
 		if $YDM_Event_free=3 or $YDM_Event_free=4:
 		'<p>Michael Scofield:<<$EDM.name>>New supplies were entrusted to be shipped.We need you to give it to the customer.The client is detained inAarea.</p>'
-		'<p>I:This is...A pistol?！</p>'
+		'<p>I:This is...A pistol?!</p>'
 		'<p>Michael Scofield:Calm down, this is just a model gun, although I don`t know what her intentions are.But it is reasonable for an executive officer to be equipped with a pistol.</p>'
 		$YDM_Event_free=4
 		end
@@ -339,7 +339,7 @@ if $ARGS[0]="connector":
 		'<p>Michael Scofield:I almost forgot that you still need to bring her a master key...It should be sold in the prisoner shop.The client is detained inAarea.</p>'
 		end
 		if $YDM_Event_free=6:
-		'<p>Michael Scofield:The client is detained inAarea.The action can start at any time, you only need to summon the chief executive officer to come!We have ways to assist customers to leave safely!！</p>'
+		'<p>Michael Scofield:The client is detained inAarea.The action can start at any time, you only need to summon the chief executive officer to come!We have ways to assist customers to leave safely!!</p>'
 		end
 	'</div>'
 end
@@ -358,7 +358,7 @@ if $ARGS[0]="Go to jail for a generation":
 
 	'<div class="dialog_menu">'
 		'<p>·A female prisoner came face-to-face, joy and anger were not palpable.She should be the one I want to help.</p>'
-		'<p>Police Dog Team:Prisoner number：9X0813！Ready to be interrogated!Listed!</p>'
+		'<p>Police Dog Team:Prisoner number:9X0813!Ready to be interrogated!Listed!</p>'
 		'<p><<$YDM.name>>:……</p>'
 	'</div>'
 end
@@ -431,7 +431,7 @@ if $ARGS[0]="So the technique is repeated":
 	'</div>'
 
 	'<div class="dialog_menu">'
-			'<p>Watchdog:Prisoner number：……*Blushing?！Prisoner number：9X0813What`re you saying?Is it fucking again?brothers!on!</p>'
+			'<p>Watchdog:Prisoner number:……*Blushing?!Prisoner number:9X0813What`re you saying?Is it fucking again?brothers!on!</p>'
 			'<p>·You take the opportunity to act, take advantage of it<<$YDM.name>>The model gun was placed in her mattress in the gap where her mouth was raped by everyone!</p>'
 			$YDM_Event_free=5
 	'</div>'
@@ -448,7 +448,7 @@ if $ARGS[0]="Lead away the guards":
 	'</div>'
 
 	'<div class="dialog_menu">'
-			'<p>Watchdog:Prisoner number：9X0813！I`ve wanted to fuck you for a long time!brothers!The one who shot the least today is a treat to drink!</p>'
+			'<p>Watchdog:Prisoner number:9X0813!I`ve wanted to fuck you for a long time!brothers!The one who shot the least today is a treat to drink!</p>'
 			'<p>·You take the opportunity to act, take advantage of it<<$YDM.name>>The gap that was raped by everyone put the uniform in her mattress!</p>'
 			$YDM_Event_free=3
 	'</div>'

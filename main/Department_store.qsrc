@@ -188,9 +188,9 @@ if $ARGS[0]="":
 		bagrand1=rand(0,100)
 		'<p>The daily sign-in sweepstakes for the first edition of the limited edition bag is in progress, daily13-15You can participate at that time.</p>'
 		if Dailydraw=0 and 13<=hour and hour<=15:'<p><a href="exec:minutes+=15 & bagcount+=1 &Dailydraw=1& gt ''Department_store''">Check in and sign in</a></p>'
-		'<p>Number of sign-ins：<<bagcount>>/∞</p>'
-		if bagrand<bagrand1:'<p>Probability of winning：<<bagrand>>% <a href="exec:minutes+=15 & bagcount=0 & gt ''Department_store''">Participate in the lucky draw</a></p>'
-	 if bagrand>=bagrand1:'<p>Probability of winning：<<bagrand>>% <a href="exec:minutes+=15 & bagcount=0 & bagrand2+=1 & gt ''Department_store''">Participate in the lucky draw</a></p>'
+		'<p>Number of sign-ins:<<bagcount>>/∞</p>'
+		if bagrand<bagrand1:'<p>Probability of winning:<<bagrand>>% <a href="exec:minutes+=15 & bagcount=0 & gt ''Department_store''">Participate in the lucky draw</a></p>'
+	 if bagrand>=bagrand1:'<p>Probability of winning:<<bagrand>>% <a href="exec:minutes+=15 & bagcount=0 & bagrand2+=1 & gt ''Department_store''">Participate in the lucky draw</a></p>'
 		if bagrand2>0:'<p>Purchase eligibility✔POCHETTE MÉTIS EAST WEST Handbags 13700￥ <a href="exec:minutes+=15 & bagrand2-=1 & bag+=1 & money-=13700  & gt ''Department_store''">Loan purchase 13700￥</a></p>'
 		if bag>0:'<p>Now owned✔POCHETTE MÉTIS EAST WEST Handbags 13700￥ <a href="exec:minutes+=15 & bag-=1 & money+=20550  & gt ''Department_store''">Sell to scalpers20550￥</a></p>'
 		'<p>————————————————————————————————</p>'

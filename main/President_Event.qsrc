@@ -30,7 +30,7 @@ if $args[0]="Pick her up and take pictures":
 	'<div class="dialog_menu">'	
 		if a=1:'<p><<$HZ.name>>:...This grasshopper...Will it be shot?...</p>'
 		if a=2:
-		'<p><<$HZ.name>>:...？..？？Hey, hey, hey?！Hello?！What are you doing?！Fuck, I knew this one was unreliable.</p>'
+		'<p><<$HZ.name>>:...?..??Hey, hey, hey?!Hello?!What are you doing?!Fuck, I knew this one was unreliable.</p>'
 		'<p><<$HZ.name>>:..You wretched photographer, get out of here!</p>'
 		'<p>·The shooting is over</p>'
 		'<p>(It seems she won`t ask me to shoot anymore........Unless I can increase the number of likes of the photo...）</p>'
@@ -95,18 +95,18 @@ if $args[0]="basement":
 		'<p><<$HZ.name>>:Also, you trash, you are all heartless and courageous!</p>'
 		end 
 		if a=1:
-		'<p><<$HZ.name>>:...hello!Where are you touching?！</p>'
+		'<p><<$HZ.name>>:...hello!Where are you touching?!</p>'
 		'<p>I:Mr. President, your tattoo is so special and beautiful.</p>'
 		'<p><<$HZ.name>>:Shut up!I`m going to call the police!</p>'
 		end 
 		if a=2:
-		'<p><<$HZ.name>>:...？..？？Hey, hey, hey?！hello!It`s disgusting!Let me go!Where are you touching?！</p>'
+		'<p><<$HZ.name>>:...?..??Hey, hey, hey?!hello!It`s disgusting!Let me go!Where are you touching?!</p>'
 		'<p>I:I`m just taking unforgettable photos of you.</p>'
 		end 
 		if a=3:
-		'<p><<$HZ.name>>:..Wait, stop it, you trash!hello!Who will save me?！Stop it!</p>'
+		'<p><<$HZ.name>>:..Wait, stop it, you trash!hello!Who will save me?!Stop it!</p>'
 		'<p>I:You also said that this is where the hillbilly grasshopper lives, and there is no ghost place around.</p>'
-		'<p><<$HZ.name>>:..help!Help!！</p>'
+		'<p><<$HZ.name>>:..help!Help!!</p>'
 		$HZ_Event_coser=5
 		$HZ.love-=50
 		end
@@ -308,7 +308,7 @@ if $args[0]="HZ_Fuck_Student Union":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$HZ.name>>:hello!！！This is too sudden!but..I like it!</p>'
+			 '<p><<$HZ.name>>:hello!!!This is too sudden!but..I like it!</p>'
 		 '</div>'
 	end
 

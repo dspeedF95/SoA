@@ -744,7 +744,7 @@ if $args[0]="classroomSEX":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>Friend: Such a big dick, such a close distance.I feel it just by looking at it!！</p>'
+			 '<p>Friend: Such a big dick, such a close distance.I feel it just by looking at it!!</p>'
 		 '</div>'
 	end
 

@@ -99,7 +99,7 @@ if $args[0]="Recommended massage shop":
 	'<div class="dialog_menu">'
 		'<p>I:I know a good massage parlor. Last time I went for physiotherapy, the soreness in my body was cleared after a while!</p>'
 		if spa>=50:
-			'<p><<$NY.name>>：...Is that so?I`ll go and have a look another day.Oh?Is this place?<<$Protagonists_surname>> What is the relationship between the boss and you?Since<<$Protagonists_surname>> I haven`t been there since the boss was in a coma.</p>'
+			'<p><<$NY.name>>:...Is that so?I`ll go and have a look another day.Oh?Is this place?<<$Protagonists_surname>> What is the relationship between the boss and you?Since<<$Protagonists_surname>> I haven`t been there since the boss was in a coma.</p>'
 			$NY.spa=1
 		else
 			'<p><<$NY.name>>: I haven`t heard of any broken place.I won`t go to places that are not famous!</p>'

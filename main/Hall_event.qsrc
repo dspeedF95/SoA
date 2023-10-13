@@ -170,7 +170,7 @@ if $args[0]="Fuck_Family portrait":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>：<<$Protagonist`s_name>>Son, have you been looking forward to this day for a long time?</p>'
+			 '<p><<$JM.name>>:<<$Protagonist`s_name>>Son, have you been looking forward to this day for a long time?</p>'
 			 '<p><<$JJ.name>>: Is it my sister who wants to be the first one to plug in?<<$Protagonist`s_name>>brother!</p>'
 			 '<p><<$MM.name>>: Humph...<<$Protagonist`s_name>>brother!The first one must be me!</p>'
 		 '</div>'
@@ -233,7 +233,7 @@ if $args[0]="Fuck_Family portrait2":
 		 '<div class="dialog_menu">'
 		 	 '<p>Me: Who do you want to taste first?</p>'
 			 '<p><<$JM.name>>: Mom`s baby son!<<$Protagonist`s_name>>Son, of course it`s your Sao mother!</p>'
-			 '<p><<$JJ.name>>：<<$Protagonist`s_name>>brother!Does my sister usually treat you badly?</p>'
+			 '<p><<$JJ.name>>:<<$Protagonist`s_name>>brother!Does my sister usually treat you badly?</p>'
 			 '<p><<$MM.name>>: Humph...<<$Protagonist`s_name>>brother!If you don`t choose me, you are dead!</p>'
 		 '</div>'
 	end

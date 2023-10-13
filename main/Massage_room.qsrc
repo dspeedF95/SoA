@@ -35,8 +35,8 @@ if  $args[0]="":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current reputation of the massage parlor is：<<spa>> 处于 In<<$spa_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The current reputation of the massage parlor is:<<spa>> 处于 In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		
 	'</div>'
 
@@ -58,8 +58,8 @@ if  $args[0]="Private massage":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The current reputation of the massage parlor is:<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		'<p>——————————</p>'
 		'<p>·Private massage is only acceptedVIPcustomer.We keep the identity of potential customers fully confidential.</p>'
 	'</div>'
@@ -76,7 +76,7 @@ if  $args[0]="Withdraw":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		'<p>·Withdrawal rules, each time you withdraw, you can only withdraw more than1The amount of 10,000￥ is lower than1The amount of 10,000 ￥ will be used as a corporate tax to support pensions for female staff in the city hall.</p>'
 		'<p>☺Based on the ability of the secretary【<<MS.power>>】 Can legally avoid taxes and transfer<<TXM>>%To personal account.</p>'
 	'</div>'
@@ -104,8 +104,8 @@ if  $args[0]="NY":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The current reputation of the massage parlor is:<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		'<p>——————————</p>'
 		'<p>·Private massage is only acceptedVIPcustomer.</p>'
 		
@@ -128,8 +128,8 @@ if  $args[0]="Private massage2":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The current reputation of the massage parlor is:<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		'<p>——————————</p>'
 		'<p>·Private massage is only acceptedVIPcustomer.We keep the identity of potential customers fully confidential.</p>'
 	'</div>'
@@ -150,8 +150,8 @@ if  $args[0]="Private massage3":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The current reputation of the massage parlor is:<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		'<p>——————————</p>'
 		'<p>·Private massage is only acceptedVIPcustomer.We keep the identity of potential customers fully confidential.</p>'
 	'</div>'
@@ -170,8 +170,8 @@ if  $args[0]="Private massage4":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The current reputation of the massage parlor is:<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		'<p>——————————</p>'
 		'<p>·Private massage is only acceptedVIPcustomer.We keep the identity of potential customers fully confidential.</p>'
 	'</div>'
@@ -182,14 +182,14 @@ if  $args[0]="Private massage5":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage4''">▶Previous page</a></div>'
-        if $DY.massage=1:'<div class="button"><a href="exec:$m=''DY'' & $ma=$DY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②①<<$DY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②①？？？</a></div>'
-	   if $SWD.massage=1:'<div class="button"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②②<<$SWD.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②②？？？</a></div>'
-       if $YH.massage=1:'<div class="button"><a href="exec:$m=''YH'' & $ma=$YH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②③<<$YH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②③？？？</a></div>'
+        if $DY.massage=1:'<div class="button"><a href="exec:$m=''DY'' & $ma=$DY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②①<<$DY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②①???</a></div>'
+	   if $SWD.massage=1:'<div class="button"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②②<<$SWD.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②②???</a></div>'
+       if $YH.massage=1:'<div class="button"><a href="exec:$m=''YH'' & $ma=$YH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②③<<$YH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②③???</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current reputation of the massage parlor is：<<spa>>。In<<$spa_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_massage>>￥</p>'
+		'<p>·The current reputation of the massage parlor is:<<spa>>。In<<$spa_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_massage>>￥</p>'
 		'<p>——————————</p>'
 		'<p>·Private massage is only acceptedVIPcustomer.We keep the identity of potential customers fully confidential.</p>'
 	'</div>'

@@ -71,7 +71,7 @@ if $ARGS[0]="Peek":
 
 
 	'<div class="dialog_menu">'
-		'<p>-<<$JM.name>>：<<$Panting>></p>'
+		'<p>-<<$JM.name>>:<<$Panting>></p>'
 	'</div>'
 
 end

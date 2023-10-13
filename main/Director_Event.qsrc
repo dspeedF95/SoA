@@ -406,7 +406,7 @@ if $args[0]="TZ_Fuck_massage":
 		'<div class="button_menu">'
 			if a=0:
 			'<div class="button"><a href="exec:a=1 & gt ''Director_Event'',''TZ_Fuck_massage''">Normal massage </a></div>'
-			if MGF>0:'<div class="buttonS1"><a href="exec:MGF-=1 & a=2 & gt ''Director_Event'',''TZ_Fuck_massage''">Apply McGovern Essence</a></div>'else'<div class="buttonGr"><a href="exec:">Missing?？？</a></div>'
+			if MGF>0:'<div class="buttonS1"><a href="exec:MGF-=1 & a=2 & gt ''Director_Event'',''TZ_Fuck_massage''">Apply McGovern Essence</a></div>'else'<div class="buttonGr"><a href="exec:">Missing???</a></div>'
 			end
 
 			if a>=2 and a!3:
@@ -560,7 +560,7 @@ if $args[0]="TZ_Fuck_Celebration banquet":
 		 '<div class="dialog_menu">'
 			 '<p><<$TZ.name>>: I want to...have a formal relationship with you...would you like to…</p>'
 			 '<p>I: Let me think about it…</p>'
-			 '<p><<$TZ.name>>: ？！？You... are very good at whetting my appetite…</p>'
+			 '<p><<$TZ.name>>: ?!?You... are very good at whetting my appetite…</p>'
 		 '</div>'
 	end
   q+=1
@@ -947,7 +947,7 @@ if $args[0]="TZ_Fuck_cycle":
 
 	if a=5 or a=7 or a=9:
 		 '<div class="dialog_menu">'
-			 if a=5:'<p><<$BD.name>>:Pick it up for me!<<$TZ.NAME>>！Put your mouth together!</p>'
+			 if a=5:'<p><<$BD.name>>:Pick it up for me!<<$TZ.NAME>>!Put your mouth together!</p>'
 			 if a=7:'<p><<$TZ.name>>It`s your turn!<<$LY.name>></p>'
 			 if a=9:'<p><<$LY.name>>:No way no way……<<$BD.name>>, Give it back to you!</p>'
 		 '</div>'
@@ -955,8 +955,8 @@ if $args[0]="TZ_Fuck_cycle":
 
 	if a=10:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: What!？</p>'
-			 '<p><<$TZ.name>>: Shot?！？</p>'
+			 '<p><<$BD.name>>: What!?</p>'
+			 '<p><<$TZ.name>>: Shot?!?</p>'
 			 '<p><<$LY.name>>: Hey hey!Whose is this!</p>'
 		 '</div>'
 	end
@@ -1022,7 +1022,7 @@ if $args[0]="TZ_Fuck_Referrals":
 		 '<div class="dialog_menu">'
 			 '<p><<$TZ.name>>: <<$LY.name>>...I`ve heard so much about you, thanks to you for the success of the reality show!</p>'
 			 '<p><<$LY.name>>: You are flattered!It`s all the credit of the leaders…</p>'
-			 '<p><<$TZ.name>>: Oh?It turns out<<$Protagonist`s_name>>Didn`t you contribute?！</p>'
+			 '<p><<$TZ.name>>: Oh?It turns out<<$Protagonist`s_name>>Didn`t you contribute?!</p>'
 		 '</div>'
 	end
 

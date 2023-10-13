@@ -450,9 +450,9 @@ if $ARGS[0]="Interrogation":
 		if a=1:
 		'<p><<$DC.name>>:  Please immediately approve the search warrant for the arrest of Gay Bar!</p>'
 		'<p><<$JZ.name>>:  No way!We have no law enforcement power in Kabukicho.</p>'
-		'<p><<$DC.name>>:  What should I do?Let this aphrodisiac continue to flood the market?！</p>'
+		'<p><<$DC.name>>:  What should I do?Let this aphrodisiac continue to flood the market?!</p>'
 		'<p><<$JZ.name>>:  Don`t you want to think about why they picked the trading location in the suburbs?They are not so stupid. The people and goods caught this time are the protection fees they paid.</p>'
-		'<p><<$DC.name>>:  So are we going to turn a blind eye?！</p>'
+		'<p><<$DC.name>>:  So are we going to turn a blind eye?!</p>'
 		'<p><<$JZ.name>>:  I didn`t say that, but the reality is that we don`t have the right to enforce the law.</p>'
 		if $Inspector_event_chain=4:$Inspector_event_chain=5
 		end
@@ -471,7 +471,7 @@ if $ARGS[0]="Act privately":
 	
 	'<div class="dialog_menu">'
 		'<p><<$DC.name>>: <<$Protagonist`s_name>>, The situation is urgent, I need support.</p>'
-		'<p>I:  where are you?！</p>'
+		'<p>I:  where are you?!</p>'
 		'<p><<$DC.name>>:  The big bird turns around, come quickly.</p>'
 		if $Inspector_event_chain=5:$Inspector_event_chain=6
 	'</div>'
@@ -517,7 +517,7 @@ if $ARGS[0]="Scream":
 	
 	'<div class="dialog_menu">'
 		'<p>???: Catch her for me!Bitch!</p>'
-		'<p>I:  <<$DC.name>>？！You let her go for me!</p>'
+		'<p>I:  <<$DC.name>>?!You let her go for me!</p>'
 		'<p>???: hello!Call you!</p>'
 		if a=1:'<p><font size="50">Boom--!</font></p>'
 		if a=2:'<p>·I heard the cries of rescuers, but I was unable to respond……</p>'
@@ -577,9 +577,9 @@ if $ARGS[0]="ceiling":
 	
 	'<div class="dialog_menu">'
 		'<p>???: Just in time, the patient woke up.</p>'
-		'<p>I:  Why am I here?<<$DC.name>>How`s it going?！</p>'
+		'<p>I:  Why am I here?<<$DC.name>>How`s it going?!</p>'
 		'<p><<$JZ.name>>:  Are you awake? Fortunately, it`s just a skin injury. You and<<$DC.name>>You were sent here together. At that time, you were bruised all over and you were in a coma for several days.</p>'
-		'<p>I:  <<$DC.name>>what?！</p>'
+		'<p>I:  <<$DC.name>>what?!</p>'
 		'<p><<$JZ.name>>: She`s fine a long time ago, do you want me to call her over?</p>'
 	'</div>'
 end
@@ -677,7 +677,7 @@ if $args[0]="DC_Fuck_torture":
     if 6>=a and a>=0:
          '<div class="dialog_menu">'
              if a>=0:'<p><<$DC.name>>: Tell me everything you know!Who is the boss of Gay Bar?</p>'
-             if a>=1:'<p>suspect:  I have already said that I am just a little minion who follows the instructions. How can I know who is the big boss?！</p>'
+             if a>=1:'<p>suspect:  I have already said that I am just a little minion who follows the instructions. How can I know who is the big boss?!</p>'
              if a>=2:'<p><<$DC.name>>: If you don`t eat the hard ones, do you want to eat the soft ones?</p>'
              if a>=3:'<p>suspect:  I don`t know, I really don`t know.</p>'
              if a>=4:'<p><<$DC.name>>: <<$Panting>>How could you not know?</p>'
@@ -1162,7 +1162,7 @@ if $args[0]="DC_Fuck_bathroom":
          '<div class="dialog_menu">'
              '<p><<$DC.name>>: What did you say happened to my cunt?</p>'
              '<p>I: It doesn`t seem to be as tight as before…</p>'
-             '<p><<$DC.name>>: Haven`t you fucked it yet?！</p>'
+             '<p><<$DC.name>>: Haven`t you fucked it yet?!</p>'
          '</div>'
     end
 
@@ -1625,9 +1625,9 @@ if $args[0]="DC_Fuck_clue":
          '<div class="dialog_menu">'
              if a=0:
              '<p>???: Hehe, I have important clues to provide to the police.</p>'
-             '<p><<$DC.name>>: Do you know where this is?！Don`t touch me!</p>'
+             '<p><<$DC.name>>: Do you know where this is?!Don`t touch me!</p>'
              '<p>???: It`s about a mysterious aphrodisiac.</p>'
-             '<p><<$DC.name>>: ！！Tell me everything you know!</p>'
+             '<p><<$DC.name>>: !!Tell me everything you know!</p>'
              '<p>???: Officer, I also want to cooperate with you, but there is something wrong with me, and I have a little bit of value in my hands, so I like to exploit others.</p>'
              end
              if a>=1:'<p><<$DC.name>>: Don`t worry, you can think slowly.</p>'
@@ -1697,7 +1697,7 @@ if $args[0]="DC_Fuck_Biological laboratory":
          '<div class="dialog_menu">'
              if a=0:'<p><<$DC.name>>: This should be it!The research and development room of the mysterious aphrodisiac in the clue, doesn`t it seem that there is nothing wrong with it?Why do I feel like I`ve been here before?</p>'
              if a=1:'<p><<$DC.name>>: Don`t think too much, I finally slipped in, it`s time for the hospital to get off work.*Hissing</p>'
-             if a=2:'<p><<$DC.name>>:？！？！？！</p>'
+             if a=2:'<p><<$DC.name>>:?!?!?!</p>'
              if a>=3:'<p><<$DC.name>>: Help<<$Panting>></p>'
              if a=5 or a=7:'<p><<$DC.name>>: Ah Ah Ah Oh Ah Ah Oh Oh Oh Oh Oh Oh Ah Ah Oh Oh!</p>'
          '</div>'

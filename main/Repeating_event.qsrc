@@ -164,7 +164,7 @@ if $ARGS[0]="Go to the basement4":
 
 	'<div class="dialog_menu">'
 		'<p><<$LJ.name>>: Why is there nothing of value?This should be worth a lot of money.</p>'
-		'<p>Me: What are you doing?！I want to help you with all my heart, do you actually want to steal from me?......</p>'
+		'<p>Me: What are you doing?!I want to help you with all my heart, do you actually want to steal from me?......</p>'
 		'<p><<$LJ.name>>: Ah!Not good!*She turned around and was about to run.</p>'
 	'</div>'
 
@@ -514,7 +514,7 @@ if $ARGS[0]="LJ_Fuck_Her house":
 
 	'<div class="dialog_menu">'
 		'<p><<$LJ.name>>: Mom!I`m back!Here, this is my home, are you satisfied?</p>'
-		'<p><<$SY.name>>: Why did you come back?！Unfortunately, the uncles are not at home now, and there are still some leftovers in the kitchen. Let`s go to the room and study for a while!</p>'
+		'<p><<$SY.name>>: Why did you come back?!Unfortunately, the uncles are not at home now, and there are still some leftovers in the kitchen. Let`s go to the room and study for a while!</p>'
 	'</div>'
 end
 
@@ -609,7 +609,7 @@ if $args[0]="LJ_Fuck_Mom blowjob":
 
 	if a=10:
 		 '<div class="dialog_menu">'
-			 '<p><<$LJ.name>>:Accidentally fell asleep again.....mom，<<$Protagonist`s_name>>？Why are your expressions weird?</p>'
+			 '<p><<$LJ.name>>:Accidentally fell asleep again.....mom，<<$Protagonist`s_name>>?Why are your expressions weird?</p>'
 			 '<p><<$SY.name>>:uh....When the meal is ready, you can eat it yourself. Mom is going to do tasks with her uncles. You can play by yourself.~</p>'
 			 '<p><<$LJ.name>>:I have to go after dinner<<$Protagonist`s_name>>Live there for a while...</p>'
 			 '<p><<$SY.name>>:Whatever you want!Mom is too late!Let`s go first!</p>'
@@ -638,10 +638,10 @@ if $args[0]="LJZL_Fuck_inverse3P":
 			'<div class="button"><a href="exec:a=2 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Double service</a></div>'
 			end
 			if 5>=a and 5>=q and q>=2:
-			'<div class="buttonB"><a href="exec:a=3 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port：<<$LJ.name>></a></div>'
+			'<div class="buttonB"><a href="exec:a=3 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port:<<$LJ.name>></a></div>'
 			end
 			if 2<=a and 5>=q and q>=2:
-			'<div class="buttonP"><a href="exec:a=4 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port：<<$ZL.name>></a></div>'
+			'<div class="buttonP"><a href="exec:a=4 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port:<<$ZL.name>></a></div>'
 			end
 			if a!5 and 8>q and q>=4:
 			'<div class="buttonB"><a href="exec:a=5 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">fuck<<$LJ.name>></a></div>'
@@ -684,7 +684,7 @@ if $args[0]="LJZL_Fuck_inverse3P":
 
 	if a=7:
 		 '<div class="dialog_menu">'
-			 '<p><<$LJ.name>>&<<$ZL.name>>:<<$words>>What?！————Why did you shoot when you talked to yourself? You should also shoot inside me....</p>'
+			 '<p><<$LJ.name>>&<<$ZL.name>>:<<$words>>What?!————Why did you shoot when you talked to yourself? You should also shoot inside me....</p>'
 		 '</div>'
 	end
 
@@ -694,7 +694,7 @@ if $args[0]="LJZL_Fuck_inverse3P":
 		 $LJ.love+=q+my.charm
 		 $LJ.bad+=q*2+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$LJ.name>>:<<$Panting>>Hey, what are you doing?！</p>'
+			 '<p><<$LJ.name>>:<<$Panting>>Hey, what are you doing?!</p>'
 			 '<p><<$ZL.name>>:This is the semen my dear shot me, of course I have to lick it clean.</p>'
 		 '</div>'
 	end

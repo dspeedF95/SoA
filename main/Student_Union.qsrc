@@ -42,7 +42,7 @@ if $args[0]="Looking for a peek":
 
 	'<div class="dialog_menu">'
 		'<p>Student union cadres:Hey hey!You can`t go in!</p>'
-		'<p><<$HZ.name>>:Pop--pop--what is my order?！Pa-pa-are you a man?Waste grasshopper!…...huh?</p>'
+		'<p><<$HZ.name>>:Pop--pop--what is my order?!Pa-pa-are you a man?Waste grasshopper!…...huh?</p>'
 		'<p>Student union cadres:Sorry!<<$HZ.name>>My lord!I`ll take him out right away!</p>'
 	'</div>'
 End
@@ -157,7 +157,7 @@ if $args[0]="Let them out":
 		'<p>I:What`s the matter?Were you kicked in the balls?</p>'
 		'<p><<$HZ.name>>:Haha, it is responsible for docking supplies with the Hot Girl Gang located in the suburbs. It is mainly the hot girl Gang that has taken over the supply of school canteen materials.In layman`s terms, it is to ship the goods.</p>'
 		'<p>I:Can`t it be delivered directly to your door?What age is it?</p>'
-		'<p><<$HZ.name>>:Of course I won`t let you work for nothing!I can reward you in the name of a scholarship~Let me think about it, once200￥！If you want to treat yourself with your body, you can do it anytime..</p>'
+		'<p><<$HZ.name>>:Of course I won`t let you work for nothing!I can reward you in the name of a scholarship~Let me think about it, once200￥!If you want to treat yourself with your body, you can do it anytime..</p>'
 		'<p>I:No problem, it`s not about money or not, it`s mainly about loving you.(There won`t be any contraband in it, right?...）</p>'
 		$HZ_Event_goods=1
 		end

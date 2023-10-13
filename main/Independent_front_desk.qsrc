@@ -85,7 +85,7 @@ if $args[0]="":
 			'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test'',''Nurse station''">返回Back↓</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p><<$HS.name>>：310The patient was discharged from the hospital without saying a word. Although he was quite excessive, he didn`t know if he could live alone.~</p>'
+			'<p><<$HS.name>>:310The patient was discharged from the hospital without saying a word. Although he was quite excessive, he didn`t know if he could live alone.~</p>'
 		'</div>'
 	 end
 End
@@ -99,7 +99,7 @@ if $args[0]="Looking for a voice":
 			'<div class="button"><a href="exec:minutes+=45 & gt ''Daily_drug_test'',''Nurse station''">返回Back↓</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p>310Patient: What is your attitude?！Ahem!Isn`t it your job to do semen examinations for secondary patients?*cough</p>'
+			'<p>310Patient: What is your attitude?!Ahem!Isn`t it your job to do semen examinations for secondary patients?*cough</p>'
 			'<p><<$HS.name>>: Please be gentle.....*Woohoo*</p>'
 		'</div>'
 End
@@ -154,9 +154,9 @@ if $args[0]="310Room selection":
 			'<p>Me: First come first served, I will choose the homeless.</p>'
 			'<p>310Patient: Haha, after the homeless were treated, they ran away to escape the high medical expenses, while the rich became vegetative because the treatment was not timely.</p>'
 			'<p>Me: That`s just bad luck.</p>'
-			'<p>310Patient: Bad luck comes at a price!What do you know!！How can there be any luck!Everyone deserves it!*cough</p>'
+			'<p>310Patient: Bad luck comes at a price!What do you know!!How can there be any luck!Everyone deserves it!*cough</p>'
 			'<p>Me: So you are the doctor?</p>'
-			'<p>310Patient: It`s none of your business.*He stared at his trembling hands.Hateful new policy reform!！My reputation!status!She took everything from me!!I shouldn`t have saved him!I want to destroy this hospital and make it our grave!</p>'
+			'<p>310Patient: It`s none of your business.*He stared at his trembling hands.Hateful new policy reform!!My reputation!status!She took everything from me!!I shouldn`t have saved him!I want to destroy this hospital and make it our grave!</p>'
 			'<p>310Patient: Get out of here!I have other things to do!I don`t need your help!*cough*The god I have seen with my own eyes.....Whether you are a god or a demon, please come again...Fulfill my wish...Let me go.....</p>'
 			end
 		'</div>'
@@ -202,7 +202,7 @@ if $args[0]="Departure":
 			if $args[1]!"":'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test''">leave</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p>AIwarning：J3Non-researchers on the way have been detected in the area, please leave the area quickly.</p>'
+			'<p>AIwarning:J3Non-researchers on the way have been detected in the area, please leave the area quickly.</p>'
 			'<p>*You suddenly remembered that there is only one doctor uniform.Means only one person can pass....</p>'
 			'<p>310Patient: Bring it!I know you secretly hid a doctor`s uniform!</p>'
 			if $args[1]="Give him a doctor`s uniform":

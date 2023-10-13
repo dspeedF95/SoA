@@ -64,7 +64,7 @@ if $args[0]="LY_Event_Pre_entry":
 	if a=2:
 		 '<div class="dialog_menu">'
 			 '<p>woman: Let me go, don`t touch me, you stinky dogs!</p>'
-			 '<p>man: Eh eh?！Dear officials, this is none of my business.My little brother has other urgent matters, so let`s go first!</p>'
+			 '<p>man: Eh eh?!Dear officials, this is none of my business.My little brother has other urgent matters, so let`s go first!</p>'
 			 '<p>Material auditor: Hold her down!</p>'
 		 '</div>'
 	end
@@ -186,7 +186,7 @@ if $args[0]="LY_Event_Entry":
 	end
 	if a=10:
 		 '<div class="dialog_menu">'
-			 '<p>woman: ...Have you checked carefully enough!....What about the results of my review..？！</p>'
+			 '<p>woman: ...Have you checked carefully enough!....What about the results of my review..?!</p>'
 		 '</div>'
 	end
 	if a=11:
@@ -484,7 +484,7 @@ if $args[0]="Kitchen monitoring":
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！！？！！</p>'
+			 '<p><<$LY.name>>: ?!!?!!</p>'
 			 '<p>Team leader: Shhh, be quiet, don`t make a sound and you won`t get hurt.</p>'
 		 '</div>'
 	end
@@ -496,13 +496,13 @@ if $args[0]="Kitchen monitoring":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！You can`t rub it so vigorously....Stop it!</p>'
+			 '<p><<$LY.name>>: ?!You can`t rub it so vigorously....Stop it!</p>'
 		 '</div>'
 	end
 
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: Help~！Wake up!Get up quickly!I`m going to be raped in front of you!He has an erection!</p>'
+			 '<p><<$LY.name>>: Help~!Wake up!Get up quickly!I`m going to be raped in front of you!He has an erection!</p>'
 		 '</div>'
 	end
 
@@ -514,7 +514,7 @@ if $args[0]="Kitchen monitoring":
 
 	if a=6:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: Help!~！Get up for me, you trash!！He`s raping me..I was fucked to death by him!！Wake up quickly!！</p>'
+			 '<p><<$LY.name>>: Help!~!Get up for me, you trash!!He`s raping me..I was fucked to death by him!!Wake up quickly!!</p>'
 		 '</div>'
 	end
 
@@ -563,7 +563,7 @@ if $ARGS[0]="Reality show invitation":
 	'</div>'
 	'<div class="dialog_menu">'
 		'<p>I:You have experience working as an anchor and a fashion store. These professional experiences should be the best candidates to complete such a reality show!</p>'
-		'<p><<$LY.name>>:...how do I need to act?？</p>'
+		'<p><<$LY.name>>:...how do I need to act??</p>'
 		'<p>I:No need to act!Reality TV, the most important thing is “real”!Our reality show is called "Stick to it if you are a man10Minutes", you use various means to seduce male guests!</p>'
 		'<p><<$LY.name>>:...I see, what about the reward, I think￥3000…...is it okay?</p>'
 	'</div>'
@@ -796,20 +796,20 @@ if $args[0]="LY_Event_groupP1":
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！Want to...rape...me again!This time...absolutely!？Stop it!！</p>'
+			 '<p><<$LY.name>>: ?!Want to...rape...me again!This time...absolutely!?Stop it!!</p>'
 			 '<p>Team leader: Shhh, be quiet, don`t make a sound and you won`t get hurt.</p>'
 			 '<p>Deputy team leader:  Team leader, you come first!</p>'
 		 '</div>'
 	end
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p>Team leader: Why is your pussy getting looser and looser, do you think you are fucking with him all day?！</p>'
+			 '<p>Team leader: Why is your pussy getting looser and looser, do you think you are fucking with him all day?!</p>'
 		 '</div>'
 	end
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！No, it`s not... stop it...!</p>'
+			 '<p><<$LY.name>>: ?!No, it`s not... stop it...!</p>'
 		 '</div>'
 	end
 
@@ -828,7 +828,7 @@ if $args[0]="LY_Event_groupP1":
 
 	if a=6:
 		 '<div class="dialog_menu">'
-			 '<p>Team leader: Sao forced, are you happy to be fucked by us?！</p>'
+			 '<p>Team leader: Sao forced, are you happy to be fucked by us?!</p>'
 			 '<p><<$LY.name>>: Woohoo………………</p>'	 
 			 '<p>Team leader: It doesn`t seem to be satisfied, then I will take the whole group to fuck you on Sunday, okay?Remember to take birth control pills in advance!</p>'
 			 $LY.Monitoringtwofinishedreading=1
@@ -1019,7 +1019,7 @@ if $args[0]="LY_Fuck_Director`s Room":
 
 	if 1>=a and a>=0:
 		 '<div class="dialog_menu">'
-			 '<p>I:The stage has grown out, isn`t it exciting to have sex here?！</p>'
+			 '<p>I:The stage has grown out, isn`t it exciting to have sex here?!</p>'
 			 '<p><<$LY.name>>: <<$Panting>>Let`s make it quick…</p>'
 		 '</div>'
 	end
@@ -1028,7 +1028,7 @@ if $args[0]="LY_Fuck_Director`s Room":
 	if 4>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$LY.name>>: <<$words>></p>'
-			 if a=2:'<p>I:How can you?！It`s sprayed everywhere... it`s over.…</p>'
+			 if a=2:'<p>I:How can you?!It`s sprayed everywhere... it`s over.…</p>'
 		 '</div>'
 	end
 
@@ -1309,7 +1309,7 @@ if $args[0]="LY_Event_Ninterview":
          '<div class="dialog_menu">'
              '<p>·15Minutes later</p>'
              '<p>I:How?Is it going well?</p>'
-             '<p><<$LY.name>>: OK！It`s over once!</p>'
+             '<p><<$LY.name>>: OK!It`s over once!</p>'
              '<p>I:cool~</p>'
          '</div>'
     end
@@ -1418,7 +1418,7 @@ if $args[0]="LY_Event_Sister engage":
          '<div class="dialog_menu">'
              '<p><<$LY.name>>: What`s this?Is it a gift from the fan group?</p>'
              '<p><<$MM.name>>: Let me see...“I guess this is something you will like, I wish you a good time.”</p>'
-             if a>=1:'<p><<$MM.name>>: What?！Why is it a big box of sex toys?！It`s too much!</p>'
+             if a>=1:'<p><<$MM.name>>: What?!Why is it a big box of sex toys?!It`s too much!</p>'
              if a>=1:'<p><<$LY.name>>: You, do you want to try it?</p>'
              if a>=1:'<p><<$MM.name>>: Oh?</p>'
              if a>=2:'<p><<$MM.name>>: <<$Panting>></p>'

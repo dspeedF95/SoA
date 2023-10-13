@@ -31,7 +31,7 @@ if $args[0]="Frowning":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$XY.name>>：*Frowning*Really annoying....Why is it when I am going to class, alas.</p>'
+		'<p><<$XY.name>>:*Frowning*Really annoying....Why is it when I am going to class, alas.</p>'
 		'<p>Me: Teacher, is there anything bothering you?</p>'
 		'<p><<$XY.name>>: You seem to be very free?Accompany me to a place.</p>'
 	'</div>'
@@ -54,7 +54,7 @@ if $args[0]="Frowning2":
 		'<p>Me: (It happens to be the time when the teacher is going to class) So what is the prize?</p>'
 		'<p><<$XY.name>>: It is the purchase qualification for the latest bag.</p>'
 		'<p>Me: Does it mean that even if you win the lottery, you still have to spend money to buy it?</p>'
-		'<p><<$XY.name>>: What do you know (white eyes) The starting price is very cheap!But the limited edition can change hands at a premium50%！！</p>'
+		'<p><<$XY.name>>: What do you know (white eyes) The starting price is very cheap!But the limited edition can change hands at a premium50%!!</p>'
 	'</div>'
 End
 
@@ -138,7 +138,7 @@ if $args[0]="XY_Fuck_Take advantage":
 	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p>I:<<$XY.name>>, You don`t seem to be very happy. Think about it. It`s a limited edition bag.</p>'
-			 '<p><<$XY.name>>:Huh?！I hope you keep your promise, for the sake of the bag, I`ll give it to you5Minutes!</p>'
+			 '<p><<$XY.name>>:Huh?!I hope you keep your promise, for the sake of the bag, I`ll give it to you5Minutes!</p>'
 		 '</div>'
 	end
 
@@ -555,9 +555,9 @@ if $args[0]="XY_Fuck_home":
 		else
 			'<div class="button_menu">'
 				'<div class="button"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_All night''">Fuck all night</a></div>'
-				if $FXZ.love>=200 and $FXZ.bad>=200: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_Home_professor3P''">invite<<$FXZ.name>>3P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation?？3P</a></div>'
-				if $FXZ.love>=200 and $FXZ.bad>=200 and $YDM.LOVE>=400-$YDM.bad: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 &gt ''One_generation_project_Event'',''YDM_Fuck_4P''">invite<<$YDM.name>>4P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation?？4P</a></div>'
-				if $EDM.love>=100 and $EDM.bad>=100:'<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">invite<<$edm.name>>3P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation?？3P</a></div>'
+				if $FXZ.love>=200 and $FXZ.bad>=200: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Spanish_Event'',''XY_Fuck_Home_professor3P''">invite<<$FXZ.name>>3P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation??3P</a></div>'
+				if $FXZ.love>=200 and $FXZ.bad>=200 and $YDM.LOVE>=400-$YDM.bad: '<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 &gt ''One_generation_project_Event'',''YDM_Fuck_4P''">invite<<$YDM.name>>4P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation??4P</a></div>'
+				if $EDM.love>=100 and $EDM.bad>=100:'<div class="buttonS"><a href="exec:minutes+=300 & a=0 & q=0 & gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">invite<<$edm.name>>3P</a></div>'else'<div class="buttonGr"><a href="exec:">invitation??3P</a></div>'
 				'<div class="button"><a href="exec:minutes+=30  & gt ''Residential_area''">leave</a></div>'
 			'</div>'
 	end

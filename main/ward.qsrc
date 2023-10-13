@@ -96,7 +96,7 @@ if $args[0]="Quarrel4":
 		'<p><<$SF.name>>:Little mom, it`s been a long time since I saw you.</p>'
 		'<p><<$YS.name>>:Who is your mother?I`m here to talk about the ownership of the inheritance with my fake son who is not an instrument. You don`t care about our family affairs, do you?</p>'
 		'<p><<$SF.name>>:Haha, mom!I just got a marriage certificate with Maonan yesterday. Now I am half of my "family”, right?</p>'
-		'<p><<$YS.name>>:yesterday?！I think you want to divide your property and you are crazy!Isn`t your wasteful son also waiting for the inheritance?I`m already grateful to God that I didn`t lose my family by idleness every day.</p>'
+		'<p><<$YS.name>>:yesterday?!I think you want to divide your property and you are crazy!Isn`t your wasteful son also waiting for the inheritance?I`m already grateful to God that I didn`t lose my family by idleness every day.</p>'
 		'<p>Lu Maonan:Little mom, don`t be hypocritical. You were 30 years old and married a 60-year-old man. You know what you want.I`m afraid you don`t know to tell you, the old man was ligated after my mother died!Idiot!</p>'
 		'<p><<$YS.name>>:Humph!I`m afraid you don`t know. I`ll tell you too. As soon as the old man dies, no one will pay you for your work.You and this wild woman have no source of income!I will find a way to extend the effective time of the will. How long can you spend with me if you have no financial source?</p>'
 	'</div>'
@@ -112,7 +112,7 @@ if $args[0]="Eavesdropping":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Lu Maonan:How many fucking times have I told you!！Transfer to meVIPward!！You are a waste vase!It`s useless to look at it!！</p>'
+		'<p>Lu Maonan:How many fucking times have I told you!!Transfer to meVIPward!!You are a waste vase!It`s useless to look at it!!</p>'
 		'<p>Lu Maonan:Won`t you borrow or borrow when you have no money?Can`t you just pay it back when you get the inheritance?What a stupid woman without a brain.</p>'
 		'<p>Lu Maonan:Hurry up and find a way to make money, stupid woman, now that I am comfortable serving Lao Tzu, there will be time for you to enjoy your blessings in the future!</p>'
 	'</div>'
@@ -127,7 +127,7 @@ if $args[0]="NTR":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Lu Maonan:Huh, what a useless woman.I haven`t been pregnant with you so many times before, and pigs can give birth.,Ducks can also be born,Chickens can also be born,Dogs can give birth, but you are not even as good as an animal!I knew I would marry someone else a long time ago. With so many women present at the time, there were always people who were shot.It`s useless to look at it!！</p>'
+		'<p>Lu Maonan:Huh, what a useless woman.I haven`t been pregnant with you so many times before, and pigs can give birth.,Ducks can also be born,Chickens can also be born,Dogs can give birth, but you are not even as good as an animal!I knew I would marry someone else a long time ago. With so many women present at the time, there were always people who were shot.It`s useless to look at it!!</p>'
 		'<p><<$SF.name>>:Ha ha!Don`t worry, you will be pregnant soon!</p>'
 		'<p>Lu Maonan:Shut up!Go play a song "AMajor No. 123Piano Concerto, I`m going to start enjoying it!Yes, it reminds me of last fall at the Brook Theater in Vienna, when..You said you always had a star dream.....Zzz</p>'
 	'</div>'

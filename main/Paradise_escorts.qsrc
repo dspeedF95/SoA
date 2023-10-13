@@ -159,7 +159,7 @@ if $args[0]="Caesar standing Painting":
 
 	'<div class="dialog_menu">'
 		if CaesarDialogue=0:
-		'<p>Caesar：<<$Protagonist`s_name>>, Why did you come in without knocking on the door?Do you know what the value of the existence of a loser is?If there are no losers, there will be no winners.</p>'
+		'<p>Caesar:<<$Protagonist`s_name>>, Why did you come in without knocking on the door?Do you know what the value of the existence of a loser is?If there are no losers, there will be no winners.</p>'
 		'<p>Me: Then as a successful person, why do you wear a pimple headgear?</p>'
 		'<p>Caesar: Then according to your reasoning, why are you wearing a mask of hypocrisy?</p>'
 		end
@@ -188,7 +188,7 @@ if $args[0]="Caesar standing Painting":
 		'<p>Me: Sorry, out of a sense of justice, I can`t do this kind of thing!</p>'
 		'<p>Caesar: What a hypocritical person, you personally blocked her.You have ruined her life!</p>'
 		'<p>Me: She shot my sister first!She has already paid the price!</p>'
-		'<p>Caesar: Oh, what price did you pay?！</p>'
+		'<p>Caesar: Oh, what price did you pay?!</p>'
 		end
 		if CaesarDialogue=5:
 		'<p>Caesar: Okay, call me as soon as you hear from her!</p>'
@@ -199,12 +199,12 @@ if $args[0]="Caesar standing Painting":
 		if CaesarDialogue=6:
 		'<p>Caesar: Yes<<$GJ.name>>Is there any news?</p>'
 		'<p>Me: Yes, and she would like to see you too, but she wants5Ten thousand appearance fees.</p>'
-		'<p>Caesar: You don`t want to ask me for this little money, do you?！Hmm?</p>'
-		'<p>I：……</p>'
+		'<p>Caesar: You don`t want to ask me for this little money, do you?!Hmm?</p>'
+		'<p>I:……</p>'
 		'<p>Caesar: Stop fucking nonsense!Take me to see her!</p>'
 		end
 		if CaesarDialogue=7:
-		'<p>I：<<$GJ.name>>...how`s it going?</p>'
+		'<p>I:<<$GJ.name>>...how`s it going?</p>'
 		'<p>Caesar: Huh?Do you really want to know?</p>'
 		'<p>Me: Hmm.</p>'
 		'<p>Caesar: Come on, take her to the guest room.</p>'
@@ -222,9 +222,9 @@ if $args[0]="Caesar standing Painting":
 		'<p>Caesar: What`s the matter?On the contrary, you seem to be enjoying it?</p>'
 		'<p>Me: Do I have it?</p>'
 		'<p>Caesar: Then she begged you so hard, did you give her a bad review?Stop pretending, put down your mask of hypocrisy.How about finding prey for me?You can get an objective reward by moving your mouth!</p>'
-		'<p>I：……</p>'
+		'<p>I:……</p>'
 		'<p>Caesar: Don`t be so mentally burdened. You just introduce outstanding medical beauty services to unfamiliar passers-by.Every time I successfully apply for a loan, I will distribute it to you10,000￥.</p>'
-		'<p>I： *smile</p>'
+		'<p>I: *smile</p>'
 		$Caesar_works_part_time=1
 		end
 	'</div>'
@@ -247,7 +247,7 @@ if $args[0]="ZXLi Erlai":
 	'<div class="dialog_menu">'
 		'<p><<$ZX.name>>: Settle the account?</p>'
 		'<p>Caesar: Which way do you want to end?<<$Protagonists_surname>> Broker, should you avoid it?</p>'
-		'<p>I：……</p>'
+		'<p>I:……</p>'
 	'</div>'
 End
 

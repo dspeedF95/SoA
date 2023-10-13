@@ -64,7 +64,7 @@ if $ARGS[0] ="dialogue":
 		'<p><<$SWD.name>>: Of course, you really don`t know how difficult it is to do business now, it may be that my ability is insufficient...Alas</p>'
 		'<p>Me: Don`t be discouraged, maybe I can help. To put it bluntly, isn`t it just a lack of popularity and hype now?</p>'
 		'<p><<$SWD.name>>: Yeah, you`re right, it would be great if I could find a star to endorse me, it`s best…<<$SSYY.name>>This kind of…</p>'
-		'<p>Me: Uh... you mean…<<$SSYY.name>>？</p>'
+		'<p>Me: Uh... you mean…<<$SSYY.name>>?</p>'
 		'<p><<$SWD.name>>: What, can you still know her?</p>'
 		 if $Stockings_event_chain=0:$Stockings_event_chain=1
 		end

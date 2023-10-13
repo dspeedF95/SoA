@@ -37,7 +37,7 @@ if $args[0]="XN_Fuck_Bishop fan":
     if 7>=a and a>=0:
          '<div class="dialog_menu">'
               if a=0:'<p><<$XN.name>>: My father, I seem to... I can see some light recently…</p>'
-              if a=0:'<p>Bishop: Child, what are you talking nonsense about?！You have been blind since you were a child.Come on, it`s time to take the medicine ❤ You can get a good night`s sleep after taking the medicine❤</p>'
+              if a=0:'<p>Bishop: Child, what are you talking nonsense about?!You have been blind since you were a child.Come on, it`s time to take the medicine ❤ You can get a good night`s sleep after taking the medicine❤</p>'
               if a>=1:'<p>Bishop: My child, how can my father let you leave❤</p>' 
               if a>=6: '<p>Bishop: Just concentrate on being the only woman in your father`s life❤</p>' 
          '</div>'
@@ -217,7 +217,7 @@ if $args[0]="XN_Fuck_trial":
     if a=1 or a=2:
          '<div class="dialog_menu">'
               '<p>Bishop: Is the nun a virgin or not?Now it is up to me to make a ruling on behalf of Shimolos!Please also witness it together!</p>'
-              '<p>Believers: No...not dyed red...not a virgin?！How could this happen!Damn it!You bitch!</p>' 
+              '<p>Believers: No...not dyed red...not a virgin?!How could this happen!Damn it!You bitch!</p>' 
               if a>=2:'<p>Bishop: As the incarnation of holiness, your unclean behavior has caused harm to Shimolos and the believers, and you must pay for what you have done.</p>' 
               if a>=2:'<p>Believers: Discipline!Purify!The unclean and sinful will surely be punished as they deserve!</p>' 
          '</div>'
@@ -542,7 +542,7 @@ if $args[0]="XN_Fuck_fishing":
               '<p><<$JY.name>>: Hehe, you are suspected of infringing on police officers, this is a very, very serious crime!</p>'
               '<p>Bishop: Bitch!You are Diaoyu!</p>'
               '<p><<$JY.name>>: Shut up!Let me think about it, your identity is a bit special, what should I do to you?</p>'
-              '<p>Bishop: Bitch!Go to hell!Bitch!You must not die!Bitch!Fuck you!Bitch!Die to Lao Tzu!Bitch!I won`t let you go!Bitch!I am the incarnation of God!Bitch!Did you hear that?！</p>'
+              '<p>Bishop: Bitch!Go to hell!Bitch!You must not die!Bitch!Fuck you!Bitch!Die to Lao Tzu!Bitch!I won`t let you go!Bitch!I am the incarnation of God!Bitch!Did you hear that?!</p>'
               '<p><<$JY.name>>Kicked him hard in the lower body…</p>'
               $XN.trial=2
          '</div>'
@@ -956,7 +956,7 @@ if $args[0]="XN_Fuck_Night2":
          '<div class="dialog_menu">'
               '<p><<$XN.name>>: Is that so?Do I look good in a veil?</p>'
               '<p>I:Yes, I`m only in this exotic styleCOSPALYI have seen it in.</p>' 
-              '<p><<$XN.name>>:COSPALY？<<$Protagonist`s_name>>My lord...what is that?</p>' 
+              '<p><<$XN.name>>:COSPALY?<<$Protagonist`s_name>>My lord...what is that?</p>' 
          '</div>'
     end
 
@@ -1168,18 +1168,18 @@ if $args[0]="Mybishop":
 
     if a=2:
          '<div class="dialog_menu">'
-              '<p>Believers: <<$XN.name>>My lord!he?！<<$Protagonist`s_name>>Why?！This is difficult to convince the public!</p>'
+              '<p>Believers: <<$XN.name>>My lord!he?!<<$Protagonist`s_name>>Why?!This is difficult to convince the public!</p>'
               '<p><<$XN.name>>: quiet!<<$Protagonist`s_name>>The selflessness and righteous spirit of adults have set an example for believers!In times full of challenges and difficulties, he has shown firm character and courage, and made unremitting efforts to uphold the truth of his faith!</p>'
               '<p>The believers still chattered non-stop.</p>'
               '<p><<$XN.name>>: quiet!<<$Protagonist`s_name>>My lord, it has brought me light!</p>'
-              '<p>Believers: Excuse me?！<<$XN.name>>My lord!Are your eyes okay?</p>'
+              '<p>Believers: Excuse me?!<<$XN.name>>My lord!Are your eyes okay?</p>'
          '</div>'
     end
 
     if a=3:
          '<div class="dialog_menu">'
               '<p><<$XN.name>>: <font color="#e6a422">That`s right!<<$Protagonist`s_name>>My lord, it has brought me light!I have recovered from my loss!</font></p>'
-              '<p>Believers: Excuse me?！God...miracles...please<<$Protagonist`s_name>>My lord forgive our ignorance!Please don`t punish us!</p>'
+              '<p>Believers: Excuse me?!God...miracles...please<<$Protagonist`s_name>>My lord forgive our ignorance!Please don`t punish us!</p>'
               $Mybishop=1
               $XN.love=120
          '</div>'
@@ -1299,7 +1299,7 @@ if $args[0]="XN_Fuck_Gluttony":
               '<p>I: Is it you?I remember you used to be the last bishop because of anorexia…</p>' 
               '<p>woman: Shut up... I think there is no difference between you and the last bishop!You are also a blasphemer in the name of the priesthood.</p>' 
               '<p>I: You said it well... but now here... you said it doesn`t count!</p>' 
-              if a>=1:'<p>Believers: Dare to defile<<$Protagonist`s_name>>My lord?！Seeing that we will definitely severely punish you, a sinful bitch!</p>' 
+              if a>=1:'<p>Believers: Dare to defile<<$Protagonist`s_name>>My lord?!Seeing that we will definitely severely punish you, a sinful bitch!</p>' 
               if a>=2:'<p>woman: You are just a group of ignorant idiots!</p>' 
               if a>=3:'<p>Believers: Bitch shut up for us!You will be punished by God!What I said!</p>' 
          '</div>'
@@ -1630,7 +1630,7 @@ if $args[0]="Photographed":
     if a!0:
          '<div class="dialog_menu">'
               '<p>man: It`s excellent evidence again!I will never let you go!*Kacha kacha</p>'
-              '<p>I: Excuse me?！hey!</p>'
+              '<p>I: Excuse me?!hey!</p>'
               if $LEIVideo_event_chain=6:$LEIVideo_event_chain=7
          '</div>'
     end
@@ -1704,7 +1704,7 @@ if $args[0]="LEI_Fuck_jy":
          '<div class="dialog_menu">'
               '<p>man: What are you doing?Are you sick!The whistleblower is me!I took his critical evidence!</p>'
               '<p><<$JY.name>>: One thing is one thing!Now I want to expel you for stalking and photographing police officers!And confiscate all your equipment, hee hee.</p>' 
-              '<p>man: Want to expel me?no!No way!！！</p>'
+              '<p>man: Want to expel me?no!No way!!!</p>'
               if $LEIVideo_event_chain=8:$LEIVideo_event_chain=9
          '</div>'
     end

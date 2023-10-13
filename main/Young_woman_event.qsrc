@@ -62,7 +62,7 @@ if $args[0]="":
 		end
 		if act_Dissatisfied=3:
 		 '<p>I:hello!You stinky idiot, try scolding her again!In accordance with the regulations on female leadership, insulting women, with my testimony, she can sue you for bankruptcy at any time!</p>'
-		 '<p>Lu Maonan:What`s the matter with you?！Who are you, stupid thing?I teach my wife, do you still need to take care of it?What is the stinky garbage clamoring for, just go out and make a phone call and you will be abandoned.</p>'
+		 '<p>Lu Maonan:What`s the matter with you?!Who are you, stupid thing?I teach my wife, do you still need to take care of it?What is the stinky garbage clamoring for, just go out and make a phone call and you will be abandoned.</p>'
 		  if my.Physical_strength>=4:'<p>I:Don`t wait until you go out, I`ll abolish you now, believe it or not?</p>'
 		  if my.Physical_strength<4:'<p>You looked at your weak figure....Silent</p>'
 		 '<p>Lu Maonan:cut!</p>'
@@ -453,7 +453,7 @@ if $args[0]="SF_Fuck_home":
 		 $SF.love+=q+my.charm
 		 $SF.bad+=q*2
 		 '<div class="dialog_menu">'
-			 '<p><<$SF.name>>:Why don`t you shoot into the hole?！Woo woo... I want to be pregnant with your baby, woo woo... why woo……</p>'
+			 '<p><<$SF.name>>:Why don`t you shoot into the hole?!Woo woo... I want to be pregnant with your baby, woo woo... why woo……</p>'
 		 '</div>'
 	end
   q+=1
@@ -469,11 +469,11 @@ if $args[0]="Electric guitar":
 
 
 	'<div class="dialog_menu">'	
-		'<p><<$SF.name>>: Is this......?！How do you know I want to be one?！</p>'
+		'<p><<$SF.name>>: Is this......?!How do you know I want to be one?!</p>'
 		'<p>I: I saw the email you wrote to Empire Entertainment.</p>'
 		'<p><<$SF.name>>: Why didn`t you say it earlier!It`s embarrassing for me to write an email in the past!</p>'
 		'<p>I: This is not for you in vain, you have to do me a favor and help me convince<<$QB.name>>Participate in a talent show.</p>'
-		'<p><<$SF.name>>: Can I also participate in that talent show?！Don`t look at me like this, I still have some strength!</p>'
+		'<p><<$SF.name>>: Can I also participate in that talent show?!Don`t look at me like this, I still have some strength!</p>'
 		'<p>I: Of course, as long as you can convince<<$QB.name>>, I will ask<<$TS.name>>Recommend yours.</p>'
 		$Draft_event_chain=3
 	'</div>'
@@ -609,7 +609,7 @@ if $args[0]="SF_Fuck_Valentine`s Day":
     if a=0:
          '<div class="dialog_menu">'
              '<p>I:I haven`t congratulated you on your good results in the third place on your debut!</p>'
-             '<p><<$SF.name>>:Wow?！！Is this for me?</p>'
+             '<p><<$SF.name>>:Wow?!!Is this for me?</p>'
          '</div>'
     end
 
@@ -618,7 +618,7 @@ if $args[0]="SF_Fuck_Valentine`s Day":
     if 2>=a and a>=1:
          '<div class="dialog_menu">'
              '<p>I:Close your eyes!I said you can only open it if you open it!3,2,1…</p>'
-             '<p><<$SF.name>>:Wow!！？Oh my god, this is so beautiful!</p>'
+             '<p><<$SF.name>>:Wow!!?Oh my god, this is so beautiful!</p>'
              if a=2:'<p>I:Congratulations on your idol debut!Cheers, happy Valentine`s Day.</p>'
          '</div>'
     end
@@ -828,7 +828,7 @@ if $args[0]="SF_Fuck_Uninvited guest":
 
     if a=0:
          '<div class="dialog_menu">'
-             '<p><<$SF.name>>:husband?！You... why are you discharged from the hospital?</p>'
+             '<p><<$SF.name>>:husband?!You... why are you discharged from the hospital?</p>'
              '<p>Lu Maonan:Has my Huaping wife learned to make money on her own?</p>'
              '<p><<$SF.name>>:You... you are unreliable again... I count on you and I have difficulty eating by myself!</p>'
              '<p>Lu Maonan:Don`t you expect me to share your inheritance?That`s the best!</p>'
@@ -839,17 +839,17 @@ if $args[0]="SF_Fuck_Uninvited guest":
 
     if a=1:
          '<div class="dialog_menu">'
-             '<p><<$SF.name>>:You...!？</p>'
+             '<p><<$SF.name>>:You...!?</p>'
              '<p>Lu Maonan:What are you laughing at?Don`t you know your husband`s dick after you haven`t seen it for a few days?</p>'
              '<p><<$SF.name>>:I... I`m afraid I have a long needle eye…</p>'
-             '<p>Lu Maonan:Can you make money and have the ability?！</p>'
+             '<p>Lu Maonan:Can you make money and have the ability?!</p>'
              '<p><<$SF.name>>:It`s okay if I wear an eye mask, right?…</p>'
          '</div>'
     end
 
     if 4>=a and a>=2:
          '<div class="dialog_menu">'
-             '<p>Lu Maonan:Damn it?！Now you don`t even scream a few times, you`d better feel pregnant for Lao Tzu!Let`s divide more inheritance!</p>'
+             '<p>Lu Maonan:Damn it?!Now you don`t even scream a few times, you`d better feel pregnant for Lao Tzu!Let`s divide more inheritance!</p>'
              '<p><<$SF.name>>: …………</p>'
              if a=4:'<p>Lu Maonan:I`m not in good shape today!I don`t feel it at all, I`ll come to you next time!</p>'
          '</div>'

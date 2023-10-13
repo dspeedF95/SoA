@@ -496,7 +496,7 @@ if $args[0]="QT_Fuck_Powder room":
 		 '<div class="dialog_menu">'
 			 '<p><<$QT.name>>:…<<$Panting>>...what if someone comes?You pay me if you lose your job!</p>'
 			 '<p>I:…...then you move faster and let me shoot it out…</p>'
-			 if a=3:'<p><<$QT.name>>:...someone is coming?！Shoot it out!</p>'
+			 if a=3:'<p><<$QT.name>>:...someone is coming?!Shoot it out!</p>'
 		 '</div>'
 	end
 
@@ -629,7 +629,7 @@ if $ARGS[0]="Hot spring tour":
 		'<div class="button"><a href="exec:minutes+=10 & gt ''Foreground_Event'',''QT_Fuck_Eat in the hot spring''">Enter the bath</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p><<$QT.name>>: Sorry, the temporary meeting in the station, I`m not late, am I?！</p>'
+		'<p><<$QT.name>>: Sorry, the temporary meeting in the station, I`m not late, am I?!</p>'
 		'<p>I: It`s okay, I just arrived too.</p>'
 	'</div>'
 end

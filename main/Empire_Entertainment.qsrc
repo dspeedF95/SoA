@@ -91,7 +91,7 @@ if  $args[0]="talk":
 	'<div class="dialog_menu">'
 		if $Thecompetitionbegins!999:'<p>·<<$ts.name>>: Hello, can I help you?OS: There is no market for the new male idols at all. What else is there? The first sister of internal entertainment has entered the market strongly to grab people, help!~~Or I`d better resign.</p>'
 		if $Thecompetitionbegins=999:'<p>·<<$ts.name>>: It`s finally getting better. I was able to win the championship. Now the three people in the group are all our artists. It`s great.</p>'
-		if $Bomb_incident=1 and $times_of_day='night':'<p>·<<$ts.name>>：<<$Protagonist`s_name>>, Are you still coming to work so late?</p>'
+		if $Bomb_incident=1 and $times_of_day='night':'<p>·<<$ts.name>>:<<$Protagonist`s_name>>, Are you still coming to work so late?</p>'
 	'</div>'
 End
 
@@ -153,7 +153,7 @@ if  $args[0]="Push sister":
 		'<p>·Me: Resume: I was in school when I was a studentFamilyMartI have worked part-time and have a history of gymnastics......(This is why she said she was able to maintain stability in the riding position)</p>'
 		'<p>·<<$ts.name>>: Stop, stop, stop!She is not the one I am looking for.To be honest, the competition in the idol world is cruel, and with all due respect, she is not this material.</p>'
 		'<p>·Me: My sister`s school is facing a crisis of abolishing the school with insufficient students!She wants to become an idol only to increase the school`s reputation and attract more students to enroll!Save the school!</p>'
-		'<p>·<<$ts.name>>：(Smile)Your sister?It turned out to be the same thing, so let her try it.(Anyway, there is nothing to lose for me....）</p>'
+		'<p>·<<$ts.name>>:(Smile)Your sister?It turned out to be the same thing, so let her try it.(Anyway, there is nothing to lose for me....）</p>'
 		'<p>·Me: Thank you very much, I will tell her the good news later!</p>'
 	'</div>'
 	$MM_Event_idol=2
@@ -167,7 +167,7 @@ if  $args[0]="Underground idol":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$ts.name>>: These trainees don`t seem to be able to do it....The current underground idols are too outrageous, how can they take such a photo?！Damn escort company!</p>'
+		'<p><<$ts.name>>: These trainees don`t seem to be able to do it....The current underground idols are too outrageous, how can they take such a photo?!Damn escort company!</p>'
 		'<p>Me: Underground idol?Escort company?</p>'
 		'<p><<$ts.name>>: Did you hear it?The so-called underground idols belong to escort companies.They are clearly priced to play with them during the day and sleep with them at night.It`s just that women choose customers in reverse, drilling a hole in [legal prostitution].</p>'
 		'<p>Me: It means that only high-end and high-quality customers will serve them?</p>'
@@ -218,13 +218,13 @@ if  $args[0]="Porn idol":
 
 	'<div class="dialog_menu">'
 		'<p>Me: In contrast, the advantage of underground idols is...Fans can have direct sexual relations with them.The allure of this to fans is unlimited.Is there such a possibility?...What if our artists also provide sexual services?</p>'
-		'<p><<$ts.name>>: Are you crazy?！We are a regular idol company!</p>'
+		'<p><<$ts.name>>: Are you crazy?!We are a regular idol company!</p>'
 		'<p>Me: If it is...The artist invites the fan group to come in the form of a thanksgiving festival...</p>'
 		'<p><<$ts.name>>: Will the handshake be?Fans now don`t eat this set for a long time.</p>'
-		'<p>Me: Come on, groupP！You still don`t understand men!Men just like this kind of contrast!Who doesn`t desire to fuck female love beans?</p>'
-		'<p><<$ts.name>>：................this.......In case...</p>'
+		'<p>Me: Come on, groupP!You still don`t understand men!Men just like this kind of contrast!Who doesn`t desire to fuck female love beans?</p>'
+		'<p><<$ts.name>>:................this.......In case...</p>'
 		'<p>Me: If you hesitate like this, the market will be divided up!The first erotic love bean!It must be our family!</p>'
-		'<p><<$ts.name>>：..That`s good!This matter...I`ll leave it to you!You are responsible for the problem!！Just use the four newly signed trainees to make experimental products!(It`s an unsecured contract anyway...Don`t be responsible if something happens)</p>'
+		'<p><<$ts.name>>:..That`s good!This matter...I`ll leave it to you!You are responsible for the problem!!Just use the four newly signed trainees to make experimental products!(It`s an unsecured contract anyway...Don`t be responsible if something happens)</p>'
 		'<p>Me: What?this...(The other three don`t matter, but one of them is my sister....）</p>'
 		'<p><<$ts.name>>: Huh, now it`s your turn to hesitate, isn`t it?</p>'
 	'</div>'
@@ -272,7 +272,7 @@ if  $args[0]="Artificial knife blade":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Me: I heard that the Imperial Group has a special promotion channel, fromM1UntilM10？Like the quality of wagyu beef.I am very curious, so I want to apply for a job position to see.</p>'
+		'<p>Me: I heard that the Imperial Group has a special promotion channel, fromM1UntilM10?Like the quality of wagyu beef.I am very curious, so I want to apply for a job position to see.</p>'
 		'<p><<$ts.name>>: Yes, with the accumulation of your work experience, you can continue to be promoted.From the bottomM1All the way up, it`s like climbing a tower in a game.</p>'
 		'<p><<$ts.name>>: Although there is no shortage of people in the company, most of them are part-time.1Level employees still hope that the more, the better.I can provide you with one1Level positions, after that, your efforts will be required.</p>'
 		'<p>Me: Thank you then.</p>'
@@ -306,7 +306,7 @@ if  $args[0]="Recommend Hashimoto":
 
 	'<div class="dialog_menu">'
 		'<p>Me: You know<<$QB.name>>Is it?Now is a good time to sign her.</p>'
-		'<p><<$ts.name>>：<<$QB.name>>?She messed up the WorldCup recently, who doesn`t know her now?The overwhelming verbal abuse of her on the Internet almost stripped her alive.</p>'
+		'<p><<$ts.name>>:<<$QB.name>>?She messed up the WorldCup recently, who doesn`t know her now?The overwhelming verbal abuse of her on the Internet almost stripped her alive.</p>'
 		'<p>Me: That`s right, but black and red are also red; notoriety is also famous.The current pursuit of Tuyere is a distorted market with only traffic, and signing her will have a staggering salary gain.</p>'
 		'<p><<$ts.name>>: But she looks...mediocre. The appearance of becoming an artist in our company is an important consideration.</p>'
 		'<p>Me: Please also grant me a sum of...plastic surgery funds…</p>'
@@ -324,7 +324,7 @@ if  $args[0]="Hashimoto Contract":
 
 	'<div class="dialog_menu">'
 		'<p>【Contract text】</p>'
-		'<p>Party A: Empire Entertainment Party B：<<$Protagonist`s_name>></p>'
+		'<p>Party A: Empire Entertainment Party B:<<$Protagonist`s_name>></p>'
 		'<p>Article 1: Party B agrees to accept Party A`s employment and perform relevant work in accordance with Party A`s requirements.</p>'
 		'<p>Article 2: Party B`s work content includes but is not limited to: Signing<<$QB.name>>, Pay for living expenses and beauty expenses…</p>'
 		'<p>Article 3: Party B shall serve as<<$QB.name>>During the broker period, he shall be fully responsible for all consequences arising therefrom.</p>'
@@ -376,7 +376,7 @@ if  $args[0]="Proposed draft":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$QB.name>>: Eh?！Talent show, I know that!Last year`s general trend character withdrawal caused a lot of uproar, and this year she made a comeback... I`m afraid my strength is not enough.…</p>'
+		'<p><<$QB.name>>: Eh?!Talent show, I know that!Last year`s general trend character withdrawal caused a lot of uproar, and this year she made a comeback... I`m afraid my strength is not enough.…</p>'
 		'<p>I: Don`t worry, black and red are also red... as long as there is popularity and topic... it`s okay.…</p>'
 		'<p><<$QB.name>>: I want to practice for another year, if…<<$TS.name>>If you ask me to go... I can`t help it…</p>'
 		'<p>I: Then I have to talk to her…</p>'
@@ -451,7 +451,7 @@ if  $args[0]="Proposed draft4":
 		'<p><<$TS.name>>: What request?</p>'
 		'<p>I: ……</p>'
 		if  $Sisterisallowed=1:'<p><<$TS.name>>: <<$MM.name>>Now that there are so many fans, it`s time to take her to meet the big scene. It`s okay to take her!</p>'
-		if  $AllowtobringSF=1:'<p><<$TS.name>>: <<$SF.name>>…？As a newcomer, you have to go to this kind of competition for the first time?I am worried that she will become cannon fodder, but... bringing her will have nothing to lose to me.</p>'
+		if  $AllowtobringSF=1:'<p><<$TS.name>>: <<$SF.name>>…?As a newcomer, you have to go to this kind of competition for the first time?I am worried that she will become cannon fodder, but... bringing her will have nothing to lose to me.</p>'
 	'</div>'
 End
 
@@ -532,7 +532,7 @@ if  $args[0]="Recording studio":
 			'<div class="buttonPu3"><a href="exec:$Universallocation=''演出1'' & fxnum=8 & 
 			$Generalselection1=''Go behind the scenes'' & $Generalselection2=''Fuck her'' & $Generalselection3=''Lift your thighs'' & $Generalselection4=''Accelerate thrusting'' &
 			$Generalselection5=''Sprint vigorously'' & $Generalselection6=''Ejaculation'' & $Generalselection7=''Stuff in the vibrating egg'' & $Generalselection8=''Continue the show'' &
-			$Pandialogue1=''Long time no see!Dear fans!This song is the title song of the upcoming release!'' & $Pandialogue2=''Really motivated!''& $Pandialogue3=''Please take a break, I`ll change into a costume... hey?！Wait ❤ You don`t want to…''&
+			$Pandialogue1=''Long time no see!Dear fans!This song is the title song of the upcoming release!'' & $Pandialogue2=''Really motivated!''& $Pandialogue3=''Please take a break, I`ll change into a costume... hey?!Wait ❤ You don`t want to…''&
 			$Pandialogue4=''She just opened her mouth, but what came out was a groan ❤Hmm ❤Thank you for your support ❤Angel loves you❤''& $Pandialogue5=''Hehe, this feeling is really good... I didn`t expect her to be so popular.''&
 			$Panleave=''subway'' & Angel_Album=1 & gt ''Angel_event'',''TS_Fuck_Universal''">Album audition</a></div>'
 			
@@ -555,7 +555,7 @@ if  $args[0]="Record music":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$TS.name>>: hey!<<$Protagonist`s_name>>！Won`t you come and give me some advice?</p>'
+		'<p><<$TS.name>>: hey!<<$Protagonist`s_name>>!Won`t you come and give me some advice?</p>'
 		'<p>I: Let me use my brain…</p>'
 	'</div>'
 End

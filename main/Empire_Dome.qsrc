@@ -160,7 +160,7 @@ if $args[0]="President Liyi3":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$CT.NAME>>: Has the goal of one million been achieved?！I admit that I underestimated you a little bit at the beginning.Do you plan to continue to work for me?</p>'
+		'<p><<$CT.NAME>>: Has the goal of one million been achieved?!I admit that I underestimated you a little bit at the beginning.Do you plan to continue to work for me?</p>'
 		'<p>I:  Of course, I am confident that I can do well.</p>'
 	'</div>'
 end

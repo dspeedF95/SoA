@@ -158,14 +158,14 @@ $Nameofthesufferingmaster="<<$Bitter_master`s_surname>><<$Bitter_name>>"
 	'</div>'
 	'<div class="dialog_menu">'
 		'<p><<$Nameofthesufferingmaster>>: Forgot about you being beaten and cried by me before?Your childhood sweetheart came to me, and I touched her ass!</p>'
-		'<p>I：<<$Bitter_master`s_surname>>...it`s you...you transferred to junior high school…</p>'
+		'<p>I:<<$Bitter_master`s_surname>>...it`s you...you transferred to junior high school…</p>'
 		'<p><<$Nameofthesufferingmaster>>: Where does your childhood sweetheart live now?*Laugh</p>'
 		'<p>Me: She also transferred soon…</p>'
 		'<p><<$Nameofthesufferingmaster>>: It`s a pity, I haven`t touched her ass for a long time*Laugh</p>'
-		'<p>I：<<$Bitter_master`s_surname>>...don`t go too far!</p>'
+		'<p>I:<<$Bitter_master`s_surname>>...don`t go too far!</p>'
 		'<p><<$Nameofthesufferingmaster>>: Haha*Laugh</p>'
 		'<p>·————————————————</p>'
-		'<p>·Picture replacement path：...\assets\standalone_content\images\maleA</p>'
+		'<p>·Picture replacement path:...\assets\standalone_content\images\maleA</p>'
 		$Bitter_master_setting=1
 	'</div>'
 end
@@ -178,8 +178,8 @@ if $ARGS[0]="Look at his wife":
 		'<div class="button"><a href="exec:minutes+=25 & gt ''park''">Ignore him</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p><<$Nameofthesufferingmaster>>: Are your eyes straight?！We have been talking for three years, you have no chance*Laugh</p>'
-		'<p>I：……</p>'
+		'<p><<$Nameofthesufferingmaster>>: Are your eyes straight?!We have been talking for three years, you have no chance*Laugh</p>'
+		'<p>I:……</p>'
 		'<p><<$Nameofthesufferingmaster>>: Go to my house for two drinks when you have time*Laugh</p>'
 	'</div>'
 end

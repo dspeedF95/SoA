@@ -597,7 +597,7 @@ if $args[0]="Urban construction_Fuck_Clear the field1":
     end
     if a=1:
          '<div class="dialog_menu">'
-             '<p><<$CJ.name>>:Where`s my cup?It was the diuretic you put into my cup, right?！Let me make a fool of myself at the Wuchang Meeting!</p>'
+             '<p><<$CJ.name>>:Where`s my cup?It was the diuretic you put into my cup, right?!Let me make a fool of myself at the Wuchang Meeting!</p>'
              '<p><<$JYB.name>>:me?Why should I do this?Do you have evidence?</p>'
              '<p><<$CJ.name>>:Just because I don`t agree with your perverted disgusting, dirty lesbian request, you just retaliate against me like this?</p>'
          '</div>'

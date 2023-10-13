@@ -153,7 +153,7 @@ if $args[0]='<<$CT.name>>':
 			'⑤After completing④, you can get a blood relative medal and move to a higher level.</p>'
 			end
 			if Blood_Relatives_Medal>=1:
-			'<font color="#BBFFBB">·Superstructure：</p>'
+			'<font color="#BBFFBB">·Superstructure:</p>'
 			'·There are some inside stories in the office</p>'
 			'·The laboratory can force researchers to mass produce for you every time5McGovern</p>'
 			'·Drink it all at once in the project room5McGovern is done<<$CT.name>>All the plot, and can open a new room in your own company.</p>'
@@ -181,7 +181,7 @@ if $args[0]='<<$XN.name>>':
 				
 				if Polaroid>0 and ($XN.mark=12 or $XN.mark=4) and $XN.trial<2:
 					if $XN.mark=12:'<font color="#BBFFBB">Expose failure: Talk to the sitting man again outside the church.</font></p>'
-					'<font color="#BBFFBB">Collecting evidence: Go back to the church at night and ask the people in the correctional hall<<$XN.name>>It can be seen：</font></p>'
+					'<font color="#BBFFBB">Collecting evidence: Go back to the church at night and ask the people in the correctional hall<<$XN.name>>It can be seen:</font></p>'
 					if $XN.asked=1:
 						if Evidenceone=0:'<font color="#BBFFBB">Evidence 1: Candid photo of the bishop`s rape<<$XN.name>></font></p>'else'<font color="#D8BFD8"><s>Evidence 1: Candid photo of the bishop`s rape<<$XN.name>></s></font></p>'
 						if Evidencetwo=0:'<font color="#BBFFBB">Evidence two: Follow the bishop on Saturday night18:00Go to the restaurant</font></p>'else'<font color="#D8BFD8"><s>Evidencetwo: Follow the bishop on Saturday night18:00Go to the restaurant</s></font></p>'
@@ -232,7 +232,7 @@ if $args[0]='<<$LEI.name>>':
 				if $LEIVideo_event_chain=7:'<font color="#BBFFBB">He was photographed by a man again, and he hopes to take another gamble.</p>'
 				if $LEIVideo_event_chain=8:'<font color="#BBFFBB">First go home and watch the gambling video, and then go back to the church.</p>'
 				if $LEIVideo_event_chain=9:
-					'<font color="#BBFFBB">After her fiance was expelled, it was the stage of freedom raiders：</p>'
+					'<font color="#BBFFBB">After her fiance was expelled, it was the stage of freedom raiders:</p>'
 					'1Celebrate this with her</p>'
 					'2After falling to the standard, he became a teaching assistant in the confessional.</p>'
 					'3Done in the confessional5people+Confession work</p>'
@@ -264,7 +264,7 @@ if $args[0]='<<$LEI.name>>':
 				   if $LEIVideo_event_chain=7:'<font color="#BBFFBB">He was photographed by a man again, and he hopes to take another gamble.</p>'
 				   if $LEIVideo_event_chain=8:'<font color="#BBFFBB">First go home and watch the gambling video, and then go back to the church.</p>'
 				   if $LEIVideo_event_chain=9:
-					   '<font color="#BBFFBB">After her fiance was expelled, it was the stage of freedom raiders：</p>'
+					   '<font color="#BBFFBB">After her fiance was expelled, it was the stage of freedom raiders:</p>'
 					   '1Celebrate this with her</p>'
 					   '2After falling to the standard, he became a teaching assistant in the confessional.</p>'
 					   '3Done in the confessional5people+Confession work</p>'

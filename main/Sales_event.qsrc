@@ -139,7 +139,7 @@ if $args[0]="temptation2":
 		'<p><<$XS.name>>:………</p>'
 		end
 		if a=1:
-		'<p>I:……？！</p>'
+		'<p>I:……?!</p>'
 		'<p><<$XS.name>>:<<$Protagonists_surname>> Sir ❤Can you pick it up for me❤</p>'
 		end
 		if a=2:
@@ -219,7 +219,7 @@ if $args[0]="Sales_payment":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$XS.name>>: Store manager, please sign……</p>'
-			 '<p>Store manager：……zzZ…zzZ</p>'
+			 '<p>Store manager:……zzZ…zzZ</p>'
 			 '<p><<$XS.name>>: Store manager... store manager?</p>'
 			 '<p>Me: Shhh…</p>'
 		 '</div>'
@@ -296,7 +296,7 @@ if $args[0]="Sales_carting":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$XS.name>>：<<$Protagonist`s_name>>Sir❤ This is regarded as5000￥VIPValue-added services... I`ll eat the specific benefits as a rebate ❤ You won`t have an opinion❤</p>'
+			 '<p><<$XS.name>>:<<$Protagonist`s_name>>Sir❤ This is regarded as5000￥VIPValue-added services... I`ll eat the specific benefits as a rebate ❤ You won`t have an opinion❤</p>'
 			 '<p>Me: ...okay...no one will come, right?</p>'
 			 '<p><<$XS.name>>: Of course❤</p>'
 		 '</div>'
@@ -373,7 +373,7 @@ if $args[0]="sales_Fuck_Her house":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$XS.name>>：<<$Protagonist`s_name>>Sir ❤ Are you going to introduce me to someone?</p>'
+			 '<p><<$XS.name>>:<<$Protagonist`s_name>>Sir ❤ Are you going to introduce me to someone?</p>'
 			 '<p>Me: You should be so good-looking, there should be no shortage of people, right?……</p>'
 			 '<p><<$XS.name>>: Of course there is no shortage ❤But Cinderella always wants to marry the prince❤</p>'
 		 '</div>'
@@ -445,7 +445,7 @@ if $args[0]="sales_Fuck_Her house2":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$XS.name>>：<<$Protagonist`s_name>>Sir ❤I told you ❤I have sexier underwear❤</p>'
+			 '<p><<$XS.name>>:<<$Protagonist`s_name>>Sir ❤I told you ❤I have sexier underwear❤</p>'
 			 '<p>Me: Wow❤</p>'
 		 '</div>'
 	end
@@ -460,7 +460,7 @@ if $args[0]="sales_Fuck_Her house2":
 	if 6>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$XS.name>>:❤Then you can help others ❤People don`t want to stand hot every day for so long ❤Want to sit on you every day❤</p>'
-			 '<p>I：……</p>'
+			 '<p>I:……</p>'
 			 '<p><<$XS.name>>:❤Temporary sex friends are also acceptable❤<<$Panting>></p>'
 		 '</div>'
 	end
@@ -515,7 +515,7 @@ if $args[0]="sales_Fuck_Inside the car":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$XS.name>>：<<$Protagonist`s_name>>Sir ❤You don`t want to buy another car, do you❤</p>'
+			 '<p><<$XS.name>>:<<$Protagonist`s_name>>Sir ❤You don`t want to buy another car, do you❤</p>'
 			 '<p>Me: Is there any special service if you are looking for you?</p>'
 			 '<p><<$XS.name>>:Of course ❤ Do you want to try❤</p>'
 		 '</div>'
@@ -608,7 +608,7 @@ if $args[0]="sales_Fuck_hotel":
 		 $XS.bad+=q
 		 '<div class="dialog_menu">'
 			 '<p><<$XS.name>>:If you are pregnant ❤ Will you marry me?</p>'
-			 '<p>I：………</p>'
+			 '<p>I:………</p>'
 			 '<p><<$XS.name>>:Look at you nervous ❤ You give me money ❤ It`s okay for me to destroy it❤</p>'
 		 '</div>'
 	end
