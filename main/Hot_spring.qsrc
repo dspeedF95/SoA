@@ -34,7 +34,7 @@ if $ARGS[0]="":
 		'<p><<$WQ.name>>:Welcome, the price for female guests is200￥/People, male guests need to be taxed extra. The price is1000￥/People, and due to the introduction of the new policy, the men`s soup has been cancelled and the private soup and mixed bath have been changed.</p>'
 		'<p>·Special regulations: This hot spring prohibits any guests from bringing secret shooting equipment, and it is our only purpose to ensure the privacy and safety of every guest.</p>'
 		'<p>——————————</p>'
-		'<p>·Hotspringcomfort：<<Hotspringcomfort>>/100（MAX）</p>'
+		'<p>·Hotspringcomfort:<<Hotspringcomfort>>/100（MAX）</p>'
 	'</div>'
 End
 
@@ -71,7 +71,7 @@ if $ARGS[0]="suite":
 		'<div class="buttonP"><a href="exec:minutes+=60 & my.energy+=30 & gt ''Hot_spring_corridor''">Get around</a></div>'
 		'<div class="buttonG"><a href="exec:minutes+=15 & gt ''Hot_spring'',''Appointment''">Appointment</a></div>'
 		'<div class="buttonGn"><a href="exec:minutes+=60 & my.energy+=30 & gt ''Hot_spring'',''suite''">rest</a></div>'
-		if $RION_interview=3 and $RION.bad>0 and  10<=hour and hour<=14 and week_day =7:'<div class="buttonP"><a href="exec:minutes+=60 & gt ''RION_event'',''RION_Event_NTRFront''">Peeping next door</a></div>'else'<div class="buttonGr"><a href="exec:">Peeping?？</a></div>'
+		if $RION_interview=3 and $RION.bad>0 and  10<=hour and hour<=14 and week_day =7:'<div class="buttonP"><a href="exec:minutes+=60 & gt ''RION_event'',''RION_Event_NTRFront''">Peeping next door</a></div>'else'<div class="buttonGr"><a href="exec:">Peeping??</a></div>'
 		if $Champion_event_chain=1 and hour=22 and week_day =7:'<div class="buttonP"><a href="exec: gt ''Champion_event'',''GJ_Fuck_Hot spring''">PeepingVIPPrivate room</a></div>'
 		if $Champion_event_chain=3 and hour>=20:'<div class="buttonP"><a href="exec: gt ''Champion_event'',''GJ_Fuck_Hot spring2''">PeepingVIPPrivate room</a></div>'
 		if $Champion_event_chain=9 and hour>=20:'<div class="buttonP"><a href="exec: gt ''Champion_event'',''Hot spring3''">PeepingVIPPrivate room</a></div>'
@@ -137,7 +137,7 @@ if $ARGS[0]="New dishes":
 	'<div class="button_menu">'
 		if  my.cooking>=5:'<div class="button"><a href="exec:minutes+=15 & gt ''Hot_spring'',''Show her a hand''">Show her a hand</a></div>'else'<div class="buttonGr"><a href="exec:">Cooking grade requirements5</a></div>'
 		if  $WQ.Photodestruction=1:'<div class="buttonS"><a href="exec:minutes+=15 & gt ''Hot_spring_event'',''WQ_Fuck_kitchen1''">Get started</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
-		if WQMMS>0:'<div class="buttonP"><a href="exec:gt ''Succubus_event'',''Succubus_Fuck_cook''"><<$MMS.name>>？</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+		if WQMMS>0:'<div class="buttonP"><a href="exec:gt ''Succubus_event'',''Succubus_Fuck_cook''"><<$MMS.name>>?</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''subway''">Back to the city</a></div>'
 	'</div>'
 
@@ -161,7 +161,7 @@ if $ARGS[0]="Show her a hand":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$WQ.name>>: ？！？！！Your dishes are so delicious!How did you do it?Teach me!</p>'
+		'<p><<$WQ.name>>: ?!?!!Your dishes are so delicious!How did you do it?Teach me!</p>'
 		'<p>I: Uh... well……</p>'
 		'<p><<$WQ.name>>: Please!</p>'
 		'<p>·Favorability has risen!The comfort of the hot spring has risen!</p>'

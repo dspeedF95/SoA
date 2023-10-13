@@ -49,7 +49,7 @@ if $args[0]="Ghost":
 
 	'<div class="dialog_menu">'
 		if $XZ_Event_ghost=1:'<p>...Who will it be...It`s not really a ghost, is it?.....In front is the men`s room...Do ghosts have to go to the toilet too?I have to seeTAThe true face.</p>'
-		if $XZ_Event_ghost=2:'<p>？！Actually it is<<$XZ.name>>？！What is she doing in the school`s men`s room so late?It seems that I have to investigate it well.</p>'
+		if $XZ_Event_ghost=2:'<p>?!Actually it is<<$XZ.name>>?!What is she doing in the school`s men`s room so late?It seems that I have to investigate it well.</p>'
 		if $XZ_Event_ghost>=3:'<p>You hid behind the door, a pair of eyes appeared in the dark.....You observe<<$XZ.name>>Gradually took off his coat and showed a naked posture.You are both excited and scared.</p><p><<$XZ.name>>:Huh----Finally able to relax----this school belongs to me----now I can do whatever I want————</p>'
 		if $XZ_Event_ghost>=4:'<p><<$XZ.name>>:This kind of pleasure can`t be made by those sex doll toys....This is really cool.</p>'
 		if $XZ_Event_ghost>=5:

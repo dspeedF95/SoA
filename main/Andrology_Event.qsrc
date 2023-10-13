@@ -236,7 +236,7 @@ if $args[0]="NK_Fuck_monthly":
 
 	if a=-1:
 		 '<div class="dialog_menu">'
-			 '<p>·The heavy prison door opened, and the doctor who walked in, you recognize her name：<<$nk.name>></p>'
+			 '<p>·The heavy prison door opened, and the doctor who walked in, you recognize her name:<<$nk.name>></p>'
 		 '</div>'
 	end
 
@@ -311,7 +311,7 @@ if $args[0]="NK_Fuck_toilet":
 		 '<div class="dialog_menu">'
 			 '<p><<$NK.name>>: good<<$Panting>></p>'
 			 if a=3:'<p>Tramp:This pussy is so heavy!</p>'
-			 if a=4:'<p>Tramp:I heard that she is still a female doctor. Are female doctors so hungry now?！</p>'
+			 if a=4:'<p>Tramp:I heard that she is still a female doctor. Are female doctors so hungry now?!</p>'
 		 '</div>'
 	end
 
@@ -385,7 +385,7 @@ if $args[0]="NK_Fuck_Ward inspection":
 	if a=7:
 		 $NK.bad+=q
 		 '<div class="dialog_menu">'
-			 '<p>I:Am I okay?！</p>'
+			 '<p>I:Am I okay?!</p>'
 			 '<p><<$NK.name>>: The result of visual inspection... everything is normal!</p>'
 		 '</div>'
 	end

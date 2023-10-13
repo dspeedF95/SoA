@@ -104,7 +104,7 @@ End
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Sex_doll''">Got it</a></div>'
 		if Setprintingiscomplete=1 and Duck_King_Medal=0:'<div class="buttonG"><a href="exec:Duck_King_Medal+=1 & gt ''Sex_doll''">Reward: Duck_King_Medal</a></div>'
-		if  Duck_King_Medal>0:'<div class="buttonG"><a href="exec:gt ''Sex_doll'',''SVIP''">Duck King：SVIPorder</a></div>'else'<div class="buttonGr"><a href="exec:">Duck King：SVIPorder</a></div>'
+		if  Duck_King_Medal>0:'<div class="buttonG"><a href="exec:gt ''Sex_doll'',''SVIP''">Duck King:SVIPorder</a></div>'else'<div class="buttonGr"><a href="exec:">Duck King:SVIPorder</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
@@ -112,7 +112,7 @@ End
 		'<p>✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩</p>'
 		'<p>✦✩㊛ <<$c1show>>¹  ㊝ <<$c2show>>²  ㊛ <<$c3show>>³  ㊝ <<$c4show>>⁴ ㊛ <<$c5show>>⁵ ㊝<<$c6show>>⁶ ㊛ <<$c7show>>⁷ ㊝ <<$c8show>>⁸ ㊛ <<$c9show>>⁹ ㊝ <<$c10show>>¹⁰</$LB <<$c11show>>¹ ㊕ <<$c12show>>² ㊕ <<$c13show>>³ ㊕ <<$c14show>>⁴ ㊕ <<$c15show>>⁵ ✧✩</p>'
 		'<p>✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧</p>'
-		if Setprintingiscomplete=1:'<p>·Madam boss: Unbelievable!You actually finished it?！</p>'
+		if Setprintingiscomplete=1:'<p>·Madam boss: Unbelievable!You actually finished it?!</p>'
 	'</div>'
 End
 

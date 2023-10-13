@@ -325,7 +325,7 @@ if $args[0]="Empire_Fuck_Restaurant situation":
     if a<999:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonP"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Restaurant situation''"><<$LY.name>>？</a></div>'
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Restaurant situation''"><<$LY.name>>?</a></div>'
             '<div class="buttonP"><a href="exec:gt ''restaurant''">Back to the bar</a></div>'
             end
             if 10>=a and a>=1:'<div class="buttonP"><a href="exec:a+=1 & gt ''Empire_Event'',''Empire_Fuck_Restaurant situation''">Watch her work</a></div>'
@@ -343,8 +343,8 @@ if $args[0]="Empire_Fuck_Restaurant situation":
             '<p>·According to<<$CT.name>>The monthly net profit must exceed the requirements of 100 thousand</p>'
             '<p>·——————————————————</p>'
             '<p>·<<month>>Monthly cumulative net profit: ￥<<rand(1200000,1300000)>>  ; Yesterday`s net profit: ￥<<rand(30000,50000)>></p>'
-            '<p>·㊐Service enthusiasm：99%; Freshness of ingredients：50%; Numberofcustomersyesterday：99people</p>'
-            '<p>·㊰Service enthusiasm：99%; Store cleanliness：99%; Current net profit：1200%</p>'   
+            '<p>·㊐Service enthusiasm:99%; Freshness of ingredients:50%; Numberofcustomersyesterday:99people</p>'
+            '<p>·㊰Service enthusiasm:99%; Store cleanliness:99%; Current net profit:1200%</p>'   
             '<p>·——————————————————</p>'
             '<p>Me: Business is so good!It seems that I don`t need to worry about it at all.</p>'
             '·Completed net profit target<a href="exec:gt ''Empire_Event'',''The restaurant is back to life''">复Come back to life again</a>'
@@ -353,7 +353,7 @@ if $args[0]="Empire_Fuck_Restaurant situation":
 
     if a=1:
          '<div class="dialog_menu">'
-            '<p>I：<<$LY.name>>, what are you doing here?</p>' 
+            '<p>I:<<$LY.name>>, what are you doing here?</p>' 
             '<p><<$LY.name>>: Boss, I am very busy now!I don`t have time to explain to you, but<<$QJ.name>>Hired me directly!She said that I can play to my strengths here! </p>'
             '<p>Me: Yeah…</p>'
          '</div>'
@@ -746,7 +746,7 @@ if $args[0]="Empire_Fuck_Fitnesscoach":
     if  a=8:
          '<div class="dialog_menu">'
                 if a>=8:'<p>Me: Make my meat toilet?Help me solve the problem.</p>' 
-                if a>=8:'<p>Wakamiya Hayatsuki(Fitnesscoach): What?！You...this... I`m already engaged to my boyfriend...how can I…</p>' 
+                if a>=8:'<p>Wakamiya Hayatsuki(Fitnesscoach): What?!You...this... I`m already engaged to my boyfriend...how can I…</p>' 
                 if a>=8:'<p><<$CT.name>>: It seems that apart from this, I don`t see any value in you anymore. I don`t need people who are worthless.</p>'
                 if a>=8:'<p>Wakamiya Hayatsuki(Fitnesscoach): My boyfriend`s wedding room is still owed32Years of mortgage...I can`t lose this job...please...be gentle…</p>'   
                 $EmpireFitnesscoach=1
@@ -854,7 +854,7 @@ if $args[0]="Empire_Fuck_Swimming coach":
          '<div class="dialog_menu">'
                 '<p><<$YY.name>>: Ah ah ah ah!Help<<$Panting>></p>'  
                 if a=3:'<p>Me: Shut up!Don`t be<<$QJ.name>>I heard it!</p>'
-                if a=9:'<p>I：*Kacha Kacha took a picture of being creampie</p>'
+                if a=9:'<p>I:*Kacha Kacha took a picture of being creampie</p>'
          '</div>'
     end
 
@@ -948,7 +948,7 @@ if $args[0]="Empire_Fuck_Swimming coach toilet":
                 '<p>Me: What are you afraid of?Your face twitched badly just now…</p>'
                 '<p><<$YY.name>>: Give me a break, I`m afraid<<$Panting>></p>'
                 if a>=6:'<p>Me: I`m going to shoot?Are you going to shoot?Are you going to shoot?</p>' 
-                if a>=6:'<p><<$YY.name>>：*Nervous to cramps</p>' 
+                if a>=6:'<p><<$YY.name>>:*Nervous to cramps</p>' 
                 if a>=7:'<p>Me: Shot!</p>'    
          '</div>'
     end
@@ -1017,7 +1017,7 @@ if $args[0]="Empire_Fuck_Swimming coach`s house":
     if 4>=a and a>=1:
          '<div class="dialog_menu">'
                 '<p>Me: Shhh————</p>'
-                '<p><<$YY.name>>: What are you doing?！It`s too dangerous!Don`t bully me, please*Whisper</p>'  
+                '<p><<$YY.name>>: What are you doing?!It`s too dangerous!Don`t bully me, please*Whisper</p>'  
                 if a=4:'<p><<$YY.name>>: I can`t help it<<$Panting2>></p>'  
          '</div>'
     end
@@ -1241,11 +1241,11 @@ if $args[0]="Empire_Fuck_Swimming coach big":
 
     if a=3:
          '<div class="dialog_menu">'
-                '<p>Her husband：Zzz...Zzz...</p>'
+                '<p>Her husband:Zzz...Zzz...</p>'
                 '<p>Me: Ahem...wake up!</p>'
                 '<p>Her husband: Huh?What are you doing, don`t you see that I`m sleeping?</p>'
                 '<p>Me: Which one, I talked about a girlfriend, she wants me to train her, but I don`t understand, can you help me?</p>'
-                '<p>Her husband: Is there such a good thing?！</p>'
+                '<p>Her husband: Is there such a good thing?!</p>'
          '</div>'
     end
 
@@ -1635,7 +1635,7 @@ if $args[0]="Empire_Fuck_restaurant":
                 '<p>Maid chief: This is for<<$CT.name>>The light meal arranged, I don`t know if it will suit your taste. </p>'
                 '<p>The rest of the maid: Wow... he is the new adjutant ❤ So handsome❤ </p>' 
                 '<p>Maid: So big<<$Panting>> </p>' 
-                if a=6:'<p>Maid chief：<<$Protagonists_surname>> Mr.，<<$CT.name>>It may be about to eat soon, can you change the place? </p>'
+                if a=6:'<p>Maid chief:<<$Protagonists_surname>> Mr.，<<$CT.name>>It may be about to eat soon, can you change the place? </p>'
          '</div>'
     end
 
@@ -1798,7 +1798,7 @@ if $args[0]="Empire_Fuck_True white maid":
 
     if 2>=a and a>=0:
          '<div class="dialog_menu">'
-                '<p>maid：<<$Protagonists_surname>> Boss, no one will bother us here❤ </p>'
+                '<p>maid:<<$Protagonists_surname>> Boss, no one will bother us here❤ </p>'
                 if a>=1:'<p>Me: You look familiar, what`s your name? </p>' 
                 if a>=2:'<p>Maid: My name is Zhenbai Aili ❤ I also work at Imperial Energy during the day❤</p>' 
          '</div>'
@@ -1891,7 +1891,7 @@ if $args[0]="Empire_Fuck_Daughter swimming pool":
 		 $QJ.bad+=21
          '<div class="dialog_menu">'
                 '<p><<$QJ.name>>: What you just said will be responsible for me... It`s really manly❤</p>'
-                '<p>I：*smile(*￣︶￣)</p>'
+                '<p>I:*smile(*￣︶￣)</p>'
          '</div>'
     end
   q+=1
@@ -2055,7 +2055,7 @@ if $args[0]="Empire_Fuck_Bar deacon, I drink":
     if 3>=a and a>=0:
          '<div class="dialog_menu">'
                 '<p>Eikawa Noa(Bar deacon): Why did you drink it yourself?Don`t give me a taste... then I`ll taste your taste.… </p>' 
-                if a>=1:'<p>Me: Huh?！！</p>'
+                if a>=1:'<p>Me: Huh?!!</p>'
                 if a>=2:'<p>Eikawa Noa(Bar deacon): Haha... you can`t do this❤ </p>' 
          '</div>'
     end
@@ -2072,7 +2072,7 @@ if $args[0]="Empire_Fuck_Bar deacon, I drink":
 
     if a=10:
          '<div class="dialog_menu">'
-                '<p>Eikawa Noa(Bar deacon): Really!How can you shoot indiscriminately like this?！I have no interest in having sex at all!</p>'
+                '<p>Eikawa Noa(Bar deacon): Really!How can you shoot indiscriminately like this?!I have no interest in having sex at all!</p>'
                 '<p>Me: Sorry…*Recalling the scene just now... it seems a bit deja vu</p>'
          '</div>'
     end
@@ -2103,7 +2103,7 @@ if $args[0]="Empire_Fuck_Disguise":
     if 2>=a and a>=0:
          '<div class="dialog_menu">'
                 '<p>Stewardess: Passengers, please fasten your seat belts and adjust your seats to the normal position.… </p>' 
-                if a>=1:'<p>Stewardess: Huh?！This guest!Isn`t that good?…</p>'
+                if a>=1:'<p>Stewardess: Huh?!This guest!Isn`t that good?…</p>'
                 if a>=2:'<p>Passenger: You are the only one who is delicate, you can`t touch it, can you?I think the stewardess in the first class is taking the initiative!How to drop?Look down on the economy class? </p>' 
          '</div>'
     end
@@ -2119,7 +2119,7 @@ if $args[0]="Empire_Fuck_Disguise":
 
     if 12>=a and a>=10:
          '<div class="dialog_menu">'
-                '<p>Stewardess: Captain... what are you doing?！ </p>' 
+                '<p>Stewardess: Captain... what are you doing?! </p>' 
                 '<p>Captain: Shut up and play with me for a while…</p>'
          '</div>'
     end
@@ -2165,7 +2165,7 @@ if $args[0]="Empire_Fuck_Stewardesstraining":
 
     if q>=0:
          '<div class="dialog_menu">'
-                '<p>I: What is our slogan?！</p>'
+                '<p>I: What is our slogan?!</p>'
                 '<p>Trainee flight attendant: Enthusiastic service, full of smiles!Experience casually, experience comfortably!Voyage journey, sex companion! </p>'
          '</div>'
     end
@@ -2368,7 +2368,7 @@ if $args[0]="Empire_Fuck_Cabin judges":
     if a>=0:
          '<div class="dialog_menu">'
                 '<p>Captain: Ho ho!Isn`t this the big star before!</p>'
-                '<p><<$PW.name>>: I just owe some money, don`t think about it!？</p>'
+                '<p><<$PW.name>>: I just owe some money, don`t think about it!?</p>'
                 if a>=1:'<p>Captain: Hahaha!The tone is so crazy!You don`t know your situation, do you?</p>'
                 if a>=2:'<p>Machine service: Since you owe so much money, it is natural for you to work part-time to pay off your debts!</p>'
                 if a>=3:'<p><<$PW.name>>: asshole<<$Panting>>Let me go</p>'
@@ -2421,7 +2421,7 @@ if $args[0]="Empire_Fuck_First class":
 
     if a=2:
          '<div class="dialog_menu">'
-                '<p>Me: Hey, what`s your name?！</p>'
+                '<p>Me: Hey, what`s your name?!</p>'
                 '<p>Hot girl: Uehara Hanami❤ Ask me my name, do you want to have sex with me?</p>'
          '</div>'
     end
@@ -2586,7 +2586,7 @@ if $args[0]="Empire_Fuck_Peeping daughter":
     if q>=0:
          '<div class="dialog_menu">'
                 '<p><<$QJ.name>>: Why are you...getting more and more...dissatisfied recently❤</p>'
-                '<p>I：………</p>'
+                '<p>I:………</p>'
          '</div>'
     end
   q+=1
@@ -2759,7 +2759,7 @@ if $args[0]="Empire_Fuck_Daughter blind date":
                 '<p><<$QJ.name>>: That`s it………*(*￣︶￣)</p>'
                 '<p>Blind date man: You don`t know, I put ￥ yesterday<<rand(15,30)>>,000,000The foreign exchange has been exchanged back!I`m going to make another windfall soon! </p>'
                 '<p><<$QJ.name>>: I`m really sorry, I have something urgent to deal with at work…</p>'
-                '<p>Blind date man: Huh?！What a disappointment!I haven`t said enough yet!</p>'
+                '<p>Blind date man: Huh?!What a disappointment!I haven`t said enough yet!</p>'
                 QJPatiencevalue+=rand(20,25)
          '</div>'
     end
@@ -2770,7 +2770,7 @@ if $args[0]="Empire_Fuck_Daughter blind date":
                 '<p><<$QJ.name>>: Just send me here. My assistant is already waiting for me at the intersection. Let`s talk next time!</p>'
                 '<p>Blind date man: Hello!Wait a minute!I`m actually quite satisfied with you!Let`s have a meal together next time!</p>'
                 '<p>·————</p>'
-                '<p>·<<$QJ.name>>The value of patience：<<100-QJPatiencevalue>>%</p>'
+                '<p>·<<$QJ.name>>The value of patience:<<100-QJPatiencevalue>>%</p>'
          '</div>'
     end
 
@@ -2850,7 +2850,7 @@ if $args[0]="Empire_Fuck_Daughter blind dateNTR":
                 '<p><<$QJ.name>>: This is the first time I have taken a man home, don`t dislike it. </p>'
                 '<p>Blind date man: This is the interior of the Imperial mansion, that`s it.</p>'
                 '<p><<$QJ.name>>: This is a dish I made by myself, do you like it? </p>'
-                '<p>Blind date man: Wow?！So delicious!</p>'
+                '<p>Blind date man: Wow?!So delicious!</p>'
                 if a>=1:'<p><<$QJ.name>>Take the initiative to wash the bowl </p>'
                 if a>=1:'<p>Blind date man: Oh?So virtuous?It should be good to marry back and be a good helper……*Fascinated</p>'
                 if a>=1:'<p><<$QJ.name>>: Oh, a lot of flowers have withered. </p>'
@@ -2871,17 +2871,17 @@ if $args[0]="Empire_Fuck_Daughter blind dateNTR":
     if 12>=a and a>=7:
          '<div class="dialog_menu">'
                 '<p><<$QJ.name>>: So cool<<$Panting>></p>'
-                if a>=8:'<p>Blind date man：999A bouquet of roses is too expensive, so it`s enough to buy a small bouquet!</p>'
+                if a>=8:'<p>Blind date man:999A bouquet of roses is too expensive, so it`s enough to buy a small bouquet!</p>'
                 if a>=9:'<p><<$QJ.name>>: Fuck me to death<<$words>></p>'
-                if a>=11:'<p>Blind date man: Huh?What forced the movement?Isn`t she masturbating while waiting for me?！</p>'
-                if a>=12:'<p>Blind date man: Huh?？！Who the hell are you?！</p>'
+                if a>=11:'<p>Blind date man: Huh?What forced the movement?Isn`t she masturbating while waiting for me?!</p>'
+                if a>=12:'<p>Blind date man: Huh??!Who the hell are you?!</p>'
          '</div>'
     end
 
     if a=13:
          '<div class="dialog_menu">'
                 '<p><<$QJ.name>>: He is my big dick husband, how about it?Do you want to take off your pants and compare with him?</p>'
-                '<p>Blind date man: What`s going on?！</p>'
+                '<p>Blind date man: What`s going on?!</p>'
                 '<p>Me: Baby, is it cool to be fucked by me?*My sturdy waist moved violently, and my big dick went on a rampage, violently thrusting and thrusting in the honey hole, rolling her two delicate labia back and forth, and splashing honey everywhere!</p>'
                 '<p><<$QJ.name>>: It`s so cool<<$words>></p>'                
          '</div>'
@@ -2890,7 +2890,7 @@ if $args[0]="Empire_Fuck_Daughter blind dateNTR":
 
     if a=14:
          '<div class="dialog_menu">'
-                '<p>Blind date man: Are you guys too much?！Dog men and women!Adulterer and adulterer!</p>'
+                '<p>Blind date man: Are you guys too much?!Dog men and women!Adulterer and adulterer!</p>'
                 '<p><<$QJ.name>>: Oh oh❤Large strands of thick semen spewed out of the horse`s eyes and shot into the depths of the uterus❤</p>' 
          '</div>'
     end
@@ -2900,7 +2900,7 @@ if $args[0]="Empire_Fuck_Daughter blind dateNTR":
          $QJ.Blinddate=1
          '<div class="dialog_menu">'
                 '<p><<$QJ.name>>: Honey, I`ll lick it clean for you❤</p>' 
-                '<p>Blind date man: Bitch!Do you think I`m a bully?！I`m at the top of the police station... but it has something to do with it!You guys wait!I will never forgive you!*His voice trembled</p>'
+                '<p>Blind date man: Bitch!Do you think I`m a bully?!I`m at the top of the police station... but it has something to do with it!You guys wait!I will never forgive you!*His voice trembled</p>'
          '</div>'
     end
 
@@ -2968,7 +2968,7 @@ if $args[0]="Empire_Fuck_Take a bath and decompress":
          '<div class="dialog_menu">'
                 '<p><<$QJ.name>>: Come on, come here❤ </p>'
                 if a>=1:'<p><<$QJ.name>>: I want it… </p>'
-                if a>=2:'<p>Me: Huh?！</p>'
+                if a>=2:'<p>Me: Huh?!</p>'
          '</div>'
     end
 
@@ -3181,7 +3181,7 @@ if $args[0]="Empire_Fuck_Daughter gym":
          $QJ.bad+=a
          '<div class="dialog_menu">'
                 '<p><<$QJ.name>>: You just said that if you are pregnant, you will be responsible for me... It`s really manly❤</p>'
-                '<p>I：*smile(*￣︶￣)</p>'
+                '<p>I:*smile(*￣︶￣)</p>'
          '</div>'
     end
   q+=1
@@ -3455,7 +3455,7 @@ if $args[0]="Empire_Fuck_Heterochromatic seedlings":
 
     if a=2:
          '<div class="dialog_menu">'
-                '<p>Me: Really?You can choose any woman in the Empire Group!？</p>'
+                '<p>Me: Really?You can choose any woman in the Empire Group!?</p>'
                 '<p><<$CT.name>>:Hush----!That`s right, I said it.Look, you have an erection, come on, who do you want?I can call her over with one phone call now❤</p>'
                 a=0
          '</div>'
@@ -3573,7 +3573,7 @@ if $args[0]="Empire_Fuck_CTgym":
          $CT.bad+=a+q
          '<div class="dialog_menu">'
                 '<p><<$CT.name>>: Okay, this is considered aerobic exercise❤</p>'
-                '<p>I：*smile(*￣︶￣)</p>'
+                '<p>I:*smile(*￣︶￣)</p>'
          '</div>'
     end
   q+=1
@@ -3636,7 +3636,7 @@ if $args[0]="Empire_Fuck_CTmassage":
          $CT.massage=1
          '<div class="dialog_menu">'
                 '<p><<$CT.name>>: Oh, it doesn`t look like a good place…</p>'
-                '<p>I：*smile(*￣︶￣)</p>'
+                '<p>I:*smile(*￣︶￣)</p>'
          '</div>'
     end
   q+=1
@@ -3681,7 +3681,7 @@ if $args[0]="Empire_Fuck_CTCounterattack":
          '<div class="dialog_menu">'
                 '<p>Me: How is it?</p>'
                 '<p><<$CT.name>>: Okay ❤I admit I had an orgasm a few times just now…</p>'
-                '<p>I：*smile(*￣︶￣)</p>'
+                '<p>I:*smile(*￣︶￣)</p>'
          '</div>'
     end
   q+=1
@@ -3882,7 +3882,7 @@ if $args[0]="Empire_Fuck_CTmaid":
 
     if 12>=a and a>=7:
          '<div class="dialog_menu">'
-             '<p>I:Are you coming?！</p>'
+             '<p>I:Are you coming?!</p>'
             if a>=8:'<p><<$CT.name>>:I`m so anxious<<$words>></p>'
          '</div>'
     end
@@ -3975,7 +3975,7 @@ if $args[0]="Empire_Fuck_Mother and daughter3P":
 
     if a<13:
         '<div class="button_menu">'
-            if q=0:'<div class="buttonR4"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">？！！</a></div>'
+            if q=0:'<div class="buttonR4"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">?!!</a></div>'
 
 
             if q=1:'<div class="buttonS1"><a href="exec:a=2 & gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">dialogue</a></div>'
@@ -4013,7 +4013,7 @@ if $args[0]="Empire_Fuck_Mother and daughter3P":
     if 11>=a and a>=1:
          '<div class="dialog_menu">'
             if a=1:'<p><<$CT.name>>:Do you know what kind of person he is?He actually said he wanted him to be a burden!</p>'
-            if a=1:'<p><<$QJ.name>>:mom?！What are you doing!</p>'
+            if a=1:'<p><<$QJ.name>>:mom?!What are you doing!</p>'
             if a=2:'<p><<$CT.name>>:Now my daughter and I are in front of you, who do you choose?</p>'
             if a>=3:'<p>I:Of course I want it all❤</p>'
             if a>=4:'<p><<$QJ.name>>:It`s too much... how can you... fuck me and fuck my mother again?……</p>'
@@ -4389,10 +4389,10 @@ if $args[0]="Empire_Fuck_Jingyuan Project PlanD":
 
     if a<=10:
          '<div class="dialog_menu">'
-                if a>=0:'<p><<$CT.name>>: Oh my god?！What`s this?How did your testicles swell like this?</p>'
+                if a>=0:'<p><<$CT.name>>: Oh my god?!What`s this?How did your testicles swell like this?</p>'
                 if a>=1:'<p><<$CT.name>>: Let me see the precision in it<<$Panting>></p>'
                 if a>=4:'<p>I: Ah ah ah ah ah ah ah ah!</p>' 
-                if a>=5:'<p><<$CT.name>>: Stop, stop, stop?！wait<<$Panting2>></p>'
+                if a>=5:'<p><<$CT.name>>: Stop, stop, stop?!wait<<$Panting2>></p>'
          '</div>'
     end
 
@@ -4525,8 +4525,8 @@ if $args[0]="Researcher dialogue":
 
     if a>=2:
          '<div class="dialog_menu">'
-                '<p>researcher: wait?！We can communicate civilly!Have something to say!</p>'
-                if a>=3:'<p>I: Isn`t this a more efficient way of communication?！</p>'
+                '<p>researcher: wait?!We can communicate civilly!Have something to say!</p>'
+                if a>=3:'<p>I: Isn`t this a more efficient way of communication?!</p>'
                 if a>=4:'<p>researcher: It`s going to be sprayed... sprayed<<$words>></p>'
          '</div>'
     end

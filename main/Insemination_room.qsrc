@@ -36,8 +36,8 @@ if $ARGS[0]="":
 
 	'<div class="dialog_menu">'
 		'<p>·The weight of life is the markings on the abdomen.</p>'
-		'<p>·The current method of artificial insemination is：<<sheshop>> 处于 In<<$sheshop_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_Insemination>>￥</p>'
+		'<p>·The current method of artificial insemination is:<<sheshop>> 处于 In<<$sheshop_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_Insemination>>￥</p>'
 		'·<a href="exec:$m=''FT_1'' & $ma=''Experimenter'' & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">Imperial Group Experimenter</a>'
 	'</div>'
 End
@@ -57,8 +57,8 @@ if $ARGS[0]="Insemination list1":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current method of artificial insemination is：<<sheshop>> 处于 In<<$sheshop_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_Insemination>>￥</p>'
+		'<p>·The current method of artificial insemination is:<<sheshop>> 处于 In<<$sheshop_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_Insemination>>￥</p>'
 	'</div>'
 End
 
@@ -73,8 +73,8 @@ if $ARGS[0]="Insemination list2":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·The current method of artificial insemination is：<<sheshop>> 处于 In<<$sheshop_name>>stage.</p>'
-		'<p>·The cumulative income of the massage parlor is：<<Cmoney_Insemination>>￥</p>'
+		'<p>·The current method of artificial insemination is:<<sheshop>> 处于 In<<$sheshop_name>>stage.</p>'
+		'<p>·The cumulative income of the massage parlor is:<<Cmoney_Insemination>>￥</p>'
 	'</div>'
 End
 
@@ -90,7 +90,7 @@ if  $args[0]="Withdraw":
     '</div>'
 
     '<div class="dialog_menu">'
-        '<p>·The cumulative benefits of artificial insemination are：<<Cmoney_Insemination>>￥</p>'
+        '<p>·The cumulative benefits of artificial insemination are:<<Cmoney_Insemination>>￥</p>'
         '<p>·Withdrawal rules, each time you withdraw, you can only withdraw more than1The amount of 10,000￥ is lower than1The amount of 10,000 ￥ will be used as a corporate tax to support pensions for female staff in the city hall.</p>'
         '<p>☺Based on the ability of the secretary【<<MS.power>>】 Can legally avoid taxes and transfer<<TXM>>%To personal account.</p>'
     '</div>'

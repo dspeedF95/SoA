@@ -224,7 +224,7 @@ if $args[0]="Champion plastic surgery2":
 
 	'<div class="dialog_menu">'
 		'<p><<$ZX.name>>:Now the whole face is at this price, but your luck is very good!Apply for a loan and enjoy it immediately1000Ten thousand yuan!</p>'
-		'<p><<$GJ.name>>:Wow?！Really fake!I will let him come in and pay right away!</p>'
+		'<p><<$GJ.name>>:Wow?!Really fake!I will let him come in and pay right away!</p>'
 		'<p><<$ZX.name>>:Wait, wait, wait!If our hospital has regulations, you must do it in person!Today is the last day, and you can enter the operating room after you have processed it.</p>'
 		'<p><<$GJ.name>>:Then please go through the loan procedures for me first!</p>'
 		'<p><<$ZX.name>>:Okay, after you sign here, we can enter the operating room.</p>'

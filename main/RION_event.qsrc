@@ -18,15 +18,15 @@ minutes+=15
 if $args[0]="Second round":
 	'<div class ="show_menu"><img src="images\place\看书.jpg" width="854"></div>'
 
-	$Interviewquestions[1]='①The review content for female applicants does not include：'
+	$Interviewquestions[1]='①The review content for female applicants does not include:'
 	$Interviewoptions[1]='A-Breast examination   B-Measurements   C-Vaginal endoscopy   D-Academic review'
-	$Interviewquestions[2]='②the review content for male applicants does not include：'
+	$Interviewquestions[2]='②the review content for male applicants does not include:'
 	$Interviewoptions[2]='A-Female leadership support   B-Asset strength   C-Semen test   D-Marriage history '
-	$Interviewquestions[3]='③For objections/For suspected applicants, the additional review period that can be added is：'
+	$Interviewquestions[3]='③For objections/For suspected applicants, the additional review period that can be added is:'
 	$Interviewoptions[3]='A-12hours   B-24hours   C-48hours   D-Unlimited '
 	$Interviewquestions[4]='④ For applicants who refuse to cooperate with the physical examination, does the auditor have the right to enforce it?'
 	$Interviewoptions[4]='A-Can   B-Can`t   C-Need to report   D-Only during special hours '
-	$Interviewquestions[5]='⑤ When the applicant becomes pregnant, has an abortion, or complains that the auditor has committed illegal acts such as sexual harassment, rape, gang rape, and imprisonment during the physical examination due to the auditor`s own abuse of power, the attitude of the Immigration Administration is： '
+	$Interviewquestions[5]='⑤ When the applicant becomes pregnant, has an abortion, or complains that the auditor has committed illegal acts such as sexual harassment, rape, gang rape, and imprisonment during the physical examination due to the auditor`s own abuse of power, the attitude of the Immigration Administration is: '
 	$Interviewoptions[5]='A-Will not tolerate   B-Violations of the law must be investigated   C-Temporary worker behavior   D-Hold accountable to the end '
 	if a!6:
 		'<div class="button_menu">'
@@ -422,7 +422,7 @@ if $args[0]="RION_Fuck_dinner":
 
 		else
 			'<div class="button_menu">'
-				if $RION.bad>=200-$RION.love:'<div class="button"><a href="exec:minutes+=1440& hour=7 &a=0 & q=0& my.energy=mymax[energy] & gt ''RION_event'',''RION_Fuck_Morning cannon''">Stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">stay?？</a></div>'
+				if $RION.bad>=200-$RION.love:'<div class="button"><a href="exec:minutes+=1440& hour=7 &a=0 & q=0& my.energy=mymax[energy] & gt ''RION_event'',''RION_Fuck_Morning cannon''">Stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">stay??</a></div>'
 				'<div class="button"><a href="exec:minutes+=15 & a=0 & q=0 & gt ''RION_event'',''RION_Fuck_Do it in person''">Knock on the door</a></div>'
 			'</div>'
 	end

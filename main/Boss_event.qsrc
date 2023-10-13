@@ -26,9 +26,9 @@ if $ARGS[0]="Debtcollection dialogue":
 	'<div class="dialog_menu">'
 		'<p>Crazy little brother: Sister, it`s time to expand your business!We should eat all the debts of the entire Kabukicho!</p>'
 		'<p><<$LB.name>>: Eat it?Do you have this ability?Did you receive the account I asked you to collect?</p>'
-		'<p>Crazy little brother: Uh... Those people are hiding in the dark like cockroaches, how do I know where they have gone?！</p>'
+		'<p>Crazy little brother: Uh... Those people are hiding in the dark like cockroaches, how do I know where they have gone?!</p>'
 		'<p>Me: Huh?Maybe I came at a bad time?</p>'
-		'<p>Crazy little brother: Hey, hey, hey?！</p>'
+		'<p>Crazy little brother: Hey, hey, hey?!</p>'
 	'</div>'
 End
 
@@ -247,7 +247,7 @@ if $args[0]="boss_Fuck_drama3":
              '<p><<$JYB.name>>:I can come forward to give your brother a chance, but you owe me a favor.You don`t want your brother to be expelled and sent to a certain quarry, do you?</p>'
              '<p><<$LB.name>>:Then what do you want me to do…</p>'
              '<p><<$JYB.name>>:Wait until some time in the future, when I say “▊▊▊▊”, I need you to do it mercilessly.</p>'
-             '<p><<$LB.name>>:▊▊▊▊？！Ok……</p>'
+             '<p><<$LB.name>>:▊▊▊▊?!Ok……</p>'
              '<p>(I:Damn it...I can`t hear you clearly)</p>'
          '</div>'
     end
@@ -571,7 +571,7 @@ if $args[0]="boss_Fuck_Garbage failure":
 
     if a=0:
          '<div class="dialog_menu">'
-             '<p><<$LB.name>>:Excuse me?！<<$Protagonist`s_name>>！Delayed by a woman?</p>'
+             '<p><<$LB.name>>:Excuse me?!<<$Protagonist`s_name>>!Delayed by a woman?</p>'
              '<p>I:Hmm...she fell in the trash...how can I leave her alone?</p>'
          '</div>'
     end
@@ -724,7 +724,7 @@ if $args[0]="boss_Fuck_Evil punishment":
 
     if a=0 or a=1:
          '<div class="dialog_menu">'
-             '<p><<$LB.name>>:Come here!Take a look!Now the satisfaction of the citizens is<<Urbanconstructionsatisfaction>>%！Are you trying to get me dismissed from my post?</p>'
+             '<p><<$LB.name>>:Come here!Take a look!Now the satisfaction of the citizens is<<Urbanconstructionsatisfaction>>%!Are you trying to get me dismissed from my post?</p>'
              '<p>I:What?</p>'
              if a=1:'<p><<$LB.name>>:Do you still want to mix under me?What I left to you!Clean up combustible garbage!Implement it for me!</p>'
              if a=1:'<p>I:Are you done?</p>'
@@ -796,7 +796,7 @@ if $args[0]="boss_Fuck_Evil punishment2":
     if 8>=a and a>=1:
          '<div class="dialog_menu">'
              '<p><<$LB.name>>:I didn`t have a good attitude yesterday, I apologize to you…</p>'
-             '<p>I:Does a woman who will take the initiative to apologize really exist?！</p>'
+             '<p>I:Does a woman who will take the initiative to apologize really exist?!</p>'
              if a>=2:'<p><<$LB.name>>:Is it weird?<<$Panting>></p>'
              if a>=3:'<p>I:It`s too rare!</p>'
              if a>=7:'<p><<$LB.name>>:Uh uh<<$Panting2>></p>'
@@ -807,7 +807,7 @@ if $args[0]="boss_Fuck_Evil punishment2":
     	 $LB.love+=my.charm+q
     	 $LB.bad+=my.charm+q
          '<div class="dialog_menu">'
-             '<p><<$LB.name>>:Actually shot so many?！It will take a lot of time for me to put on makeup again!</p>'
+             '<p><<$LB.name>>:Actually shot so many?!It will take a lot of time for me to put on makeup again!</p>'
          '</div>'
 	end
   q+=1

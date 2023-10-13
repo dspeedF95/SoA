@@ -29,10 +29,10 @@ if $args[0]="":
 	'<div class="button_menu">'
 		if $swlove=2:'<div class="buttonS1"><a href="exec:minutes+=5 & $swlove2=3 & gt ''Biological_office'',''Keep licking''">Keep licking</a></div>'
 		if  $XZ_Event_3t=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Biological_office'',''dialogue''">dialogue</a></div>'
-		if  $SW_Event_fan>=1:'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Biological_office'',''Sex photos''">Sex photos</a></div>'else'<div class="buttonGr"><a href="exec:">？？photo</a></div>'
-		if  $SW.bad>=100-$SW.love:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Biological_office'',''Entrust''">Entrust</a></div>'else'<div class="buttonGr"><a href="exec:">？？</a></div>'
-		if  $SW.love>=100 and hour>=15:'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_Go home''">Go home together</a></div>'else'<div class="buttonGr"><a href="exec:">together?？</a></div>'
-		if  $SW.bad>=250-$SW.love and hour>=16:'<div class="buttonS5"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_Overtime''">Stay in school and work overtime</a></div>'else'<div class="buttonGr"><a href="exec:">Stay in school?？</a></div>'
+		if  $SW_Event_fan>=1:'<div class="buttonS2"><a href="exec:minutes+=5 & gt ''Biological_office'',''Sex photos''">Sex photos</a></div>'else'<div class="buttonGr"><a href="exec:">??photo</a></div>'
+		if  $SW.bad>=100-$SW.love:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Biological_office'',''Entrust''">Entrust</a></div>'else'<div class="buttonGr"><a href="exec:">??</a></div>'
+		if  $SW.love>=100 and hour>=15:'<div class="buttonS4"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_Go home''">Go home together</a></div>'else'<div class="buttonGr"><a href="exec:">together??</a></div>'
+		if  $SW.bad>=250-$SW.love and hour>=16:'<div class="buttonS5"><a href="exec:minutes+=5 & gt ''Biology_event'',''SW_Fuck_Overtime''">Stay in school and work overtime</a></div>'else'<div class="buttonGr"><a href="exec:">Stay in school??</a></div>'
 		if  $SW_Event_XZ!2 and $SW.LOVE>=200 and $SW.BAD>=200:'<div class="buttonB"><a href="exec:minutes+=5 & gt ''Biological_office'',''Curriculum reform proposal''">Curriculum reform proposal</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
 	'</div>'
@@ -74,7 +74,7 @@ if $args[0]="dialogue":
 	 if swdh=3:
 		'<p>Me: What type of man does the teacher like?</p>'
 		'<p><<$SW.name>>: Man?I like young people, sweet mouths, big dicks, and good skills.</p>'
-		'<p>Me: Is it so direct?！</p>'
+		'<p>Me: Is it so direct?!</p>'
 		'<p><<$SW.name>>: Teacher, what about me, I can`t walk as soon as I see a handsome guy.</p>'
 	 end
 	'</div>'
@@ -92,7 +92,7 @@ if $args[0]="Sex photos":
 
 	'<div class="dialog_menu">'
 		'<p>·You played the image from the camera to her and took a look.</p>'
-		'<p><<$SW.name>>: You?！？！？Where did you get it?</p>'
+		'<p><<$SW.name>>: You?!?!?Where did you get it?</p>'
 		'<p>Me: Shhh-as long as you listen to me, I will tell you.</p>'
 	'</div>'
 End
@@ -115,12 +115,12 @@ if $args[0]="Sex photos2":
 	 if swyx=1:
 		'<p>Me: I`m a little tight these days!</p>'
 		'<p><<$SW.name>>: Want money?Just ask for money?I`m so sorry, my mother, I don`t have a penny.</p>'
-		'<p>I：.........</p>'
+		'<p>I:.........</p>'
 	 end
 	 if swyx=2:
 		'<p>Me: Tell me some valuable information!</p>'
 		'<p><<$SW.name>>: Okay, my height is154 cm  Measurements:B88 - W60 - H98  Cup:F cup  Number of experience500+ Hobbies are dating and fishing for Kaizi </p>'
-		'<p>I：..........What about the information organized by the school?...</p>'
+		'<p>I:..........What about the information organized by the school?...</p>'
 		'<p><<$SW.name>>: What?I thought you were interested in me.The school is currently divided into three factions, with<<$XZ.name>>The open-minded faction that leads the picket team on campus;<<$FXZ.name>>Headed by the old-fashioned faction that gathered a group of party henchmen; the old-fashioned faction with the student union and most students as the main body.</p>'
 		'<p>Me: Then which side are you from?</p>'
 		'<p><<$SW.name>>: Whoever can pass the "Featured Biology Class: Classroom Sex Experience", I will support whoever I am! </p>'
@@ -128,9 +128,9 @@ if $args[0]="Sex photos2":
 	 if swyx=3:
 		'<p>Me: Teacher, I`ve been up a lot recently.....If you don`t want the photos to be made public, you just....</p>'
 		'<p><<$SW.name>>: No problem!uh..I mean if...I am willing to do this....Will you delete it?</p>'
-		'<p>I：.........What kind?</p>'
+		'<p>I:.........What kind?</p>'
 		'<p><<$SW.name>>: Be your sex slave, bitch, you be my master, develop me as much as you like, and train me!The teacher listens to you!When do we start?</p>'
-		'<p>I：.........(Why does it feel a little bit bad?）</p>'
+		'<p>I:.........(Why does it feel a little bit bad?）</p>'
 		if $SW_Event_fan=1: $SW_Event_fan=2 & $SW.bad+=25
 	 end
 	'</div>'
@@ -147,7 +147,7 @@ if $args[0]="Entrust":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$SW.name>>：<<$Protagonists_surname>> Classmate, the teacher wants to ask you one thing, let`s go outside the school and talk about it.</p>'
+		'<p><<$SW.name>>:<<$Protagonists_surname>> Classmate, the teacher wants to ask you one thing, let`s go outside the school and talk about it.</p>'
 	'</div>'
 End
 
@@ -165,7 +165,7 @@ if $args[0]="Keep licking":
 	'<div class="dialog_menu">'
 		 $SW.love+=3+my.charm
 		 $SW.bad+=3
-		'<p><<$SW.name>>：<<$Protagonists_surname>> Classmates, teachers will never be satisfied.</p>'
+		'<p><<$SW.name>>:<<$Protagonists_surname>> Classmates, teachers will never be satisfied.</p>'
 	'</div>'
 End
 
@@ -196,10 +196,10 @@ if $args[0]="Curriculum reform proposal":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$SW.name>>：<<$Protagonists_surname>> Classmate, the teacher wants to ask you one thing. This time it is a serious matter.</p>'
+		'<p><<$SW.name>>:<<$Protagonists_surname>> Classmate, the teacher wants to ask you one thing. This time it is a serious matter.</p>'
 		'<p><<$SW.name>>: You know, the teacher has always wanted to pass the curriculum reform proposal of "Characteristic Biology Class: Classroom Sex Experience". I have already planned the teaching process of the simulation class. Can you give it to<<$XZ.name>>Bring a message for her to go to the sex health room after school to listen to it?</p>'
 		'<p>Me: This is what you call "serious business”…?</p>'
-		'<p><<$SW.name>>：<<$Protagonists_surname>> Classmates, after the event is completed, the teacher asks you to be an acting teaching assistant, responsible for completing the classroom sex experience for the female students.</p>'
+		'<p><<$SW.name>>:<<$Protagonists_surname>> Classmates, after the event is completed, the teacher asks you to be an acting teaching assistant, responsible for completing the classroom sex experience for the female students.</p>'
 		$SW_Event_XZ=1
 	'</div>'
 End

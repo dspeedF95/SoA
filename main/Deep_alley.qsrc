@@ -103,9 +103,9 @@ if $args[0] ='Back Alley fighting':
         '<p>Leader of the Sledgehammergang: Hand over all the money on your body!Otherwise, there will be no good fruit to eat!</p>'
         '<p>·——————·</p>'
         $Ilikeit_1=my.intelligence+my.Physical_strength
-        '<p>·My intelligence：Lv<<my.intelligence>>; Physical fitness：Lv<<my.Physical_strength>>;Combat effectiveness=<<$Ilikeit_1>></p>'
+        '<p>·My intelligence:Lv<<my.intelligence>>; Physical fitness:Lv<<my.Physical_strength>>;Combat effectiveness=<<$Ilikeit_1>></p>'
         $Enemycombateffectiveness_1=15+rand(3,10)
-        '<p>·Number of opponents：4; Comprehensive combat effectiveness=<<$Enemycombateffectiveness_1>></p>'
+        '<p>·Number of opponents:4; Comprehensive combat effectiveness=<<$Enemycombateffectiveness_1>></p>'
         $Sledgehammerdroprate=50/($Ilikeit_1-$Enemycombateffectiveness_1)
         $Numberofsledgehammersdropped=rand(19,100)
         '<p>·Sledgehammerdroprate(<<$Sledgehammerdroprate>>%)=50/(Combat effectiveness difference)</p>'

@@ -55,12 +55,12 @@ if $args[0]="YJ_Event_punishment":
 		 '<div class="dialog_menu">'
 			 if a=0:'<p>·Suddenly someone handcuffed you, blindfolded you, and pushed you to a certain place.....</p>'
 			 if a!0:'<p><<$YJ.name>>:What`s the matter with you?Already full5The semen bottle has not been handed in for days!Dragged us downCRegional semen indicators!I must punish you!</p>'
-			 if a!0:'<p>·Her satisfaction：<<q>>/<<m>></p>'
+			 if a!0:'<p>·Her satisfaction:<<q>>/<<m>></p>'
 		 '</div>'
 	 else
 		 '<div class="dialog_menu">'
 			 '<p><<$YJ.name>>:I`m tired, that`s it for today!Do you dare not hand in semen in the future?</p>'
-			 '<p>·Her satisfaction：<<q>>/<<m>></p>'
+			 '<p>·Her satisfaction:<<q>>/<<m>></p>'
 			 jing_time=year*365+month*30+day
 			 $YJ.love+=a
 			 $YJ.bad+=a+3
@@ -129,12 +129,12 @@ if $args[0]="YJ_Event_Punishment two":
 		 '<div class="dialog_menu">'
 			 if a=0:'<p>·As soon as dawn broke, before you could recover, you were put on a headgear with bleary eyes and rudely thrown on the cold cement floor....</p>'
 			 if a!0:'<p><<$YJ.name>>:What`s going on?The previous lessons are not enough, are they?Fuck you again5The semen bottle has not been handed in for days!I have to strengthen my disciplinary methods this time, bastard!</p>'
-			 if a!0:'<p>·Her satisfaction：<<q>>/<<m>></p>'
+			 if a!0:'<p>·Her satisfaction:<<q>>/<<m>></p>'
 		 '</div>'
 	 else
 		 '<div class="dialog_menu">'
 			 '<p><<$YJ.name>>:I`m so tired of my old lady, have you got a long memory of the bitch?Remember, be a good dog, not a dead dog.</p>'
-			 '<p>·Her satisfaction：<<q>>/<<m>></p>'
+			 '<p>·Her satisfaction:<<q>>/<<m>></p>'
 			 jing_time=year*365+month*30+day
 			 $YJ.love+=a
 			 $YJ.bad+=a+5
@@ -281,13 +281,13 @@ if $args[0]="YJ_Event_Punishment five":
 		 '<div class="dialog_menu">'
 			 if a=0:'<p><<$YJ.name>>:Come here....Right now!Let me try you!Can you bitch satisfy me?Don`t shoot it out without my order!</p>'
 			 if a!0:'<p><<$YJ.name>>:<<$Panting>></p>'
-			 if a!0:'<p>·Her satisfaction：<<q>>/<<m>></p>'
+			 if a!0:'<p>·Her satisfaction:<<q>>/<<m>></p>'
 		 '</div>'
 	 else
 		 '<div class="dialog_menu">'
 			 '<p><<$YJ.name>>:Huh-I`m exhausted. I will record the total amount of semen that flows out. It is your honor to be my sperm slave.</p>'
 			 if a=8:'<p><<$YJ.name>>:From now on, whenever you hear the bell, you will roll over to me, do you understand?</p>'
-			 '<p>·Her satisfaction：<<q>>/<<m>></p>'
+			 '<p>·Her satisfaction:<<q>>/<<m>></p>'
 			 jing_time=year*365+month*30+day
 			 jings=0
 			 $YJ.love+=a
@@ -354,7 +354,7 @@ if $args[0]="YJ_Event_Tuning":
 		 '<div class="dialog_menu">'
 			 if a=0:'<p>·Hearing the sound of bells, you are like a dog in the Pavlov conditioned reflex experiment...It`s just semen flowing out..</p>'
 			 if a!0:'<p><<$YJ.name>>:<<$Panting>>What a good dog!</p>'
-			 if a!0:'<p>·Her satisfaction：<<q>>/<<m>></p>'
+			 if a!0:'<p>·Her satisfaction:<<q>>/<<m>></p>'
 		 '</div>'
 	 else
 		 '<div class="dialog_menu">'

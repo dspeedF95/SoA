@@ -286,7 +286,7 @@ if $args[0]="Before meeting boyfriend":
     if a=2 :
          '<div class="dialog_menu">'
              '<p>Xiao Kongyi: I... I actually like you all the time!Please associate with me!</p>'
-             '<p><<$WH.name>>:Eh?！So suddenly... how much deposit do you have?</p>'
+             '<p><<$WH.name>>:Eh?!So suddenly... how much deposit do you have?</p>'
              '<p>Xiaokongyi: The team only sent less than20Ten thousand salary…</p>'
          '</div>'
     end
@@ -319,7 +319,7 @@ if $args[0]="Knock on the door":
 		'<p>Xiaokongyi:Uh... this is……</p>'
 		'<p><<$WH.name>>:I`m an Internet celebrity now, and I have a male assistant. Is it normal for a photographer?</p>'
 		'<p>Xiaokongyi:I understand, but is it weird to shoot at home?</p>'
-		'<p><<$WH.name>>:What`s weird?Otherwise, you rent a venue for me to shoot?！</p>'
+		'<p><<$WH.name>>:What`s weird?Otherwise, you rent a venue for me to shoot?!</p>'
 		'<p>I:………</p>'
 	'</div>'
 End
@@ -373,7 +373,7 @@ if $args[0]="WH_Fuck_dinner":
     if a=1:
          '<div class="dialog_menu">'
              '<p><<$WH.name>>:Are you drunk like this?It`s so hot, it`s not as cool as when I went to school.</p>'
-             '<p>Xiaokongyi：Zzz…Zzz…Zzz…</p>'
+             '<p>Xiaokongyi:Zzz…Zzz…Zzz…</p>'
              '<p>I:Do you like him?Why are you with him if you don`t like him?</p>'
          '</div>'
     end
@@ -392,7 +392,7 @@ if $args[0]="WH_Fuck_dinner":
 		  if $WH.boyfriend=1:$WH.boyfriend=2
          '<div class="dialog_menu">'
              '<p>Xiao Kongyi: Huh?How long have I slept?</p>'
-             '<p>I：20Minutes, right?</p>'
+             '<p>I:20Minutes, right?</p>'
              '<p>Xiao Kongyi: Why doesn`t she speak?</p>'
              '<p>Me: She drank too much too.</p>'
              '<p>Xiao Kongyi: Then you must...follow me, I don`t... want you to take advantage of my daughter...when she is drunk...!</p>'
@@ -442,12 +442,12 @@ if $args[0]="WH_Fuck_football":
 
     if a=0:
          '<div class="dialog_menu">'
-             '<p>Xiaokongyi：<<$Protagonist`s_name>>, Do you want to come with me for two rounds?I can make you5A ball!</p>'
+             '<p>Xiaokongyi:<<$Protagonist`s_name>>, Do you want to come with me for two rounds?I can make you5A ball!</p>'
              '<p><<$WH.name>>: Oh, are you a child?<<$Protagonist`s_name>>, Not good at this kind of rough exercise.</p>'
              '<p>Xiao Kongyi: Then what sports are you good at?</p>'
              '<p>Me: Uh... hard to say.</p>'
              '<p>Xiao Kongyi: Huh, a pussy.</p>'
-             '<p>Me: What did you say?！</p>'
+             '<p>Me: What did you say?!</p>'
              '<p><<$WH.name>>: Oh, what are you competing with him for?Ignore him, let`s go❤</p>'
          '</div>'
     end

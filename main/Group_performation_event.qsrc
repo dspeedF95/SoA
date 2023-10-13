@@ -99,13 +99,13 @@ if $args[0]="Underground idol_Fuck_hotel":
 
 	if 2<=a and a<=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$gname>>：<<$Panting>></p>'
+			 '<p><<$gname>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
 	if 4<=a and a<=6:
 		 '<div class="dialog_menu">'
-			 '<p><<$gname>>：<<$words>></p>'
+			 '<p><<$gname>>:<<$words>></p>'
 		 '</div>'
 	end
 
@@ -288,7 +288,7 @@ if $args[0]="ST_Fuck_Succubus":
 
 	if 3>=a and a>=2:
 		 '<div class="dialog_menu">'
-			 '<p>???: так удобно！</p>'
+			 '<p>???: так удобно!</p>'
 		 '</div>'
 	end
 
@@ -329,9 +329,9 @@ if $args[0]="hospital_Fuck_Before sleep":
 			'</div>'
 
 		 '<div class="dialog_menu">'
-			 '<p>AIadvertising：InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
+			 '<p>AIadvertising:InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
 			 '<p>AIAdvertisement: It is currently a type II physical therapy equipment that can carry out physical and mental rehabilitation at the same time.It integrates music therapy, magnetic field therapy, and frequency vibration therapy. It is a body-mind-spirit maintenance place designed for patients with insomnia and physical and mental exhaustion.</p>'
-			 '<p>Display: Project control group：<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
+			 '<p>Display: Project control group:<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
 			 '<p>Does this really have an effect?......She sleeps like a dead pig, do you want to test it?InceptionWhat is the effect of the insomnia treatment device?</p>'
 			 if $HS_Event_trouble=1:'<p>if....310What happens to patients with this instrument?</p>'
 		 '</div>'
@@ -377,9 +377,9 @@ if $args[0]="hospital_Fuck_Sleep experiment":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>AIadvertising：InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
+			 '<p>AIadvertising:InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
 			 '<p>AIAdvertisement: It is currently a type II physical therapy equipment that can carry out physical and mental rehabilitation at the same time.It integrates music therapy, magnetic field therapy, and frequency vibration therapy. It is a body-mind-spirit maintenance place designed for patients with insomnia and physical and mental exhaustion.</p>'
-			 '<p>Display: Project control group：<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
+			 '<p>Display: Project control group:<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
 			 '<p>Does this really have an effect?......She sleeps like a dead pig, do you want to test it?InceptionWhat is the effect of the insomnia treatment device?</p>'
 		 '</div>'
 	end
@@ -630,7 +630,7 @@ if $args[0]="hospital_Fuck_Wife check":
 	if a=4:
 		 '<div class="dialog_menu">'
 			 '<p>Tianhaiyi:Doctor, palpation should be more intuitive in this way, right?......I`m not wearing underwear inside.....(I haven`t worn underwear since I got married...）</p>'
-			 '<p>doctor:Huh?！No need, no need.According to your situation, it is considered that it is caused by kidney deficiency.The main reasons may be frequent masturbation, unclean sexual intercourse, frequent intercourse, etc....</p>'
+			 '<p>doctor:Huh?!No need, no need.According to your situation, it is considered that it is caused by kidney deficiency.The main reasons may be frequent masturbation, unclean sexual intercourse, frequent intercourse, etc....</p>'
 		 '</div>'
 	end 
 	if a=5:
@@ -674,7 +674,7 @@ if $args[0]="hospital_Fuck_Wife check2":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-			 '<p>Tianhaiyi:Doctor, you have accumulated so much.....？</p>'
+			 '<p>Tianhaiyi:Doctor, you have accumulated so much.....?</p>'
 		 '</div>'
 	end 
 End
@@ -820,7 +820,7 @@ if $args[0]="hospital_Fuck_Wife photographyon":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-			 '<p>Tianhaiyi:Wow, shot!？Is that the only point?No impact at all....</p>'
+			 '<p>Tianhaiyi:Wow, shot!?Is that the only point?No impact at all....</p>'
 		 '</div>'
 	end
 
@@ -885,7 +885,7 @@ if $args[0]="hospital_Fuck_Wife`s room":
 	end
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p>Tianhaiyi:Inserted by a strange big chicken bar~~~Look at me~~Watching me get fucked!！</p>'
+			 '<p>Tianhaiyi:Inserted by a strange big chicken bar~~~Look at me~~Watching me get fucked!!</p>'
 		 '</div>'
 	end 
 	if a=5:
@@ -931,7 +931,7 @@ if $args[0]="hospital_Fuck_Level 3 nurseA":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>Mizuki Risa (nurse):Understand, the consciousness lock is ready to be lifted，3,2,1！</p>'
+			 '<p>Mizuki Risa (nurse):Understand, the consciousness lock is ready to be lifted，3,2,1!</p>'
 			 '<p>I:*Exhale... suck……………</p>'
 		 '</div>'
 	end
@@ -1570,7 +1570,7 @@ if $args[0]="prison_Fuck_Interrogation room":
 
 	if q=1:
 		 '<div class="dialog_menu">'
-			 '<p>Mysterious female prisoner:I said everything I had to say...I am not wrong!I will not give in!！This is my determination!...Woohoo...Woohoo..</p>'
+			 '<p>Mysterious female prisoner:I said everything I had to say...I am not wrong!I will not give in!!This is my determination!...Woohoo...Woohoo..</p>'
 			 '<p>I:Let me take a look, "Blatantly oppose the [Women`s Leadership Act] and Insist on Gender Equality", "Incite more than50People conduct demonstrations", "Covering Up Improper Sexual Behavior"...etc.48A crime.</p>'
 			 '<p>Mysterious female prisoner:<<$Panting>></p>'
 		 '</div>'
@@ -1579,20 +1579,20 @@ if $args[0]="prison_Fuck_Interrogation room":
 	if q=2:
 		 '<div class="dialog_menu">'
 			 '<p>I:Confess?I don`t want to ruin you.</p>'
-			 '<p>Mysterious female prisoner:never!<<$Panting>>Ah ah ah ah ah ah ah ah!！</p>'
+			 '<p>Mysterious female prisoner:never!<<$Panting>>Ah ah ah ah ah ah ah ah!!</p>'
 		 '</div>'
 	end
 
 	if q=5:
 		 '<div class="dialog_menu">'
 			 '<p>I:Your Sao can actually eat such a big thing....</p>'
-			 '<p>Mysterious female prisoner:Ah ah ah ah!<<$Panting>>Ahhhhhhhh!！It`s going to be sprayed!！</p>'
+			 '<p>Mysterious female prisoner:Ah ah ah ah!<<$Panting>>Ahhhhhhhh!!It`s going to be sprayed!!</p>'
 		 '</div>'
 	end
 
 	if q=4:
 		 '<div class="dialog_menu">'
-			 '<p>Mysterious female prisoner:Ahhhhhhhh!<<$Panting>>Ahhhhhhhh!！It`s going to spray!It`s going to spray!It`s going to spray!</p>'
+			 '<p>Mysterious female prisoner:Ahhhhhhhh!<<$Panting>>Ahhhhhhhh!!It`s going to spray!It`s going to spray!It`s going to spray!</p>'
 		 '</div>'
 	end
 
@@ -1746,7 +1746,7 @@ if $args[0]="Shopping mall_Fuck_Scheck":
 		 '<div class="dialog_menu">'
 			 '<p>I:Hello, I`m from the Immigration Administration!number952<<$Shopping_mall_nu>>!Now I want to conduct a detailed full-body examination of you!Please cooperate!</p>'
 			 '<p>woman:Why... check again…</p>'
-			 '<p>I:Do you want to be expelled?！</p>'
+			 '<p>I:Do you want to be expelled?!</p>'
 			 '<p>woman:…………</p>'
 		 '</div>'
 	end
@@ -1945,7 +1945,7 @@ if $args[0]="energy_Fuck_staff":
 	if a=5:
 		 '<div class="dialog_menu">'
 			 '<p>·The office is already full of lewd smells, and many people have put their hands in their legs. It seems that everyone wants to indulge for the last time before the president comes back...</p>'
-			 '<p>·Work experience has risen<<q>>！</p>'
+			 '<p>·Work experience has risen<<q>>!</p>'
 			 xp+=q
 		 '</div>'
 	end
@@ -3095,7 +3095,7 @@ if $args[0]="Group_performance_Fuck_hopeA":
 		 '<div class="dialog_menu">'
 			 '<p>Team member:Captain... ask for permission to ejaculate!Can you shoot her in the ass?</p>'
 			 '<p>Female teacher:No...uh...uh...yes...uh...no...uh...yes…</p>'
-			 '<p>On-campus picket team:Didn`t you hear her say “yes” herself?！</p>'
+			 '<p>On-campus picket team:Didn`t you hear her say “yes” herself?!</p>'
 			 '<p>·Everyone laughed</p>'
 		 '</div>'
 	end
@@ -3327,7 +3327,7 @@ if $args[0]="Fighting gameshow":
 		 	if Fightingshow=3:'<p>commentary:Konoha Chihiro was continuously suppressed!Big crisis, big crisis!</p>'
 		 	if Fightingshow=4:'<p>commentary:Will Igarashi Kana be willing to fail?The two sides entered a entangled wrestling battle!</p>'
 		 	if Fightingshow=5:'<p>commentary:Konoha Chihiro is not to be outdone!The two sides once again entered a long wrestling battle!</p>'
-		 	'<p>commentary:You can bet now!All odds are1:2！</p>'
+		 	'<p>commentary:You can bet now!All odds are1:2!</p>'
 		 '</div>'
 	end
 
@@ -3395,7 +3395,7 @@ if $args[0]="Fighting gameshow_Finals":
 	if a=0 or a=1:
 		 '<div class="dialog_menu">'
 		 	'<p>Program information:Finals!Champion by the winner group·Misaki AzusaVSChampion of the loser group·Nanami Yua</p>'
-		 	'<p>commentary:According to pre-match analysis, Misaki Azusa`s odds are1:2！And Nanami Yuya, who is in the posture of a dark horse, has won1:5Amazing odds!The audience in front of the screen, pick up your mobile phone to participate in betting!</p>'
+		 	'<p>commentary:According to pre-match analysis, Misaki Azusa`s odds are1:2!And Nanami Yuya, who is in the posture of a dark horse, has won1:5Amazing odds!The audience in front of the screen, pick up your mobile phone to participate in betting!</p>'
 		 '</div>'
 	end
 
@@ -3423,7 +3423,7 @@ if $args[0]="Fighting gameshow_Finals":
 
 	if a=5:
 		 '<div class="dialog_menu">'
-		 	'<p>commentary:What`s going on?！Misaki Azusa suddenly exploded!The game has changed!</p>'
+		 	'<p>commentary:What`s going on?!Misaki Azusa suddenly exploded!The game has changed!</p>'
 		 '</div>'
 	end
 
@@ -3437,7 +3437,7 @@ if $args[0]="Fighting gameshow_Finals":
 	if a=7:
 		 '<div class="dialog_menu">'
 		 	'<p>commentary:I declare!The champion of the first women`s non-violent naked fighting competition is...Misaki Azusa!Let us congratulate her!</p>'
-		 	'<p>commentary:Viewers who have successfully placed a bet, please check their balance after the show is over!Misaki Azusa`s odds are1:2！</p>'
+		 	'<p>commentary:Viewers who have successfully placed a bet, please check their balance after the show is over!Misaki Azusa`s odds are1:2!</p>'
 		 	if pickbet=1:money+=bet*2
 			Fightingshownum=7
 			Fightingshow=7
@@ -3629,7 +3629,7 @@ if $args[0]="Universal_Fuck_Set seal":
 		 '<div class="dialog_menu">'
 			 '<p>·The woman in front of you is the ideal printing target…</p>'
 		 	 '<p>Me: Hi!Beauty, are you alone?</p>'
-		 	 '<p><<$Setsealname>>：<<$JiyinDialogue>></p>'
+		 	 '<p><<$Setsealname>>:<<$JiyinDialogue>></p>'
 		 	 if Printingconditions=0:'<p><<$Setsealname>>: Sorry!Please don`t just strike up a conversation with me!</p>'
 		 '</div>'
 	end
@@ -3645,8 +3645,8 @@ if $args[0]="Universal_Fuck_Set seal":
 
 	if 2<=a and a<=8:
 		 '<div class="dialog_menu">'
-			 '<p><<$Setsealname>>：<<$Panting>></p>'
-			 if a>=5:'<p><<$Setsealname>>：<<$words>></p>'
+			 '<p><<$Setsealname>>:<<$Panting>></p>'
+			 if a>=5:'<p><<$Setsealname>>:<<$words>></p>'
 		 '</div>'
 	end
 
@@ -3773,7 +3773,7 @@ if $args[0]="Universal_Fuck_Set sealS":
 		 '<div class="dialog_menu">'
 			 '<p>·The two skankers in front of you are the ideal printing target…</p>'
 		 	 '<p>Me: Hi!Such a coincidence?</p>'
-		 	 '<p><<$SetsealnameA>>：<<$JiyinDialogue>></p>'
+		 	 '<p><<$SetsealnameA>>:<<$JiyinDialogue>></p>'
 		 	 if Printingconditions=0:'<p><<$SetsealnameB>>: Sorry!Please don`t just strike up a conversation with me!</p>'
 		 '</div>'
 	end
@@ -3789,10 +3789,10 @@ if $args[0]="Universal_Fuck_Set sealS":
 
 	if 2<=a and a<=17:
 		 '<div class="dialog_menu">'
-			 '<p><<$SetsealnameA>>：<<$Panting>></p>'
-			 if a>=3:'<p><<$SetsealnameB>>：<<$Panting2>></p>'
-			 if a>=4:'<p><<$SetsealnameA>>：<<$words>></p>'
-			 if a>=5:'<p><<$SetsealnameB>>：<<$words2>></p>'
+			 '<p><<$SetsealnameA>>:<<$Panting>></p>'
+			 if a>=3:'<p><<$SetsealnameB>>:<<$Panting2>></p>'
+			 if a>=4:'<p><<$SetsealnameA>>:<<$words>></p>'
+			 if a>=5:'<p><<$SetsealnameB>>:<<$words2>></p>'
 		 '</div>'
 	end
 
@@ -3895,7 +3895,7 @@ if $args[0]="Group performance_Event_Awards":
     if a=2:
          '<div class="dialog_menu">'
              '<p><<$QT.name>>:First of all, what we want to announce is the Best newcomer award.</p>'
-             '<p><<$QT.name>>:She is——————<<$MM.name>>！</p>'
+             '<p><<$QT.name>>:She is——————<<$MM.name>>!</p>'
              '<p><<$QT.name>>:Let us give it a round of applause and congratulations!</p>'
          '</div>'
     end
@@ -3908,7 +3908,7 @@ if $args[0]="Group performance_Event_Awards":
     if a=4:
          '<div class="dialog_menu">'
              '<p><<$QT.name>>:Unfortunately, due to<<$SF.name>>Because of some private affairs, remote awards can only be accepted.</p>'
-             '<p><<$QT.name>>:That`s right!In the third place, the winner of the third runner-up of the Super Idol women`s team is————<<$SF.name>>！</p>'
+             '<p><<$QT.name>>:That`s right!In the third place, the winner of the third runner-up of the Super Idol women`s team is————<<$SF.name>>!</p>'
              '<p><<$SF.name>>:Dear audience, I`m sorry that I can only receive the award in this way. First of all, I want to thank one person. He bought me an electric guitar, which allowed me to regain my path to music and my life.No matter how difficult it is in the future, I will always support him and share the joys and sorrows with him!</p>'
          '</div>'
     end
@@ -3926,13 +3926,13 @@ if $args[0]="Group performance_Event_Awards":
     end
     if a=7:
          '<div class="dialog_menu">'
-             '<p><<$QT.name>>:Woohoo...I...I...didn`t expect...thank you all...I will work harder...thank you all for your support!And…<<$Protagonist`s_name>>！I really want to thank you very much, Woohoo...meeting you... is the greatest luck in my life... Woohoo…</p>'
+             '<p><<$QT.name>>:Woohoo...I...I...didn`t expect...thank you all...I will work harder...thank you all for your support!And…<<$Protagonist`s_name>>!I really want to thank you very much, Woohoo...meeting you... is the greatest luck in my life... Woohoo…</p>'
          '</div>'
     end
     if a=8:
          '<div class="dialog_menu">'
              '<p><<$SSYY.name>>:…...Dear viewers, it is an honor to be the runner-up. Please support my fans to continue to support me in the coming year!Thank you guys!May everyone meet colorful dreams and so many little beauties on the road of life!</p>'
-             '<p>I:...she is the second place?！</p>'
+             '<p>I:...she is the second place?!</p>'
          '</div>'
     end
 
@@ -3965,7 +3965,7 @@ if $args[0]="Group performance_Event_Awards":
     if a=13:
          '<div class="dialog_menu">'
              '<p><<$QB.name>>:We succeeded!We are champions!</p>'
-             '<p><<$TS.name>>:………………！</p>'
+             '<p><<$TS.name>>:………………!</p>'
          '</div>'
     end
     if a=14:
@@ -3999,7 +3999,7 @@ if $args[0]="Open the hammer gang":
 		 '<div class="dialog_menu">'
 			 '<p>Sledgehammergang members:Pack me all your sledgehammers!I want to buy them all!</p>'
 			 '<p>clerk:Ok，500￥ one, a total of41Put, the total is20500￥....</p>'
-			 '<p>Sledgehammergang members:Excuse me?！So expensive?I only have20000￥, then give it to me40put!</p>'
+			 '<p>Sledgehammergang members:Excuse me?!So expensive?I only have20000￥, then give it to me40put!</p>'
 			 '<p>clerk:Okay, no problem.</p>'
 		 '</div>'
 
@@ -4577,9 +4577,9 @@ if $args[0]="fan_Fuck_DSuccubus":
 
     if 4>=a and a>=1:
          '<div class="dialog_menu">'
-             '<p>I:you?Who are you?！Where did it come from!？！</p>'
+             '<p>I:you?Who are you?!Where did it come from!?!</p>'
              '<p>???:Я суккуб, прошедший через барьер*Laugh</p>'
-             if a>=2:'<p>I:body?！Can`t move anymore…</p>'
+             if a>=2:'<p>I:body?!Can`t move anymore…</p>'
              if a>=2:'<p>???:не волнуйся, я просто проверяю, сможешь ли ты сыграть за королеву❤</p>'
              if a=4:'<p>I:Ah ah ah!Shot!</p>'
          '</div>'
@@ -4923,7 +4923,7 @@ if $args[0]="Group_performance_Fuck_thief1":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-			 '<p>I:I said, never again, can you understand?！</p>'
+			 '<p>I:I said, never again, can you understand?!</p>'
 			 '<p>Kizakiエマ (habitual thief): I see…</p>'
 		 '</div>'
 	end
@@ -4977,7 +4977,7 @@ if $args[0]="Group_performance_Fuck_thief2":
 		 Debtcollection6done=1
 		 '<div class="dialog_menu">'
 			 '<p>I:Can you afford to pay off so much money you owe?If you don`t pay it back within the time limit, it will end badly!</p>'
-			 '<p>Kizakiエマ (habitual thief)：…………</p>'
+			 '<p>Kizakiエマ (habitual thief):…………</p>'
 		 '</div>'
 	end
 
@@ -5207,7 +5207,7 @@ if $args[0]="Group_performance_Fuck_Gym private education":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>【Female student】：<<$Protagonists_surname>> coach!I`m stuck!</p>'
+			 '<p>【Female student】:<<$Protagonists_surname>> coach!I`m stuck!</p>'
 			 '<p>I:Do this with me?Then I won`t care about you, we are going to start warming up!</p>'
 		 '</div>'
 	end
@@ -5225,8 +5225,8 @@ if $args[0]="Group_performance_Fuck_Gym private education":
 
 	if a=18:
 		 '<div class="dialog_menu">'
-			 '<p>【Female student】：<<$Protagonists_surname>> Coach, is this also part of the warm-up?</p>'
-			 '<p>I:Of course!We will start class soon!Are you ready?！</p>'
+			 '<p>【Female student】:<<$Protagonists_surname>> Coach, is this also part of the warm-up?</p>'
+			 '<p>I:Of course!We will start class soon!Are you ready?!</p>'
 			 '<p>[Female student]: I think... I have fully warmed up.…</p>'
 		 '</div>'
 	end
@@ -5493,7 +5493,7 @@ if $args[0]="Group_performance_Fuck_Three women4P1":
 
     if q=10:
          '<div class="dialog_menu">'
-             '<p><<$QT.name>>：Mua❤</p>'
+             '<p><<$QT.name>>:Mua❤</p>'
              '<p><<$QB.name>>: Your tongue is so soft❤</p>'
              '<p><<$SSYY.name>>: Lick me too❤</p>'
          '</div>'
@@ -5805,7 +5805,7 @@ if $args[0]="Group_performance_Fuck_Three women4P4":
          '<div class="dialog_menu">'
          	 '<p><<$SSYY.name>>: Ah<<$Panting>>What are you doing❤</p>'
              if a>=1:'<p>Me: If you are popular, you have to be fucked!I don`t care how many fans you have, here is my meat toilet bitch!</p>'
-             if a>=2:'<p>Me: Do you hear me?！</p>'
+             if a>=2:'<p>Me: Do you hear me?!</p>'
              if a>=2:'<p><<$SSYY.name>>: Got it ❤ I was wrong❤</p>'
              if a>=3:'<p>Me: Say it yourself!</p>'
              if a>=3:'<p><<$SSYY.name>>: I am a bitch bitch with millions of fans ❤ Always accept<<$Protagonist`s_name>>The owner`s forced insertion and internal injection❤</p>'
@@ -6037,7 +6037,7 @@ if $args[0]="Universal_Fuck_Debtcollection":
          '<div class="dialog_menu">'
              '<p>I:Did you take it?</p>'
              '<p>Crazy brother:The record is clear!</p>'
-             '<p><<$ma_sl>>:Are you taking pictures of me?！</p>'
+             '<p><<$ma_sl>>:Are you taking pictures of me?!</p>'
              '<p>Crazy brother:If someone walks on the black market and buys your video, they will compensate for the overdue expenses and the travel expenses of our brothers at that time!</p>'
          '</div>'
     end
@@ -6180,7 +6180,7 @@ if $args[0]="Rich woman_Fuck_GM1":
         '<div class="button_menu">'
             if a=0:
             $FPmedicine=0 & FPsatisfy=0
-            if MGF>0:'<div class="buttonS4"><a href="exec:MGF-=1 & a=1 & gt ''Group_performation_event'',''Rich woman_Fuck_GM1''">Mixed with McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Incorporate?？？ </a></div>'
+            if MGF>0:'<div class="buttonS4"><a href="exec:MGF-=1 & a=1 & gt ''Group_performation_event'',''Rich woman_Fuck_GM1''">Mixed with McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Incorporate??? </a></div>'
             '<div class="buttonS1"><a href="exec:a=3 & gt ''Group_performation_event'',''Rich woman_Fuck_GM1''">Dick with wine </a></div>'
             end
             if a=1:
@@ -6523,7 +6523,7 @@ if $args[0] ='Visitordoorbell3':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$WQ.name>>: <<$Protagonist`s_name>>！Are you at home?</p>'
+		'<p><<$WQ.name>>: <<$Protagonist`s_name>>!Are you at home?</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-1,2)>>'
@@ -6545,7 +6545,7 @@ if $args[0] ='Visitordoorbell4':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$CH.name>>: <<$Protagonist`s_name>>！Are you at home?</p>'
+		'<p><<$CH.name>>: <<$Protagonist`s_name>>!Are you at home?</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-1,3)>>'
@@ -6565,8 +6565,8 @@ if $args[0] ='Visitordoorbell5':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$LJ.name>>: <<$Protagonist`s_name>>！Open the door, open the door!</p>'
-		'<p><<$ZL.name>>: <<$Protagonist`s_name>>！Are you at home?</p>'
+		'<p><<$LJ.name>>: <<$Protagonist`s_name>>!Open the door, open the door!</p>'
+		'<p><<$ZL.name>>: <<$Protagonist`s_name>>!Are you at home?</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-2,4)>>'
@@ -6587,7 +6587,7 @@ if $args[0] ='Visitordoorbell6':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$DZ.name>>: <<$Protagonist`s_name>>！Why didn`t you see me on purpose!Go to dinner with me!</p>'
+		'<p><<$DZ.name>>: <<$Protagonist`s_name>>!Why didn`t you see me on purpose!Go to dinner with me!</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-2,4)>>'
@@ -6607,7 +6607,7 @@ if $args[0] ='Visitordoorbell7':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$ZJ.name>>: <<$Protagonist`s_name>>！It`s rare that my mother is not at home, so let`s go out and play with me!</p>'
+		'<p><<$ZJ.name>>: <<$Protagonist`s_name>>!It`s rare that my mother is not at home, so let`s go out and play with me!</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-2,4)>>'
@@ -6627,7 +6627,7 @@ if $args[0] ='Visitordoorbell8':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$OX.name>>: <<$Protagonist`s_name>>！Do you want to... go to my house to do it❤</p>'
+		'<p><<$OX.name>>: <<$Protagonist`s_name>>!Do you want to... go to my house to do it❤</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-2,4)>>'
@@ -6649,8 +6649,8 @@ if $args[0] ='Visitordoorbell-2':
 	'<div class="dialog_menu">'
 		'<p><<$WQ.name>>: What a coincidence…</p>'
 		'<p><<$CH.name>>: Yep…</p>'
-		'<p><<$WQ.name>>: <<$Protagonist`s_name>>！</p>'
-		'<p><<$CH.name>>: <<$Protagonist`s_name>>！</p>'
+		'<p><<$WQ.name>>: <<$Protagonist`s_name>>!</p>'
+		'<p><<$CH.name>>: <<$Protagonist`s_name>>!</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-2,4)>>'
@@ -6672,8 +6672,8 @@ if $args[0] ='Visitordoorbell9':
 	'<div class="dialog_menu">'
 		'<p><<$WQ.name>>: What a coincidence…</p>'
 		'<p><<$CH.name>>: Yep…</p>'
-		'<p><<$WQ.name>>: <<$Protagonist`s_name>>！</p>'
-		'<p><<$CH.name>>: <<$Protagonist`s_name>>！</p>'
+		'<p><<$WQ.name>>: <<$Protagonist`s_name>>!</p>'
+		'<p><<$CH.name>>: <<$Protagonist`s_name>>!</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-2,4)>>'
@@ -6731,7 +6731,7 @@ if $args[0] ='Visitordoorbell10':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$JY.name>>: <<$Protagonist`s_name>>！I heard you have a big villa❤</p>'
+		'<p><<$JY.name>>: <<$Protagonist`s_name>>!I heard you have a big villa❤</p>'
 	'</div>'
 	else
 	 gt 'Group_performation_event','Visitordoorbell<<rand(-2,4)>>'
@@ -7201,7 +7201,7 @@ if $args[0]="Convenience store_Fuck_stealing":
          '<div class="dialog_menu">'
              '<p>I:I really have had enough of you, you really don`t have a long memory!</p>'
              '<p><<$Thiefsname>>:I was wrong, I assure you, there will never be another time.</p>'
-             if a>=9:'<p>I:Who do you think you are?！Why should I be used to you?</p>'
+             if a>=9:'<p>I:Who do you think you are?!Why should I be used to you?</p>'
              if a>=10:'<p><<$Thiefsname>>:Woo woo<<$words>></p>'
          '</div>'
     end
@@ -7274,7 +7274,7 @@ if $args[0]="Convenience store_Fuck_Go home and get the money":
          '<div class="dialog_menu">'
              '<p>I:Did you do it on purpose?Hmm?</p>'
              '<p><<$Thiefsname>>:No<<$words>></p>'
-             if a>=4:'<p>I:Do you like me fucking you like this?！</p>'
+             if a>=4:'<p>I:Do you like me fucking you like this?!</p>'
              if a>=3:'<p><<$Thiefsname>>:Hello ❤husband<<$Panting>>I ❤ I`m running❤</p>'
          '</div>'
     end
@@ -7344,7 +7344,7 @@ if $args[0]="Convenience store_Fuck_Go home rape":
 
     if a=0 or a=1 or a=2 or a=3:
          '<div class="dialog_menu">'
-             '<p><<$Thiefsname>>:？！！？！Ah ah ah ah ah ah?！！</p>'
+             '<p><<$Thiefsname>>:?!!?!Ah ah ah ah ah ah?!!</p>'
              if a>=1:'<p>I:Uh... did it hurt you?You said you wanted me to rape you mercilessly……</p>'
              if a>=1:'<p><<$Thiefsname>>:Shut up, can you substitute it like a little bit?Don`t I cooperate with you very much?</p>'
              if a>=2:'<p>I:Then I`m welcome…</p>'
@@ -7496,7 +7496,7 @@ if $args[0]="Convenience store_Fuck_video":
     if a=6:
          '<div class="dialog_menu">'
              '<p><<$Thiefsname>>:So comfortable❤</p>'
-             if $Thiefnumber=2:'<p>Male assistant:Teacher mother!！I shot!！</p>'
+             if $Thiefnumber=2:'<p>Male assistant:Teacher mother!!I shot!!</p>'
          '</div>'
     end
     if a=7:
@@ -7866,7 +7866,7 @@ if $args[0]="Convenience store_Fuck_Convenience store customers":
 
     if a=9:
          '<div class="dialog_menu">'
-             '<p><<$Storecustomername>>:Huh, I won`t open up the internet!Just this kind of service attitude towards customers?！Wait for it to go bankrupt!</p>'
+             '<p><<$Storecustomername>>:Huh, I won`t open up the internet!Just this kind of service attitude towards customers?!Wait for it to go bankrupt!</p>'
          '</div>'
     end
 
@@ -8005,7 +8005,7 @@ if $args[0]="Convenience store_Fuck_Customer service discussion_Upgrade":
 		'</div>'
 
          '<div class="dialog_menu">'
-			 '<p>·➤Past seven reviews：<<$Storeevaluationa[6]>><<$Storeevaluationa[5]>><<$Storeevaluationa[4]>><<$Storeevaluationa[3]>><<$Storeevaluationa[2]>><<$Storeevaluationa[1]>><<$Storeevaluationa[0]>></p>'
+			 '<p>·➤Past seven reviews:<<$Storeevaluationa[6]>><<$Storeevaluationa[5]>><<$Storeevaluationa[4]>><<$Storeevaluationa[3]>><<$Storeevaluationa[2]>><<$Storeevaluationa[1]>><<$Storeevaluationa[0]>></p>'
              '<p>Honshin Yuri(Regional manager):<<$Protagonists_surname>> Store manager, think about it.</p>'
          '</div>'
 End
@@ -8437,7 +8437,7 @@ if $args[0]="Convenience store_Fuck_QB1":
     if 1<=a and a<=7:
          '<div class="dialog_menu">'
              if a>=1:'<p><<$QB.name>>:Idol store manager?What is that ❤</p>'
-             if a>=2:'<p>I:Don`t you understand what I mean?！</p>'
+             if a>=2:'<p>I:Don`t you understand what I mean?!</p>'
              if a>=3:'<p><<$QB.name>>:Oh yeah<<$Panting>></p>'
          '</div>'
     end
@@ -8569,9 +8569,9 @@ if $args[0]="Convenience store_Fuck_BD1":
 
     if 2<=a and a<=6:
          '<div class="dialog_menu">'
-             '<p>I:Are you getting bolder and bolder?！</p>'
+             '<p>I:Are you getting bolder and bolder?!</p>'
              if a>=3:'<p><<$BD.name>>:I was wrong ❤</p>'
-             if a>=4:'<p>I:Do you dare to?！</p>'
+             if a>=4:'<p>I:Do you dare to?!</p>'
              if a>=5:'<p><<$BD.name>>:Dare not ❤</p>'
          '</div>'
     end

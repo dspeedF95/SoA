@@ -64,7 +64,7 @@ if  $args[0]="":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·Seriously posing in imaginary photography action....Current number of fans：<<mm_fans>>.<<mm_fans0>> k</p>'
+		'<p>·Seriously posing in imaginary photography action....Current number of fans:<<mm_fans>>.<<mm_fans0>> k</p>'
 		if $MM_Event_idol>=5:
 		'<p>·I think I can own a CanonR6SLR shoots some photo albums.</p>'
 		end 
@@ -116,8 +116,8 @@ if  $args[0]="Take a sexy photo":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Me: The number of fans has risen!Current number of fans：<<mm_fans>>.<<mm_fans0>> k。</p>'
-		'<p><<$mm.name>>：emmm.....I can do more!</p>'
+		'<p>Me: The number of fans has risen!Current number of fans:<<mm_fans>>.<<mm_fans0>> k。</p>'
+		'<p><<$mm.name>>:emmm.....I can do more!</p>'
 	'</div>'
 End
 

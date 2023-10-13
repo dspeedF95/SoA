@@ -115,9 +115,9 @@ if $ARGS[0]="Restaurant acquisition":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Chef: Didn`t you see that I was busy?！*Waved his hand</p>'
+		'<p>Chef: Didn`t you see that I was busy?!*Waved his hand</p>'
 		'<p>·——————————</p>'
-		'<p>·Shares I own：<<Restaurantshares>>%</p>'
+		'<p>·Shares I own:<<Restaurantshares>>%</p>'
 		if Restaurantshares>=60:'<p>·I already own more than half of the shares!<a href="exec:gt ''restaurant'',''Overhead him''">-Restore his life-overhead him!</a></p>'
 		'<p>·——————————</p>'
 		if $Haveseenthefloorplan<3:
@@ -128,12 +128,12 @@ if $ARGS[0]="Restaurant acquisition":
 		'<p>·——Don`t worry, just watch a plot and it won`t damage your archive——</p>'
 		end
 		if $Haveseenthefloorplan=3:
-		'<p>I：<<$YS.name>>Are you in danger?</p>'
+		'<p>I:<<$YS.name>>Are you in danger?</p>'
 		'<p>Chef: The people standing at the gate are all social people. I don`t want to get involved in this muddy water. Are you worried that she might as well go to the police?</p>'
 		'<p>·————————————————</p>'
 		end
 		if $Hellochef=2:
-		'<p>I：<<$YS.name>>Back!</p>'
+		'<p>I:<<$YS.name>>Back!</p>'
 		'<p>Chef: Excuse me?The people standing at the gate are all social people, how could they let her go easily?I have to see her!She is in need of my comfort now!It`s time to be a hero!Haha!</p>'
 		'<p>·————————————————</p>'
 		end
@@ -156,11 +156,11 @@ if $ARGS[0]="Overhead him":
 	'<div class="dialog_menu">'
 	 if restaurantCTdialogue=0:
 		'<p><<$CT.name>>: Well done!I didn`t even need the Imperial Group to take it down.60%The shares?</p>'
-		'<p>Chef: Hey hey!What do you want to do to my restaurant?！</p>'
+		'<p>Chef: Hey hey!What do you want to do to my restaurant?!</p>'
 		'<p><<$CT.name>>: <<$Protagonist`s_name>>As the largest shareholder of a restaurant, it usually enjoys decision-making power on major matters in the restaurant.Now, you have been relieved of your position as chef.You can keep your poor shares, but I am willing to contribute ￥3,000,000Buy the one in your hand20%shares.</p>'
 		'<p>Chef: Don`t dream!</p>'
 		'<p><<$CT.name>>: ￥2,000,000, My patience is limited!</p>'
-		'<p>Chef: wait!What you just said is ￥3,000,000！</p>'
+		'<p>Chef: wait!What you just said is ￥3,000,000!</p>'
 		'<p><<$CT.name>>: Hehe, that was the price just now, now it`s only worth ￥1,000,000already.</p>'
 		'<p>Chef: Deal!Give me the money!</p>'
 	 end
@@ -203,8 +203,8 @@ End
 		'<p>·According to<<$CT.name>>The monthly net profit must exceed the requirements of 100 thousand</p>'
 		'<p>·——————————————————</p>'
 		'<p>·<<month>>Monthly cumulative net profit: ￥4369  ; Yesterday`s net profit: ￥433</p>'
-		'<p>·㊐Service enthusiasm：12%; Freshness of ingredients：50%; Numberofcustomersyesterday：17people</p>'
-		'<p>·㊰Service enthusiasm：11%; Store cleanliness：7%; Current net profit：14%</p>'   
+		'<p>·㊐Service enthusiasm:12%; Freshness of ingredients:50%; Numberofcustomersyesterday:17people</p>'
+		'<p>·㊰Service enthusiasm:11%; Store cleanliness:7%; Current net profit:14%</p>'   
 		'<p>·——————————————————</p>'
 		'<p>Me: Fuck, do it again?Give me a break!</p>'
 	'</div>'

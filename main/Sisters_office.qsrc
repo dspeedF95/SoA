@@ -209,11 +209,11 @@ if $args[0]="General research":
 		'<p><<$jj.name>>:In-depth research report: After purification, it is a solid white powder and has a certain hormonal stimulating effect.It is mainly manifested in euphoria and excitement, changes in sensory consciousness, and increased appetite.Hmm?The more I look at you now, the more pleasing to the eye, you look very to my sister`s taste~~</p>'
 		end
 		if $args[1]=003:
-		'<p><<$jj.name>>:Preclinical studies have found that it is volatile when it is in liquid form and has extremely high solubility.Its essence is a transformed, strong natural central stimulant...Just being looked at like this by you..Not good..Sister is getting more and more excited now...！My good brother!</p>'
+		'<p><<$jj.name>>:Preclinical studies have found that it is volatile when it is in liquid form and has extremely high solubility.Its essence is a transformed, strong natural central stimulant...Just being looked at like this by you..Not good..Sister is getting more and more excited now...!My good brother!</p>'
 		end
 		if $args[1]=007:
-		'<p><<$jj.name>>:I did a clinical experiment with myself and ingested it every day1gMcGovern(MacGuffin), Found that it has a certain addictive nature...！</p>'
-		'<p><<$jj.name>>:I`m curious now...McGovern(MacGuffin)What is the transformation in the human body?Oh, my sister can`t wait to study you...！</p>'
+		'<p><<$jj.name>>:I did a clinical experiment with myself and ingested it every day1gMcGovern(MacGuffin), Found that it has a certain addictive nature...!</p>'
+		'<p><<$jj.name>>:I`m curious now...McGovern(MacGuffin)What is the transformation in the human body?Oh, my sister can`t wait to study you...!</p>'
 		end
 	'</div>'
 	
@@ -249,7 +249,7 @@ if $args[0]="Human experiment":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$jj.name>>:Hurry up McGovern(MacGuffin)After drinking the essence extract, let my sister see its conversion rate after circulating in the body.It is said that people with a high assimilation rate can ejaculate without restriction...！</p>'
+		'<p><<$jj.name>>:Hurry up McGovern(MacGuffin)After drinking the essence extract, let my sister see its conversion rate after circulating in the body.It is said that people with a high assimilation rate can ejaculate without restriction...!</p>'
 		'<p><<$jj.name>>:My sister will use you as the first male experiment.....Female experimental body..It`s my sister!</p>'
 	'</div>'
 	
@@ -273,10 +273,10 @@ if $args[0]="Ask for McGovern extract":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$jj.name>>:This is an enhanced version of McGovern that I extracted through technology.(MacGuffin)Crystallization, you try it quickly.！</p>'
+		'<p><<$jj.name>>:This is an enhanced version of McGovern that I extracted through technology.(MacGuffin)Crystallization, you try it quickly.!</p>'
 		'<p>·Sister, can I have some McGovern extract?·</p>'
 		'<p><<$jj.name>>:Yes, but you have to test the enhanced McGovern for me first(MacGuffin)The effect of crystallization!I am sure this will be the Nobel Prize in the future!</p>'
-		'<p><<$jj.name>>:but!！If you don`t make it to the end, I won`t give it to you!</p>'
+		'<p><<$jj.name>>:but!!If you don`t make it to the end, I won`t give it to you!</p>'
 	'</div>'
 	
 end
@@ -297,7 +297,7 @@ if $args[0]="Geological meeting":
 		'<p>I:Why is it only in 【mountainsR&MThis kind of McGovern can only be extracted from plants in the area.(MacGuffin)The substance?</p>'
 		'<p><<$jj.name>>:This has always been my research!</p>'
 		'<p>I:Is it related to geology and landform?By the way, I saw a green light in the soil during the fertilization process.....</p>'
-		'<p><<$jj.name>>:The soil is exposed to radiation, so the plants mutate?！But soil is not my field of research....By the way, I know an expert in geological research!I asked her to meet, just in time to take you to get to know her!</p>'
+		'<p><<$jj.name>>:The soil is exposed to radiation, so the plants mutate?!But soil is not my field of research....By the way, I know an expert in geological research!I asked her to meet, just in time to take you to get to know her!</p>'
 		'<p><<$jj.name>>:afternoon1I`m waiting for you in the restaurant of the mall!She is a woman who is preoccupied with time, don`t be late!</p>'
 		$DZ.event_meet=1
 	'</div>'
@@ -316,16 +316,16 @@ if $args[0]="Mother-daughter experiment":
 
  if JM_JJ<5:
 	'<div class="dialog_menu">'
-		'<p><<$jm.name>>:I just happen to be free today, come and see you...of..research..result...Oh?..<<$Protagonist`s_name>>Also here...？</p>'
-		'<p><<$jj.name>>:Mom!Please!Just help me~~McGovern, I really want to study!！</p>'
-		'<p><<$jm.name>>:Do you have a good relationship..？...Why are you looking at me straight?...？</p>'
+		'<p><<$jm.name>>:I just happen to be free today, come and see you...of..research..result...Oh?..<<$Protagonist`s_name>>Also here...?</p>'
+		'<p><<$jj.name>>:Mom!Please!Just help me~~McGovern, I really want to study!!</p>'
+		'<p><<$jm.name>>:Do you have a good relationship..?...Why are you looking at me straight?...?</p>'
 		'<p><<$jj.name>>:This is the result of my research!(*Whisper: Mom`s eyes....Sure enough, the sound I heard outside the door last time was real....You took them all down a long time ago, didn`t you?)</p>'
 	'</div>'
 	end
  if JM_JJ>=5:
  	'<div class="dialog_menu">'
-		'<p><<$jj.name>>:Mom!Please!Just help me~~McGovern, I really want to study!！</p>'
-		'<p><<$jm.name>>:It`s not impossible to help you, let me check your research results first.....<<$Protagonist`s_name>>..Humph!Why did you take off your pants?！</p>'
+		'<p><<$jj.name>>:Mom!Please!Just help me~~McGovern, I really want to study!!</p>'
+		'<p><<$jm.name>>:It`s not impossible to help you, let me check your research results first.....<<$Protagonist`s_name>>..Humph!Why did you take off your pants?!</p>'
 		'<p><<$jj.name>>:good!brother!Shall we finish it with our mother in a while and go home to do it with our sister?I asked my sister to suck your dick, and you shot all the semen in my mouth.</p>'
 	'</div>'
 	end

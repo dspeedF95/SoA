@@ -38,7 +38,7 @@ if $args[0]="Clumsy":
 		'<p><<$DY.name>>In a hurry, the wrong price was recorded, and the customer was very dissatisfied!</p>'
 		if a=1:'<p>I:It`s okay... When I first became a cashier, I often made mistakes. Practice makes perfect.</p>'& $DY.love+=2
 		if a=2:'<p>I:You are such an idiot!I have never seen such a stupid person as you!</p>'& $DY.love-=10
-		'<p>·——Her ability to work：<<$DY.work>></p>'
+		'<p>·——Her ability to work:<<$DY.work>></p>'
 	'</div>'
 End
 
@@ -59,7 +59,7 @@ if $args[0]="Mopping the floor":
 	'<div class="dialog_menu">'	
 		'<p><<$DY.name>>Humming a little song while working…</p>'
 		if a=1:'<p><<$DY.name>>:Ah ah ah ah ah ah ah*Slipped and fell</p>'& $DY.love+=3
-		'<p>·——Her ability to work：<<$DY.work>></p>'
+		'<p>·——Her ability to work:<<$DY.work>></p>'
 	'</div>'
 End
 
@@ -81,7 +81,7 @@ if $args[0]="To replenish":
 		'<p>I: The price is recorded incorrectly, and you slip and fall while mopping the floor. Why don`t you put the goods on the shelves? There can be no problem with the goods.…</p>'
 		'<p><<$DY.name>>: <<$Protagonist`s_name>>Store manager... I can definitely do this job!</p>'
 		if a=1:'<p><<$DY.name>>I am very happy to have completed the listing of goods in the food area.</p>'& $DY.love+=6
-		'<p>·——Her ability to work：<<$DY.work>></p>'
+		'<p>·——Her ability to work:<<$DY.work>></p>'
 	'</div>'
 End
 
@@ -136,7 +136,7 @@ if $args[0]="DY_Fuck_Water bar":
     if 0<=a and a<=1:
          '<div class="dialog_menu">'
              '<p><<$DY.name>>:It doesn`t seem to be difficult, but sure enough, I am getting more and more capable!</p>'
-             '<p>I：…………</p>'
+             '<p>I:…………</p>'
              if a>=1:'<p><<$DY.name>>:Ah ah ah ah!Tied by a rope!</p>'
          '</div>'
     end

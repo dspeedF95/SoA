@@ -90,14 +90,14 @@ if $args[0]="Car dealer_Fuck_training0":
 	'<div class="dialog_menu">'
 		'<p><<$CH.name>>: You have to guide me, I don`t want to lose face in front of my brother.</p>'
 		'<p>I: No problem, you are just too formal.</p>'
-		if a>=1:'<p><<$CH.name>>: Why wear this?Is it too weird?！</p>'
+		if a>=1:'<p><<$CH.name>>: Why wear this?Is it too weird?!</p>'
 		if a>=2:
 			'<p>I: Come on, take two steps!</p>'
 			'<p><<$CH.name>>: <<$Panting>></p>'
 		end
 		'<p>·——————————</p>'
-		'<p>·Car model advertising preparation stage：<<$CH.Carmodel>>%</p>'
-		'<p>·Car model advertising market impact：<<$CH.advertising>>%</p>'
+		'<p>·Car model advertising preparation stage:<<$CH.Carmodel>>%</p>'
+		'<p>·Car model advertising market impact:<<$CH.advertising>>%</p>'
 	'</div>'
 End
 
@@ -155,7 +155,7 @@ if $args[0]="Marketing":
 		'<p>Male employeeB: Haha, new energy motorcycles are just toys for the rich.</p>'
 		'<p><<$CH.name>>: ………</p>'
 		'<p>I:Ahem…</p>'
-		'<p>Male employeeA: ！！！</p>'
+		'<p>Male employeeA: !!!</p>'
 		end
 		if a=1:
 		CH.Desiretobuy2+=rand(15,55)
@@ -167,7 +167,7 @@ if $args[0]="Marketing":
 		'<p>I:uh…</p>'
 		'<p><<$CH.name>>: Is it difficult?Do it to me now.</p>'
 		'<p>I:Ok…</p>'
-		'<p><<$CH.name>>: Potential consumers` desire to buy：<<CH.Desiretobuy1>>.<<CH.Desiretobuy2>>%……</p>'
+		'<p><<$CH.name>>: Potential consumers` desire to buy:<<CH.Desiretobuy1>>.<<CH.Desiretobuy2>>%……</p>'
 		if CH.Desiretobuy1>=15:
 		'<p>I:It`s not a way to keep throwing money in.…</p>'
 		'<p><<$CH.name>>: Do you have time recently at night?Accompany me to meet a few important customers…</p>'
@@ -227,11 +227,11 @@ if $args[0]="Raise your head1":
 		'<p>Huang Yuzu (Rich Woman): Okay, then let`s go directly to the hotel❤</p>'
 		'<p>I: uh……</p>'
 		else
-		'<p>Investment advisor: Miss, do you really plan to invest?Do you need to be cautious about investment?！</p>'
+		'<p>Investment advisor: Miss, do you really plan to invest?Do you need to be cautious about investment?!</p>'
 		'<p>Huang Yuzu (Rich Woman): It`s okay, it`s a trifle❤</p>'
 		'<p><<$CH.name>>: Many thanksI`ll invite you to dinner next time!</p>'
 		'<p>Huang Yuzu (Rich Woman): Thank me, forget it, thank you<<$Protagonist`s_name>>Oh❤</p>'
-		'<p><<$CH.name>>: Oh?！It seems that you are quite capable.</p>'
+		'<p><<$CH.name>>: Oh?!It seems that you are quite capable.</p>'
 		'<p>Investment advisor: Miss, just sign here.</p>'
 		'<p>Huang Yuzu (Rich Woman): Okay, then let`s go directly to the hotel❤</p>'
 		end
@@ -301,7 +301,7 @@ if $args[0]="Raise your head3":
 		else
 		'<p><<$NY.name>>: Super fast charging or battery replacement to expand business... I will arrange it.</p>'
 		'<p>Accompanying assistant: Uh...why did your attitude change so quickly?</p>'
-		'<p>I: What else?！</p>'
+		'<p>I: What else?!</p>'
 		'<p><<$NY.name>>: Imperial Energy will wholeheartedly provide quality service in order to reach in-depth cooperation with your company.</p>'
 		'<p><<$CH.name>>: Really?Great!</p>'
 		end
@@ -357,7 +357,7 @@ if $args[0]="Car dealer_Fuck_meal1":
              end
              if a=1:'<p>Huang Yuzu (Rich Woman): Hehe... then you better really make me happy❤</p>'
              if a=2:'<p>Me: No problem, slut. </p>'
-             if a=3:'<p>Huang Yuzu (Rich Woman)：<<$Panting>></p>'
+             if a=3:'<p>Huang Yuzu (Rich Woman):<<$Panting>></p>'
              if a=4:'<p>Me: Catch me with your mouth! </p>'
          '</div>'
     end
@@ -504,7 +504,7 @@ if $args[0]="Car dealer_Fuck_meal3":
              end
              if a=1:'<p><<$NY.name>>: I see, can`t you be gentle?</p>'
              if a=2:'<p>Me: Don`t be long-winded, get up for me! </p>'
-             if a=3:'<p><<$NY.name>>：<<$Panting>></p>'
+             if a=3:'<p><<$NY.name>>:<<$Panting>></p>'
              if a=4:'<p>Me: Pick it up for me! </p>'
          '</div>'
     end
@@ -513,7 +513,7 @@ if $args[0]="Car dealer_Fuck_meal3":
 
          '<div class="dialog_menu">'
                 '<p>Me: The cooperation has been done for me, I will go out first, and you will wash it out by yourself.</p>'      
-                '<p><<$NY.name>>：………… </p>'
+                '<p><<$NY.name>>:………… </p>'
          '</div>'
 
         if $CH.rice=2:$CH.rice=3 & CH.Desiretobuy1+=30 & $CH.love+=15
@@ -572,7 +572,7 @@ if $args[0]="Car dealer_Fuck_meal4":
              end
              if a=1:'<p>Me: Then guess what I like? </p>'
              if a=2:'<p><<$CH.name>>: Unexpectedly, you are not bad here❤</p>' 
-             if a=3:'<p><<$CH.name>>：<<$Panting>></p>'
+             if a=3:'<p><<$CH.name>>:<<$Panting>></p>'
              if a=4:'<p>Me: Shot! </p>'
          '</div>'
     end
@@ -654,10 +654,10 @@ if $args[0]="Car dealer_Fuck_Thanks0":
              if a=0:'<p><<$CH.name>>: How did you convince each other in the restaurant?Can you teach me your unique negotiation skills?</p>'
              if a=1:'<p><<$CH.name>>: Come on ❤ What did you say to the investors?How did you fix her?</p>' 
              if a=2:'<p><<$CH.name>>: You and<<$TS.name>>Do you know each other?Why do I feel that her eyes are ambiguous when she looks at you?</p>' 
-             if a=3:'<p><<$CH.name>>：<<$NY.name>>The change in attitude is because of you, right?You don`t have anything to do with her, do you?</p>' 
+             if a=3:'<p><<$CH.name>>:<<$NY.name>>The change in attitude is because of you, right?You don`t have anything to do with her, do you?</p>' 
              if a=4:'<p>Me: I will tell you when you are happy to serve me! </p>'
-             if a>4:'<p><<$CH.name>>：<<$Panting>></p>' 
-             if a>6:'<p><<$CH.name>>：<<$words>></p>' 
+             if a>4:'<p><<$CH.name>>:<<$Panting>></p>' 
+             if a>6:'<p><<$CH.name>>:<<$words>></p>' 
          '</div>'
     end
 
@@ -691,7 +691,7 @@ if $args[0]="Car dealer_Fuck_office1":
             if a=0:
             '<div class="buttonG1"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Work hard</a></div>'
             if $CH.love>=100 and $CH.Comeon>=0:'<div class="buttonP"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Recommend a good place</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
-            if CHMMS>0:'<div class="buttonPu1"><a href="exec:a=0 & q=0 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''"><<$MMS.name>>？</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+            if CHMMS>0:'<div class="buttonPu1"><a href="exec:a=0 & q=0 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''"><<$MMS.name>>?</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
             end
             if a!2 and 1<=q and q<=3 and $CH.rice>=1:
             '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Small reward</a></div>'
@@ -758,7 +758,7 @@ if $args[0]="Car dealer_Fuck_office1":
          '<div class="dialog_menu">'
              if a=0:
                 '<p>staffA: How about we go for a drink after get off work?</p>'
-                '<p>staffB：<<$Protagonist`s_name>>？Are you together too?</p>'
+                '<p>staffB:<<$Protagonist`s_name>>?Are you together too?</p>'
                 '<p>Me: Uh……</p>'
                 '<p>staffA: Recently, my wife and I divorced, alas.If I divorce, I may be expelled from this city…</p>'
                 '<p>staffB: Then where will you live in the future?</p>'
@@ -768,7 +768,7 @@ if $args[0]="Car dealer_Fuck_office1":
                 CH.Desiretobuy1+=1
                 '<p><<$CH.name>>: I`m working very hard. Let me see the consumer`s desire to buy and make a visual table for me.</p>'
                 '<p>I:Ok…</p>'
-                '<p><<$CH.name>>: Potential consumers` desire to buy：<<CH.Desiretobuy1>>.<<CH.Desiretobuy2>>%……</p>'
+                '<p><<$CH.name>>: Potential consumers` desire to buy:<<CH.Desiretobuy1>>.<<CH.Desiretobuy2>>%……</p>'
                 '<p>I:The desire to buy has risen a lot compared to before…</p>'
                 '<p><<$CH.name>>: Thanks to you, isn`t it?</p>'
              end
@@ -782,7 +782,7 @@ if $args[0]="Car dealer_Fuck_office1":
 			 '<p>staffA: My wife actually locked me out of the door again. It seems that I can only spend the night in the company today, damn it.</p>' 
              if $CH.Comeon=1:'<p>staffA: Huh, I went to find a stripper for a drink❤</p>' 
              end
-             if a=9:'<p><<$CH.name>>：*The phone rang (Okay, I see, it seems that it can only end here, I have to have a meeting before the car model advertisement goes online)</p>' 
+             if a=9:'<p><<$CH.name>>:*The phone rang (Okay, I see, it seems that it can only end here, I have to have a meeting before the car model advertisement goes online)</p>' 
              if a>9:'<p>Me: Okay, no one will bother us now.</p>' 
              if a>10:'<p><<$CH.name>>: Um...brother<<$words>></p>' 
 
@@ -796,7 +796,7 @@ if $args[0]="Car dealer_Fuck_office1":
                 '<p><<$CH.name>>: Do I have it?I don`t remember ❤ </p>'
                 '<p><<$CH.name>>:My brother is an elite in the financial world, and his extraordinary charm makes me admire him so much.His elegant and calm pace, gentle conversation, wisdom and unique thinking❤ </p>'
                 '<p><<$CH.name>>: My brother is not only excellent at work, but also has excellent abilities in interpersonal communication.I was deeply moved by his kind and kind way of treating people and gentlemanly demeanor.Whether it is interacting with colleagues, friends or family, he can control the situation with ease, making people feel at ease and trusting❤ </p>'
-                '<p>I：…………</p>'
+                '<p>I:…………</p>'
                 '<p>·This is the end of the character`s independent plot</p>'
          '</div>'
 
@@ -939,7 +939,7 @@ if $args[0]="Car dealer_Fuck_Night return1":
              if a=3:'<p><<$CH.name>>: If you rub me like this... I will be very comfortable❤</p>' 
              if a=4:'<p><<$CH.name>>: No...This is not good...I am not such a casual person.</p>'
              if a>=5:'<p><<$CH.name>>: Slow down<<$words>></p>'
-             if a=8:'<p><<$CH.name>>: Actually shot me inside?！You are screwed!I want to tell my brother!</p>'
+             if a=8:'<p><<$CH.name>>: Actually shot me inside?!You are screwed!I want to tell my brother!</p>'
          '</div>'
     end
 
@@ -1003,16 +1003,16 @@ if $args[0]="Car dealer_Fuck_studio2":
          '<div class="dialog_menu">'
              if a=0:'<p>Me: Of course, no one knows this car better than you.</p>' 
              if a=1:'<p><<$CH.name>>: Stare at me to see if you want this?</p>' 
-             if a>=2:'<p><<$CH.name>>：<<$words>></p>' 
+             if a>=2:'<p><<$CH.name>>:<<$words>></p>' 
          '</div>'
     end
 
     if a=6:
 
          '<div class="dialog_menu">'  
-                '<p><<$OX.name>>：<<$Protagonist`s_name>>？Are you in there?I heard your voice.</p>'   
-                '<p>Me: Not good?！</p>'     
-                '<p><<$CH.name>>: What?！Hurry up and get dressed❤ </p>'
+                '<p><<$OX.name>>:<<$Protagonist`s_name>>?Are you in there?I heard your voice.</p>'   
+                '<p>Me: Not good?!</p>'     
+                '<p><<$CH.name>>: What?!Hurry up and get dressed❤ </p>'
          '</div>'
 
         $CH.love+=q+my.charm
@@ -1073,7 +1073,7 @@ if $args[0]="Car dealer_Fuck_training1":
          '<div class="dialog_menu">'
              if a=0:'<p><<$CH.name>>: Do you want to insert it?But I`m not ready yet... okay❤</p>' 
              if a>=1:'<p><<$CH.name>>: No way<<$Panting>></p>' 
-             if a>=3:'<p><<$CH.name>>：<<$words>></p>' 
+             if a>=3:'<p><<$CH.name>>:<<$words>></p>' 
          '</div>'
     end
 
@@ -1143,7 +1143,7 @@ if $args[0]="Car dealer_Fuck_photography1":
          '<div class="dialog_menu">'
              if a=0:'<p>Photographer: Come on, look here, it`s great!Let`s have another close-up!</p>' 
              if a>=1:'<p><<$CH.name>>: Finally finished filming, I don`t know how the effect is.I have worked hard for you during these days.Before you take off this dress again, let me give you some rewards❤</p>' 
-             if a>=2:'<p><<$CH.name>>：<<$Panting>></p>' 
+             if a>=2:'<p><<$CH.name>>:<<$Panting>></p>' 
              if a>=4:'<p><<$CH.name>>: Slow down<<$words>></p>'
              if a=8:'<p>Me: I`m going to shoot!Open your mouth!</p>'
          '</div>'
@@ -1223,7 +1223,7 @@ if $args[0]="Car dealer_Fuck_overnight1":
     if 10>=a and a>=0:
          '<div class="dialog_menu">'
              if a=0:'<p><<$CH.name>>: It`s finished... I... prepared a set of very sexy underwear today. What do you think?</p>' 
-             if 3>=a and a>=1:'<p><<$CH.name>>：<<$Panting>></p>' 
+             if 3>=a and a>=1:'<p><<$CH.name>>:<<$Panting>></p>' 
              if 6>=a and a>=4:'<p><<$CH.name>>: Slow down<<$words>></p>'
              if a=7:'<p><<$CH.name>>: Don`t leave tonight, will you stay with me?</p>'& my.energy+=150 & hour=6 & minutes+=1440
              if a=8:'<p>·Early the next morning</p>'
@@ -1379,7 +1379,7 @@ if $args[0]="Car dealer_Fuck_colleague1":
                 '<p>Me: Not bad, right?</p>'
                 '<p>colleagueA: Thank you ❤One more time❤</p>' 
                 '<p><<$WN.name>>: If you add a clock, you have to ❤</p>' 
-                '<p>colleagueA: Not bad money!！</p>' 
+                '<p>colleagueA: Not bad money!!</p>' 
          '</div>'
 
 
@@ -1644,7 +1644,7 @@ if $args[0]="Car dealer_Fuck_carAM1":
 
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
-             if a=0:'<p><<$Carmodel.name>>：<<$Protagonists_surname>> Sir, you are looking for me❤</p>' 
+             if a=0:'<p><<$Carmodel.name>>:<<$Protagonists_surname>> Sir, you are looking for me❤</p>' 
              if a=1:'<p>Me: Nothing else, just talk about your lateness last time ❤</p>' 
              if a>=2:'<p><<$Carmodel.name>>: That`s someone else`s alarm clock is broken<<$Panting>>❤</p>' 
              if a>=3:'<p>Me: It`s hard for me to believe you.</p>' 
@@ -1709,7 +1709,7 @@ if $args[0]="Car dealer_Fuck_Shop carA1":
 
     if 5>=a and a>=0:
          '<div class="dialog_menu">'
-             if a=0:'<p><<$Carmodel.name>>：<<$Protagonists_surname>> Sir, what`s the matter with coming here❤</p>' 
+             if a=0:'<p><<$Carmodel.name>>:<<$Protagonists_surname>> Sir, what`s the matter with coming here❤</p>' 
              if a=1:'<p>Me: Nothing else, you seem sleepy?</p>' 
              if a>=2:'<p><<$Carmodel.name>>: That`s someone else`s alarm clock is broken❤</p>' 
              if a>=3:'<p>Me: It`s hard for me to believe you.</p>' 
@@ -1773,7 +1773,7 @@ if $args[0]="Car dealer_Fuck_Shop carB1":
 
     if 5>=a and a>=0:
          '<div class="dialog_menu">'
-             if a=0:'<p><<$Carmodel.name>>：<<$Protagonists_surname>> Sir, if you buy it today ❤This is a bonus service❤</p>' 
+             if a=0:'<p><<$Carmodel.name>>:<<$Protagonists_surname>> Sir, if you buy it today ❤This is a bonus service❤</p>' 
              if a=1:'<p>Me: What else?</p>' 
              if a>=2:'<p><<$Carmodel.name>>: What else do you want ❤Package you are satisfied❤</p>' 
              if a>=3:'<p>Me: I also get a three-year flash charge discount from Imperial Energy!</p>' 
@@ -1838,14 +1838,14 @@ if $args[0]="Car dealer_Fuck_Home visit1":
     if 2>=q and q>=0:
          '<div class="dialog_menu">'
              if q=0:'<p><<$CH.name>>: Wait, this seems to be some kind of dungeon-like place, right?Are you ready to do something colorful?</p>' 
-             if q>=1:'<p><<$CH.name>>：<<$Panting>></p>' 
+             if q>=1:'<p><<$CH.name>>:<<$Panting>></p>' 
              if q>=2:'<p><<$CH.name>>: Slow down<<$words>></p>'
          '</div>'
     end
 
     if q=3:
          '<div class="dialog_menu">'
-             '<p><<$CH.name>>: There is no set of internal shots again?Don`t be known by my brother!！</p>' 
+             '<p><<$CH.name>>: There is no set of internal shots again?Don`t be known by my brother!!</p>' 
          '</div>'
     end
 
