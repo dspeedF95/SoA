@@ -12,7 +12,7 @@ minutes+=30
 	gs'menu_option_show'
 	'<div class="actions_menu">'
 		'<div class="action">
-			<a class="photo" data-title="Rental room" href="exec:gt ''Bad_room''"><img class="img_stretch" src="images\place\Bad room.jpg"></a>
+			<a class="photo" data-title="Rental room" href="exec:gt ''Bad_room''"><img class="img_stretch" src="images\place\陋室.jpg"></a>
 		</div>'
 		'<div class="action">
 			<a class="photo" data-title="subway" href="exec:gt ''subway''"><img class="img_stretch" src="images\place\地铁.jpg"></a>

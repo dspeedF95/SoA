@@ -295,21 +295,21 @@ if $args[0]="Succubus_Fuck_Squeeze people":
 
 
     if a!10:
-         '<div class="dialog_menu">'
+        '<div class="dialog_menu">'
                 '<p><<$MMS.name>>: What a cute little dessert❤ </p>'
-         '</div>'
-	    else
-	         '<div class="dialog_menu">'
-	                '<p><<$MMS.name>>: Huhu❤Thank you very much!Let me give you a little bit of energy. </p>'
-	                if $Numberofsqueezers=1:$Succubus_Energy+=1 & Firstclasssqueezer=0
-	                if $Numberofsqueezers=2:$Succubus_Energy+=1 & Daily_Succubus=1
-	                if $Numberofsqueezers=3:$Succubus_Energy+=2 & Secondlevelsqueezer=0
-	                if $Numberofsqueezers=4:$Succubus_Energy+=3 & Threelevelsqueezer=0
-	                $MMS.love+=5
-	                $MMS.bad+=5*$Numberofsqueezers
-	                SuccubusCD=0
-	         '</div>'
-	    end
+        '</div>'
+    else
+        '<div class="dialog_menu">'
+            '<p><<$MMS.name>>: Huhu❤Thank you very much!Let me give you a little bit of energy. </p>'
+            if $Numberofsqueezers=1:$Succubus_Energy+=1 & Firstclasssqueezer=0
+            if $Numberofsqueezers=2:$Succubus_Energy+=1 & Daily_Succubus=1
+            if $Numberofsqueezers=3:$Succubus_Energy+=2 & Secondlevelsqueezer=0
+            if $Numberofsqueezers=4:$Succubus_Energy+=3 & Threelevelsqueezer=0
+            $MMS.love+=5
+            $MMS.bad+=5*$Numberofsqueezers
+            SuccubusCD=0
+        '</div>'
+
     end
 End
 
