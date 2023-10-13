@@ -740,8 +740,8 @@ if $args[0]="XM_Fuck_interview":
 
 	if 5>=a and a>=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: Interview number：20230121,The interview begins!</p>'
-			 '<p><<$XM.name>>: <<$Panting2>>I am the interview number：20230121……</p>'
+			 '<p><<$BD.name>>: Interview number:20230121,The interview begins!</p>'
+			 '<p><<$XM.name>>: <<$Panting2>>I am the interview number:20230121……</p>'
 		 '</div>'
 	end
 

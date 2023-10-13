@@ -295,8 +295,8 @@ if $ARGS[0]="Successful demolition":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>I：………</p>'
-		'<p><<$TS.name>>：………</p>'
+		'<p>I:………</p>'
+		'<p><<$TS.name>>:………</p>'
 		'<p>Me: Then...now...what is our relationship?</p>'
 		'<p><<$TS.name>>: Can I entrust you, trust you, and rely on you?</p>'
 		'<p>Me: People can`t make mistakes twice, right?</p>'

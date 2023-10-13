@@ -95,7 +95,7 @@ if $args[0]="People are here":
 
 	'<div class="dialog_menu">'
 		'<p>-<<$jm.name>>Looks worried.......</p>'
-		'<p>-<<$jm.name>>：....Trouble one after another.......</p>'
+		'<p>-<<$jm.name>>:....Trouble one after another.......</p>'
 
 	'</div>'
 End
@@ -132,9 +132,9 @@ if $args[0]="About father":
 	'<div class="dialog_menu">'
 		'<p><<$jm.name>>: Your dad and I are just a corporate marriage between chaebols. He also has a lover in the company.....It`s just a marriage.</p>'
 		'<p>Me: Who is the biological father of the elder sister and younger sister?</p>'
-		'<p><<$jm.name>>：  ....Are a few big people who can do it all at once?...I don`t know whose it is...</p>'
+		'<p><<$jm.name>>:  ....Are a few big people who can do it all at once?...I don`t know whose it is...</p>'
 		'<p>Me: About my father`s coma and hospitalization....Are there any conspiracy theories?</p>'
-		'<p><<$jm.name>>：  ....I don`t know, although the biggest beneficiary of this matter is me, I also have to bear it.1000Ten thousand losses.....</p>'
+		'<p><<$jm.name>>:  ....I don`t know, although the biggest beneficiary of this matter is me, I also have to bear it.1000Ten thousand losses.....</p>'
 	'</div>'
 End
 
@@ -172,7 +172,7 @@ if $args[0]="Bitter plan":
 		'<p><<$jm.name>>: What do you want me to do?</p>'
 		'<p>Me: I want to watch being violated by my grandfather, so that we have a reason to do it.....</p>'
 		'<p><<$jm.name>>: Hands-on...?you.....What do you want to do?......</p>'
-		'<p>I：  ....Is what you think now!.......No matter how late it is, it will be too late....Sever the relationship between father and daughter....Removed from the board of directors....How will the news be written?...Ruined reputation....Like a bereaved dog....</p>'
+		'<p>I:  ....Is what you think now!.......No matter how late it is, it will be too late....Sever the relationship between father and daughter....Removed from the board of directors....How will the news be written?...Ruined reputation....Like a bereaved dog....</p>'
 		'<p><<$jm.name>>: Enough!....I...I....What if the judge doesn`t believe us?...you..You will go to jail...</p>'
 		'<p>Me: Just do your job well. The more hot-headed people are, the more they like to be heroes.</p>'
 		$JM_Event_grandpa=6
@@ -202,7 +202,7 @@ if $args[0]="Three requirements":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$jm.name>>：...I promised you.....Help me deal with three troubles.....Agree to your three requirements....</p>'
+		'<p><<$jm.name>>:...I promised you.....Help me deal with three troubles.....Agree to your three requirements....</p>'
 	'</div>'
 End
 
@@ -220,7 +220,7 @@ if $args[0]="Requirements to upgrade geological analysis equipment":
 
 	'<div class="dialog_menu">'
 		'<p>Me: Can you allocate a little more money to purchase a few more soil geological analyzers?It is best to be the latest model that can detect trace metal elements.......</p>'
-		'<p><<$jm.name>>：.....Since you said that, then this is one of the requirements.I`m going to order now, you can`t go back!....</p>'
+		'<p><<$jm.name>>:.....Since you said that, then this is one of the requirements.I`m going to order now, you can`t go back!....</p>'
 		$DZ.event_equipment=1
 	'</div>'
 End
@@ -265,7 +265,7 @@ if $args[0]="observe":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$jm.name>>：(￢_￢)Aim...</p>'
+		'<p><<$jm.name>>:(￢_￢)Aim...</p>'
 	'</div>'
 End
 
@@ -282,9 +282,9 @@ if $args[0]="Propose an appointment":
 
 	'<div class="dialog_menu">'
 		'<p>Me: I heard that a new hot spring restaurant has opened. Do you want to take a bath?......</p>'
-		'<p><<$jm.name>>：.....Do you want to take a bath, or do you want to soak me?</p>'
+		'<p><<$jm.name>>:.....Do you want to take a bath, or do you want to soak me?</p>'
 		'<p>Me: It depends on what mom means....?</p>'
-		'<p><<$jm.name>>：.....I still have a few meetings to be held this week, but I should be able to take time out.At three o`clock in the afternoon on Friday, you go to the hall and wait for me to come out after the meeting.</p>'
+		'<p><<$jm.name>>:.....I still have a few meetings to be held this week, but I should be able to take time out.At three o`clock in the afternoon on Friday, you go to the hall and wait for me to come out after the meeting.</p>'
 		$JM_Event_date=1
 	'</div>'
 End
@@ -302,11 +302,11 @@ if $args[0]="Our Lady`s Choice":
 
 
 	'<div class="dialog_menu">'
-		'<p><<$jm.name>>：.....The previous assistant, I rehired him....In fact, I am also ashamed of him for this matter....I heard that he devoted all his research work to it before..</p>'
+		'<p><<$jm.name>>:.....The previous assistant, I rehired him....In fact, I am also ashamed of him for this matter....I heard that he devoted all his research work to it before..</p>'
 		'<p>Me: What....?He doesn`t have your handle anymore.B-137Didn`t I give you the file??</p>'
-		'<p><<$jm.name>>：.....Hmm..But he is the first McGovern volunteer. Since he does not pose a threat to me, it is better to keep him.........</p>'
+		'<p><<$jm.name>>:.....Hmm..But he is the first McGovern volunteer. Since he does not pose a threat to me, it is better to keep him.........</p>'
 		'<p>Me: I think you are addicted to being raped by him.</p>'
-		'<p><<$jm.name>>：.....If you agree to keep him......We can3P.....</p>'
+		'<p><<$jm.name>>:.....If you agree to keep him......We can3P.....</p>'
 	'</div>'
 End
 

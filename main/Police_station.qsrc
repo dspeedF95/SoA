@@ -135,14 +135,14 @@ if $ARGS[0]="Disappearance":
 	
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:$Policestationdialogue=1 & $OX.available=1 & gt ''Police_station'',''Disappearance''">Guarantee the completion of the task</a></div>'
-		if $JZ_Event_rape>=10:'<div class="button"><a href="exec:$Policestationdialogue=2 & gt ''Police_station'',''Disappearance''">License plate number：IPZ-905</a></div>'else'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
+		if $JZ_Event_rape>=10:'<div class="button"><a href="exec:$Policestationdialogue=2 & gt ''Police_station'',''Disappearance''">License plate number:IPZ-905</a></div>'else'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
 		if $JZ_Event_rape>=100:'<div class="button"><a href="exec:$Policestationdialogue=3 & gt ''Police_station'',''Disappearance''">People have been rescued</a></div>'else'<div class="buttonGr"><a href="exec:">No clue found</a></div>'
 		if $Policestationdialogue=3:'<div class="buttonG"><a href="exec:$JZ_Event_rape+=50 & $JZ.love+=25 & gt ''Police_station'',''Director`s Office''">Confirm the closure of the case</a></div>'
 		'<div class="button"><a href="exec:gt ''Police_station''">return</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
 		if  $Policestationdialogue=0:
-		   '<p><<$JZ.name>>:This is currently publicly available information：</p>'
+		   '<p><<$JZ.name>>:This is currently publicly available information:</p>'
 			'<p>① Someone called the police and said that a woman was72He lost contact within an hour, and according to relatives and friends, he was going to meet with scouts in Kabukicho.</p>'
 			'<p>②The Japanese women`s photo idol SunsupoPSA member of the first phase of リート, he used to work in a maid-themed cafe in Akihabara, Japan.Age, height and weight are confidential.</p>'
 			'<p>③Due to the special jurisdiction of the backstreet, it is inconvenient for our police to go there.I hope you can go to investigate in your temporary capacity as an auxiliary police officer.Of course, this is completely your personal behavior, and the official police station will not recognize you.</p>'
@@ -178,7 +178,7 @@ if $ARGS[0]="Murder license":
 	'</div>'
 	'<div class="dialog_menu">'
 		if  $Policestationdialogue=0:
-		   '<p><<$JZ.name>>:This is currently publicly available information：</p>'
+		   '<p><<$JZ.name>>:This is currently publicly available information:</p>'
 			'<p>①According to reliable sources, a major incident is about to take place in Kabukicho in the lower city, which may be related to a killer from abroad.</p>'
 			'<p>②The police have requisitioned a high-rise building as a stalking point.However, due to the special jurisdiction of Kabukicho, it is inconvenient for us to act in a high-profile manner.</p>'
 			'<p><<$JZ.name>>:Just be in charge of the stalking group with the girl at the door, remember to report to her!Of course, this is completely your personal behavior, and the official police station will not recognize you.</p>'
@@ -329,7 +329,7 @@ if $ARGS[0]="Part-time vigilante":
 		'<p>·Acting as a police mission</p>'
 		'<p>·Assist in the arrest of suspects [not installed]</p>'
 		'<p>——————————</p>'
-		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+		'<p>Current vigilante points:<<$Vigilantepoints>></p>'
 	'</div>'
 end
 
@@ -350,7 +350,7 @@ if $ARGS[0]="Redemption of points":
 		'<p>·Acting as a police mission</p>'
 		'<p>·Assist in the arrest of suspects [not installed]</p>'
 		'<p>——————————</p>'
-		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+		'<p>Current vigilante points:<<$Vigilantepoints>></p>'
 		
 	'</div>'
 end
@@ -371,7 +371,7 @@ if $ARGS[0]="Answer the call":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+		'<p>Current vigilante points:<<$Vigilantepoints>></p>'
 		'<p>——————————</p>'
 		'<p>Please judge whether there is an emergency during the call from the public?</p>'		
 	'</div>'
@@ -399,7 +399,7 @@ if $ARGS[0]="Answer the call to judge":
 		'<p>Wrong judgment, vigilante points-200</p>'		
 		'<p>——————————</p>'
 		end
-		'<p>Current vigilante points：<<$Vigilantepoints>></p>'
+		'<p>Current vigilante points:<<$Vigilantepoints>></p>'
 	'</div>'
 end
 
@@ -441,10 +441,10 @@ if $ARGS[0]="Late night disappearance":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>[Reporter: Her<<$Reporter>>】【Description of the missing object：<<$m_sz>>】 【Lost contact time：<<Missingtimenum>>Hours】 </p>'
+		'<p>[Reporter: Her<<$Reporter>>】【Description of the missing object:<<$m_sz>>】 【Lost contact time:<<Missingtimenum>>Hours】 </p>'
 		'<p>——————————</p>'
 		'<p>[Last meeting place: somewhere in Kabukicho]</p>'		
-		'<p>【Last meeting time：<<Missingmissiontimenum>>:00】</p>'		
+		'<p>【Last meeting time:<<Missingmissiontimenum>>:00】</p>'		
 	'</div>'
 end
 
@@ -499,7 +499,7 @@ if $ARGS[0]="Internal disciplinary action begins":
 		'<p>·【File】<<$ZXG.name>>——The prisoner escaped due to negligence in his duties!</p>'
 		'<p>·【File】<<$DD.name>>——Have improper feelings with the prisoner and cover up the prisoner!</p>'
 		'<p>·✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪✪·</p>'
-		'<p>·The punishment is over：'
+		'<p>·The punishment is over:'
 		if TJLJ3>=100:'✓'else'✗' 
 		if ZXGQ1>=100:'✓'else'✗' 
 		if DDQ1>=100 and $DDCollar=1:'✓'else'✗' 

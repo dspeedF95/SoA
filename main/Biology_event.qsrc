@@ -22,7 +22,7 @@ if $args[0]="Meet in the restaurant":
 	'</div>'
 	
 	'<div class="button_menu">'
-		if a=0:'<div class="buttonG"><a href="exec:minutes+=15 & a+=1 & money-=149 & gt ''Biology_event'',''Meet in the restaurant''">Single package：149￥</a></div>'
+		if a=0:'<div class="buttonG"><a href="exec:minutes+=15 & a+=1 & money-=149 & gt ''Biology_event'',''Meet in the restaurant''">Single package:149￥</a></div>'
 		if a=1:'<div class="button"><a href="exec:minutes+=15 & a+=1 & gt ''Biology_event'',''Meet in the restaurant''">Keep up</a></div>'
 		if a=2:'<div class="button"><a href="exec:minutes+=15 & a+=1 & a=0 & gt ''Biology_event'',''SW_Fuck_Adultery''">Peeping</a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''Shopping_mall''">leave</a></div>'

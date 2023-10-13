@@ -584,13 +584,13 @@ if $args[0]="JJ_Fuck_Mother_and_sister":
 
 	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>： ..<<$Panting>>..</p>'
+			 '<p><<$JM.name>>: ..<<$Panting>>..</p>'
 		 '</div>'
 	end
 
 	if 8>=a and a>=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>： ..<<$Panting>>..</p>'
+			 '<p><<$JM.name>>: ..<<$Panting>>..</p>'
 		 '</div>'
 	end
 

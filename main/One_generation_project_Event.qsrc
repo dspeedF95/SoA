@@ -60,7 +60,7 @@ if $args[0]="YDM_Fuck_Go to jail":
 
 	if 2>=a and a>=0:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813!Don`t make me angry!Speak quickly!</p>'
+			 '<p>Police Dog Team:Prisoner number:9X0813!Don`t make me angry!Speak quickly!</p>'
 		 '</div>'
 	end
 
@@ -69,19 +69,19 @@ if $args[0]="YDM_Fuck_Go to jail":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813!I think you don`t see the coffin and don`t cry!If you don`t want me to break your teeth, hold it hard for me!</p>'
+			 '<p>Police Dog Team:Prisoner number:9X0813!I think you don`t see the coffin and don`t cry!If you don`t want me to break your teeth, hold it hard for me!</p>'
 		 '</div>'
 	end
 
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813!This is the right the warden gave us!The right to fuck your pussy!</p>'
+			 '<p>Police Dog Team:Prisoner number:9X0813!This is the right the warden gave us!The right to fuck your pussy!</p>'
 		 '</div>'
 	end
 
 	if 6>=a and a>=5:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813!If you break your throat, no one will come to save you!Hahaha!</p>'
+			 '<p>Police Dog Team:Prisoner number:9X0813!If you break your throat, no one will come to save you!Hahaha!</p>'
 		 '</div>'
 	end
 	if a=7:
@@ -128,7 +128,7 @@ if $args[0]="Jailbreak":
 	end
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p>·AA fire broke out in a cell in the district, and the number of prisoners in custody was included.：9X0813No trace.</p>'
+			 '<p>·AA fire broke out in a cell in the district, and the number of prisoners in custody was included.:9X0813No trace.</p>'
 			  $YDM_Event_free=10
 			  $YDM.love+=30
 		 '</div>'

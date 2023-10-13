@@ -66,7 +66,7 @@ if $ARGS[0]="Instructions for applying for a coach":
 		'<p>-[Female coach]: Characteristic group exercises are characteristic group courses that combine strength training and aerobic exercise. They belong to advanced sexual puppet service projects!</p>'
 		'<p>-[Female coach]: Every personal trainer has a health certificate, and30Heavenly abstinence assessment.It is more secure than the low-level services that erode in the backstreets!At present, the quota is tight, so I want to buy as soon as possible!</p>'
 		'<p>-[Me]: Uh, I want to apply for a featured team exercise coach!</p>'
-		'<p>-[Female coach]: You?Team exercise coach requirements: Reach the figure5Level, penis length up to standard, hard-working and hard-working, can meet the needs of members, class time salary：300/section.These include nutrition fees and food tax subsidies.</p>'
+		'<p>-[Female coach]: You?Team exercise coach requirements: Reach the figure5Level, penis length up to standard, hard-working and hard-working, can meet the needs of members, class time salary:300/section.These include nutrition fees and food tax subsidies.</p>'
 	'</div>'
 end
 
@@ -87,7 +87,7 @@ if $ARGS[0]="Exercise alone":
 			mymax[energy] +=RAND(0,my.Physical_strength)
 		 end
 		if $num=3:
-		'<p>-【Female coach】：1,2,1,2!Keep the buttocks muscles pumping!Featured group exercises are expensive to insist on!</p>'
+		'<p>-【Female coach】:1,2,1,2!Keep the buttocks muscles pumping!Featured group exercises are expensive to insist on!</p>'
 		end
 		'<p>-Train hard while resisting temptation....</p>'
 		'<p></p>'
@@ -168,7 +168,7 @@ if $ARGS[0]="1correct1Private education":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>【Female student】：<<$Protagonists_surname>> Hello coach!Please give me a lot of advice today!</p>'
+		'<p>【Female student】:<<$Protagonists_surname>> Hello coach!Please give me a lot of advice today!</p>'
 		'<p>Me: No problem, I will directly point out any problems you have!</p>'
 		'<p>[Female student]: Then let`s get started!</p>'
 	'</div>'
@@ -185,7 +185,7 @@ if $ARGS[0]="1correct1Private education2":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>【Female student】：<<$Protagonists_surname>> coach!I`m a little shy to wear this way…</p>'
+		'<p>【Female student】:<<$Protagonists_surname>> coach!I`m a little shy to wear this way…</p>'
 		'<p>Me: Next we will sweat a lot!It is reasonable to wear this way!</p>'
 		'<p>[Female student]: But…</p>'
 		'<p>Me: No one will laugh at what you wear in the gym!But it will be on the street!</p>'
@@ -203,8 +203,8 @@ if $ARGS[0]="1correct1Private education3":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>【Female student】：<<$Protagonists_surname>> Coach, I`m still undressing.Please wait a moment</p>'
-		'<p>I：……</p>'
+		'<p>【Female student】:<<$Protagonists_surname>> Coach, I`m still undressing.Please wait a moment</p>'
+		'<p>I:……</p>'
 	'</div>'
 end
 

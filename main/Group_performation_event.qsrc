@@ -99,13 +99,13 @@ if $args[0]="Underground idol_Fuck_hotel":
 
 	if 2<=a and a<=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$gname>>：<<$Panting>></p>'
+			 '<p><<$gname>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
 	if 4<=a and a<=6:
 		 '<div class="dialog_menu">'
-			 '<p><<$gname>>：<<$words>></p>'
+			 '<p><<$gname>>:<<$words>></p>'
 		 '</div>'
 	end
 
@@ -329,9 +329,9 @@ if $args[0]="hospital_Fuck_Before sleep":
 			'</div>'
 
 		 '<div class="dialog_menu">'
-			 '<p>AIadvertising：InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
+			 '<p>AIadvertising:InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
 			 '<p>AIAdvertisement: It is currently a type II physical therapy equipment that can carry out physical and mental rehabilitation at the same time.It integrates music therapy, magnetic field therapy, and frequency vibration therapy. It is a body-mind-spirit maintenance place designed for patients with insomnia and physical and mental exhaustion.</p>'
-			 '<p>Display: Project control group：<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
+			 '<p>Display: Project control group:<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
 			 '<p>Does this really have an effect?......She sleeps like a dead pig, do you want to test it?InceptionWhat is the effect of the insomnia treatment device?</p>'
 			 if $HS_Event_trouble=1:'<p>if....310What happens to patients with this instrument?</p>'
 		 '</div>'
@@ -377,9 +377,9 @@ if $args[0]="hospital_Fuck_Sleep experiment":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>AIadvertising：InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
+			 '<p>AIadvertising:InceptionInsomnia treatment instrument is an advanced concept of physical and mental co-treatment!</p>'
 			 '<p>AIAdvertisement: It is currently a type II physical therapy equipment that can carry out physical and mental rehabilitation at the same time.It integrates music therapy, magnetic field therapy, and frequency vibration therapy. It is a body-mind-spirit maintenance place designed for patients with insomnia and physical and mental exhaustion.</p>'
-			 '<p>Display: Project control group：<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
+			 '<p>Display: Project control group:<<$sleepcontrast>>group......Injection was successful...Remaining time1hours05points....</p>'
 			 '<p>Does this really have an effect?......She sleeps like a dead pig, do you want to test it?InceptionWhat is the effect of the insomnia treatment device?</p>'
 		 '</div>'
 	end
@@ -3629,7 +3629,7 @@ if $args[0]="Universal_Fuck_Set seal":
 		 '<div class="dialog_menu">'
 			 '<p>·The woman in front of you is the ideal printing target…</p>'
 		 	 '<p>Me: Hi!Beauty, are you alone?</p>'
-		 	 '<p><<$Setsealname>>：<<$JiyinDialogue>></p>'
+		 	 '<p><<$Setsealname>>:<<$JiyinDialogue>></p>'
 		 	 if Printingconditions=0:'<p><<$Setsealname>>: Sorry!Please don`t just strike up a conversation with me!</p>'
 		 '</div>'
 	end
@@ -3645,8 +3645,8 @@ if $args[0]="Universal_Fuck_Set seal":
 
 	if 2<=a and a<=8:
 		 '<div class="dialog_menu">'
-			 '<p><<$Setsealname>>：<<$Panting>></p>'
-			 if a>=5:'<p><<$Setsealname>>：<<$words>></p>'
+			 '<p><<$Setsealname>>:<<$Panting>></p>'
+			 if a>=5:'<p><<$Setsealname>>:<<$words>></p>'
 		 '</div>'
 	end
 
@@ -3773,7 +3773,7 @@ if $args[0]="Universal_Fuck_Set sealS":
 		 '<div class="dialog_menu">'
 			 '<p>·The two skankers in front of you are the ideal printing target…</p>'
 		 	 '<p>Me: Hi!Such a coincidence?</p>'
-		 	 '<p><<$SetsealnameA>>：<<$JiyinDialogue>></p>'
+		 	 '<p><<$SetsealnameA>>:<<$JiyinDialogue>></p>'
 		 	 if Printingconditions=0:'<p><<$SetsealnameB>>: Sorry!Please don`t just strike up a conversation with me!</p>'
 		 '</div>'
 	end
@@ -3789,10 +3789,10 @@ if $args[0]="Universal_Fuck_Set sealS":
 
 	if 2<=a and a<=17:
 		 '<div class="dialog_menu">'
-			 '<p><<$SetsealnameA>>：<<$Panting>></p>'
-			 if a>=3:'<p><<$SetsealnameB>>：<<$Panting2>></p>'
-			 if a>=4:'<p><<$SetsealnameA>>：<<$words>></p>'
-			 if a>=5:'<p><<$SetsealnameB>>：<<$words2>></p>'
+			 '<p><<$SetsealnameA>>:<<$Panting>></p>'
+			 if a>=3:'<p><<$SetsealnameB>>:<<$Panting2>></p>'
+			 if a>=4:'<p><<$SetsealnameA>>:<<$words>></p>'
+			 if a>=5:'<p><<$SetsealnameB>>:<<$words2>></p>'
 		 '</div>'
 	end
 
@@ -4977,7 +4977,7 @@ if $args[0]="Group_performance_Fuck_thief2":
 		 Debtcollection6done=1
 		 '<div class="dialog_menu">'
 			 '<p>I:Can you afford to pay off so much money you owe?If you don`t pay it back within the time limit, it will end badly!</p>'
-			 '<p>Kizakiエマ (habitual thief)：…………</p>'
+			 '<p>Kizakiエマ (habitual thief):…………</p>'
 		 '</div>'
 	end
 
@@ -5207,7 +5207,7 @@ if $args[0]="Group_performance_Fuck_Gym private education":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>【Female student】：<<$Protagonists_surname>> coach!I`m stuck!</p>'
+			 '<p>【Female student】:<<$Protagonists_surname>> coach!I`m stuck!</p>'
 			 '<p>I:Do this with me?Then I won`t care about you, we are going to start warming up!</p>'
 		 '</div>'
 	end
@@ -5225,7 +5225,7 @@ if $args[0]="Group_performance_Fuck_Gym private education":
 
 	if a=18:
 		 '<div class="dialog_menu">'
-			 '<p>【Female student】：<<$Protagonists_surname>> Coach, is this also part of the warm-up?</p>'
+			 '<p>【Female student】:<<$Protagonists_surname>> Coach, is this also part of the warm-up?</p>'
 			 '<p>I:Of course!We will start class soon!Are you ready?!</p>'
 			 '<p>[Female student]: I think... I have fully warmed up.…</p>'
 		 '</div>'
@@ -5493,7 +5493,7 @@ if $args[0]="Group_performance_Fuck_Three women4P1":
 
     if q=10:
          '<div class="dialog_menu">'
-             '<p><<$QT.name>>：Mua❤</p>'
+             '<p><<$QT.name>>:Mua❤</p>'
              '<p><<$QB.name>>: Your tongue is so soft❤</p>'
              '<p><<$SSYY.name>>: Lick me too❤</p>'
          '</div>'
@@ -8005,7 +8005,7 @@ if $args[0]="Convenience store_Fuck_Customer service discussion_Upgrade":
 		'</div>'
 
          '<div class="dialog_menu">'
-			 '<p>·➤Past seven reviews：<<$Storeevaluationa[6]>><<$Storeevaluationa[5]>><<$Storeevaluationa[4]>><<$Storeevaluationa[3]>><<$Storeevaluationa[2]>><<$Storeevaluationa[1]>><<$Storeevaluationa[0]>></p>'
+			 '<p>·➤Past seven reviews:<<$Storeevaluationa[6]>><<$Storeevaluationa[5]>><<$Storeevaluationa[4]>><<$Storeevaluationa[3]>><<$Storeevaluationa[2]>><<$Storeevaluationa[1]>><<$Storeevaluationa[0]>></p>'
              '<p>Honshin Yuri(Regional manager):<<$Protagonists_surname>> Store manager, think about it.</p>'
          '</div>'
 End

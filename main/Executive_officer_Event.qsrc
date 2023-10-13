@@ -81,7 +81,7 @@ if $args[0]="ZXG_Fuck_Enforcement":
 
 	if 1<=a and a<=7:
 		 '<div class="dialog_menu">'
-			 '<p>·Accumulate semen volume：<<jings>>ml·Her patience:<<q>>/10</p>'
+			 '<p>·Accumulate semen volume:<<jings>>ml·Her patience:<<q>>/10</p>'
 			 if q>10:'<p><<$ZXG.name>>: I`ve had enough, call that bitch doctor!</p>'
 			 if a=5 and $YDM_Event_free=2:'<p><<$ZXG.name>>:Fuck!Look at what you have done!Come on!Give me a new one!</p>'
 		 '</div>'

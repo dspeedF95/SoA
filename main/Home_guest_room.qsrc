@@ -84,9 +84,9 @@ if $ARGS[0]="Bitter plan2":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		 "<p>-<<$jm.name>>：...</p>"
+		 "<p>-<<$jm.name>>:...</p>"
 		 "<p>-Grandpa: Shut up! There is no more room for you to speak here! Do as I say ... or else...</p>"
-		 "<p>-<<$jm.name>>：⋯⋯⋯⋯⋯⋯ </p>"
+		 "<p>-<<$jm.name>>:⋯⋯⋯⋯⋯⋯ </p>"
 		 "Bzzz———— *Phone ringing"
 	'</div>'
 end
@@ -160,7 +160,7 @@ if $ARGS[0]="Bitter plan6":
 		 "<p>-Me: Why is the door open?! Watch out for burglars!</p>"
  		 "<p>-*Just before leaving, you deliberately didn`t lock the door…</p>"
 		 "<p>-???: *Crying*</p>"
-		 "<p>-Temporary worker：<<$jm.name>>?! Honey?! where are you?!.... </p>"
+		 "<p>-Temporary worker:<<$jm.name>>?! Honey?! where are you?!.... </p>"
 		 "<p>-Me: It's coming from this room!</p>"
 
 	'</div>'
@@ -264,7 +264,7 @@ if $ARGS[0]="Bitter plan10":
 		 "<p>-Me: Sorry, I didn`t expect him to beat your father like that...</p>"
 		 "<p>-<<$jm.name>>: ... But... Thank you...</p>"
 		 "<p>-Me: Stepmother, do you feel guilty? (You used this title for the first time)</p>"
-		 "<p>-<<$jm.name>>：...I don`t know, my father has always been my pillar.....</p>"
+		 "<p>-<<$jm.name>>:...I don`t know, my father has always been my pillar.....</p>"
 		 $JM.LOVE+=20
 		 $JM_Event_grandpa=7
 	'</div>'
@@ -284,7 +284,7 @@ if $ARGS[0]="Bitter plan11":
 	'<div class="dialog_menu">'
 		 "<p>-You kiss her...</p>"
 		 "<p>-Me: Then let me be your pillar...</p>"
-		 "<p>-<<$jm.name>>：... How can you... You are my son...</p>"
+		 "<p>-<<$jm.name>>:... How can you... You are my son...</p>"
 		 "<p>-Despite her protest, she didn`t push you away, as if she was glad...</p>"
 		 "<p>-Me: We...</p>"
 		 $JM.BAD+=25

@@ -195,7 +195,7 @@ if $args[0]="Study abroad_Fuck_School application":
 		'</div>'
 
 	'<div class="button_menu">'
-		'<div class="buttonG"><a href="exec:money-=5000  & Internationalstudentschool=1 & gt ''university''">register：$5000</a></div>'
+		'<div class="buttonG"><a href="exec:money-=5000  & Internationalstudentschool=1 & gt ''university''">register:$5000</a></div>'
 		'<div class="button"><a href="exec:gt ''university''">leave</a></div>'
 	'</div>'
 

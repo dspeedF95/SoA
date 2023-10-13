@@ -66,9 +66,9 @@ if $args[0]="dialogue":
 	 end
 	 if xydh=2:
 		'<p>Me: You are right<<$xz.name>>Are you satisfied?</p>'
-		'<p><<$XY.name>>：*Alert*  uh....Of course I am satisfied.Why are you asking this?Are you from the school picket team?</p>'
+		'<p><<$XY.name>>:*Alert*  uh....Of course I am satisfied.Why are you asking this?Are you from the school picket team?</p>'
 		'<p>Me: Don`t use questions to answer questions.</p>'
-		'<p><<$XY.name>>：*Frown* What kind of onion are you?If you really want to talk to me, please<<$XZ.name>>Come by yourself!</p>'
+		'<p><<$XY.name>>:*Frown* What kind of onion are you?If you really want to talk to me, please<<$XZ.name>>Come by yourself!</p>'
 		$XZ_Event_3tx=1
 	 end
 	 if xydh=3:

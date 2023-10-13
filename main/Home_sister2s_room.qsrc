@@ -136,7 +136,7 @@ if $args[0]="Good news":
 	'<div class="dialog_menu">'
 	'<p><<$mm.name>>: What?really?I was [Empire Entertainment]<<$ts.name>>Directly recruited?!</p>'
 	'<p>Me: Yes, although only as a trainee..</p>'
-	'<p><<$mm.name>>：<<$ts.name>>But my idol!Her appearance on the screen is completely angelic.!</p>'
+	'<p><<$mm.name>>:<<$ts.name>>But my idol!Her appearance on the screen is completely angelic.!</p>'
 	'<p>Me: Then you have to follow her example and try to become an idol like her.</p>'
 	'<p><<$mm.name>>: Good!After school is over and on weekends, I will go to the dance room to practice!</p>'
 	'</div>'

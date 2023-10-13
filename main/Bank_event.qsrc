@@ -150,7 +150,7 @@ if $args[0]="Drinking choice2":
               '<p>Credit Manager:Come on, have another drink❤</p>' 
               '<p>Me: Hey!<<$YH.name>>Why are you here?</p>' 
               '<p>Credit Manager:<<$Protagonist`s_surname>>Sir, I remember you, and I warn you, don`t break my good deeds.</p>' 
-              '<p>I：……</p>' 
+              '<p>I:……</p>' 
               '<p>·——Here is a story branch——·</p>' 
          '</div>'
 End

@@ -75,23 +75,23 @@ if $ARGS[0]="Stock trading":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>【Mugou Pharmaceutical】 Current Price：<<stockPharmaceuticalN>> Bid price：<<stockPharmaceuticalB>> Number of shares held：<<stockPharmaceuticalC>>' 
+		'<p>【Mugou Pharmaceutical】 Current Price:<<stockPharmaceuticalN>> Bid price:<<stockPharmaceuticalB>> Number of shares held:<<stockPharmaceuticalC>>' 
 		if stockPharmaceuticalC>0:'·<a href="exec:money+=stockPharmaceuticalN*stockPharmaceuticalC & stockPharmaceuticalC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
 		if money>=stockPharmaceuticalN: '·<a href="exec:stockPharmaceuticalC=money/stockPharmaceuticalN & money-=stockPharmaceuticalC*stockPharmaceuticalN & stockPharmaceuticalB=stockPharmaceuticalN  & gt ''bank'',''Stock trading''">Full warehouse￥</a>·'
 		'</p>'
-		'<p>【Empire Entertainment】 Current Price：<<stockentertainmentN>> Bid price：<<stockentertainmentB>> Number of shares held：<<stockentertainmentC>>' 
+		'<p>【Empire Entertainment】 Current Price:<<stockentertainmentN>> Bid price:<<stockentertainmentB>> Number of shares held:<<stockentertainmentC>>' 
 		if stockentertainmentC>0:'·<a href="exec:money+=stockentertainmentN*stockentertainmentC & stockentertainmentC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
 		if money>=stockentertainmentN*100 and stockentertainmentC=0: '·<a href="exec:stockentertainmentC=100 & money-=stockentertainmentN*100 & stockentertainmentB=stockentertainmentN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
 		'</p>'
-		'<p>【Imperial Health】 Current Price：<<stockhealthN>> Bid price：<<stockhealthB>> Number of shares held：<<stockhealthC>>' 
+		'<p>【Imperial Health】 Current Price:<<stockhealthN>> Bid price:<<stockhealthB>> Number of shares held:<<stockhealthC>>' 
 		if stockhealthC>0:'·<a href="exec:money+=stockhealthN*stockhealthC & stockhealthC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
 		if money>=stockhealthN*100 and stockhealthC=0: '·<a href="exec:stockhealthC=100 & money-=stockhealthN*100 & stockhealthB=stockhealthN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
 		'</p>'
-		'<p>【Imperial Energy】 Current Price：<<stockenergyN>> Bid price：<<stockenergyB>> Number of shares held：<<stockenergyC>>' 
+		'<p>【Imperial Energy】 Current Price:<<stockenergyN>> Bid price:<<stockenergyB>> Number of shares held:<<stockenergyC>>' 
 		if stockenergyC>0:'·<a href="exec:money+=stockenergyN*stockenergyC & stockenergyC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
 		if money>=stockenergyN*100 and stockenergyC=0: '·<a href="exec:stockenergyC=100 & money-=stockenergyN*100 & stockenergyB=stockenergyN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
 		'</p>'
-        '<p>【Contemplation Wine Company】 Current Price：<<stockWinecompanyN>> Bid price：<<stockWinecompanyB>> Number of shares held：<<stockWinecompanyC>>' 
+        '<p>【Contemplation Wine Company】 Current Price:<<stockWinecompanyN>> Bid price:<<stockWinecompanyB>> Number of shares held:<<stockWinecompanyC>>' 
         if stockWinecompanyC>0:'·<a href="exec:money+=stockWinecompanyN*stockWinecompanyC & stockWinecompanyC=0 & gt ''bank'',''Stock trading''">All for sale</a>·'
         if money>=stockWinecompanyN*100 and stockWinecompanyC=0: '·<a href="exec:stockWinecompanyC=100 & money-=stockWinecompanyN*100 & stockWinecompanyB=stockWinecompanyN  & gt ''bank'',''Stock trading''">Limited purchase100Stock￥</a>·'
         '</p>'
@@ -109,7 +109,7 @@ if $ARGS[0]="Financial products":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>Fund manager：<<$Protagonist`s_surname>>Sir, we are currently launching a monthly profit project with an annualized interest rate of up to200%Are you interested?</p>'
+		'<p>Fund manager:<<$Protagonist`s_surname>>Sir, we are currently launching a monthly profit project with an annualized interest rate of up to200%Are you interested?</p>'
 		'<p>Me: So tall?</p>'
 		'<p>Fund Manager: Yes, I can introduce you when you come over.</p>'
 	'</div>'
@@ -127,7 +127,7 @@ if $ARGS[0]="Fund loss":
 	
 	'<div class="dialog_menu">'
 		'<p>Me: What`s the matter?Lose money as soon as you buy it99%?!You are not a financial product!Is it a scam?</p>'
-		'<p>Fund manager：<<$Protagonist`s_surname>>Sir, don`t worry... I believe you can turn a loss into a profit by buying another order for your little sister ❤Now is the perfect time to copy the bottom!</p>'
+		'<p>Fund manager:<<$Protagonist`s_surname>>Sir, don`t worry... I believe you can turn a loss into a profit by buying another order for your little sister ❤Now is the perfect time to copy the bottom!</p>'
 	'</div>'
 end
 
@@ -213,7 +213,7 @@ if $ARGS[0]="Men`s room monitor":
 		'<p><<$YH.name>>: What did you find?</p>'
 		'<p>Me: His secretary said that the credit manager will have a secret deal with the factory director on Wednesday…</p>'
 		'<p><<$YH.name>>: So we are going to hide here now?Are you simply waiting?</p>'
-		'<p>I：…………</p>'
+		'<p>I:…………</p>'
 	'</div>'
 end
 

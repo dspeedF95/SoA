@@ -77,7 +77,7 @@ if $args[0]="Bishopschoice":
               '<p>Bishop: Confessor, everyone is born with sin and salvation.Now, it`s time for you to “dedicate” to salvation.…</p>' 
 			  '<p>Me: What do you mean?</p>'
               '<p>Bishop: In order to atone for your sins, you must be willing to let yourself suffer inner torture. </p>' 
-			  '<p>I：………</p>'
+			  '<p>I:………</p>'
 			  '<p>·————————</p>' 
 			  '<p>·Here is a branch selection, you can skip the dedication of your family if you chooseNTRplot.Of course, you can choose to back up the archive here to experience different branches of the plot.</p>'
          '</div>'
@@ -153,9 +153,9 @@ if $args[0]="Dialogue":
          '<div class="dialog_menu">'
 			  '<p>Me: Are you...okay?</p>'
               '<p><<$XN.name>>Slowly open your eyes </p>' 
-              '<p><<$XN.name>>：<font color="#e6a422">I...I saw a little light...you...must be the Savior...please help me.…</font></p>'
+              '<p><<$XN.name>>:<font color="#e6a422">I...I saw a little light...you...must be the Savior...please help me.…</font></p>'
 			  '<p>Me: I am not the savior. You have followed the bishop for so many years. You must be very clear about his daily arrangements, right?Tell me and I can help you.</p>'
-              '<p><<$XN.name>>：<font color="#FF3939">The Bishop... usually accepts the offerings of believers during the day; purifies the unclean soul of the custom mother every Friday; and purifies the unclean soul of the custom mother every Saturday night.18:00Will go to the restaurant to meet guests; every Sunday afternoon13:00Go to the hot spring to get rid of evil spirits. </font></p>' 
+              '<p><<$XN.name>>:<font color="#FF3939">The Bishop... usually accepts the offerings of believers during the day; purifies the unclean soul of the custom mother every Friday; and purifies the unclean soul of the custom mother every Saturday night.18:00Will go to the restaurant to meet guests; every Sunday afternoon13:00Go to the hot spring to get rid of evil spirits. </font></p>' 
          '</div>'
 		$XN.asked=1
 End
@@ -196,7 +196,7 @@ if $args[0]="Nun standing painting":
               '<p><<$XN.name>>: I`m used to wearing a mask in church, I can take it off if you mind…</p>' 
 			  '<p>Me: No, according to your habits, do you have any plans?</p>'
 			  if $Nunguilt>0:
-              '<p><B><span class =''red''><<$XN.name>>：<<$Protagonist`s_name>>My lord, I need to repent of my sins... please punish me!</p>' 
+              '<p><B><span class =''red''><<$XN.name>>:<<$Protagonist`s_name>>My lord, I need to repent of my sins... please punish me!</p>' 
 			  else
               '<p><<$XN.name>>: I...after the restoration of the Ming Dynasty...I want to go outside more, can you take me there?</p>' 
               end
@@ -220,7 +220,7 @@ if $args[0]="Nun out":
          '<div class="dialog_menu">'
 			  '<p>Me: Where do you want to go?</p>'
               '<p><<$XN.name>>: I want to try everything I haven`t tried... Wait, I`ll answer the phone.</p>' 
-			  '<p>Strange man：Hello❤Nun?I need a one-time prayer ❤ Can you come to my house?</p>'
+			  '<p>Strange man:Hello❤Nun?I need a one-time prayer ❤ Can you come to my house?</p>'
               '<p><<$XN.name>>: Uh…*She looks at you</p>' 
 			  '<p>Me: Don`t go.</p>'
               '<p><<$XN.name>>: Ok*She was not very happy.</p>' 
@@ -245,7 +245,7 @@ if $args[0]="Lei Liyi":
         '</div>'
         
          '<div class="dialog_menu">'
-              '<p><<$LEI.name>>：<<$Protagonist`s_name>>My lord... is there anything you can do to summon me?</p>' 
+              '<p><<$LEI.name>>:<<$Protagonist`s_name>>My lord... is there anything you can do to summon me?</p>' 
 			  '<p>Me: Uh, the man at the door of the church is your boyfriend, right?He wants you to go back.</p>'
               '<p><<$LEI.name>>: Please, I...I have chosen to join the church...by his side...only endless violent debt collection and abuse...only here can my heart be calm...and I beg you not to expel me...please.…</p>' 
 			  if $LEIVideo_event_chain>=9:'<p>Me: Don`t worry, he has been permanently expelled.</p>'
@@ -266,7 +266,7 @@ if $args[0]="Confession room":
         
          '<div class="dialog_menu">'
 			  '<p>In this confession room, believers can have one-on-one conversations with me or the nun, and take the initiative to confess their crimes, guilt, and repentance.And I can decide how to make it repent.</p>'
-			  '<p>Because of my prestige：<<Churchprestige>>----The higher the prestige, the more sinful the person who comes to repent.</p>'
+			  '<p>Because of my prestige:<<Churchprestige>>----The higher the prestige, the more sinful the person who comes to repent.</p>'
          '</div>'
 End
 
@@ -281,9 +281,9 @@ if $args[0]="Listen to confession":
         '</div>'
         
          '<div class="dialog_menu">'
-			  '<p>Because of my prestige：<<Churchprestige>>----The higher the prestige, the more sinful the person who comes to repent.</p>'
+			  '<p>Because of my prestige:<<Churchprestige>>----The higher the prestige, the more sinful the person who comes to repent.</p>'
 			  '<p>Me: Welcome to this holy place to seek repentance and forgiveness.Please tell me, why did you come to the confessional?</p>'
-			  '<p>woman：<<$TitleofBishop>>, Me and mine<<$ConfessionoftheBishop1>>...happened<<$ConfessionoftheBishop2>>, I am now<<$ConfessionoftheBishop3>>...in addition, I am also with other<<$Numberofconfessors>>People have improper sexual relations... please forgive, guide, or punish me!</p>'
+			  '<p>woman:<<$TitleofBishop>>, Me and mine<<$ConfessionoftheBishop1>>...happened<<$ConfessionoftheBishop2>>, I am now<<$ConfessionoftheBishop3>>...in addition, I am also with other<<$Numberofconfessors>>People have improper sexual relations... please forgive, guide, or punish me!</p>'
          '</div>'
 End
 
@@ -316,7 +316,7 @@ if $args[0]="Confession ruling":
         
          '<div class="dialog_menu">'
 			  '<p>Me: Say it again!How many people do you have improper relationships with?!</p>'
-			  '<p>woman：<<$TitleofBishop>>, me and<<$Numberofconfessors>>People have improper sexual relations... please forgive, guide, or punish me!</p>'
+			  '<p>woman:<<$TitleofBishop>>, me and<<$Numberofconfessors>>People have improper sexual relations... please forgive, guide, or punish me!</p>'
          '</div>'
 End
 
@@ -343,7 +343,7 @@ if $args[0]="Confession man":
          '<div class="dialog_menu">'
 			  '<p>Me: Take this<<$Numberofconfessors>>A man brought，<<$XN.name>>Will personally forgive their crimes!</p>'
 			  '<p><<$XN.name>>: Yes, please leave it to me with confidence❤</p>'
-			  '<p>woman：<<$TitleofBishop>>, Thank you!I will be your loyal believer!</p>'
+			  '<p>woman:<<$TitleofBishop>>, Thank you!I will be your loyal believer!</p>'
 			  '<p>·My prestige has increased</p>'
          '</div>'
 End

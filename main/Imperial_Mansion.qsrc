@@ -177,7 +177,7 @@ if $args[0] = "Underground security room":
 
     '<div class="dialog_menu">'
         '<p>·This is the underground security room of the mansion.</p>'
-        if $Charactersintheundergroundsecurityroom=10:'<p>The secret of deep sleep：Zzz~Zzz~What do you want❤</p>'else'<p>Security: It`s so boring❤ In addition to watching porn with surveillance every day, you masturbate, huh?<<$Protagonist`s_name>>Little boss ❤, are you here to fuck me?</p>'
+        if $Charactersintheundergroundsecurityroom=10:'<p>The secret of deep sleep:Zzz~Zzz~What do you want❤</p>'else'<p>Security: It`s so boring❤ In addition to watching porn with surveillance every day, you masturbate, huh?<<$Protagonist`s_name>>Little boss ❤, are you here to fuck me?</p>'
     '</div>'
 End
 
@@ -191,7 +191,7 @@ if $args[0] = "Underground security room10":
 
     '<div class="dialog_menu">'
         '<p>Me: Hey, wake up, don`t catch a cold if you wear so little to sleep.</p>'
-        '<p>The secret of deep sleep：Zzz~Zzz~Don`t bother me ❤</p>'
+        '<p>The secret of deep sleep:Zzz~Zzz~Don`t bother me ❤</p>'
     '</div>'
 End
 
@@ -205,10 +205,10 @@ if $args[0] = "Underground security room10_box":
     '<div class="dialog_menu">'
         '<p>·The contents of the box are all your monitoring records from the first second you stepped into this mansion.</p>'
         '<p>'
-		if BarShuangfeinum>0:'·Number of double flights at the bar：<<BarShuangfeinum>>times'else'·-Unknown-know—·'
-		if securitynum>0:'·Number of security sex：<<securitynum>>times'else'·-Unknown-know—·'
-		if  EmpireFitnessnum>0:'·Female fitness instructor：<<EmpireFitnessnum>>times'else'·-Unknown-know—·'
-		if ImperialMaidnum>0:'·Violation of housekeeping maid：<<ImperialMaidnum>>times'else'·-Unknown-know—·'
+		if BarShuangfeinum>0:'·Number of double flights at the bar:<<BarShuangfeinum>>times'else'·-Unknown-know—·'
+		if securitynum>0:'·Number of security sex:<<securitynum>>times'else'·-Unknown-know—·'
+		if  EmpireFitnessnum>0:'·Female fitness instructor:<<EmpireFitnessnum>>times'else'·-Unknown-know—·'
+		if ImperialMaidnum>0:'·Violation of housekeeping maid:<<ImperialMaidnum>>times'else'·-Unknown-know—·'
 		'</p>'
         '<p>#Anything about<<$CT.name>>and<<$QJ.name>>The ones are erased</p>'
     '</div>'
@@ -257,29 +257,29 @@ if $args[0] = "Look at the computer":
         '<p>·What do I want to see?</p>'
         end
 		if Empire_Computer_Content=1:
-        '<p>·The real vote situation：</p>'
+        '<p>·The real vote situation:</p>'
         '<p>·<<$SSYY.name>>543714ticket；<<$QB.name>>431741ticket；<<$SF.name>>214560ticket</p>'
         end
         
 		if Empire_Computer_Content=2:
 			'<p><Courier receipt></p>'
-			'<p>Item description: Weight of medical drug items：10 gram</p>'
-			'<p>Date of receipt：2019year3month1day</p>'
-			'<p>Item description: Building material (gold) item weight：50 kilogram</p>'
-			'<p>Date of receipt：2019year4month2day</p>'
-			'<p>Item description: Weight of medical drug items：20 gram</p>'
-			'<p>Date of receipt：2019year9month9day</p>'
-			'<p>Item description: Weight of medical drug items：50 gram</p>'
-			'<p>Date of receipt：2019year12month20day</p>'
+			'<p>Item description: Weight of medical drug items:10 gram</p>'
+			'<p>Date of receipt:2019year3month1day</p>'
+			'<p>Item description: Building material (gold) item weight:50 kilogram</p>'
+			'<p>Date of receipt:2019year4month2day</p>'
+			'<p>Item description: Weight of medical drug items:20 gram</p>'
+			'<p>Date of receipt:2019year9month9day</p>'
+			'<p>Item description: Weight of medical drug items:50 gram</p>'
+			'<p>Date of receipt:2019year12month20day</p>'
 			'<p>·————·</p>'
 			'<p><Private mail></p>'
 			'<p>·Dear Lord Mayor, how have you slept recently?I found that [Mugou Pharmaceutical] has serious violations, and they are planning to mine the mountains in violation of the law.R&MHowever, if you still want to continue to “rest easy”, please follow the instructions on the attachment and remember to destroy it afterwards.</p>'
-			'<p>·Mail date：2019year4month1day</p>'
+			'<p>·Mail date:2019year4month1day</p>'
 			'<p><Attachment></p>'
 			'<p>·Contact the project leader<<$JM.name>>Immediately shut down the factory and strictly check the financial reports and tax situation of Mugou Pharmaceutical.</p>'
 			'<p><reply></p>'
 			'<p>·Thank you, Lord Mayor, for your help. The political contributions owed to you have been offered to you.In the future, our government and enterprises will continue to cooperate to achieve prosperity and win-win situation!</p>'
-			'<p>·Mail date：2019year4month2day</p>'
+			'<p>·Mail date:2019year4month2day</p>'
         end
         
 		if Empire_Computer_Content=3:
@@ -502,7 +502,7 @@ if $args[0] = "Housekeeping maid2":
     '</div>'
 
     '<div class="dialog_menu">'
-        '<p>Maid chief：<<$Protagonists_surname>> Sir, what are your orders?</p>'
+        '<p>Maid chief:<<$Protagonists_surname>> Sir, what are your orders?</p>'
     '</div>'
 End
 
@@ -515,7 +515,7 @@ if $args[0] = "Main light":
 
     '<div class="dialog_menu">'
         '<p>·A plant in the chandelier at the highest point of the living room is rotting…</p>'
-        '<p>Maid chief：<<$Protagonists_surname>> Sir!We will deal with this plant, so you don`t need to bother with it yourself. </p>'
+        '<p>Maid chief:<<$Protagonists_surname>> Sir!We will deal with this plant, so you don`t need to bother with it yourself. </p>'
     '</div>'
 End
 
@@ -529,8 +529,8 @@ if $args[0] = "Main light1":
 
          '<div class="dialog_menu">'
 			'<p>Me: When you trimmed the ceiling light, you found out*These plants are all you have never seen before.</p>'
-			'<p>Maid chief：<<$Protagonists_surname>> Sir!You hurry down!It`s too dangerous!Just leave these things to us!Please throw the plants you cut down to 【Green plant recycling&In the incineration box], we will destroy it uniformly! </p>'
-			'<p>I：……</p>'
+			'<p>Maid chief:<<$Protagonists_surname>> Sir!You hurry down!It`s too dangerous!Just leave these things to us!Please throw the plants you cut down to 【Green plant recycling&In the incineration box], we will destroy it uniformly! </p>'
+			'<p>I:……</p>'
 			'<p>Maid chief: Don`t do this in the future，<<$Protagonists_surname>> Sir!I will also put back the ladder you moved. </p>'
          '</div>'
 End

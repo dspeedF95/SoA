@@ -31,7 +31,7 @@ if $args[0]="Frowning":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$XY.name>>：*Frowning*Really annoying....Why is it when I am going to class, alas.</p>'
+		'<p><<$XY.name>>:*Frowning*Really annoying....Why is it when I am going to class, alas.</p>'
 		'<p>Me: Teacher, is there anything bothering you?</p>'
 		'<p><<$XY.name>>: You seem to be very free?Accompany me to a place.</p>'
 	'</div>'

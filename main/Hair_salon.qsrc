@@ -51,7 +51,7 @@ if $ARGS[0] ="Price list":
 
 	'<div class="dialog_menu">'
 		'<p>·Apply for a card now and enjoy the recharge immediately1000send1000Great value service!</p>'
-		'<p>·The current balance of the hairdressing card is：<<BarCard>>￥</p>'
+		'<p>·The current balance of the hairdressing card is:<<BarCard>>￥</p>'
 	'</div>'
 
 end
@@ -70,7 +70,7 @@ if $ARGS[0] ="Recharge card":
 
 	'<div class="dialog_menu">'
 		'<p>·Apply for a card now and enjoy the recharge immediately1000send1000Great value service!</p>'
-		'<p>·The current balance of the hairdressing card is：<<BarCard>>￥</p>'
+		'<p>·The current balance of the hairdressing card is:<<BarCard>>￥</p>'
 	'</div>'
 
 end

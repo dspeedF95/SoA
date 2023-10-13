@@ -24,7 +24,7 @@ if D<=0:
 			'<div class="button"><a href="exec:minutes+=5  &money+=MED & medicine=0 & Exp_figure-=RAND(3,10) & gt ''hospital''">Discharged from the hospital</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p>AIBroadcast: Well done, the drug experiment is over, and we have collected enough data.Total commissions received：<<MED>>Yes, but the muscles were damaged.</p>'
+			'<p>AIBroadcast: Well done, the drug experiment is over, and we have collected enough data.Total commissions received:<<MED>>Yes, but the muscles were damaged.</p>'
 		'</div>'
 End
 
@@ -50,7 +50,7 @@ if $args[0]="":
 			end
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p>·Electronic bracelet: ♦Drug grade：<<$Q>>♦Remaining trial period：<<D>>day.*Please strictly abide by the rules of the hospitalization instructions. If you do not sign in to take the medicine, it will be deemed an invalid trial.</p>'
+			'<p>·Electronic bracelet: ♦Drug grade:<<$Q>>♦Remaining trial period:<<D>>day.*Please strictly abide by the rules of the hospitalization instructions. If you do not sign in to take the medicine, it will be deemed an invalid trial.</p>'
 			if $Q="一级" and $Note=1:'<p>·every day8:00-21:00If there is no treatment item, you can walk around the hospital area at will, but please do not leave the jurisdiction of the hospital.</p>'
 			if $Q="二级" and $Note=1:'<p>·1. It is strictly forbidden for experimenters to leave the jurisdiction of the hospital without permission.2. The dean promised that the hospital will be able to treat every patient`s disease well.3. All large-scale and important operations in the hospital were performed by the dean himself, and none of them failed.</p>'
 			if $Q="三级" and $Note=1:'<p><font color="#FF0000">·■■8:■0-2■:00■■Cure■■■，■■■■■■ Gone, but■■■■■■■■■■ range.</font></p>'
@@ -213,12 +213,12 @@ if $args[0]="Enter password":
 			'<p>·Tertiary drugs:Selected and delivered by the municipal government, the specific composition consists of███ and at least sixty-seven different virus strains.The most side effects are usually hallucinations,There is a serious perceptual disorder.Because its feelings are often lifelike and vivid,It can cause anger, sadness, panic, evasion, and even a strong sexual desire or behavioral response.</p>'
 			end
 			if $args[1]="Experimental record":
-			'<p>·Tester：C-310-01(Employed individual) Test: The tester accepted the testmlAfter the tertiary drug injection, the tester was observed for two hours.Result: The tester developed a cough a few hours later and complained of “a little pain” when asked, although he attributed it to the wrong sleeping position.</p>'
-			'<p>·Tester：C-310-02(Former Doctor of Neuroscience) Test: The tester shot██ without his knowledgemlTertiary drugs.And observe.Result: The tester developed stubborn cough symptoms and began to have no less than5Scratching all parts repeatedly.</p>'
-			'<p>·Tester：C-█?-?? (Employed individual)<Data has been deleted></p>'
+			'<p>·Tester:C-310-01(Employed individual) Test: The tester accepted the testmlAfter the tertiary drug injection, the tester was observed for two hours.Result: The tester developed a cough a few hours later and complained of “a little pain” when asked, although he attributed it to the wrong sleeping position.</p>'
+			'<p>·Tester:C-310-02(Former Doctor of Neuroscience) Test: The tester shot██ without his knowledgemlTertiary drugs.And observe.Result: The tester developed stubborn cough symptoms and began to have no less than5Scratching all parts repeatedly.</p>'
+			'<p>·Tester:C-█?-?? (Employed individual)<Data has been deleted></p>'
 			'<p>·Tester:███-99(Employed individual) Test: The tester accepted4.371mlAfter the third-level drug injection, the tester is not less than576hours(7day)Observation.Comprehensive assessment: The tester has one or more grotesque delusions and does not have any other symptoms of the disease.Tests show that the cure rate of other diseases is up to99.997，, it can be determined whether it is effective by the number of病毒病毒病毒 virus strains in semen.</p>'
 			'<p>·Appendix#C-310-999-01: [Dialogue begins] French) "So how do we start, introduce ourselves?Russian) “Devil!demon......What a joke!You are all demons!"Russian) "Let`s get back to the topic, the cancer cells in your body have completely disappeared."French) "Doctor!Broaden your horizons!Life and death, disease and health, are all amateur terms for amateur doctors.There is only one disease in the world!”</p>'
-			'<p>·Appendix#C-310-999-0：: [Dialogue begins] French) "Dean, what do you think?”“Peu importe, continue à essayer.”[End of conversation]</p>'
+			'<p>·Appendix#C-310-999-0:: [Dialogue begins] French) "Dean, what do you think?”“Peu importe, continue à essayer.”[End of conversation]</p>'
 			end
 			if $args[1]="Registered items":
 			'<p>·Happy dream plan: Through quasi-biological radio wave technology, when the experimenter enters the stage of rapid eye movement sleep, he will first experience a vivid warm dream without exception.because1984-AlphaTechnology has erased the negative emotions and negative thoughts in my mind.After waking up, the object will have a strong sense of relief and spiritual pleasure.Within the next three days, the subjects will report that they feel happier and more willing to participate in social activities.—— </p>'
@@ -245,9 +245,9 @@ if $args[0]="Archive_li":
 			'<p>·Grade物object:by█████，████ Sixty different virus strains are included by█和和 and六十包括包括.The side effect of █为 is to make people produce██,There was a serious臆臆臆臆 imagination.From感受感受 feeling逼真逼真 realistic逼真█,Can愤怒愤怒 anger,恐惧、, fear,乃至乃至 and even produce strong性欲性欲libido or幻觉幻觉hallucinations.</p>'
 			end
 			if $args[1]="Experimental record":
-			'<p>·Surgical records：202█-0█-█，, night█夜晚:15points.“Doctor!I order you to immediately stop the treatment of a bed of wounded people!Priority is given to the rescue of the injured in the second bed!"Life is equal, he is not my patient!"You let the medical director deal with the wounded in the second bed!" "The director is still hungover.The second-bed injured person is from the企业企业企业 enterprise!”It has nothing to do with me who he is”" "Dean!The director is almost awake from drinking!The patient has severe intracranial bleeding and needs immediate surgery!”</p>'
-			'<p>·Appendix#Postoperative record:A bed of wounded：Frank Gallagher(Unpaid medical bills, theft of prescription drugs, blacklisted) [#The doctor shall pay the medical expenses in advance and bear full responsibility and corresponding penalties] Two-bed injured person：<<$Protagonists_surname>> （ （ (Recovery after hemorrhagic stroke is not ideal, he has fallen into a coma)</p>'
-			'<p>·Tester：C-█?-?? (Employed individual)<Data has been deleted></p>'
+			'<p>·Surgical records:202█-0█-█，, night█夜晚:15points.“Doctor!I order you to immediately stop the treatment of a bed of wounded people!Priority is given to the rescue of the injured in the second bed!"Life is equal, he is not my patient!"You let the medical director deal with the wounded in the second bed!" "The director is still hungover.The second-bed injured person is from the企业企业企业 enterprise!”It has nothing to do with me who he is”" "Dean!The director is almost awake from drinking!The patient has severe intracranial bleeding and needs immediate surgery!”</p>'
+			'<p>·Appendix#Postoperative record:A bed of wounded:Frank Gallagher(Unpaid medical bills, theft of prescription drugs, blacklisted) [#The doctor shall pay the medical expenses in advance and bear full responsibility and corresponding penalties] Two-bed injured person:<<$Protagonists_surname>> （ （ (Recovery after hemorrhagic stroke is not ideal, he has fallen into a coma)</p>'
+			'<p>·Tester:C-█?-?? (Employed individual)<Data has been deleted></p>'
 			end
 			if $args[1]="Registered items":
 			'<p>·梦梦Dream Plan: Through恐惧恐惧Fear术术 Technique进入进入进入进入 Enter the阶段窒息suffocation阶段阶段stage无无无无without exception体验体验Experience the nightmare of动动动动 movement.██1984-Alpha脑脑脑Brain负面负面负面negative负面和 and negative抹抹 erase.After waking up, the object will be强烈强烈强烈 strong濒near death精神精神精神mentally happy.█Within the next天days, the subject will称称say感到feel more更并 and lose consciousness after saying the key word "██".——"In█CeP█tIO nSpirit controller"</p>'
@@ -342,7 +342,7 @@ if $args[0]="Relatives and friends visit":
 			'<div class="buttonB"><a href="exec:minutes+=15 & gt ''Daily_drug_test'',''Relatives and friends visit2''">View list</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p>·Nurse: patient：<<$Protagonist`s_name>>, In order to prevent cross-infection, the number of visitors per hospital bed should not exceed2people.</p>'
+			'<p>·Nurse: patient:<<$Protagonist`s_name>>, In order to prevent cross-infection, the number of visitors per hospital bed should not exceed2people.</p>'
 		'</div>'
 End
 

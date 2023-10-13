@@ -66,8 +66,8 @@ if $args[0]="Bulletin board":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·Real-time approval rating：</p>'
-		'<p>▍<<$XZ.name>>Approval rating：<<XZApprovalrating>>%▼	▍<<$FXZ.name>>Approval rating：<<FXZApprovalrating>>%▲	▍Other support：<<Otherapprovalratings>>%</p>'
+		'<p>·Real-time approval rating:</p>'
+		'<p>▍<<$XZ.name>>Approval rating:<<XZApprovalrating>>%▼	▍<<$FXZ.name>>Approval rating:<<FXZApprovalrating>>%▲	▍Other support:<<Otherapprovalratings>>%</p>'
 		'<p>✦✧✩✦✧✩✦✧✩✦✧✦✧✩✦✧✩✦✧✩✦✧</p>'
 		'<p>✩ <<$FXZ.name>>❤<<$XY.name>>=<<FXZ_XY>>/10✧</p>'    
 		'<p>✩ <<$XZ.name>>❤<<$SW.name>> =<<SW_XZ>>/10✧</p>'    
@@ -125,7 +125,7 @@ if $args[0]="News interview":
 		'</div>'
 
 		'<div class="dialog_menu">'
-			'<p>News anchor：<<$Panting>>The following brings you a live report…</p>'
+			'<p>News anchor:<<$Panting>>The following brings you a live report…</p>'
 			'<p>Me: "News Squirting Endurance Race" has actually spread to the location?</p>'
 		'</div>'
 

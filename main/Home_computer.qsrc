@@ -234,7 +234,7 @@ if $args[0] = 'Private message':
 	'<div class="dialog_menu">'
 		'<p>Me: Hello!</p>'
 		'<p><Automatic reply>Auto-reply: Please include location and age in private messages. Genuine meetups only, no tricks! Can just meet up or have intimate encounters.</p>'
-		'<p>Me： ...</p>'
+		'<p>Me: ...</p>'
 	'</div>'
 End
 

@@ -99,9 +99,9 @@ if $args[0]="reply":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>I：<<$sw.name>>Dissatisfied with the sharp decline in the number of boys in school，<<$XY.name>>On the surface, it is undecided, but in fact it has been<<$fxz.name>>Win over，<<$fxz.name>>Naturally, I have a grudge against you and hope to replace it.</p>'
+		'<p>I:<<$sw.name>>Dissatisfied with the sharp decline in the number of boys in school，<<$XY.name>>On the surface, it is undecided, but in fact it has been<<$fxz.name>>Win over，<<$fxz.name>>Naturally, I have a grudge against you and hope to replace it.</p>'
 		'<p><<$XZ.name>>: Similar to what I expected, I really need a spy to pass me information at all times.</p>'
-		'<p>I：........</p>'
+		'<p>I:........</p>'
 		'<p><<$XZ.name>>: This is a good job. I now approve you to join the school picket team.</p>'
 	'</div>'
 End

@@ -200,16 +200,16 @@ if $args[0] ='Secret office':
 		if Secretofficedialogue=1:
 			'<p><Contract: Lease agreement></p>'
 			'<p>·The Municipal Government Department of this city has confirmed that it will provide Party B with 【MountainsR&MArea] As the right to use the land for commercial development, the lease term is15year.Party B shall be solely responsible for the maintenance and maintenance of all facilities and equipment of the landmark during the lease period.Party B shall pay Party A before signing this agreement【1000The deposit of 10,000 yuan], the deposit will be returned to Party B after the expiration of the lease.</p>'
-			'<p>·Start date：2015year1month1day</p>'
+			'<p>·Start date:2015year1month1day</p>'
 		end
 		if Secretofficedialogue=2:
 			'<p><Private mail></p>'
 			'<p>·Dear Lord Mayor, how have you slept recently?I found that [Mugou Pharmaceutical] has serious violations, and they are planning to mine the mountains in violation of the law.R&MHowever, if you still want to continue to “rest easy”, please follow the instructions on the attachment and remember to destroy it afterwards.</p>'
-			'<p>·Mail date：2019year4month1day</p>'
+			'<p>·Mail date:2019year4month1day</p>'
 			'<p>·————·</p>'
 			'<p><reply></p>'
 			'<p>·Thank you, Lord Mayor, for your help. The political contributions owed to you have been offered to you.In the future, our government and enterprises will continue to cooperate to achieve prosperity and win-win situation!</p>'
-			'<p>·Mail date：2019year4month2day</p>'
+			'<p>·Mail date:2019year4month2day</p>'
 		end
 		if Secretofficedialogue=3:
 			'<p>▌▋▋▨▧▦▎</p>'
@@ -218,25 +218,25 @@ if $args[0] ='Secret office':
 		end
 		if Secretofficedialogue=4:
 			'<p><Courier receipt></p>'
-			'<p>Item description: Weight of medical drug items：10 gram</p>'
-			'<p>Date of receipt：2019year3month1day</p>'
-			'<p>Item description: Weight of building materials：50 kilogram</p>'
-			'<p>Date of receipt：2019year4month2day</p>'
-			'<p>Item description: Weight of medical drug items：20 gram</p>'
-			'<p>Date of receipt：2019year9month9day</p>'
-			'<p>Item description: Weight of medical drug items：50 gram</p>'
-			'<p>Date of receipt：2019year12month20day</p>'
+			'<p>Item description: Weight of medical drug items:10 gram</p>'
+			'<p>Date of receipt:2019year3month1day</p>'
+			'<p>Item description: Weight of building materials:50 kilogram</p>'
+			'<p>Date of receipt:2019year4month2day</p>'
+			'<p>Item description: Weight of medical drug items:20 gram</p>'
+			'<p>Date of receipt:2019year9month9day</p>'
+			'<p>Item description: Weight of medical drug items:50 gram</p>'
+			'<p>Date of receipt:2019year12month20day</p>'
 		end
 		if Secretofficedialogue=5:
 			'<p><Search history></p>'
 			'<p>Search content: recruitment of secretaries, recruitment of maids, recruitment of chefs</p>'
-			'<p>Search date：2019year2month19day</p>'
+			'<p>Search date:2019year2month19day</p>'
 			'<p>Search content: Insomnia, headache, auditory hallucinations, delusions?</p>'
-			'<p>Search date：2019year2month25day</p>'
+			'<p>Search date:2019year2month25day</p>'
 			'<p>Search content: illegal mining, ecological destruction, penalties and regulations</p>'
-			'<p>Search date：2019year4month1day</p>'
+			'<p>Search date:2019year4month1day</p>'
 			'<p>Search content: Atheism, demons, hallucinations, hazards of drug abuse</p>'
-			'<p>Search date：2019year12month20day</p>'
+			'<p>Search date:2019year12month20day</p>'
 		end
 		if Secretofficedialogue=6:
 			'<p><To: All City Hall administrative staff></p>'
@@ -245,12 +245,12 @@ if $args[0] ='Secret office':
 			'<p>·The mayor`s dedication to civic service and his great contribution to the development of the city will never be forgotten.In order to ensure the stable operation of the city and ensure the services of citizens, the municipal government has appointed the next mayor.</p>'
 			'<p>·Please believe that the new mayor will serve the citizens with the highest efficiency and sincerity, and strive to promote the development of the city.We hope that the public can provide strong support for the appointment of the new mayor.</p>'
 			'<p>·Thank you!</p>'
-			'<p>Date of receipt：2019year12month21day</p>'
+			'<p>Date of receipt:2019year12month21day</p>'
 		end
 		if Secretofficedialogue=7:
 		 	TXM=MS.power*100/(100+MS.power)
 			'<p><Business remuneration of artists under his command></p>'
-			'<p>·total：<<OMoney>>￥</p>'
+			'<p>·total:<<OMoney>>￥</p>'
 			'<p>·————————————</p>'
 			'<p>☺Based on the ability of the secretary【<<MS.power>>】 Can legally avoid taxes and transfer<<TXM>>%To personal account.</p>'
 			'<p>▌<a href="exec:money+=OMoney*TXM/100  & OMoney=0 & gt ''Big_villa'',''Secret office''">【Withdrawal】</a></p>'
@@ -319,11 +319,11 @@ if $args[0] ='Training room':
 
 	'<div class="dialog_menu">'
 		'<p>·In the training room, I didn`t expect the former mayor to have this kind of hobby.…</p>'
-		if $SSYY.Restraint=1:'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SSYY.name>>】</a></p>'else'<p>On the leather bench：<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
-        if $QB.Restraint=1:'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$QB.name>>】</a></p>'else'<p>开Open leg restraint chair：<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
-        if $SF.Restraint=1:'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SF.name>>】</a></p>'else'<p>大On the big bed：<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+		if $SSYY.Restraint=1:'<p>On the leather bench:<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SSYY.name>>】</a></p>'else'<p>On the leather bench:<a href="exec:$m=''SSYY'' & $ma=$SSYY.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+        if $QB.Restraint=1:'<p>开Open leg restraint chair:<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$QB.name>>】</a></p>'else'<p>开Open leg restraint chair:<a href="exec:$m=''QB'' & $ma=$QB.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+        if $SF.Restraint=1:'<p>大On the big bed:<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$SF.name>>】</a></p>'else'<p>大On the big bed:<a href="exec:$m=''SF'' & $ma=$SF.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
         if $TS.room=1:
-			if $TS.Restraint=1:'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$TS.name>>】</a></p>'else'<p>漆漆Patent leather bed：<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
+			if $TS.Restraint=1:'<p>漆漆Patent leather bed:<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【<<$TS.name>>】</a></p>'else'<p>漆漆Patent leather bed:<a href="exec:$m=''TS'' & $ma=$TS.name & gt ''Group_performation_event'',''Universal_Fuck_Training room''">【No one】</a></p>'
 		end
 	'</div>'
 end
@@ -350,7 +350,7 @@ if $args[0] ='Recruitment of maids':
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·We are looking for a passionate, responsible, organized and housework-capable maid.This maid will be responsible for the operation and maintenance of the daily affairs of the family. We hope that this maid has the following skills and qualities：</p>'
+		'<p>·We are looking for a passionate, responsible, organized and housework-capable maid.This maid will be responsible for the operation and maintenance of the daily affairs of the family. We hope that this maid has the following skills and qualities:</p>'
 		'<p>·Proficient in housework, including laundry, cooking, cleaning, etc.</p>'
 		'<p>·Able to provide efficient, professional and thoughtful private services</p>'
 		'<p>·Have good communication and interpersonal skills, and can maintain good relations with villa members and visitors</p>'

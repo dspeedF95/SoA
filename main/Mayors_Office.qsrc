@@ -37,7 +37,7 @@ if $ARGS[0]="":
 		'<p>·Plan ahead: plan ahead, avoid regrets, take responsibility, and don`t run away</p>'
 		'<p>·Dare to take responsibility: we will not evade responsibility for wrong decisions, but take it bravely and make necessary changes.</p>'
 		'<p>·——————————————</p>'
-		'<p>·However, it was ridiculed by the citizens as a typical example of being brainless.20The word value is misinterpreted as：</p>'
+		'<p>·However, it was ridiculed by the citizens as a typical example of being brainless.20The word value is misinterpreted as:</p>'
 		'<p>·Flatter the upper echelons; pat your forehead to decide; pat your chest to guarantee; pat your thighs to regret, pat your ass and leave</p>'
 	'</div>'
 end
@@ -109,8 +109,8 @@ if $ARGS[0]="Urban Construction Minister`s Office":
 		if  $Thebosssuspendedtheinvestigation=1 and $Bossonthetop>=3 and $Thethiefwascaught>=2:'<div class="buttonR3"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama2''">Description: Camping area</a></div>'
 
 		
-		if $CJ.Reportup>=2 and $YJB_CJ=0:'<div class="buttonB5"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field：<<$JYB.name>></a></div>'
-		if $CJ.Reportup>=2 and $YJB_CJ>0 and rand(0,100)>=95:'<div class="buttonB5"><a href="exec:a=4 & gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field：<<$JYB.name>></a></div>'
+		if $CJ.Reportup>=2 and $YJB_CJ=0:'<div class="buttonB5"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field:<<$JYB.name>></a></div>'
+		if $CJ.Reportup>=2 and $YJB_CJ>0 and rand(0,100)>=95:'<div class="buttonB5"><a href="exec:a=4 & gt ''Urban_construction_Event'',''Urban construction_Fuck_Clear the field1''">Clear the field:<<$JYB.name>></a></div>'
 
 		if $Bossonthetop=999:
 			if $CJ.tendencyB!1:'<div class="buttonS"><a href="exec:gt ''Urban_construction_Event'',''Urban construction_Fuck_home1''">Buoyancy: Skip work and make an appointment</a></div>'else'<div class="buttonGr"><a href="exec:"><del>Buoyancy: Skip work and make an appointment</del></a></div>'
@@ -169,13 +169,13 @@ if $ARGS[0]="Adjutant`s Office":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p><<$LB.name>>：<<$Protagonist`s_name>>, Help me eat the urban construction department together❤</p>'
+		'<p><<$LB.name>>:<<$Protagonist`s_name>>, Help me eat the urban construction department together❤</p>'
 		if $Adjutantdialogue=1:
 		'<p>Me: Happy to help.</p>'
 		'<p><<$LB.name>>: Since the fire in the camping area, the citizens have paid special attention to the problem of cleaning up flammable garbage. Go and see the garbage removal situation in the camping area.</p>'
 		if $Campinggarbage=0:$Campinggarbage=1
 		end
-		'<p>·Citizens` satisfaction with the Ministry of Urban Construction：<<Urbanconstructionsatisfaction>>%</p>'
+		'<p>·Citizens` satisfaction with the Ministry of Urban Construction:<<Urbanconstructionsatisfaction>>%</p>'
 	'</div>'
 end
 

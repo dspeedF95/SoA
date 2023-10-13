@@ -90,9 +90,9 @@ if $args[0] ='Kabukicho Fighting':
 		'<p>Sledgehammergang members: Hey, you look like a rich man!Tickets for Kabukicho are5,000So, I advise you to pay obediently. If you don`t buy it, you will have to suffer!</p>'
 		'<p>·——————·</p>'
 		$Ilikeit_1=my.intelligence+my.Physical_strength
-		'<p>·My intelligence：Lv<<my.intelligence>>; Physical fitness：Lv<<my.Physical_strength>>;Combat effectiveness=<<$Ilikeit_1>></p>'
+		'<p>·My intelligence:Lv<<my.intelligence>>; Physical fitness:Lv<<my.Physical_strength>>;Combat effectiveness=<<$Ilikeit_1>></p>'
 		$Enemycombateffectiveness_1=10+rand(1,10)
-		'<p>·Number of opponents：3; Comprehensive combat effectiveness=<<$Enemycombateffectiveness_1>></p>'
+		'<p>·Number of opponents:3; Comprehensive combat effectiveness=<<$Enemycombateffectiveness_1>></p>'
 		$Sledgehammerdroprate=100/($Ilikeit_1-$Enemycombateffectiveness_1)
 		$Numberofsledgehammersdropped=rand(5,100)
 		'<p>·Sledgehammerdroprate(<<$Sledgehammerdroprate>>%)=100/(Combat effectiveness difference)</p>'

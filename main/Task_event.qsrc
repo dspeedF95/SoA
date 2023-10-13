@@ -133,8 +133,8 @@ if $ARGS[0]="Play tennis2":
 		'</div>'
 		
 		'<div class="dialog_menu">'
-		'<p>My physique：Lv<<my.Physical_strength>></p>'
-		'<p>Her physique：Lv<<$Tennisgirlnumber>></p>'
+		'<p>My physique:Lv<<my.Physical_strength>></p>'
+		'<p>Her physique:Lv<<$Tennisgirlnumber>></p>'
 		'<p>▶Random event judgment◀</p>'
 		'<p>Me: Easy!Come again!</p>'
 		'<p>Tennis girl: Little brother, you are so good!</p>'
@@ -147,8 +147,8 @@ if $ARGS[0]="Play tennis2":
 		'</div>'
 		
 		'<div class="dialog_menu">'
-		'<p>My physique：Lv<<my.Physical_strength>></p>'
-		'<p>Her physique：Lv<<$Tennisgirlnumber>></p>'
+		'<p>My physique:Lv<<my.Physical_strength>></p>'
+		'<p>Her physique:Lv<<$Tennisgirlnumber>></p>'
 		'<p>▶Random event judgment◀</p>'
 		'<p>Me: Damn it!Why can`t I catch a ball?!</p>'
 		'<p>Tennis girl: Little brother, can you do it?</p>'
@@ -271,7 +271,7 @@ if $ARGS[0]="Hunting_passersby":
 	'<div class="dialog_menu">'
 	'<p>▶Random event trigger◀</p>'
 	'<p>Anxious woman: My boyfriend said I was fat again. Oh, should I have liposuction?Strange, the man who came over from the opposite side didn`t even look at me. Am I not sexy enough?</p>'
-	'<p>▶The difficulty of persuading women：<<Huntingdifficulty>>◀</p>'
+	'<p>▶The difficulty of persuading women:<<Huntingdifficulty>>◀</p>'
 	if q=2:
 		'<p>Me: The heart of beauty,Every woman is born with it,Even if it`s not pleasing to yourself,Also beautiful for yourself.Regardless of age,Have a beautiful heart,Pay money and action for the beauty of one`s appearance,It`s all taken for granted.It just so happens that I know that there is a place where medical beauty and plastic surgery are super awesome…</p>'
 		if Huntingdifficulty>my.intelligence*10:

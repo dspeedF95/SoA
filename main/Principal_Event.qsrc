@@ -72,14 +72,14 @@ if $args[0]="XZ_Fuck_Early morning training":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>I:Master principal, are you cool enough?If you have enough fun, accompany me to the principal`s office.It`s troublesome to be photographed here.</p>'
-			 '<p><<$XZ.name>>：…………</p>'
+			 '<p><<$XZ.name>>:…………</p>'
 		 '</div>'
 	end
 
 	if 7>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>I:As long as you cooperate obediently, I promise that no third person will know about this matter.If the members of the school picket team knew that you were a crazy headmistress, would they gang rape you?</p>'
-			 '<p><<$XZ.name>>：…………</p>'
+			 '<p><<$XZ.name>>:…………</p>'
 		 '</div>'
 	end
 
@@ -87,7 +87,7 @@ if $args[0]="XZ_Fuck_Early morning training":
 	if a=8:
 		 '<div class="dialog_menu">'
 			 '<p>I:Your eyes seem to tell me you still want it?</p>'
-			 '<p><<$XZ.name>>：…………</p>'
+			 '<p><<$XZ.name>>:…………</p>'
 		 '</div>'
 	end
 
@@ -161,7 +161,7 @@ if $args[0]="XZ_Fuck_Early morning":
 
 	if 6>=a and a>=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$XZ.name>>：<<$Panting>><<$words>></p>'
+			 '<p><<$XZ.name>>:<<$Panting>><<$words>></p>'
 		 '</div>'
 	end
 
@@ -245,13 +245,13 @@ if $args[0]="XZ_Fuck_Sexual_harassment":
 	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>I:It`s okay, your classroom discipline is so strict, no student will find out.</p>'
-			 '<p><<$XZ.name>>：<<$Panting>></p>'
+			 '<p><<$XZ.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 
 	if 7>=a and a>=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$XZ.name>>：<<$Panting>></p>'
+			 '<p><<$XZ.name>>:<<$Panting>></p>'
 		 '</div>'
 	end
 

@@ -110,7 +110,7 @@ if $args[0]="First meeting":
 		'<p><<$ZJ.name>>: What?!Do you think I have a mental problem?!</p>'
 		'<p><<$FXZ.name>>: You refuse to tell your mother anything, are you going to piss me off?!</p>'
 		'<p><<$ZJ.name>>: I`m so annoying, I told you to leave me alone!If it`s okay, I`m going back to my room!</p>'
-		'<p><<$FXZ.name>>：<<$Protagonist`s_name>>!You hurry up and think of a way!</p>'
+		'<p><<$FXZ.name>>:<<$Protagonist`s_name>>!You hurry up and think of a way!</p>'
 	'</div>'
 End
 
@@ -266,7 +266,7 @@ if $args[0]="Second meeting1":
 		'<p><<$ZJ.name>>: Then I`ll try it.</p>'
 		'<p><<$ZJ.name>>: "My brother rubbed my chest with his huge hands....brother..Hurry up....My nipples have stood up...Hurry up..continue...It`s already wet below...brother..I want you to reach in....I really want it...”</p>'
 		'<p>Me: Look, isn`t this great?</p>'
-		'<p><<$ZJ.name>>：!!!really?!This lady is now full of inspiration!!I want to update the chapter right away!!Thank you!!</p>'
+		'<p><<$ZJ.name>>:!!!really?!This lady is now full of inspiration!!I want to update the chapter right away!!Thank you!!</p>'
 		'<p>·He closed the door abruptly, and it seemed that he could only continue next time.</p>'
 		$ZJ_Event_count=1
 		$ZJ.love+=5+my.charm
@@ -304,7 +304,7 @@ if $args[0]="Second meeting2":
 		'<p>Me: Go on!</p>'
 		'<p><<$ZJ.name>>: My sister is already wet under...brother..I want you to plug in....I really want it....brother....I really want your big meat stick..</p>'
 		'<p>Me: Look, isn`t this great?</p>'
-		'<p><<$ZJ.name>>：!!!really?!This lady is now full of inspiration!!I want to update the chapter right away!!Thank you!!</p>'
+		'<p><<$ZJ.name>>:!!!really?!This lady is now full of inspiration!!I want to update the chapter right away!!Thank you!!</p>'
 		'<p>·He closed the door abruptly, and it seemed that he could only continue next time.</p>'
 		$ZJ_Event_count=2
 		$ZJ.love+=5+my.charm

@@ -107,7 +107,7 @@ if $ARGS[0]="Color code1":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·<<$CJ.name>>The character tendency can be reset：</p>'
+		'<p>·<<$CJ.name>>The character tendency can be reset:</p>'
 		'<p>·<a href="exec:$CJ.tendency=0 &$CJ.tendencyG=0 & $CJ.tendencyB=0 & gt ''mysterious''">【Reset to0】</a></p>'
 	'</div>'
 End
@@ -139,7 +139,7 @@ if $ARGS[0]="Color code3":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>·Citizens` urban construction satisfaction can be rewritten：</p>'
+		'<p>·Citizens` urban construction satisfaction can be rewritten:</p>'
 		'<p>·<a href="exec:Urbanconstructionsatisfaction=999 & gt ''mysterious''">【+999】</a></p>'
 		'<p>·<a href="exec:Urbanconstructionsatisfaction=0 & gt ''mysterious''">【Reset to0】</a></p>'
 		'<p>·<a href="exec:Urbanconstructionsatisfaction=-999 & gt ''mysterious''">【-999】</a></p>'

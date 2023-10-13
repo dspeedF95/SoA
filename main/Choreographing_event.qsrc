@@ -431,7 +431,7 @@ if $args[0]="Video conference":
 		 '<div class="dialog_menu">'
 			 '<p><<$BD.name>>: So close, I almost missed it……</p>'
 			 '<p>Conference speaker: Regarding this matter, I will say a few simple words, you can understand it. All in all, this matter is now the situation. Everyone can see the specific ones, and they can also say a few words. Maybe, you don`t understand it very well, but the meaning is what it means. If you don`t know it, you don`t have to guess it. I have seen a lot of this kind of thing. I just want to say that I understand everything I know, and I don`t explain much if I don`t understand it. After all, it`s good to know it by yourself. Savor it carefully.Don`t ask me what`s wrong. The interests are too involved. It`s not good for you and me to say it. Just don`t know. For the rest, I can only say that the water is very deep and many things are involved.</p>'
-			 '<p><<$BD.name>>：……</p>'
+			 '<p><<$BD.name>>:……</p>'
 			 '<p><<$BD.name>>: Why is he here to host again?Every time I speak, it`s stinky and long, and it`s bullshit for a long time.</p>'
 		 '</div>'
 	end
@@ -460,7 +460,7 @@ if $args[0]="Video conference":
 		 $BD.love+=q+my.charm
 		 $BD.bad+=q
 		 '<div class="dialog_menu">'
-			 '<p>Conference speaker：<<$BD.name>>, Do you have anything to add?</p>'
+			 '<p>Conference speaker:<<$BD.name>>, Do you have anything to add?</p>'
 			 '<p><<$BD.name>>:No...there is.</p>'
 			 '<p>Speaker of the meeting: Okay, at the end of the meeting, let me add a few more words.……</p>'
 			 '<p><<$BD.name>>:Uh... give me the tissue... the semen is still in my mouth.…</p>'
@@ -482,7 +482,7 @@ if $ARGS[0]="Choreographer_Fuck_Meeting settlement":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>Conference speaker：<<$BD.name>>, Do you have anything to add?</p>'
+		'<p>Conference speaker:<<$BD.name>>, Do you have anything to add?</p>'
 		'<p><<$BD.name>>:  Wait a minute wait a minute wait a minute!Stop it, I`m going to speak.Put your dick away!</p>'
 		'<p>I: Is that so?Why do I think you are afraid?</p>'
 		'<p><<$BD.name>>: Crazy you!My job is much more important than your dick!</p>'
@@ -563,7 +563,7 @@ if $args[0]="Video conference2":
 		 $BD.love-=25
 		 $BD.bad+=q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p>Conference speaker：<<$BD.name>>, are you still there?Why is the camera blocked by clothes?</p>'
+			 '<p>Conference speaker:<<$BD.name>>, are you still there?Why is the camera blocked by clothes?</p>'
 			 '<p><<$BD.name>>:Uh... I have something going on... well, it`s being processed!</p>'
 			 '<p>·You calmed down in an instant when you entered the Sage time... looking at her at a loss.…</p>'
 			 '<p><<$BD.name>>:Before I get angry, you`d better disappear from my eyes quickly!</p>'
@@ -698,7 +698,7 @@ if $args[0]="hotel":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$BD.name>>: It`s all here... it`s not necessarily here for dinner, is it?What are you still doing in a daze, why don`t you go take a shower?</p>'
-			 '<p>I：……</p>'
+			 '<p>I:……</p>'
 			 '<p><<$BD.name>>: What`s the matter?</p>'
 		 '</div>'
 	end
@@ -903,7 +903,7 @@ if $args[0]="Office nightC":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>：<<$Panting>>…...dead ghost❤</p>'
+			 '<p><<$BD.name>>:<<$Panting>>…...dead ghost❤</p>'
 		 '</div>'
 	end
 
@@ -1319,7 +1319,7 @@ if $args[0]="Soy milk":
 		 '<div class="dialog_menu">'
 			 '<p>Me: Give me a break.</p>'
 			 '<p>???:sister!!</p>'
-			 '<p><<$BD.name>>：?!?!wait!</p>'
+			 '<p><<$BD.name>>:?!?!wait!</p>'
 			 '<p>Me: Call-saved……</p>'
 		 '</div>'
 	end

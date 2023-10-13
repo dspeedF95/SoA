@@ -638,10 +638,10 @@ if $args[0]="LJZL_Fuck_inverse3P":
 			'<div class="button"><a href="exec:a=2 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Double service</a></div>'
 			end
 			if 5>=a and 5>=q and q>=2:
-			'<div class="buttonB"><a href="exec:a=3 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port：<<$LJ.name>></a></div>'
+			'<div class="buttonB"><a href="exec:a=3 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port:<<$LJ.name>></a></div>'
 			end
 			if 2<=a and 5>=q and q>=2:
-			'<div class="buttonP"><a href="exec:a=4 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port：<<$ZL.name>></a></div>'
+			'<div class="buttonP"><a href="exec:a=4 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">Main port:<<$ZL.name>></a></div>'
 			end
 			if a!5 and 8>q and q>=4:
 			'<div class="buttonB"><a href="exec:a=5 & gt ''Repeating_event'',''LJZL_Fuck_inverse3P''">fuck<<$LJ.name>></a></div>'

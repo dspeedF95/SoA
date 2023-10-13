@@ -85,7 +85,7 @@ if $args[0]="":
 			'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test'',''Nurse station''">返回Back↓</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p><<$HS.name>>：310The patient was discharged from the hospital without saying a word. Although he was quite excessive, he didn`t know if he could live alone.~</p>'
+			'<p><<$HS.name>>:310The patient was discharged from the hospital without saying a word. Although he was quite excessive, he didn`t know if he could live alone.~</p>'
 		'</div>'
 	 end
 End
@@ -202,7 +202,7 @@ if $args[0]="Departure":
 			if $args[1]!"":'<div class="button"><a href="exec:minutes+=15 & gt ''Daily_drug_test''">leave</a></div>'
 		'</div>'
 		'<div class="dialog_menu">'
-			'<p>AIwarning：J3Non-researchers on the way have been detected in the area, please leave the area quickly.</p>'
+			'<p>AIwarning:J3Non-researchers on the way have been detected in the area, please leave the area quickly.</p>'
 			'<p>*You suddenly remembered that there is only one doctor uniform.Means only one person can pass....</p>'
 			'<p>310Patient: Bring it!I know you secretly hid a doctor`s uniform!</p>'
 			if $args[1]="Give him a doctor`s uniform":

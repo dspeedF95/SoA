@@ -134,7 +134,7 @@ if $args[0] ='inputDLCreward':
 
 	'<div class="dialog_menu">'
 		'<p>·The holy seal has been destroyed, and the king is gone.</p>'
-		'<p>奖励The reward content is：</p>'
+		'<p>奖励The reward content is:</p>'
 		'<p>存档Archive Binding equipment [Devils_Pupil]: Measurements (Charm/intelligence/Physique)+5 , The upper limit of Physical_strength+299  , Exclusive title and a brand new logo</p>'
 		'<p>转Optional identity for reincarnation+1[Return from Another world]: The initial money is100Ten thousand, measurements (charm/intelligence/Physique) are all10, The initial energy is999</p>'
 		'<p>【【Devils_Pupil】 Special Effect: Can be reincarnated unlimited times</p>'
@@ -183,7 +183,7 @@ if $args[0] ='Krypton cheating2':
 	'<div class="dialog_menu">'
 		'<p>·Krypton gold, if you have money, you are naturally in charge.</p>'
 		'<p>·————————Can`t open and change browser————————</p>'
-		'<p>·Purchase address：<a href="https://airtable.com/appN01gXZnqIOJdlW/shrKesdkWdzO4mzMi">https://airtable.com/appN01gXZnqIOJdlW/shrKesdkWdzO4mzMi</a></p>'
+		'<p>·Purchase address:<a href="https://airtable.com/appN01gXZnqIOJdlW/shrKesdkWdzO4mzMi">https://airtable.com/appN01gXZnqIOJdlW/shrKesdkWdzO4mzMi</a></p>'
 		'<p>·————————————————————————</p>'
 		'<p>·Please log in with your computer for the payment url. If you log in on the mobile phone, you will not receive the card password.</p>'
 		'<p>·If you can see this passage，v44.4The picture that needs to be clicked in the version has changed. The reason is that some players still successfully leaked the password. It`s really awesome. I have to make another one.</p>'

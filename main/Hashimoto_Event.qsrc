@@ -318,7 +318,7 @@ if $args[0]="QB_Fuck_Sleep aid":
              '<p><<$QB.name>>: Agent... no, no... I feel like I can`t do it at all……</p>'
              '<p>I:What`s the matter……</p>'
              '<p><<$QB.name>>: What if... what if I... what if I can`t do it well?…</p>'
-             '<p>♯ Her pressure value：75</p>'
+             '<p>♯ Her pressure value:75</p>'
 
          '</div>'
     end
@@ -425,7 +425,7 @@ if $args[0]="QB_Fuck_Aid1":
          '<div class="dialog_menu">'
              '<p>Self-media person: What a fully developed idol... I will definitely canvass votes for you!</p>'
              '<p><<$QB.name>>: <<$Panting>></p>'
-             '<p>♯ Her pressure value：<<QB.pressure>></p>'
+             '<p>♯ Her pressure value:<<QB.pressure>></p>'
          '</div>'
     end
 
@@ -435,7 +435,7 @@ if $args[0]="QB_Fuck_Aid1":
              '<p>I:Ahem...almost!</p>'
              '<p><<$QB.name>>: ……………</p>'
              '<p>Self-media person: That`s great... The store manager who said you had a plastic surgery must be making rumors!I`ll write the manuscript right away…</p>'
-             '<p>♯ Her pressure value：<<QB.pressure>></p>'
+             '<p>♯ Her pressure value:<<QB.pressure>></p>'
          '</div>'
     end
 
@@ -493,7 +493,7 @@ if $args[0]="QB_Fuck_Aid2":
          '<div class="dialog_menu">'
              '<p>Black powder head: The smell of good fragrance... is completely different from the strong smell I imagined!</p>'
              '<p><<$QB.name>>: <<$Panting>></p>'
-             '<p>♯ Her pressure value：<<QB.pressure>></p>'
+             '<p>♯ Her pressure value:<<QB.pressure>></p>'
          '</div>'
     end
 
@@ -503,7 +503,7 @@ if $args[0]="QB_Fuck_Aid2":
              '<p>I:Ahem...almost!</p>'
              '<p><<$QB.name>>: ……………</p>'
              '<p>Black powder head: It was completely my prejudice before... Please don`t take it to heart, I will help you promote it when I go back.…</p>'
-             '<p>♯ Her pressure value：<<QB.pressure>></p>'
+             '<p>♯ Her pressure value:<<QB.pressure>></p>'
          '</div>'
     end
 
@@ -558,7 +558,7 @@ if $args[0]="QB_Fuck_Aid3":
          '<div class="dialog_menu">'
              '<p>Gold master dad: What is voting?Is to invest money!You little scamps, all of you are gold swallowing beasts!</p>'
              '<p><<$QB.name>>: <<$Panting>></p>'
-             '<p>♯ Her pressure value：<<QB.pressure>></p>'
+             '<p>♯ Her pressure value:<<QB.pressure>></p>'
          '</div>'
     end
 
@@ -570,7 +570,7 @@ if $args[0]="QB_Fuck_Aid3":
              '<p><<$QB.name>>: ……………</p>'
              '<p>Gold master dad: Don`t you want my sponsorship anymore?Pretending to be a righteous man, you are obviously a scum who plays with women just like me!I have seen it a long time ago!</p>'
              '<p>I: What a faux pas…</p>'
-             '<p>♯ Her pressure value：<<QB.pressure>></p>'
+             '<p>♯ Her pressure value:<<QB.pressure>></p>'
          '</div>'
     end
 
@@ -1313,7 +1313,7 @@ if $args[0]="QB_Fuck_New sleep aid":
              '<p><<$QB.name>>: Broker...broker... come here!</p>'
              '<p>I:What`s the matter……</p>'
              '<p><<$QB.name>>: I`m...a little nervous, and...wet…</p>'
-             '<p>♯ Her pressure value：0.5</p>'
+             '<p>♯ Her pressure value:0.5</p>'
          '</div>'
     end
 

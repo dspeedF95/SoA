@@ -76,7 +76,7 @@ if $ARGS[0]="":
 
 	'<div class="dialog_menu">'
 		'<p>·——————————————————</p>'
-		!'<p>·the first<<q>>wheel：<<a>></p>'
+		!'<p>·the first<<q>>wheel:<<a>></p>'
 	'</div>'
 End
 

@@ -1207,7 +1207,7 @@ if $args[0]="ZX_Fuck_SD2":
 			 '<p><<$ZX.name>>: Okay, then this matter... just pass like this?</p>'
 			 '<p>Jingyuan Project Director: Did I agree?I just agree temporarily!When I want to relieve stress... I hope you are free…</p>'
 			 '<p><<$ZX.name>>: What a big deal, as long as the director misses me, he can find me at any time.</p>'
-			 '<p>Jingyuan Project Director：<<$Protagonist`s_name>>, are you okay?</p>'
+			 '<p>Jingyuan Project Director:<<$Protagonist`s_name>>, are you okay?</p>'
 		 '</div>'
 	end
   q+=1
@@ -1295,7 +1295,7 @@ if $args[0]="ZX_Fuck_KS2":
 		 $ZX.bad+=1
 		 $ZX.love+=1
 		 '<div class="dialog_menu">'
-			 '<p>Caesar：<<$Protagonist`s_name>>, You can pretend, just fuck her, don`t be polite to me.</p>'
+			 '<p>Caesar:<<$Protagonist`s_name>>, You can pretend, just fuck her, don`t be polite to me.</p>'
 			 if a>=2:'<p><<$ZX.name>>: Hmm<<$Panting>></p>'
 			 if a>=6:'<p>Me: I have always been curious, will no one come to trouble you?Do those who have been deceived just forget it?</p>'
 			 if a>=6:'<p><<$ZX.name>>: I can naturally solve the trouble<<$words>></p>'

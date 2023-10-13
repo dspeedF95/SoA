@@ -265,7 +265,7 @@ if $args[0]="Open a seam":
              if a=4:'<p>???: Are you satisfied, I`ll rest first!</p>'
              if a=4:'<p><<$WQ.name>>: Husband... we haven`t done it for a long time…</p>'
              if a=4:'<p>???: Wait for me to have time, I haven`t been energetic lately…</p>'
-             if a=4:'<p>I：……</p>'& $WQ.LG=1
+             if a=4:'<p>I:……</p>'& $WQ.LG=1
              
          '</div>'
 
@@ -1038,7 +1038,7 @@ if $args[0]="WQ_Fuck_early1":
              '<p><<$WQ.name>>: Can`t you find you if it`s okay?I came to you as soon as my husband went out!</p>'
              '<p>Me: When will you divorce your husband?</p>'
              '<p><<$WQ.name>>: After you fuck me pregnant!</p>'
-             '<p>I：*Laugh without saying a word</p>'
+             '<p>I:*Laugh without saying a word</p>'
          '</div>'
     end
 
@@ -1085,7 +1085,7 @@ if $args[0]="WQ_Fuck_WSPA0":
          '<div class="dialog_menu">'
              '<p><<$WQ.name>>: Hey, I said?Can such a service work?</p>'
              '<p><<$TZ.name>>: The ratings are still high now, and I have the final say in what advertisements are broadcast!</p>'
-             '<p>I：*Shrug</p>'
+             '<p>I:*Shrug</p>'
              '<p><<$WQ.name>>: OK?How much advertising does it cost?</p>'
              '<p><<$TZ.name>>: free!But as a condition, you also have to learn this skill.</p>'
              '<p><<$WQ.name>>: I want it too?</p>'

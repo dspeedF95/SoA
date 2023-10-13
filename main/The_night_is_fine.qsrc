@@ -240,18 +240,18 @@ if $ARGS[0]="Younger brother Debtcollection":
 
 	'<div class="dialog_menu">'
 		'<p>Crazy little brother: Help me find the group of mice!!Injustice has a head, debt has a master!!</p>'
-		'<p>Payment of overdue arrears：15000￥; Gender: Female; Occupation: plastic surgeon; Situation: Locked address</p>'
-		'<p>① Overdue arrears：1017100￥; Gender: female; Occupation: bartender; situation：'
+		'<p>Payment of overdue arrears:15000￥; Gender: Female; Occupation: plastic surgeon; Situation: Locked address</p>'
+		'<p>① Overdue arrears:1017100￥; Gender: female; Occupation: bartender; situation:'
 		 if Debtcollection1done=1:'Lock address</p>'else'Whereabouts unknown</p>'
-		'<p>②Overdue arrears：121<<rand(1115,9999)>>￥; Gender: female; Occupation: hairdresser; situation：'
+		'<p>②Overdue arrears:121<<rand(1115,9999)>>￥; Gender: female; Occupation: hairdresser; situation:'
 		 if Debtcollection2done=1:'Lock address</p>'else'Whereabouts unknown</p>'
-		'<p>逾期Overdue arrears：1<<rand(331115,449999)>>￥; Gender: female; Occupation: cleaner; situation：'
+		'<p>逾期Overdue arrears:1<<rand(331115,449999)>>￥; Gender: female; Occupation: cleaner; situation:'
 		 if Debtcollection3done=1:'Lock address</p>'else'Whereabouts unknown</p>'
-		'<p>逾期Overdue arrears：2<<rand(131115,449999)>>￥; Gender: female; Occupation: car model; situation：'
+		'<p>逾期Overdue arrears:2<<rand(131115,449999)>>￥; Gender: female; Occupation: car model; situation:'
 		 if Debtcollection4done=1:'Lock address</p>'else'Whereabouts unknown</p>'
-		'<p>逾期Overdue arrears：2<<rand(531115,949999)>>￥; Gender: male; Occupation: criminal; situation：'
+		'<p>逾期Overdue arrears:2<<rand(531115,949999)>>￥; Gender: male; Occupation: criminal; situation:'
 		 if Debtcollection5done=1:'Lock address</p>'else'Whereabouts unknown</p>'
-		 '<p>Payment of overdue arrears：1<<rand(131115,949999)>>￥; Gender: female; Occupation: habitual thief; situation：'
+		 '<p>Payment of overdue arrears:1<<rand(131115,949999)>>￥; Gender: female; Occupation: habitual thief; situation:'
 		 if Debtcollection6done=1:'Lock address</p>'else'Whereabouts unknown</p>'
 	'</div>'
 End
@@ -270,7 +270,7 @@ if $ARGS[0]="Younger brother Debtcollection2":
 		'<p>Crazy little brother: What does that stupid woman know? She watched me holding a bucket of diesel and pressed me to the ground without saying a word.</p>'
 		'<p>Me: Have you told anyone about this plan?</p>'
 		'<p>Crazy little brother: Only...you!</p>'
-		'<p>I：…………</p>'
+		'<p>I:…………</p>'
 	'</div>'
 End
 
@@ -328,7 +328,7 @@ if $ARGS[0]="Aftermath":
 		if $Thebosssuspendedtheinvestigation=0:'<div class="buttonGr"><a href="exec:">Delayed investigation: not approved</a></div>'else'<div class="buttonR3"><a href="exec:">Delayed investigation: approved</a></div>'
 		if $Bossonthetop<=2:'<div class="buttonGr"><a href="exec:">Letter of understanding: Not completed</a></div>'else'<div class="buttonR3"><a href="exec:">Letter of understanding: obtained</a></div>'
 		if  $Thethiefwascaught<2:'<div class="buttonGr"><a href="exec:">Scapegoat: not found</a></div>'else'<div class="buttonR3"><a href="exec:">Scapegoat: Kizakiエa (habitual thief)</a></div>'
-		if $Bossonthetop=2:'<div class="buttonP"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama4''">invite：<<$FP.name>></a></div>'
+		if $Bossonthetop=2:'<div class="buttonP"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama4''">invite:<<$FP.name>></a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">leave</a></div>'
 	'</div>'
 
@@ -357,7 +357,7 @@ if $ARGS[0]="Random office":
 		'<p><<$LB.name>>: He is actually...the younger brother of my ex-boyfriend...but I always regard him as my younger brother.</p>'
 		'<p>Me: Oh?Ex-boyfriend?</p>'
 		'<p><<$LB.name>>: He died in a car accident fifteen years ago, and he said he would marry me.</p>'
-		'<p>I：…………</p>'
+		'<p>I:…………</p>'
 	'</div>'
 End
 

@@ -115,7 +115,7 @@ if $ARGS[0]="Competition ranking2":
 	
 	'<div class="dialog_menu">'
 		'<p>Me: I have to think of a way, but I can`t end up being a stepping stone for her.…</p>'
-		'<p>I：<<$SF.name>>...is the ranking so high?It seems she really has some strength…</p>'
+		'<p>I:<<$SF.name>>...is the ranking so high?It seems she really has some strength…</p>'
 	'</div>'
 end
 
@@ -270,7 +270,7 @@ if  $args[0]="Hashimoto Tachie":
 	'<div class="dialog_menu">'
 		'<p>·You two look at each other</p>'
 		'<p><<$QB.name>>: broker^_^#So what are we performing?</p>'
-		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+		'<p>♯ Her pressure value:<<QB.pressure>></p>'
 	'</div>'
 End
 
@@ -388,7 +388,7 @@ if  $args[0]="Discuss countermeasures":
 	'<div class="dialog_menu">'
 		'<p><<$QB.name>>: I don`t have any good ideas... what do fans like?…</p>'
 		'<p>I: Let me think about it……</p>'
-		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+		'<p>♯ Her pressure value:<<QB.pressure>></p>'
 	'</div>'
 End
 
@@ -417,7 +417,7 @@ if  $args[0]="Promotional materials":
 		else
 		'<p>·Her popularity has risen!</p>'
 		end
-		'<p>♯ Her pressure value：<<QB.pressure>></p>'
+		'<p>♯ Her pressure value:<<QB.pressure>></p>'
 	'</div>'
 End
 

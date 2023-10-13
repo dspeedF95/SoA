@@ -103,7 +103,7 @@ if $args[0]="Pick you up home3":
 	'<div class="dialog_menu">'
 		'<p>·He opened his eyes dimly and found a man clinging to his sister.</p>'
 		if $MM.bad>=20:
-		'<p>·<<$mm.name>>：<<$Panting>></p>'
+		'<p>·<<$mm.name>>:<<$Panting>></p>'
 		'<p>·<<$mm.name>>Seems to be active?</p>'
 		end
 	'</div>'
@@ -148,15 +148,15 @@ if $args[0]="Pick you up homesex":
 	'<div class="dialog_menu">'
 		'<p>·You secretly watched your sister being violated by a stranger while you were on the side.....A strange pleasure affects your morality.</p>'
 		if MMsnum=109:
-		'<p>·<<$mm.name>>：<<$Panting>></p>'
+		'<p>·<<$mm.name>>:<<$Panting>></p>'
 		'<p>·The man put his finger into his sister`s flesh hole, and her sister groaned shyly.</p>'
 		end
 		if MMsnum=107:
-		'<p>·<<$mm.name>>：<<$Panting>>Woo..Woo..This meat stick is so salty...It`s all stuck in the innermost part of the throat....If you ejaculate..I can only swallow it..</p>'
+		'<p>·<<$mm.name>>:<<$Panting>>Woo..Woo..This meat stick is so salty...It`s all stuck in the innermost part of the throat....If you ejaculate..I can only swallow it..</p>'
 		end
 		if MMsnum=106:
 		'<p>·The man seemed to have inserted his dick into his sister`s pussy, and her sister was controlling and calling out loudly...</p>'
-		'<p>·<<$mm.name>>：<<$Panting>>.</p>'
+		'<p>·<<$mm.name>>:<<$Panting>>.</p>'
 		end
 	'</div>'
 End
@@ -198,7 +198,7 @@ if $args[0]="Skip school":
 		'<p>·<<$mm.name>>: I suddenly found that no one usually comes here, it is very “safe”.(⊙o⊙)...don`t think wrong!</p>'
 		end
 		if $mm.love>=120 or $mm.bad>=120:
-		'<p>·<<$mm.name>>：yo!Perverted brother!Stop staring at my panties!OS: How many times do you want to spray me dry today?</p>'
+		'<p>·<<$mm.name>>:yo!Perverted brother!Stop staring at my panties!OS: How many times do you want to spray me dry today?</p>'
 		end
 	'</div>'
 End
@@ -218,11 +218,11 @@ if $args[0]="Cold knowledge":
 	'<div class="dialog_menu">'
 		if suiji>=6:
 		'<p>·Me: With the continuous improvement of women`s status in modern times, the most significant change is actually the tone of their speech. Now the tone of women`s voices has increased on average compared to decades ago.23Hertz!</p>'
-		'<p>·<<$mm.name>>：(Frown)Hey, you are a bit of discrimination against women!</p>'
+		'<p>·<<$mm.name>>:(Frown)Hey, you are a bit of discrimination against women!</p>'
 		end
 		if  6>suiji and suiji>3:
 		'<p>·Me: The octopus`s eight tentacles actually distinguish between hands and feet. In fact, the octopus tentacles consist of six hands and two feet.</p>'
-		'<p>·<<$mm.name>>：(Frown)yo, what are you implying?</p>'
+		'<p>·<<$mm.name>>:(Frown)yo, what are you implying?</p>'
 		end
 		if suiji<=3:
 		'<p>·Me: It happened to be the 12th when the Fourth Ninja World War ended, and it was Naruto`s birthday that day.</p>'
@@ -403,7 +403,7 @@ if $args[0]="MM_Fuck_Skip school1":
 
 	if 8>a and a>=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>： ..<<$Panting>>..</p>'
+			 '<p><<$MM.name>>: ..<<$Panting>>..</p>'
 		 '</div>'
 	end
 	
@@ -466,7 +466,7 @@ if $args[0]="MM_Fuck_Skip school2":
 
 	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>： ..<<$words>>..</p>'
+			 '<p><<$MM.name>>: ..<<$words>>..</p>'
 		 '</div>'
 	end
  q+=1
@@ -571,13 +571,13 @@ if $args[0]="MM_Fuck_After class":
 
 	if 2>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>： ..<<$Panting>>..</p>'
+			 '<p><<$MM.name>>: ..<<$Panting>>..</p>'
 		 '</div>'
 	end
 
 	if 8>=a and a>=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>： ..<<$words>>..</p>'
+			 '<p><<$MM.name>>: ..<<$words>>..</p>'
 		 '</div>'
 	end
 
@@ -586,7 +586,7 @@ if $args[0]="MM_Fuck_After class":
 		 $MM.bad+= q
 		 $MM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>：...Did it unscrupulously with my brother again?~What happens when your mother or sister finds out?....</p>'
+			 '<p><<$MM.name>>:...Did it unscrupulously with my brother again?~What happens when your mother or sister finds out?....</p>'
 		 '</div>'
 	end
 		
@@ -648,8 +648,8 @@ if $args[0]="MM_Fuck_sister":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$jj.name>>：...I happen to be free today, let me help you with your homework...</p>'
-			 '<p><<$mm.name>>：..Sister also had sex with him!I know everything!Let`s do it together!</p>'
+			 '<p><<$jj.name>>:...I happen to be free today, let me help you with your homework...</p>'
+			 '<p><<$mm.name>>:..Sister also had sex with him!I know everything!Let`s do it together!</p>'
 			 '<p><<$jj.name>>: It`s not impossible..</p>'
 		 '</div>'
 	end
@@ -740,7 +740,7 @@ if $args[0]="MM_Fuck_Counter night attack":
 	end
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p>-<<$mm.name>>：..Oh oh oh...It`s up to the uterus~~So cool~~Regardless, it`s not my own brother anyway, besides, aren`t they too?They are all a family, and the fat and water do not flow out of the fields.</p>'
+			 '<p>-<<$mm.name>>:..Oh oh oh...It`s up to the uterus~~So cool~~Regardless, it`s not my own brother anyway, besides, aren`t they too?They are all a family, and the fat and water do not flow out of the fields.</p>'
 			 '<p>-As a result, you secretly worked all night in the second half of the night, and the person next to your pillow trembled a few times when she had an orgasm and convulsions, and even there was a strange groan outside the door.</p>'
 			 $mm.bad+=10
 			 $mm.love+=5+my.charm
@@ -780,13 +780,13 @@ if $args[0]="MM_Fuck_Night attack":
 		if a=5:
 			 '<div class="dialog_menu">'
 				 '<p>·You opened the door directly and entered, and in her surprised and surprised eyes, you abruptly stripped her naked.</p>'
-				 '<p><<$mm.name>>：...Hurry up and put it in, I`ve been waiting for you for a long time....<<$Panting>>..</p>'
+				 '<p><<$mm.name>>:...Hurry up and put it in, I`ve been waiting for you for a long time....<<$Panting>>..</p>'
 			 '</div>'
 		end
 				
 		if a>=0 and a<=3:
 			 '<div class="dialog_menu">'
-				 '<p><<$mm.name>>：....<<$words>>..</p>'
+				 '<p><<$mm.name>>:....<<$words>>..</p>'
 			 '</div>'
 		end
 				
@@ -794,7 +794,7 @@ if $args[0]="MM_Fuck_Night attack":
 			 $MM.love+=2+my.charm
 			 $MM.bad+=5
 			 '<div class="dialog_menu">'
-				 '<p><<$mm.name>>：.....So cool....So cool..You are great..I`m exhausted!Let`s sleep together!。</p>'
+				 '<p><<$mm.name>>:.....So cool....So cool..You are great..I`m exhausted!Let`s sleep together!。</p>'
 			 '</div>'
 		end
 	 q+=1
@@ -890,7 +890,7 @@ if $args[0]="MM_Fuck_4p":
 			 '<p>memberA: Of course it`s me!</p>'
 			 '<p>memberB: Huh?Why did you choose you as a rotten force?!</p>'
 			 '<p>memberC: Become a contract trainee..Is my dream...Please choose me!</p>'
-			 '<p><<$MM.name>>：......(Hehe, the candidate must be me!）</p>'
+			 '<p><<$MM.name>>:......(Hehe, the candidate must be me!）</p>'
 		 '</div>'
 	end
 
@@ -1045,7 +1045,7 @@ if $args[0]="MM_Fuck_Essential oil":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>：....Hmm...It`s almost done!If you keep doing it, you`ll feel it....</p>'
+			 '<p><<$MM.name>>:....Hmm...It`s almost done!If you keep doing it, you`ll feel it....</p>'
 		 '</div>'
 	end
 
@@ -1069,7 +1069,7 @@ if $args[0]="MM_Fuck_Essential oil":
 		 $MM.bad+= q
 		 $MM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>：.Don`t stop!I want more!I want more!My pussy will always be my brother`s airplane cup...</p>'
+			 '<p><<$MM.name>>:.Don`t stop!I want more!I want more!My pussy will always be my brother`s airplane cup...</p>'
 		 '</div>'
 	end
 
@@ -1122,10 +1122,10 @@ if $args[0]="MM_Fuck_Mother and sister":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>：.....I happen to be free today, come and see you...of..training...You were secretly having sex last time, right?</p>'
-			 '<p><<$MM.name>>：..What?mom....It`s not my brother`s fault...I seduced him!</p>'
-			 '<p><<$JM.name>>：....(Blushing) It`s mom`s fault.I`m not optimistic about you, come, come all over..</p>'
-			 '<p><<$JM.name>>：..Although my mother has no experience in being an idol, other experiences can teach you a lot.~~</p>'
+			 '<p><<$JM.name>>:.....I happen to be free today, come and see you...of..training...You were secretly having sex last time, right?</p>'
+			 '<p><<$MM.name>>:..What?mom....It`s not my brother`s fault...I seduced him!</p>'
+			 '<p><<$JM.name>>:....(Blushing) It`s mom`s fault.I`m not optimistic about you, come, come all over..</p>'
+			 '<p><<$JM.name>>:..Although my mother has no experience in being an idol, other experiences can teach you a lot.~~</p>'
 		 '</div>'
 	end
 
@@ -1275,12 +1275,12 @@ if $args[0]="MM_Event_Hot spring tour":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$mm.name>>： ╰(*°▽°*)"It`s so comfortable to take a bath.</p>'
+			 '<p><<$mm.name>>: ╰(*°▽°*)"It`s so comfortable to take a bath.</p>'
 		 '</div>'
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$mm.name>>：╰(*°▽°*)It`s delicious!It`s so delicious!Brother, you are so generous, you must not be at ease!</p>'
+			 '<p><<$mm.name>>:╰(*°▽°*)It`s delicious!It`s so delicious!Brother, you are so generous, you must not be at ease!</p>'
 		 '</div>'
 	end
 	if a=2:
@@ -1590,13 +1590,13 @@ if $args[0]="MM_Fuck_Room night attack":
 
 	if 1<=a and a<=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>：<<$Panting>>..</p>'
+			 '<p><<$MM.name>>:<<$Panting>>..</p>'
 		 '</div>'
 	end
 
 	if 3<=a and a<=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>：<<$words>>Perverted brother!</p>'
+			 '<p><<$MM.name>>:<<$words>>Perverted brother!</p>'
 		 '</div>'
 	end
 

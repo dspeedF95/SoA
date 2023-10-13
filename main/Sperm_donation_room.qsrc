@@ -61,7 +61,7 @@ if $args[0]="Eavesdropping":
 
 	'<div class="dialog_menu">'
 		'<p>·An inconspicuous location outside</p>'
-		'<p><<$SS.name>>: Yes, I have been in contact with the target person, please indicate.In addition, the hospital`s independent password has been deciphered, which is the dean`s measurements.：935888</p>'
+		'<p><<$SS.name>>: Yes, I have been in contact with the target person, please indicate.In addition, the hospital`s independent password has been deciphered, which is the dean`s measurements.:935888</p>'
         '<p>???: Is it actually the dean`s measurements?....935888...It`s really unexpected!</p>'
 		'<p>I: ………</p>'
 		if  $SS_Event_free>=4:'<p><<$SS.name>>: I have successfully sneaked into the experimental group of the Jingyuan project and waited for the next instructions.</p><p>???: Don`t move for the time being!</p>'

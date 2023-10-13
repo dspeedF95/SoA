@@ -167,7 +167,7 @@ if $args[0]="The search for a gun begins":
 			 '<p><<$JY.name>>: I... I first went to the hair salon to get a haircut...then I went to the school corridor to check the fire safety... and finally went home to sleep after I was healthy.…</p>'
 			 '<p>I: Then you go home and look for it first, and I`ll go to these places for you to find out.…</p>'
 			 '<p>————————</p>'
-			 '<p>【Hair salon：<<$Hairsalonsurvey>>/1】【【School：<<$Schoolsurvey>>/111】【【Gym：<<$Gymsurvey>>/1】</p>'
+			 '<p>【Hair salon:<<$Hairsalonsurvey>>/1】【【School:<<$Schoolsurvey>>/111】【【Gym:<<$Gymsurvey>>/1】</p>'
 			 if $Gun_hunting_incident_chain=0:$Gun_hunting_incident_chain=1
 			 end
 			 if a=2:
@@ -632,7 +632,7 @@ if $args[0]="JY_Fuck_Utility room":
              '<p>Female teacher: Then I will forgive you. It`s normal for young people to be impulsive.</p>'
              '<p>Me: Then there is nothing suspicious here, right?</p>'
              '<p>Female teacher: The most suspicious thing should be why I didn`t wear underwear, right?*laugh</p>'
-             '<p>I：*Look around... (It doesn`t seem to be lost here...)</p>'
+             '<p>I:*Look around... (It doesn`t seem to be lost here...)</p>'
          '</div>'
     end
 
@@ -694,7 +694,7 @@ if $args[0]="JY_Fuck_Female teacher card":
          '<div class="dialog_menu">'
              '<p>Me: Ah ah ah ah!Shot!</p>'
              '<p>Female teacher: Huh-not good...the school picket team is here to patrol!Quickly hide!Otherwise it will be miserable…</p>'
-             '<p>I：………</p>'
+             '<p>I:………</p>'
          '</div>'
     end
 

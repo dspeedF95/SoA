@@ -200,7 +200,7 @@ end
 '</div>'
 
 '<div class="dialog_menu">'
-	'<p>Playing：<<$program>></p>'
+	'<p>Playing:<<$program>></p>'
 	'<p>Sharp review: <<$Programevaluation>></p>'
 	if $Paidcontent!0:'<p>·I: <<$Paidcontent>></p>'
 

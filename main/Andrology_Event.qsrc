@@ -236,7 +236,7 @@ if $args[0]="NK_Fuck_monthly":
 
 	if a=-1:
 		 '<div class="dialog_menu">'
-			 '<p>·The heavy prison door opened, and the doctor who walked in, you recognize her name：<<$nk.name>></p>'
+			 '<p>·The heavy prison door opened, and the doctor who walked in, you recognize her name:<<$nk.name>></p>'
 		 '</div>'
 	end
 

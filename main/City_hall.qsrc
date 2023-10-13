@@ -55,7 +55,7 @@ if $ARGS[0]="":
 		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>·Municipal office opening hours：8:00——21:00 Open all year round</p>'
+		'<p>·Municipal office opening hours:8:00——21:00 Open all year round</p>'
 	'</div>'
 end
 
@@ -160,7 +160,7 @@ if $ARGS[0]="In the top class":
 		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p>·City hall opening hours：8:00——20:00 Open all year round</p>'
+		'<p>·City hall opening hours:8:00——20:00 Open all year round</p>'
 	'</div>'
 end
 

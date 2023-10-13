@@ -723,7 +723,7 @@ if $args[0]="Stockings shop_Fuck_qtj":
     if 3<=a and a<=5:
          '<div class="dialog_menu">'
              '<p><<$SWD.name>>: What...is this a gift from a customer to me?</p>'
-             if a>=4:'<p><<$SWD.name>>：<<$Panting>></p>'
+             if a>=4:'<p><<$SWD.name>>:<<$Panting>></p>'
          '</div>'
     end
 

@@ -776,7 +776,7 @@ if $args[0]="Face itBOSS":
     if a=4:
          '<div class="dialog_menu">'
              '<p>I: You continue, I am listening.</p>'
-             '<p>???: Here are someCOOResponsibilities that usually need to be assumed：</p>'
+             '<p>???: Here are someCOOResponsibilities that usually need to be assumed:</p>'
              '<p>???: COOIt is necessary to establish and manage an efficient team to ensure smooth cooperation between the various artists of the company and achieve common goals. </p>'
              '<p>???: In addition, it is necessary to manage the daily operations of the company, including the daily lives of artists, diet and personal services, etc., to ensure that artists are in a smooth mood, work efficiently and sustainably.</p>'
              '<p>I: Oh oh oh…</p>'

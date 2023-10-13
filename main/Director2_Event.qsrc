@@ -386,7 +386,7 @@ if $args[0]="Corridor":
 
     if 7>=a and a>=1:
          '<div class="dialog_menu">'
-             if a>=1:'<p>Gu Zi：<<$Panting>></p>'
+             if a>=1:'<p>Gu Zi:<<$Panting>></p>'
              if a>=1:'<p>·The candid camera recorded everything</p>'
              if a>=2:'<p>Me: Madam, is it exciting?</p>'
              if a>=4:'<p>Gu Zi: stimulate<<$words>></p>'
@@ -455,7 +455,7 @@ if $args[0]="Inside the house":
 
     if 6>=a and a>=1:
          '<div class="dialog_menu">'
-             if a>=1:'<p>Gu Zi：<<$Panting>></p>'
+             if a>=1:'<p>Gu Zi:<<$Panting>></p>'
              if a>=2:'<p>Me: Madam, does your husband care about you?</p>'
              if a>=3:'<p>Gu Zi: Shut up<<$words>></p>'
          '</div>'
@@ -781,7 +781,7 @@ if $args[0]="JZ_Fuck_3P2":
          '<div class="dialog_menu">'
              '<p>Gu Zi: …...stop!I can`t watch it anymore!</p>'
              '<p>Former director(Nakata Ichihei): It`s really boring, I still work hard by myself.</p>'
-             '<p>I：……</p>'
+             '<p>I:……</p>'
          '</div>'
     end
 

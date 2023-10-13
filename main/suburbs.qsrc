@@ -120,7 +120,7 @@ if $args[0]="Trainee male":
 		'<p>Man: You are right!How about going with me to expose the true face of which bastard bishop?I bet he is by no means a good thing!This is my polaroid, please help me take pictures of his crimes!</p>'
 		else
 		if Bishopschoice=1 and Polaroid=0:'<p>Man: Damn it!Will you help me?This is my polaroid and the photo I took…</p>'& Evidenceone=1
-		'<p>I：………</p>'
+		'<p>I:………</p>'
 		'<p>Man: Damn it!He actually borrowed a donkey to go downhill... I was hasty... I shouldn`t have acted rashly... I must reveal the true face of which bastard bishop!I bet he is by no means a good thing!</p>'
 		'<p>Me: Since you think so, you must prepare more evidence…</p>'
 		end
@@ -176,16 +176,16 @@ if $args[0]="Trainee male completed":
 		'<p>Me: What`s the matter?</p>'
 		'<p>Man: Obviously, which bastard bishop has been expelled by you and is completely out of here, why does she still refuse to come back to me?…<<$LEI.name>>Is she really willing to be a trainee nun?This is really unbelievable and unreasonable.</p>'
 		'<p>Me: Don`t try to change her, try to understand<<$LEI.name>>What about the real thoughts in your heart?</p>'
-		'<p>man：<<$LEI.name>>The heart...then can you help me to watch her heart?Let her come back to me…</p>'
+		'<p>man:<<$LEI.name>>The heart...then can you help me to watch her heart?Let her come back to me…</p>'
 		if Returnpolaroid=0:
-			'<p>man：<B><span class =''red''>Oh by the way, can you return the polaroid to me?I have lost all my bets. I plan to use it to get some chips and bet one last time!This is definitely the last time!Give me back the polaroid!<a href="exec:Returnpolaroid=1 & gt ''suburbs''">-Give it back to him</a></p>'
+			'<p>man:<B><span class =''red''>Oh by the way, can you return the polaroid to me?I have lost all my bets. I plan to use it to get some chips and bet one last time!This is definitely the last time!Give me back the polaroid!<a href="exec:Returnpolaroid=1 & gt ''suburbs''">-Give it back to him</a></p>'
 		end
 		if $LEIVideo_event_chain=4:
-			'<p>man：<B><span class =''red''>You despicable bitch, is this how you watch her heart for me?I want to bet with you again!This is the second video you have never seen before!</p>'
+			'<p>man:<B><span class =''red''>You despicable bitch, is this how you watch her heart for me?I want to bet with you again!This is the second video you have never seen before!</p>'
 		end
 		if $LEIVideo_event_chain=7:
 			'<p>Me: Why are you taking pictures of me?Do you want to imitate what I did when I took the bishop down?</p>'
-			'<p>man：<B><span class =''red''>Hee Hee hee, you misunderstood, I just want to bet with you again!This is the third video you have never seen before!</p>'
+			'<p>man:<B><span class =''red''>Hee Hee hee, you misunderstood, I just want to bet with you again!This is the third video you have never seen before!</p>'
 		end
 		
 	'</div>'

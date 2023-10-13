@@ -767,7 +767,7 @@ if $args[0]="Foreign missions":
 		'</div>'
 		
 	'<div class="button_menu">'
-		if $DLdialogue!1 and $DLcooperation<100:'<div class="button"><a href="exec: $DLdialogue=1 & minutes+=45 & gt ''health_event'',''Foreign missions''">Negotiate new cooperation：<<$DLcooperation>>﹪</a></div>'else'<div class="buttonGr"><a href="exec: ">Negotiation is over：<<$DLcooperation>>﹪</a></div>'
+		if $DLdialogue!1 and $DLcooperation<100:'<div class="button"><a href="exec: $DLdialogue=1 & minutes+=45 & gt ''health_event'',''Foreign missions''">Negotiate new cooperation:<<$DLcooperation>>﹪</a></div>'else'<div class="buttonGr"><a href="exec: ">Negotiation is over:<<$DLcooperation>>﹪</a></div>'
 		'<div class="button"><a href="exec: $DLdialogue=0 & minutes+=45 & gt ''health_event'',''Use your brain''">Use your brain</a></div>'
 		'<div class="button"><a href="exec:a=2 & gt ''health_event'',''Foreign legations_leaving''">leave</a></div>'
 	'</div>'

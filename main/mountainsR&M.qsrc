@@ -38,9 +38,9 @@ if $args[0]="":
 	'<div class="dialog_menu">'
 		'<p><font color="#99CC33">MountainsR&MArea 区域☣</font></p>'
 		'<p></p>'
-		'<p>Maturity：<<plant_num>> %</p>'
+		'<p>Maturity:<<plant_num>> %</p>'
 		'<p></p>'
-		'<p>Currently ripe fruit：<<plant>> a</p>'
+		'<p>Currently ripe fruit:<<plant>> a</p>'
 		'<p></p>'
 		'<p>What exactly caused the variation of vegetation?</p>'
 	'</div>'
@@ -62,7 +62,7 @@ if $args[0]="Cultivating Heterochromatic plants":
 		'<p><font color="#00ff00">你你You buckled the petri dish upside down on the land, and a surprising scene appeared☣☣</font></p>'
 		'<p>The air around you begins to get hot and dry, and you unconsciously feel a nameless lust in your heart.</p>'
 		'<p>·————————</p>'
-		'<p>Maturity：<<plantYS_num>> %</p>'
+		'<p>Maturity:<<plantYS_num>> %</p>'
 	'</div>'
 end
 

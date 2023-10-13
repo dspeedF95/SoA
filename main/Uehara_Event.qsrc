@@ -52,7 +52,7 @@ if $ARGS[0]="Learn to cook":
 		if a=0:'<p><<$SY.name>>: Why don`t you go to the seat and wait obediently?</p>'
 		if a=1:'<p><<$SY.name>>: The so-called cooking is to perfectly blend the flavors of ingredients!Do you know what is missing from this ham sausage?</p>'& $SY.love+=5
 		if a=2:'<p><<$SY.name>>: Your thoughts...very interesting ❤I like it very much❤</p>'
-		if a=3:'<p><<$SY.name>>：!!!It`s so delicious ❤ Do you want to taste it?</p>' & Exp_cooking+=rand(20,$SY.love*2)
+		if a=3:'<p><<$SY.name>>:!!!It`s so delicious ❤ Do you want to taste it?</p>' & Exp_cooking+=rand(20,$SY.love*2)
 		if a=4:
 			'<p><<$SY.name>>: Good idea!Is it delicious?</p>'
 			'<p>·Take a bite→ Cooking skills have improved!</p>'
@@ -122,8 +122,8 @@ if $args[0] ='bathroom':
 			if $SY.bathroom=2:'<p><<$LJ.name>>: Why are you following up…</p>'
 		end
 		if a=1 or a=2:
-			if $SY.bathroom=1:'<p><<$SY.name>>：<<$Panting>></p>'
-			if $SY.bathroom=2:'<p><<$LJ.name>>：<<$Panting2>></p>'
+			if $SY.bathroom=1:'<p><<$SY.name>>:<<$Panting>></p>'
+			if $SY.bathroom=2:'<p><<$LJ.name>>:<<$Panting2>></p>'
 		end
 		if a=3:
 			if $SY.bathroom=1:'<p><<$SY.name>>: Can you have more ❤Can`t sober up at all❤</p>'& SY.bad+=5

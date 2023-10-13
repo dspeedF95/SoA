@@ -68,13 +68,13 @@ if $args[0]="dialogue":
 	'<div class="dialog_menu">'
 	 if fxzdh=1:
 		'<p>Me: How many years have you taught?</p>'
-		'<p><<$FXZ.name>>：15Year zero3months.I am very responsible to tell you that the teaching age of the teachers in the entire school is not as much as mine!</p>'
+		'<p><<$FXZ.name>>:15Year zero3months.I am very responsible to tell you that the teaching age of the teachers in the entire school is not as much as mine!</p>'
 		'<p>Me: Then you should be the most capable teacher in the whole school!</p>'
 		'<p><<$FXZ.name>>: Hehe, the current level of young teachers is also good.</p>'
 	 end
 	 if fxzdh=2:
 		'<p>Me: You are right<<$xz.name>>Are you satisfied?</p>'
-		'<p><<$FXZ.name>>：*Weird eyes*That woman was appointed by the mayor.You ask, are you from the school picket team?</p>'
+		'<p><<$FXZ.name>>:*Weird eyes*That woman was appointed by the mayor.You ask, are you from the school picket team?</p>'
 		'<p>Me: You are not answering your question.</p>'
 		'<p><<$FXZ.name>>: Sometimes if you don`t answer the question, you just answer it. You are still young and don`t understand this principal, and I won`t care about you.</p>'
 		'<p>Me: Principal?You are still the vice principal.</p>'
@@ -103,7 +103,7 @@ if $args[0]="Competition counseling":
 
 	'<div class="dialog_menu">'
 		'<p>·I reviewed it carefully.</p>'
-		'<p><<$FXZ.name>>：<<$Protagonists_surname>> Classmate!The teacher will seriously tutor you!(Alas!What`s the matter.Are you the only one who signed up?..It`s hard to get the title now...）</p>'
+		'<p><<$FXZ.name>>:<<$Protagonists_surname>> Classmate!The teacher will seriously tutor you!(Alas!What`s the matter.Are you the only one who signed up?..It`s hard to get the title now...）</p>'
 		'<p>Me: It seems that I am a lone seedling?</p>'
 		if $Reviewprogress>=40:'<p><<$FXZ.name>>: Not bad, not bad, the big framework has been thoroughly combed.I also submitted your name.You can go to the game after a while.During this time, we will continue to go through the little knowledge.</p>'
 		if $Reviewprogress>=60:'<p>Me: Can this name be changed after it is submitted?</p>'

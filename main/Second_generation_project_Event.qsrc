@@ -811,8 +811,8 @@ if $args[0]="EDM_Fuck_Spanish":
 
 		else
 			'<div class="button_menu">'
-				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=1& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose：<<$EDM.name>></a></div>'
-				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=2& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose：<<$xy.name>></a></div>'
+				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=1& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose:<<$EDM.name>></a></div>'
+				if a=10:'<div class="buttonS"><a href="exec:a=11 &dialogue=2& gt ''Second_generation_project_Event'',''EDM_Fuck_Spanish''">choose:<<$xy.name>></a></div>'
 				if a=11:'<div class="button"><a href="exec:a=0 &q=0&minutes+=1440&hour=8& gt ''Second_generation_project_Event'',''EDM_Fuck_The next day''">overnight</a></div>'
 			'</div>'
 	end

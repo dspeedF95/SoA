@@ -110,7 +110,7 @@ if 13<=hour and hour <15:
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p><<$XY.name>>：Buenos días a todos.Bienvenido a aprender español. Nuestra clase es de 13: 00 a 15: 00. No quiero que nadie cuelgue.</p>'
+		'<p><<$XY.name>>:Buenos días a todos.Bienvenido a aprender español. Nuestra clase es de 13: 00 a 15: 00. No quiero que nadie cuelgue.</p>'
 		'<p>……</p>'
 	'</div>'
 End
@@ -131,10 +131,10 @@ if 15<=hour and hour <17:
 	'<div class="dialog_menu">'
 		'<p><<$FXZ.name>>: History is boring, but modern history is the most worthy of everyone to learn!</p>'
 		if $Historical_chapters=0:
-		 '<p><<$FXZ.name>>：<a href="exec:minutes+=60 & $Historical_chapters=1 & gt ''classroom''">Chapter One: The Budding of Female Leadership</a></p>'
-		 '<p><<$FXZ.name>>：<a href="exec:minutes+=60 & $Historical_chapters=2 & gt ''classroom''">Chapter 2: The Rise of Female Leaders</a></p>'
-		 '<p><<$FXZ.name>>：<a href="exec:minutes+=60 & $Historical_chapters=3 & gt ''classroom''">Chapter 3: The Upgrade of Female Leaders</a></p>'
-		 '<p><<$FXZ.name>>：<a href="exec:minutes+=60 & $Historical_chapters=4 & gt ''classroom''">Chapter 4: The Perversion of Female Leadership</a></p>'
+		 '<p><<$FXZ.name>>:<a href="exec:minutes+=60 & $Historical_chapters=1 & gt ''classroom''">Chapter One: The Budding of Female Leadership</a></p>'
+		 '<p><<$FXZ.name>>:<a href="exec:minutes+=60 & $Historical_chapters=2 & gt ''classroom''">Chapter 2: The Rise of Female Leaders</a></p>'
+		 '<p><<$FXZ.name>>:<a href="exec:minutes+=60 & $Historical_chapters=3 & gt ''classroom''">Chapter 3: The Upgrade of Female Leaders</a></p>'
+		 '<p><<$FXZ.name>>:<a href="exec:minutes+=60 & $Historical_chapters=4 & gt ''classroom''">Chapter 4: The Perversion of Female Leadership</a></p>'
 		end 
 		if $Historical_chapters=1:
 		 '<p>·<Chapter One: The Budding of Female Leadership>since2018Year to2020In the 1990s, the women`s leadership movement emerged from the city to the surrounding areas.Female leadership believes that modern society is based on a male-centered patriarchal system.So the social theory and political movement created and launched to promote the equality of the sexual class,Then ushered in three waves.</p>'

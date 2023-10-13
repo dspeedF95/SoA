@@ -34,7 +34,7 @@ if $ARGS[0]="":
 		'<p><<$WQ.name>>:Welcome, the price for female guests is200￥/People, male guests need to be taxed extra. The price is1000￥/People, and due to the introduction of the new policy, the men`s soup has been cancelled and the private soup and mixed bath have been changed.</p>'
 		'<p>·Special regulations: This hot spring prohibits any guests from bringing secret shooting equipment, and it is our only purpose to ensure the privacy and safety of every guest.</p>'
 		'<p>——————————</p>'
-		'<p>·Hotspringcomfort：<<Hotspringcomfort>>/100（MAX）</p>'
+		'<p>·Hotspringcomfort:<<Hotspringcomfort>>/100（MAX）</p>'
 	'</div>'
 End
 

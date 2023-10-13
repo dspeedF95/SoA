@@ -416,7 +416,7 @@ if $args[0]="Alarm":
 	'</div>'
 	
 	 '<div class="dialog_menu">'
-		 '<p>I： <<$YS.name>>Taken away... the place of imprisonment is…</p>'
+		 '<p>I: <<$YS.name>>Taken away... the place of imprisonment is…</p>'
 		 '<p><<$JZ.name>>: If the location is in Kabukicho, you can only find it by yourself... Kabukicho is not under our jurisdiction.</p>'
 	 '</div>'
 end
@@ -483,7 +483,7 @@ if $args[0]="Hellosheriff":
 	
 	 '<div class="dialog_menu">'
 	     if $Hellosheriff=1:$Hellosheriff=2
-		 '<p>I：<<$YS.name>>I am very dissatisfied with your disregard... She hopes to repay her body in the same way.…</p>'
+		 '<p>I:<<$YS.name>>I am very dissatisfied with your disregard... She hopes to repay her body in the same way.…</p>'
 		 '<p><<$JZ.name>>: So what can I do?Stop joking.</p>'
 		 '<p>Me: Just do me a favor... or I won`t fuck you in the future.…</p>'
 		 '<p><<$JZ.name>>: ………………</p>'
@@ -569,15 +569,15 @@ if $args[0]="YS_Fuck_Same sheriff2":
         '<div class="button_menu">'
             if q=0:
 
-                '<div class="buttonR4"><a href="exec:a=7 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex：<<$YS.name>></a></div>'
-                '<div class="buttonS4"><a href="exec:a=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex：<<$JZ.name>></a></div>'
+                '<div class="buttonR4"><a href="exec:a=7 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex:<<$YS.name>></a></div>'
+                '<div class="buttonS4"><a href="exec:a=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex:<<$JZ.name>></a></div>'
             end
             if 4>=q and q>=1:
                 '<div class="buttonS4"><a href="exec:a+=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Then fuck her</a></div>'
             end
             if q=5:
-                '<div class="buttonS4"><a href="exec:a=1 & q=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex：<<$JZ.name>></a></div>'
-                '<div class="buttonR4"><a href="exec:a=7 & q=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex：<<$YS.name>></a></div>'
+                '<div class="buttonS4"><a href="exec:a=1 & q=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex:<<$JZ.name>></a></div>'
+                '<div class="buttonR4"><a href="exec:a=7 & q=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Oral sex:<<$YS.name>></a></div>'
                 '<div class="buttonB4"><a href="exec:a+=1 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Ejaculation</a></div>'
             end
             if a=12 or a=6:'<div class="buttonB5"><a href="exec:a=13 & gt ''Widow_Incident'',''YS_Fuck_Same sheriff2''">Lick cock Yanhe </a></div>'
@@ -701,7 +701,7 @@ if $args[0]="YS_Fuck_divorce":
              '<p>Chef: Doodle doodle*Phone sound</p>'
              '<p>Lianmei (Voting supervisor): Let it go, I`m busy<<$Panting2>> </p>'
              '<p>Chef: Bitch!Lao Tzu agreed to divorce!I have already signed it!The divorce agreement has come into effect!Go fool around with your man!</p>'
-             '<p><span class =''red''>~His shares in the Red Restaurant were halved due to the divorce and the division of property：80%→40%</s></p>'
+             '<p><span class =''red''>~His shares in the Red Restaurant were halved due to the divorce and the division of property:80%→40%</s></p>'
              '<p><<$YS.name>>: Is it really effective?Then let`s get the certificate now!</p>'
          '</div>'
     end
@@ -748,7 +748,7 @@ if $args[0]="YS_Fuck_divorce":
              '<p>Chef: Asshole!You want to take away half of my assets!</p>'
              '<p><<$YS.name>>: It`s a bit too late to find out. If I tell your ex-wife about this, you will be laughed at by her for the rest of your life, right?</p>'
              '<p>Chef: Give it to me!I sign!You must not tell her*Gritted teeth</p>'
-             '<p><span class =''red''>~His shares in the Red Restaurant were halved again：40%→20%</p>'
+             '<p><span class =''red''>~His shares in the Red Restaurant were halved again:40%→20%</p>'
          '</div>'
     end
 

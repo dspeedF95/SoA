@@ -1115,7 +1115,7 @@ if $args[0]="GJ_Fuck_YQH":
              '<p><<$GJ.name>>: You said“ "As long as I am obedient, there will be everything”!</p>'
              '<p>Caesar: Oh, I remember. Although a man can`t believe what he says in bed, I believe what I say, so I`ll take you there next time!</p>'
              '<p>·————————————————————</p>'
-             '<p><<$GJ.name>>The value of patience：<<GJPatiencevalue>>/100</p>'
+             '<p><<$GJ.name>>The value of patience:<<GJPatiencevalue>>/100</p>'
          '</div>'
     end
 
@@ -1200,7 +1200,7 @@ if $args[0]="GJ_Fuck_YQH2":
              '<p>man: <<$GJ.name>>?!You... you open the door for me!I installed positioning on your phone!The display is here!</p>'
              '<p>I: It seems that I can only make another appointment next time?</p>'
              '<p>·————————————————————</p>'
-             '<p><<$GJ.name>>The value of patience：<<GJPatiencevalue>>/100</p>'
+             '<p><<$GJ.name>>The value of patience:<<GJPatiencevalue>>/100</p>'
          '</div>'
     end
 
