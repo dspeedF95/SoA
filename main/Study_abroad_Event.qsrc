@@ -19,7 +19,7 @@ if $args[0]="International student home":
 	  if  Interviewforinternationalstudents=1 and Internationalstudentschool=1:gt'Study_abroad_Event','home'
 		'<div class="show_menu">'
 			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\NPC\LXS\vids\In front of home<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
+			 <source src="images\NPC\LXS\vids\家前<<$DialoguewithInternationalStudents>>.webm" type=''video/webm;''></video></div>'
 		'</div>'
 
 	'<div class="button_menu">'
