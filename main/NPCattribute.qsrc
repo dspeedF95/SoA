@@ -607,7 +607,7 @@ if $SWD.available=0:
 End
 
 if $DY.available=0:
-    $DY.name = "Ye Ye Uranuan(Rookie clerk)"
+    $DY.name = "Nonoura Non (Rookie Clerk)"
     $DY.love = 0
     $DY.bad = 0
     $DY.bio ="The rookie clerk who came to work in the convenience store after the fire in the convenience store, she was clumsy and she needed my personal guidance from the store manager ❤ Her wish is to save a sum of money to see the sea."
