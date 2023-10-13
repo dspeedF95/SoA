@@ -4,6 +4,7 @@
 	<a href="exec:gt ''menu_charac_nps'',''0''"><div class="option_nps"></div></a>
 	<a href="exec:gt ''menu_items''"><div class="option_items"></div></a>
 	<a href="exec:gt ''menu_settings''"><div class="option_settings"></div></a>
+	<a href="exec:gt ''cheat_menu'',''True test''"><div class="option_cheat" data-title="Cheat Area"></div></a>
 </div>'
 
 --- menu_option_showhalf ---------------------------------
