@@ -339,7 +339,7 @@ if $args[0]="OX_Domestic incident":
 	 '<div class="dialog_menu">'
 		 if a=0:'<p>The sky is slightly bright</p>'
 		 if a=1:'<p><<$OX.name>>:Did it wake you up?I was asleep comfortably last night...</p>'
-		 if a=2:'<p>I:How long have you been talking?？wait!It`s going to be shot!</p>'
+		 if a=2:'<p>I:How long have you been talking??wait!It`s going to be shot!</p>'
 		 if a=3:'<p><<$OX.name>>:secret!I won`t tell you!</p>'
 	 '</div>'
  end

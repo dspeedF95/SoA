@@ -378,7 +378,7 @@ if $args[0]="SS_Event_stealing":
 			 '<p>·You are deeply attracted to her ketone body.</p>'
 			 '<p>I:...uh...uh…(⊙o⊙)....</p>'
 			 '<p><<$SS.name>>:Ah, are you distracted!Don`t move!You men really eat this set....</p>'
-			 '<p>I:..#？！@@！Hey hey!....</p>'
+			 '<p>I:..#?！@@！Hey hey!....</p>'
 		 '</div>'
 	end
 	if a=3:
@@ -589,7 +589,7 @@ if $args[0]="SS_Fuck_hotel":
 
 		'<div class="button_menu">'
 			if a=-1:
-			if $SS.love>=100:'<div class="buttonS"><a href="exec:a=0 & gt ''Killer_Event'',''SS_Fuck_hotel''">Go to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">go?？</a></div>'
+			if $SS.love>=100:'<div class="buttonS"><a href="exec:a=0 & gt ''Killer_Event'',''SS_Fuck_hotel''">Go to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">go??</a></div>'
 			'<div class="button"><a href="exec:gt ''Residential_area''">leave</a></div>'
 			end
 
@@ -707,7 +707,7 @@ if $args[0]="SS_Event_love":
 
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>>：...？！Why did you still open the door? What if someone passes by and hears it?！</p>'
+			 '<p><<$SS.name>>：...?！Why did you still open the door? What if someone passes by and hears it?！</p>'
 			 '<p>Me: You are not afraid of killing people, are you still afraid of this?</p>'
 		 '</div>'
 	end
@@ -789,7 +789,7 @@ if $args[0]="SS_Fuck_Sperm donation":
 
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>>：？！Why did you shoot so much? It seems that you have accumulated a lot!</p>'
+			 '<p><<$SS.name>>：?！Why did you shoot so much? It seems that you have accumulated a lot!</p>'
 		 '</div>'
 	end
 

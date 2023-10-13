@@ -291,7 +291,7 @@ if $ARGS[0]="Take credit":
 
 	'<div class="dialog_menu">'
 		'<p>- You shook a hard drive in front of her.</p>'
-		'<p>-<<$JM.name>>: What are you doing...Could it be that..？ </p>'
+		'<p>-<<$JM.name>>: What are you doing...Could it be that..? </p>'
 		'<p>-You opened the folder skillfully, and her eyes widened unconsciously.</p>'
 		'<p>-<<$JM.name>>: This....Are there any other backups? (She lowered her voice)</p>'
 		'<p>-Me: You will know soon...</p>'

@@ -228,7 +228,7 @@ if $args[0]="JY_Fuck_barber":
     if 7>=a and a>=0:
          '<div class="dialog_menu">'
            '<p>Me: Let me ask you something. Have you ever seen, uh, something like a black, hard thing?</p>'
-           '<p>barber: ？！I think I understand what you mean…</p>'
+           '<p>barber: ?！I think I understand what you mean…</p>'
            if a>=1:'<p>barber: Are you talking about this?Did the old customer recommend you?</p>'
            if a>=2:'<p>Me: Uh... Well, that`s what I`m talking about…</p>'
            if a>=3:'<p>barber: <<$Panting>></p>'
@@ -333,7 +333,7 @@ if $args[0]="JY_Fuck_Teacher encounter":
     if a<10:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">？！？！</a></div>'
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">?！?！</a></div>'
             end
             if a=1:
             '<div class="buttonS2"><a href="exec:a=2 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">Come forward and ask</a></div>'
@@ -379,7 +379,7 @@ if $args[0]="JY_Fuck_Teacher encounter":
            if a=0:'<p>Female teacher: I can get off work early today... so happy~Ah ah ah ah!</p>'
            if a=1:'<p>Me: Wow!</p>'
            if a=1:'<p>Female teacher: Pain pain pain…</p>'
-           if a=2:'<p>Me: Uh... are you okay?？</p>'
+           if a=2:'<p>Me: Uh... are you okay??</p>'
            if a=4:'<p>I: It doesn`t seem to hurt... (Is this the buffer of fat buttocks?）</p>'
            if a>=4:'<p>Female teacher: wait<<$Panting>></p>'
            if a>=9:'<p>I: Shot!</p>'
@@ -952,9 +952,9 @@ if $args[0]="Before execution2":
 		'<div class="button_menu">'
 			if a!3:'<div class="button"><a href="exec:a+=1 & gt ''Police_incident'',''Before execution2''">。。。 </a></div>'
 			if a>=3:
-			if $TZ.bad>=500-$TZ.love:'<div class="buttonB"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$TZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">？？A certain director</a></div>'
-            if $QT.bad>=500-$QT.love:'<div class="buttonB"><a href="exec:$m=''QT'' & $ma=$QT.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$QT.name>></a></div>'else'<div class="buttonGr"><a href="exec:">？？A certain announcer</a></div>'
-            if $JM.bad>=500-$JM.love:'<div class="buttonB"><a href="exec:$m=''JM'' & $ma=$JM.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$JM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">？？A certain stepmother</a></div>'
+			if $TZ.bad>=500-$TZ.love:'<div class="buttonB"><a href="exec:$m=''TZ'' & $ma=$TZ.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$TZ.name>></a></div>'else'<div class="buttonGr"><a href="exec:">??A certain director</a></div>'
+            if $QT.bad>=500-$QT.love:'<div class="buttonB"><a href="exec:$m=''QT'' & $ma=$QT.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$QT.name>></a></div>'else'<div class="buttonGr"><a href="exec:">??A certain announcer</a></div>'
+            if $JM.bad>=500-$JM.love:'<div class="buttonB"><a href="exec:$m=''JM'' & $ma=$JM.name & gt ''Group_performation_event'',''Universal_Fuck_Visitation''"><<$JM.name>></a></div>'else'<div class="buttonGr"><a href="exec:">??A certain stepmother</a></div>'
 			'<div class="button"><a href="exec:a+=1 & gt ''hospital''">Discharged from the hospital </a></div>'
 			end
 		'</div>'
@@ -1623,9 +1623,9 @@ if $args[0]="Take a break":
 
 		'<div class="button_menu">'
 			if $JY.love>=200:'<div class="buttonS1"><a href="exec:gt ''Police_incident'',''JY_Fuck_Pure love''">Pure loveSEX </a></div>'
-			if $JY.bad>=400-$JY.love:'<div class="buttonS2"><a href="exec:gt ''Police_incident'',''JY_Fuck_JK''">Wear funJK </a></div>'else'<div class="buttonGr"><a href="exec:">fun?？ </a></div>'
+			if $JY.bad>=400-$JY.love:'<div class="buttonS2"><a href="exec:gt ''Police_incident'',''JY_Fuck_JK''">Wear funJK </a></div>'else'<div class="buttonGr"><a href="exec:">fun?? </a></div>'
 			if Essential_oil>0 and MGF>0:'<div class="buttonS3"><a href="exec:MGF-=1 & Essential_oil-=1 &gt ''Police_incident'',''JY_Fuck_Essential oil''">Apply Essential_oil&McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Apply Essential_oil&McGovern </a></div>'
-			if $JY.love>=my.charm*25 and $JY.bad>=my.charm*25:'<div class="buttonS5"><a href="exec:gt ''Police_incident'',''JY_Fuck_ZZ''">Ultimate sex </a></div>'else'<div class="buttonGr"><a href="exec:">Ultimate?？ </a></div>'
+			if $JY.love>=my.charm*25 and $JY.bad>=my.charm*25:'<div class="buttonS5"><a href="exec:gt ''Police_incident'',''JY_Fuck_ZZ''">Ultimate sex </a></div>'else'<div class="buttonGr"><a href="exec:">Ultimate?? </a></div>'
 			'<div class="button"><a href="exec:gt ''Residential_area''">leave </a></div>'
 		'</div>'
 

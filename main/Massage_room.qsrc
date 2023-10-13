@@ -182,9 +182,9 @@ if  $args[0]="Private massage5":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage4''">▶Previous page</a></div>'
-        if $DY.massage=1:'<div class="button"><a href="exec:$m=''DY'' & $ma=$DY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②①<<$DY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②①？？？</a></div>'
-	   if $SWD.massage=1:'<div class="button"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②②<<$SWD.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②②？？？</a></div>'
-       if $YH.massage=1:'<div class="button"><a href="exec:$m=''YH'' & $ma=$YH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②③<<$YH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②③？？？</a></div>'
+        if $DY.massage=1:'<div class="button"><a href="exec:$m=''DY'' & $ma=$DY.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②①<<$DY.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②①???</a></div>'
+	   if $SWD.massage=1:'<div class="button"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②②<<$SWD.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②②???</a></div>'
+       if $YH.massage=1:'<div class="button"><a href="exec:$m=''YH'' & $ma=$YH.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②③<<$YH.name>></a></div>'else:'<div class="buttonGr"><a href="exec:">②③???</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'

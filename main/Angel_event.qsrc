@@ -1539,7 +1539,7 @@ if $args[0]="TS_Fuck_TSM1":
          $MM.love+=q+my.charm
          angelCD=0
          '<div class="dialog_menu">'
-             '<p><<$MM.name>>:The boss is horny!This is my brother`s meat stick, how can you keep holding it and not give it to me!？</p>'
+             '<p><<$MM.name>>:The boss is horny!This is my brother`s meat stick, how can you keep holding it and not give it to me!?</p>'
              '<p><<$TS.name>>:Great, I just like your brother`s big dick... when you are away, he belongs to me.(^_-)</p>'
          '</div>'
     end

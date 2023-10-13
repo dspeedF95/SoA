@@ -53,7 +53,7 @@ if $args[0]="Peeping":
 
 
             '<div class="button_menu">'
-					if  $WQ.Photodestruction=1 and $WQ.BAD>=my.charm*15:'<div class="buttonS"><a href="exec: gt ''Hot_spring_event'',''WQ_Fuck_room4''">Go in and satisfy her</a></div>'else'<div class="buttonGr"><a href="exec: ">Go in?？？</a></div>'
+					if  $WQ.Photodestruction=1 and $WQ.BAD>=my.charm*15:'<div class="buttonS"><a href="exec: gt ''Hot_spring_event'',''WQ_Fuck_room4''">Go in and satisfy her</a></div>'else'<div class="buttonGr"><a href="exec: ">Go in???</a></div>'
 					
                     '<div class="button"><a href="exec:gt ''Hot_spring_corridor''">leave</a></div>'
             '</div>'
@@ -328,7 +328,7 @@ if $args[0]="WQ_Fuck_kitchen1":
             '<div class="buttonS4"><a href="exec:a=6 & gt ''Hot_spring_event'',''WQ_Fuck_kitchen1''">Stick your finger in her</a></div>'
             end
             if a!7 and 6<=q and q<=9:
-            '<div class="buttonS4"><a href="exec:a=7 & gt ''Hot_spring_event'',''WQ_Fuck_kitchen1''">???？</a></div>'
+            '<div class="buttonS4"><a href="exec:a=7 & gt ''Hot_spring_event'',''WQ_Fuck_kitchen1''">????</a></div>'
             end
         '</div>'
         else
@@ -357,7 +357,7 @@ if $args[0]="WQ_Fuck_kitchen1":
 
          '<div class="dialog_menu">'
              '<p>???: Honey, are you in the kitchen?I heard that a lot of guests have come, so I came back early to help!</p>'
-             '<p>Me: Your husband is back?？</p>'
+             '<p>Me: Your husband is back??</p>'
              '<p><<$WQ.name>>: Come on, come on, you go!</p>'
              '<p>Me: Then we will do it next time?</p>'
              '<p><<$WQ.name>>: ……</p>'

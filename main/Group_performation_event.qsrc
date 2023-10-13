@@ -674,7 +674,7 @@ if $args[0]="hospital_Fuck_Wife check2":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-			 '<p>Tianhaiyi:Doctor, you have accumulated so much.....？</p>'
+			 '<p>Tianhaiyi:Doctor, you have accumulated so much.....?</p>'
 		 '</div>'
 	end 
 End
@@ -820,7 +820,7 @@ if $args[0]="hospital_Fuck_Wife photographyon":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-			 '<p>Tianhaiyi:Wow, shot!？Is that the only point?No impact at all....</p>'
+			 '<p>Tianhaiyi:Wow, shot!?Is that the only point?No impact at all....</p>'
 		 '</div>'
 	end
 
@@ -4577,7 +4577,7 @@ if $args[0]="fan_Fuck_DSuccubus":
 
     if 4>=a and a>=1:
          '<div class="dialog_menu">'
-             '<p>I:you?Who are you?！Where did it come from!？！</p>'
+             '<p>I:you?Who are you?！Where did it come from!?！</p>'
              '<p>???:Я суккуб, прошедший через барьер*Laugh</p>'
              if a>=2:'<p>I:body?！Can`t move anymore…</p>'
              if a>=2:'<p>???:не волнуйся, я просто проверяю, сможешь ли ты сыграть за королеву❤</p>'
@@ -6180,7 +6180,7 @@ if $args[0]="Rich woman_Fuck_GM1":
         '<div class="button_menu">'
             if a=0:
             $FPmedicine=0 & FPsatisfy=0
-            if MGF>0:'<div class="buttonS4"><a href="exec:MGF-=1 & a=1 & gt ''Group_performation_event'',''Rich woman_Fuck_GM1''">Mixed with McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Incorporate?？？ </a></div>'
+            if MGF>0:'<div class="buttonS4"><a href="exec:MGF-=1 & a=1 & gt ''Group_performation_event'',''Rich woman_Fuck_GM1''">Mixed with McGovern </a></div>'else'<div class="buttonGr"><a href="exec:">Incorporate??? </a></div>'
             '<div class="buttonS1"><a href="exec:a=3 & gt ''Group_performation_event'',''Rich woman_Fuck_GM1''">Dick with wine </a></div>'
             end
             if a=1:
@@ -7344,7 +7344,7 @@ if $args[0]="Convenience store_Fuck_Go home rape":
 
     if a=0 or a=1 or a=2 or a=3:
          '<div class="dialog_menu">'
-             '<p><<$Thiefsname>>:？！！？！Ah ah ah ah ah ah?！！</p>'
+             '<p><<$Thiefsname>>:?！！?！Ah ah ah ah ah ah?！！</p>'
              if a>=1:'<p>I:Uh... did it hurt you?You said you wanted me to rape you mercilessly……</p>'
              if a>=1:'<p><<$Thiefsname>>:Shut up, can you substitute it like a little bit?Don`t I cooperate with you very much?</p>'
              if a>=2:'<p>I:Then I`m welcome…</p>'

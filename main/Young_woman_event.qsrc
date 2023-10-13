@@ -618,7 +618,7 @@ if $args[0]="SF_Fuck_Valentine`s Day":
     if 2>=a and a>=1:
          '<div class="dialog_menu">'
              '<p>I:Close your eyes!I said you can only open it if you open it!3,2,1…</p>'
-             '<p><<$SF.name>>:Wow!！？Oh my god, this is so beautiful!</p>'
+             '<p><<$SF.name>>:Wow!！?Oh my god, this is so beautiful!</p>'
              if a=2:'<p>I:Congratulations on your idol debut!Cheers, happy Valentine`s Day.</p>'
          '</div>'
     end
@@ -839,7 +839,7 @@ if $args[0]="SF_Fuck_Uninvited guest":
 
     if a=1:
          '<div class="dialog_menu">'
-             '<p><<$SF.name>>:You...!？</p>'
+             '<p><<$SF.name>>:You...!?</p>'
              '<p>Lu Maonan:What are you laughing at?Don`t you know your husband`s dick after you haven`t seen it for a few days?</p>'
              '<p><<$SF.name>>:I... I`m afraid I have a long needle eye…</p>'
              '<p>Lu Maonan:Can you make money and have the ability?！</p>'

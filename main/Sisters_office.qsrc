@@ -316,9 +316,9 @@ if $args[0]="Mother-daughter experiment":
 
  if JM_JJ<5:
 	'<div class="dialog_menu">'
-		'<p><<$jm.name>>:I just happen to be free today, come and see you...of..research..result...Oh?..<<$Protagonist`s_name>>Also here...？</p>'
+		'<p><<$jm.name>>:I just happen to be free today, come and see you...of..research..result...Oh?..<<$Protagonist`s_name>>Also here...?</p>'
 		'<p><<$jj.name>>:Mom!Please!Just help me~~McGovern, I really want to study!！</p>'
-		'<p><<$jm.name>>:Do you have a good relationship..？...Why are you looking at me straight?...？</p>'
+		'<p><<$jm.name>>:Do you have a good relationship..?...Why are you looking at me straight?...?</p>'
 		'<p><<$jj.name>>:This is the result of my research!(*Whisper: Mom`s eyes....Sure enough, the sound I heard outside the door last time was real....You took them all down a long time ago, didn`t you?)</p>'
 	'</div>'
 	end

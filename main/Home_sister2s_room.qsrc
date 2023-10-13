@@ -52,7 +52,7 @@ if $args[0]="Room conversation":
 
 
 	'<div class="dialog_menu">'
-	'<p>Me: What time is it, why don`t you sleep yet?....？</p>'
+	'<p>Me: What time is it, why don`t you sleep yet?....?</p>'
 	'<p><<$mm.name>>: Are you an old man?Go to bed so early.Do you understand the work and rest of young people?</p>'
 	'</div>'
 End

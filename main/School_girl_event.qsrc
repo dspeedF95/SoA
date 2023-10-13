@@ -30,7 +30,7 @@ if $args[0]="Eavesdropping":
 	'<div class="dialog_menu">'
 		'<p><<$XM.name>>: Does my new hair color look good?</p>'
 		'<p>Female classmate: Let me tell you a secret... I actually had sex with my brother yesterday…</p>'
-		'<p><<$XM.name>>: What?brother?？</p>'
+		'<p><<$XM.name>>: What?brother??</p>'
 		'<p>Female classmate: Well, although it was a little painful or strange at first, it became more and more comfortable. Did you feel the same way the first time?</p>'
 		'<p>·<<$XM.name>>I can`t answer</p>'
 		'<p>Female classmate: You are not still a virgin, are you?！</p>'
@@ -45,15 +45,15 @@ if $args[0]="Through the corridor":
 
 	'<div class="button_menu">'
 		'<div class="buttonS1"><a href="exec:gt ''School_girl_event'',''XM_Fuck_home1''">Go with her</a></div>'
-		if $XM.bad>=50:'<div class="buttonS2"><a href="exec:gt ''School_girl_event'',''XM_Fuck_Health room''">Go to the health room</a></div>'else'<div class="buttonGr"><a href="exec:">go?？❤</a></div>'
-		if $XM.love>=150 and $XM.bad>=150:'<div class="buttonS3"><a href="exec: gt ''School_girl_event'',''XM_Fuck_Hot spring''">❤Go to the hot spring❤</a></div>'else'<div class="buttonGr"><a href="exec:">go?？？❤</a></div>'
+		if $XM.bad>=50:'<div class="buttonS2"><a href="exec:gt ''School_girl_event'',''XM_Fuck_Health room''">Go to the health room</a></div>'else'<div class="buttonGr"><a href="exec:">go??❤</a></div>'
+		if $XM.love>=150 and $XM.bad>=150:'<div class="buttonS3"><a href="exec: gt ''School_girl_event'',''XM_Fuck_Hot spring''">❤Go to the hot spring❤</a></div>'else'<div class="buttonGr"><a href="exec:">go???❤</a></div>'
 		'<div class="button"><a href="exec:gt ''university''">Get rid of her</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
 		if $XM.love<=50:
 		'<p><<$XM.name>>: hello!Come here to me!</p>'
-		'<p>I: ？！！What?</p>'
+		'<p>I: ?！！What?</p>'
 		'<p><<$XM.name>>: Less long-winded!Follow me!</p>'
 		'<p>I: Wait a minute?</p>'
 		'<p><<$XM.name>>: Come here!</p>'
@@ -75,7 +75,7 @@ if $args[0]="XM_Fuck_home1":
 		'<div class="button_menu">'
 			if a=0:
 			'<div class="buttonS1"><a href="exec:a=1 & gt ''School_girl_event'',''XM_Fuck_home1''">Sex practice </a></div>'
-			if $XM.bad>=150-$XM.LOVE:'<div class="buttonR3"><a href="exec:a=1 & gt ''School_girl_event'',''XM_Fuck_home2''">Sex exam </a></div>'else'<div class="buttonGr"><a href="exec:">？？exam </a></div>'
+			if $XM.bad>=150-$XM.LOVE:'<div class="buttonR3"><a href="exec:a=1 & gt ''School_girl_event'',''XM_Fuck_home2''">Sex exam </a></div>'else'<div class="buttonGr"><a href="exec:">??exam </a></div>'
 			'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">refuse</a></div>'
 			end
 			if a=1:

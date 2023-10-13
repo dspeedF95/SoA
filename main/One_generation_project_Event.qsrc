@@ -859,7 +859,7 @@ if $args[0]="YDM_Fuck_In front of the principal":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$XZ.name>>:<<$YDM.name>>？！You are not....</p>'
+			 '<p><<$XZ.name>>:<<$YDM.name>>?！You are not....</p>'
 			 '<p><<$YDM.name>>:It`s not thanks to you, you actually introduced me to a minor.</p>'	
 			 '<p><<$XZ.name>>:Listen to me explain that he used his brother`s ID card to apply for admission.</p>'
 			 '<p><<$YDM.name>>:Well, come and have a meal with me, otherwise...The situation will be very unfavorable to you.</p>'	

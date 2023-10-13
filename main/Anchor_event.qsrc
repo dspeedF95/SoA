@@ -186,7 +186,7 @@ if $args[0]="LY_Event_Entry":
 	end
 	if a=10:
 		 '<div class="dialog_menu">'
-			 '<p>woman: ...Have you checked carefully enough!....What about the results of my review..？！</p>'
+			 '<p>woman: ...Have you checked carefully enough!....What about the results of my review..?！</p>'
 		 '</div>'
 	end
 	if a=11:
@@ -484,7 +484,7 @@ if $args[0]="Kitchen monitoring":
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！！？！！</p>'
+			 '<p><<$LY.name>>: ?！！?！！</p>'
 			 '<p>Team leader: Shhh, be quiet, don`t make a sound and you won`t get hurt.</p>'
 		 '</div>'
 	end
@@ -496,7 +496,7 @@ if $args[0]="Kitchen monitoring":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！You can`t rub it so vigorously....Stop it!</p>'
+			 '<p><<$LY.name>>: ?！You can`t rub it so vigorously....Stop it!</p>'
 		 '</div>'
 	end
 
@@ -563,7 +563,7 @@ if $ARGS[0]="Reality show invitation":
 	'</div>'
 	'<div class="dialog_menu">'
 		'<p>I:You have experience working as an anchor and a fashion store. These professional experiences should be the best candidates to complete such a reality show!</p>'
-		'<p><<$LY.name>>:...how do I need to act?？</p>'
+		'<p><<$LY.name>>:...how do I need to act??</p>'
 		'<p>I:No need to act!Reality TV, the most important thing is “real”!Our reality show is called "Stick to it if you are a man10Minutes", you use various means to seduce male guests!</p>'
 		'<p><<$LY.name>>:...I see, what about the reward, I think￥3000…...is it okay?</p>'
 	'</div>'
@@ -796,7 +796,7 @@ if $args[0]="LY_Event_groupP1":
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！Want to...rape...me again!This time...absolutely!？Stop it!！</p>'
+			 '<p><<$LY.name>>: ?！Want to...rape...me again!This time...absolutely!?Stop it!！</p>'
 			 '<p>Team leader: Shhh, be quiet, don`t make a sound and you won`t get hurt.</p>'
 			 '<p>Deputy team leader:  Team leader, you come first!</p>'
 		 '</div>'
@@ -809,7 +809,7 @@ if $args[0]="LY_Event_groupP1":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$LY.name>>: ？！No, it`s not... stop it...!</p>'
+			 '<p><<$LY.name>>: ?！No, it`s not... stop it...!</p>'
 		 '</div>'
 	end
 

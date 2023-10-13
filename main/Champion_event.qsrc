@@ -1061,7 +1061,7 @@ if $args[0]="GJ_Fuck_YQH":
 
     if 3>=a and a>=1:
          '<div class="dialog_menu">'
-             '<p><<$GJ.name>>: We said in advance, we only talk about things，OK？</p>'
+             '<p><<$GJ.name>>: We said in advance, we only talk about things，OK?</p>'
              if a>=2:'<p>Caesar: Of course!We are all talking about serious business!Come on, it looks like you have a good amount of alcohol!</p>'
              if a>=3:'<p><<$GJ.name>>: Hey, what do you want to do…</p>'
              if a>=3:'<p>Caesar: Your figure is so well maintained... if……</p>'
@@ -1197,7 +1197,7 @@ if $args[0]="GJ_Fuck_YQH2":
              '<p>man: baby?Are you in there?I went to your best friend`s house, but she said you haven`t been there at all?</p>'
              '<p><<$GJ.name>>: <<$Panting>></p>'
              '<p>Caesar: Shhh————</p>'
-             '<p>man: <<$GJ.name>>？！You... you open the door for me!I installed positioning on your phone!The display is here!</p>'
+             '<p>man: <<$GJ.name>>?！You... you open the door for me!I installed positioning on your phone!The display is here!</p>'
              '<p>I: It seems that I can only make another appointment next time?</p>'
              '<p>·————————————————————</p>'
              '<p><<$GJ.name>>The value of patience：<<GJPatiencevalue>>/100</p>'

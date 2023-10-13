@@ -96,7 +96,7 @@ if $ARGS[0]="Chance encounter in the mall":
 		
 		if a=8:
 		'<p>I: Are you a little drunk?</p>'
-		'<p><<$BGH.name>>: How could it be?？I just haven`t drunk it for too long❤</p>'
+		'<p><<$BGH.name>>: How could it be??I just haven`t drunk it for too long❤</p>'
 		'<p>I: How did you and your husband meet?</p>'
 		'<p><<$BGH.name>>: We are colleagues. He is my senior. I was with him soon after I entered the company. After I got married, I resigned and stayed at home. Because of the transfer of work, I came here with him.…</p>'
 		'<p>I: Then your relationship must be very good!</p>'
@@ -356,7 +356,7 @@ if $args[0]="Bar invitation":
 		'<p>I: Kabukicho?</p>'
 		'<p><<$BGH.name>>: Where do I want to go to the nightclub to be presumptuous, can you accompany me?</p>'
 		'<p>I: of course.</p>'
-		'<p><<$BGH.name>>: That...Wednesday night22:00？</p>'
+		'<p><<$BGH.name>>: That...Wednesday night22:00?</p>'
 		if $BGH.Night=0:$BGH.Night=1
 	'</div>'
 End

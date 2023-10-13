@@ -691,7 +691,7 @@ if $args[0]="Car dealer_Fuck_office1":
             if a=0:
             '<div class="buttonG1"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Work hard</a></div>'
             if $CH.love>=100 and $CH.Comeon>=0:'<div class="buttonP"><a href="exec:a=0 & q=0 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Recommend a good place</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
-            if CHMMS>0:'<div class="buttonPu1"><a href="exec:a=0 & q=0 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''"><<$MMS.name>>？</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+            if CHMMS>0:'<div class="buttonPu1"><a href="exec:a=0 & q=0 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''"><<$MMS.name>>?</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
             end
             if a!2 and 1<=q and q<=3 and $CH.rice>=1:
             '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Small reward</a></div>'
@@ -758,7 +758,7 @@ if $args[0]="Car dealer_Fuck_office1":
          '<div class="dialog_menu">'
              if a=0:
                 '<p>staffA: How about we go for a drink after get off work?</p>'
-                '<p>staffB：<<$Protagonist`s_name>>？Are you together too?</p>'
+                '<p>staffB：<<$Protagonist`s_name>>?Are you together too?</p>'
                 '<p>Me: Uh……</p>'
                 '<p>staffA: Recently, my wife and I divorced, alas.If I divorce, I may be expelled from this city…</p>'
                 '<p>staffB: Then where will you live in the future?</p>'
@@ -1010,7 +1010,7 @@ if $args[0]="Car dealer_Fuck_studio2":
     if a=6:
 
          '<div class="dialog_menu">'  
-                '<p><<$OX.name>>：<<$Protagonist`s_name>>？Are you in there?I heard your voice.</p>'   
+                '<p><<$OX.name>>：<<$Protagonist`s_name>>?Are you in there?I heard your voice.</p>'   
                 '<p>Me: Not good?！</p>'     
                 '<p><<$CH.name>>: What?！Hurry up and get dressed❤ </p>'
          '</div>'

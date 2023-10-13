@@ -136,11 +136,11 @@ if $ARGS[0]="After a meal":
 		
 	'<div class="button_menu">'
 		if $BD.love>=50 and a=0:'<div class="buttonS2"><a href="exec:a=1 & gt ''Choreographing_event'',''After a meal''">Four eyes opposite</a></div>'
-		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Choreographing_event'',''After a meal''">？！！！</a></div>'
+		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Choreographing_event'',''After a meal''">?！！！</a></div>'
 		if a=2:'<div class="button"><a href="exec:a=3 & gt ''Choreographing_event'',''After a meal''">Sitting upright</a></div>'
 		if a=3:'<div class="button"><a href="exec:a=4 & gt ''Choreographing_event'',''After a meal''">Peeking at her sister</a></div>'
 		if a=3 and $BD.love>=250-$BD.bad:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">Exercise after a meal</a></div>'else'<div class="buttonGr"><a href="exec:">Exercise after a meal</a></div>'
-		if a=4:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">Go to the bathroom door</a></div>'else'<div class="buttonGr"><a href="exec:">bathroom?？？</a></div>'
+		if a=4:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">Go to the bathroom door</a></div>'else'<div class="buttonGr"><a href="exec:">bathroom???</a></div>'
 		
 		'<div class="button"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Video conference''">Prepare for video conference</a></div>'
 	'</div>'
@@ -355,7 +355,7 @@ if $args[0]="Choreographer_Fuck_Bathroom door":
 		 $BD.love+=q+my.charm
 		 $BD.bad+=q+5
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: ？！Huh, but you are so good at it, you actually fucked my mother to beg for mercy... No wonder the director listened to you so much, have you fucked her too?</p>'
+			 '<p><<$BD.name>>: ?！Huh, but you are so good at it, you actually fucked my mother to beg for mercy... No wonder the director listened to you so much, have you fucked her too?</p>'
 			 '<p>Me: Uh………</p>'
 			 '<p><<$BD.name>>: It`s terrible, it`s terrible, it`s too late for the video conference!It`s all your fault!</p>'
 		 '</div>'
@@ -440,7 +440,7 @@ if $args[0]="Video conference":
 
 	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>:？！What are you doing?Don`t do it, it`s a meeting!</p>'
+			 '<p><<$BD.name>>:?！What are you doing?Don`t do it, it`s a meeting!</p>'
 			 '<p>Me: It`s okay, they can`t see... Director, don`t you want to relax and enjoy it?</p>'
 			 '<p><<$BD.name>>:Why are you so messy?hello!</p>'
 			 if a>=2:'<p>Me: Obviously you enjoyed it when I asked you to make a reality show.</p>'
@@ -542,7 +542,7 @@ if $args[0]="Video conference2":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>:？！Why don`t you keep your word?I`m going to be angry if you do this again!</p>'
+			 '<p><<$BD.name>>:?！Why don`t you keep your word?I`m going to be angry if you do this again!</p>'
 		 '</div>'
 	end
 
@@ -1294,7 +1294,7 @@ if $args[0]="Soy milk":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>Me:?！？！？？</p>'
+			 '<p>Me:?！?！??</p>'
 		 '</div>'
 	end
 
@@ -1319,7 +1319,7 @@ if $args[0]="Soy milk":
 		 '<div class="dialog_menu">'
 			 '<p>Me: Give me a break.</p>'
 			 '<p>???:sister!！</p>'
-			 '<p><<$BD.name>>：？！？！wait!</p>'
+			 '<p><<$BD.name>>：?！?！wait!</p>'
 			 '<p>Me: Call-saved……</p>'
 		 '</div>'
 	end
@@ -1358,7 +1358,7 @@ if $args[0]="Choreographer_Fuck_3PL":
 		'<div class="button_menu">'
 			if a=0:
 			$BDAttributespecialrequirements=200+my.charm*20
-			if $BD.love>=200+my.charm*20 and $BD.bad>=200+my.charm*20:'<div class="buttonS"><a href="exec:a=1 & gt ''Choreographing_event'',''Choreographer_Fuck_3PL''">Enter the demonstration</a></div>'else'<div class="buttonGr"><a href="exec:">❤Insufficient relationship<<$BDAttributespecialrequirements>>？？</a></div>'
+			if $BD.love>=200+my.charm*20 and $BD.bad>=200+my.charm*20:'<div class="buttonS"><a href="exec:a=1 & gt ''Choreographing_event'',''Choreographer_Fuck_3PL''">Enter the demonstration</a></div>'else'<div class="buttonGr"><a href="exec:">❤Insufficient relationship<<$BDAttributespecialrequirements>>??</a></div>'
 			'<div class="button"><a href="exec:gt ''TV_station''">leave</a></div>'
 			end
 			if a!2 and 0<q and q<=3:
@@ -1454,7 +1454,7 @@ if $args[0]="Choreographer_Fuck_3PL":
 		 BDLY+=1
 		 '<div class="dialog_menu">'
 			 '<p>Me: Huh----I`m exhausted.</p>'
-			 '<p><<$LY.name>>:？！I understand!This is not3PIs it?</p>'	 
+			 '<p><<$LY.name>>:?！I understand!This is not3PIs it?</p>'	 
 			 '<p><<$BD.name>>:You are quite smart... I am optimistic about your performance in the second season.…</p>'
 			 '<p>(As for when will the second season be released?I don`t know...)</p>'
 		 '</div>'

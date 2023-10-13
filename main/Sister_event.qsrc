@@ -139,7 +139,7 @@ if $args[0]="Ejaculation test":
 
 	if 6>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p>Me: Sister, you take it off like this....？</p>'
+			 '<p>Me: Sister, you take it off like this....?</p>'
 			 '<p><<$JJ.name>>:Does it matter?！Is it a shame to dedicate yourself to science as a scientist?！</p>'
 			 '<p><<$JJ.name>>:You are one of my sister`s most important research subjects!</p>'
 		 '</div>'
@@ -850,7 +850,7 @@ if $args[0]="JJ_Fuck_senior3P":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-			 '<p><<$JJ.name>>:Shot?Senior!？The staying power is not half as good as my brother.It`s really rubbish.</p>'
+			 '<p><<$JJ.name>>:Shot?Senior!?The staying power is not half as good as my brother.It`s really rubbish.</p>'
 			 '<p>senior:fuck.</p>'
 		 '</div>'
 	end

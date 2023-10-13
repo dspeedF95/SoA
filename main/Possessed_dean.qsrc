@@ -87,7 +87,7 @@ if $args[0]="Master bedroom":
 
 	'<div class="dialog_menu">'
 		'<p>I: I remember I was obviously in the hospital... my head hurts so much... why is it so itchy under me?</p>'
-		'<p>I: Um... damn it( ‵o′)Hey, what`s the matter?！I actually became the dean?？How is this possible?！</p>'
+		'<p>I: Um... damn it( ‵o′)Hey, what`s the matter?！I actually became the dean??How is this possible?！</p>'
 		'<p>I: Is this a dream?！It`s too real, isn`t it?……</p>'
 	'</div>'
 End

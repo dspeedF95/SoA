@@ -86,7 +86,7 @@ if $args[0]="ZX_Fuck_Strategy":
 			'<div class="button"><a href="exec:a=5 & gt ''Plasticity_event'',''ZX_Fuck_Strategy''">dialogue </a></div>'
 			end
 			if a=5:
-			if Bigvillaforthefirsttime>=1:'<div class="buttonR2"><a href="exec:a=6 & gt ''Plasticity_event'',''ZX_Fuck_Strategy''">What are you calling? </a></div>'else'<div class="buttonGr"><a href="exec:">？？Triggered after entering the big villa </a></div>'
+			if Bigvillaforthefirsttime>=1:'<div class="buttonR2"><a href="exec:a=6 & gt ''Plasticity_event'',''ZX_Fuck_Strategy''">What are you calling? </a></div>'else'<div class="buttonGr"><a href="exec:">??Triggered after entering the big villa </a></div>'
 			if Bigvillaforthefirsttime<=0:'<div class="buttonR2"><a href="exec:gt ''park''">escape </a></div>'
 			end
 			if a=6:
@@ -204,8 +204,8 @@ if $args[0]="ZXhome":
 			if $ZX.love>=my.charm*12:'<div class="buttonS3"><a href="exec: gt ''Plasticity_event'',''ZX_Fuck_bedroom''">Into the bedroom</a></div>'else'<div class="buttonGr"><a href="exec: ">Lack of favorability<<my.charm*12>></a></div>'
 			'<div class="buttonPu5"><a href="exec: gt ''Plasticity_event'',''ZX_Fuck_sleep''">Take a nap on the sofa</a></div>'
 
-			if $ZX.love>=200 and $EDM.love>=200:'<div class="buttonS"><a href="exec: gt ''Plasticity_event'',''ZX_Fuck_D2''">appointment<<$EDM.name>></a></div>'else'<div class="buttonGr"><a href="exec: ">And the second generation?？3P</a></div>'
-			if $ZX.love>=200 and $SW.love>=200:'<div class="buttonS"><a href="exec: gt ''Plasticity_event'',''ZX_Fuck_D1''">appointment<<$SW.name>></a></div>'else'<div class="buttonGr"><a href="exec: ">And creatures?？3P</a></div>'
+			if $ZX.love>=200 and $EDM.love>=200:'<div class="buttonS"><a href="exec: gt ''Plasticity_event'',''ZX_Fuck_D2''">appointment<<$EDM.name>></a></div>'else'<div class="buttonGr"><a href="exec: ">And the second generation??3P</a></div>'
+			if $ZX.love>=200 and $SW.love>=200:'<div class="buttonS"><a href="exec: gt ''Plasticity_event'',''ZX_Fuck_D1''">appointment<<$SW.name>></a></div>'else'<div class="buttonGr"><a href="exec: ">And creatures??3P</a></div>'
 			if $ZXtrouble=1:'<div class="buttonR"><a href="exec: gt ''Plasticity_event'',''ZX_Fuck_AF1''">Handling rights disputes</a></div>'else'<div class="buttonGr"><a href="exec: ">Handling rights disputes</a></div>'
 
 
@@ -298,7 +298,7 @@ if $args[0]="ZX_Fuck_illusion":
 			'<div class="buttonP"><a href="exec:a=4 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">Violent knock on the door </a></div>'
 			end
 			if a=4:
-			'<div class="buttonR"><a href="exec:a=5 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">？？！？！ </a></div>'
+			'<div class="buttonR"><a href="exec:a=5 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">??！?！ </a></div>'
 			end
 			if 20>=a and a>=5:
 				'<div class="buttonS"><a href="exec:a+=1 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">At the mercy of </a></div>'
@@ -509,10 +509,10 @@ if $args[0]="ZX_Fuck_Knock on the glass":
 			end
 			if q=1:
 			'<div class="buttonS1"><a href="exec:a=2 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Question: Was it just now? </a></div>'
-			if $ZX.love>=50:'<div class="buttonS2"><a href="exec:a=3 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Question: The secret of the archives? </a></div>'else'<div class="buttonGr"><a href="exec:">Inquiry:?？？ </a></div>'
-			if $ZX.love>=100:'<div class="buttonS3"><a href="exec:a=4 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Question: Your true identity? </a></div>'else'<div class="buttonGr"><a href="exec:">Inquiry:?？？ </a></div>'
+			if $ZX.love>=50:'<div class="buttonS2"><a href="exec:a=3 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Question: The secret of the archives? </a></div>'else'<div class="buttonGr"><a href="exec:">Inquiry:??? </a></div>'
+			if $ZX.love>=100:'<div class="buttonS3"><a href="exec:a=4 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Question: Your true identity? </a></div>'else'<div class="buttonGr"><a href="exec:">Inquiry:??? </a></div>'
 			if Devils_Pupil>=1 and $ZX.love>=150:'<div class="buttonR"><a href="exec:a=7 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''"> <font color="#FF00FF">Demon King`s Pupil: Appears in its original form</font></a></div>'
-			if $Iwasreplaced=1:'<div class="buttonS5"><a href="exec:a=5 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Question: What did you do with my body? </a></div>'else'<div class="buttonGr"><a href="exec:">Inquiry:?？？ </a></div>'
+			if $Iwasreplaced=1:'<div class="buttonS5"><a href="exec:a=5 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Question: What did you do with my body? </a></div>'else'<div class="buttonGr"><a href="exec:">Inquiry:??? </a></div>'
 			end
 			if q=2:
 			'<div class="button"><a href="exec:a=6 & gt ''Plasticity_event'',''ZX_Fuck_Knock on the glass''">Ejaculation </a></div>'

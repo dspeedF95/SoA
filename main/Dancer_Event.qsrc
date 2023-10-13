@@ -30,7 +30,7 @@ if $args[0] ='SpadesA':
 	'<div class="dialog_menu">'
 		'<p><<$WN.name>>:Thanks<<$Protagonists_surname>> Boss`s1SpadesAGold edition!People like you so much!Let us fight until dawn!</p>'
 		$WN.love+=10
-		if WNcos=1:'<p><<$WN.name>>:<<$Protagonists_surname>> Boss, how do you know I like itosplay？！I will definitely appreciate it!</p>'
+		if WNcos=1:'<p><<$WN.name>>:<<$Protagonists_surname>> Boss, how do you know I like itosplay?！I will definitely appreciate it!</p>'
 	'</div>'
 End
 

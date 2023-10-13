@@ -82,7 +82,7 @@ end
 	if Set_printing_card=1 and hour=22 and $weather='☂ Rainy':'<div class="buttonS"><a href="exec:Setprintingnumber=2 & gt ''Group_performation_event'',''Universal_Fuck_Set seal''">❤Strike up a conversationOL❤</a></div>'
 	if Set_printing_card=1 and hour=16 and $weather='☀ Sunny':'<div class="buttonR3"><a href="exec:Set_printing_numberS=1 & gt ''Group_performation_event'',''Universal_Fuck_Set sealS''">❤Strike up a conversation with an acquaintance❤</a></div>'
 	if $Task_womenpolicejacket=2 and $times_of_day!"night":'<div class="buttonPu2"><a href="exec:gt ''Task_event'',''Policewoman jacket''">Looking for policewoman</a></div>'
-	if hour=22 and $Caesar_Event_Chain=2:'<div class="buttonR3"><a href="exec:gt ''Champion_event'',''GJ_Fuck_encounter''"><<$GJ.name>>？！</a></div>'
+	if hour=22 and $Caesar_Event_Chain=2:'<div class="buttonR3"><a href="exec:gt ''Champion_event'',''GJ_Fuck_encounter''"><<$GJ.name>>?！</a></div>'
 	'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">Kill time</a></div>'
 '</div>'
 

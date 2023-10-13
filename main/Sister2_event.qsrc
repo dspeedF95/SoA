@@ -1759,7 +1759,7 @@ if $args[0]="MM_Fuck_Competition":
     if a=9:
 		 if $Yuya_Event_Chain=4:$Yuya_Event_Chain=5
          '<div class="dialog_menu">'
-             '<p>……？！<<$SSYY.name>>Passing by with a mobile phone outside the door…</p>'
+             '<p>……?！<<$SSYY.name>>Passing by with a mobile phone outside the door…</p>'
              '<p><<$SSYY.name>>: Interesting...is it brother and sister incest?Now I can be anti-customer-oriented…</p>'
          '</div>'
     end

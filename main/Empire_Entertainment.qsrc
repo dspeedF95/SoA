@@ -272,7 +272,7 @@ if  $args[0]="Artificial knife blade":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Me: I heard that the Imperial Group has a special promotion channel, fromM1UntilM10？Like the quality of wagyu beef.I am very curious, so I want to apply for a job position to see.</p>'
+		'<p>Me: I heard that the Imperial Group has a special promotion channel, fromM1UntilM10?Like the quality of wagyu beef.I am very curious, so I want to apply for a job position to see.</p>'
 		'<p><<$ts.name>>: Yes, with the accumulation of your work experience, you can continue to be promoted.From the bottomM1All the way up, it`s like climbing a tower in a game.</p>'
 		'<p><<$ts.name>>: Although there is no shortage of people in the company, most of them are part-time.1Level employees still hope that the more, the better.I can provide you with one1Level positions, after that, your efforts will be required.</p>'
 		'<p>Me: Thank you then.</p>'
@@ -451,7 +451,7 @@ if  $args[0]="Proposed draft4":
 		'<p><<$TS.name>>: What request?</p>'
 		'<p>I: ……</p>'
 		if  $Sisterisallowed=1:'<p><<$TS.name>>: <<$MM.name>>Now that there are so many fans, it`s time to take her to meet the big scene. It`s okay to take her!</p>'
-		if  $AllowtobringSF=1:'<p><<$TS.name>>: <<$SF.name>>…？As a newcomer, you have to go to this kind of competition for the first time?I am worried that she will become cannon fodder, but... bringing her will have nothing to lose to me.</p>'
+		if  $AllowtobringSF=1:'<p><<$TS.name>>: <<$SF.name>>…?As a newcomer, you have to go to this kind of competition for the first time?I am worried that she will become cannon fodder, but... bringing her will have nothing to lose to me.</p>'
 	'</div>'
 End
 

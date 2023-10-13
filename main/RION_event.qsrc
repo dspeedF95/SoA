@@ -422,7 +422,7 @@ if $args[0]="RION_Fuck_dinner":
 
 		else
 			'<div class="button_menu">'
-				if $RION.bad>=200-$RION.love:'<div class="button"><a href="exec:minutes+=1440& hour=7 &a=0 & q=0& my.energy=mymax[energy] & gt ''RION_event'',''RION_Fuck_Morning cannon''">Stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">stay?？</a></div>'
+				if $RION.bad>=200-$RION.love:'<div class="button"><a href="exec:minutes+=1440& hour=7 &a=0 & q=0& my.energy=mymax[energy] & gt ''RION_event'',''RION_Fuck_Morning cannon''">Stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">stay??</a></div>'
 				'<div class="button"><a href="exec:minutes+=15 & a=0 & q=0 & gt ''RION_event'',''RION_Fuck_Do it in person''">Knock on the door</a></div>'
 			'</div>'
 	end

@@ -76,7 +76,7 @@ if $ARGS[0]="Dialogue with the Geological Office":
 		if $DZ.love>=100 and $DZ.bad>=100:
 		'<div class="button"><a href="exec: gt ''Geological_Office'',''Missing documents''">Missing documents</a></div>'
 		else
-		'<div class="buttonGr"><a href="exec: ">???？</a></div>'
+		'<div class="buttonGr"><a href="exec: ">????</a></div>'
 		end
 		if $DZ.love>=150 and $DZ.bad>=150 and MGF>0:
 		'<div class="buttonB3"><a href="exec: gt ''Geological_Office'',''McGovern Research''">McGovern Research</a></div>'

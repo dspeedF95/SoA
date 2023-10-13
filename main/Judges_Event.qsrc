@@ -389,7 +389,7 @@ if $args[0]="Safe passage":
         '</div>'
 
             '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & $Sister_Hua_Event_Chain=6 &  gt ''Daily_life_in_prison'',''Front of the prison''">！？！？</a></div>'
+                '<div class="button"><a href="exec:minutes+=30 & $Sister_Hua_Event_Chain=6 &  gt ''Daily_life_in_prison'',''Front of the prison''">！?！?</a></div>'
             '</div>'
 
 
@@ -401,7 +401,7 @@ if $args[0]="Safe passage":
              '<p><<$PW.name>>:Then you are dreaming.</p>'
              '<p>I:Oh, then you can`t talk about it anymore?</p>'
              '<p><<$PW.name>>:Then go and dream.</p>'
-             '<p>I:！？！？</p>'
+             '<p>I:！?！?</p>'
          '</div>'
     end
 
@@ -571,7 +571,7 @@ if $args[0]="Safe passage2":
 
             '<div class="button_menu">'
                 '<div class="buttonS3"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth2''">Go to the toilet</a></div>'
-                if $PW.bad>=100:'<div class="buttonS4"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Wait until the meeting is over</a></div>'else'<div class="buttonGr"><a href="exec:">wait?？？</a></div>'
+                if $PW.bad>=100:'<div class="buttonS4"><a href="exec:minutes+=30 & gt ''Judges_Event'',''PW_Fuck_mouth1''">Wait until the meeting is over</a></div>'else'<div class="buttonGr"><a href="exec:">wait???</a></div>'
             '</div>'
 
 
@@ -722,7 +722,7 @@ if $args[0]="Maid application":
              '<p><<$PW.name>>: How are you, I`m here to apply for a housemaid.</p>'
              '<p>I: What are you... trying to do?Dignified big stars, actors, singers, and models came to be my maid?</p>'
              '<p><<$PW.name>>: I am now carrying a lot of foreign debt and I am cornered.Isn`t it good to work here to pay off debts and pay for food and housing?</p>'
-             '<p>I: (If you want to hire her, I always feel that she has a bad plan.)…？</p>'
+             '<p>I: (If you want to hire her, I always feel that she has a bad plan.)…?</p>'
          '</div>'
 
 End
@@ -1292,7 +1292,7 @@ if $args[0]="PW_Fuck_cycle3":
          $PW.love+=(q+my.charm)*3
          $PW.bad+=q
          '<div class="dialog_menu">'
-             '<p><<$PW.name>>: Wait a minute!？！It`s not working anymore!Don`t stuff it in again!</p>'
+             '<p><<$PW.name>>: Wait a minute!?！It`s not working anymore!Don`t stuff it in again!</p>'
          '</div>'
     end
 

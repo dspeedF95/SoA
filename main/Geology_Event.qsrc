@@ -45,7 +45,7 @@ if $ARGS[0]="First meeting":
 		
 		if $ARGS[1]="meet":
 		'<p>-Me: Hello!My name is <<$Protagonist_name>>...'
-		'<p>-<<$DZ.name>>：<<$jj.name>>？Why did you keep me waiting for so long?What about your concept of time?Please at least abide by the concept of time before asking people!Hope you are on time next time!！</p>'
+		'<p>-<<$DZ.name>>：<<$jj.name>>?Why did you keep me waiting for so long?What about your concept of time?Please at least abide by the concept of time before asking people!Hope you are on time next time!！</p>'
 		'<p>-<<$JJ.name>>: I waited for the analysis report for a while. It was all classmates. Why are you so fierce!My brother is still there, give me some face~~！Show you my latest analysis report!You will be surprised!</p>'
 		'<p>-<<$DZ.name>>: What?！This is McGovern(MacGuffin)The analysis report?！C-137Isn`t the project already invalid?Where did you get the raw materials?OS: This McGovern(MacGuffin)The effect of....Sure enough, it`s not easy.....</p>'
 		'<p>-<<$JJ.name>>: Hehe, keep it secret!By the way, my brother wants to ask you something.</p>'

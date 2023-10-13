@@ -128,7 +128,7 @@ if $ARGS[0]="Urban Construction Minister`s Office":
 	
 	'<div class="dialog_menu">'
 		'<p><<$CJ.name>>: What`s the matter?</p>'
-		'<p>·<a href="exec:gt ''Mayors_Office'',''prompt''">【?？？】</a></p>'
+		'<p>·<a href="exec:gt ''Mayors_Office'',''prompt''">【???】</a></p>'
 	'</div>'
 end
 

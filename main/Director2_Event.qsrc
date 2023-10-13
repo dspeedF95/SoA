@@ -27,7 +27,7 @@ if $args[0]="harassment":
 
 
 		 '<div class="dialog_menu">'
-			 '<p><<$JZ.name>>: ？！！Ah!！</p>'
+			 '<p><<$JZ.name>>: ?！！Ah!！</p>'
 			 '<p>Former director(Nakata Ichihei): The ass is still so elastic!</p>'
 			 '<p><<$JZ.name>>: Uncle... this is not good, I will sue you for sexual harassment of law enforcement officials.</p>'
 			 '<p>Former director(Nakata Ichihei): Oh, how many times have I told you that you are called a job when you work!</p>'
@@ -882,7 +882,7 @@ if $args[0]="JZ_Fuck_Succubus":
 
     if 6>=a and a>=0:
          '<div class="dialog_menu">'
-           '<p>Me:?！？！？！My head hurts so much, am I dreaming?</p>'
+           '<p>Me:?！?！?！My head hurts so much, am I dreaming?</p>'
            '<p>???: ……</p>'
            if a=6: my.energy=-999
          '</div>'
@@ -935,7 +935,7 @@ if $args[0]="JZ_Fuck_Catch1":
     if 7>=a and a>=0:
          '<div class="dialog_menu">'
            '<p><<$JZ.name>>: What are you doing here sneakily?</p>'
-           '<p>Me:?！？！？！Huh?</p>'
+           '<p>Me:?！?！?！Huh?</p>'
            '<p><<$JZ.name>>: Now that you are here, don`t think about leaving.</p>'
          '</div>'
     end
@@ -996,7 +996,7 @@ if $args[0]="JZ_Fuck_Catch2":
     if 7>=a and a>=0:
          '<div class="dialog_menu">'
            '<p><<$JZ.name>>: What are you doing here sneakily?</p>'
-           '<p>Me:?！？！？！Huh?</p>'
+           '<p>Me:?！?！?！Huh?</p>'
            '<p><<$JZ.name>>: Now that you are here, don`t think about leaving.</p>'
          '</div>'
     end
@@ -1078,7 +1078,7 @@ if $args[0]="JZ_Fuck_MGF":
 
     if 7>=a and a>=0:
          '<div class="dialog_menu">'
-           '<p><<$JZ.name>>: ？！？！？Is this?</p>'
+           '<p><<$JZ.name>>: ?！?！?Is this?</p>'
            '<p>Me: Something that makes you linger and obsessed.</p>'
            if a>=1:'<p><<$JZ.name>>: How come you have this?</p>'
            if a>=2:'<p>Me: Exclusive formula.</p>'
@@ -1139,7 +1139,7 @@ if $args[0]="JZ_Fuck_temptation":
 
     if 5>=a and a>=0:
          '<div class="dialog_menu">'
-           '<p><<$JZ.name>>: ？！？！？What do you want to do?</p>'
+           '<p><<$JZ.name>>: ?！?！?What do you want to do?</p>'
            '<p>Me: I want to do it, do you want to?</p>'
            if a>=1:'<p><<$JZ.name>>: <<$Panting>></p>'
            if a>=2:'<p>Me: Shall we make it quick?</p>'
@@ -1201,7 +1201,7 @@ if $args[0]="JZ_Fuck_temptation2":
 
     if 6>=a and a>=0:
          '<div class="dialog_menu">'
-           '<p>I: ？！？！？What do you want to do?</p>'
+           '<p>I: ?！?！?What do you want to do?</p>'
            '<p><<$JZ.name>>: I want to do it, do you want to?</p>'
            if a>=1:'<p>Me: Shall we make it quick?</p>'
            if a>=2:'<p><<$JZ.name>>: <<$Panting>></p>'
@@ -1346,7 +1346,7 @@ if $args[0]="JZ_Fuck_Suspension of investigation":
 
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
-           if a=0:'<p>investigator: You said it wasn`t the crazy little brother who set the fire?？</p>'
+           if a=0:'<p>investigator: You said it wasn`t the crazy little brother who set the fire??</p>'
            if a=1:'<p><<$JZ.name>>: I don`t think the investigation can end like this, there may be some misunderstandings.</p>'
            if a=2:'<p>I: My little brother was with me at the time.</p>'
            if a=3:'<p>investigator: Is that so?Since<<$JZ.name>>If you say that, then I will leave.</p>'
@@ -1548,7 +1548,7 @@ if $args[0]="Director of Hypnosis":
 
 		 '<div class="dialog_menu">'
 			 '<p>·You concentrate and shoot a hypnotic light at her❤</p>'
-			 '<p><<$JZ.name>>: ？！！Ah!！</p>'
+			 '<p><<$JZ.name>>: ?！！Ah!！</p>'
 			 '<p>·But the strange thing is that she doesn`t seem to be under control</p>'
 		 '</div>'
 

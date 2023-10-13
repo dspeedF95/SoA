@@ -517,7 +517,7 @@ if $ARGS[0]="Scream":
 	
 	'<div class="dialog_menu">'
 		'<p>???: Catch her for me!Bitch!</p>'
-		'<p>I:  <<$DC.name>>？！You let her go for me!</p>'
+		'<p>I:  <<$DC.name>>?！You let her go for me!</p>'
 		'<p>???: hello!Call you!</p>'
 		if a=1:'<p><font size="50">Boom--!</font></p>'
 		if a=2:'<p>·I heard the cries of rescuers, but I was unable to respond……</p>'
@@ -1697,7 +1697,7 @@ if $args[0]="DC_Fuck_Biological laboratory":
          '<div class="dialog_menu">'
              if a=0:'<p><<$DC.name>>: This should be it!The research and development room of the mysterious aphrodisiac in the clue, doesn`t it seem that there is nothing wrong with it?Why do I feel like I`ve been here before?</p>'
              if a=1:'<p><<$DC.name>>: Don`t think too much, I finally slipped in, it`s time for the hospital to get off work.*Hissing</p>'
-             if a=2:'<p><<$DC.name>>:？！？！？！</p>'
+             if a=2:'<p><<$DC.name>>:?！?！?！</p>'
              if a>=3:'<p><<$DC.name>>: Help<<$Panting>></p>'
              if a=5 or a=7:'<p><<$DC.name>>: Ah Ah Ah Oh Ah Ah Oh Oh Oh Oh Oh Oh Ah Ah Oh Oh!</p>'
          '</div>'

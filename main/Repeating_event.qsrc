@@ -609,7 +609,7 @@ if $args[0]="LJ_Fuck_Mom blowjob":
 
 	if a=10:
 		 '<div class="dialog_menu">'
-			 '<p><<$LJ.name>>:Accidentally fell asleep again.....mom，<<$Protagonist`s_name>>？Why are your expressions weird?</p>'
+			 '<p><<$LJ.name>>:Accidentally fell asleep again.....mom，<<$Protagonist`s_name>>?Why are your expressions weird?</p>'
 			 '<p><<$SY.name>>:uh....When the meal is ready, you can eat it yourself. Mom is going to do tasks with her uncles. You can play by yourself.~</p>'
 			 '<p><<$LJ.name>>:I have to go after dinner<<$Protagonist`s_name>>Live there for a while...</p>'
 			 '<p><<$SY.name>>:Whatever you want!Mom is too late!Let`s go first!</p>'

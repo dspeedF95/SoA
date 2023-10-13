@@ -231,12 +231,12 @@ if $ARGS[0]="Warden`s Office":
 		if dogteam=2:
 			if DYZcos=0 and tuc_level3=1:'<div class="buttonPu1"><a href="exec:DYZcos=1 & gt ''Daily_life_in_prison'',''Warden`s Office''">Hand out the photo studio business card</a></div>'
 			'<div class="buttonS1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_feast''">Provide a feast</a></div>'
-			if $DYZ.bad>=110-$DYZ.love:'<div class="buttonR1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_3P''">Group sex competition</a></div>'else'<div class="buttonGr"><a href="exec:">？？competition</a></div>'
+			if $DYZ.bad>=110-$DYZ.love:'<div class="buttonR1"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_3P''">Group sex competition</a></div>'else'<div class="buttonGr"><a href="exec:">??competition</a></div>'
 			if $DYZ.bad>=100:
 			 if jings>=30 and  $DYZ.friend=1:'<div class="buttonR3"><a href="exec:  gt ''Warden_Incident'',''DYZ_Event_entertain2''">Semen martini</a></div>'else'<div class="buttonR2"><a href="exec:gt ''Warden_Incident'',''DYZ_Event_entertain''">Introduce guests</a></div>'
 			end
-			if $DYZ.entertain>=1:'<div class="buttonR4"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P''">Exclusive for two</a></div>'else'<div class="buttonGr"><a href="exec:">Two people?？</a></div>'
-			if $DYZ.entertain>=2 and $DYZ.bad>=400-$DYZ.love:'<div class="buttonR5"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P2''">Gathering of elites</a></div>'else'<div class="buttonGr"><a href="exec:">？？Gathering</a></div>'
+			if $DYZ.entertain>=1:'<div class="buttonR4"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P''">Exclusive for two</a></div>'else'<div class="buttonGr"><a href="exec:">Two people??</a></div>'
+			if $DYZ.entertain>=2 and $DYZ.bad>=400-$DYZ.love:'<div class="buttonR5"><a href="exec:  gt ''Warden_Incident'',''DYZ_Fuck_inverse3P2''">Gathering of elites</a></div>'else'<div class="buttonGr"><a href="exec:">??Gathering</a></div>'
 		end
 		'<div class="button"><a href="exec:gt ''Daily_life_in_prison''">Go back</a></div>'
 	'</div>'
@@ -248,7 +248,7 @@ if $ARGS[0]="Warden`s Office":
 		'<p>I:Yes, I can give you... free orders when you come!</p>'
 		end
 		'<p><<$DYZ.name>>:Listen up, you have to shoot at least once a day20mlSemen!If you don`t understand, go back.</p>'
-		if jings<=0:'<p><B><span class =''red''><<$DYZ.name>>:<<$Protagonist`s_name>>？！Why are you here without even a drop of semen?Get out of here!</p>'
+		if jings<=0:'<p><B><span class =''red''><<$DYZ.name>>:<<$Protagonist`s_name>>?！Why are you here without even a drop of semen?Get out of here!</p>'
 	'</div>'
 
 end
@@ -316,7 +316,7 @@ if $ARGS[0]="connector":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>I:I am<<$EDM.name>>Those sent to connect with you, please give instructions.(Fuck me?！？Are you two the escape experts you are looking for?！Isn`t this stable anymore?）</p>'
+		'<p>I:I am<<$EDM.name>>Those sent to connect with you, please give instructions.(Fuck me?！?Are you two the escape experts you are looking for?！Isn`t this stable anymore?）</p>'
 		if $YDM_Event_free=1:
 		'<p>Michael Scofield:The client is detained inAarea.UWhat about the plate?</p>'
 		'<p>I:...Still in my body.</p>'

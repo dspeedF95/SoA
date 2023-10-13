@@ -103,7 +103,7 @@ if $ARGS[0]="Bitter plan3":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		 "<p>-???: Honey, what's taking you so long? Do you want me to drive there and pick you up...？</p>"
+		 "<p>-???: Honey, what's taking you so long? Do you want me to drive there and pick you up...?</p>"
 		 "<p>-<<$jm.name>>: I`m fine! And didn't I say that you are not allowed to call me that?</p>"
 		 "<p>-Grandpa: And which bastard are you fooling around with now? Does he know that you are a bitch who has incestous sex with her biological father?</p>"
 		 "<p>-<<$jm.name>>: I will be back soon! I'm hanging up!</p>"

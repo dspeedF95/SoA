@@ -157,7 +157,7 @@ if $args[0]="Stockings shop_Fuck_Yuya":
              if a=1:'<p><<$SSYY.name>>:How could anyone buy something that breaks as soon as it is torn!</p>'
              if a=2:'<p>Me: I won`t fuck you if I don`t wear it!Men like this kind of thing that breaks as soon as they tear it❤</p>'
              if a=2:'<p><<$SSYY.name>>:Okay ❤ I`m still willing to wear it for you❤</p>'
-             if a=19:'<p><<$SWD.name>>:<<$SSYY.name>>？The customer is already waiting impatiently... Can you change clothes faster?</p>'
+             if a=19:'<p><<$SWD.name>>:<<$SSYY.name>>?The customer is already waiting impatiently... Can you change clothes faster?</p>'
              if a=3:'<p><<$SSYY.name>>:Hurry up, hurry up…</p>'
          '</div>'
     end
@@ -414,7 +414,7 @@ if $args[0]="Stockings shop_Fuck_Go out":
             if $Stockings_event_chain>=11:'<div class="buttonS"><a href="exec:gt ''Stockings_shop_event'',''Stockings shop_Fuck_qtj''">Go to her house</a></div>'
             end
             if a=1:
-               if $SWD.MGF>=3 and $Stockings_event_chain>=9:'<div class="buttonR"><a href="exec:a=2 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">Runaway estrus</a></div>'else'<div class="buttonGr"><a href="exec:">？？？</a></div>'
+               if $SWD.MGF>=3 and $Stockings_event_chain>=9:'<div class="buttonR"><a href="exec:a=2 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">Runaway estrus</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
                '<div class="buttonG3"><a href="exec:a=0 & q=0 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitXY''">visit<<$XY.name>></a></div>'
             end
             if a=2:

@@ -172,7 +172,7 @@ if $args[0]="Trainee male completed":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Man: I really can`t understand it!<<$LEI.name>>？！why!</p>'
+		'<p>Man: I really can`t understand it!<<$LEI.name>>?！why!</p>'
 		'<p>Me: What`s the matter?</p>'
 		'<p>Man: Obviously, which bastard bishop has been expelled by you and is completely out of here, why does she still refuse to come back to me?…<<$LEI.name>>Is she really willing to be a trainee nun?This is really unbelievable and unreasonable.</p>'
 		'<p>Me: Don`t try to change her, try to understand<<$LEI.name>>What about the real thoughts in your heart?</p>'

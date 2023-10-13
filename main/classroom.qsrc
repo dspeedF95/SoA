@@ -81,7 +81,7 @@ if 10<=hour and hour <12:
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:minutes+=120 & gt ''Universal_reading''">Listen carefully 2h</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Sister2_event'',''Skip school''">and<<$MM.name>>Skip school</a></div>'
-		if $SW.bad>=50:'<div class="buttonS"><a href="exec:minutes+=5 & a=2 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Go out and have sex</a></div>'else:'<div class="buttonGr"><a href="exec:">Go out?？</a></div>'
+		if $SW.bad>=50:'<div class="buttonS"><a href="exec:minutes+=5 & a=2 & gt ''Biology_event'',''SW_Fuck_Outside the classroom''">Go out and have sex</a></div>'else:'<div class="buttonGr"><a href="exec:">Go out??</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
@@ -105,7 +105,7 @@ if 13<=hour and hour <15:
 		'<div class="button"><a href="exec:minutes+=120 & gt ''Universal_reading''">Listen carefully 2h</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Sister2_event'',''Skip school''">and<<$MM.name>>Skip school</a></div>'
 		if $Spanishclassagreement=1 or $XY.bad>=150:'<div class="buttonS1"><a href="exec:a=1 & gt ''Spanish_Event'',''XY_Fuck_Sexualharassment''">Sexual harassment</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
-		if $XY.love>=100 and hour>=14:'<div class="buttonS2"><a href="exec:minutes+=25 &a=2 &  gt ''Spanish_Event'',''XY_Fuck_Afterschoolcounseling''">After-school counseling</a></div>'else'<div class="buttonGr"><a href="exec:">After class?？</a></div>'
+		if $XY.love>=100 and hour>=14:'<div class="buttonS2"><a href="exec:minutes+=25 &a=2 &  gt ''Spanish_Event'',''XY_Fuck_Afterschoolcounseling''">After-school counseling</a></div>'else'<div class="buttonGr"><a href="exec:">After class??</a></div>'
 		
 		'<div class="button"><a href="exec:minutes+=5 & gt ''university''">leave</a></div>'
 	'</div>'

@@ -124,7 +124,7 @@ if $ARGS[0]="Color code2":
 
 	'<div class="dialog_menu">'
 		'<p>·The mysterious fragment suddenly appeared with mechanical tentacles?！</p>'
-		'<p>？？？: Curiosity will kill you.</p>'
+		'<p>???: Curiosity will kill you.</p>'
 	'</div>'
 End
 

@@ -342,7 +342,7 @@ if $args[0]="In the room":
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:minutes+=5 &  a=1 & gt ''Vice_Principal_Event'',''FXZ_Fuck_Strong on''">Strengthen her</a></div>'
-		if $FXZ_ZJ>=2:'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Vice_Principal_Event'',''ZJ_Fuck_Mother and daughter overnight''">Mother and daughter rice bowl: stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">❤？❤？❤？</a></div>'
+		if $FXZ_ZJ>=2:'<div class="buttonS"><a href="exec:minutes+=5 &  gt ''Vice_Principal_Event'',''ZJ_Fuck_Mother and daughter overnight''">Mother and daughter rice bowl: stay overnight</a></div>'else'<div class="buttonGr"><a href="exec:">❤?❤?❤?</a></div>'
 		 '<div class="buttonS1"><a href="exec:minutes+=15 & gt ''Vice_Principals_Office'',''Win over''">leave</a></div>'
 	'</div>'
 
@@ -844,7 +844,7 @@ if $args[0]="Home visit":
 		if $JJ.bad>=150:'<p><<$JJ.name>>: He is really capable!</p>'
 		if $FXZ.bad>=150:'<p><<$FXZ.name>>：.........</p>'
 		if $JJ.bad>=200:'<p><<$JJ.name>>: I have been doing scientific research for so long, and I have never seen a man who can ejaculate better than him!</p>'
-		if $FXZ.bad>=200:'<p><<$FXZ.name>>：.........？！There is no one at home now, so why don`t you let me learn?</p>'
+		if $FXZ.bad>=200:'<p><<$FXZ.name>>：.........?！There is no one at home now, so why don`t you let me learn?</p>'
 		
 	'</div>'
 End
@@ -990,8 +990,8 @@ if $args[0]="FXZ_SW_Hot springA":
 		'</div>'
 		else
 			'<div class="button_menu">'
-				if $SW.bad>=100 and $FXZ.bad>=100: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_Total bath''">Three-person mixed bath</a></div>'else'<div class="buttonGr"><a href="exec:">Three people?？</a></div>'
-				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS5"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else'<div class="buttonGr"><a href="exec:">here?？</a></div>'
+				if $SW.bad>=100 and $FXZ.bad>=100: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_Total bath''">Three-person mixed bath</a></div>'else'<div class="buttonGr"><a href="exec:">Three people??</a></div>'
+				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS5"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else'<div class="buttonGr"><a href="exec:">here??</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
 			'</div>'
 	end
@@ -1070,7 +1070,7 @@ if $args[0]="FXZ_SW_Total bath":
 		'</div>'
 		else
 			'<div class="button_menu">'
-				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else'<div class="buttonGr"><a href="exec:">here?？</a></div>'
+				if $SW.bad>=200 and $FXZ.bad>=200: '<div class="buttonS4"><a href="exec:minutes+=30 & a=0 & q=0 & gt ''Vice_Principal_Event'',''FXZ_SW_overnight''">Spend the night here</a></div>'else'<div class="buttonGr"><a href="exec:">here??</a></div>'
 				'<div class="button"><a href="exec:minutes+=30 & gt ''suburbs''">leave</a></div>'
 			'</div>'
 	end

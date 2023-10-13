@@ -583,7 +583,7 @@ if $args[0]="NY_Fuck_To be honest":
 			if dialogue=1:
 			 '<p>I:Be quiet, what is your relationship with my father?</p>'
 			 '<p><<$NY.NAME>>:...Your dad is a shameless bastard!He used the plotR&MWhat kind of ghost metal was found in it to threaten me!Force me to be his mistress!</p>'
-			 '<p>I:？！？Ah this…</p>'
+			 '<p>I:?！?Ah this…</p>'
 			 end
 			if dialogue=2:
 			 '<p>I:Be quiet, is your father`s coma related to you?</p>'

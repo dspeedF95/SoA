@@ -25,7 +25,7 @@ Universitydialogue=RAND(0,3)
 if $times_of_day="":
 	if Universitydialogue=0:
 	'<div class="dialog_menu">'
-		'<p>???: Hey, I heard screams from the student union...？</p>'
+		'<p>???: Hey, I heard screams from the student union...?</p>'
 		'<p>???: I heard it too.</p>'
 		'<p>???: So... the rumors about the student president are true, right?</p>'
 		'<p>???: Who knows, but I think there must be something wrong with that woman!</p>'

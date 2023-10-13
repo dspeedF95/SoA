@@ -247,7 +247,7 @@ if $args[0]="boss_Fuck_drama3":
              '<p><<$JYB.name>>:I can come forward to give your brother a chance, but you owe me a favor.You don`t want your brother to be expelled and sent to a certain quarry, do you?</p>'
              '<p><<$LB.name>>:Then what do you want me to do…</p>'
              '<p><<$JYB.name>>:Wait until some time in the future, when I say “▊▊▊▊”, I need you to do it mercilessly.</p>'
-             '<p><<$LB.name>>:▊▊▊▊？！Ok……</p>'
+             '<p><<$LB.name>>:▊▊▊▊?！Ok……</p>'
              '<p>(I:Damn it...I can`t hear you clearly)</p>'
          '</div>'
     end

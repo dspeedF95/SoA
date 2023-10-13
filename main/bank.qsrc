@@ -126,7 +126,7 @@ if $ARGS[0]="Fund loss":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>Me: What`s the matter?Lose money as soon as you buy it99%？！You are not a financial product!Is it a scam?</p>'
+		'<p>Me: What`s the matter?Lose money as soon as you buy it99%?！You are not a financial product!Is it a scam?</p>'
 		'<p>Fund manager：<<$Protagonist`s_surname>>Sir, don`t worry... I believe you can turn a loss into a profit by buying another order for your little sister ❤Now is the perfect time to copy the bottom!</p>'
 	'</div>'
 end
@@ -231,13 +231,13 @@ if $ARGS[0]="Men`s room monitor2":
 	
 	'<div class="dialog_menu">'
 		'<p>Credit department manager: I have changed my mind... Recently, the bank has been checked more strictly, and I cannot accept remittances.</p>'
-		'<p>？？？: Then what do you want?My good friend…</p>'
+		'<p>???: Then what do you want?My good friend…</p>'
 		'<p>Credit department manager: A written contract for the transfer of title deeds... I know you have purchased more than a dozen luxury villas overseas, and that`s what you used.5billion…</p>'
-		'<p>？？？: Your news is quite well-informed... Are you too greedy?</p>'
+		'<p>???: Your news is quite well-informed... Are you too greedy?</p>'
 		'<p>Credit manager: Listen, if you don`t have me, you won`t be able to borrow at all.5Billion, your books are full of holes.If it weren`t for me<<$YH.name>>That idiot woman put pressure on…</p>'
-		'<p>？？？: Okay, okay, I see.Send me the basic information such as the transferee`s name, address, passport number, etc.…</p>'
+		'<p>???: Okay, okay, I see.Send me the basic information such as the transferee`s name, address, passport number, etc.…</p>'
 		'<p>Credit manager: You will be tomorrow afternoon14:00, Find a stranger and let him put it in the subway stationA9522In the locker of the number…</p>'
-		'<p>？？？: You need to act like007Is it the same?</p>'
+		'<p>???: You need to act like007Is it the same?</p>'
 		'<p>Credit manager: Idiot!How can you be careless!Be careful that the wall has ears!</p>'
 	'</div>'
 end

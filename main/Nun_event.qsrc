@@ -956,7 +956,7 @@ if $args[0]="XN_Fuck_Night2":
          '<div class="dialog_menu">'
               '<p><<$XN.name>>: Is that so?Do I look good in a veil?</p>'
               '<p>I:Yes, I`m only in this exotic styleCOSPALYI have seen it in.</p>' 
-              '<p><<$XN.name>>:COSPALY？<<$Protagonist`s_name>>My lord...what is that?</p>' 
+              '<p><<$XN.name>>:COSPALY?<<$Protagonist`s_name>>My lord...what is that?</p>' 
          '</div>'
     end
 

@@ -325,7 +325,7 @@ if $args[0]="Empire_Fuck_Restaurant situation":
     if a<999:
         '<div class="button_menu">'
             if a=0:
-            '<div class="buttonP"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Restaurant situation''"><<$LY.name>>？</a></div>'
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Restaurant situation''"><<$LY.name>>?</a></div>'
             '<div class="buttonP"><a href="exec:gt ''restaurant''">Back to the bar</a></div>'
             end
             if 10>=a and a>=1:'<div class="buttonP"><a href="exec:a+=1 & gt ''Empire_Event'',''Empire_Fuck_Restaurant situation''">Watch her work</a></div>'
@@ -2368,7 +2368,7 @@ if $args[0]="Empire_Fuck_Cabin judges":
     if a>=0:
          '<div class="dialog_menu">'
                 '<p>Captain: Ho ho!Isn`t this the big star before!</p>'
-                '<p><<$PW.name>>: I just owe some money, don`t think about it!？</p>'
+                '<p><<$PW.name>>: I just owe some money, don`t think about it!?</p>'
                 if a>=1:'<p>Captain: Hahaha!The tone is so crazy!You don`t know your situation, do you?</p>'
                 if a>=2:'<p>Machine service: Since you owe so much money, it is natural for you to work part-time to pay off your debts!</p>'
                 if a>=3:'<p><<$PW.name>>: asshole<<$Panting>>Let me go</p>'
@@ -2874,7 +2874,7 @@ if $args[0]="Empire_Fuck_Daughter blind dateNTR":
                 if a>=8:'<p>Blind date man：999A bouquet of roses is too expensive, so it`s enough to buy a small bouquet!</p>'
                 if a>=9:'<p><<$QJ.name>>: Fuck me to death<<$words>></p>'
                 if a>=11:'<p>Blind date man: Huh?What forced the movement?Isn`t she masturbating while waiting for me?！</p>'
-                if a>=12:'<p>Blind date man: Huh?？！Who the hell are you?！</p>'
+                if a>=12:'<p>Blind date man: Huh??！Who the hell are you?！</p>'
          '</div>'
     end
 
@@ -3455,7 +3455,7 @@ if $args[0]="Empire_Fuck_Heterochromatic seedlings":
 
     if a=2:
          '<div class="dialog_menu">'
-                '<p>Me: Really?You can choose any woman in the Empire Group!？</p>'
+                '<p>Me: Really?You can choose any woman in the Empire Group!?</p>'
                 '<p><<$CT.name>>:Hush----!That`s right, I said it.Look, you have an erection, come on, who do you want?I can call her over with one phone call now❤</p>'
                 a=0
          '</div>'
@@ -3975,7 +3975,7 @@ if $args[0]="Empire_Fuck_Mother and daughter3P":
 
     if a<13:
         '<div class="button_menu">'
-            if q=0:'<div class="buttonR4"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">？！！</a></div>'
+            if q=0:'<div class="buttonR4"><a href="exec:a=1 & gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">?！！</a></div>'
 
 
             if q=1:'<div class="buttonS1"><a href="exec:a=2 & gt ''Empire_Event'',''Empire_Fuck_Mother and daughter3P''">dialogue</a></div>'

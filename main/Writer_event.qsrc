@@ -56,7 +56,7 @@ if $args[0]="enter":
 		'<div class="buttonS1"><a href="exec:minutes+=5 & a=3 & gt ''Writer_event'',''ZJ_Fuck_Tuning''">Service guidance</a></div>'
 		if $ZJ.bad>=110-$ZJ.love:'<div class="buttonS2"><a href="exec:minutes+=5 & a=1 & gt ''Writer_event'',''ZJ_Fuck_Actual combat''">Practical guidance</a></div>'else '<div class="buttonGr"><a href="exec:">???</a></div>'
 		if $ZJ.bad>=190-$ZJ.love:'<div class="buttonS3"><a href="exec:minutes+=5 & gt ''Writer_event'',''ZJ_Fuck_Go out''">Outing guidance</a></div>'else '<div class="buttonGr"><a href="exec:">???</a></div>'
-		if $ZJ.love>=200 and $ZJ.bad>=200 and  $FXZ.love>=200 and $FXZ.bad>=200:'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Writer_event'',''ZJ_Fuck_Mother and daughter drawing materials''">Mother and daughter rice bowl: materials are taken in situ</a></div>'else '<div class="buttonGr"><a href="exec:">❤？❤？❤？</a></div>'
+		if $ZJ.love>=200 and $ZJ.bad>=200 and  $FXZ.love>=200 and $FXZ.bad>=200:'<div class="buttonS"><a href="exec:minutes+=5 & gt ''Writer_event'',''ZJ_Fuck_Mother and daughter drawing materials''">Mother and daughter rice bowl: materials are taken in situ</a></div>'else '<div class="buttonGr"><a href="exec:">❤?❤?❤?</a></div>'
 		if week_day =7 and $ZJ.bad>=200-$ZJ.love:'<div class="buttonGn"><a href="exec:minutes+=5 & gt ''Writer_event'',''ZJ_Fuck_edit''">Weekend deadline</a></div>'
 		if $Cartoonfront=1 and $ZJ.bad>=200-$ZJ.love:'<div class="buttonS"><a href="exec:gt ''Writer_event'',''Ask for light changes''">Ask for light changes</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Vice_Principals_house''">leave</a></div>'
