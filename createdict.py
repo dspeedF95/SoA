@@ -8,57 +8,24 @@ from xml.dom.minidom import parseString
 # iname = str(sys.argv[1])
 # odir = str(sys.argv[2])
 
-ifile = io.open(r'main/bank.qsrc', 'r', encoding='utf-8')
+ifile = io.open(r'chinese.txt', 'r', encoding='utf-16')
 
-string_dict = {}
-string_stripped_dict = {}
+string_stripped_list = []
 
 for i, line in enumerate(ifile.readlines()):
-    pattern = r'">\w.*<|p>\w.*<'
-    pattern_2 = r'data-title=".*?"'
-    matches = re.search(pattern, line)
+    pattern = r'data\-title\=".*?"|$(.*?(?<!ARGS[0]))(?:\>|\<|\=|\!| )|\'\'(.*?)\'\'|gs\'(.*?)\'|# (.*?)|if \$ARGS\[0\]\="(.*?)":|">(\w.*?(?<!</a>))</|p>(\w.*(?<!</a>))</p>|>>(?:\: |\:| |)(.*?)(?:<<|</p>)'
+    matches = re.findall(pattern, line)
+    for i, tuple_of in enumerate(matches):
+        matches[i] = list(tuple_of)
+    flat_list = []
+    for sublist in matches:
+        for item in sublist:
+            flat_list.append(item)
+            
     if matches:
-        text_stripped = matches.group(0)
-        text_stripped = text_stripped[2:]
-        text_stripped = text_stripped[:-1]
-        if text_stripped[0:2] == '<a':
-            matches = re.search(pattern_2, line)
-            if matches is not None:
-                text_stripped = matches.group(0)
-            else:
-                matches = re.search(pattern, text_stripped)
-                text_stripped = matches.group(0)
-                text_stripped = text_stripped[1:]
-                text_stripped = text_stripped[:-1]
-        if text_stripped[0:4] == '<img':
-            text_stripped = ""
-            string_dict[i] = line
-        elif len(text_stripped) >= 0:
-            if "</a>" in text_stripped:
-                text_stripped = text_stripped.replace("</a>", "")
-            text_pointer = line.find(text_stripped)
-            string_stripped_dict[i] = [text_pointer]
-            string_stripped_dict[i].append(text_stripped)
-            string_dict[i] = line.replace(text_stripped, '')
-    elif (re.search(pattern_2, line)) is not None:
-        matches = re.search(pattern_2, line)
-        text_stripped = matches.group(0)
-        if len(text_stripped) >= 0:
-            text_pointer = line.find(text_stripped)
-            string_stripped_dict[i] = [text_pointer]
-            string_stripped_dict[i].append(text_stripped)
-            string_dict[i] = line.replace(text_stripped, '')
-    else:
-        string_dict[i] = line
-
-xml = dicttoxml.dicttoxml(string_dict)
-dom = parseString(xml)
-pretty_xml_as_string = dom.toprettyxml()
-ofile = io.open('bank.xml', 'w', encoding='utf-8')
-ofile.write(pretty_xml_as_string)
-
-xml = dicttoxml.dicttoxml(string_stripped_dict)
-dom = parseString(xml)
-pretty_xml_as_string = dom.toprettyxml()
-ofile = io.open('bank_stripped.xml', 'w', encoding='utf-8')
-ofile.write(pretty_xml_as_string)
+        string_stripped_list.extend(flat_list)
+string_stripped_list = [string for string in string_stripped_list if string]
+res = []
+[res.append(x) for x in string_stripped_list if x not in res]
+#%%
+res.index("之罪！七大不可饶恕的罪行之一！现在，我将让众教徒为你举行赎罪仪式，你清楚你所犯下的罪名了吗？")
