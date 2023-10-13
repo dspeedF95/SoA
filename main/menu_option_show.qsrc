@@ -9,6 +9,10 @@
 		<a href="exec:minutes+=180  & gt $loc,$metka"><div class="option_3h"></div></a>
 		<a href="exec:minutes+=360  & gt $loc,$metka"><div class="option_6h"></div></a>
 		<a href="exec:minutes+=1440  & gt $loc,$metka"><div class="option_24hjia"></div></a>
+		<a href="exec:minutes-=1440  & gt $loc,$metka"><div class="option_24hjian"></div></a>
+		<a href="exec:minutes-=360  & gt $loc,$metka"><div class="option_6hn"></div></a>
+		<a href="exec:minutes-=180  & gt $loc,$metka"><div class="option_3hn"></div></a>
+		<a href="exec:minutes-=60  & gt $loc,$metka"><div class="option_1hn"></div></a>
 
 	
 </div>'
