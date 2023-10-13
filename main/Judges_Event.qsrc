@@ -389,7 +389,7 @@ if $args[0]="Safe passage":
         '</div>'
 
             '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & $Sister_Hua_Event_Chain=6 &  gt ''Daily_life_in_prison'',''Front of the prison''">！?！?</a></div>'
+                '<div class="button"><a href="exec:minutes+=30 & $Sister_Hua_Event_Chain=6 &  gt ''Daily_life_in_prison'',''Front of the prison''">!?!?</a></div>'
             '</div>'
 
 
@@ -401,7 +401,7 @@ if $args[0]="Safe passage":
              '<p><<$PW.name>>:Then you are dreaming.</p>'
              '<p>I:Oh, then you can`t talk about it anymore?</p>'
              '<p><<$PW.name>>:Then go and dream.</p>'
-             '<p>I:！?！?</p>'
+             '<p>I:!?!?</p>'
          '</div>'
     end
 
@@ -447,9 +447,9 @@ if $args[0]="PW_Fuck_thing3":
 
     if a=0:
          '<div class="dialog_menu">'
-             '<p><<$PW.name>>: You... how did you get out?！</p>'
+             '<p><<$PW.name>>: You... how did you get out?!</p>'
              '<p>I:<<$PW.name>>Miss?It`s been a long time since I saw you, how are you?</p>'
-             '<p><<$PW.name>>: What are you doing?！I`m going to call someone!</p>'
+             '<p><<$PW.name>>: What are you doing?!I`m going to call someone!</p>'
              '<p>I:Ah, be quiet!I`m on fire now!</p>'
              '<p><<$PW.name>>: …………</p>'
          '</div>'
@@ -764,7 +764,7 @@ if $args[0]="PW_Fuck_Maid early":
     if a=0:
          '<div class="dialog_menu">'
              '<p>I:Uh... what are you doing in my room……*Bleary-eyed</p>'
-             '<p><<$PW.name>>: Master...are you awake?！Do you need me to perform a wake-up service for you?</p>'
+             '<p><<$PW.name>>: Master...are you awake?!Do you need me to perform a wake-up service for you?</p>'
          '</div>'
     end
 
@@ -962,7 +962,7 @@ if $args[0]="Circular explanation2":
 
          '<div class="dialog_menu">'
              '<p>I: Let me pay for you... but I have conditions.</p>'
-             '<p><<$PW.name>>: What are the conditions?！</p>'
+             '<p><<$PW.name>>: What are the conditions?!</p>'
              '<p>I: This million is not only a security deposit, but also a copyright fee.I own the right to produce, distribute and broadcast the show, and receive all the proceeds from the show.</p>'
              '<p><<$PW.name>>: You are dreaming!This is impossible!</p>'
              '<p>I: I`m not finished yet. When you pay off the arrears, I will return the copyright to you.</p>'
@@ -1133,8 +1133,8 @@ if $args[0]="PW_Fuck_cycle1":
 
     if 6>=a and a>=1:
          '<div class="dialog_menu">'
-             if a=1:'<p><<$PW.name>>: Huh huh huh huh huh?！</p>'
-             if a>=2:'<p><<$PW.name>>: What... is this punishment?hello!<<$Protagonist`s_name>>！you…</p>'
+             if a=1:'<p><<$PW.name>>: Huh huh huh huh huh?!</p>'
+             if a>=2:'<p><<$PW.name>>: What... is this punishment?hello!<<$Protagonist`s_name>>!you…</p>'
              if a>=3:'<p><<$PW.name>>: <<$words>></p>'
          '</div>'
     end
@@ -1292,7 +1292,7 @@ if $args[0]="PW_Fuck_cycle3":
          $PW.love+=(q+my.charm)*3
          $PW.bad+=q
          '<div class="dialog_menu">'
-             '<p><<$PW.name>>: Wait a minute!?！It`s not working anymore!Don`t stuff it in again!</p>'
+             '<p><<$PW.name>>: Wait a minute!?!It`s not working anymore!Don`t stuff it in again!</p>'
          '</div>'
     end
 
@@ -1369,7 +1369,7 @@ if $args[0]="PW_Fuck_support1":
     if a=0:
          '<div class="dialog_menu">'
              '<p>Director Yu: We met again... where do you think you can hide?</p>'
-             '<p><<$PW.name>>: <<$Protagonist`s_name>>！What do you mean by bringing me here……</p>'
+             '<p><<$PW.name>>: <<$Protagonist`s_name>>!What do you mean by bringing me here……</p>'
              '<p>Director Yu: As I said, if things are messed up, I will treat you as a horse for everyone to ride.</p>'
          '</div>'
     end
@@ -1462,7 +1462,7 @@ if $args[0]="PW_Fuck_Idol drama1":
              '<p><<$PW.name>>: Nothing…</p>'
              '<p>I: say!If you don`t say anything, the filming of the TV series will be terminated immediately!</p>'
              '<p><<$PW.name>>: All right, all right!I said!There are rumors that the drugs jointly developed by Imperial Group and Mugou Pharmaceutical once had this side effect... I don`t know any more.…</p>'
-             '<p>I: ………...(Could it be McGovern?！）</p>'
+             '<p>I: ………...(Could it be McGovern?!）</p>'
          '</div>'
     end
 

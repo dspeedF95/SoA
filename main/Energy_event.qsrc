@@ -370,7 +370,7 @@ if $args[0]="NY_Fuck_ask2":
 			 end
 			if dialogue=1:
 			 '<p>I:Be quiet, what is your relationship with my father?</p>'
-			 '<p><<$NY.NAME>>:father?！Are you his own son?！Sure enough, if there is a father, there must be a son!Bah!You are all scum!</p>'
+			 '<p><<$NY.NAME>>:father?!Are you his own son?!Sure enough, if there is a father, there must be a son!Bah!You are all scum!</p>'
 			 end
 			if dialogue=2:
 			 '<p>I:Be quiet, is your father`s coma related to you?</p>'
@@ -583,11 +583,11 @@ if $args[0]="NY_Fuck_To be honest":
 			if dialogue=1:
 			 '<p>I:Be quiet, what is your relationship with my father?</p>'
 			 '<p><<$NY.NAME>>:...Your dad is a shameless bastard!He used the plotR&MWhat kind of ghost metal was found in it to threaten me!Force me to be his mistress!</p>'
-			 '<p>I:?！?Ah this…</p>'
+			 '<p>I:?!?Ah this…</p>'
 			 end
 			if dialogue=2:
 			 '<p>I:Be quiet, is your father`s coma related to you?</p>'
-			 '<p><<$NY.NAME>>:That scumbag was already depressed, eating irregularly, and he had to fuck his secretary all day and all night. He was overworked. What does his coma matter to me?！</p>'
+			 '<p><<$NY.NAME>>:That scumbag was already depressed, eating irregularly, and he had to fuck his secretary all day and all night. He was overworked. What does his coma matter to me?!</p>'
 			 '<p>I:I thought there was a big conspiracy behind my father`s coma.</p>'
 			 '<p><<$NY.NAME>>:Have you read too many novels?</p>'
 			 end
@@ -678,7 +678,7 @@ if $args[0]="NY_Fuck_company":
 		 xp+=q
 		 '<div class="dialog_menu">'
 			 '<p><<$NY.NAME>>:Really delicious....I am happy to promote you.</p>'
-			 '<p>·Work experience has improved<<q>>！</p>'
+			 '<p>·Work experience has improved<<q>>!</p>'
 		 '</div>'
 	end
   q+=1

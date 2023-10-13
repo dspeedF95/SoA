@@ -157,7 +157,7 @@ if $ARGS[0]="Bitter plan6":
 	
 	'<div class="dialog_menu">'
 
-		 "<p>-Me: Why is the door open?！ Watch out for burglars!</p>"
+		 "<p>-Me: Why is the door open?! Watch out for burglars!</p>"
  		 "<p>-*Just before leaving, you deliberately didn`t lock the door…</p>"
 		 "<p>-???: *Crying*</p>"
 		 "<p>-Temporary worker：<<$jm.name>>?! Honey?! where are you?!.... </p>"
@@ -177,7 +177,7 @@ if $ARGS[0]="Bitter plan7":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		 "<p>-The scene in front of him made his pupils tremble....！！Without thinking, he started swinging his fists!</p>"
+		 "<p>-The scene in front of him made his pupils tremble....!!Without thinking, he started swinging his fists!</p>"
 		 "<p>-Temporary worker: You old fucking bastard! Hah, hah, hah, ahhhhhh!</p>"
 	'</div>'
 end

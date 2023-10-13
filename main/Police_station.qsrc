@@ -150,7 +150,7 @@ if $ARGS[0]="Disappearance":
 		if  $Policestationdialogue=1:'<p>I:Ensure the completion of the task.</p><p><<$JZ.name>>:Very good, the greater the difficulty, the greater the glory.</p>'
 		if  $Policestationdialogue=2:
 			if $JZ_Event_rape=10:  $JZ_Event_rape=15
-			'<p>I:Chief!I have a major breakthrough!The suspect`s license plate number isIPZ-905！</p><p><<$JZ.name>>:Unfortunately, there is no information about this car in the traffic control system.It should be modified by a missing vehicleNGlove brand cars can`t be found at all.</p>'
+			'<p>I:Chief!I have a major breakthrough!The suspect`s license plate number isIPZ-905!</p><p><<$JZ.name>>:Unfortunately, there is no information about this car in the traffic control system.It should be modified by a missing vehicleNGlove brand cars can`t be found at all.</p>'
 		 end
 		if  $Policestationdialogue=3:
 			'<p><<$JZ.name>>:People can actually be rescued from the fire by you, and you are also very good.It`s a pity that the number of male police officers under the [new policy] needs to be strictly controlled, otherwise it won`t be ruled out to give you a plainclothes Dangdang.</p>'
@@ -248,7 +248,7 @@ if $ARGS[0]="Police officer standing painting":
 				'<p>I: I see, then I will investigate by myself.</p>'
 				'<p><<$JY.name>>:<<$Protagonist`s_name>>, Pay attention to safety!I can`t save you!</p>'
 			else
-				'<p><<$JY.name>>: really!Don`t you want it?！Another fire, another big bang!I shouldn`t have asked you to investigate if I knew it!</p>'
+				'<p><<$JY.name>>: really!Don`t you want it?!Another fire, another big bang!I shouldn`t have asked you to investigate if I knew it!</p>'
 				'<p>I: ...isn`t this okay?</p>'
 				'<p><<$JY.name>>:Fight back hard!Humph!I don`t want to lose another partner!</p>'
 				'<p>I: Lose again...?</p>'
@@ -272,7 +272,7 @@ if $ARGS[0]="Police officer standing painting":
 			  if $JZ_Event_gun=0:$JZ_Event_gun=10
 			end
 			if $JZ_Event_gun>=100:
-				'<p>I: really!How dangerous is it?！I was almost raped!I shouldn`t have asked you to investigate if I knew it!</p>'
+				'<p>I: really!How dangerous is it?!I was almost raped!I shouldn`t have asked you to investigate if I knew it!</p>'
 				'<p><<$JY.name>>: Isn`t this okay?Not only is the promotion and salary increase still a great achievement!</p>'
 				'<p>I: Don`t be hard-mouthed!Humph!</p>'
 				'<p><<$JY.name>>:Are you worried about me, fool.Hey?I seem to have heard this conversation somewhere....</p>'
@@ -283,9 +283,9 @@ if $ARGS[0]="Police officer standing painting":
 				'<p><<$JY.name>>: (＾ヮ＾)V Ok!Let`s go eat something delicious!</p>'
 			end
 		if $Policestationdialogue=4:
-				'<p>I: I heard that you caught the arsonist in the camping area yourself?！</p>'
+				'<p>I: I heard that you caught the arsonist in the camping area yourself?!</p>'
 				'<p><<$JY.name>>: (＾ヮ＾)V Awesome!Praise me!</p>'
-				'<p>I: Then how did you judge that he set the fire at that time?！</p>'
+				'<p>I: Then how did you judge that he set the fire at that time?!</p>'
 				'<p><<$JY.name>>: He is holding a large can of diesel in his hand, okay!</p>'
 				'<p>I: What else?</p>'
 				'<p><<$JY.name>>:And....It is the sixth sense of being an excellent police officer!Or intuition!</p>'

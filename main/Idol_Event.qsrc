@@ -69,7 +69,7 @@ if $args[0]="OX_Fuck_kidnapping":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>·Following the prompts, you quickly walked to an abandoned auto repair shop, and a few screams attracted your attention.</p>'
-			 '<p>·There are a lot of people on the other side, you may not be an opponent.But you take a closer look.That person is not <<$SS.name>>, And it is the party to the disappearance case <<$OX.name>>！</p>'
+			 '<p>·There are a lot of people on the other side, you may not be an opponent.But you take a closer look.That person is not <<$SS.name>>, And it is the party to the disappearance case <<$OX.name>>!</p>'
 		 '</div>'
 	end
 
@@ -186,8 +186,8 @@ if $args[0]="OX_Event_love":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$OX.name>>:It`s great that you are okay!I came to thank you on purpose!And...I...I like you!！Please associate with me!！</p>'
-			 '<p>I:What?Is this progressing too fast?！</p>'
+			 '<p><<$OX.name>>:It`s great that you are okay!I came to thank you on purpose!And...I...I like you!!Please associate with me!!</p>'
+			 '<p>I:What?Is this progressing too fast?!</p>'
 		 '</div>'
 	end
 
@@ -242,7 +242,7 @@ if $args[0]="OXroom":
 
 
 	 '<div class="dialog_menu">'
-		 '<p><<$OX.name>>:<<$Protagonists_surname>> ！I want to be with you forever and be my doll!Don`t worry, I won`t hurt you~</p>'
+		 '<p><<$OX.name>>:<<$Protagonists_surname>> !I want to be with you forever and be my doll!Don`t worry, I won`t hurt you~</p>'
 		 '<p>I:You are really in love.</p>'
 		 '<p><<$OX.name>>:(Ah ah ah----There are many people who like you, and I am not short of one.I like very few people, except you...）</p>'
 		 if a=3:
@@ -295,7 +295,7 @@ if $args[0]="OX_Domestic incident":
 
  if $B='床上前':
 	 '<div class="dialog_menu">'
-		 if a=0:'<p><<$OX.name>>:<<$Protagonists_surname>> ！Yes, just keep playing with me like this, you can do whatever you want.Let me be ravaged by you as a fool who only loves you.</p>'
+		 if a=0:'<p><<$OX.name>>:<<$Protagonists_surname>> !Yes, just keep playing with me like this, you can do whatever you want.Let me be ravaged by you as a fool who only loves you.</p>'
 		 if a=1:'<p><<$OX.name>>:My nipples are very sensitive, if you touch them again....Will want..</p>'
 		 if a=2:'<p><<$OX.name>>:Can`t do it anymore....I want it.....</p>'
 	 '</div>'
@@ -314,8 +314,8 @@ if $args[0]="OX_Domestic incident":
  if $B='病娇':
 	 '<div class="dialog_menu">'
 		 if a=0:'<p>I:What are you doing?</p>'
-		 if a=1:'<p><<$OX.name>>:Take a picture of the way you drool!Super cute!！</p>'
-		 if a=2:'<p><<$OX.name>>:Don`t go, will you stay with me again?It`s so painful, it`s really painful.I really want to die!The pain is so painful that I want to die!However, I can`t bear it!Unwilling to be reconciled!Ah!！Really super unwilling!！Why!Why!Others can get your favor!And I can`t!Obviously he smiled so fondly at me before!</p>'
+		 if a=1:'<p><<$OX.name>>:Take a picture of the way you drool!Super cute!!</p>'
+		 if a=2:'<p><<$OX.name>>:Don`t go, will you stay with me again?It`s so painful, it`s really painful.I really want to die!The pain is so painful that I want to die!However, I can`t bear it!Unwilling to be reconciled!Ah!!Really super unwilling!!Why!Why!Others can get your favor!And I can`t!Obviously he smiled so fondly at me before!</p>'
 	 '</div>'
  end
 
@@ -488,7 +488,7 @@ if $args[0]="OX_Fuck_dinner":
 		 '<div class="dialog_menu">'
 			 '<p><<$OX.name>>:<<$words>></p>'
 			 if a=8:'<p><<$OX.name>>:You are so fierce!You are going to fuck me to death!The pussy is going to be fucked by you!</p>'
-			 if a=9:'<p><<$OX.name>>:Shot a lot!！I am so happy!I`m going to be pregnant with your baby!</p>'
+			 if a=9:'<p><<$OX.name>>:Shot a lot!!I am so happy!I`m going to be pregnant with your baby!</p>'
 		 '</div>'
 	end
 
@@ -567,7 +567,7 @@ if $args[0]="OX_Fuck_bedroom":
 
 	if a=8:
 		 '<div class="dialog_menu">'
-			 '<p><<$OX.name>>:<<$Protagonist`s_name>>！I can`t do without you anymore!We want to be together forever!No matter what form it is.Live or die...</p>'
+			 '<p><<$OX.name>>:<<$Protagonist`s_name>>!I can`t do without you anymore!We want to be together forever!No matter what form it is.Live or die...</p>'
 			 $OX.love+=q+my.charm
 			 $OX.bad+=(q+my.charm)*2
 		 '</div>'
@@ -621,7 +621,7 @@ if $args[0]="OX_Fuck_Take a bath":
 
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$OX.name>>:<<$Protagonist`s_name>>！Ok~If the meat stick is soaked again, it will molt.....Your eyes are mine, your lips are mine, and your cock is mine...It`s all mine, no one wants to take it away!！</p>'
+			 '<p><<$OX.name>>:<<$Protagonist`s_name>>!Ok~If the meat stick is soaked again, it will molt.....Your eyes are mine, your lips are mine, and your cock is mine...It`s all mine, no one wants to take it away!!</p>'
 			 $OX.love+=q+my.charm
 			 $OX.bad+=(q+my.charm)*2
 		 '</div>'
@@ -849,7 +849,7 @@ if $args[0]="OX_Fuck_Swimsuit":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$OX.name>>:！Where are your eyes looking?Do you want to see more?~~</p>'
+			 '<p><<$OX.name>>:!Where are your eyes looking?Do you want to see more?~~</p>'
 		 '</div>'
 	end
 
@@ -901,7 +901,7 @@ if $args[0]="OX_Fuck_Coercion":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>Strange man:<<$OX.name>>sauce~Did you sign an acting contract with Empire Entertainment in breach of contract?！Then our liquidated damages... should be counted!Still counting on turning red, it`s a fantasy!</p>'
+			 '<p>Strange man:<<$OX.name>>sauce~Did you sign an acting contract with Empire Entertainment in breach of contract?!Then our liquidated damages... should be counted!Still counting on turning red, it`s a fantasy!</p>'
 			 '<p><<$OX.name>>:Sorry, I will pay it off as soon as possible... please give me a few more days.…</p>'
 			 '<p>Strange man:<<$OX.name>>sauce~500Ten thousand liquidated damages!If you don`t want to go through legal procedures, we can also resolve it privately~Want me to give a few days grace…?That depends on your sincerity…</p>'
 		 '</div>'
@@ -921,7 +921,7 @@ if $args[0]="OX_Fuck_Coercion":
 	end
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p>man:Catch it with your mouth for me!You fucking bitch!What do you mean by throwing up all on your hands?！</p>'
+			 '<p>man:Catch it with your mouth for me!You fucking bitch!What do you mean by throwing up all on your hands?!</p>'
 		 '</div>'
 	end
 	if a=6:

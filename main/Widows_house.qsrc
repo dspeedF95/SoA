@@ -63,7 +63,7 @@ if $args[0]="Gatekeeper":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>New team member: The boss has an order. As new entrants in the New Longkou Group, we must take care of the door here!No fly can let it fly in!Do you understand?！</p>'
+		'<p>New team member: The boss has an order. As new entrants in the New Longkou Group, we must take care of the door here!No fly can let it fly in!Do you understand?!</p>'
 		'<p>New team memberA: Received!</p>'
 		'<p>New team memberB:Understand!</p>'
 		'<p>New team memberC: How can the people in the daily knot group pretend to be the underworld?*Yawn<a href="exec:money-=200 & gt ''Widows_house'',''Living room''">-Bribe him￥200</a></p>'
@@ -171,7 +171,7 @@ if $args[0]="Living room2dialogue2":
 		'<p><<$YS.name>>:I`m going to ruin his restaurant!That was his life`s work!I want him to watch his red restaurant fall into the hands of others!</p>'
 		'<p><B><span class =''red''>I: He owns 80% The shares...as long as you divorce, you will lose half of it, right?…</p>'
 			if $Hellochef!3:
-				'<p><<$YS.name>>:That`s right!！！You reminded me, I have a good idea, you go and help me call him over❤</p>'
+				'<p><<$YS.name>>:That`s right!!!You reminded me, I have a good idea, you go and help me call him over❤</p>'
 				 if $Hellochef=0:$Hellochef=1
 			 else
 				'<p><<$YS.name>>:After2Divorced twice, he now only has80%Half of it and half of it, only20%Hahahahaha❤</p>'

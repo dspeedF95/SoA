@@ -164,7 +164,7 @@ if $ARGS[0]="Go to the basement4":
 
 	'<div class="dialog_menu">'
 		'<p><<$LJ.name>>: Why is there nothing of value?This should be worth a lot of money.</p>'
-		'<p>Me: What are you doing?！I want to help you with all my heart, do you actually want to steal from me?......</p>'
+		'<p>Me: What are you doing?!I want to help you with all my heart, do you actually want to steal from me?......</p>'
 		'<p><<$LJ.name>>: Ah!Not good!*She turned around and was about to run.</p>'
 	'</div>'
 
@@ -514,7 +514,7 @@ if $ARGS[0]="LJ_Fuck_Her house":
 
 	'<div class="dialog_menu">'
 		'<p><<$LJ.name>>: Mom!I`m back!Here, this is my home, are you satisfied?</p>'
-		'<p><<$SY.name>>: Why did you come back?！Unfortunately, the uncles are not at home now, and there are still some leftovers in the kitchen. Let`s go to the room and study for a while!</p>'
+		'<p><<$SY.name>>: Why did you come back?!Unfortunately, the uncles are not at home now, and there are still some leftovers in the kitchen. Let`s go to the room and study for a while!</p>'
 	'</div>'
 end
 
@@ -684,7 +684,7 @@ if $args[0]="LJZL_Fuck_inverse3P":
 
 	if a=7:
 		 '<div class="dialog_menu">'
-			 '<p><<$LJ.name>>&<<$ZL.name>>:<<$words>>What?！————Why did you shoot when you talked to yourself? You should also shoot inside me....</p>'
+			 '<p><<$LJ.name>>&<<$ZL.name>>:<<$words>>What?!————Why did you shoot when you talked to yourself? You should also shoot inside me....</p>'
 		 '</div>'
 	end
 
@@ -694,7 +694,7 @@ if $args[0]="LJZL_Fuck_inverse3P":
 		 $LJ.love+=q+my.charm
 		 $LJ.bad+=q*2+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$LJ.name>>:<<$Panting>>Hey, what are you doing?！</p>'
+			 '<p><<$LJ.name>>:<<$Panting>>Hey, what are you doing?!</p>'
 			 '<p><<$ZL.name>>:This is the semen my dear shot me, of course I have to lick it clean.</p>'
 		 '</div>'
 	end

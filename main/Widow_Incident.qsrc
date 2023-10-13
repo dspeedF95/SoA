@@ -42,7 +42,7 @@ if $ARGS[0]="Restaurant dialogue2":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><span class =''red''>Chef: You two idiots, you don`t understand people, do you?！Get out of here!Your mother forced it. This is the kitchen!It`s not where you spit and fly!</s></p>'
+		'<p><span class =''red''>Chef: You two idiots, you don`t understand people, do you?!Get out of here!Your mother forced it. This is the kitchen!It`s not where you spit and fly!</s></p>'
 		'<p>I: Uh...got it.*The chef`s hot temper really shocked you</p>'
 		'<p><<$YS.name>>: Um...then...you...you...forget it, come to me at night...I have something to discuss with you……</p>'
 		'<p><span class =''red''>Chef: Cut the nonsense!Get out of here!</s></p>'
@@ -75,7 +75,7 @@ if $args[0]="YS_Fuck_Kitchen sleep":
 		Drawingrepairdegree+=rand(7,9)
          '<div class="dialog_menu">'
               '<p>Chef: Did I tell you not to come to the restaurant to find me?My wife is starting to doubt us!</p>'
-              '<p><<$YS.name>>: Huh huh?！Sorry…</p>'
+              '<p><<$YS.name>>: Huh huh?!Sorry…</p>'
               if a>=1:'<p>Chef: I don`t like disobedient women!</p>' 
               if a>=1:'<p><<$YS.name>>: Spare me<<$words>></p>'
               if a>=6:'<p>Chef: What`s the matter?Do you have to say it in the restaurant?</p>' 
@@ -141,7 +141,7 @@ if $args[0]="dispute":
 
 	if a!8:
 	'<div class="dialog_menu">'
-		'<p>???: Impossible!You said the team leader is dead. How is this possible?！</p>'
+		'<p>???: Impossible!You said the team leader is dead. How is this possible?!</p>'
 		if a>=2:'<p><<$YS.name>>: Who are you?The Longkou Group disbanded a few years ago.</p>'
 		if a>=3:'<p>Ma Dongyu: Who am I?When I was with my eldest brother, I didn`t have you yet!I am the captain of the Yifan team, known as “People cut ten thousand horses”, and the second deputy of the Longkou Group!The Longkou Group was formed by me following my eldest brother from birth to death!</p>'
 		if a>=4:'<p><<$YS.name>>: Hehe, since you said you are the second deputy of the Longkou Group, why haven`t I heard of you?</p>'
@@ -191,7 +191,7 @@ if $args[0]="YS_Fuck_Warehouse dialogue2":
 	
          '<div class="dialog_menu">'
              '<p>Me: I have what you want, is this it?*Take out the goldAK-47</p>'
-             '<p>Ma Dongmao: What?That`s right, that`s it, it`s engraved on it*Where did you get the badge of the Longkou Group?！To be honest!Or I will kill you!</p>'
+             '<p>Ma Dongmao: What?That`s right, that`s it, it`s engraved on it*Where did you get the badge of the Longkou Group?!To be honest!Or I will kill you!</p>'
              if DXdialogue=1:'<p>Me: You want to kill me?I advise you to close your mouth, or I will call the police!</p>'
              if DXdialogue=1:'<p>Ma Dongyu: Do you know where this is?This is Kabukicho!Where the sun can`t shine, the cop can`t control it!</p>'
              if DXdialogue=2:'<p>Me: I asked the boss of your Longkou Group to buy it!</p>'
@@ -214,8 +214,8 @@ if $args[0]="YS_Fuck_Warehouse dialogue3":
              '<p>*He took the goldAKPut it behind him, rubbing his fingers crackling</p>'
              '<p>Me: Hey, calm down.I am not malicious, why should I give it to you?I`m here to make a deal.</p>'
 			 '<p>Ma Dongmao: Deal?Talk about the deal, what do you want to exchange with me?</p>'
-             if DXdialogue=1:'<p>Me: Give me ￥15,000,000！</p>'
-             if DXdialogue=1:'<p>Ma Dongmao: Hahahahaha, are you okay?Dare to blackmail me?This in itself is something that belongs to me!！Well, now all the money on you belongs to me!</p>'
+             if DXdialogue=1:'<p>Me: Give me ￥15,000,000!</p>'
+             if DXdialogue=1:'<p>Ma Dongmao: Hahahahaha, are you okay?Dare to blackmail me?This in itself is something that belongs to me!!Well, now all the money on you belongs to me!</p>'
          '</div>'
 end
 
@@ -285,7 +285,7 @@ if $args[0]="YS_Fuck_warehouse":
 
     if 3>=a and a>=1:
          '<div class="dialog_menu">'
-             '<p>New team member: Say, it`s cool!wrong!goldAKWhere is it?！Tell Lao Tzu quickly!</p>'
+             '<p>New team member: Say, it`s cool!wrong!goldAKWhere is it?!Tell Lao Tzu quickly!</p>'
              '<p><<$YS.name>>: I don`t know ah ah<<$Panting>></p>'
          '</div>'
     end
@@ -295,7 +295,7 @@ if $args[0]="YS_Fuck_warehouse":
              '<p>New team member: Huh?The boss is gone?Then don`t blame Xiao Ye for showing the real guy!</p>'
              '<p><<$YS.name>>: Help me<<$words>></p>'
              if a>=9:'<p>New team member: Will the boss be blamed for letting this girl get pregnant?Forget it!Whatever!</p>'
-             if a>=10:'<p>New team member: Say, it`s cool!wrong!goldAKWhere is it?！Tell Lao Tzu quickly!</p>'
+             if a>=10:'<p>New team member: Say, it`s cool!wrong!goldAKWhere is it?!Tell Lao Tzu quickly!</p>'
          '</div>'
     end
 
@@ -303,7 +303,7 @@ if $args[0]="YS_Fuck_warehouse":
     if a=11:
          '<div class="dialog_menu">'
              '<p>Me: Are you new here?I am the former first team... vice captain!You go to the door to watch the wind, don`t let a fly fly in!</p>'
-             '<p>New team member: Oh?！Good leader!Oh, no!Hello, vice captain!I promise to complete the task!</p>'
+             '<p>New team member: Oh?!Good leader!Oh, no!Hello, vice captain!I promise to complete the task!</p>'
              '<p><<$YS.name>>: It`s you……</p>'
              '<p>Me: You seem to be in trouble?</p>'
          '</div>'
@@ -603,7 +603,7 @@ if $args[0]="YS_Fuck_Same sheriff2":
          '<div class="dialog_menu">'
              '<p>I: <<$JZ.name>>...you can say a few words…</p>'
              '<p><<$JZ.name>>: I failed the trust of the citizens... I should work together with the citizens…</p>'
-             '<p><<$YS.name>>: Work together...what?Was it fucked by the same man?！</p>'
+             '<p><<$YS.name>>: Work together...what?Was it fucked by the same man?!</p>'
              if a>=2:'<p><<$JZ.name>>: Not<<$Panting>></p>'
              if a>=7:'<p><<$JZ.name>>: Then watch it from the side<<$words2>></p>'
          '</div>'
@@ -673,7 +673,7 @@ if $args[0]="YS_Fuck_divorce":
     if a=-1:
          '<div class="dialog_menu">'
              '<p>Chef: You bastard!Bitch!Why are you doing this to me!</p>'
-             '<p><<$YS.name>>: Why?Did you ever think about what happened to me when I was taken away?I was being fucked by that group of people at the time!What`s happened?！Can`t you accept being fucked in front of you now?！</p>'
+             '<p><<$YS.name>>: Why?Did you ever think about what happened to me when I was taken away?I was being fucked by that group of people at the time!What`s happened?!Can`t you accept being fucked in front of you now?!</p>'
              '<p>Chef: Ah ah ah ah ah ah ah!</p>'
          '</div>'
     end
@@ -690,7 +690,7 @@ if $args[0]="YS_Fuck_divorce":
          '<div class="dialog_menu">'
              '<p>Chef: Baby...it`s great to see you safe and sound. I regret it now. If you give me another chance, I will not hesitate to save you!</p>'
              '<p><<$YS.name>>: It`s too dangerous!People are gangsters, and even the police dare not provoke them. How could I think you are a soft egg?</p>'
-             '<p>Chef: Soft egg?！How could I be a soft egg!</p>'
+             '<p>Chef: Soft egg?!How could I be a soft egg!</p>'
              '<p><<$YS.name>>: Prove it to me!Right now!Divorce your wife!Then marry me!</p>'
              '<p>Chef: good!I`ll show you what a real man is all about!</p>'
          '</div>'
@@ -722,7 +722,7 @@ if $args[0]="YS_Fuck_divorce":
              '<p>Chef: Hey, wife, take it easy, you`re making it too tight.</p>'
              '<p>*<<$YS.name>>The smile gradually became cold</p>'
              '<p>Chef: Hey hey hey, it`s too tight!Let me go!</p>'
-             '<p><<$YS.name>>: <<$Protagonist`s_name>>！It`s your turn to play.</p>'
+             '<p><<$YS.name>>: <<$Protagonist`s_name>>!It`s your turn to play.</p>'
          '</div>'
     end
 
@@ -730,7 +730,7 @@ if $args[0]="YS_Fuck_divorce":
     if 12>=a and a>=5:
          '<div class="dialog_menu">'
              '<p>I: I`ve been waiting for a long time ❤</p>'
-             '<p>Chef: Let me go!What are you going to do?！</p>'
+             '<p>Chef: Let me go!What are you going to do?!</p>'
              '<p><<$YS.name>>: Of course it`s in front of you<<$Protagonist`s_name>>Fuck my pussy and then we will divorce❤</p>'
              if a>=6:'<p>I: Do you like the feeling of committing a crime in front of your husband❤</p>'
              if a>=8:'<p><<$YS.name>>: like<<$words2>></p>'
@@ -808,7 +808,7 @@ if $args[0]="YS_Fuck_shares":
          '<div class="dialog_menu">'
              '<p>Chef: Baby...it`s great to see you safe and sound. I regret it now. If you give me another chance, I will not hesitate to save you!</p>'
              '<p><<$YS.name>>: It`s too dangerous!People are gangsters, and even the police dare not provoke them. How could I think you are a soft egg?</p>'
-             '<p>Chef: Soft egg?！How could I be a soft egg!</p>'
+             '<p>Chef: Soft egg?!How could I be a soft egg!</p>'
              '<p><<$YS.name>>: Prove it to me!Right now!Share with your wife!Then marry me!</p>'
              '<p>Chef: good!I`ll show you what a real man is all about!</p>'
          '</div>'

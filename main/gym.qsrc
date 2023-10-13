@@ -120,7 +120,7 @@ if $ARGS[0]="Group exercises":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>[Female coach]: Persevere!persist!Keep up with the beat of our male coach!1！2！1！2！</p>'
+		'<p>[Female coach]: Persevere!persist!Keep up with the beat of our male coach!1!2!1!2!</p>'
 		'<p>❤In this groan from the other side, the students are very satisfied❤</p>'
 		'<p>❤Received the class fee300..</p>'
 		'<p>❤Based on charm, I received a tip from a female student<<$loveMoney>>..</p>'

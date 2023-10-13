@@ -188,7 +188,7 @@ if $args[0]="Caesar standing Painting":
 		'<p>Me: Sorry, out of a sense of justice, I can`t do this kind of thing!</p>'
 		'<p>Caesar: What a hypocritical person, you personally blocked her.You have ruined her life!</p>'
 		'<p>Me: She shot my sister first!She has already paid the price!</p>'
-		'<p>Caesar: Oh, what price did you pay?！</p>'
+		'<p>Caesar: Oh, what price did you pay?!</p>'
 		end
 		if CaesarDialogue=5:
 		'<p>Caesar: Okay, call me as soon as you hear from her!</p>'
@@ -199,7 +199,7 @@ if $args[0]="Caesar standing Painting":
 		if CaesarDialogue=6:
 		'<p>Caesar: Yes<<$GJ.name>>Is there any news?</p>'
 		'<p>Me: Yes, and she would like to see you too, but she wants5Ten thousand appearance fees.</p>'
-		'<p>Caesar: You don`t want to ask me for this little money, do you?！Hmm?</p>'
+		'<p>Caesar: You don`t want to ask me for this little money, do you?!Hmm?</p>'
 		'<p>I：……</p>'
 		'<p>Caesar: Stop fucking nonsense!Take me to see her!</p>'
 		end

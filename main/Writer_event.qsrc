@@ -85,7 +85,7 @@ if $args[0]="Ask for light changes":
 		'<p>Me: Are there any popular light comics now?</p>'
 		'<p><<$ZJ.name>>: Of course there is!</p>'
 		'<p>Me: What is it?</p>'
-		'<p><<$ZJ.name>>: Don`t you know?！It`s my "About my sister being a fornication erotic novelist, after I discovered it24The little story of being fucked as a child and finally becoming a bitch sex slave"!</p>'
+		'<p><<$ZJ.name>>: Don`t you know?!It`s my "About my sister being a fornication erotic novelist, after I discovered it24The little story of being fucked as a child and finally becoming a bitch sex slave"!</p>'
 		'<p>Me: Can you authorize me to broadcast on TV?</p>'
 		'<p><<$ZJ.name>>: Uh……</p>'
 		if $ZJ.love>=200 and $ZJ.bad>=200:'<p><<$ZJ.name>>: Of course it`s okay!</p>'
@@ -107,10 +107,10 @@ if $args[0]="First meeting":
 	'<div class="dialog_menu">'
 		'<p>·When I came to the vice principal`s house, the atmosphere dropped to freezing point.</p>'
 		'<p><<$FXZ.name>>: If you don`t want to talk to your mother, you can talk to this brother.Mom is worried that if you don`t have anyone to talk, you will have a mental problem....</p>'
-		'<p><<$ZJ.name>>: What?！Do you think I have a mental problem?！</p>'
-		'<p><<$FXZ.name>>: You refuse to tell your mother anything, are you going to piss me off?！</p>'
+		'<p><<$ZJ.name>>: What?!Do you think I have a mental problem?!</p>'
+		'<p><<$FXZ.name>>: You refuse to tell your mother anything, are you going to piss me off?!</p>'
 		'<p><<$ZJ.name>>: I`m so annoying, I told you to leave me alone!If it`s okay, I`m going back to my room!</p>'
-		'<p><<$FXZ.name>>：<<$Protagonist`s_name>>！You hurry up and think of a way!</p>'
+		'<p><<$FXZ.name>>：<<$Protagonist`s_name>>!You hurry up and think of a way!</p>'
 	'</div>'
 End
 
@@ -266,7 +266,7 @@ if $args[0]="Second meeting1":
 		'<p><<$ZJ.name>>: Then I`ll try it.</p>'
 		'<p><<$ZJ.name>>: "My brother rubbed my chest with his huge hands....brother..Hurry up....My nipples have stood up...Hurry up..continue...It`s already wet below...brother..I want you to reach in....I really want it...”</p>'
 		'<p>Me: Look, isn`t this great?</p>'
-		'<p><<$ZJ.name>>：！！！really?！This lady is now full of inspiration!！I want to update the chapter right away!！Thank you!！</p>'
+		'<p><<$ZJ.name>>：!!!really?!This lady is now full of inspiration!!I want to update the chapter right away!!Thank you!!</p>'
 		'<p>·He closed the door abruptly, and it seemed that he could only continue next time.</p>'
 		$ZJ_Event_count=1
 		$ZJ.love+=5+my.charm
@@ -290,11 +290,11 @@ if $args[0]="Second meeting2":
 	'<div class="dialog_menu">'
 		if a=5:
 		'<p>Me: Your character is a bitch, a crazy girl who wants to be used as a meat toilet by her brother.But your text is too conservative and does not highlight her character at all.</p>'
-		'<p><<$ZJ.name>>: What should I do?After adjusting the number of subscribers last time, the number of subscribers has increased.500！I must listen to your suggestions more.</p>'
+		'<p><<$ZJ.name>>: What should I do?After adjusting the number of subscribers last time, the number of subscribers has increased.500!I must listen to your suggestions more.</p>'
 		'<p>Me: Try to let go of your scale a little bit first.</p>'
 		'<p><<$ZJ.name>>: What should I do?Continue to fantasize?</p>'
 		'<p>Me: Yes!But you took off your top this time, leaving only your underwear.</p>'
-		'<p><<$ZJ.name>>: What?！Don`t!So shy!</p>'
+		'<p><<$ZJ.name>>: What?!Don`t!So shy!</p>'
 		'<p>Me: Look, this is where you can`t shape good characters.You can`t let it go by yourself...</p>'
 		'<p><<$ZJ.name>>: Good, good!I listen to you!</p>'
 		end
@@ -304,7 +304,7 @@ if $args[0]="Second meeting2":
 		'<p>Me: Go on!</p>'
 		'<p><<$ZJ.name>>: My sister is already wet under...brother..I want you to plug in....I really want it....brother....I really want your big meat stick..</p>'
 		'<p>Me: Look, isn`t this great?</p>'
-		'<p><<$ZJ.name>>：！！！really?！This lady is now full of inspiration!！I want to update the chapter right away!！Thank you!！</p>'
+		'<p><<$ZJ.name>>：!!!really?!This lady is now full of inspiration!!I want to update the chapter right away!!Thank you!!</p>'
 		'<p>·He closed the door abruptly, and it seemed that he could only continue next time.</p>'
 		$ZJ_Event_count=2
 		$ZJ.love+=5+my.charm
@@ -331,7 +331,7 @@ if $args[0]="Second meeting3":
 		'<p><<$ZJ.name>>: Do you know?After the last adjustment, the number of onlookers directly broke through1Ten thousand mark!You are so amazing!What else can I do next?</p>'
 		'<p>Me: Let me think about it...Now the plot is that my sister is about to be fucked by my brother!You can substitute it first!</p>'
 		'<p>·Talking and talking<<$ZJ.name>>I started to take off my clothes, and unknowingly even my underwear was untied.</p>'
-		'<p><<$ZJ.name>>: What?！Ah!Oh, shit, why did I take off my bra so easily?..I didn`t take it off on purpose..</p>'
+		'<p><<$ZJ.name>>: What?!Ah!Oh, shit, why did I take off my bra so easily?..I didn`t take it off on purpose..</p>'
 		'<p>Me: It`s okay, so you can write a bolder and more exciting plot!</p>'
 		'<p><<$ZJ.name>>: Okay then....I thought“ "Brother, rubbing my tits unscrupulously, teasing my nipples repeatedly with my mouth."...”</p>'
 		end
@@ -605,8 +605,8 @@ if $args[0]="ZJ_Fuck_Go out":
 	end
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p>I:?!!?!Actually right in the bull`s-eye?！If you hit the bull`s-eye, you can get a free order!！</p>'
-			 '<p><<$ZJ.name>>:really?！<<$Protagonist`s_name>>Praise me!Let me see, can you still choose a set of Lolita`s clothes?</p>'
+			 '<p>I:?!!?!Actually right in the bull`s-eye?!If you hit the bull`s-eye, you can get a free order!!</p>'
+			 '<p><<$ZJ.name>>:really?!<<$Protagonist`s_name>>Praise me!Let me see, can you still choose a set of Lolita`s clothes?</p>'
 		 '</div>'
 	end
  q+=1
@@ -840,7 +840,7 @@ if $args[0]="ZJ_Fuck_editsex":
 
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$ZJ.name>>:Can`t be like this!！The small hole will be dried loose...If my brother doesn`t like my tight pussy anymore, he will......but....Ah...</p>'
+			 '<p><<$ZJ.name>>:Can`t be like this!!The small hole will be dried loose...If my brother doesn`t like my tight pussy anymore, he will......but....Ah...</p>'
 		 '</div>'
 	end
 	if a=5:
@@ -850,7 +850,7 @@ if $args[0]="ZJ_Fuck_editsex":
 	end
 	if a=6:
 		 '<div class="dialog_menu">'
-			 '<p><<$ZJ.name>>:So top!！Can`t stand it anymore!！I was fucked by the editor-in-chief and sprayed with water.....</p>'
+			 '<p><<$ZJ.name>>:So top!!Can`t stand it anymore!!I was fucked by the editor-in-chief and sprayed with water.....</p>'
 		 '</div>'
 	end
 	if a=7:

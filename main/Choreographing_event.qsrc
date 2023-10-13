@@ -96,7 +96,7 @@ if $ARGS[0]="Eat":
 		if $Chooserice='快餐':'<p><<$BD.name>>: Bring me to eat fast food?Forget it, it`s not bad to make a quick decision to prepare for a video conference.</p>' & $BD.love+=1
 		if $Chooserice='拉面':'<p><<$BD.name>>: It tastes good, much better than what my sister cooks, and I still have some insights into ramen.</p>'& $BD.love+=3
 		if $Chooserice='寿司':'<p><<$BD.name>>: Don`t you know that I hate eating rice... never again.</p>'& $BD.love-=3
-		if $Chooserice='自助餐':'<p><<$BD.name>>: You can`t help but be a little whimsical, there will be a video conference in a while!Is it appropriate to eat a buffet now?！</p>'& $BD.love-=5
+		if $Chooserice='自助餐':'<p><<$BD.name>>: You can`t help but be a little whimsical, there will be a video conference in a while!Is it appropriate to eat a buffet now?!</p>'& $BD.love-=5
 	'</div>'
 end
 
@@ -136,7 +136,7 @@ if $ARGS[0]="After a meal":
 		
 	'<div class="button_menu">'
 		if $BD.love>=50 and a=0:'<div class="buttonS2"><a href="exec:a=1 & gt ''Choreographing_event'',''After a meal''">Four eyes opposite</a></div>'
-		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Choreographing_event'',''After a meal''">?！！！</a></div>'
+		if a=1:'<div class="button"><a href="exec:a=2 & gt ''Choreographing_event'',''After a meal''">?!!!</a></div>'
 		if a=2:'<div class="button"><a href="exec:a=3 & gt ''Choreographing_event'',''After a meal''">Sitting upright</a></div>'
 		if a=3:'<div class="button"><a href="exec:a=4 & gt ''Choreographing_event'',''After a meal''">Peeking at her sister</a></div>'
 		if a=3 and $BD.love>=250-$BD.bad:'<div class="buttonS"><a href="exec:a=0 & q=0 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">Exercise after a meal</a></div>'else'<div class="buttonGr"><a href="exec:">Exercise after a meal</a></div>'
@@ -263,7 +263,7 @@ if $args[0]="Choreographer_Fuck_Exercise after a meal":
 		 '<div class="dialog_menu">'
 			 '<p><<$BD.name>>:wrong!The answer is that both are comfortable!</p>'
 			 '<p>I:That`s right!I like both!When can I see the third one?</p>'
-			 '<p><<$BD.name>>:No way!I have never been touched by anyone there!Oh, it`s too late for the video conference!！</p>'
+			 '<p><<$BD.name>>:No way!I have never been touched by anyone there!Oh, it`s too late for the video conference!!</p>'
 		 '</div>'
 	end
  q+=1
@@ -355,7 +355,7 @@ if $args[0]="Choreographer_Fuck_Bathroom door":
 		 $BD.love+=q+my.charm
 		 $BD.bad+=q+5
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: ?！Huh, but you are so good at it, you actually fucked my mother to beg for mercy... No wonder the director listened to you so much, have you fucked her too?</p>'
+			 '<p><<$BD.name>>: ?!Huh, but you are so good at it, you actually fucked my mother to beg for mercy... No wonder the director listened to you so much, have you fucked her too?</p>'
 			 '<p>Me: Uh………</p>'
 			 '<p><<$BD.name>>: It`s terrible, it`s terrible, it`s too late for the video conference!It`s all your fault!</p>'
 		 '</div>'
@@ -440,7 +440,7 @@ if $args[0]="Video conference":
 
 	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>:?！What are you doing?Don`t do it, it`s a meeting!</p>'
+			 '<p><<$BD.name>>:?!What are you doing?Don`t do it, it`s a meeting!</p>'
 			 '<p>Me: It`s okay, they can`t see... Director, don`t you want to relax and enjoy it?</p>'
 			 '<p><<$BD.name>>:Why are you so messy?hello!</p>'
 			 if a>=2:'<p>Me: Obviously you enjoyed it when I asked you to make a reality show.</p>'
@@ -534,7 +534,7 @@ if $args[0]="Video conference2":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: Stop it... Why do you still miss my panties... are you finished or not?！</p>'
+			 '<p><<$BD.name>>: Stop it... Why do you still miss my panties... are you finished or not?!</p>'
 		 '</div>'
 	end
 
@@ -542,13 +542,13 @@ if $args[0]="Video conference2":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>:?！Why don`t you keep your word?I`m going to be angry if you do this again!</p>'
+			 '<p><<$BD.name>>:?!Why don`t you keep your word?I`m going to be angry if you do this again!</p>'
 		 '</div>'
 	end
 
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>:stop it!Do you hear me?If I do this again, I will sue you for sexual harassment... no, it`s rape!！</p>'
+			 '<p><<$BD.name>>:stop it!Do you hear me?If I do this again, I will sue you for sexual harassment... no, it`s rape!!</p>'
 		 '</div>'
 	end
 
@@ -926,7 +926,7 @@ if $args[0]="Office nightC":
 		 $BD.love+=q+my.charm
 		 $BD.bad+=q
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: Is it cool?I have to work overtime to make up for the time you delayed!！</p>'
+			 '<p><<$BD.name>>: Is it cool?I have to work overtime to make up for the time you delayed!!</p>'
 		 '</div>'
 	end
 
@@ -979,7 +979,7 @@ if $args[0]="Office nightA":
 
 	if 3>=a and a>=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: At work... and there are still a few people who haven`t gotten off work yet!！</p>'
+			 '<p><<$BD.name>>: At work... and there are still a few people who haven`t gotten off work yet!!</p>'
 		 '</div>'
 	end
 
@@ -999,7 +999,7 @@ if $args[0]="Office nightA":
 		 $BD.love+=q
 		 $BD.bad+=q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$BD.name>>: Dare to say that to me... who doesn`t have sex?！</p>'
+			 '<p><<$BD.name>>: Dare to say that to me... who doesn`t have sex?!</p>'
 		 '</div>'
 	end
 
@@ -1068,9 +1068,9 @@ if $args[0]="Office nightB":
 		 $BD.love+=q
 		 $BD.bad+=q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p>staff: Hey hey!Is it true or false?！Actually it is<<$BD.name>>Having sex in the office?！</p>'
-			 '<p><<$BD.name>>: What`s happened?... Didn`t someone say that my mother has no sex life?！</p>'
-			 '<p>staff: Huh?！Who said that!So courageous!I don`t know anything!</p>'
+			 '<p>staff: Hey hey!Is it true or false?!Actually it is<<$BD.name>>Having sex in the office?!</p>'
+			 '<p><<$BD.name>>: What`s happened?... Didn`t someone say that my mother has no sex life?!</p>'
+			 '<p>staff: Huh?!Who said that!So courageous!I don`t know anything!</p>'
 		 '</div>'
 	end
 
@@ -1294,7 +1294,7 @@ if $args[0]="Soy milk":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>Me:?！?！??</p>'
+			 '<p>Me:?!?!??</p>'
 		 '</div>'
 	end
 
@@ -1318,8 +1318,8 @@ if $args[0]="Soy milk":
 		 $BD.bad+=q
 		 '<div class="dialog_menu">'
 			 '<p>Me: Give me a break.</p>'
-			 '<p>???:sister!！</p>'
-			 '<p><<$BD.name>>：?！?！wait!</p>'
+			 '<p>???:sister!!</p>'
+			 '<p><<$BD.name>>：?!?!wait!</p>'
 			 '<p>Me: Call-saved……</p>'
 		 '</div>'
 	end
@@ -1454,7 +1454,7 @@ if $args[0]="Choreographer_Fuck_3PL":
 		 BDLY+=1
 		 '<div class="dialog_menu">'
 			 '<p>Me: Huh----I`m exhausted.</p>'
-			 '<p><<$LY.name>>:?！I understand!This is not3PIs it?</p>'	 
+			 '<p><<$LY.name>>:?!I understand!This is not3PIs it?</p>'	 
 			 '<p><<$BD.name>>:You are quite smart... I am optimistic about your performance in the second season.…</p>'
 			 '<p>(As for when will the second season be released?I don`t know...)</p>'
 		 '</div>'

@@ -139,7 +139,7 @@ if $args[0]="temptation2":
 		'<p><<$XS.name>>:………</p>'
 		end
 		if a=1:
-		'<p>I:……?！</p>'
+		'<p>I:……?!</p>'
 		'<p><<$XS.name>>:<<$Protagonists_surname>> Sir ❤Can you pick it up for me❤</p>'
 		end
 		if a=2:

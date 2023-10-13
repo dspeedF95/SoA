@@ -701,7 +701,7 @@ if $args[0]="Next door_Fuck_Hot spring2":
              if a=2:'<p>Me: Good sister... um... you wash me so comfortably... I can`t stand it anymore.…… </p>'
              if a=3:'<p>Baqianghai: Is your sister`s ass comfortable for you?</p>'
              if a=4:'<p>Me: Oh...ah...okay!…...good sister...even more...suck hard...hmm…  </p>'
-             if a=5:'<p>Baqianghai: Hey?！Can`t you help it? </p>'
+             if a=5:'<p>Baqianghai: Hey?!Can`t you help it? </p>'
              if a=6:'<p>Me: Good sister, don`t suppress yourself, just call if you want. The sound insulation facilities here are very good.</p>'
              if a=7:'<p>Bakuehai: Oh...good brother...insert hard...Um...yes...harder...oh...so beautiful……</p>'
              if a=8:'<p>Bakuehai: Um... itchy... smelly brother...Oh...please... sister can`t stand it anymore</p>'
@@ -1178,7 +1178,7 @@ if $args[0]="Next door_Fuck_tune2":
     if 10>=a and a>=0:
          '<div class="dialog_menu">'
              if a=0:'<p>Baqianghai: I let you play with me like this last time... This time it`s my turn. Today you have to listen to the queen, come with me❤</p>'
-             if a=1:'<p>Baqianghai: Oh... Smelly brother...what are you doing?！Today you have to listen to the Queen... ah ah❤</p>'
+             if a=1:'<p>Baqianghai: Oh... Smelly brother...what are you doing?!Today you have to listen to the Queen... ah ah❤</p>'
              if a=2:'<p>Me: Sister Xiaohai!I can`t help it, you want to be fucked by me too, right? </p>'
              if a=3:'<p>Xiaohai：<<$Panting>></p>'
              if a=4:'<p>Me: Sister Xiaohai... is my meat stick comfortable? </p>'

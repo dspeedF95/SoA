@@ -198,7 +198,7 @@ if $args[0]="SX_Fuck_sofa":
     if a=0:
          '<div class="dialog_menu">'
              '<p><<$SX.name>>:No one has ever treated me so gently...I seem to...like...you.</p>'
-             '<p>I: Hey?！A sudden confession!</p>'
+             '<p>I: Hey?!A sudden confession!</p>'
              '<p><<$SX.name>>: I want to repay you well...with my body……</p>'
          '</div>'
     end

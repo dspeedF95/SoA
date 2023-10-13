@@ -330,7 +330,7 @@ if $args[0]="Breast surgery2":
 		'<div class="dialog_menu">'
 			'<p>*You sat next to him.He edited the video on his phone intently.</p>'
 			'<p>I:buddy...What are you looking at?</p>'
-			'<p>man:Hehe......Hmm?！What are you looking at!Get out of here!This is all for a fee!</p>'
+			'<p>man:Hehe......Hmm?!What are you looking at!Get out of here!This is all for a fee!</p>'
 		'</div>'
 End
 

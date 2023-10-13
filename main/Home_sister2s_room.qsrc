@@ -89,7 +89,7 @@ if $args[0]="Tutoring homework":
 
 	'<div class="dialog_menu">'
 	'<p><<$mm.name>>: This question..Oh...Neither can you?....</p>'
-	'<p><<$mm.name>>: There is still this question...emmmmmmWhere are your eyes looking?！...</p>'
+	'<p><<$mm.name>>: There is still this question...emmmmmmWhere are your eyes looking?!...</p>'
 	'<p>Tutored homework for a while....Although it didn`t teach anything, the favorability has risen!</p>'
 	'</div>'
 	$MM.love+=RAND(1,my.charm)
@@ -134,7 +134,7 @@ if $args[0]="Good news":
 
 
 	'<div class="dialog_menu">'
-	'<p><<$mm.name>>: What?really?I was [Empire Entertainment]<<$ts.name>>Directly recruited?！</p>'
+	'<p><<$mm.name>>: What?really?I was [Empire Entertainment]<<$ts.name>>Directly recruited?!</p>'
 	'<p>Me: Yes, although only as a trainee..</p>'
 	'<p><<$mm.name>>：<<$ts.name>>But my idol!Her appearance on the screen is completely angelic.!</p>'
 	'<p>Me: Then you have to follow her example and try to become an idol like her.</p>'

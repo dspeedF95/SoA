@@ -445,7 +445,7 @@ if $args[0]="Stockings shop_Fuck_Go out":
          '<div class="dialog_menu">'
              '<p><<$SWD.name>>:<<$Protagonist`s_name>>❤Ahem...hmm❤</p>'
              if a>=1:'<p>Me: Are you okay?You look a little weird…</p>'
-             if a>=2:'<p><<$SWD.name>>:I can`t help it❤<<$Protagonist`s_name>>！Give me your meat stick<<$Panting2>></p>'
+             if a>=2:'<p><<$SWD.name>>:I can`t help it❤<<$Protagonist`s_name>>!Give me your meat stick<<$Panting2>></p>'
          '</div>'
     end
 
@@ -510,7 +510,7 @@ if $args[0]="Stockings shop_Fuck_visitXY":
 
     if 0<=a and a<=3:
          '<div class="dialog_menu">'
-             '<p><<$SWD.name>>:<<$Protagonist`s_name>>！You and<<$XY.name>>Are you familiar with it?</p>'
+             '<p><<$SWD.name>>:<<$Protagonist`s_name>>!You and<<$XY.name>>Are you familiar with it?</p>'
              if a>=1:'<p>Me: Uh…*The three of you look at each other</p>'
              if a>=2:'<p><<$XY.name>>:<<$Protagonist`s_surname>>Classmate, it`s amazing. ❤ How many women do you have to fuck to be satisfied?</p>'
              if a>=3:'<p><<$SWD.name>>:Since you are also in this relationship, the limited edition rewards are much easier to handle❤</p>'

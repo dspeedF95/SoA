@@ -138,7 +138,7 @@ if $args[0]="JK_Fuck_sex":
 		 xp+=q
 		 '<div class="dialog_menu">'
 			 '<p><<$JK.name>>:There are so many shots, I just like broilers like you.</p>'
-			 '<p>·<<$JK.name>>Very satisfied!Work experience has increased<<q>>！</p>'
+			 '<p>·<<$JK.name>>Very satisfied!Work experience has increased<<q>>!</p>'
 		 '</div>'
 	end
   q+=1
@@ -229,7 +229,7 @@ if $args[0]="JK_Fuck_Staff3P":
 		 '<div class="dialog_menu">'
 			 '<p>·They greedily enjoy the essence you shoot out.</p>'
 			 '<p><<$JK.name>>:There are so many shots, I just like broilers like you.</p>'
-			 '<p><<$JK.name>>Very satisfied!Work experience has increased<<q>>！</p>'
+			 '<p><<$JK.name>>Very satisfied!Work experience has increased<<q>>!</p>'
 		 '</div>'
 	end
   q+=1
@@ -301,7 +301,7 @@ if $args[0]="JK_Fuck_Fine product3P":
 		 $JK.bad+=5+my.charm
 		 xp+=n*5
 		 '<div class="dialog_menu">'
-			 '<p>·They greedily enjoy the first shot you shoot<<n>>The hair is thick and refined, and the work experience has also increased as a result.<<n>>x5！</p>'
+			 '<p>·They greedily enjoy the first shot you shoot<<n>>The hair is thick and refined, and the work experience has also increased as a result.<<n>>x5!</p>'
 		 '</div>'
 	end
   q+=1
@@ -447,7 +447,7 @@ if $args[0]="JK_Fuck_hotel":
 		 $JK.bad+=q+my.charm
 		 money+=5000
 		 '<div class="dialog_menu">'
-			 '<p>·At her request, you went on to do it more than a dozen times in a row....No increase in work experience....But got money5000！</p>'
+			 '<p>·At her request, you went on to do it more than a dozen times in a row....No increase in work experience....But got money5000!</p>'
 		 '</div>'
 	end
   q+=1

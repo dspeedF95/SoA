@@ -69,20 +69,20 @@ if $args[0]="Grandpa raped":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>Grandpa:I worked hard to raise you by myself, spent money to send you to the best universities abroad, and taught you to run the company hand in hand. As a result, this is how you repay me?！</p>'
-			 '<p><<$JM.name>>:Dad, listen to me explain, it`s not what you think..What?！Can`t...Dad, stop it....No way!You are rape!Rapists are to be physically castrated!</p>'
+			 '<p>Grandpa:I worked hard to raise you by myself, spent money to send you to the best universities abroad, and taught you to run the company hand in hand. As a result, this is how you repay me?!</p>'
+			 '<p><<$JM.name>>:Dad, listen to me explain, it`s not what you think..What?!Can`t...Dad, stop it....No way!You are rape!Rapists are to be physically castrated!</p>'
 		 '</div>'
 	end
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>Grandpa:Rapist?！Are those board members also rapists?Is my business partner also a rapist?！You really lost my face!</p>'
+			 '<p>Grandpa:Rapist?!Are those board members also rapists?Is my business partner also a rapist?!You really lost my face!</p>'
 			 '<p><<$JM.name>>:what..what....</p>'
 			 '<p>Grandpa:Stop pretending!He kept saying that he was cold, but as a result, he was tied up and fucked as a sandbag for a broken vein?</p>'
 		 '</div>'
 	end
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p>Grandpa:You lowly meat toilet, you are not worthy of being my daughter. Since you have given up being a human being, who is not the same as you?！</p>'
+			 '<p>Grandpa:You lowly meat toilet, you are not worthy of being my daughter. Since you have given up being a human being, who is not the same as you?!</p>'
 			 '<p><<$JM.name>>:Dad, I was wrong....Stop it....Listen to me....</p>'
 		 '</div>'
 	end
@@ -157,7 +157,7 @@ if $args[0]="Warehouse monitoring":
 	if C=6:
 		 '<div class="dialog_menu">'
 			 '<p>man:  Give me a drop and drink it all, you bitch!  </p>'
-			 '<p>Wow, the amount of information is so large..<<$jm.name>>Actually coerced...Do this kind of thing?！  </p>'
+			 '<p>Wow, the amount of information is so large..<<$jm.name>>Actually coerced...Do this kind of thing?!  </p>'
 			 $JM_Event_store=1
 		 '</div>'
 	end
@@ -264,7 +264,7 @@ if $ARGS[0]="Deal with trouble":
 
 	'<div class="dialog_menu">'
 		'<p>- Me: You must have a lot of troubles, right?A conspiracy in the first dynasty, two Taoists killed three soldiers!Who can do this?You said quietly.</p>'
-		'<p>- <<$jm.name>>: What are you talking about?What does it matter to you?！</p>'
+		'<p>- <<$jm.name>>: What are you talking about?What does it matter to you?!</p>'
 		'<p>- Me: I know that you are being entangled by three men for some reason. I am here to talk about remuneration.I need you to promise me unconditionally after it`s done3A request.</p>'
 		'<p>- <<$jm.name>>:Dreaming!I can handle my own affairs by myself, and I don`t need you to teach me how to do things! (Could it be that this kid discovered all these shit?Impossible...）</p>'
 		'<p>- Me: Are you sure?I have a way to get these three people out of your life forever, so think about it.</p>'
@@ -297,7 +297,7 @@ if $ARGS[0]="Take credit":
 		'<p>-Me: You will know soon...</p>'
 		'<p>————————</p>'
 		'<p>*Noise-sir!Sir, you can`t go in!</p>'
-		'<p>Male voice: Do you dare to stop me?You entered the company or I interviewed you!<<$jm.name>>！good!You fucking bitch!Play this hand!！You wait for me!You wait for me!I want to tell everyone!I will never let you go in my life!</p>'
+		'<p>Male voice: Do you dare to stop me?You entered the company or I interviewed you!<<$jm.name>>!good!You fucking bitch!Play this hand!!You wait for me!You wait for me!I want to tell everyone!I will never let you go in my life!</p>'
 		'<p>-Me: If he still has hole cards, is he so angry?Next, just think of a way to kick him out of this city, and you will be able to rest easy from now on.</p>'
 		'<p>-<<$JM.name>>: Huh, it`s not bad.I have someone to take care of me at the Entry-exit Administration. I can do this by myself! </p>'
 		'<p>-Me: According to the agreement, three requirements......</p>'
@@ -632,7 +632,7 @@ if $args[0]="Stepmom_room_hug":
 		 $JM.bad+= q+2
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -726,7 +726,7 @@ if $args[0]="Stepmom_company_day":
 		 $JM.bad+= q
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!It`s not good to be discovered!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -814,7 +814,7 @@ if $args[0]="JM_Fuck_After drinking":
 		 $JM.bad+= q+5
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!It`s not good to be discovered!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -902,7 +902,7 @@ if $args[0]="JM_Fuck_Essential oil":
 		 $JM.bad+= q+2
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!It`s not good to be discovered!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -945,7 +945,7 @@ if $ARGS[0]="Go out and have a shot":
 
 
 	'<div class="dialog_menu">'
-		'<p>-<<$JM.name>>: Don`t do this....I will be late~！ </p>'
+		'<p>-<<$JM.name>>: Don`t do this....I will be late~! </p>'
 		'<p>-Although she said so, she still rode on you skillfully.</p>'
 		'<p>-<<$JM.name>>： <<$words>></p>'
 		'<p>-<<$JM.name>>： <<$Panting>></p>'
@@ -1120,7 +1120,7 @@ if $args[0]="JM_Fuck_bathroom":
 		 $JM.bad+= q
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!It`s not good to be discovered!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -1205,7 +1205,7 @@ if $args[0]="JM_Fuck_McGovern":
 		 $JM.bad+= q
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！It`s not good to be discovered!</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!It`s not good to be discovered!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -1318,7 +1318,7 @@ if $args[0]="JM_Fuck_Hot spring":
 		 $JM.bad+= q
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -1420,7 +1420,7 @@ if $args[0]="JM_Fuck_3P":
 		 $JM.bad+= q
 		 $JM.love+= q+my.charm
 		 '<div class="dialog_menu">'
-			 '<p><<$JM.name>>: Okay, okay, that`s it!！！</p>'
+			 '<p><<$JM.name>>: Okay, okay, that`s it!!!</p>'
 		 	 '<p>Me: What a disappointment~</p>'
 		 '</div>'
 	end
@@ -1762,7 +1762,7 @@ if $args[0]="JM_Fuck_basement":
 
 	if 10>=a and a>=5:
 		 '<div class="dialog_menu">'
-		 	 '<p>Me: Really, can`t you wait ten minutes?！</p>'
+		 	 '<p>Me: Really, can`t you wait ten minutes?!</p>'
 			 '<p><<$JM.name>>: Mom is wrong<<$words>></p>'
 		 '</div>'
 	end

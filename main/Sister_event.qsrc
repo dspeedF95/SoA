@@ -132,15 +132,15 @@ if $args[0]="Ejaculation test":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>My sister pointed to the McGovern extract on the side, and you swallowed it without thinking about it.</p>'
-			 '<p><<$JJ.name>>:Wow!What`s going on?！Is the scrotum bulging so big?！Could it be that the dose is too large?！</p>'
-			 '<p><<$JJ.name>>:Don`t be afraid, my sister will help you reduce the swelling!！</p>'
+			 '<p><<$JJ.name>>:Wow!What`s going on?!Is the scrotum bulging so big?!Could it be that the dose is too large?!</p>'
+			 '<p><<$JJ.name>>:Don`t be afraid, my sister will help you reduce the swelling!!</p>'
 		 '</div>'
 	end
 
 	if 6>=a and a>=1:
 		 '<div class="dialog_menu">'
 			 '<p>Me: Sister, you take it off like this....?</p>'
-			 '<p><<$JJ.name>>:Does it matter?！Is it a shame to dedicate yourself to science as a scientist?！</p>'
+			 '<p><<$JJ.name>>:Does it matter?!Is it a shame to dedicate yourself to science as a scientist?!</p>'
 			 '<p><<$JJ.name>>:You are one of my sister`s most important research subjects!</p>'
 		 '</div>'
 	end
@@ -157,7 +157,7 @@ if $args[0]="Ejaculation test":
 		 $JJ.love+= q+my.charm
 
 		 '<div class="dialog_menu">'
-			 '<p>I:@！￥@！￥#%！#%！@！￥</p>'
+			 '<p>I:@!￥@!￥#%!#%!@!￥</p>'
 			 '<p><<$JJ.name>>It`s too exaggerated!Is this the gold content of McGovern?It seems that I am going to give it an infinitely long affix~</p>'
 			 '<p><<$JJ.name>>I`m such a genius...Now you can study McGovern`s body retention rate by analyzing his brother`s semen.....Sister loves you more and more~</p>'
 			 '<p>----------------------------------------</p>'
@@ -209,13 +209,13 @@ if $args[0]="JJ_Fuck_Huge":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$jj.name>>:w(oД0)w What`s going on...The semen in the scrotum is being made frantically?Good brother!Hurry up and shoot it out!These are all essences, the ultimate essences synthesized by the highest-quality McGovern human body filtration!！！</p>'
+			 '<p><<$jj.name>>:w(oД0)w What`s going on...The semen in the scrotum is being made frantically?Good brother!Hurry up and shoot it out!These are all essences, the ultimate essences synthesized by the highest-quality McGovern human body filtration!!!</p>'
 		 '</div>'
 	end
 	
 	if 3>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$jj.name>>:<<$Panting>>！</p>'
+			 '<p><<$jj.name>>:<<$Panting>>!</p>'
 		 '</div>'
 	end
 
@@ -227,8 +227,8 @@ if $args[0]="JJ_Fuck_Huge":
 
 	if a=7:
 		 '<div class="dialog_menu">'
-			 '<p><<$jj.name>>:wow~~The uterus was all shot full..Ah...It`s all squirted out.....！</p>'
-			 '<p>I:big sister.！The effect of the medicine is still so powerful, it`s still so good.......</p>'
+			 '<p><<$jj.name>>:wow~~The uterus was all shot full..Ah...It`s all squirted out.....!</p>'
+			 '<p>I:big sister.!The effect of the medicine is still so powerful, it`s still so good.......</p>'
 		 '</div>'
 	end
 	
@@ -237,7 +237,7 @@ if $args[0]="JJ_Fuck_Huge":
 		 $JJ.love+= q+my.charm
 		 MGF+=2
 		 '<div class="dialog_menu">'
-			 '<p><<$jj.name>>:Hmm?Then she didn`t let you go, and let you shoot a few bags of semen full of condoms....Sister loves you more and more~！</p>'
+			 '<p><<$jj.name>>:Hmm?Then she didn`t let you go, and let you shoot a few bags of semen full of condoms....Sister loves you more and more~!</p>'
 			 '<p>----------------------------------------</p>'
 			 '<p>Before leaving, my sister secretly handed it to you2Small bottle of McGovern Essence....</p>'
 		 '</div>'
@@ -292,7 +292,7 @@ if $args[0]="JJ_Fuck_Giant do":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>You swallowed all the medicines on the table impatiently, and came to the room with a huge scrotum filled with semen and prostate fluid....</p>'
-			 '<p><<$JJ.name>>:Wow!The scrotum is bulging so big, awesome!Does my sister`s feet smell good?Today, my sister must finish squeezing it all at once!！Did my sister`s beautiful legs make my smelly brother horny?...</p>'
+			 '<p><<$JJ.name>>:Wow!The scrotum is bulging so big, awesome!Does my sister`s feet smell good?Today, my sister must finish squeezing it all at once!!Did my sister`s beautiful legs make my smelly brother horny?...</p>'
 		 '</div>'
 	end
 
@@ -311,7 +311,7 @@ if $args[0]="JJ_Fuck_Giant do":
 	if a=7:
 		 '<div class="dialog_menu">'
 			 '<p>Accompanied by a strong pleasure~~~~~</p>'
-			 '<p><<$JJ.name>>:There are so many more?！Can you still shoot me in the face?Brother hurry up....Let me suffocate by your semen....</p>'
+			 '<p><<$JJ.name>>:There are so many more?!Can you still shoot me in the face?Brother hurry up....Let me suffocate by your semen....</p>'
 		 '</div>'
 	end
 	
@@ -372,7 +372,7 @@ if $args[0]="Sister_bathroom":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>Ah~My sister screamed.</p>'
-			 '<p><<$JJ.name>>:brother!！My sister is using the bathroom, so you can go out and wait for me for a while.</p>'
+			 '<p><<$JJ.name>>:brother!!My sister is using the bathroom, so you can go out and wait for me for a while.</p>'
 		 '</div>'
 	end
 
@@ -385,7 +385,7 @@ if $args[0]="Sister_bathroom":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p>…...can`t stand it...ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh！！...</p>'
+			 '<p>…...can`t stand it...ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh!!...</p>'
 		 '</div>'
 	end
 
@@ -505,7 +505,7 @@ if $args[0]="JJ_Fuck_Night attacksex":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>My sister opened her eyes dimly and screamed in a daze.</p>'
-			 '<p><<$JJ.name>>:Humph!brother!！I knew it was you!What do you want to do to your sister if you don`t sleep at night?</p>'
+			 '<p><<$JJ.name>>:Humph!brother!!I knew it was you!What do you want to do to your sister if you don`t sleep at night?</p>'
 		 '</div>'
 	end
 
@@ -610,7 +610,7 @@ if $args[0]="JJ_Fuck_Mother_and_sister":
 		 JM_JJ+=1
 		 '<div class="dialog_menu">'
 			 '<p><<$JM.name>>: My good daughter listened to her mother and said that she should concentrate on her research. If she disturbs you, she will not be able to do so....Just let him come to my office.....</p>'
-			 '<p><<$JJ.name>>: You want to eat your brother alone, right?！I don`t allow it!</p>'
+			 '<p><<$JJ.name>>: You want to eat your brother alone, right?!I don`t allow it!</p>'
 		 '</div>'
 	end
 		
@@ -666,7 +666,7 @@ if $args[0]="JJ_Fuck_At home":
 	end
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>I:Sister, is it the McGovern plant that has side effects?Does its leaves have radiation?！My scrotum has been uncomfortable for several days!</p>'
+			 '<p>I:Sister, is it the McGovern plant that has side effects?Does its leaves have radiation?!My scrotum has been uncomfortable for several days!</p>'
 			 '<p><<$JJ.name>>:Oh?Get your dick erect soon and let me check the semen!</p>'
 		 '</div>'
 	end
@@ -681,7 +681,7 @@ if $args[0]="JJ_Fuck_At home":
 
 	if 3>=a and a>=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$JJ.name>>:Then sister will help you speak out?！Chi Chi Chi Chi-sucking hard.</p>'
+			 '<p><<$JJ.name>>:Then sister will help you speak out?!Chi Chi Chi Chi-sucking hard.</p>'
 		 '</div>'
 	end
 
@@ -695,14 +695,14 @@ if $args[0]="JJ_Fuck_At home":
 
 	if a=7:
 		 '<div class="dialog_menu">'
-			 '<p><<$JJ.name>>:<<$Panting>>！Shot so much, enough......</p>'
+			 '<p><<$JJ.name>>:<<$Panting>>!Shot so much, enough......</p>'
 		 '</div>'
 	end
 
 
 	if a=8:
 		 '<div class="dialog_menu">'
-			 '<p><<$JJ.name>>:<<$Panting>>！brother!Why do you still have to fuck your sister?！Where`s the cover?If you shoot your sister inward, you will get pregnant!</p>'
+			 '<p><<$JJ.name>>:<<$Panting>>!brother!Why do you still have to fuck your sister?!Where`s the cover?If you shoot your sister inward, you will get pregnant!</p>'
 		 '</div>'
 	end
 
@@ -811,7 +811,7 @@ if $args[0]="JJ_Fuck_senior3P":
 
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$JJ.name>>:Then sister will help you speak out?！Senior, this is the utility of McGovern extract.</p>'
+			 '<p><<$JJ.name>>:Then sister will help you speak out?!Senior, this is the utility of McGovern extract.</p>'
 			 '<p>senior:Is this your brother?Is it okay?</p>'
 			 '<p><<$JJ.name>>:Well, my brother and I have already<<$Panting>>I have done it many times.</p>'
 		 '</div>'
@@ -831,13 +831,13 @@ if $args[0]="JJ_Fuck_senior3P":
 
 	if a=6:
 		 '<div class="dialog_menu">'
-			 '<p><<$JJ.name>>:<<$Panting>>！Senior, your fingers are great.</p>'
+			 '<p><<$JJ.name>>:<<$Panting>>!Senior, your fingers are great.</p>'
 		 '</div>'
 	end
 	if a=7:
 		 '<div class="dialog_menu">'
 			 '<p>senior:Are you like this now?I really underestimate you!</p>'
-			 '<p><<$JJ.name>>:<<$words>>！</p>'
+			 '<p><<$JJ.name>>:<<$words>>!</p>'
 		 '</div>'
 	end
 

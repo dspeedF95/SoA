@@ -52,7 +52,7 @@ if $ARGS[0]="Eavesdropping2":
 		'<p>【Phone】: Toot toot—toot toot—toot toot—</p>'
 		'<p><<$GJ.name>>: What`s happened?</p>'
 		'<p>【Phone】: <<$SSYY.name>>There is a drama in the black material!</p>'
-		'<p><<$GJ.name>>: Excuse me?！Really fake!See you in the hot spring private room in our old place tonight!Just tonight!</p>'
+		'<p><<$GJ.name>>: Excuse me?!Really fake!See you in the hot spring private room in our old place tonight!Just tonight!</p>'
 		'<p>【Phone】: Haha!Look at your impatience, remember to wash your ass!hang up—</p>'
 		$Champion_event_chain=3
 	'</div>'
@@ -675,7 +675,7 @@ if $args[0]="GJ_Fuck_Tuning":
              if a>=2:'<p>I:You admit the wrong person.Count from one thousand, minus seven each time.If you make a mistake, you will be punished.</p>'
              if a>=3:'<p><<$GJ.name>>:993...I was wrong...sorry...I shouldn`t...right<<$MM.name>>Start...please...let me go…</p>'
              if a>=4:'<p><<$GJ.name>>:986...I was wrong...I was wrong<<$Panting>></p>'
-             if a>=5:'<p><<$GJ.name>>:978...wrong…979！Yes979！</p>'
+             if a>=5:'<p><<$GJ.name>>:978...wrong…979!Yes979!</p>'
              if a>=6:'<p>I: Aou, what a pity.Keep counting!</p>'
              if a>=7:'<p><<$GJ.name>>:972…<<$words>></p>'
          '</div>'
@@ -740,7 +740,7 @@ if $args[0]="GJ_Fuck_DL":
 
     if 6>=a and a>=0:
          '<div class="dialog_menu">'
-			 '<p>Male assistant: Hello...?Isn`t it that you got drunk so soon?Why did you suddenly take off your clothes and mess around?！</p>' 
+			 '<p>Male assistant: Hello...?Isn`t it that you got drunk so soon?Why did you suddenly take off your clothes and mess around?!</p>' 
              if a>=1:'<p><<$GJ.name>>: <<$Protagonist`s_name>>...is that you?<<$Panting>></p>'
              if a>=2:'<p>I: Ahem...let`s get started…</p>'
              if a>=3:'<p><<$GJ.name>>: 1000…993…986…979…972…</p>'
@@ -902,7 +902,7 @@ if $args[0]="GJ_Fuck_encounter":
              '<p><<$GJ.name>>: That husband, I want to go for repair surgery, my face is a bit broken.</p>'
              '<p>man: Repair surgery?I think you look good now!</p>'
              '<p><<$GJ.name>>: What do you know, the thread buried inside and the hyaluronic acid hit must be maintained, otherwise it will become more and more unnatural.</p>'
-             '<p>man: What?！I really don`t think there is any need to maintain or anything. Now you are perfect.</p>'
+             '<p>man: What?!I really don`t think there is any need to maintain or anything. Now you are perfect.</p>'
              '<p><<$GJ.name>>: I think you can`t bear the money, it will cost more than ten thousand for maintenance and follow-up maintenance.</p>'
          '</div>'
     end
@@ -911,9 +911,9 @@ if $args[0]="GJ_Fuck_encounter":
          '<div class="dialog_menu">'
              '<p>I: Ahem, what a coincidence.</p>'
              '<p><<$GJ.name>>: Yo，<<$Protagonists_surname>> Agent, the person who is mixed up is a certain kind of dog.</p>'
-             '<p>man: This is<<$Protagonists_surname>> broker?！Nice to meet you!</p>'
+             '<p>man: This is<<$Protagonists_surname>> broker?!Nice to meet you!</p>'
              '<p><<$GJ.name>>: What are you polite to him, he is a scumbag.</p>'
-             '<p>man: What?！Isn`t he a star agent in Empire Entertainment now?</p>'
+             '<p>man: What?!Isn`t he a star agent in Empire Entertainment now?</p>'
              '<p>I: It seems that he doesn`t know anything about the story between us?</p>'
              '<p><<$GJ.name>>: Huh, it`s none of your business, you`d better take care of your mouth.</p>'
          '</div>'
@@ -923,7 +923,7 @@ if $args[0]="GJ_Fuck_encounter":
 
     if a=3:
          '<div class="dialog_menu">'
-             '<p>man: Uh... should I avoid it?！</p>'
+             '<p>man: Uh... should I avoid it?!</p>'
              '<p><<$GJ.name>>: …………</p>'
              '<p>I: Sure enough, you don`t know anything?</p>'
              '<p>man: Between you...is it...which one?</p>'
@@ -934,7 +934,7 @@ if $args[0]="GJ_Fuck_encounter":
 
     if a=4:
          '<div class="dialog_menu">'
-             '<p>man: <<$Protagonists_surname>> Agent, is there a plan to support her again?！</p>'
+             '<p>man: <<$Protagonists_surname>> Agent, is there a plan to support her again?!</p>'
              '<p>I: uh……</p>'
              '<p><<$GJ.name>>: Don`t interrupt.</p>'
              '<p>man: Oh oh!I am an outsider!Sorry sorry!</p>'
@@ -944,7 +944,7 @@ if $args[0]="GJ_Fuck_encounter":
 
     if a=5:
          '<div class="dialog_menu">'
-             '<p>man: Oops!Phone...phone?！</p>'
+             '<p>man: Oops!Phone...phone?!</p>'
              '<p><<$GJ.name>>: phone?</p>'
              '<p>man: Excuse me?A sailor fell into the sea?Damn it!I have to contact the insurance company!Excuse me first!</p>'
              '<p>I: …………</p>'
@@ -1049,7 +1049,7 @@ if $args[0]="GJ_Fuck_YQH":
     if a=0:
          '<div class="dialog_menu">'
              '<p><<$GJ.name>>: Hello boss, I heard you want to see me?</p>'
-             '<p>Caesar: <<$GJ.name>>！Thank you for your appreciation!</p>'
+             '<p>Caesar: <<$GJ.name>>!Thank you for your appreciation!</p>'
              '<p><<$GJ.name>>: Choosing to meet in this kind of hotel-style apartment is inevitably uncomfortable.</p>'
              '<p>Caesar: Where is the discomfort?I will notify the manager to rectify it immediately!</p>'
              '<p><<$GJ.name>>: Oh?Are you the owner of this hotel?</p>'
@@ -1096,7 +1096,7 @@ if $args[0]="GJ_Fuck_YQH":
     if 17>=a and a>=12:
 		if $Caesar_Event_Chain=3:$Caesar_Event_Chain=4 & GJPatiencevalue=100
          '<div class="dialog_menu">'
-         	 '<p>Caesar: As long as you are obedient, you will have everything, okay?！</p>'
+         	 '<p>Caesar: As long as you are obedient, you will have everything, okay?!</p>'
              '<p><<$GJ.name>>: good<<$words>></p>'
              if a=15 or a=13:'<p>I: Then I`m welcome!</p>'
              if a=15 or a=13:'<p><<$GJ.name>>: You hurry up and get off me<<$words2>></p>'
@@ -1197,7 +1197,7 @@ if $args[0]="GJ_Fuck_YQH2":
              '<p>man: baby?Are you in there?I went to your best friend`s house, but she said you haven`t been there at all?</p>'
              '<p><<$GJ.name>>: <<$Panting>></p>'
              '<p>Caesar: Shhh————</p>'
-             '<p>man: <<$GJ.name>>?！You... you open the door for me!I installed positioning on your phone!The display is here!</p>'
+             '<p>man: <<$GJ.name>>?!You... you open the door for me!I installed positioning on your phone!The display is here!</p>'
              '<p>I: It seems that I can only make another appointment next time?</p>'
              '<p>·————————————————————</p>'
              '<p><<$GJ.name>>The value of patience：<<GJPatiencevalue>>/100</p>'
@@ -1288,7 +1288,7 @@ if $args[0]="GJ_Fuck_YQH3":
              if a>=4:'<p>man: Why...why...woohoohoohoohoohoohoohoohoo*Sobbing</p>'
              if a>=5:'<p>Caesar: It`s because you are too weak!You trash!Watch how I play with your woman like a bitch!</p>'
              if a>=8:'<p><<$GJ.name>>: I`ve been there a long time ago<<$Panting2>></p>'
-             if a>=9:'<p>Caesar: Are you upset to be fucked in front of your husband?！</p>'
+             if a>=9:'<p>Caesar: Are you upset to be fucked in front of your husband?!</p>'
              if a>=10:'<p><<$GJ.name>>: It`s so cool<<$words>></p>'
          '</div>'
     end

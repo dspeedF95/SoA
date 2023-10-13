@@ -161,7 +161,7 @@ if $ARGS[0]="Show her a hand":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$WQ.name>>: ?！?！！Your dishes are so delicious!How did you do it?Teach me!</p>'
+		'<p><<$WQ.name>>: ?!?!!Your dishes are so delicious!How did you do it?Teach me!</p>'
 		'<p>I: Uh... well……</p>'
 		'<p><<$WQ.name>>: Please!</p>'
 		'<p>·Favorability has risen!The comfort of the hot spring has risen!</p>'

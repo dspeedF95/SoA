@@ -52,7 +52,7 @@ if $ARGS[0]="Learn to cook":
 		if a=0:'<p><<$SY.name>>: Why don`t you go to the seat and wait obediently?</p>'
 		if a=1:'<p><<$SY.name>>: The so-called cooking is to perfectly blend the flavors of ingredients!Do you know what is missing from this ham sausage?</p>'& $SY.love+=5
 		if a=2:'<p><<$SY.name>>: Your thoughts...very interesting ❤I like it very much❤</p>'
-		if a=3:'<p><<$SY.name>>：！！！It`s so delicious ❤ Do you want to taste it?</p>' & Exp_cooking+=rand(20,$SY.love*2)
+		if a=3:'<p><<$SY.name>>：!!!It`s so delicious ❤ Do you want to taste it?</p>' & Exp_cooking+=rand(20,$SY.love*2)
 		if a=4:
 			'<p><<$SY.name>>: Good idea!Is it delicious?</p>'
 			'<p>·Take a bite→ Cooking skills have improved!</p>'
@@ -180,7 +180,7 @@ if $args[0]="Uehara_Fuck_Daughter`s room":
     if 7>=a and a>=0:
          '<div class="dialog_menu">'
              if a=0:'<p><<$LJ.name>>: <<$Protagonist`s_name>><<$Panting2>></p>'
-             if a=1:'<p><<$SY.name>>: ?！What were you doing just now?！</p>'
+             if a=1:'<p><<$SY.name>>: ?!What were you doing just now?!</p>'
              if a>=2:'<p><<$SY.name>>: Have you forgotten the family rules set by your father?You can`t have premarital sex!</p>'
              if a>=3:'<p><<$SY.name>>: That`s why you masturbated in the room, right?</p>'
              if a>=4:'<p><<$LJ.name>>: I want<<$Protagonist`s_name>>The meat stick…</p>'
@@ -248,7 +248,7 @@ if $args[0]="Uehara_Fuck_Rear bathroom":
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
              if a=0:'<p>·What to do…</p>'
-             if a=1:'<p><<$SY.name>>: ?！What were you peeking at my daughter just now?！</p>'
+             if a=1:'<p><<$SY.name>>: ?!What were you peeking at my daughter just now?!</p>'
              if a>=2:'<p><<$SY.name>>: Is my daughter as old as mine?</p>'
              if a>=3:'<p><<$LJ.name>>: Mom!Am I your own or not?</p>'
              if a>=4:'<p><<$SY.name>>: It seems that you didn`t inherit your mother`s oral work either<<$Panting>></p>'
@@ -1223,7 +1223,7 @@ if $args[0]="SY_Fuck_nxkh3":
          $SY.bad+=q+my.charm
          '<div class="dialog_menu">'
              '<p><<$SY.name>>:awesome<<$words>></p>'
-             '<p><<$SY.name>>:It`s better for us to put aside the son-in-law`s affairs... let`s satisfy my mother first!Hurry up, where is the next meat stick?！</p>'
+             '<p><<$SY.name>>:It`s better for us to put aside the son-in-law`s affairs... let`s satisfy my mother first!Hurry up, where is the next meat stick?!</p>'
              '<p>·This event is the final event of the current version of the character.</p>'
          '</div>'
     end

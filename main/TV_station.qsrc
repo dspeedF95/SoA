@@ -112,7 +112,7 @@ if $ARGS[0]="":
 		'<p>Me: The filming of the special drama is going on in an orderly manner.</p>'
 		end
 		if TVstationRandomnumber=9 or TVstationRandomnumber=10:
-		'<p><<$BD.name>>: Ready to watch the camera!3！2！1！The recording of "News Squirting Endurance Competition" has begun!</p>'
+		'<p><<$BD.name>>: Ready to watch the camera!3!2!1!The recording of "News Squirting Endurance Competition" has begun!</p>'
 		'<p>Me: The host who is willing to stay must be a slut.</p>'
 		end
 		
@@ -161,7 +161,7 @@ if $args[0]="Director`s Room":
 	'<div class="dialog_menu">'
 		if Ratings<20:'<p><<$TZ.name>>: Insufficient market share...the quality of the program is worrisome... the ratings are declining...What should I do?= =It is better to listen to the suggestions of the audience and carry out reforms.</p>'
 		if 50>Ratings and Ratings>=20:'<p><<$TZ.name>>: The market share has begun to increase... We have to make persistent efforts and not relax!</p>'
-		if Ratings>=50:'<p><<$TZ.name>>: Great!The ratings are guaranteed, we have a stable audience, and our finances are also supported!Thanks to you!<<$Protagonist`s_name>>！</p>'
+		if Ratings>=50:'<p><<$TZ.name>>: Great!The ratings are guaranteed, we have a stable audience, and our finances are also supported!Thanks to you!<<$Protagonist`s_name>>!</p>'
 		if Ratings>=60:'<p><<$TZ.name>>: Now I can relax a lot，<<$Protagonist`s_name>>, You said what should we do when we are free?…</p>'
 		'<p><<$Ratingssituation>></p>'
 	'</div>'
@@ -511,7 +511,7 @@ if $args[0]="ChoreographedanddirectedbyLiYiARG":
 		if $ChoreographedanddirectedbyLiYi=-1:
 		'<p><<$BD.name>>: Do you have an accident at this time every time?I have emphasized it again and again!This meeting is very important!</p>'
 		'<p>staff: Sorry, leader.I broke my leg while skiing and I can`t drive now.</p>'
-		'<p><<$BD.name>>: I`m working overtime every day, but did you go skiing?！Who of you can drive a racing car?We have to go to the venue in ten minutes!</p>'
+		'<p><<$BD.name>>: I`m working overtime every day, but did you go skiing?!Who of you can drive a racing car?We have to go to the venue in ten minutes!</p>'
 		end
 		if $ChoreographedanddirectedbyLiYi=0:'<p>·<<$BD.name>>Some instructions from the editorial department are being issued.</p>'
 		if $ChoreographedanddirectedbyLiYi=1:'<p>·Near the time of get off work, only a few staff members are still working.</p>'
@@ -520,8 +520,8 @@ if $args[0]="ChoreographedanddirectedbyLiYiARG":
 		if $Choreographeddialogue=1:
 		'<p>I: No one wants to watch this kind of contrived reality show anymore, and I think reality shows should make appropriate changes.</p>'
 		'<p><<$BD.name>>: Clam?What do you know?Do you know how troublesome it is to plan a reality show?Every line of the actor must be designed in advance!Jokes and slots must also be considered in advance!Do you still command me if you don`t understand anything?</p>'
-		'<p>I: It is because all the lines are designed that reality shows feel contrived!！</p>'
-		'<p><<$BD.name>>: you?！good!Then I will give you a chance.In the next reality show, I will completely delegate power to you. I would like to see if you are as good as you said!</p>'
+		'<p>I: It is because all the lines are designed that reality shows feel contrived!!</p>'
+		'<p><<$BD.name>>: you?!good!Then I will give you a chance.In the next reality show, I will completely delegate power to you. I would like to see if you are as good as you said!</p>'
 		'<p>(I: Reality shows... need to have a sense of interaction with the audience... Who do I know has this kind of experience of interaction with the audience...)</p>'
 		end
 		if $Choreographeddialogue=2:
@@ -648,7 +648,7 @@ if $args[0]="Hashimoto Tachie":
 
 	'<div class="dialog_menu">'
 		'<p><<$QB.name>>: Are you here to deliver food?It`s delicious!</p>'
-		'<p><<$BD.name>>: How long are you going to eat?！Come and arrange the show!</p>'
+		'<p><<$BD.name>>: How long are you going to eat?!Come and arrange the show!</p>'
 	'</div>'
 End
 
@@ -745,13 +745,13 @@ if $args[0]="Football baby":
 		'<p>host: Quarter-finals!The players from both sides have already entered!</p>'
 		'<p><<$QB.name>>: Uh...hello everyone!</p>'
 		'<p>host: This game can be described as Mars colliding with the earth!</p>'
-		'<p><<$QB.name>>: Excuse me?！Mars collides with the earth!Ah ah ah!Then go and take refuge!</p>'
+		'<p><<$QB.name>>: Excuse me?!Mars collides with the earth!Ah ah ah!Then go and take refuge!</p>'
 		'<p>host: Uh...uh...hahaha, you really like to joke!</p>'
 		end
 		if WorldCup=2:
 		'<p>host: The much-anticipated semi-finals!The cheers of the fans are already boiling!</p>'
 		'<p><<$QB.name>>: Uh...hello everyone!</p>'
-		'<p>host: Excuse me?！The opponent`s main player did not start!What do you think?</p>'
+		'<p>host: Excuse me?!The opponent`s main player did not start!What do you think?</p>'
 		'<p><<$QB.name>>: Look with your eyes…</p>'
 		'<p>host: Uh...uh...uh...hahaha, you really like to joke!</p>'
 		end

@@ -167,7 +167,7 @@ if  $args[0]="Underground idol":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$ts.name>>: These trainees don`t seem to be able to do it....The current underground idols are too outrageous, how can they take such a photo?！Damn escort company!</p>'
+		'<p><<$ts.name>>: These trainees don`t seem to be able to do it....The current underground idols are too outrageous, how can they take such a photo?!Damn escort company!</p>'
 		'<p>Me: Underground idol?Escort company?</p>'
 		'<p><<$ts.name>>: Did you hear it?The so-called underground idols belong to escort companies.They are clearly priced to play with them during the day and sleep with them at night.It`s just that women choose customers in reverse, drilling a hole in [legal prostitution].</p>'
 		'<p>Me: It means that only high-end and high-quality customers will serve them?</p>'
@@ -218,13 +218,13 @@ if  $args[0]="Porn idol":
 
 	'<div class="dialog_menu">'
 		'<p>Me: In contrast, the advantage of underground idols is...Fans can have direct sexual relations with them.The allure of this to fans is unlimited.Is there such a possibility?...What if our artists also provide sexual services?</p>'
-		'<p><<$ts.name>>: Are you crazy?！We are a regular idol company!</p>'
+		'<p><<$ts.name>>: Are you crazy?!We are a regular idol company!</p>'
 		'<p>Me: If it is...The artist invites the fan group to come in the form of a thanksgiving festival...</p>'
 		'<p><<$ts.name>>: Will the handshake be?Fans now don`t eat this set for a long time.</p>'
-		'<p>Me: Come on, groupP！You still don`t understand men!Men just like this kind of contrast!Who doesn`t desire to fuck female love beans?</p>'
+		'<p>Me: Come on, groupP!You still don`t understand men!Men just like this kind of contrast!Who doesn`t desire to fuck female love beans?</p>'
 		'<p><<$ts.name>>：................this.......In case...</p>'
 		'<p>Me: If you hesitate like this, the market will be divided up!The first erotic love bean!It must be our family!</p>'
-		'<p><<$ts.name>>：..That`s good!This matter...I`ll leave it to you!You are responsible for the problem!！Just use the four newly signed trainees to make experimental products!(It`s an unsecured contract anyway...Don`t be responsible if something happens)</p>'
+		'<p><<$ts.name>>：..That`s good!This matter...I`ll leave it to you!You are responsible for the problem!!Just use the four newly signed trainees to make experimental products!(It`s an unsecured contract anyway...Don`t be responsible if something happens)</p>'
 		'<p>Me: What?this...(The other three don`t matter, but one of them is my sister....）</p>'
 		'<p><<$ts.name>>: Huh, now it`s your turn to hesitate, isn`t it?</p>'
 	'</div>'
@@ -376,7 +376,7 @@ if  $args[0]="Proposed draft":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$QB.name>>: Eh?！Talent show, I know that!Last year`s general trend character withdrawal caused a lot of uproar, and this year she made a comeback... I`m afraid my strength is not enough.…</p>'
+		'<p><<$QB.name>>: Eh?!Talent show, I know that!Last year`s general trend character withdrawal caused a lot of uproar, and this year she made a comeback... I`m afraid my strength is not enough.…</p>'
 		'<p>I: Don`t worry, black and red are also red... as long as there is popularity and topic... it`s okay.…</p>'
 		'<p><<$QB.name>>: I want to practice for another year, if…<<$TS.name>>If you ask me to go... I can`t help it…</p>'
 		'<p>I: Then I have to talk to her…</p>'
@@ -532,7 +532,7 @@ if  $args[0]="Recording studio":
 			'<div class="buttonPu3"><a href="exec:$Universallocation=''演出1'' & fxnum=8 & 
 			$Generalselection1=''Go behind the scenes'' & $Generalselection2=''Fuck her'' & $Generalselection3=''Lift your thighs'' & $Generalselection4=''Accelerate thrusting'' &
 			$Generalselection5=''Sprint vigorously'' & $Generalselection6=''Ejaculation'' & $Generalselection7=''Stuff in the vibrating egg'' & $Generalselection8=''Continue the show'' &
-			$Pandialogue1=''Long time no see!Dear fans!This song is the title song of the upcoming release!'' & $Pandialogue2=''Really motivated!''& $Pandialogue3=''Please take a break, I`ll change into a costume... hey?！Wait ❤ You don`t want to…''&
+			$Pandialogue1=''Long time no see!Dear fans!This song is the title song of the upcoming release!'' & $Pandialogue2=''Really motivated!''& $Pandialogue3=''Please take a break, I`ll change into a costume... hey?!Wait ❤ You don`t want to…''&
 			$Pandialogue4=''She just opened her mouth, but what came out was a groan ❤Hmm ❤Thank you for your support ❤Angel loves you❤''& $Pandialogue5=''Hehe, this feeling is really good... I didn`t expect her to be so popular.''&
 			$Panleave=''subway'' & Angel_Album=1 & gt ''Angel_event'',''TS_Fuck_Universal''">Album audition</a></div>'
 			
@@ -555,7 +555,7 @@ if  $args[0]="Record music":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$TS.name>>: hey!<<$Protagonist`s_name>>！Won`t you come and give me some advice?</p>'
+		'<p><<$TS.name>>: hey!<<$Protagonist`s_name>>!Won`t you come and give me some advice?</p>'
 		'<p>I: Let me use my brain…</p>'
 	'</div>'
 End

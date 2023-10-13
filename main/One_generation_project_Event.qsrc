@@ -60,7 +60,7 @@ if $args[0]="YDM_Fuck_Go to jail":
 
 	if 2>=a and a>=0:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813！Don`t make me angry!Speak quickly!</p>'
+			 '<p>Police Dog Team:Prisoner number：9X0813!Don`t make me angry!Speak quickly!</p>'
 		 '</div>'
 	end
 
@@ -69,26 +69,26 @@ if $args[0]="YDM_Fuck_Go to jail":
 
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813！I think you don`t see the coffin and don`t cry!If you don`t want me to break your teeth, hold it hard for me!</p>'
+			 '<p>Police Dog Team:Prisoner number：9X0813!I think you don`t see the coffin and don`t cry!If you don`t want me to break your teeth, hold it hard for me!</p>'
 		 '</div>'
 	end
 
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813！This is the right the warden gave us!The right to fuck your pussy!</p>'
+			 '<p>Police Dog Team:Prisoner number：9X0813!This is the right the warden gave us!The right to fuck your pussy!</p>'
 		 '</div>'
 	end
 
 	if 6>=a and a>=5:
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:Prisoner number：9X0813！If you break your throat, no one will come to save you!Hahaha!</p>'
+			 '<p>Police Dog Team:Prisoner number：9X0813!If you break your throat, no one will come to save you!Hahaha!</p>'
 		 '</div>'
 	end
 	if a=7:
 		 $YDM.love+=0
 		 $YDM.bad+=1
 		 '<div class="dialog_menu">'
-			 '<p>Police Dog Team:9X0813！Your mouth is harder than my ex-wife`s mouth!You will look good next time!Let`s go!</p>'
+			 '<p>Police Dog Team:9X0813!Your mouth is harder than my ex-wife`s mouth!You will look good next time!Let`s go!</p>'
 		 '</div>'
 	end
   q+=1
@@ -115,7 +115,7 @@ if $args[0]="Jailbreak":
 	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p>·Unconsciously, she is only one door away from you according to the guidance.</p>'
-			 '<p><<$ZXG.name>>:<<$Protagonist`s_name>>！What have you been doing sneakily since just now?What are you listening to with your ears on your side?Hurry up and shoot it out for me!</p>'
+			 '<p><<$ZXG.name>>:<<$Protagonist`s_name>>!What have you been doing sneakily since just now?What are you listening to with your ears on your side?Hurry up and shoot it out for me!</p>'
 			 '<p><<$YDM.name>>:<<$Protagonist`s_name>>, I`m leaving first, take care.See you soon.</p>'
 			 '<p>·This is the first time she has spoken to you.The tone was calm but passed through the thick iron door.</p>'
 		 '</div>'
@@ -220,7 +220,7 @@ if $args[0]="YDM_Fuck_Burning love3P":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$YDM.name>>:You want this, right?</p>'	
-			 '<p><<$EDM.name>>:OK！I will not lose to you!</p>'
+			 '<p><<$EDM.name>>:OK!I will not lose to you!</p>'
 		 '</div>'
 	end
 
@@ -859,7 +859,7 @@ if $args[0]="YDM_Fuck_In front of the principal":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$XZ.name>>:<<$YDM.name>>?！You are not....</p>'
+			 '<p><<$XZ.name>>:<<$YDM.name>>?!You are not....</p>'
 			 '<p><<$YDM.name>>:It`s not thanks to you, you actually introduced me to a minor.</p>'	
 			 '<p><<$XZ.name>>:Listen to me explain that he used his brother`s ID card to apply for admission.</p>'
 			 '<p><<$YDM.name>>:Well, come and have a meal with me, otherwise...The situation will be very unfavorable to you.</p>'	
@@ -1090,7 +1090,7 @@ if $args[0]="YDM_Fuck_assessment":
 		 '<div class="dialog_menu">'
 			 '<p><<$YDM.name>>:How?Appraiser.</p>'
 			 '<p>I:Not at all!</p>' 
-			 '<p><<$XY.name>>:<<$Protagonist`s_name>>！You did it on purpose!Don`t run!</p>'
+			 '<p><<$XY.name>>:<<$Protagonist`s_name>>!You did it on purpose!Don`t run!</p>'
 		 '</div>'
 	end
   q+=1

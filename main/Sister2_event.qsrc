@@ -32,7 +32,7 @@ if $args[0]="Pick you up home":
 		
 	'<div class="dialog_menu">'
 		if $MMhome=100:
-		'<p>·<<$mm.name>>: Huh----What if I go with you and everyone misunderstands that you are my boyfriend?！</p>'
+		'<p>·<<$mm.name>>: Huh----What if I go with you and everyone misunderstands that you are my boyfriend?!</p>'
 		'<p>·Although that`s what I said, my sister still got in the car with you.</p>'
 		else
 		'<p>·<<$mm.name>>: If there is a brother, it should be fine.....</p>'
@@ -397,7 +397,7 @@ if $args[0]="MM_Fuck_Skip school1":
 
 	if a=9:
 		 '<div class="dialog_menu">'
-			 '<p><<$mm.name>>..Daba Daba~Do you want to have sex with your brother?....Sorry I still feel so weird!！</p>'
+			 '<p><<$mm.name>>..Daba Daba~Do you want to have sex with your brother?....Sorry I still feel so weird!!</p>'
 		 '</div>'
 	end
 
@@ -460,7 +460,7 @@ if $args[0]="MM_Fuck_Skip school2":
 
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$mm.name>>..Wait a minute, wait a minute!Where the words...Absolutely not!！</p>'
+			 '<p><<$mm.name>>..Wait a minute, wait a minute!Where the words...Absolutely not!!</p>'
 		 '</div>'
 	end
 
@@ -888,7 +888,7 @@ if $args[0]="MM_Fuck_4p":
 		 '<div class="dialog_menu">'
 			 '<p>Me: Now that I have experienced it firsthand, I have to decide on the candidate!</p>'
 			 '<p>memberA: Of course it`s me!</p>'
-			 '<p>memberB: Huh?Why did you choose you as a rotten force?！</p>'
+			 '<p>memberB: Huh?Why did you choose you as a rotten force?!</p>'
 			 '<p>memberC: Become a contract trainee..Is my dream...Please choose me!</p>'
 			 '<p><<$MM.name>>：......(Hehe, the candidate must be me!）</p>'
 		 '</div>'
@@ -1246,7 +1246,7 @@ if $args[0]="MM_Fuck_tram":
 		 $mm_fans+=q/2
 		 '<div class="dialog_menu">'
 		 	 '<p><<$mm.name>>:everyone..Hurry up and pay attention to me!→ <a href="https://twitter.com/miruteer_29">twitter.com/miruteer_29</a></p>'
-		 	 '<p>crowd:“Hey hey!I`ll send you a video!" "Look at this!"” "The crazy girl on the Internet turned out to be a trainee of Empire Entertainment?"！"Mysterious girl!"Her true face is...”</p>'
+		 	 '<p>crowd:“Hey hey!I`ll send you a video!" "Look at this!"” "The crazy girl on the Internet turned out to be a trainee of Empire Entertainment?"!"Mysterious girl!"Her true face is...”</p>'
 			 '<p>·The number of fans has risen!</p>'
 		 	 
 		 '</div>'
@@ -1530,7 +1530,7 @@ if $args[0]="MM_Oral_hall":
 
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$MM.name>>: Hey hey!！What are you thinking?The noodles are going to be boiled!If you want to eat, sit down obediently!</p>'
+			 '<p><<$MM.name>>: Hey hey!!What are you thinking?The noodles are going to be boiled!If you want to eat, sit down obediently!</p>'
 		 '</div>'
 	end
 
@@ -1759,7 +1759,7 @@ if $args[0]="MM_Fuck_Competition":
     if a=9:
 		 if $Yuya_Event_Chain=4:$Yuya_Event_Chain=5
          '<div class="dialog_menu">'
-             '<p>……?！<<$SSYY.name>>Passing by with a mobile phone outside the door…</p>'
+             '<p>……?!<<$SSYY.name>>Passing by with a mobile phone outside the door…</p>'
              '<p><<$SSYY.name>>: Interesting...is it brother and sister incest?Now I can be anti-customer-oriented…</p>'
          '</div>'
     end

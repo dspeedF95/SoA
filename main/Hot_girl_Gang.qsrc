@@ -190,7 +190,7 @@ if $args[0]="What to drink":
 			'<p>I:....</p>'
 			'<p><<$EDM.name>>:Wait a moment, if you are worried about the sweetness and foaming resistance of black tea, it is recommended to use95℃ high temperature water, this is the most suitable temperature for black tea~(Be shocked by my erudition!Whoohoohoohoohoohoohoohoo~）</p>'
 			'<p>I:....</p>'
-			'<p><<$EDM.name>>:Hey?！Since ancient times, it has been taboo to make tea old and tender!Sit down for me!(Ah ah ah ah, could it be that I cooked too slowly and he was impatient?）</p>'
+			'<p><<$EDM.name>>:Hey?!Since ancient times, it has been taboo to make tea old and tender!Sit down for me!(Ah ah ah ah, could it be that I cooked too slowly and he was impatient?）</p>'
 			'<p>I:....Ten minutes later.</p>'
 			'<p><<$EDM.name>>:Okay, it`s all done, please use it slowly!*Whoohoohoohoohoohoohoohoo~</p>'
 		end
@@ -206,7 +206,7 @@ if $args[0]="What to drink":
 		if $EDMdialogue=3:
 			'<p><<$EDM.name>>:Orange soda?Only children and melodrama<Conan and Kyle>Rikel loves to drink orange soda!Do you actually want to try this?The iced taste is like licking the rust with your tongue in winter!</p>'
 			'<p>I:Do you like to drink too?*---------Open the can.</p>'
-			'<p><<$EDM.name>>:Huh?！This kind of cheap, easy-to-obtain drink, as well as the rapid release of serotonin caused by high sugar and carbon dioxide, is just an emotional symbol that resonates strongly with the majority of young consumers.(How could I like this kind of thing?）</p>'
+			'<p><<$EDM.name>>:Huh?!This kind of cheap, easy-to-obtain drink, as well as the rapid release of serotonin caused by high sugar and carbon dioxide, is just an emotional symbol that resonates strongly with the majority of young consumers.(How could I like this kind of thing?）</p>'
 			'<p>I:Oh.*Ton ton ton————ε=(>ο<*)))Ah~~</p>'
 			'<p><<$EDM.name>>:*Smack your mouth————*Almost finished drinking...Let`s go!I hope this carbonated drink can corrode your teeth, as well as your bones and soul!I cut off the supply channel of orange soda. If you want to drink it, I`m the only one who has it.~Whoohoohoohoohoohoohoohoo~</p>'
 		end
@@ -235,29 +235,29 @@ if $args[0]="chat":
 	'<div class="dialog_menu">'
 		if $EDMdialogue=0:'<p><<$EDM.name>>:It`s delicious!</p>'
 		if $EDMdialogue=1:
-			'<p><<$EDM.name>>:?！！really?I am so happy!I accepted....A fart! convex(Fuck, fuck )How could I chatter with you like this, thinking dirty and dirty.Selfish and weak people make friends?</p>'
+			'<p><<$EDM.name>>:?!!really?I am so happy!I accepted....A fart! convex(Fuck, fuck )How could I chatter with you like this, thinking dirty and dirty.Selfish and weak people make friends?</p>'
 			'<p><<$EDM.name>>:If it weren`t for your help<<$YDM.name>>For the sake of getting out of prison....of course!You are also willing to do it for money!</p>'
 			'<p><<$YDM.name>>:Speaking of，<<$Protagonist`s_name>>Sir, I haven`t thanked you well yet.<<$EDM.name>>That`s the character, don`t pay attention to her.She intends to avoid this challenge!</p>'
 			'<p><<$EDM.name>>:challenge!?sister!Did you just say [challenge]?Do you think I can`t be friends with him? convex(Fuck, fuck )Whoohoohoohoohoohoohoohoo~What a joke!</p>'
 			'<p><<$YDM.name>>:I don`t believe it, you can`t do it.*u_u</p>'
 			'<p><<$EDM.name>>:Humph!We don`t just want to be friends!Still have to be....Best friend!</p>'
 			'<p><<$YDM.name>>:None of you have ever been born or died, how can you become best friends.And me and<<$Protagonist`s_name>>Have already experienced it, to some extent.He even stabbed me in the anus.*u_u</p>'
-			'<p><<$EDM.name>>:Excuse me?！?！！Have you and your sister already done that kind of thing?！Do you think I can`t poke your anus with you?good!Let`s do it too!This is fair competition!</p>'
+			'<p><<$EDM.name>>:Excuse me?!?!!Have you and your sister already done that kind of thing?!Do you think I can`t poke your anus with you?good!Let`s do it too!This is fair competition!</p>'
 			$EDM_Event_friend=1
 			end
 		if $EDMdialogue=2:
-			'<p><<$EDM.name>>:?！！?.....Why did you talk about this all of a sudden?To be honest, I am not very picky about men.If only...If you go to bed.</p>'
+			'<p><<$EDM.name>>:?!!?.....Why did you talk about this all of a sudden?To be honest, I am not very picky about men.If only...If you go to bed.</p>'
 			'<p><<$YDM.name>>:Oh?Is that so?How many men have you slept with?</p>'
 			'<p><<$EDM.name>>:sister!Ok!I like men who don`t like to be jealous, don`t like to cause trouble, and have a sense of responsibility.....There can`t be tattoos and piercings, I actually don`t like those.....If he can wear a well-ironed shirt with a coordinated coat, it will definitely attract my attention.A little muscle is also good, which will arouse my affection even more.Even if you look exactly like a child, you can have a mature heart!</p>'
 			'<p><<$EDM.name>>:Of course, the most important thing is....Perseverance and determination</p>'
 			'<p>·I found that you are looking at her with relish.</p>'
-			'<p><<$EDM.name>>:Hmm!?！?！?！I`m talking nonsense.</p>'
+			'<p><<$EDM.name>>:Hmm!?!?!?!I`m talking nonsense.</p>'
 			end
 		if $EDMdialogue=3:
 			'<p><<$EDM.name>>:When I was a child, in order to prove that I was the strongest in the Iron Lady Army, I tried to fight the leader one-on-one.The point is to try the word...I can`t even hit her at all!To make matters worse, from start to finish, she refused to fight back!I was humiliated and ashamed!After that, she touched my head and said something stupid to me.“Want to know how to beat me?”I said I thought about it!Since then, she has been training me.She has also become the goal of my struggle.</p>'
 			'<p><<$YDM.name>>:Three years ago, I finally defeated her.But at that moment, I felt....Very bad.She smiled happily.I have never seen anyone feel honored because of losing.</p>'
 			'<p>I:She is really a good teacher.</p>'
-			'<p><<$EDM.name>>:But she...But because of his opposition to the [Women`s Leadership Act] and his insistence on gender equality, he was removed from public office and arrested in accordance with the law.....It was I who defeated her with my own hands.I became the new head of the team....Training those who have no fighting spirit and no determination all day longpussy cat！</p>'
+			'<p><<$EDM.name>>:But she...But because of his opposition to the [Women`s Leadership Act] and his insistence on gender equality, he was removed from public office and arrested in accordance with the law.....It was I who defeated her with my own hands.I became the new head of the team....Training those who have no fighting spirit and no determination all day longpussy cat!</p>'
 			'<p><<$YDM.name>>:In the end, she had enough!Came to me.By the way, I am not the head of the Iron Lady Army.Don`t get me wrong.The whereabouts of the leader has been unknown since then, and there has been no news.</p>'
 			'<p><<$EDM.name>>:In order to vindicate the head of the team!We want to overthrow the government!Reshape a city of equality between men and women!This is my determination!</p>'
 			'<p><<$YDM.name>>:Ugh...In fact, my original intention in establishing the Hot Girls Gang was just to find a place to have fun.Unexpectedly, during this period of imprisonment, it was developed into an anti-government organization.Fortunately, there has been no substantial progress~</p>'
@@ -302,7 +302,7 @@ if $args[0]="Best friend Challenge":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$EDM.name>>:Socrates once said!The only way to become a best friend is.....Do bad things together!！Uh!I remember wrong...To complete the challenge together!！convex(Fuck, fuck )</p>'
+		'<p><<$EDM.name>>:Socrates once said!The only way to become a best friend is.....Do bad things together!!Uh!I remember wrong...To complete the challenge together!!convex(Fuck, fuck )</p>'
 	'</div>'
 End
 

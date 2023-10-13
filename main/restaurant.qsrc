@@ -115,7 +115,7 @@ if $ARGS[0]="Restaurant acquisition":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Chef: Didn`t you see that I was busy?！*Waved his hand</p>'
+		'<p>Chef: Didn`t you see that I was busy?!*Waved his hand</p>'
 		'<p>·——————————</p>'
 		'<p>·Shares I own：<<Restaurantshares>>%</p>'
 		if Restaurantshares>=60:'<p>·I already own more than half of the shares!<a href="exec:gt ''restaurant'',''Overhead him''">-Restore his life-overhead him!</a></p>'
@@ -156,11 +156,11 @@ if $ARGS[0]="Overhead him":
 	'<div class="dialog_menu">'
 	 if restaurantCTdialogue=0:
 		'<p><<$CT.name>>: Well done!I didn`t even need the Imperial Group to take it down.60%The shares?</p>'
-		'<p>Chef: Hey hey!What do you want to do to my restaurant?！</p>'
+		'<p>Chef: Hey hey!What do you want to do to my restaurant?!</p>'
 		'<p><<$CT.name>>: <<$Protagonist`s_name>>As the largest shareholder of a restaurant, it usually enjoys decision-making power on major matters in the restaurant.Now, you have been relieved of your position as chef.You can keep your poor shares, but I am willing to contribute ￥3,000,000Buy the one in your hand20%shares.</p>'
 		'<p>Chef: Don`t dream!</p>'
 		'<p><<$CT.name>>: ￥2,000,000, My patience is limited!</p>'
-		'<p>Chef: wait!What you just said is ￥3,000,000！</p>'
+		'<p>Chef: wait!What you just said is ￥3,000,000!</p>'
 		'<p><<$CT.name>>: Hehe, that was the price just now, now it`s only worth ￥1,000,000already.</p>'
 		'<p>Chef: Deal!Give me the money!</p>'
 	 end

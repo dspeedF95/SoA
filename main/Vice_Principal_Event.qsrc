@@ -282,7 +282,7 @@ if $args[0]="Set off for the competition":
 			 '<p><<$FXZ.name>>:Don`t be nervous..The teacher helps you relieve stress...Take a good look, some knowledge points are very obscure..</p>'
 			 '<p><<$FXZ.name>>:You have to get a good grade, and I won`t treat you badly when I become the principal.</p>'
 			 '<p>I:What is this competition system like?……<<$FXZ.name>>It seems to be used to “serving” me.</p>'
-			 '<p><<$FXZ.name>>:This competition system is to rush to answer, who will rush to complete the answer first?20Whoever wins the question will win.Don`t worry, put this in your asshole later, and the teacher will prompt you with the remote control button!！</p>'
+			 '<p><<$FXZ.name>>:This competition system is to rush to answer, who will rush to complete the answer first?20Whoever wins the question will win.Don`t worry, put this in your asshole later, and the teacher will prompt you with the remote control button!!</p>'
 			 '<p>·<<$FXZ.name>>Took out a remote control vibrating egg.</p>'
 		 '</div>'
 	end
@@ -302,7 +302,7 @@ if $args[0]="Set off for the competition":
 			 '<p>Examiner:Dear players, please listen to the question，1813In the same year, the Russian Empire, the Kingdom of Prussia, the British Empire, the Austrian Empire and other countries formed the first few times....</p>'
 			 '<p>I:Ding!Before the examiner finishes reading the question, you press the answer button.</p>'
 			 '<p>·Om-om-om-close your eyes and feel the vibration of the vibrating egg in your anus.</p>'
-		     '<p>I:Three times..chooseC！The sixth time!</p>'
+		     '<p>I:Three times..chooseC!The sixth time!</p>'
 		     '<p>Examiner:Congratulations on the correct answer!Please listen to the next question....</p>'
 		     '<p>I:Ding!</p>'
 		     '<p>Examiner:Congratulations on the correct answer!Please listen to the next question....</p>'
@@ -458,7 +458,7 @@ if $args[0]="ZJ_Fuck_Mother and daughter overnight":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p><<$FXZ.name>>:Want to sleep here...We must first obtain our consent.</p>'
-			 '<p><<$ZJ.name>>:...Mom can`t eat alone!！ </p>'
+			 '<p><<$ZJ.name>>:...Mom can`t eat alone!! </p>'
 		 '</div>'
 	end
 
@@ -610,7 +610,7 @@ if $args[0]="FXZ_Fuck_Picket line":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>Picket team member:Hey hey!Madam Vice-principal, if you sign and abandon the election for the next principal, you can retire safely.</p>'
-			 '<p><<$FXZ.name>>:Damn it!Why are you doing this?Don`t you think this is too much?！</p>'
+			 '<p><<$FXZ.name>>:Damn it!Why are you doing this?Don`t you think this is too much?!</p>'
 			 '<p>Picket team member:Don`t lose sight of the coffin and don`t shed tears. The picket team is now going to check your mouth, vagina, and anus for contraband. You have to cooperate well!</p>'
 		 '</div>'
 	end
@@ -634,7 +634,7 @@ if $args[0]="FXZ_Fuck_Picket line":
 	if a=3:
 		 '<div class="dialog_menu">'
 			 '<p><<$FXZ.name>>:...it hurts!...it hurts!The anus is like being burned by fire... don`t stick it in anymore!<<$Protagonist`s_name>>, help me! </p>'
-			 '<p>Picket team member:<<$Protagonist`s_name>>！Take a good look and learn well!</p>'
+			 '<p>Picket team member:<<$Protagonist`s_name>>!Take a good look and learn well!</p>'
 		 '</div>'
 	end
 
@@ -696,7 +696,7 @@ if $args[0]="FXZ_Fuck_office":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>I:Hey hey!Madam vice principal, your pussy sucks my fingers so tightly!</p>'
-			 '<p><<$FXZ.name>>:Don`t you like it?！<<$Panting>></p>'
+			 '<p><<$FXZ.name>>:Don`t you like it?!<<$Panting>></p>'
 		 '</div>'
 	end
 
@@ -710,7 +710,7 @@ if $args[0]="FXZ_Fuck_office":
 
 	if 6>=a and a>=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>>:…<<$Panting>>…<<$words>>！ </p>'
+			 '<p><<$FXZ.name>>:…<<$Panting>>…<<$words>>! </p>'
 		 '</div>'
 	end
 
@@ -784,7 +784,7 @@ if $args[0]="FXZ_Fuck_Principal`s Office":
 
 	if 9>=a and a>=2:
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>>:…<<$Panting>>…<<$words>>！ </p>'
+			 '<p><<$FXZ.name>>:…<<$Panting>>…<<$words>>! </p>'
 		 '</div>'
 	end
 
@@ -815,7 +815,7 @@ if $args[0]="Random home":
 	'</div>'
 
 	'<div class="dialog_menu">'
-	   '<p><<$FXZ.name>>: What are you doing?！If you want to do it, go to the room to do it too?！<<$words>></p>'
+	   '<p><<$FXZ.name>>: What are you doing?!If you want to do it, go to the room to do it too?!<<$words>></p>'
 	   if a=1:
 		   '<p><<$FXZ.name>>: Really!Your semen was fishy and thick, and it was shot in the teacher.What should I do if my daughter finds out.</p>'
 			 $FXZ.love+=3+my.charm
@@ -844,7 +844,7 @@ if $args[0]="Home visit":
 		if $JJ.bad>=150:'<p><<$JJ.name>>: He is really capable!</p>'
 		if $FXZ.bad>=150:'<p><<$FXZ.name>>：.........</p>'
 		if $JJ.bad>=200:'<p><<$JJ.name>>: I have been doing scientific research for so long, and I have never seen a man who can ejaculate better than him!</p>'
-		if $FXZ.bad>=200:'<p><<$FXZ.name>>：.........?！There is no one at home now, so why don`t you let me learn?</p>'
+		if $FXZ.bad>=200:'<p><<$FXZ.name>>：.........?!There is no one at home now, so why don`t you let me learn?</p>'
 		
 	'</div>'
 End
@@ -923,7 +923,7 @@ if $args[0]="FXZ_Fuck_Home visit":
 	if 8>=a and a>=2:
 		 '<div class="dialog_menu">'
 			 '<p><<$FXZ.name>>:…<<$Panting>>… </p>'
-			 '<p><<$JJ.name>>:<<$words>>！</p>'
+			 '<p><<$JJ.name>>:<<$words>>!</p>'
 		 '</div>'
 	end
 
@@ -938,7 +938,7 @@ if $args[0]="FXZ_Fuck_Home visit":
 	if 17>=a and a>=10:
 		 '<div class="dialog_menu">'
 			 '<p><<$FXZ.name>>:…<<$words>>… </p>'
-			 '<p><<$JJ.name>>:<<$Panting>>！</p>'
+			 '<p><<$JJ.name>>:<<$Panting>>!</p>'
 		 '</div>'
 	end
 
@@ -1022,12 +1022,12 @@ if $args[0]="FXZ_SW_Hot springA":
 	end
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>>:…<<$words>>！</p>'
+			 '<p><<$SW.name>>:…<<$words>>!</p>'
 		 '</div>'
 	end
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>>:…<<$words>>！</p>'
+			 '<p><<$SW.name>>:…<<$words>>!</p>'
 		 '</div>'
 	end
 
@@ -1097,12 +1097,12 @@ if $args[0]="FXZ_SW_Total bath":
 	end
 	if a=3:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>>:…<<$Panting>>！</p>'
+			 '<p><<$SW.name>>:…<<$Panting>>!</p>'
 		 '</div>'
 	end
 	if a=4:
 		 '<div class="dialog_menu">'
-			 '<p><<$FXZ.name>>:…<<$Panting>>！</p>'
+			 '<p><<$FXZ.name>>:…<<$Panting>>!</p>'
 		 '</div>'
 	end
 

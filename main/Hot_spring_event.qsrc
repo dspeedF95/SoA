@@ -663,10 +663,10 @@ if $args[0]="WQ_Fuck_mandatory":
 
          '<div class="dialog_menu">'
              '<p>Me: What?Don`t you like it?</p>'
-             '<p><<$WQ.name>>: Can`t you like it?！</p>'
+             '<p><<$WQ.name>>: Can`t you like it?!</p>'
              if $times_of_day!'':
              '<p>Me: Is your husband coming back tonight?</p>'
-             '<p><<$WQ.name>>: What do you want to do?！</p>'
+             '<p><<$WQ.name>>: What do you want to do?!</p>'
              '<p>Me: Sleep with you!</p>'
              '<p><<$WQ.name>>: Don`t dream, it`s too dangerous!</p>'
              end
@@ -889,7 +889,7 @@ if $args[0]="WQ_Fuck_room3":
            if a>=2:'<p><<$WQ.name>>:<<$Panting>></p>'
            if a>=3:'<p>I:You are really good at licking…</p>'
            if a>=6:'<p><<$WQ.name>>: So big<<$words>></p>'
-           if a=9:'<p>I:Shot!！！</p>'
+           if a=9:'<p>I:Shot!!!</p>'
          '</div>'
     end
 
@@ -1437,7 +1437,7 @@ if $args[0]="102room":
 
 
          '<div class="dialog_menu">'
-             '<p><<$JK.name>>: Fuck my mother hard!！！</p>'
+             '<p><<$JK.name>>: Fuck my mother hard!!!</p>'
              '<p>???: Boss... I`m dying of exhaustion…</p>'
          '</div>'
 		end
@@ -1810,7 +1810,7 @@ if $args[0]="WQ_Fuck_Home visit":
          '<div class="dialog_menu">'
              '<p><<$WQ.name>>: I`m going back!</p>'
              '<p>Me: What?Don`t you like it?Do a good job of cleaning up before leaving ❤</p>'
-             '<p><<$WQ.name>>: Huh huh?！</p>'
+             '<p><<$WQ.name>>: Huh huh?!</p>'
          '</div>'
     end
 

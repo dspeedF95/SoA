@@ -21,7 +21,7 @@ if $args[0] ='':
 	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
 	'<div class="button_menu">
 		<div class="buttonG"><a href="exec:  gt ''reward'',''Enter password''">Enter password</a></div>'
-		if DatecountJun>=2:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?！</a></div>'else'<div class="buttonGr"><a href="exec:">Where can I download it?！</a></div>'
+		if DatecountJun>=2:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?!</a></div>'else'<div class="buttonGr"><a href="exec:">Where can I download it?!</a></div>'
 		'<div class="button"><a href="exec:  gt ''Police_station''">return</a></div>
 	</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
@@ -40,7 +40,7 @@ if $args[0] ='Enter password':
 	!+++++++++++++++++++选项Option↓++++++++++++++++++++++++++++++
 	'<div class="button_menu">'
 		if $Eggcode=20230404:'<div class="buttonG"><a href="exec:  gt ''reward'',''Receive rewards''">Receive rewards</a></div>'
-		if $Eggcode!20230404:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?！</a></div>'
+		if $Eggcode!20230404:'<div class="button"><a href="exec:  gt ''reward'',''download''">Where can I download it?!</a></div>'
 	'</div>'
 	!+++++++++++++++++++对话Dialogue↓+++++++++++++++++++++++++++++++++++
 	'<div class="dialog_menu">'

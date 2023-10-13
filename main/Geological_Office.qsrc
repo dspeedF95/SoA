@@ -161,7 +161,7 @@ if $ARGS[0]="Jealous":
 		'<p> Me: It depends on which side is better for me, so I`ll go to which side first!</p>'
 		'<p><<$DZ.name>>: As good as you!</p>'
 		'<p> Me: Really?My sister treated me well, she bought me things and invited me to dinner.</p>'
-		'<p><<$DZ.name>>：@！￥！@Coincidentally, I happen to be hungry, let`s go, let`s go eat together.OS：....Hmm?....wait..Am I on the set?</p>'
+		'<p><<$DZ.name>>：@!￥!@Coincidentally, I happen to be hungry, let`s go, let`s go eat together.OS：....Hmm?....wait..Am I on the set?</p>'
 		'<p><<$DZ.name>>: Forget it, just get used to you once for the sake of being her younger brother. I still want to have a younger brother.OS: But you are still the first man who can make me a treat...</p>'
 	'</div>'
 	END
@@ -204,7 +204,7 @@ if $ARGS[0]="Weekend date":
 		'<p> Me: When are you free this week~Let`s go have a good meal together and do something by the way~</p>'
 		'<p><<$DZ.name>>：<<$Protagonist`s_name>>, Finally remembered to ask me out?I am very busy.</p>'
 		'<p> Me: Then I`ll ask<<$jj.name>>, She should be free~</p>'
-		'<p><<$DZ.name>>：<<$Protagonist`s_name>>！See you at the restaurant on weekend nights!</p>'
+		'<p><<$DZ.name>>：<<$Protagonist`s_name>>!See you at the restaurant on weekend nights!</p>'
 		$DZ.event_Restaurant_date=1
 	'</div>'
 end
@@ -223,7 +223,7 @@ if $ARGS[0]="Missing documents":
 
 	'<div class="dialog_menu">'
 		'<p> <<$DZ.name>>I`m rummaging through the closet looking for something.....</p>'
-		'<p><<$DZ.name>>：<<$Protagonist`s_name>>！！It just so happens that you can accompany me to my house. I have forgotten the documents at home.</p>'
+		'<p><<$DZ.name>>：<<$Protagonist`s_name>>!!It just so happens that you can accompany me to my house. I have forgotten the documents at home.</p>'
 	'</div>'
 end
 

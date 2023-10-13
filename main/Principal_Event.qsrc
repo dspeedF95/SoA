@@ -393,9 +393,9 @@ if $args[0]="XZ_Fuck_Empty_classroomA":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p>???:Hey hey... won`t anyone be there?！！</p>'
+			 '<p>???:Hey hey... won`t anyone be there?!!</p>'
 			 '<p><<$XZ.name>>:Huh!</p>'
-			 '<p>???:Ah!<<$XZ.name>>！！</p>'
+			 '<p>???:Ah!<<$XZ.name>>!!</p>'
 		 '</div>'
 	end
 
@@ -403,7 +403,7 @@ if $args[0]="XZ_Fuck_Empty_classroomA":
 		 '<div class="dialog_menu">'
 			 '<p>???:<<$XZ.name>>, why are you here?</p>'
 			 '<p><<$XZ.name>>:Don`t come over!Answer me!What are you doing here?Did you skip school?</p>'
-			 '<p>???:Ah ah ah!<<$XZ.name>>, No, we, we are in the wrong classroom!！</p>'
+			 '<p>???:Ah ah ah!<<$XZ.name>>, No, we, we are in the wrong classroom!!</p>'
 			 '<p><<$XZ.name>>:Don`t go yet!Do you want to eat breakfast?</p>'
 		 '</div>'
 	end
@@ -562,7 +562,7 @@ if $args[0]="XZ_Fuck_officeA":
 	if a=0:
 		 '<div class="dialog_menu">'
 			 '<p>I:It`s so sexy, I`ve been wanting to suck my dick for a long time.</p>'
-			 '<p><<$XZ.name>>:...whoops?！... you are getting bolder and bolder... without my consent……</p>'
+			 '<p><<$XZ.name>>:...whoops?!... you are getting bolder and bolder... without my consent……</p>'
 			 '<p>I:If you don`t agree, I will make the photos you showed public?</p>'
 		 '</div>'
 	end
@@ -570,7 +570,7 @@ if $args[0]="XZ_Fuck_officeA":
 
 	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
-			 '<p>I:If you want me to shoot it out, the principal has to cooperate with me?！</p>'
+			 '<p>I:If you want me to shoot it out, the principal has to cooperate with me?!</p>'
 			 '<p><<$XZ.name>>:…<<$Panting>>...I...didn`t I cooperate with you?You bastard…<<$Panting>></p>'
 		 '</div>'
 	end
@@ -662,7 +662,7 @@ if $args[0]="XZ_Fuck_officeB":
 
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p>I:Hey hey hey, how can I be satisfied without shooting in your mouth?！Hurry up and lick me hard with your tongue!</p>'
+			 '<p>I:Hey hey hey, how can I be satisfied without shooting in your mouth?!Hurry up and lick me hard with your tongue!</p>'
 			 '<p><<$XZ.name>>:...woo...woo……</p>'
 		 '</div>'
 	end
@@ -859,7 +859,7 @@ if $args[0]="XZ_Fuck_FXZ":
 		 '<div class="dialog_menu">'
 			 '<p><<$FXZ.name>>:As the head of a school... the principal should attach great importance to the construction of the school`s spiritual civilization and lead the creation of a civilized school... But I have always felt that<<$XZ.name>>The dedication to the school is insufficient.</p>'
 			 '<p>I:Dedication...?</p>'
-			 '<p><<$FXZ.name>>:That`s right!I am willing to make any sacrifices for the post of principal!With this awareness, I can be with<<$Protagonist`s_name>>Have sex, can you do it?！</p>'
+			 '<p><<$FXZ.name>>:That`s right!I am willing to make any sacrifices for the post of principal!With this awareness, I can be with<<$Protagonist`s_name>>Have sex, can you do it?!</p>'
 		 '</div>'
 	end
 

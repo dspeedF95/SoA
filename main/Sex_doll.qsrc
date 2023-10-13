@@ -112,7 +112,7 @@ End
 		'<p>✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩</p>'
 		'<p>✦✩㊛ <<$c1show>>¹  ㊝ <<$c2show>>²  ㊛ <<$c3show>>³  ㊝ <<$c4show>>⁴ ㊛ <<$c5show>>⁵ ㊝<<$c6show>>⁶ ㊛ <<$c7show>>⁷ ㊝ <<$c8show>>⁸ ㊛ <<$c9show>>⁹ ㊝ <<$c10show>>¹⁰</$LB <<$c11show>>¹ ㊕ <<$c12show>>² ㊕ <<$c13show>>³ ㊕ <<$c14show>>⁴ ㊕ <<$c15show>>⁵ ✧✩</p>'
 		'<p>✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧✩✦✧</p>'
-		if Setprintingiscomplete=1:'<p>·Madam boss: Unbelievable!You actually finished it?！</p>'
+		if Setprintingiscomplete=1:'<p>·Madam boss: Unbelievable!You actually finished it?!</p>'
 	'</div>'
 End
 

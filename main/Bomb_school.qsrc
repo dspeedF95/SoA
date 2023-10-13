@@ -86,7 +86,7 @@ if $ARGS[0]="Equipment room":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>[Campus radio]: Shhh, keep your voice down, do you hear me?Could it be that this bomb is inside?！I remember!This is where we happened for the first time…</p>'
+		'<p>[Campus radio]: Shhh, keep your voice down, do you hear me?Could it be that this bomb is inside?!I remember!This is where we happened for the first time…</p>'
 		'<p>I: Damn bastard!</p>'
 	'</div>'
 end
@@ -279,7 +279,7 @@ if $ARGS[0]="Defuse the bomb2":
 		'<p>I: Let us go soon…</p>'
 		'<p>Jerome: Let you go?I didn`t imprison you again. The door of the school will automatically open at dawn. Have you been deceived by me?Hee hee hee!</p>'
 		'<p><<$TS.name>>: Qingshui Jun...I…</p>'
-		'<p>Jerome: Oh?！Oops!If I don`t go back, I will be discovered, my angel!Don`t feel sorry for me!Hahahahaha Ahhahahahahahahahahahahahahahaha!Let`s see you next time, my angel!</p>'
+		'<p>Jerome: Oh?!Oops!If I don`t go back, I will be discovered, my angel!Don`t feel sorry for me!Hahahahaha Ahhahahahahahahahahahahahahahaha!Let`s see you next time, my angel!</p>'
 	'</div>'
 
 end

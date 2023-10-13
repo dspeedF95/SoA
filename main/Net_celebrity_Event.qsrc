@@ -286,7 +286,7 @@ if $args[0]="Before meeting boyfriend":
     if a=2 :
          '<div class="dialog_menu">'
              '<p>Xiao Kongyi: I... I actually like you all the time!Please associate with me!</p>'
-             '<p><<$WH.name>>:Eh?！So suddenly... how much deposit do you have?</p>'
+             '<p><<$WH.name>>:Eh?!So suddenly... how much deposit do you have?</p>'
              '<p>Xiaokongyi: The team only sent less than20Ten thousand salary…</p>'
          '</div>'
     end
@@ -319,7 +319,7 @@ if $args[0]="Knock on the door":
 		'<p>Xiaokongyi:Uh... this is……</p>'
 		'<p><<$WH.name>>:I`m an Internet celebrity now, and I have a male assistant. Is it normal for a photographer?</p>'
 		'<p>Xiaokongyi:I understand, but is it weird to shoot at home?</p>'
-		'<p><<$WH.name>>:What`s weird?Otherwise, you rent a venue for me to shoot?！</p>'
+		'<p><<$WH.name>>:What`s weird?Otherwise, you rent a venue for me to shoot?!</p>'
 		'<p>I:………</p>'
 	'</div>'
 End
@@ -447,7 +447,7 @@ if $args[0]="WH_Fuck_football":
              '<p>Xiao Kongyi: Then what sports are you good at?</p>'
              '<p>Me: Uh... hard to say.</p>'
              '<p>Xiao Kongyi: Huh, a pussy.</p>'
-             '<p>Me: What did you say?！</p>'
+             '<p>Me: What did you say?!</p>'
              '<p><<$WH.name>>: Oh, what are you competing with him for?Ignore him, let`s go❤</p>'
          '</div>'
     end

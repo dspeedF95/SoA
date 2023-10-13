@@ -58,7 +58,7 @@ if $args[0]="pressure":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>reporterA: May I ask you, “Who is Messi?"”Don`t you make a public apology for your remarks?！</p>'
+		'<p>reporterA: May I ask you, “Who is Messi?"”Don`t you make a public apology for your remarks?!</p>'
 		'<p><<$QB.name>>: Ah...yes...sorry!</p>'
 		'<p>reporterB: As far as the current vote ranking is concerned, who do you think is most likely to win the championship?</p>'
 		'<p>reporterC: The convenience store manager who worked part-time before broke the news that you had a plastic surgery. Is this true?</p>'
@@ -237,7 +237,7 @@ if $args[0]="QB_Fuck_ask":
          '<div class="dialog_menu">'
              '<p><<$QB.name>>: Agent... what`s wrong…</p>'
              '<p>I:Where did this come from?</p>'
-             '<p><<$QB.name>>: …...are you going through my stuff?！This is...me…</p>'
+             '<p><<$QB.name>>: …...are you going through my stuff?!This is...me…</p>'
              '<p>I: No, I bought this.</p>'
              '<p><<$QB.name>>: ……………………</p>'
          '</div>'
@@ -1005,7 +1005,7 @@ if $args[0]="QB_Fuck_Massage advertising":
 
     if 10>=a and a>=4:
          '<div class="dialog_menu">'
-             if a=4:'<p><<$QB.name>>: Why is the venue cleared?Ah!！So intense... sprayed ah ah ah!</p>'
+             if a=4:'<p><<$QB.name>>: Why is the venue cleared?Ah!!So intense... sprayed ah ah ah!</p>'
              if a>=5:'<p>I: I want to fuck you when I feel it all of a sudden, can`t you help it?</p>'
              if a>=6:'<p><<$QB.name>>: <<$Panting>></p>'
              if a>=7:'<p><<$QB.name>>: <<$words2>></p>'
@@ -1050,7 +1050,7 @@ if $args[0]="Selection of jobs":
 
 
          '<div class="dialog_menu">'
-             '<p><<$SSYY.name>>: After winning the championship, there are so many job invitations?！</p>'
+             '<p><<$SSYY.name>>: After winning the championship, there are so many job invitations?!</p>'
              '<p>I: Let me see…</p>'
          '</div>'
 

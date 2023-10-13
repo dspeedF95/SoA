@@ -119,7 +119,7 @@ if $args[0]="Handling complaints":
 	'<div class="dialog_menu">'
 		'<p><<$XZ.name>>: Recently, there are rumors that female students in our school are engaged in illegal foreign aid activities. This is a video I recently received.</p>'
 		'<p>Me: From the picture... it really looks like a student in our school.</p>'
-		'<p><<$XZ.name>>: What does it look like?！Restraint training?This is a naked provocation to the supremacy of female leadership!Absolutely put an end to this situation!</p>'
+		'<p><<$XZ.name>>: What does it look like?!Restraint training?This is a naked provocation to the supremacy of female leadership!Absolutely put an end to this situation!</p>'
 		if $XZ_Event_ZL=0:$XZ_Event_ZL=1
 	'</div>'
 End
@@ -157,7 +157,7 @@ if $args[0]="Theft complaint":
 		'<p>Me: Theft?Why don`t you just call the police?</p>'
 		'<p><<$XZ.name>>: Owned by all female residents10Immunity from minor crimes is applicable to minor crimes, including but not limited to: abuse, abuse, imprisonment, and intentional injury against men.Obviously you haven`t listened to my class seriously!</p>'
 		'<p>Me: Then I`ll go to the mall to find her. Her name is<<$LJ.name>>Right, she actually used her real name to make a social account?</p>'
-		'<p><<$XZ.name>>: What does it look like?！stealing?below2000Just can`t take it directly!This is a naked provocation to the supremacy of female leadership!Absolutely put an end to this situation!</p>'
+		'<p><<$XZ.name>>: What does it look like?!stealing?below2000Just can`t take it directly!This is a naked provocation to the supremacy of female leadership!Absolutely put an end to this situation!</p>'
 		if $LJ_Event_Steal=1:$LJ_Event_Steal=2
 		$LJ.available=1
 	'</div>'
@@ -194,9 +194,9 @@ if $args[0]="File a complaint":
 
 	'<div class="dialog_menu">'
 		'<p>Me: Master Principal, you must be able to recognize the person in the photo.</p>'
-		'<p><<$XZ.name>>: You?！What do you want to do?！</p>'
+		'<p><<$XZ.name>>: You?!What do you want to do?!</p>'
 		'<p>Me: Master Principal, if you make the photos of you masturbating naked in the school hallway public, then I am afraid there is no place for you on this campus!</p>'
-		'<p><<$XZ.name>>: You?！What do you want?</p>'
+		'<p><<$XZ.name>>: You?!What do you want?</p>'
 		'<p>Me: I want to taste it, the fishy smell in the middle of the night.</p>'
 		if  $XZ_Event_ghost.completed=1: $XZ_Event_ghost.completed=2
 	'</div>'

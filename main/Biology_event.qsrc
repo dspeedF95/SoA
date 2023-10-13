@@ -30,7 +30,7 @@ if $args[0]="Meet in the restaurant":
 
 		if a=0:
 		'<div class="dialog_menu">'
-			'<p><<$SW.name>>: Let me tell you, it was an accident last time!accident!！I won`t miss it this time!All right!Stop talking!See how my mother tied him up!</p>'
+			'<p><<$SW.name>>: Let me tell you, it was an accident last time!accident!!I won`t miss it this time!All right!Stop talking!See how my mother tied him up!</p>'
 			'<p>Waiter: Sir, what would you like?</p>'
 		'</div>'
 	end
@@ -250,7 +250,7 @@ if $args[0]="SW_Fuck_hotel":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p><<$SW.name>>:What the teacher wants to ask you is: please freely insert my bitch pussy and play with me as a sex product!！</p>'
+			 '<p><<$SW.name>>:What the teacher wants to ask you is: please freely insert my bitch pussy and play with me as a sex product!!</p>'
 		 '</div>'
 	end
 	if 7>=a and a>=1:
@@ -394,7 +394,7 @@ if $args[0]="SW_Fuck_Overtime":
 		 $SW.bad+=q
 		 '<div class="dialog_menu">'
 			 '<p><<$SW.name>>:<<$Panting>>...Okay, if I continue to do it, I will work overtime until dawn!Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
-			 '<p><<$SW.name>>:Oh?！Is it her?Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
+			 '<p><<$SW.name>>:Oh?!Is it her?Big night...Why is she here....Forget it, it doesn`t matter if she sees it...</p>'
 		 '</div>'
 	end
 

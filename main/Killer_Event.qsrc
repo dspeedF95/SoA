@@ -87,7 +87,7 @@ if $args[0]="SS_Event_bar":
 
 		 if a=9:
 		 	'<p>·A limo has been parked at the door.</p>'
-		 	'<p>I:This person should be a scout!I have to write down the license plate number!The license plate number is…IPZ-905，IPZ-905，IPZ-905！</p>'
+		 	'<p>I:This person should be a scout!I have to write down the license plate number!The license plate number is…IPZ-905，IPZ-905，IPZ-905!</p>'
 		 	$JZ_Event_rape=10
 		 end
 	 '</div>'
@@ -116,7 +116,7 @@ if $args[0]="SS_Event_End of bar":
 		 if a=9:
 		 	'<p><<$SS.name>>:…...thank you.</p>'
 		 	'<p>·When she arrived at the door, her phone rang just in time, and after a while a limo picked her up.</p>'
-		 	'<p>I:This person should be a scout!I have to write down the license plate number!The license plate number is…IPZ-905，IPZ-905，IPZ-905！</p>'
+		 	'<p>I:This person should be a scout!I have to write down the license plate number!The license plate number is…IPZ-905，IPZ-905，IPZ-905!</p>'
 		 	$JZ_Event_rape=10
 		 end
 	 '</div>'
@@ -144,9 +144,9 @@ if $args[0]="SS_Event_License plate":
 	 '<div class="dialog_menu">'
 		 if a=0:
  		 	'<p>·wo:Does the bar provide parking service?"</p>'
- 		 	'<p>·Bartender:What?Excuse me?betting?Gaming services?！Gaming is not our main business!</p>'
+ 		 	'<p>·Bartender:What?Excuse me?betting?Gaming services?!Gaming is not our main business!</p>'
  		 	'<p>·wo:I mean parking!Parking!</p>'
- 		 	'<p>·Bartender:What?Excuse me?Pack to eat?How can I pack food?！We are all clearly priced!</p>'
+ 		 	'<p>·Bartender:What?Excuse me?Pack to eat?How can I pack food?!We are all clearly priced!</p>'
  		 	'<p>·wo:Forget it, go ahead.</p>'
  		 	'<p>·Bartender:Ok~Remember to ring the bell if you need to place an order.</p>'
 		 end
@@ -378,7 +378,7 @@ if $args[0]="SS_Event_stealing":
 			 '<p>·You are deeply attracted to her ketone body.</p>'
 			 '<p>I:...uh...uh…(⊙o⊙)....</p>'
 			 '<p><<$SS.name>>:Ah, are you distracted!Don`t move!You men really eat this set....</p>'
-			 '<p>I:..#?！@@！Hey hey!....</p>'
+			 '<p>I:..#?!@@!Hey hey!....</p>'
 		 '</div>'
 	end
 	if a=3:
@@ -463,7 +463,7 @@ if $args[0]="SS_Event_interrogation":
 
 	if a=2:
 		 '<div class="dialog_menu">'
-			 '<p>Me: What is the truth about the bombing?！Did you lead me over on purpose?</p>'
+			 '<p>Me: What is the truth about the bombing?!Did you lead me over on purpose?</p>'
 			 '<p><<$SS.name>>: In vain, I used a wine glass to get your fingerprints. You didn`t become the "assailant” and were blown up....Fortunately, the backup plan has taken effect..</p>'
 			 '<p>Me: What backup plan?</p>'
 			 '<p><<$SS.name>>: The torture here is really watery. It`s just an important witness to the plan to dispose of a few slag and stumbling blocks with the fire after the explosion.</p>'
@@ -613,7 +613,7 @@ if $args[0]="SS_Fuck_hotel":
 
 		if a=-1:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>>:Digging dolls is so dangerous!My marksmanship is not bad, right?！A normal rifle shouldn`t have such a large bullet capacity....</p>'
+			 '<p><<$SS.name>>:Digging dolls is so dangerous!My marksmanship is not bad, right?!A normal rifle shouldn`t have such a large bullet capacity....</p>'
 			 '<p>I:I think you just want to play, right?</p>'
 			 '<p><<$SS.name>>:I want you to take care of it!</p>'
 			 $SS.love+=my.charm
@@ -707,7 +707,7 @@ if $args[0]="SS_Event_love":
 
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>>：...?！Why did you still open the door? What if someone passes by and hears it?！</p>'
+			 '<p><<$SS.name>>：...?!Why did you still open the door? What if someone passes by and hears it?!</p>'
 			 '<p>Me: You are not afraid of killing people, are you still afraid of this?</p>'
 		 '</div>'
 	end
@@ -789,7 +789,7 @@ if $args[0]="SS_Fuck_Sperm donation":
 
 	if a=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$SS.name>>：?！Why did you shoot so much? It seems that you have accumulated a lot!</p>'
+			 '<p><<$SS.name>>：?!Why did you shoot so much? It seems that you have accumulated a lot!</p>'
 		 '</div>'
 	end
 
@@ -930,7 +930,7 @@ if $args[0]="SS_Event_hospital2":
 	end
 	if a=6:
 		 '<div class="dialog_menu">'
-			 '<p>Jingyuan Project Director: Very good!After that, I will take you to a group meeting with several people in charge of the Jingyuan project!！</p>'
+			 '<p>Jingyuan Project Director: Very good!After that, I will take you to a group meeting with several people in charge of the Jingyuan project!!</p>'
 			 '<p><<$SS.name>>: Director, you are so kind.</p>'
 			 $SS_Event_free=3
 		 '</div>'
@@ -981,7 +981,7 @@ if $args[0]="SS_Event_hospital3":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 if medicine!1 and  $PeepingSSexperiment!1:'<p><<$SS.name>>: You go back first, I have a group meeting with several people in charge of the Jingyuan project!！</p>'
+			 if medicine!1 and  $PeepingSSexperiment!1:'<p><<$SS.name>>: You go back first, I have a group meeting with several people in charge of the Jingyuan project!!</p>'
 			 '<p>I：.........</p>'
 			 '<p>Jingyuan Project director: What a show, I lied to your husband to have a group meeting, it was actually group sex!Haha!</p>'
 			 if Cantakeoxidationequipment=1:'<p>【Antioxidant equipment】<a href="exec:Antioxidantequipment=1 & a=1 & gt ''Killer_Event'',''SS_Event_hospital3''">-Quietly take it away</a></p>'

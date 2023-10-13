@@ -54,7 +54,7 @@ if $args[0]="Frowning2":
 		'<p>Me: (It happens to be the time when the teacher is going to class) So what is the prize?</p>'
 		'<p><<$XY.name>>: It is the purchase qualification for the latest bag.</p>'
 		'<p>Me: Does it mean that even if you win the lottery, you still have to spend money to buy it?</p>'
-		'<p><<$XY.name>>: What do you know (white eyes) The starting price is very cheap!But the limited edition can change hands at a premium50%！！</p>'
+		'<p><<$XY.name>>: What do you know (white eyes) The starting price is very cheap!But the limited edition can change hands at a premium50%!!</p>'
 	'</div>'
 End
 
@@ -138,7 +138,7 @@ if $args[0]="XY_Fuck_Take advantage":
 	if a=1:
 		 '<div class="dialog_menu">'
 			 '<p>I:<<$XY.name>>, You don`t seem to be very happy. Think about it. It`s a limited edition bag.</p>'
-			 '<p><<$XY.name>>:Huh?！I hope you keep your promise, for the sake of the bag, I`ll give it to you5Minutes!</p>'
+			 '<p><<$XY.name>>:Huh?!I hope you keep your promise, for the sake of the bag, I`ll give it to you5Minutes!</p>'
 		 '</div>'
 	end
 

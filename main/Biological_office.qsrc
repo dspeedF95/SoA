@@ -74,7 +74,7 @@ if $args[0]="dialogue":
 	 if swdh=3:
 		'<p>Me: What type of man does the teacher like?</p>'
 		'<p><<$SW.name>>: Man?I like young people, sweet mouths, big dicks, and good skills.</p>'
-		'<p>Me: Is it so direct?！</p>'
+		'<p>Me: Is it so direct?!</p>'
 		'<p><<$SW.name>>: Teacher, what about me, I can`t walk as soon as I see a handsome guy.</p>'
 	 end
 	'</div>'
@@ -92,7 +92,7 @@ if $args[0]="Sex photos":
 
 	'<div class="dialog_menu">'
 		'<p>·You played the image from the camera to her and took a look.</p>'
-		'<p><<$SW.name>>: You?！?！?Where did you get it?</p>'
+		'<p><<$SW.name>>: You?!?!?Where did you get it?</p>'
 		'<p>Me: Shhh-as long as you listen to me, I will tell you.</p>'
 	'</div>'
 End

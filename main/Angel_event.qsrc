@@ -25,7 +25,7 @@ if $args[0]="Big villa.":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p><<$PW.name>>: What the hell... did you do?！How could the champion be you!</p>'
+		'<p><<$PW.name>>: What the hell... did you do?!How could the champion be you!</p>'
 		'<p><<$TS.name>>: With all due respect, I have no comment, this is now the property of the Empire Group!Please leave.</p>'
 		'<p><<$PW.name>>: Damn it!Do you know how much debt I have now?</p>'
 		'<p><<$TS.name>>: I repeat it again!This is now the property of the Empire Group!Please leave!</p>'
@@ -45,8 +45,8 @@ if $args[0]="Big villa2":
 	'<div class="dialog_menu">'
 		'<p><<$TS.name>>: This idol competition was a great success. It was decided to use this villa as the idol training base of [Empire Entertainment], and you will be the chief person in charge of the base.</p>'
 		'<p>I: The person in charge?That`s great!</p>'
-		'<p><<$TS.name>>: This is<<$SSYY.name>>！Heard her being<<$PW.name>>We signed her as soon as we heard the news of the listing and sale.</p>'
-		'<p><<$SSYY.name>>: halo！<<$Protagonist`s_name>>, We meet again!*She deliberately squeezed out her cleavage.</p>'
+		'<p><<$TS.name>>: This is<<$SSYY.name>>!Heard her being<<$PW.name>>We signed her as soon as we heard the news of the listing and sale.</p>'
+		'<p><<$SSYY.name>>: halo!<<$Protagonist`s_name>>, We meet again!*She deliberately squeezed out her cleavage.</p>'
 		'<p><<$TS.name>>: You seem to be quite familiar... Then I won`t introduce much. This is the key. You have contributed a lot this time. Let`s have dinner together another day.</p>'
 		'<p><<$TS.name>>: That`s right，BOSSSpecifically explained, before she returned home，<B><span class =''red''>Never destroy the walls.</p>'
 	'</div>'
@@ -307,7 +307,7 @@ if $args[0]="Feed the cat together":
 		
 		if a=2:
 		'<p>I: Who is this weirdo?</p>'
-		'<p><<$TS.name>>: What?！Qingshui Jun?！Why are you here?！Didn`t you get taken away by a mental hospital?</p>'
+		'<p><<$TS.name>>: What?!Qingshui Jun?!Why are you here?!Didn`t you get taken away by a mental hospital?</p>'
 		'<p>???: My angel!I`m not crazy!Do you remember how much I love you?</p>'
 		'<p><<$TS.name>>: Shimizu Jun... you need treatment…</p>'
 		'<p>Jerome: Qingshui Jun is dead!This is...Jerome!</p>'
@@ -329,11 +329,11 @@ if $args[0]="Game on":
 	'</div>'
 
 	'<div class="dialog_menu">'
-		'<p>Jerome: I have a small question for you: how much do you love the world and the people around you?！</p>'
+		'<p>Jerome: I have a small question for you: how much do you love the world and the people around you?!</p>'
 		'<p><<$TS.name>>: Let me go!</p>'
-		'<p>I: Damn it!What exactly are you going to do?！</p>'
+		'<p>I: Damn it!What exactly are you going to do?!</p>'
 		'<p>Jerome: You need to dismantle the bomb before dawn, otherwise you will be at your own risk.But be aware that this is not an easy task.This bomb is not an ordinary bomb, it has many organs and traps.If you want to dismantle it within a limited time, you need to search around the school to find hidden clues and hints.Only in this way can you dismantle the bomb and rescue everyone.</p>'
-		'<p>I: Are you sick?！</p>'
+		'<p>I: Are you sick?!</p>'
 		'<p>Jerome: My friend, are you ready to meet the challenge?Time is running out, you need to act right away.Don`t forget, if you fail, the consequences will be unimaginable.I will be watching you from the side, Hehehehe!</p>'
 	'</div>'
 End
@@ -459,21 +459,21 @@ if $args[0]="TS_Fuck_Video1":
              if a=0:'<p>???:Hey hey!You get out of here!</p>'
              if a=0:'<p><<$TS.name>>:Qingshui Jun... save me……</p>'
              '<p>Shimizu Jun:You... stop it!I have recorded the evidence of your crime!</p>' 
-             if a>=1:'<p>???:Your girlfriend likes big ones, right?！You can`t satisfy her at all!I saw it all!She didn`t feel it at all!</p>'
+             if a>=1:'<p>???:Your girlfriend likes big ones, right?!You can`t satisfy her at all!I saw it all!She didn`t feel it at all!</p>'
              if a=2:'<p><<$TS.name>>:Qingshui Jun... don`t look at me…</p>'
              if a=3:'<p>???:Hey hey!You cooperate with me!Otherwise, I don`t want to intervene in you!</p>'
              if a>=4:'<p><<$TS.name>>:Ah<<$Panting>></p>' 
              if a>=5:'<p>Shimizu Jun:Ah ah ah ah ah!I fight with you……</p>' 
-             if a>=6:'<p>???:You`d better get to know each other. Look at your woman`s appearance. Is she worth a beating?！</p>'
+             if a>=6:'<p>???:You`d better get to know each other. Look at your woman`s appearance. Is she worth a beating?!</p>'
              if a>=7:'<p>Shimizu Jun:…………</p>' 
          '</div>'
     end
 
     if a=9:
          '<div class="dialog_menu">'
-             '<p>???:Get out of here!I have a few more rounds to fuck her!Do you hear me?！</p>'
+             '<p>???:Get out of here!I have a few more rounds to fuck her!Do you hear me?!</p>'
              '<p>Shimizu Jun:…………</p>' 
-             '<p>???:Do you want to be beaten?！</p>'
+             '<p>???:Do you want to be beaten?!</p>'
              '<p>·The sound of closing the door</p>' 
          '</div>'
     end
@@ -517,18 +517,18 @@ if $args[0]="TS_Fuck_Video2":
 
     if 6>=a and a>=0:
          '<div class="dialog_menu">'
-             if a=0:'<p>Former principal:I heard you want to start an idol club?！</p>'
+             if a=0:'<p>Former principal:I heard you want to start an idol club?!</p>'
              if a=0:'<p><<$TS.name>>:Yes...it`s my dream to be an idol…</p>'
              if a=0:'<p>Vice Principal:Is the student`s vocation to study?Don`t forget!</p>'
              if a=0:'<p><<$TS.name>>:I haven`t forgotten, but if the school can add one…</p>'
-             if a=1:'<p>Vice Principal:Haven`t forgotten?！Stop lying!I`ve heard all about it, are you in puppy love?Answer me!</p>'
+             if a=1:'<p>Vice Principal:Haven`t forgotten?!Stop lying!I`ve heard all about it, are you in puppy love?Answer me!</p>'
              if a=1:'<p>Shimizu Jun:You... don`t embarrass her!</p>'
              if a=2:'<p>Vice Principal:you are…CIs it clear water in the class?What are you doing here!</p>'
              if a=2:'<p>Shimizu Jun:You... don`t embarrass her!</p>'
              if a=3:'<p>Former principal:Why do you speak for her, what kind of person she is, do you know very well?</p>'
              if a=3:'<p>Shimizu Jun:I...i……</p>'
              if a>=4:'<p>Former principal:Take a good look at me!Aha!Sure enough, it`s the same as the physical education teacher said!</p>'
-             if a>=5:'<p>Vice Principal:It turns out that it was you he hooked up with recently?！I heard you like big ones!</p>'
+             if a>=5:'<p>Vice Principal:It turns out that it was you he hooked up with recently?!I heard you like big ones!</p>'
              if a>=6:'<p>Former principal:Come on, tell it to your boyfriend!If your boyfriend has no opinion, I will agree to add an idol club!</p>'
              if a>=6:'<p><<$TS.name>>:Qingshui Jun, please let the principal satisfy me with his big cock!</p>'
              if a>=6:'<p>Shimizu Jun:But...ah!But...but…</p>' 
@@ -588,7 +588,7 @@ if $args[0]="TS_Fuck_Video3":
 
     if 8>=a and a>=0:
          '<div class="dialog_menu">'
-             '<p>???:The leader is here?！Is the camera hidden?Tomorrow I will secretly stuff it into Qingshui Jun`s school bag!</p>'
+             '<p>???:The leader is here?!Is the camera hidden?Tomorrow I will secretly stuff it into Qingshui Jun`s school bag!</p>'
              '<p><<$TS.name>>:My members... today is the day to pay the club`s funds again.</p>'
              '<p>???:Don`t worry, Master Leader, the richest person in the whole school is us in the photography department!</p>'
              if a>=1:'<p><<$TS.name>>:Then let`s get started…</p>'
@@ -1034,7 +1034,7 @@ if $args[0]="TS_Fuck_Strong medicine":
              if a>=2:'<p><<$TS.name>>:<<$Panting>></p>'
              if a=3:'<p>I:Your pussy is so tight, my fingers are completely wrapped in you!</p>'
              if a>=4:'<p><<$TS.name>>:<<$words>></p>'
-             if a=5 or a=7 or a=9:'<p><<$TS.name>>:Huh----ah ah ah ah ah ah!！！</p>'
+             if a=5 or a=7 or a=9:'<p><<$TS.name>>:Huh----ah ah ah ah ah ah!!!</p>'
 
          '</div>'
     end
@@ -1358,7 +1358,7 @@ if $args[0]="TS_Fuck_Full staff":
              if a=4:'<p><<$TS.name>>:<<$Panting>></p>'
              if a=5:'<p><<$SF.name>>:<<$words>></p>'
              if a=6:'<p><<$SSYY.name>>:<<$words2>></p>'
-             if a=7:'<p>I:Shot----ah ah ah ah ah!！！</p>'
+             if a=7:'<p>I:Shot----ah ah ah ah ah!!!</p>'
 
          '</div>'
     end
@@ -1526,7 +1526,7 @@ if $args[0]="TS_Fuck_TSM1":
              if a>=7:'<p><<$MM.name>>:<<$words2>></p>'
              if a>=8:'<p><<$TS.name>>:<<$words>></p>'
              if a=11:'<p>I:Brother, I`m going to work hard!You fucking sister, bear with me!</p>'
-             if a=12:'<p><<$MM.name>>:Ah ah ah<$Panting>>It`s not working anymore!！</p>'
+             if a=12:'<p><<$MM.name>>:Ah ah ah<$Panting>>It`s not working anymore!!</p>'
              if a=13:'<p>I:Shot--!</p>'
          '</div>'
     end
@@ -1616,7 +1616,7 @@ if $args[0]="TS_Fuck_TSM2":
              '<p><<$TS.name>>:<<$Panting2>></p>'
              if a>=2:'<p><<$MM.name>>:<<$words2>></p>'
              if a>=8:'<p><<$TS.name>>:<<$words>></p>'
-             if a=11 or a=5:'<p>I:Huh----ah ah ah ah ah ah!！！</p>'
+             if a=11 or a=5:'<p>I:Huh----ah ah ah ah ah ah!!!</p>'
          '</div>'
     end
 
@@ -1678,7 +1678,7 @@ if $args[0]="TS_Fuck_Big group":
              if a=4:'<p><<$TS.name>>:<<$Protagonist`s_name>>, If you have any comments, just let me know.</p>'
              if a=6:'<p><<$QB.name>>:<<$Protagonists_surname>> Agent, when are you free?Come to my room tonight.</p>'
              if a=8:'<p><<$MM.name>>:Stupid brother!Only you are allowed to see me!</p>'
-             if a>8:'<p>I:Why are you the only one?！</p>'
+             if a>8:'<p>I:Why are you the only one?!</p>'
              if a>8:'<p><<$SSYY.name>>:I don`t want to bring a drag bottle, you also know my abilities!</p>'
          '</div>'
     end

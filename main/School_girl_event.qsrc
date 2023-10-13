@@ -33,7 +33,7 @@ if $args[0]="Eavesdropping":
 		'<p><<$XM.name>>: What?brother??</p>'
 		'<p>Female classmate: Well, although it was a little painful or strange at first, it became more and more comfortable. Did you feel the same way the first time?</p>'
 		'<p>·<<$XM.name>>I can`t answer</p>'
-		'<p>Female classmate: You are not still a virgin, are you?！</p>'
+		'<p>Female classmate: You are not still a virgin, are you?!</p>'
 		'<p><<$XM.name>>: That`s not it!I will go back if I have anything to do today!</p>'
 	'</div>'
 End
@@ -53,12 +53,12 @@ if $args[0]="Through the corridor":
 	'<div class="dialog_menu">'
 		if $XM.love<=50:
 		'<p><<$XM.name>>: hello!Come here to me!</p>'
-		'<p>I: ?！！What?</p>'
+		'<p>I: ?!!What?</p>'
 		'<p><<$XM.name>>: Less long-winded!Follow me!</p>'
 		'<p>I: Wait a minute?</p>'
 		'<p><<$XM.name>>: Come here!</p>'
 		else
-		'<p><<$XM.name>>: Baby, where do you want to go?Pretend you didn`t see me?！</p>'
+		'<p><<$XM.name>>: Baby, where do you want to go?Pretend you didn`t see me?!</p>'
 		'<p>I: Why are you looking for me?</p>'
 		'<p><<$XM.name>>: Aren`t you okay too!Come with me to a fun place!</p>'
 		end
@@ -132,8 +132,8 @@ if $args[0]="XM_Fuck_home1":
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: I have been observing you in school for a long time!I have a request, please practice sex with me!</p>'
 			 '<p>I: Is it so sudden?Don`t you start with a date?</p>'
-			 '<p><<$XM.name>>: Less long-winded!！Do you know how to have sex?！</p>'
-			 '<p>I: Why me?！</p>'
+			 '<p><<$XM.name>>: Less long-winded!!Do you know how to have sex?!</p>'
+			 '<p>I: Why me?!</p>'
 			 '<p><<$XM.name>>: Stop talking nonsense!If it hurts me, I will kill you!</p>'
 		 '</div>'
 	end
@@ -174,7 +174,7 @@ if $args[0]="XM_Fuck_home1":
 
 	if a=13:
 		 '<div class="dialog_menu">'
-			 '<p>I: Who is being beaten now?！</p>'
+			 '<p>I: Who is being beaten now?!</p>'
 			 '<p><<$XM.name>>: <<$Panting>>...uh...wrong...I was wrong❤</p>'
 		 '</div>'
 	end
@@ -224,7 +224,7 @@ if $args[0]="XM_Fuck_Health room":
 
 	if a=0:
 		 '<div class="dialog_menu">'
-			 '<p>I: You seem to be very proficient already?！</p>'
+			 '<p>I: You seem to be very proficient already?!</p>'
 			 '<p><<$XM.name>>: Of course!I am the type who can learn it as soon as I learn it!</p>'
 		 '</div>'
 	end
@@ -606,7 +606,7 @@ if $args[0]="The next day":
 
 	'<div class="dialog_menu">'
 		'<p>>The next day</p>'
-		'<p><<$XM.name>>: Mua！Did you sleep well yesterday!Let`s go to school together!</p>'
+		'<p><<$XM.name>>: Mua!Did you sleep well yesterday!Let`s go to school together!</p>'
 	'</div>'
 End
 
@@ -804,7 +804,7 @@ if $args[0]="XM_Fuck_Visiting class2":
 			 if a=1:'<p>Fitness expert: Before the start of the exercise, effective warm-up can prevent injuries.</p>'
 			 if a=2:'<p>Fitness expert: As we all know, the stretching of ligaments is well worth doing before the start of exercise.</p>'
 			 if a=3:'<p>Fitness expert: Let me check if you have tightened your hips!</p>'
-			 if a=4:'<p>Fitness expert: Keep up with my rhythm!1！2！1！2！</p>'
+			 if a=4:'<p>Fitness expert: Keep up with my rhythm!1!2!1!2!</p>'
 			 if a=5:'<p>Fitness expert: This is the "latest" obtained after aerobics in the gym5Second fat burning exercise".</p>'
 			 if a=6:'<p>Fitness expert: Do it again!Use the power of the core of the abdomen this time!</p>'
 			 if a=7:'<p>Fitness expert: After the warm-up is complete, we will enter the aerobic exercise session!</p>'
@@ -914,7 +914,7 @@ if $args[0]="XM_Fuck_car":
 
 	if a=1:
 		 '<div class="dialog_menu">'
-			 '<p><<$XM.name>>: Mua！Thank you!You are so kind!I love you so much!</p>'
+			 '<p><<$XM.name>>: Mua!Thank you!You are so kind!I love you so much!</p>'
 		 '</div>'
 	end
 
@@ -1062,7 +1062,7 @@ if $args[0]="XM_Fuck_Video3":
 			 if a>=4:'<p>???: Hey hey hey!It`s time to change me!How long will you have to fuck?</p>'
 			 if a>=5:'<p>???: What`s the hurry?Are you still afraid that this bitch will be fucked by me?Hahahaha!</p>'
 			 if a>=6:'<p><<$XM.name>>: <<$words>></p>'
-			 if a>=7:'<p>???: Hahahaha!Look what I said?！Your nature is exposed!Sao forced!</p>'
+			 if a>=7:'<p>???: Hahahaha!Look what I said?!Your nature is exposed!Sao forced!</p>'
 		 '</div>'
 	end
 
@@ -1119,10 +1119,10 @@ if $args[0]="XM_Fuck_Video4":
 	if 13>=a and a>=7:
 		 '<div class="dialog_menu">'
 			 '<p><<$XM.name>>: <<$words>></p>'
-			 if a=7:'<p>???: Fuck?！Is the show so tight?！</p>'
+			 if a=7:'<p>???: Fuck?!Is the show so tight?!</p>'
 			 if a=8:'<p>???: Looking at this slut, I`m already confused!</p>'
 			 if a>=9:'<p>???: Ah ah ah ah is going to shoot!</p>'
-			 if a>=10:'<p>???: Catch this one for me!！</p>'
+			 if a>=10:'<p>???: Catch this one for me!!</p>'
 			 if a>=11:'<p>???: You got all the semen out!It`s disgusting!</p>'
 			 if a>=12:'<p>???: Such a stinky semen-stained force you to insert it too?Aren`t you more disgusting?*Laugh out loud</p>'
 			 if a>=13:'<p>???: Let me clean it up for everyone, damn it, a lot of it is overflowing!</p>'

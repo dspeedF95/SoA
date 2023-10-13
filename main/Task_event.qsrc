@@ -150,7 +150,7 @@ if $ARGS[0]="Play tennis2":
 		'<p>My physique：Lv<<my.Physical_strength>></p>'
 		'<p>Her physique：Lv<<$Tennisgirlnumber>></p>'
 		'<p>▶Random event judgment◀</p>'
-		'<p>Me: Damn it!Why can`t I catch a ball?！</p>'
+		'<p>Me: Damn it!Why can`t I catch a ball?!</p>'
 		'<p>Tennis girl: Little brother, can you do it?</p>'
 		'</div>'
 	end

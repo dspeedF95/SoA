@@ -315,7 +315,7 @@ if $args[0]="Confession ruling":
         '</div>'
         
          '<div class="dialog_menu">'
-			  '<p>Me: Say it again!How many people do you have improper relationships with?！</p>'
+			  '<p>Me: Say it again!How many people do you have improper relationships with?!</p>'
 			  '<p>woman：<<$TitleofBishop>>, me and<<$Numberofconfessors>>People have improper sexual relations... please forgive, guide, or punish me!</p>'
          '</div>'
 End
@@ -363,7 +363,7 @@ if $args[0]="Confessor":
         
          '<div class="dialog_menu">'
 			  '<p>Me: Sin comes from you!You must personally atone for your crimes!</p>'
-			  '<p>Woman: No!Lord Bishop!What crime did I commit?！</p>'
+			  '<p>Woman: No!Lord Bishop!What crime did I commit?!</p>'
          '</div>'
 End
 

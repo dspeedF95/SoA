@@ -200,7 +200,7 @@ if  $args[0]="Yuya Liyi":
 		if $YuyaLiyi=2:
 			if $Yuya_Event_Chain=2 or $Yuya_Event_Chain=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_COSAccording to the mouth''">Take out a candid photo</a></div>'
 			if $Yuya_Event_Chain=3:'<div class="button"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Open a room''">Stop shooting, go open a room</a></div>'
-			if $Yuya_Event_Chain=4 or $Yuya_Event_Chain=5:'<div class="buttonR"><a href="exec:gt ''Yuya_Event'',''I can`t do anything with her''">What about the photos?！</a></div>'
+			if $Yuya_Event_Chain=4 or $Yuya_Event_Chain=5:'<div class="buttonR"><a href="exec:gt ''Yuya_Event'',''I can`t do anything with her''">What about the photos?!</a></div>'
 			if $Yuya_Event_Chain=5:'<div class="buttonR2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_reverse0''">What did you see?</a></div>'
 		end
 		if $SSYY.love>=200 and $SSYY.love>=200:'<div class="buttonS2"><a href="exec:gt ''Yuya_Event'',''SSYY_Fuck_Hotel Two''">Make an appointment to the hotel</a></div>'else'<div class="buttonGr"><a href="exec:">Insufficient conditions</a></div>'
@@ -327,10 +327,10 @@ if  $args[0]="Sister Liyi":
 		'</div>'
 
 		'<div class="dialog_menu">'
-			'<p><<$MM.name>>: What are you going to do?！Ah ah ah?！Help!</p>'
+			'<p><<$MM.name>>: What are you going to do?!Ah ah ah?!Help!</p>'
 			'<p>???: Someone sent me to teach you a lesson!You convey it to your brother, if he doesn`t cooperate honestly, your whole family will wait to be arranged by me one by one!</p>'
 			'<p>I: stop it!You let her go for me!</p>'
-			'<p>???: Huh, Lao Tzu has plenty of opportunities, can you protect them for the rest of your life?！Hahahaha!</p>'
+			'<p>???: Huh, Lao Tzu has plenty of opportunities, can you protect them for the rest of your life?!Hahahaha!</p>'
 		'</div>'
 		else
 			'<div class="show_menu">'
@@ -432,7 +432,7 @@ if  $args[0]="Ranking rise":
 	'<div class="dialog_menu">'
 		'<p>I: By the way, who is this third place?.. It`s a bit familiar... she still took the initiative to abandon the game.…</p>'
 		if $rankingnu>=2:
-			'<p><<$QB.name>>: broker!！Great!We actually squeezed into the top three!Could it be said?！We are really going to make our debut!</p>'
+			'<p><<$QB.name>>: broker!!Great!We actually squeezed into the top three!Could it be said?!We are really going to make our debut!</p>'
 			'<p>I: Do my best to listen to destiny... It`s time for me to do the job of a competitor…</p>'
 			$QBEvent_chain=8
 		end

@@ -178,7 +178,7 @@ if $ARGS[0]="Look at his wife":
 		'<div class="button"><a href="exec:minutes+=25 & gt ''park''">Ignore him</a></div>'
 	'</div>'
 	'<div class="dialog_menu">'
-		'<p><<$Nameofthesufferingmaster>>: Are your eyes straight?！We have been talking for three years, you have no chance*Laugh</p>'
+		'<p><<$Nameofthesufferingmaster>>: Are your eyes straight?!We have been talking for three years, you have no chance*Laugh</p>'
 		'<p>I：……</p>'
 		'<p><<$Nameofthesufferingmaster>>: Go to my house for two drinks when you have time*Laugh</p>'
 	'</div>'

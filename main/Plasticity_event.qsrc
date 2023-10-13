@@ -117,10 +117,10 @@ if $args[0]="ZX_Fuck_Strategy":
 	
 	if 6>=a and a>=5:
 		 '<div class="dialog_menu">'
-			 '<p><<$ZX.name>>: Why...why are you bullying me...help!Why force me!Come on----!！</p>'
+			 '<p><<$ZX.name>>: Why...why are you bullying me...help!Why force me!Come on----!!</p>'
 			 if a=6:
 				if $ZXEvent_chain=2:$ZXEvent_chain=3
-				'<p>I: Hello?！What are you talking about?</p>'
+				'<p>I: Hello?!What are you talking about?</p>'
 				 '<p><<$ZX.name>>: Woohoo!Woohoo!Woohoo!Woohoo!Woohoo!Woohoo!</p>'
 			end
 		 '</div>'
@@ -252,7 +252,7 @@ if $args[0]="ZX_Fuck_sleep":
 		 '<div class="dialog_menu">'
 	 		 '<p>I: Am I dreaming*Bleary-eyed</p>'
 	 		 if a>=1:
-		 	  '<p><<$ZX.name>>?: Huh huh?！</p>'
+		 	  '<p><<$ZX.name>>?: Huh huh?!</p>'
 		 	  '<p>???: You obviously don`t owe much money, and you have the ability to repay it, say!Did you deliberately oppose us [Bounty Hunter]?</p>'	
 		 	  '<p><<$ZX.name>>?: I`m not her<<$Panting>></p>'
 		 	  '<p>???: What are you talking nonsense about?Is it interesting for you to say that every time?</p>'	
@@ -298,7 +298,7 @@ if $args[0]="ZX_Fuck_illusion":
 			'<div class="buttonP"><a href="exec:a=4 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">Violent knock on the door </a></div>'
 			end
 			if a=4:
-			'<div class="buttonR"><a href="exec:a=5 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">??！?！ </a></div>'
+			'<div class="buttonR"><a href="exec:a=5 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">??!?! </a></div>'
 			end
 			if 20>=a and a>=5:
 				'<div class="buttonS"><a href="exec:a+=1 & gt ''Plasticity_event'',''ZX_Fuck_illusion''">At the mercy of </a></div>'
@@ -321,7 +321,7 @@ if $args[0]="ZX_Fuck_illusion":
 			 if a=-1:'<p><<$ZX.name>>: Come ❤Touch me ❤Give me both body and mind❤</p>'
 	 		 if a=-1:'<p>I: This feeling ❤so wonderful❤zzZ</p>'
 	 		 if a>=0:'<p>I: *Bleary-eyed</p>'
-	 		 if a>=1:'<p>I: How could this happen?！How did I become<<$ZX.name>>already?！</p>'
+	 		 if a>=1:'<p>I: How could this happen?!How did I become<<$ZX.name>>already?!</p>'
 	 		 if a>=2:'<p>I: This is too unreal❤</p>'
 	 		 if a>=4:'<p>I: Who is it?It`s coming, it`s coming!</p>'
 		 '</div>'
@@ -331,8 +331,8 @@ if $args[0]="ZX_Fuck_illusion":
 		 '<div class="dialog_menu">'
 		 		'<p>I: Who are you guys?Help!</p>'
 		 		'<p>???: Be honest!We are here to ask for the bill!</p>'
-		 		'<p>I: You admit the wrong person, I`m not<<$ZX.name>>！</p>'
-		 		'<p>???: <<$ZX.name>>, Don`t you remember us after only a few days of not seeing each other?！</p>'
+		 		'<p>I: You admit the wrong person, I`m not<<$ZX.name>>!</p>'
+		 		'<p>???: <<$ZX.name>>, Don`t you remember us after only a few days of not seeing each other?!</p>'
 		 		'<p>I: *struggling</p>'
 		 		'<p>???: You obviously don`t owe much money, and you have the ability to repay it, say!Did you deliberately oppose us [Bounty Hunter]?</p>'	
 		 		'<p>·————————————————</p>'
@@ -476,7 +476,7 @@ if $args[0]="ZX_Fuck_Strategy2":
 
 	if 4>=a and a>=1:
 		 '<div class="dialog_menu">'
-		 	 '<p>I: Who are you?！</p>'
+		 	 '<p>I: Who are you?!</p>'
 			 '<p><<$ZX.name>>: Strangers who don`t know each other<<$Panting>></p>'
 		 '</div>'
 	end
@@ -558,7 +558,7 @@ if $args[0]="ZX_Fuck_Knock on the glass":
 			 end
 		 	 if a=5:
 	 	 		'<p>I: What did you do with my body that day?</p>'
-		 		'<p><<$ZX.name>>: Do you actually remember that?！This is a secret❤</p>'
+		 		'<p><<$ZX.name>>: Do you actually remember that?!This is a secret❤</p>'
 	 	 		'<p>I: Please tell me!</p>'
 		 		'<p><<$ZX.name>>: This thing is better as a surprise❤</p>'
 			 end
@@ -905,7 +905,7 @@ if $args[0]="ZX_Fuck_bedroom":
 	if 8>=a and a>=0:
 		 '<div class="dialog_menu">'
 			 if a=0:'<p>I: Is this exercise before going to bed?</p>'
-			 '<p><<$ZX.name>>: Why did you come in?！Forget it, don`t just look at it, come and satisfy me❤</p>'
+			 '<p><<$ZX.name>>: Why did you come in?!Forget it, don`t just look at it, come and satisfy me❤</p>'
 	 		 '<p>I: No problem.</p>'
 	 		 '<p><<$ZX.name>>: So cool<<$Panting>></p>'
 		 '</div>'
@@ -1473,7 +1473,7 @@ if $args[0]="ZX_Fuck_D2":
 			 '<p><<$ZX.name>>: Then let`s compare?</p>'
 			 '<p><<$EDM.name>>: Do you mean...a challenge?</p>'
 			 '<p>Me: Uh…</p>'
-			 '<p><<$EDM.name>>: <<$Protagonist`s_name>>！You are the referee!It`s better than what hot girls are best at... sex!</p>'
+			 '<p><<$EDM.name>>: <<$Protagonist`s_name>>!You are the referee!It`s better than what hot girls are best at... sex!</p>'
 		 '</div>'
 	end
 
@@ -1481,7 +1481,7 @@ if $args[0]="ZX_Fuck_D2":
 		 '<div class="dialog_menu">'
 			 '<p><<$ZX.name>>: Is the leader of the Hot Girl Gang only at this level?</p>'
 			 if a>=2:'<p><<$EDM.name>>: Don`t underestimate me.</p>'
-			 if a>=3:'<p>Me: Can you endure it to the end?！</p>'
+			 if a>=3:'<p>Me: Can you endure it to the end?!</p>'
 			 if a>=4:'<p><<$ZX.name>>: Of course<<$words>></p>'
 			 if a>=5:'<p><<$EDM.name>>: nonsense<<$words2>></p>'
 			 if a>=8:'<p><<$ZX.name>>: How?Can I join?</p>'
@@ -1529,7 +1529,7 @@ if $args[0]="ZX_Fuck_D1":
 			 '<p><<$ZX.name>>: Regarding breast filling surgery, I also need to ask you for some academic advice. This is my human specimen.</p>'
 			 '<p><<$SW.name>>: <<$Protagonist`s_name>>, This is your human specimen?</p>'
 			 '<p>Me: Uh…</p>'
-			 '<p><<$SW.name>>: <<$Protagonist`s_name>>！Hope you cooperate well!</p>'
+			 '<p><<$SW.name>>: <<$Protagonist`s_name>>!Hope you cooperate well!</p>'
 		 '</div>'
 	end
 

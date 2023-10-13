@@ -126,7 +126,7 @@ if $ARGS[0]="Fund loss":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-		'<p>Me: What`s the matter?Lose money as soon as you buy it99%?！You are not a financial product!Is it a scam?</p>'
+		'<p>Me: What`s the matter?Lose money as soon as you buy it99%?!You are not a financial product!Is it a scam?</p>'
 		'<p>Fund manager：<<$Protagonist`s_surname>>Sir, don`t worry... I believe you can turn a loss into a profit by buying another order for your little sister ❤Now is the perfect time to copy the bottom!</p>'
 	'</div>'
 end

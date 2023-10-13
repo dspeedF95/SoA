@@ -112,7 +112,7 @@ if $args[0]="inside":
 		'<p>1, If the evacuation fails, you are17：10I haven`t walked out of the company before, and “it” found you or is approaching you quickly, please go to the toilet to avoid danger.，15Evacuate quickly after minutes.If you meet “it” again, repeat the above steps.</p>'
 		'<p>2, If you are avoiding risks with your colleagues, and your colleagues want to leave the risk-averse place, please try to dissuade them. If the dissuasion is invalid, you can let them leave.If a colleague comes back and asks you out again after leaving, please ignore him, don`t make a sound, and don`t open the door for him. He may not be your colleague.</p>'
 		'<p>3, If you accidentally violate the first Article, please stop all communication immediately and flee the company at any cost before something more terrifying happens.</p>'
-		'<p><s>4, Please always keep in mind: overtime meetings do not exist.And the labor law exists@！￥@！Yes!</s></p>'
+		'<p><s>4, Please always keep in mind: overtime meetings do not exist.And the labor law exists@!￥@!Yes!</s></p>'
 		end
 
 		if $Healthydialogue=4:
