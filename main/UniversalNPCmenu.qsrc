@@ -25,7 +25,8 @@ gs'menu_time_calc'
 
 !#--------------------------------------------------------------------------------------------------
 '<div class="charac_nps_info">'
-
+	!{These won''t work until a new array is made to handle pics, 
+	so that all the files don''t need to be renamed to be displayed.}!
 	'<div class="charac_gg_foto"><img class="img_stretch" src="images\npc_l\<<$args[0]>>L.png"></div>'
 		
 	'<div id="left-column2">'

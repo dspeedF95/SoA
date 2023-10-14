@@ -8,7 +8,8 @@ gs'menu_time_calc'
 	gs'menu_act_hidden'
 '</div>'
 
-! Converted the <<$ID.name>> to the Chinese file names or it does not display properly.
+!{ Converted the <<$ID.name>> to the Chinese file names or it does not display properly.
+   Dirty edit until new array is made for the pics.}!
 '<div id="left-column">'
 	'<div class="charac_npc_list">'
 		'<div class="charac_nps_list_foto">
@@ -431,6 +432,7 @@ gs'menu_time_calc'
         	    <a class="photo" data-title="<<$SSYY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SSYY.name>>'',''<<$SSYY.love>>'',''<<$SSYY.bad>>'',''<<$SSYY.bio>>'',''<<SSYY_fans>>'',''<<$SSYY.Multifaceted>>''"><img class="img_stretch" src="images\npc_l\沙月芽衣(小coser).png"></a>'
         	'</div>'
         else
+			! She does not have an 'a' pic
         	'<div class="charac_nps_list_foto">
         	    <a class="photo" data-title="I don`t know her yet" ><img class="img_stretch" src="images\npc_l\沙月芽衣(小coser)a.png"></a>'
         	'</div>'
