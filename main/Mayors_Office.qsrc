@@ -24,7 +24,7 @@ if $ARGS[0]="":
 	
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Wuchang Conference Room''">Wuchang Conference Room</a></div>'
-		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Mayor`s Office''">Mayor`s Office</a></div>'
+		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Mayors Office''">Mayor`s Office</a></div>'
 		'<div class="button"><a href="exec:gt ''Mayors_Office'',''Urban Construction Minister`s Office''">Urban Construction Minister`s Office</a></div>'
 		'<div class="button"><a href="exec:gt ''City_hall''">leave</a></div>'
 	'</div>'
@@ -42,9 +42,8 @@ if $ARGS[0]="":
 	'</div>'
 end
 
-if $ARGS[0]="Mayor`s Office":
+if $ARGS[0]="Mayors Office":
 	'<div class ="show_menu"><img src="images\place\不开放.jpg" width="854"></div>'
-
 
 	'<div class="button_menu">'
 		'<div class="buttonR2"><a href="exec:gt ''City_hall''">leave</a></div>'
@@ -56,7 +55,6 @@ if $ARGS[0]="Mayor`s Office":
 end
 
 if $ARGS[0]="Wuchang Conference Room":
-
 	'<div class ="show_menu"><img src="images\place\五常会议室0.jpg" width="854"></div>'
 	
 	'<div class="button_menu">'
@@ -73,16 +71,11 @@ end
 
 
 if $ARGS[0]="Read the notice":
-
 	'<div class ="show_menu"><img src="images\place\五常会议室0.jpg" width="854"></div>'
-
 
 	'<div class="button_menu">'
 		'<div class="buttonGn"><a href="exec:gt ''Mayors_Office''">return</a></div>'
 		'<div class="buttonR2"><a href="exec:gt ''City_hall''">leave</a></div>'
-		
-		
-		
 	'</div>'
 	
 	'<div class="dialog_menu">'
@@ -91,17 +84,16 @@ if $ARGS[0]="Read the notice":
 		'<p>————Warning————</p>'
 		'<p>During the meeting, all participants are required to put mobile phones and other electronic devices in designated storage boxes to prevent any risk of information leakage or eavesdropping.No recording or video recording equipment is allowed in the meeting room.</p>'
 		'<p>Discussions and document exchanges between participants are conducted in a strictly confidential environment.Files are encrypted, encapsulated, or transmitted in other secure ways to ensure that sensitive information is not leaked.The content of the discussion is also subject to a confidentiality agreement. Participants must strictly abide by their confidentiality responsibilities and destroy or return all documents and materials related to the meeting after the meeting.</p>'
-		
 	'</div>'
 end
 
 
 if $ARGS[0]="Urban Construction Minister`s Office":
-	 $CJ.available=1
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\CJ\vids\立绘<<rand(0,3)>>.webm" type=''video/webm;''></video></div>'
-        '</div>'
+	$CJ.available=1
+    '<div class="show_menu">'
+         '<video preload="metadata" autoplay loop height="480">
+         <source src="images\NPC\CJ\vids\立绘<<rand(0,3)>>.webm" type=''video/webm;''></video></div>'
+    '</div>'
 
 	'<div class="button_menu">'
 		if $Boss_event_chain=6 and $Bossonthetop<=1:'<div class="button"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama1''">Eavesdropping: Minister`s room</a></div>'
@@ -144,9 +136,9 @@ if $ARGS[0]="prompt":
 		'<p>·The character will have two different branches, and the relationship with you can be innocent or debauchery.</p>'
 		'<p>·Debauchery----relationship&Tendency----innocence·</p>'
 		if $CJ.tendency>0:
-		'<p>·↑←—————❤<font color=#FF7F50><<$CJ.tendency>>❤—————→↑·</font></p>'
+			'<p>·↑←—————❤<font color=#FF7F50><<$CJ.tendency>>❤—————→↑·</font></p>'
 		else
-		'<p><font color=#FF00FF>·↑←—————❤<<$CJ.tendency>></font>❤—————→↑·</p>'
+			'<p><font color=#FF00FF>·↑←—————❤<<$CJ.tendency>></font>❤—————→↑·</p>'
 		end
 	'</div>'
 end
@@ -154,10 +146,10 @@ end
 
 if $ARGS[0]="Adjutant`s Office":
 	if Urbanconstructionsatisfaction<=-100:gt 'Boss_event','boss_Fuck_Evil punishment'
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\LB\vids\立绘.webm" type=''video/webm;''></video></div>'
-        '</div>'
+    '<div class="show_menu">'
+         '<video preload="metadata" autoplay loop height="480">
+         <source src="images\NPC\LB\vids\立绘.webm" type=''video/webm;''></video></div>'
+    '</div>'
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:$Adjutantdialogue=1 & gt ''Mayors_Office'',''Adjutant`s Office''">处理Handling complaints from citizens↓</a></div>'
@@ -171,9 +163,9 @@ if $ARGS[0]="Adjutant`s Office":
 	'<div class="dialog_menu">'
 		'<p><<$LB.name>>:<<$Protagonist`s_name>>, Help me eat the urban construction department together❤</p>'
 		if $Adjutantdialogue=1:
-		'<p>Me: Happy to help.</p>'
-		'<p><<$LB.name>>: Since the fire in the camping area, the citizens have paid special attention to the problem of cleaning up flammable garbage. Go and see the garbage removal situation in the camping area.</p>'
-		if $Campinggarbage=0:$Campinggarbage=1
+			'<p>Me: Happy to help.</p>'
+			'<p><<$LB.name>>: Since the fire in the camping area, the citizens have paid special attention to the problem of cleaning up flammable garbage. Go and see the garbage removal situation in the camping area.</p>'
+			if $Campinggarbage=0:$Campinggarbage=1
 		end
 		'<p>·Citizens` satisfaction with the Ministry of Urban Construction:<<Urbanconstructionsatisfaction>>%</p>'
 	'</div>'
@@ -181,7 +173,6 @@ end
 
 
 if $ARGS[0]="proposal":
-
 	'<div class ="show_menu"><img src="images\place\提案.jpg" width="854"></div>'
 	
 	'<div class="button_menu">'
@@ -207,43 +198,40 @@ if $ARGS[0]="Dark Council":
 	'<div class="dialog_menu">'
 		'<p><<$JYB.name>>: The next proposal is…<<$Proposedcontent>></p>'
 		if $Proposedcontent='The restaurant provides sexual services':
-		'<p><<$SZ.name>>: Clam?It`s really interesting, the proposer is<<$QJ.name>>What, do you mean?</p>'
-		'<p><<$CT.name>>: If she believes that adding new elements will help develop and increase competitiveness, then supporting this view may bring more opportunities and success to the restaurant. As a mother, I will fully support her.</p>'
-		'<p><<$DYZ.name>>: Is there any benefit in getting me to agree?</p>'
-		'<p><<$CT.name>>: I will lower10%The total amount of semen handed over in the prison.And everyone here can continue to enjoy the one-year Imperial GroupSVIPPrivate jet service.</p>'
-		'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
-		'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
-		Restaurantmanagement=2
+			'<p><<$SZ.name>>: Clam?It`s really interesting, the proposer is<<$QJ.name>>What, do you mean?</p>'
+			'<p><<$CT.name>>: If she believes that adding new elements will help develop and increase competitiveness, then supporting this view may bring more opportunities and success to the restaurant. As a mother, I will fully support her.</p>'
+			'<p><<$DYZ.name>>: Is there any benefit in getting me to agree?</p>'
+			'<p><<$CT.name>>: I will lower10%The total amount of semen handed over in the prison.And everyone here can continue to enjoy the one-year Imperial GroupSVIPPrivate jet service.</p>'
+			'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
+			'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
+			Restaurantmanagement=2
 		end
 		
 		if $Proposedcontent='Open the coast to the public':
-		'<p><<$CT.name>>: This is my private beach, I would never agree.</p>'
-		'<p><<$SZ.name>>: Isn`t this public property?When is your private beach?</p>'
-		'<p><<$DYZ.name>>: I don`t care.</p>'
-		'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
-		if $parliament.Empire=1:'<p>【Agree】【Agree】【Reject】【Agree】【Agree】·One vote rejected<a href="exec:gt ''Empire_Event'',''Empire_Fuck_Buy''">-Private conversation</a></p>'
-		if $parliament.Empire=0:
-			'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
-			Opencoast=1
+			'<p><<$CT.name>>: This is my private beach, I would never agree.</p>'
+			'<p><<$SZ.name>>: Isn`t this public property?When is your private beach?</p>'
+			'<p><<$DYZ.name>>: I don`t care.</p>'
+			'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
+			if $parliament.Empire=1:'<p>【Agree】【Agree】【Reject】【Agree】【Agree】·One vote rejected<a href="exec:gt ''Empire_Event'',''Empire_Fuck_Buy''">-Private conversation</a></p>'
+			if $parliament.Empire=0:
+				'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
+				Opencoast=1
 			end
 		end
 		
 		if $Proposedcontent='Aerial sex Service':
-		'<p><<$SZ.name>>: Look at this, is it your baby daughter`s idea again?At the end of the table, read me the rules.</p>'
-		'<p><<$CJ.name>>: Sex is a way to relieve anxiety and stress. Providing sexual services on an airplane can help passengers relax and generate revenue.At the same time, sex can show the openness and tolerance of our city, and enhance passengers` first impression of our city.</p>'
-		'<p><<$DYZ.name>>: Isn`t this nonsense? Is there any benefit in letting me agree?</p>'
-		'<p><<$CT.name>>: What do you want?</p>'
-		if $parliament.warden=1:'<p><<$DYZ.name>>: Let me take a break and let me think about it... I will never agree easily.…<a href="exec:gt ''Warden_Incident'',''warden_Fuck_Buy''">-Private conversation</a></p>'
-		if $parliament.warden=0:
-			'<p><<$DYZ.name>>: I don`t need anything, just give you a favor.</p>'
-			'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
-			'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
-			if $Airportprogress=2:$Airportprogress=3
-		 end
-			
-		end
-		
-		
+			'<p><<$SZ.name>>: Look at this, is it your baby daughter`s idea again?At the end of the table, read me the rules.</p>'
+			'<p><<$CJ.name>>: Sex is a way to relieve anxiety and stress. Providing sexual services on an airplane can help passengers relax and generate revenue.At the same time, sex can show the openness and tolerance of our city, and enhance passengers` first impression of our city.</p>'
+			'<p><<$DYZ.name>>: Isn`t this nonsense? Is there any benefit in letting me agree?</p>'
+			'<p><<$CT.name>>: What do you want?</p>'
+			if $parliament.warden=1:'<p><<$DYZ.name>>: Let me take a break and let me think about it... I will never agree easily.…<a href="exec:gt ''Warden_Incident'',''warden_Fuck_Buy''">-Private conversation</a></p>'
+			if $parliament.warden=0:
+				'<p><<$DYZ.name>>: I don`t need anything, just give you a favor.</p>'
+				'<p><<$CJ.name>>: It seems that everyone has reached an agreement...Let`s vote by show of hands…</p>'
+				'<p>【Agree】【Agree】【Agree】【Agree】【Agree】·Unanimously passed</p>'
+				if $Airportprogress=2:$Airportprogress=3
+			end
+		end		
 	'</div>'
 end
 
