@@ -5,6 +5,7 @@ $loc = $CURLOC
 a=0
 q=0
 gs'menu_gif'
+
 '<div id="right-column">'
 	gs"Energy_judgment"
 	gs'menu_time'
@@ -24,23 +25,20 @@ gs'menu_gif'
 		'<div class="action">
 			<a class="photo" data-title="Kabukicho" href="exec:minutes+=5 & gt ''Kabukicho''"><img class="img_stretch" src="images\place\歌舞伎町.jpg"></a>
 		</div>'
-		
 	'</div>'
 '</div>'
 
 if $ARGS[0]="":
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\videos\杂\夜色精巢开幕~1.webm" type=''video/webm;''></video></div>'
-		'</div>'
-
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\杂\夜色精巢开幕~1.webm" type=''video/webm;''></video></div>'
+	'</div>'
 
 	'<div class="button_menu">'
-	
 		'<div class="buttonS"><a href="exec:minutes+=15 & gt ''The_night_is_fine'',''Main stage''">Look at the main stage</a></div>'
 		if $OX.available=1 and $JZ_Event_rape=0: '<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''SS_Event_bar''">Investigation: Disappearance <<$JZ_Event_rape>>﹪</a></div>'
-		if  $JZ_Event_rape=15: '<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''SS_Event_License plate''">Investigation: License plate <<$JZ_Event_rape>>﹪</a></div>'
-		if  $JZ_Event_gun=10: '<div class="button"><a href="exec:minutes+=15 &a=-1& gt ''Police_incident'',''JY_Event_bar''">etc.<<$JY.name>></a></div>'
+		if $JZ_Event_rape=15: '<div class="button"><a href="exec:minutes+=15 & gt ''Killer_Event'',''SS_Event_License plate''">Investigation: License plate <<$JZ_Event_rape>>﹪</a></div>'
+		if $JZ_Event_gun=10: '<div class="button"><a href="exec:minutes+=15 &a=-1& gt ''Police_incident'',''JY_Event_bar''">etc.<<$JY.name>></a></div>'
 		if Set_printing_card=0: '<div class="buttonS"><a href="exec:minutes+=15 & Set_printing_card+=1 & gt ''The_night_is_fine''">Pick up the Stamp card</a></div>'
 		if Set_printing_card=1 and hour=2 and week_day =6:'<div class="buttonR3"><a href="exec:Set_printing_numberS=3 & gt ''Group_performation_event'',''Universal_Fuck_Set sealS''">❤Strike up a conversation with an acquaintance❤</a></div>'
 		if $BGH.Night>=1 and hour=22 and week_day =3:'<div class="buttonS3"><a href="exec:gt ''The_night_is_fine'',''findBGH''">find<<$BGH.name>></a></div>'
@@ -52,7 +50,7 @@ if $ARGS[0]="":
 	'<div class="dialog_menu">'
 		'<p>·The deafening sound of lust makes your blood spurting!</p>'
 	'</div>'
-End
+end
 
 	
 	
@@ -73,7 +71,7 @@ if $ARGS[0]="Custom area":
 	'<div class="dialog_menu">'
 		'<p>·Nightclubs can magnify everyone`s social behavior 10,000 times, whether it is virtues or vices, except for hotel beds, there is no place more suitable for analyzing the human heart than nightclubs.</p>'
 	'</div>'
-End
+end
 
 if $args[0] ='Striptease area':
 	$WN.available=1
@@ -94,7 +92,7 @@ if $args[0] ='Striptease area':
 	'<div class="dialog_menu">'
 		'<p><<$WN.name>>:Order a veneer dance or drink?</p>'
 	'</div>'
-End
+end
 
 
 if $args[0] ='Invited performances of special dramas':
@@ -112,11 +110,11 @@ if $args[0] ='Invited performances of special dramas':
 		'<p>I: I am preparing for a special drama. Are you interested in acting?It`s the special way the heroine is defeated by the bad guys.……</p>'
 		'<p><<$WN.name>>: What?Special drama?I haven`t acted before!But it should be simpler than striptease!</p>'
 		if $Specialcamerafront=3:
-		'<p>I: Does this impress you?</p>'
-		'<p><<$WN.name>>: Boss atmosphere!See you soon at our TV station!</p>'
+			'<p>I: Does this impress you?</p>'
+			'<p><<$WN.name>>: Boss atmosphere!See you soon at our TV station!</p>'
 		end
 	'</div>'
-End
+end
 
 
 if $ARGS[0]="findBGH":
@@ -133,15 +131,15 @@ if $ARGS[0]="findBGH":
 	'<div class="dialog_menu">'
 		'<p><<$BGH.name>>: It`s so hi here!I haven`t had such a good time since I was good!Here I want to rekindle my enthusiasm for life!</p>'
 	'</div>'
-End
+end
 
 
 
 if $ARGS[0]="Main stage":
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\videos\杂\主舞台 (<<rand(0,24)>>).webm" type=''video/webm;''></video></div>'
-		'</div>'
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\杂\主舞台 (<<rand(0,24)>>).webm" type=''video/webm;''></video></div>'
+	'</div>'
 
 	'<div class="button_menu">'
 		if Set_printing_card=1 and hour=2 and week_day =6:'<div class="buttonR3"><a href="exec:Set_printing_numberS=3 & gt ''Group_performation_event'',''Universal_Fuck_Set sealS''">❤Strike up a conversation with an acquaintance❤</a></div>'
@@ -158,7 +156,7 @@ if $ARGS[0]="Main stage":
 		if rand(0,101)>=50:'<p>·As the hormones were mobilized, the good men and women went hand in hand.<a href="exec:gt ''The_night_is_fine'',''one side''">-Look over there</a></p>'
 		if rand(0,200)>=150 and $XN.waiter=1:'<p>·<<$XN.name>>Entangled by a drunk guest<a href="exec:gt ''Nun_event'',''XN_Fuck_Night service''">-Look over there</a></p>'
 	'</div>'
-End
+end
 
 if $ARGS[0]="one side":
 		'<div class="show_menu">'
@@ -173,9 +171,7 @@ if $ARGS[0]="one side":
 	'<div class="dialog_menu">'
 		'<p>Me: It`s nice to be young, you can do whatever you want.</p>'
 	'</div>'
-End
-
-
+end
 
 
 if $ARGS[0]="Private office":
@@ -193,23 +189,22 @@ if $ARGS[0]="Private office":
 	'</div>'
 
 	'<div class="dialog_menu">'
-
 		if $Bossonthetop!999:
-		'<p>Crazy little brother: Sister, don`t you want to be stronger and bigger?</p>'
-		'<p><<$LB.name>>: Be stronger and bigger?Let`s talk about it after you have collected your accounts for me.</p>'
-		'<p>Crazy little brother: Don`t treat me like a child, I`ve had enough, I`m an adult.</p>'
+			'<p>Crazy little brother: Sister, don`t you want to be stronger and bigger?</p>'
+			'<p><<$LB.name>>: Be stronger and bigger?Let`s talk about it after you have collected your accounts for me.</p>'
+			'<p>Crazy little brother: Don`t treat me like a child, I`ve had enough, I`m an adult.</p>'
 		else
-		'<p><<$LB.name>>: Listen up, now you can`t go anywhere without my permission, if I`m not there, no<<$Protagonist`s_name>>With the permission of, you can`t go anywhere.It`s so disappointing that you can even do such a thing as setting fire now!</p>'
-		'<p>Crazy little brother: Sister, do you trust him so much now?Also, I really didn`t set the fire!The police believed me right away, why do you have to fish me out?!</p>'
+			'<p><<$LB.name>>: Listen up, now you can`t go anywhere without my permission, if I`m not there, no<<$Protagonist`s_name>>With the permission of, you can`t go anywhere.It`s so disappointing that you can even do such a thing as setting fire now!</p>'
+			'<p>Crazy little brother: Sister, do you trust him so much now?Also, I really didn`t set the fire!The police believed me right away, why do you have to fish me out?!</p>'
 		end
 	'</div>'
-End
+end
 
 if $ARGS[0]="Boss Liyi":
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\LB\vids\酒1-0~1.webm" type=''video/webm;''></video></div>'
-        '</div>'
+    '<div class="show_menu">'
+         '<video preload="metadata" autoplay loop height="480">
+         <source src="images\NPC\LB\vids\酒1-0~1.webm" type=''video/webm;''></video></div>'
+    '</div>'
 
 	'<div class="button_menu">'
 		'<div class="button"><a href="exec:a=1 & gt ''Boss_event'',''boss_Fuck_wine1''">More than just a drink</a></div>'
@@ -220,10 +215,10 @@ if $ARGS[0]="Boss Liyi":
 	'<div class="dialog_menu">'
 		'<p><<$LB.name>>: My brother`s mess is thanks to you, how about it?Have a drink?</p>'
 		if Bossdialogue=1:
-		'<p>Me: I know there is a better place. I will meet you at the mall on weekend afternoons.</p>'
+			'<p>Me: I know there is a better place. I will meet you at the mall on weekend afternoons.</p>'
 		end
 	'</div>'
-End
+end
 
 
 if $ARGS[0]="Younger brother Debtcollection":
@@ -254,7 +249,7 @@ if $ARGS[0]="Younger brother Debtcollection":
 		 '<p>Payment of overdue arrears:1<<rand(131115,949999)>>￥; Gender: female; Occupation: habitual thief; situation:'
 		 if Debtcollection6done=1:'Lock address</p>'else'Whereabouts unknown</p>'
 	'</div>'
-End
+end
 
 if $ARGS[0]="Younger brother Debtcollection2":
 	'<div class ="show_menu"><img src="images\NPC\LB\pics\office3.jpg" width="854"></div>'
@@ -272,7 +267,7 @@ if $ARGS[0]="Younger brother Debtcollection2":
 		'<p>Crazy little brother: Only...you!</p>'
 		'<p>I:…………</p>'
 	'</div>'
-End
+end
 
 
 
@@ -295,7 +290,7 @@ if $ARGS[0]="Camping area situation":
 		'<p><<$LB.name>>: All in all, let`s think of a way to deal with this matter peacefully.You can solve it, right?</p>'
 		if $Boss_event_chain=2:$Boss_event_chain=3
 	'</div>'
-End
+end
 
 if $ARGS[0]="Violent plan":
 	'<div class ="show_menu"><img src="images\NPC\LB\pics\office3.jpg" width="854"></div>'
@@ -315,19 +310,19 @@ if $ARGS[0]="Violent plan":
 		
 		if $Boss_event_chain=3:$Boss_event_chain=4
 	'</div>'
-End
+end
 
 if $ARGS[0]="Aftermath":
-	 if $Bossonthetop=1:gt 'Boss_event','boss_Fuck_drama3'
-        '<div class="show_menu">'
-             '<video preload="metadata" autoplay loop height="480">
-             <source src="images\NPC\LB\vids\000.webm" type=''video/webm;''></video></div>'
-        '</div>'
+	if $Bossonthetop=1:gt 'Boss_event','boss_Fuck_drama3'
+    '<div class="show_menu">'
+         '<video preload="metadata" autoplay loop height="480">
+         <source src="images\NPC\LB\vids\000.webm" type=''video/webm;''></video></div>'
+    '</div>'
 
 	'<div class="button_menu">'
 		if $Thebosssuspendedtheinvestigation=0:'<div class="buttonGr"><a href="exec:">Delayed investigation: not approved</a></div>'else'<div class="buttonR3"><a href="exec:">Delayed investigation: approved</a></div>'
 		if $Bossonthetop<=2:'<div class="buttonGr"><a href="exec:">Letter of understanding: Not completed</a></div>'else'<div class="buttonR3"><a href="exec:">Letter of understanding: obtained</a></div>'
-		if  $Thethiefwascaught<2:'<div class="buttonGr"><a href="exec:">Scapegoat: not found</a></div>'else'<div class="buttonR3"><a href="exec:">Scapegoat: Kizakiエa (habitual thief)</a></div>'
+		if $Thethiefwascaught<2:'<div class="buttonGr"><a href="exec:">Scapegoat: not found</a></div>'else'<div class="buttonR3"><a href="exec:">Scapegoat: Kizakiエa (habitual thief)</a></div>'
 		if $Bossonthetop=2:'<div class="buttonP"><a href="exec:gt ''Boss_event'',''boss_Fuck_drama4''">invite:<<$FP.name>></a></div>'
 		'<div class="button"><a href="exec:minutes+=15 & gt ''The_night_is_fine''">leave</a></div>'
 	'</div>'
@@ -340,7 +335,7 @@ if $ARGS[0]="Aftermath":
 		'<p><<$LB.name>>: The response to this matter is very bad... Listen, first of all, we must delay the police investigation. Do you have any acquaintances at the police station?My identity is not convenient to show up.In addition, we have to fight for<<$FP.name>>The letter of understanding, finally give<<$CJ.name>>A scapegoat.</p>'
 		'<p>Me: Okay... I see.</p>'
 	'</div>'
-End
+end
 
 if $ARGS[0]="Random office":
 	'<div class ="show_menu"><img src="images\NPC\LB\pics\office4.jpg" width="854"></div>'
@@ -359,7 +354,7 @@ if $ARGS[0]="Random office":
 		'<p><<$LB.name>>: He died in a car accident fifteen years ago, and he said he would marry me.</p>'
 		'<p>I:…………</p>'
 	'</div>'
-End
+end
 
 
 

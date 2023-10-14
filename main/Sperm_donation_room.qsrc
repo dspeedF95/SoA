@@ -1,5 +1,5 @@
 # Sperm_donation_room
- cls
+cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
 gs'menu_gif'
@@ -36,16 +36,16 @@ if $args[0]="":
 
 
 	'<div class="dialog_menu">'
-		'<p>nurse: Go back and have a good rest，<<$SS.name>>The doctor is really amazing!Even patients with impotence can be cured!Next one!</p>'
+		'<p>nurse: Go back and have a good rest,<<$SS.name>>The doctor is really amazing!Even patients with impotence can be cured!Next one!</p>'
 		if hour>=20:'<p><<$SS.name>>: Oh?<<$Protagonist`s_name>>husband!Are you here to pick me up home?</p>'
 		if hour>=20:'<p>nurse: <<$SS.name>>doctor!Then I`ll get off work first!</p>'
 		if $Killerdialogue=1:
-		'<p><<$SS.name>>: I have a doctorate in neuroscience, and I am really talented as a doctor in the sperm donation room in this third-rate hospital with cosmetic plastic surgery as its primary project.</p>'
-		'<p>I: Really or not.</p>'
-        '<p><<$SS.name>>: Don`t expose my identity!Otherwise..(Made a throat-cutting action)</p>'
+			'<p><<$SS.name>>: I have a doctorate in neuroscience, and I am really talented as a doctor in the sperm donation room in this third-rate hospital with cosmetic plastic surgery as its primary project.</p>'
+			'<p>I: Really or not.</p>'
+        	'<p><<$SS.name>>: Don`t expose my identity!Otherwise..(Made a throat-cutting action)</p>'
 		end
 	'</div>'
-End
+end
 
 if $args[0]="Eavesdropping":
 	'<div class="show_menu">'
@@ -66,7 +66,7 @@ if $args[0]="Eavesdropping":
 		'<p>I: ………</p>'
 		if  $SS_Event_free>=4:'<p><<$SS.name>>: I have successfully sneaked into the experimental group of the Jingyuan project and waited for the next instructions.</p><p>???: Don`t move for the time being!</p>'
 	'</div>'
-End
+end
 
 if $args[0]="Voyeur experiment":
 	$PeepingSSexperiment=0
@@ -85,10 +85,7 @@ if $args[0]="Voyeur experiment":
 		'<p>Jingyuan Project Director: Are all indicators still normal?Increase the dose and see!Didn`t you hear me?Increase the dose!</p>'
 		'<p><<$SS.name>>: <<$Panting>></p>'
 	'</div>'
-End
-
-
-
+end
 
 --- Sperm_donation_room ---------------------------------
 

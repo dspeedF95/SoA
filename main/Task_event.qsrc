@@ -7,11 +7,11 @@ my.energy-=3
 minutes+=15
 
 '<div id="right-column">'
-	gs"Energy_judgment"
-	gs'menu_time'
-	gs'menu_status_show'
-	gs'menu_option_hidden'
-	gs "BUGProlapse"
+	gs 'Energy_judgment'
+	gs 'menu_time'
+	gs 'menu_status_show'
+	gs 'menu_option_hidden'
+	gs 'BUGProlapse'
 '</div>'
 
 
@@ -38,7 +38,6 @@ if $ARGS[0]="Feed the cat":
 	
 	'<div class="button_menu">'
 		if a=0:'<div class="buttonPu1"><a href="exec:a=1 & gt ''Task_event'',''Feed the cat''">Feed the cat</a></div>'
-		
 		if $Angel_event_chain=2 and a=1 and $Bomb_incident!1:'<div class="buttonPu2"><a href="exec:gt ''Angel_event'',''Feed the cat together''"><<$TS.name>></a></div>'
 		'<div class="button"><a href="exec:minutes+=30 & gt ''Residential_area''">leave</a></div>'
 	'</div>'
@@ -76,15 +75,14 @@ if $ARGS[0]="Policewoman jacket":
 		'<div class="buttonR"><a href="exec:">Stopped</a></div>'
 		if $Task_womenpolicejacket!2:'<div class="button"><a href="exec:$Task_womenpolicejacket=1 & gt ''Residential_area''">Take care of me</a></div>'
 		if $Task_womenpolicejacket=2:'<div class="button"><a href="exec:$Task_womenpolicejacket=0 & gt ''Task_event'',''Policewoman jacket2''">Give her clothes</a></div>'
-			
 		'<div class="buttonGr"><a href="exec:gt ''Residential_area''">Ignore her</a></div>'
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>▶Random event trigger◀</p>'
-	'<p>Female police officer: Can you get a coat for me in the police station?Although I like this kind of dress, I don`t want to be tanned!As a reward, I will give you vigilante points.</p>'
-	'<p>Me: Is it compulsory labor?</p>'
-	'<p>Female police officer: Of course not. As a reward, I will give you vigilante points.</p>'
+		'<p>▶Random event trigger◀</p>'
+		'<p>Female police officer: Can you get a coat for me in the police station?Although I like this kind of dress, I don`t want to be tanned!As a reward, I will give you vigilante points.</p>'
+		'<p>Me: Is it compulsory labor?</p>'
+		'<p>Female police officer: Of course not. As a reward, I will give you vigilante points.</p>'
 	'</div>'
 end
 
@@ -97,10 +95,10 @@ if $ARGS[0]="Policewoman jacket2":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>▶Mission rewards◀</p>'
-	'<p>Female police officer: Great, so my areola won`t be tanned.</p>'
-	'<p>·Vigilante points+10</p>'
-	$Vigilantepoints+=10
+		'<p>▶Mission rewards◀</p>'
+		'<p>Female police officer: Great, so my areola won`t be tanned.</p>'
+		'<p>·Vigilante points+10</p>'
+		$Vigilantepoints+=10
 	'</div>'
 end
 
@@ -116,10 +114,10 @@ if $ARGS[0]="Play tennis":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>▶Random event trigger◀</p>'
-	'<p>Tennis girl: Little brother, I have something to do with my sparring today. Can you play with me for a while?</p>'
-	'<p>Me: Is it convenient to dress like this to catch the ball?</p>'
-	'<p>Tennis girl: Of course it`s convenient ❤ If you win ❤</p>'
+		'<p>▶Random event trigger◀</p>'
+		'<p>Tennis girl: Little brother, I have something to do with my sparring today. Can you play with me for a while?</p>'
+		'<p>Me: Is it convenient to dress like this to catch the ball?</p>'
+		'<p>Tennis girl: Of course it`s convenient ❤ If you win ❤</p>'
 	'</div>'
 end
 
@@ -133,11 +131,11 @@ if $ARGS[0]="Play tennis2":
 		'</div>'
 		
 		'<div class="dialog_menu">'
-		'<p>My physique:Lv<<my.Physical_strength>></p>'
-		'<p>Her physique:Lv<<$Tennisgirlnumber>></p>'
-		'<p>▶Random event judgment◀</p>'
-		'<p>Me: Easy!Come again!</p>'
-		'<p>Tennis girl: Little brother, you are so good!</p>'
+			'<p>My physique:Lv<<my.Physical_strength>></p>'
+			'<p>Her physique:Lv<<$Tennisgirlnumber>></p>'
+			'<p>▶Random event judgment◀</p>'
+			'<p>Me: Easy!Come again!</p>'
+			'<p>Tennis girl: Little brother, you are so good!</p>'
 		'</div>'
 	else
 		'<div class ="show_menu"><img src="images\task\网球 (10).jpg" height="492"></div>'
@@ -147,11 +145,11 @@ if $ARGS[0]="Play tennis2":
 		'</div>'
 		
 		'<div class="dialog_menu">'
-		'<p>My physique:Lv<<my.Physical_strength>></p>'
-		'<p>Her physique:Lv<<$Tennisgirlnumber>></p>'
-		'<p>▶Random event judgment◀</p>'
-		'<p>Me: Damn it!Why can`t I catch a ball?!</p>'
-		'<p>Tennis girl: Little brother, can you do it?</p>'
+			'<p>My physique:Lv<<my.Physical_strength>></p>'
+			'<p>Her physique:Lv<<$Tennisgirlnumber>></p>'
+			'<p>▶Random event judgment◀</p>'
+			'<p>Me: Damn it!Why can`t I catch a ball?!</p>'
+			'<p>Tennis girl: Little brother, can you do it?</p>'
 		'</div>'
 	end
 end
@@ -165,10 +163,10 @@ if $ARGS[0]="Play tennis3":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>▶Settlement of random events◀</p>'
-	'<p>Tennis girl: Little brother, how is your bottom bulging❤</p>'
-	'<p>Me: It shows that I am energetic!</p>'
-	'<p>Tennis girl: Actually, I like energetic boys like you the most❤</p>'
+		'<p>▶Settlement of random events◀</p>'
+		'<p>Tennis girl: Little brother, how is your bottom bulging❤</p>'
+		'<p>Me: It shows that I am energetic!</p>'
+		'<p>Tennis girl: Actually, I like energetic boys like you the most❤</p>'
 	'</div>'
 end
 
@@ -180,10 +178,10 @@ if $ARGS[0]="Play tennis4":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>·Then she sat up immediately…</p>'
-	'<p>Tennis girl: Little brother<<$words>></p>'
-	'<p>After a thrusting, I shot her in the vagina.……</p>'
-	'<p>Tennis girl: Little brother, keep this matter secret from my sparring❤</p>'
+		'<p>·Then she sat up immediately…</p>'
+		'<p>Tennis girl: Little brother<<$words>></p>'
+		'<p>After a thrusting, I shot her in the vagina.……</p>'
+		'<p>Tennis girl: Little brother, keep this matter secret from my sparring❤</p>'
 	'</div>'
 end
 
@@ -194,17 +192,16 @@ if $ARGS[0]="Fat buttocks anal plug":
 		'<div class="buttonR"><a href="exec:">Stopped</a></div>'
 		if Anal_plug=0:'<div class="buttonGn"><a href="exec:$Task_fatbuttocksanalplug=1 & gt ''Residential_area''">I will go and have a look</a></div>'
 		if Anal_plug!0:'<div class="buttonS"><a href="exec:Anal_plug=0 & gt ''Group_performation_event'',''random_Fuck_Anal plug''">Go to her house and stuff the anal plug</a></div>'
-			
 		'<div class="buttonGr"><a href="exec:gt ''Residential_area''">Ignore her</a></div>'
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>▶Random event trigger◀</p>'
-	'<p>Fat butt woman: Hey❤Handsome guy, I feel empty if I`m not stuffed in the back. Can you help me?*Pointed to her ass</p>'
-	'<p>Me: Oh?How can I help you?</p>'
-	'<p>Fat butt woman: I like the one with pink diamonds ❤ It should be sold in the store❤</p>'
-	if Anal_plug!0:'<p>Me: I think I happen to have it in my bag?</p>'
-	if Anal_plug!0:'<p>Fat butt woman: Great ❤ Can you put it on for me?</p>'
+		'<p>▶Random event trigger◀</p>'
+		'<p>Fat butt woman: Hey❤Handsome guy, I feel empty if I`m not stuffed in the back. Can you help me?*Pointed to her ass</p>'
+		'<p>Me: Oh?How can I help you?</p>'
+		'<p>Fat butt woman: I like the one with pink diamonds ❤ It should be sold in the store❤</p>'
+		if Anal_plug!0:'<p>Me: I think I happen to have it in my bag?</p>'
+		if Anal_plug!0:'<p>Fat butt woman: Great ❤ Can you put it on for me?</p>'
 	'</div>'
 end
 
@@ -216,17 +213,17 @@ if $ARGS[0]="Succubus_Incident":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>·A figure fell from the sky, you almost got knocked down by her</p>'
-	'<p>Me: Who is it?This...are you...a demon...or a succubus?</p>'
-	'<p>Succubus: Human, can you actually see me?Wait, you actually smell like Lord Devil on your body.</p>'
-	'<p>Me: Uh... are you from the land of stitching?How is Lord Devil?</p>'
-	'<p>Succubus: Ha❤ It turns out that you are the human being that Lord Demon talks about every day ❤Lord Demon misses you every day, everything is peaceful.</p>'
-	'<p>Me: Then what is the purpose of your coming here?</p>'
-	'<p>Succubus: Since you have been favored by Lord Devil, then I won`t hide it from you.We are here to catch people, to catch the last group of succubus envoys who covet to stay here and don`t want to go back.They have been playing human beings for too long and have forgotten their duties.</p>'
-	'<p>Me: Playing a human?</p>'
-	'<p>Succubus: Yes, they can easily pretend to be humans, almost the same as humans, unless they deliberately show this form like me.</p>'
-	'<p>Me: That`s it…</p>'
-	'<p>Succubus: Why do you ask that?Do you have any suspicious "candidates”?</p>'
+		'<p>·A figure fell from the sky, you almost got knocked down by her</p>'
+		'<p>Me: Who is it?This...are you...a demon...or a succubus?</p>'
+		'<p>Succubus: Human, can you actually see me?Wait, you actually smell like Lord Devil on your body.</p>'
+		'<p>Me: Uh... are you from the land of stitching?How is Lord Devil?</p>'
+		'<p>Succubus: Ha❤ It turns out that you are the human being that Lord Demon talks about every day ❤Lord Demon misses you every day, everything is peaceful.</p>'
+		'<p>Me: Then what is the purpose of your coming here?</p>'
+		'<p>Succubus: Since you have been favored by Lord Devil, then I won`t hide it from you.We are here to catch people, to catch the last group of succubus envoys who covet to stay here and don`t want to go back.They have been playing human beings for too long and have forgotten their duties.</p>'
+		'<p>Me: Playing a human?</p>'
+		'<p>Succubus: Yes, they can easily pretend to be humans, almost the same as humans, unless they deliberately show this form like me.</p>'
+		'<p>Me: That`s it…</p>'
+		'<p>Succubus: Why do you ask that?Do you have any suspicious "candidates”?</p>'
 	'</div>'
 end
 
@@ -245,10 +242,10 @@ if $ARGS[0]="Male passerby":
 	'</div>'
 	
 	'<div class="dialog_menu">'
-	'<p>▶Random event trigger◀</p>'
-	'<p>Male passerby: Hey man, I just moved to this area, is there anything fun about it?</p>'
-	'<p>Me: If you want something delicious, you can go……</p>'
-	'<p>Male passerby: Ahem, I mean... that kind of fun place ❤ you know!Buddy is nowhere to vent!</p>'
+		'<p>▶Random event trigger◀</p>'
+		'<p>Male passerby: Hey man, I just moved to this area, is there anything fun about it?</p>'
+		'<p>Me: If you want something delicious, you can go……</p>'
+		'<p>Male passerby: Ahem, I mean... that kind of fun place ❤ you know!Buddy is nowhere to vent!</p>'
 	'</div>'
 end
 
@@ -257,14 +254,14 @@ if $ARGS[0]="Hunting_passersby":
 	if q=0:
 		huntingnum=rand(1,82)
 		Huntingdifficulty=rand(50,200)
-		q=1
+		q = 1
 	end
 	'<div class ="show_menu"><img src="images\task\女A (<<huntingnum>>).jpg" height="492"></div>'
 	
 	'<div class="button_menu">'
 		if q=1:'<div class="buttonS"><a href="exec:q=2 & gt ''Task_event'',''Hunting_passersby''">Recommend medical beauty and plastic surgery</a></div>'
-		if q=2 and Huntingdifficulty<=my.intelligence*10:'<div class="buttonPu5"><a href="exec:q=0 & gt ''Plasticity_event'',''ZX_Fuck_reward''">Take her to plastic surgery</a></div>'
-		if q=2 and Huntingdifficulty>my.intelligence*10 and $Succubus_Energy>0:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & q=0 & gt ''Plasticity_event'',''ZX_Fuck_reward''"><font color="#FF00FF">Hypnosis: Compulsory plastic surgery❤</font></a></div>'
+		if q=2 and Huntingdifficulty <= my.intelligence * 10:'<div class="buttonPu5"><a href="exec:q=0 & gt ''Plasticity_event'',''ZX_Fuck_reward''">Take her to plastic surgery</a></div>'
+		if q=2 and Huntingdifficulty > my.intelligence * 10 and $Succubus_Energy > 0:'<div class="buttonPu5"><a href="exec:$Succubus_Energy-=1 & q=0 & gt ''Plasticity_event'',''ZX_Fuck_reward''"><font color="#FF00FF">Hypnosis: Compulsory plastic surgery❤</font></a></div>'
 		'<div class="button"><a href="exec:gt ''Residential_area''">Pass by</a></div>'
 	'</div>'
 	
@@ -274,7 +271,7 @@ if $ARGS[0]="Hunting_passersby":
 	'<p>▶The difficulty of persuading women:<<Huntingdifficulty>>◀</p>'
 	if q=2:
 		'<p>Me: The heart of beauty,Every woman is born with it,Even if it`s not pleasing to yourself,Also beautiful for yourself.Regardless of age,Have a beautiful heart,Pay money and action for the beauty of one`s appearance,It`s all taken for granted.It just so happens that I know that there is a place where medical beauty and plastic surgery are super awesome…</p>'
-		if Huntingdifficulty>my.intelligence*10:
+		if Huntingdifficulty > my.intelligence * 10:
 			'<p>·Persuasion judgment: ▶Complete failure▶</p>'
 		    '<p>Anxious woman: Where are you beeping and what are you beeping? Get up and go, don`t be the way.</p>'
 		else
@@ -284,10 +281,5 @@ if $ARGS[0]="Hunting_passersby":
 	end
 	'</div>'
 end
-
-
-
-
-
 --- Task_event ---------------------------------
 

@@ -16,7 +16,6 @@ minutes+=15
 
 
 if $args[0]="Offer a tribute":
-
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">
 		 <source src="images\NPC\MMS\vids\Before squeezing people.webm" type=''video/webm;''></video></div>'
@@ -36,7 +35,6 @@ if $args[0]="Offer a tribute":
 End
 
 if $args[0]="Set off now":
-
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">
 		 <source src="images\NPC\MMS\vids\夜店1-00.webm" type=''video/webm;''></video></div>'

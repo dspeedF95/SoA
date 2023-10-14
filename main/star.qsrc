@@ -1,22 +1,17 @@
 # star
 !KILLALL
 
-!Hi, hello cracker.I am the author himself. Since you can see this message, this is my message for you in the future.…
-!My code level is very rough (laughs) Many game frameworks are skinned for "Tower of Eros", you must have seen it too.
-!I feel very conflicted now. I can`t be checked by the police so that my family will have no one to accompany me.
-!Since Zhong Nanshan suggested that middle-aged and elderly people get artificial albumin to increase immunity,，1The price of a bottle of artificial albumin is from500It`s up1500, Imported ones are even more important2000+
-!It`s not easy to bear this monthly cost. If time can go back, I will seriously choose to be a programmer. This is not only my interest, but also a lot of serious money, right?
-!Alas, I don`t know what I`m talking about, I just have some words in my heart for a long time.
-!Finally, I hope this monologue will become a secret between the two of us.I hope you and your family are in good health. This is my most heartfelt wish.
-!May you be free of illness，
-!The value created is recognized.
-!
+!{Hi, hello cracker.I am the author himself. Since you can see this message, this is my message for you in the future.…
+My code level is very rough (laughs) Many game frameworks are skinned for "Tower of Eros", you must have seen it too.
+I feel very conflicted now. I can`t be checked by the police so that my family will have no one to accompany me.
+Since Zhong Nanshan suggested that middle-aged and elderly people get artificial albumin to increase immunity,，1The price of a bottle of artificial albumin is from500It`s up1500, Imported ones are even more important2000+
+It`s not easy to bear this monthly cost. If time can go back, I will seriously choose to be a programmer. This is not only my interest, but also a lot of serious money, right?
+Alas, I don`t know what I`m talking about, I just have some words in my heart for a long time.
+Finally, I hope this monologue will become a secret between the two of us.I hope you and your family are in good health. This is my most heartfelt wish.
+May you be free of illness，
+The value created is recognized.
 
-!Will life get better?The pain that accompanied me was long and deep, and now looking back... this cheap confession also seemed meaningless.
-!
-
-
-
+Will life get better?The pain that accompanied me was long and deep, and now looking back... this cheap confession also seemed meaningless.}!
 
 
 SHOWINPUT 0
@@ -40,13 +35,11 @@ DatecountJun=0
 		<a href="exec:DatecountJun=0 & OPENGAME & DatecountJun=0 "><div class="start_act"><font color="#ff1493">❤Load the game❤</font> </div></a>
 	</div>
 	
-		<div class="show_menu">'
-			 '<video preload="metadata" autoplay height="480">'
-			 '<source src="images\videos\杂\VBurning~<<rand(10,10)>>.webm" type=''video/webm;''></video></div>'
-		'</div>'
+	<div class="show_menu">'
+		 '<video preload="metadata" autoplay height="480">'
+		 '<source src="images\videos\杂\VBurning~<<rand(10,10)>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
 '</div>'
-
-
 
 --- star ---------------------------------
 

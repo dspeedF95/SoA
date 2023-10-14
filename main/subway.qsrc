@@ -21,23 +21,23 @@ if hour =17:
 	if Tram_random_number<=15: $Tram_role='B' & tramnum=tramB_num & Daily_tram=1
 	if $Tram_role='A':
 		if tramA.finish=0:
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\videos\underground\电车<<$Tram_role>>1-<<tramnum>>.webm" type=''video/webm;''></video></div>'
-		'</div>'
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\videos\underground\电车<<$Tram_role>>1-<<tramnum>>.webm" type=''video/webm;''></video></div>'
+			'</div>'
 		elseif tramA.finish=1:
-				gt'Subway_Event','Subway harassment0'
+			gt'Subway_Event','Subway harassment0'
 		end
 	end
 	
 	if $Tram_role='B':
 		if tramB.finish=0:
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\videos\underground\电车<<$Tram_role>>1-<<tramnum>>.webm" type=''video/webm;''></video></div>'
-		'</div>'
+			'<div class="show_menu">'
+				 '<video preload="metadata" autoplay loop height="480">
+				 <source src="images\videos\underground\电车<<$Tram_role>>1-<<tramnum>>.webm" type=''video/webm;''></video></div>'
+			'</div>'
 		elseif tramB.finish=1:
-				gt'Subway_Event','Subway harassment0'
+			gt'Subway_Event','Subway harassment0'
 		end
 	end
 	if tramnum=6:
@@ -52,11 +52,10 @@ if hour =17:
 	if $Tram_role='N':
 		'<div class ="show_menu"><img src="images\place\地铁.jpg" width="854"></div>'
 	end
-	
 end
 	
 if hour !17:
-'<div class ="show_menu"><img src="images\place\地铁.jpg" width="854"></div>'
+	'<div class ="show_menu"><img src="images\place\地铁.jpg" width="854"></div>'
 end
 
 '<div class="button_menu">'

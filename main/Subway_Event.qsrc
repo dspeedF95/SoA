@@ -15,24 +15,22 @@ minutes+=10
 
 if $ARGS[0]="Subway harassment0":
 !This is a judgment
- Tram_random_number=rand(4,55) 
- if $Tram_role='A': 
-	if tramA_Builtinnum>=Tram_random_number:gt 'Subway_Event','Subway harassment2'
-	if tramA_Builtinnum<=Tram_random_number:gt 'Subway_Event','Subway harassment1'
- end
- if $Tram_role='B': 
-	if tramB_Builtinnum>=Tram_random_number:gt 'Subway_Event','Subway harassment2'
-	if tramB_Builtinnum<=Tram_random_number:gt 'Subway_Event','Subway harassment1'
- end
- 
+	Tram_random_number=rand(4,55) 
+	if $Tram_role='A': 
+		if tramA_Builtinnum>=Tram_random_number:gt 'Subway_Event','Subway harassment2'
+		if tramA_Builtinnum<=Tram_random_number:gt 'Subway_Event','Subway harassment1'
+	end
+	if $Tram_role='B': 
+		if tramB_Builtinnum>=Tram_random_number:gt 'Subway_Event','Subway harassment2'
+		if tramB_Builtinnum<=Tram_random_number:gt 'Subway_Event','Subway harassment1'
+	end
 end
 
 if $ARGS[0]="Subway harassment1":
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\videos\underground\电车<<$Tram_role>>2-<<a>>.webm" type=''video/webm;''></video></div>'
-		'</div>'
-
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\underground\电车<<$Tram_role>>2-<<a>>.webm" type=''video/webm;''></video></div>'
+	'</div>'
 
 	'<div class="button_menu">'
 		if a!4:'<div class="buttonP"><a href="exec:a+=1 & my.ethics-=3 & gt ''Subway_Event'',''Subway harassment1''">It`s my turn</a></div>'
@@ -47,13 +45,13 @@ if $ARGS[0]="Subway harassment1":
 end
 
 if $ARGS[0]="Subway harassment2":
-		a=0
-		q=0
-		'<div class="show_menu">'
-			 '<video preload="metadata" autoplay loop height="480">
-			 <source src="images\videos\underground\电车<<$Tram_role>>3-0.webm" type=''video/webm;''></video></div>'
-		'</div>'
-
+	a=0
+	q=0
+	
+	'<div class="show_menu">'
+		 '<video preload="metadata" autoplay loop height="480">
+		 <source src="images\videos\underground\电车<<$Tram_role>>3-0.webm" type=''video/webm;''></video></div>'
+	'</div>'
 
 	'<div class="button_menu">'
 		 if $Tram_role='A': '<div class="buttonP"><a href="exec:gt ''Group_performation_event'',''Group_performance_Fuck_subwayA''">Take her away</a></div>'
@@ -67,8 +65,6 @@ if $ARGS[0]="Subway harassment2":
 		'<p>·The moment you two looked at each other... as if you understood it.…</p>'
 	'</div>'
 end
-
-
 
 --- Subway_Event ---------------------------------
 

@@ -1,15 +1,10 @@
 # Test_Item
-
-
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
 $dd=RAND(1,2)
 q=0 & a=0
 gs'menu_gif'
-
-
-
 
 '<div id="right-column">'
 	gs'menu_time'
@@ -27,19 +22,13 @@ gs'menu_gif'
 	</div>'
 '</div>'
 
-
-
 '<div class="show_menu">'
 	if $args[0] = 'There was an explosion after leaving':
 		'<img src="images\place\房间0.jpg" width="854">'
-
 	else
-
 		'<img src="images\place\研究所.jpg" width="854">'
-
 	end
 '</div>'
-
 
 
 '<div class="button_menu">
@@ -49,9 +38,7 @@ gs'menu_gif'
 	<div class="buttonS4"><a href="exec:$jm.love+=30 &$jm.bad+=25 & $JM_Event_grandpa=7 & gt ''Test_Item''">jimu</a></div>
 	<div class="buttonS4"><a href="exec:  gt ''Empire_Dome'',''President Liyi3''">Got it, get back to life</a></div>
 	<div class="buttonS5"><a href="exec:MM_JJ+=5 & JM_MM+=5 & JM_JJ+=5 &Exp_figure+=500&gt ''Test_Item''">Family portrait</a></div>
-	
 	<div class="button"><a href="exec:gt ''Foreground_Event'',''Throat department2''">cscs</a></div>'
-	
 '</div>'
 
 

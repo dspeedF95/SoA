@@ -1,5 +1,4 @@
 # Second_shift_in_three_years
-
 cls
 $metka = $ARGS[0]   
 $loc = $CURLOC
@@ -30,7 +29,6 @@ if $args[0]="":
 		'<p>·Not yet installed</p>'
 		'<p>·Not yet installed</p>'
 		'<p>·Not yet installed</p>'
-
 	'</div>'
 end
 
