@@ -404,7 +404,7 @@ margin-top: 10px; /* Отступ сверху */
 .option_menu{
 background:Azure;
 width:424px;
-height:62px;
+height:94px;
 float:right;
 }
 .option_gg{
@@ -513,7 +513,60 @@ overflow: auto;
 background-image: url(../content/menu/24小时+.png);
 background-size: cover;
 }
+.option_15mn{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:right;
+overflow: auto;
+background-image: url(../content/menu/15m.png);
+background-size: cover;
+}
 
+.option_1hn{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:right;
+overflow: auto;
+background-image: url(../content/menu/1hback.png);
+background-size: cover;
+}
+
+.option_3hn{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:right;
+overflow: auto;
+background-image: url(../content/menu/3hback.png);
+background-size: cover;
+}
+
+.option_6hn{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:right;
+overflow: auto;
+background-image: url(../content/menu/6hback.png);
+background-size: cover;
+}
+
+.option_24hjian{
+margin: 2px;
+background:Azure;
+width:42px;
+height:42px;
+float:right;
+overflow: auto;
+background-image: url(../content/menu/24hback.png);
+background-size: cover;
+}
 
 .option_error{
 margin: 2px;
@@ -875,7 +928,7 @@ font-size: 26px;
 /*background:white;*/
 background:Azure;
 width:424px;
-height:282px;
+height:250px;
 float:left;
 /*overflow: hidden;*/
 overflow: auto;
