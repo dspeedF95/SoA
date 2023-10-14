@@ -69,7 +69,7 @@ if $ARGS[0]="Insemination list2":
 		'<div class="button"><a href="exec:gt ''Insemination_room'',''Insemination list1''">▶Previous page</a></div>'
         if  $ZL.Insemination=1:'<div class="buttonS"><a href="exec:$m=''ZL'' & $ma=$ZL.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑥<<$ZL.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑥<<$ZL.name>></a></div>'
         if  $ZX.Insemination=1:'<div class="buttonS"><a href="exec:$m=''ZX'' & $ma=$ZX.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑦<<$ZX.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑦<<$ZX.name>></a></div>'
-		if 	$SWD.Insemination=1: '<div class="buttonS"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑧<<$SWD.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑦<<$SWD.name>></a></div>'
+		if 	$SWD.Insemination=1: '<div class="buttonS"><a href="exec:$m=''SWD'' & $ma=$SWD.name & gt ''Group_performation_event'',''Insemination shop_Fuck_exclusive''">⑧<<$SWD.name>></a></div>'else'<div class="buttonGr"><a href="exec:">⑧<<$SWD.name>></a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'
