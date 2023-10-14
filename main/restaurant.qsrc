@@ -23,7 +23,7 @@ if $ARGS[0] ="":
 		'<div class="button"><a href="exec:minutes+=5 & gt ''restaurant'',''Sister eats''">Familiar voice</a></div>'
 		end
 		if $DZ.event_meet=1 and 13<=hour and hour<=14:
-		'<div class="button"><a href="exec:minutes+=5 & gt ''Geology_Event'',''First meeting'',''et al''">Meet my sister</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''Geology_Event'',''First meeting'',''等人''">Meet my sister</a></div>'
 		end
 		if $DZ.event_Restaurant_date=1 and 18<=hour and hour<=20 and  week_day >=6:
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Geology_Event'',''Weekend date''">and<<$DZ.name>>Eat</a></div>'

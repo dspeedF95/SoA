@@ -708,10 +708,16 @@ if $args[0]="QB_Fuck_Pandecompression":
             end
         '</div>'
 
-        else
-            '<div class="button_menu">'
-                '<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
-            '</div>'
+    else
+        if $Thecompetitionbegins=999:
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''TV_station''">leave</a></div>'
+			'</div>'
+		else
+			'<div class="button_menu">'
+				'<div class="button"><a href="exec:minutes+=30 & gt ''Competition''">leave</a></div>'
+			'</div>'
+		end
     end
 
 

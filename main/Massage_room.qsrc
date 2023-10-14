@@ -167,6 +167,7 @@ if  $args[0]="Private massage4":
         if $CT.massage=1:'<div class="button"><a href="exec:$m=''CT'' & $ma=$CT.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑧<<$CT.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑧???</a></div>'
 		if $LEI.massage=1:'<div class="button"><a href="exec:$m=''LEI'' & $ma=$LEI.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">①⑨<<$LEI.name>></a></div>'else'<div class="buttonGr"><a href="exec:">①⑨???</a></div>'
         if $XN.massage=1:'<div class="button"><a href="exec:$m=''XN'' & $ma=$XN.name & gt ''Group_performation_event'',''Massage shop_Fuck_exclusive''">②⓪<<$XN.name>></a></div>'else'<div class="buttonGr"><a href="exec:">②⓪???</a></div>'
+		'<div class="button"><a href="exec:gt ''Massage_room'',''Private massage5''">▶Next page</a></div>'
 	'</div>'
 
 	'<div class="dialog_menu">'

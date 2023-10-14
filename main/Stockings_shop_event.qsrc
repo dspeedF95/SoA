@@ -89,7 +89,7 @@ if $args[0]="Stockings platform":
         '</div>'
     
         '<div class="button_menu">'
-            '<div class="button"><a href="exec:$Stockings_event_chain=2 & gt ''Big villa''">Reluctantly agreed </a></div>'
+            '<div class="button"><a href="exec:$Stockings_event_chain=2 & gt ''Big_villa''">Reluctantly agreed </a></div>'
         '</div>'
 
          '<div class="dialog_menu">'
@@ -282,7 +282,7 @@ if $args[0]="Stockings endorsement":
         '</div>'
     
         '<div class="button_menu">'
-            '<div class="button"><a href="exec:$Stockings_event_chain=5 & gt ''Big villa''">gladly agree </a></div>'
+            '<div class="button"><a href="exec:$Stockings_event_chain=5 & gt ''Big_villa''">gladly agree </a></div>'
         '</div>'
 
          '<div class="dialog_menu">'
@@ -305,7 +305,7 @@ if $args[0]="Stockings shop_Fuck_QB":
         '<div class="button_menu">'
             if a=0:
             '<div class="buttonS1"><a href="exec:a=1 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_QB''">The shooting was successfully completed</a></div>'
-            '<div class="buttonR5"><a href="exec:a=0 & q=0 & gt ''Hashimoto_Event'',''QB_Fuck_Pan decompression1''">Frown:Bad performance</a></div>'
+            '<div class="buttonR5"><a href="exec:a=0 & q=0 & gt ''Hashimoto_Event'',''QB_Fuck_Pandecompression''">Frown:Bad performance</a></div>'
             end
             if a=1:
             '<div class="buttonS2"><a href="exec:a=2 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_QB''">satisfied:Start meat compensation</a></div>'

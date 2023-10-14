@@ -69,7 +69,7 @@
 			if Sidehearing=1:
 			'<div class="action">'
 				!if  8<=hour and hour<18 and week_day <6:
-				'<a class="photo" data-title="Second shift in three years" href="exec:minutes+=5 & gt ''Second_shift_in_three years''"><img class="img_stretch" src="images\place\三年二班.jpg"></a>'
+				'<a class="photo" data-title="Second shift in three years" href="exec:minutes+=5 & gt ''Second_shift_in_three_years''"><img class="img_stretch" src="images\place\三年二班.jpg"></a>'
 				!else
 				!'<a class="photo" data-title="Temporarily closed classrooms" ><img class="img_stretch" src="images\place\教室2.jpg"></a>'
 				!End

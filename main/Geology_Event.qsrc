@@ -24,7 +24,7 @@ if $ARGS[0]="First meeting":
 	'</div>'
 
 	'<div class="button_menu">'
-		if $ARGS[1]="et al":
+		if $ARGS[1]="等人":
 		'<div class="button"><a href="exec: gt ''Geology_Event'',''First meeting'',''见面''">Say hello</a></div>'
 		end
 		if $ARGS[1]="见面":
@@ -39,7 +39,7 @@ if $ARGS[0]="First meeting":
 
 
 	'<div class="dialog_menu">'
-		if $ARGS[1]="et al.":
+		if $ARGS[1]="等人":
 		'<p>-<<$JJ.name>>: Brother!Here you are!It`s her!She is the famous icy goddess in Mgo Pharmaceutical, and she is also an excellent geological expert!At the same time, he is also my classmate and best friend!</p>'
 		end
 		
