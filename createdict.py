@@ -13,7 +13,7 @@ ifile = io.open(r'chinese.txt', 'r', encoding='utf-16')
 string_stripped_list = []
 
 for i, line in enumerate(ifile.readlines()):
-    pattern = r'data\-title\=".*?"|$(.*?(?<!ARGS[0]))(?:\>|\<|\=|\!| )|\'\'(.*?)\'\'|gs\'(.*?)\'|# (.*?)|if \$ARGS\[0\]\="(.*?)":|">(\w.*?(?<!</a>))</|p>(\w.*(?<!</a>))</p>|>>(?:\: |\:| |)(.*?)(?:<<|</p>)'
+    pattern = r'<p>(.*?(?<!</a>))<(?:/p>|a|s)|">(.*?(?<!</a>))<(?:/p|a|s|d)|(?:if |if|\$ |\$)(.*?(?<!ARGS\[0\]))(?:>|\[|<|\=|\!| )|data\-title\=".*?"|\'\'(.*?)\'\'|gs\'(.*?)\'|# (.*?)|if \$ARGS\[0\]\="(.*?)":'
     matches = re.findall(pattern, line)
     for i, tuple_of in enumerate(matches):
         matches[i] = list(tuple_of)
@@ -28,4 +28,4 @@ string_stripped_list = [string for string in string_stripped_list if string]
 res = []
 [res.append(x) for x in string_stripped_list if x not in res]
 #%%
-res.index("之罪！七大不可饶恕的罪行之一！现在，我将让众教徒为你举行赎罪仪式，你清楚你所犯下的罪名了吗？")
+string_stripped_list.index("日期计数君")
