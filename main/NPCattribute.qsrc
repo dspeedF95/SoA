@@ -1,870 +1,955 @@
 # NPCattribute
-
-if $JM.available=0:
+! Do not translate pic names or pictures will not display properly.
+if $JM.available = 0:
 	$JM.available=1
 	$JM.name = "Kaede Karen (Stepmother)"
 	$JM.love = 0
 	$JM.bad = 0
-	$JM.bio ="My father`s new love is only older than me, but he is already an executive director of a pharmaceutical company. When she was young, she broke into my life as a [family] with her two children.
+	$JM.bio = "My father`s new love is only older than me, but he is already an executive director of a pharmaceutical company. When she was young, she broke into my life as a [family] with her two children.
 				With my father in a coma and unconscious for several years.Her attitude towards me has gradually changed.....Out of courtesy, I still call her mom."
-	$JM.available=1
-End
+	$JM.available = 1
+	$JM.pic = "枫可怜(继母)"
+end
 
-if $JJ.available=0:
+if $JJ.available = 0:
 	$JJ.name = "Hatsukawa Minami (Big Sister)"
 	$JJ.love = 0
 	$JJ.bad = 0
-	$JJ.bio ="My stepsister.He loves natural sciences and is very smart. He has studied abroad since he was a child. He has only returned to China in recent years due to the impact of the epidemic. He is now doing research and development work in a pharmaceutical company in his hometown.There is a magic power beyond ordinary people for scientific research."
-	$JJ.available=1
-End
+	$JJ.bio = "My stepsister.He loves natural sciences and is very smart. He has studied abroad since he was a child. He has only returned to China in recent years due to the impact of the epidemic. He is now doing research and development work in a pharmaceutical company in his hometown.There is a magic power beyond ordinary people for scientific research."
+	$JJ.available = 1
+	$JJ.pic = "初川南(姐姐)"
+end
 
-if $MM.available=0:
+if $MM.available = 0:
 	$MM.name = "Hatsukawa Miru (Little Sister)"
 	$MM.love = 0
 	$MM.bad = 0
-	$MM.bio ="My stepsister is only a few years younger than me.He has a lively personality and is in adolescence.Very rebellious.The dream is to become an outstanding idol."
-	$MM.available=1
-End
+	$MM.bio = "My stepsister is only a few years younger than me.He has a lively personality and is in adolescence.Very rebellious.The dream is to become an outstanding idol."
+	$MM.available = 1
+	$MM.pic = "Miru(妹妹)"
+end
 
-if $DZ.available=0:
+if $DZ.available = 0:
 	$DZ.name = "Minami Kojima (Geologist)"
 	$DZ.love = 0
 	$DZ.bad = 0
-	$DZ.bio ="My sister`s colleague and best friend.I have been competing with my sister since I was a child. I am competitive and have a desire to win or lose.As an iceberg beauty, she hates the harassment of licking dogs, and blindly pursuing it will be counterproductive.I heard that there will be an unknown side after getting drunk."
-	$DZ.available=1
-End
+	$DZ.bio = "My sister`s colleague and best friend.I have been competing with my sister since I was a child. I am competitive and have a desire to win or lose.As an iceberg beauty, she hates the harassment of licking dogs, and blindly pursuing it will be counterproductive.I heard that there will be an unknown side after getting drunk."
+	$DZ.available = 1
+	$DZ.pic = "小岛南(地质学家)"
+end
 
-if $XZ.available=0:
+if $XZ.available = 0:
 	$XZ.name = "Mio Kimijima (Principal)"
 	$XZ.love = 0
 	$XZ.bad = 0
-	$XZ.bio ="He looks very strong on the outside, but at the same time his methods are very cold.However, she also has an ulterior secret, which makes her heart full of contradictions and tension. If this secret is revealed, it may make her power disappear."
-End
+	$XZ.bio = "He looks very strong on the outside, but at the same time his methods are very cold.However, she also has an ulterior secret, which makes her heart full of contradictions and tension. If this secret is revealed, it may make her power disappear."
+	$XZ.pic = "君岛美绪(校长)"
+end
 
-if $FXZ.available=0:
+if $FXZ.available = 0:
 	$FXZ.name = "Shinoda Yu (Vice Principal)"
 	$FXZ.love = 0
 	$FXZ.bad = 0
-	$FXZ.bio ="This female vice principal is not a perfect person. Although she is very ambitious and eager to become the principal, her family life is not going well.The relationship between her and her daughter is not good. It may be because she is too busy with work and ignores the family, or it may be because she has too high expectations of her daughter, which makes her feel a lot of pressure.Nevertheless, she is still firmly pursuing her dream, hoping to become the president of the university, and is willing to give everything."
-End
+	$FXZ.bio = "This female vice principal is not a perfect person. Although she is very ambitious and eager to become the principal, her family life is not going well.The relationship between her and her daughter is not good. It may be because she is too busy with work and ignores the family, or it may be because she has too high expectations of her daughter, which makes her feel a lot of pressure.Nevertheless, she is still firmly pursuing her dream, hoping to become the president of the university, and is willing to give everything."
+	$FXZ.pic = "篠田优(副校长)"
+end
 
-if $XY.available=0:
+if $XY.available = 0:
 	$XY.name = "Kurea Hasumi (Spanish Teacher)"
 	$XY.love = 0
 	$XY.bad = 0
-	$XY.bio ="She is a Spanish teacher in the university, quite beautiful and very charming.She is obsessed with luxury goods and is a gold worshipper.She values money very much, and she can even be said to be greedy.She likes a luxurious lifestyle and uses all means to pursue her goals.She once said that only by experiencing sad things can people become mature."
-End
+	$XY.bio = "She is a Spanish teacher in the university, quite beautiful and very charming.She is obsessed with luxury goods and is a gold worshipper.She values money very much, and she can even be said to be greedy.She likes a luxurious lifestyle and uses all means to pursue her goals.She once said that only by experiencing sad things can people become mature."
+	$XY.pic = "莲实克蕾雅(西语教师)"
+end
 
-if $SW.available=0:
+if $SW.available = 0:
 	$SW.name = "Osawa Yuka (Biology Teacher)"
 	$SW.love = 0
 	$SW.bad = 0
-	$SW.bio ="In addition to teaching biology in school, she also does door-to-door “cooking class” tutoring in private.Her hobbies are dating and sleeping with men.She values masculinity very much, and has abnormal expectations for sexual behavior, often making her desires unsatisfactory.She may be a person with a strong sexual desire and likes to try various novel ways of sex.However, she may also have fallen into an unhealthy sex life because she was too indulgent in her libido, resulting in physical and mental harm."
-End
+	$SW.bio = "In addition to teaching biology in school, she also does door-to-door “cooking class” tutoring in private.Her hobbies are dating and sleeping with men.She values masculinity very much, and has abnormal expectations for sexual behavior, often making her desires unsatisfactory.She may be a person with a strong sexual desire and likes to try various novel ways of sex.However, she may also have fallen into an unhealthy sex life because she was too indulgent in her libido, resulting in physical and mental harm."
+	$SW.pic = "大沢佑香(生物教师)"
+end
 
-if $RION.available=0:
+if $RION.available = 0:
 	$RION.name = "Rion (Immigration Officer)"
 	$RION.love = 0
 	$RION.bad = 0
-	$RION.bio ="<<$DZ.name>>My cousin is doing immigration review work at the Entry-exit Administration.Usually, the auditor will check the purpose and length of stay of the passenger, and conduct a physical examination of the passenger to ensure his or her good health."
-End
+	$RION.bio = "<<$DZ.name>>My cousin is doing immigration review work at the Entry-exit Administration.Usually, the auditor will check the purpose and length of stay of the passenger, and conduct a physical examination of the passenger to ensure his or her good health."
+	$Rion.pic = "Rion(入境审核官)"
+end
 
-if $TS.available=0:
+if $TS.available = 0:
 	$TS.name = "Meng Tianshi (Empire Entertainment COO)"
 	$TS.love = 0
 	$TS.bad = 0
-	$TS.bio ="Once a second-generation trainee of Empire Entertainment, in a state of non-appointment, he still cooperated with the release of the album and the promotion of his solo concert as scheduled, and survived batch after batch of trainees.He is now the youngest chief operating officer of Empire Entertainment."
-End
+	$TS.bio = "Once a second-generation trainee of Empire Entertainment, in a state of non-appointment, he still cooperated with the release of the album and the promotion of his solo concert as scheduled, and survived batch after batch of trainees.He is now the youngest chief operating officer of Empire Entertainment."
+	$TS.pic = "天使萌(帝国娱乐COO)"
+end
 
-if $YZ.available=0:
+if $YZ.available = 0:
 	$YZ.name = "Takigawa Eri (Hospital Director)"
 	$YZ.love = 0
 	$YZ.bad = 0
-	$YZ.bio ="Within three years of taking office, the transformation of the hospital was completed, from a national excellent model hospital to an independent female plastic surgery hospital.Proficient in multiple languages and good at multi-use."
-End
+	$YZ.bio = "Within three years of taking office, the transformation of the hospital was completed, from a national excellent model hospital to an independent female plastic surgery hospital.Proficient in multiple languages and good at multi-use."
+	$YZ.pic = "滝川恵理(医院院长)"
+end
 
-if $HS.available=0:
+if $HS.available = 0:
 	$HS.name = "Akari Tsumugi (Nurse)"
 	$HS.love = 0
 	$HS.bad = 0
-	$HS.bio ="The hospital is responsible for secondary patients/Special drug test experiment24Hour exclusive oral sex nurse!"
-End
+	$HS.bio = "The hospital is responsible for secondary patients/Special drug test experiment24Hour exclusive oral sex nurse!"
+	$HS.pic = "明里紬(护士)"
+end
 
-if $NK.available=0:
+if $NK.available = 0:
 	$NK.name = "Mizuna Rei (Gynecologist)"
 	$NK.love = 0
 	$NK.bad = 0
-	$NK.bio ="The andrology doctor in the hospital published three blockbuster research papers in one breath,So that we can transcend inherent concepts,Have a new understanding of male erectile dysfunction."
-End
+	$NK.bio = "The andrology doctor in the hospital published three blockbuster research papers in one breath,So that we can transcend inherent concepts,Have a new understanding of male erectile dysfunction."
+	$NK.pic = "水菜丽(男科医生)"
+end
 
-if $ZX.available=0:
+if $ZX.available = 0:
 	$ZX.name = "Fukada Eimi (Plastic Surgeon)"
 	$ZX.love = 0
 	$ZX.bad = 0
-	$ZX.bio ="Known as the “strongest artificial human”<<$ZX.name>>It has supported the core business of private hospitals.Her surgical skills are very superb and she can perform various complex plastic surgeries, but some people criticize her breasts for being too hard."
-End
+	$ZX.bio = "Known as the “strongest artificial human”<<$ZX.name>>It has supported the core business of private hospitals.Her surgical skills are very superb and she can perform various complex plastic surgeries, but some people criticize her breasts for being too hard."
+	$ZX.pic = "深田咏美(整形医生)"
+end
 
-if $SF.available=0:
+if $SF.available = 0:
 	$SF.name = "Shunka Ayami(Gangster Wife)"
 	$SF.love = 0
 	$SF.bad = 0
-	$SF.bio ="She once lived a luxurious life on the power and money of her boyfriend.But now, everything may disappear, and she doesn`t know what to do."
-End
+	$SF.bio = "She once lived a luxurious life on the power and money of her boyfriend.But now, everything may disappear, and she doesn`t know what to do."
+	$SF.pic = "彩美旬果(黑道少妇)"
+end
 
-if $YS.available=0:
+if $YS.available = 0:
 	$YS.name = "Shinoda Ayumi (Gangster Widow)"
 	$YS.love = 0
 	$YS.bad = 0
-	$YS.bio ="She lost her husband and felt lonely and helpless.She may feel angry and vengeful, and will do everything she can to achieve her goal-to monopolize the inheritance."
-End
+	$YS.bio = "S篠田步美(黑道遗孀)he lost her husband and felt lonely and helpless.She may feel angry and vengeful, and will do everything she can to achieve her goal-to monopolize the inheritance."
+	$YS.pic = ""
+end
 
 
-if $ZL.available=0:
+if $ZL.available = 0:
 	$ZL.name = "Shuri Atomi (Prostitute)"
 	$ZL.love = 0
 	$ZL.bad = 0
 	$ZL.bio ="She had always thought that her brother was a reliable person, but now she found that he was an irresponsible person, putting her in a very dangerous situation.She may feel scared, scared and helpless, because she has to join the work of helping friends now, she doesn`t know what kind of treatment she will receive, and she doesn`t know what will happen in the future."
-End
+	$ZL.pic = "迹美朱里(援交妹)"
+end
 
-if $LJ.available=0:
+if $LJ.available = 0:
 	$LJ.name = "Abe Mikako (Repeat Student)"
 	$LJ.love = 0
 	$LJ.bad = 0
-	$LJ.bio ="She was unable to concentrate on her studies due to family reasons. Her parents` lack of educational support or other family problems caused this situation."
-End
+	$LJ.bio = "She was unable to concentrate on her studies due to family reasons. Her parents` lack of educational support or other family problems caused this situation."
+	$LJ.pic = "安部未華子(留级生)"
+end
 
-if $SY.available=0:
+if $SY.available = 0:
 	$SY.name = "Uehara Ai (Slutty Wife)"
 	$SY.love = 0
 	$SY.bad = 0
-	$SY.bio ="<<$LJ.name>>The mother, whose husband was assigned to work in a quarry because of the new policy, gradually became addicted to a depraved and wandering life."
-End
+	$SY.bio = "<<$LJ.name>>The mother, whose husband was assigned to work in a quarry because of the new policy, gradually became addicted to a depraved and wandering life."
+	$SY.pic = "上原亜衣(风俗娘)"
+end
 
-if $ZJ.available=0:
+if $ZJ.available = 0:
 	$ZJ.name = "Sazanami Aya (Writer)"
 	$ZJ.love = 0
 	$ZJ.bad = 0
-	$ZJ.bio ="<<$FXZ.name>>My daughter, for some reason, couldn`t go out behind closed doors all day."
-End
+	$ZJ.bio ="<<$FXZ.name>> My daughter, for some reason, couldn`t go out behind closed doors all day."
+	$ZJ.pic = "佐佐波绫(作家)"
+end
 
-if $WQ.available=0:
+if $WQ.available = 0:
 	$WQ.name = "Ito Mayuki (Hot Spring Owner)"
 	$WQ.love = 0
 	$WQ.bad = 0
-	$WQ.bio ="The owner of the hot spring shop.The hot spring shop is a place that specializes in relaxation and physical and mental relaxation, so the owner may be very enthusiastic and can make guests feel comfortable and welcome."
-End
+	$WQ.bio = "The owner of the hot spring shop.The hot spring shop is a place that specializes in relaxation and physical and mental relaxation, so the owner may be very enthusiastic and can make guests feel comfortable and welcome."
+	$WQ.pic = "伊藤舞雪(温泉老板娘)"
+end
 
-if $HZ.available=0:
+if $HZ.available = 0:
 	$HZ.name = "Hazuki Reira (Student Council President)"
 	$HZ.love = 0
 	$HZ.bad = 0
-	$HZ.bio ="Student president.Full of hostility to men, no matter what the specific reason is, this kind of hatred is irrational, and it may have a serious impact on her interpersonal relationships."
-End
+	$HZ.bio = "Student president.Full of hostility to men, no matter what the specific reason is, this kind of hatred is irrational, and it may have a serious impact on her interpersonal relationships."
+	$HZ.pic = "葉月蕾拉(学生会长)"
+end
 
-if $DYZ.available=0:
+if $DYZ.available = 0:
 	$DYZ.name = "Nagai Maria (Prison Warden)"
 	$DYZ.love = 0
 	$DYZ.bad = 0
-	$DYZ.bio ="Warden of the prison.She is responsible for supervising all prisoners, ensuring safety, and maintaining order in the prison.As the warden, she may organize and manage staff and supervise day-to-day operations.She is also responsible for coordinating cooperation with other agencies, including the police and prosecutors.She may review the files of prisoners and decide on their detention time and sentence."
-End
+	$DYZ.bio = "Warden of the prison.She is responsible for supervising all prisoners, ensuring safety, and maintaining order in the prison.As the warden, she may organize and manage staff and supervise day-to-day operations.She is also responsible for coordinating cooperation with other agencies, including the police and prosecutors.She may review the files of prisoners and decide on their detention time and sentence."
+	$DYZ.pic = "永井玛利亚(典狱长)"
+end
 
-if $YJ.available=0:
+if $YJ.available = 0:
 	$YJ.name = "Sato Eru (Prison Guard)"
 	$YJ.love = 0
 	$YJ.bad = 0
-	$YJ.bio ="She is responsible for maintaining order in the prison and ensuring the safety of prisoners.As a prison guard, she may perform some daily tasks, including patrolling prisons, searching cells, supervising prisoners` activities and taking action if necessary."
-End
+	$YJ.bio = "She is responsible for maintaining order in the prison and ensuring the safety of prisoners.As a prison guard, she may perform some daily tasks, including patrolling prisons, searching cells, supervising prisoners` activities and taking action if necessary."
+	$YJ.pic = "佐藤惠琉(狱警)"
+end
 
-if $ZXG.available=0:
+if $ZXG.available = 0:
 	$ZXG.name = "Suzumori Remu (Ejaculation Officer)"
 	$ZXG.love = 0
 	$ZXG.bad = 0
-	$ZXG.bio ="As an ejaculation executive, her job is to use her mouth and hands to help male prisoners solve their physiological needs.This kind of occupation requires women to have good psychological qualities and be able to adapt to a difficult working environment.They need to receive professional training in order to provide safe, comfortable and efficient services to prisoners at work.Although the work of female prison officers is not common, in some cases, their work is very important to protect the basic human rights of prisoners."
-End
+	$ZXG.bio = "As an ejaculation executive, her job is to use her mouth and hands to help male prisoners solve their physiological needs.This kind of occupation requires women to have good psychological qualities and be able to adapt to a difficult working environment.They need to receive professional training in order to provide safe, comfortable and efficient services to prisoners at work.Although the work of female prison officers is not common, in some cases, their work is very important to protect the basic human rights of prisoners."
+	$ZXG.pic = "涼森玲夢(射精执行官)"
+end
 
-if $JZ.available=0:
+if $JZ.available = 0:
 	$JZ.name = "Julia (Chief of Police)"
 	$JZ.love = 0
 	$JZ.bad = 0
-	$JZ.bio ="The chief of police, she may do evil or corrupt things in private to satisfy her desires, rather than really helping the people.He is considered by the outside world to be a person who only cares about his own interests and power."
-End
+	$JZ.bio = "The chief of police, she may do evil or corrupt things in private to satisfy her desires, rather than really helping the people.He is considered by the outside world to be a person who only cares about his own interests and power."
+	$JZ.pic = "Julia(警局局长)"
+end
 
-if $JY.available=0:
+if $JY.available = 0:
 	$JY.name = "Momonogi Kana (Police officer)"
 	$JY.love = 0
 	$JY.bad = 0
-	$JY.bio ="A police officer who has not been in office for a long time has experienced something that made her sad in the past.She hopes to use other things to forget about it."
-End
+	$JY.bio = "A police officer who has not been in office for a long time has experienced something that made her sad in the past.She hopes to use other things to forget about it."
+	$JY.pic = "桃乃木香奈(警员)"
+end
 
-if $SS.available=0:
+if $SS.available = 0:
 	$SS.name = "Tia"
 	$SS.love = 0
 	$SS.bad = 0
-	$SS.bio ="Witnesses in need of protection?Despite her beautiful appearance, “the more beautiful a woman is, the more she will lie.”"
-End
+	$SS.bio = "Witnesses in need of protection? Despite her beautiful appearance, “the more beautiful a woman is, the more she will lie.”"
+	$SS.pic = "Tia"
+end
 
-if $OX.available=0:
+if $OX.available = 0:
 	$OX.name = "Kizuna Sakura (Former Gravure Idol)"
 	$OX.love = 0
 	$OX.bad = 0
-	$OX.bio ="A popular photo idol a while ago, it was a Japanese female photo idol.PSA member of the first phase of リート, he used to work in a maid-themed cafe in Akihabara, Japan.Age, height and weight are confidential."
-End
+	$OX.bio = "A popular photo idol a while ago, it was a Japanese female photo idol.PSA member of the first phase of リート, he used to work in a maid-themed cafe in Akihabara, Japan.Age, height and weight are confidential."
+	$OX.pic = "佐仓绊(前写真偶像)"
+end
 
-if $JK.available=0:
+if $JK.available = 0:
 	$JK.name = "Saeki Yumika (Empire Health CMO)"
 	$JK.love = 0
 	$JK.bad = 0
-	$JK.bio ="The chief marketing director of Imperial Health is responsible for keeping in touch with potential customers and promoting the company`s “fine cattle service” to them.This service aims to provide customers with the highest quality health care and health management services to help them improve their quality of life.The chief marketing director is also responsible for formulating and implementing marketing strategies to improve the company`s sales performance."
-End
+	$JK.bio = "The chief marketing director of Imperial Health is responsible for keeping in touch with potential customers and promoting the company`s “fine cattle service” to them.This service aims to provide customers with the highest quality health care and health management services to help them improve their quality of life.The chief marketing director is also responsible for formulating and implementing marketing strategies to improve the company`s sales performance."
+	$JK.pic = "佐伯由美香(帝国健康CMO)"
+end
 
-if $DL.available=0:
+if $DL.available = 0:
 	$DL.name = "Dilly (Local Representative)"
 	$DL.love = 0
 	$DL.bad = 0
-	$DL.bio ="Resident representative of a foreign mission.Responsible for establishing contacts with local women`s leadership organizations and institutions to promote mutual cooperation and exchanges."
-End
+	$DL.bio = "Resident representative of a foreign mission.Responsible for establishing contacts with local women`s leadership organizations and institutions to promote mutual cooperation and exchanges."
+	$DL.pic = "迪莉(驻地代表)"
+end
 
-if $LY.available=0:
+if $LY.available = 0:
 	$LY.name = "Aiga Mizuki (Amateur Streamer)"
 	$LY.love = 0
 	$LY.bad = 0
-	$LY.bio ="Once an amateur anchor, she always had a vision for life in a big city.However, after coming here, she realized that her imagination was not so beautiful.The gorgeous high-rise buildings and brightly lit streets made her feel lonely and at a loss.The dream she had was far from reality, making her feel helpless and disappointed."
-End
+	$LY.bio = "Once an amateur anchor, she always had a vision for life in a big city.However, after coming here, she realized that her imagination was not so beautiful.The gorgeous high-rise buildings and brightly lit streets made her feel lonely and at a loss.The dream she had was far from reality, making her feel helpless and disappointed."
+	$LY.pic = "藍芽水月(业余主播)"
+end
 
-if $WN.available=0:
+if $WN.available = 0:
 	$WN.name = "Hamasaki Mao (Stripper)"
 	$WN.love = 0
 	$WN.bad = 0
-	$WN.bio ="She is an excellent stripper, glamorous, beautiful dancing, and loved by the audience.As a cadre of the Hot Girl Gang, she has an optimistic and cheerful personality and is an absolute supporter of hedonism."
-End
+	$WN.bio = "She is an excellent stripper, glamorous, beautiful dancing, and loved by the audience.As a cadre of the Hot Girl Gang, she has an optimistic and cheerful personality and is an absolute supporter of hedonism."
+	$WN.pic = "浜崎真緒(脱衣舞娘)"
+end
 
-if $EDM.available=0:
+if $EDM.available = 0:
 	$EDM.name = "AIKA (Second generation Leader)"
 	$EDM.love = 0
 	$EDM.bad = 0
-	$EDM.bio ="The second-generation leader of the Hot Girl Gang, with a strong personality, obsessed with challenges, has a passionate heart, and is very charming."
-End
+	$EDM.bio = "The second-generation leader of the Hot Girl Gang, with a strong personality, obsessed with challenges, has a passionate heart, and is very charming."
+	$EDM.pic = "AIKA(二代目)"
+end
 
-if $YDM.available=0:
+if $YDM.available = 0:
 	$YDM.name = "Kirishima Rino (First Generation Leader)"
 	$YDM.love = 0
 	$YDM.bad = 0
-	$YDM.bio ="The leader of the Hot girl Gang, the leader of a generation, was imprisoned for committing certain crimes.She has some background and connections, and even in prison she still stands proudly and indomitable."
-End
+	$YDM.bio = "The leader of the Hot girl Gang, the leader of a generation, was imprisoned for committing certain crimes.She has some background and connections, and even in prison she still stands proudly and indomitable."
+	$YDM.pic = "桐嶋莉乃(一代目)"
+end
 
-if $NY.available=0:
+if $NY.available = 0:
 	$NY.name = "Yoshizawa Akiho (Imperial Energy CTO)"
 	$NY.love = 0
 	$NY.bad = 0
-	$NY.bio ="She is the chief technology officer of Imperial Energy and claims to be an excellent technology leader.In the past few years, she has been committed to promoting the technological development of Imperial energy and has achieved remarkable achievements.She firmly believes that only continuous innovation can make her invincible in the highly competitive energy industry."
-End
+	$NY.bio = "She is the chief technology officer of Imperial Energy and claims to be an excellent technology leader.In the past few years, she has been committed to promoting the technological development of Imperial energy and has achieved remarkable achievements.She firmly believes that only continuous innovation can make her invincible in the highly competitive energy industry."
+	$NY.pic = "吉沢明歩(帝国能源CTO)"
+end
 
-if $MS.available=0:
+if $MS.available = 0:
 	$MS.name = "Kiriyama Yuuha (Secretary)"
 	$MS.love = 0
 	$MS.bad = 0
 	$MS.bio ="Life in the big city is not satisfactory. In order to make a living, she offered to work for me for free.This is an offer that is difficult for me to refuse.I once saw her crying alone in the middle of the night, but after a full night`s sleep, as soon as the sun rises the next day, she can still continue to work with full energy."
-End
+	$MS.pic = "桐山結羽(秘书)"
+end
 
-if $WH.available=0:
+if $WH.available = 0:
 	$WH.name = "Nanasawa Mia (Internet Celebrity)"
 	$WH.love = 0
 	$WH.bad = 0
 	$WH.bio ="This female net celebrity has a sweet face, fair and delicate skin, big and bright eyes, rosy lips, and slightly upturned, giving people a lovely feeling.But in private, she is a gold worshipper who can give up morality for money.[Her plot has been completely reset, please go home and swipe Douyin to reset the plot line]"
-End
+	$WH.pic = "七澤米亞(网红)"
+end
 
-if $TZ.available=0:
+if $TZ.available = 0:
 	$TZ.name = "Yamagishi Aika (TV Station Director)"
 	$TZ.love = 0
 	$TZ.bad = 0
-	$TZ.bio ="As the director of the TV station, ratings are her most important data. She actively listens to opinions and hopes that the TV station can reproduce its glory under her leadership."
-End
+	$TZ.bio = "As the director of the TV station, ratings are her most important data. She actively listens to opinions and hopes that the TV station can reproduce its glory under her leadership."
+	$TZ.pic = "山岸逢花(电视台长)"
+end
 
-if $XS.available=0:
+if $XS.available = 0:
 	$XS.name = "Saito Amiri (Sales)"
 	$XS.love = 0
 	$XS.bad = 0
-	$XS.bio ="She is a female luxury car salesman. She knows her strengths very well. She does not believe that knowledge can change her destiny. She believes that her decisions and actions are the key factors in determining her destiny."
-End
+	$XS.bio = "She is a female luxury car salesman. She knows her strengths very well. She does not believe that knowledge can change her destiny. She believes that her decisions and actions are the key factors in determining her destiny."
+	$XS.pic = "斋藤亚美里(销售)"
+end
 
-if $QT.available=0:
+if $QT.available = 0:
 	$QT.name = "Aizawa Minami (Front Desk)"
 	$QT.love = 0
 	$QT.bad = 0
-	$QT.bio ="Although she performed well in the front desk job of the city hall, her dream was to become an announcer.She has participated in interviews with announcers many times, but failed each time, which made her very frustrated.The daily front desk work caused her to cough, and her vocal cords had problems and her voice became hoarse and not smooth.She couldn`t give up this job, but this was another obstacle to her becoming an announcer."
-End
+	$QT.bio = "Although she performed well in the front desk job of the city hall, her dream was to become an announcer.She has participated in interviews with announcers many times, but failed each time, which made her very frustrated.The daily front desk work caused her to cough, and her vocal cords had problems and her voice became hoarse and not smooth.She couldn`t give up this job, but this was another obstacle to her becoming an announcer."
+	$QT.pic = "相沢南(前台)"
+end
 
-if $QB.available=0:
+if $QB.available = 0:
 	$QB.name = "Hashimoto Arina (Intern)"
 	$QB.love = 0
 	$QB.bad = 0
-	$QB.bio ="As an ignorant student who just graduated from university, she chose to come to the TV station for an internship. During the internship period, she was faced with a tricky decision: to become an idol star or to become a host.This is a very challenging decision because both are very different occupations and both require different skills and experience.[Although the appearance is not outstanding now, the future can be expected as long as it is fine-tuned.】"
-End
+	$QB.bio = "As an ignorant student who just graduated from university, she chose to come to the TV station for an internship. During the internship period, she was faced with a tricky decision: to become an idol star or to become a host.This is a very challenging decision because both are very different occupations and both require different skills and experience.[Although the appearance is not outstanding now, the future can be expected as long as it is fine-tuned.】"
+	$QB.pic = "桥本有菜(实习生)"
+end
 
-if $BD.available=0:
+if $BD.available = 0:
 	$BD.name = "Misaki Nanami (Editor-in-chief)"
 	$BD.love = 0
 	$BD.bad = 0
-	$BD.bio ="As the chief editor-in-chief of a television station, she needs to face various complex issues, such as editing programs, arranging filming, controlling the quality of programs, etc. These tasks require her to spend a lot of energy and time, so she hopes that someone can stand up and share some pressure for her, and she is eager for the release of pressure."
-End
+	$BD.bio = "As the chief editor-in-chief of a television station, she needs to face various complex issues, such as editing programs, arranging filming, controlling the quality of programs, etc. These tasks require her to spend a lot of energy and time, so she hopes that someone can stand up and share some pressure for her, and she is eager for the release of pressure."
+	$BD.pic = "岬奈奈美(总编导)"
+end
 
-if $GJ.available=0:
+if $GJ.available = 0:
 	$GJ.name = "Hirose Riona(Previous Year's Champion)"
 	$GJ.love = 0
 	$GJ.bad = 0
-	$GJ.bio ="In the final of the last draft, because of strong competitors<<$SSYY.NAME>>She withdrew from the competition and became the champion, which made the outside world full of doubts about her, and she was very eager to prove herself."
-End
+	$GJ.bio = "In the final of the last draft, because of strong competitors<<$SSYY.NAME>>She withdrew from the competition and became the champion, which made the outside world full of doubts about her, and she was very eager to prove herself."
+	$GJ.pic = "広瀬里緒菜(上届冠军)"
+end
 
-if $GS.available=0:
+if $GS.available = 0:
 	$GS.name = "Honjo Suzu (Singer)"
 	$GS.love = 0
 	$GS.bad = 0
-	$GS.bio ="She aspires to become a successful singer. In order to realize her dream, she keeps working hard to create music and perform on various occasions.She firmly believes in her talents and abilities, and keeps moving forward on the road of chasing her dreams."
-End
+	$GS.bio = "She aspires to become a successful singer. In order to realize her dream, she keeps working hard to create music and perform on various occasions.She firmly believes in her talents and abilities, and keeps moving forward on the road of chasing her dreams."
+	$GS.pic = "本庄鈴(歌手)"
+end
 
-if $XM.available=0:
+if $XM.available = 0:
 	$XM.name = "Aozora Hikari (School Girl)"
 	$XM.love = 0
 	$XM.bad = 0
 	$XM.bio ="The school girl in the lower grade group is an unruly and pungent image in the eyes of others, but under her cold and savage appearance is curiosity and desire for sex.Her family is in a normal situation, and she hopes to find a high-paying job to subsidize her family.She cares more about whether the subject`s Physical strength is excellent than her appearance.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
-End
+	$XM.pic = "青空光(学妹)"
+end
 
-if $PW.available=0:
+if $PW.available = 0:
     $PW.name = "Asuka Kirara (Judge)"
     $PW.love = 0
     $PW.bad = 0
-    $PW.bio ="Famous actors, singers, and models with deep qualifications. In addition to the popularity of the film, the peripheral products released by the film company for her are also quite special and popular, such as the “nipple top card” with clear nipple prints... This has accumulated a super high popularity for her."
-End
+    $PW.bio = "Famous actors, singers, and models with deep qualifications. In addition to the popularity of the film, the peripheral products released by the film company for her are also quite special and popular, such as the “nipple top card” with clear nipple prints... This has accumulated a super high popularity for her."
+	$PW.pic = "明日花绮罗(评委)"
+end
 
-if $SSYY.available=0:
+if $SSYY.available = 0:
     $SSYY.name = "Kito Momona (Popular Idol)"
     $SSYY.love = 0
     $SSYY.bad = 0
-    $SSYY.bio ="He used to be a well-known photo idol, but he was downgraded to a trainee due to the leakage of indecent photos.After the sutra <<$PW.name>> After some operation support, public opinion was reversed and defeated<<$OX.name>>, Has become the most popular and highest-selling photo idol in contemporary times, and is currently active in many fields such as film and television, variety shows, and movies."
-End
+    $SSYY.bio = "He used to be a well-known photo idol, but he was downgraded to a trainee due to the leakage of indecent photos.After the sutra <<$PW.name>> After some operation support, public opinion was reversed and defeated<<$OX.name>>, Has become the most popular and highest-selling photo idol in contemporary times, and is currently active in many fields such as film and television, variety shows, and movies."
+	$SSYY.pic = "三上悠亚(当红偶像)"
+end
 
-if $SX.available=0:
+if $SX.available = 0:
     $SX.name = "Momotani Erika (Lost Girl)"
     $SX.love = 0
     $SX.bad = 0
-    $SX.bio ="It is said that the girl who came to this city from sinful Gotham had nothing, hoping to find a place to live in this city.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
-End
+    $SX.bio = "It is said that the girl who came to this city from sinful Gotham had nothing, hoping to find a place to live in this city.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
+	$SX.pic = "桃谷绘里香(失乡少女)"
+end
 
-if $DD.available=0:
+if $DD.available = 0:
     $DD.name = "Sonoda Mion (Ejaculation Supervisor)"
     $DD.love = 0
     $DD.bad = 0
-    $DD.bio ="She has an outstanding temperament and a tall figure. She has been deeply engaged in special departments for many years and has served as an administrative supervisor.However, during a supervision process, she had a personal relationship with a criminal and concealed the fact that he was “infertile”, which seriously violated the regulations."
-End
+    $DD.bio = "She has an outstanding temperament and a tall figure. She has been deeply engaged in special departments for many years and has served as an administrative supervisor.However, during a supervision process, she had a personal relationship with a criminal and concealed the fact that he was “infertile”, which seriously violated the regulations."
+	$DD.pic = "园田美樱(射精督导官)"
+end
 
-if $TJ.available=0:
+if $TJ.available = 0:
     $TJ.name = "Nagase Minamo (Chief Statistician)"
     $TJ.love = 0
     $TJ.bad = 0
-    $TJ.bio ="She changed her career from the women`s fighting industry and is mainly responsible for ejaculation statistics.This was originally a casual job, but she was more keen to enforce the law in person. In repeated involuntary law enforcement, several men were in a dangerous situation of shock and rescue due to violent law enforcement.There is also a rumor that she discovered an abnormal situation in the statistics and was framed."
-End
+    $TJ.bio = "She changed her career from the women`s fighting industry and is mainly responsible for ejaculation statistics.This was originally a casual job, but she was more keen to enforce the law in person. In repeated involuntary law enforcement, several men were in a dangerous situation of shock and rescue due to violent law enforcement.There is also a rumor that she discovered an abnormal situation in the statistics and was framed."
+	$TJ.pic = "永瀨未萌(射精统计官)"
+end
 
-if $DC.available=0:
+if $DC.available = 0:
     $DC.name = "Mizuki Miri (Senior Inspector)"
     $DC.love = 0
     $DC.bad = 0
-    $DC.bio ="She is one of the few senior inspectors, known as the Empire`s first beautiful agent, with a capable personality, fair and selfless work, and absolute rationality, but there will also be an unknown side to people with good intentions.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
-End
+    $DC.bio = "She is one of the few senior inspectors, known as the Empire`s first beautiful agent, with a capable personality, fair and selfless work, and absolute rationality, but there will also be an unknown side to people with good intentions.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
+	$DC.pic = "水川堇(高级督察)"
+end
 
-if $XZDZ.available=0:
+if $XZDZ.available = 0:
     $XZDZ.name = "Kizaki Jessica (Chief Detective)"
     $XZDZ.love = 0
     $XZDZ.bad = 0
-    $XZDZ.bio ="After the mysterious disappearance of the former captain, she took on this position after some twists and turns.Although she is very capable in front of the camera, she actually does not have the ability to handle cases independently.Her position is not firm, and sometimes she is swayed by chaebol forces and even compromises with them.This makes some team members dissatisfied, thinking that she sometimes abandons principles and bottom lines and makes decisions that are not conducive to the entire team for her own personal gain."
-End
+    $XZDZ.bio = "After the mysterious disappearance of the former captain, she took on this position after some twists and turns.Although she is very capable in front of the camera, she actually does not have the ability to handle cases independently.Her position is not firm, and sometimes she is swayed by chaebol forces and even compromises with them.This makes some team members dissatisfied, thinking that she sometimes abandons principles and bottom lines and makes decisions that are not conducive to the entire team for her own personal gain."
+	$XZDZ.pic = "希崎杰西卡(刑侦队长)"
+end
 
-if $JB.available=0:
+if $JB.available = 0:
     $JB.name = "Tsujimiya Sara (Bartender)"
     $JB.love = 0
     $JB.bad = 0
-    $JB.bio ="Sexy hot girls are quite popular.Original night essence NestCLUBThe characteristic bartender, but for some reasons he changed jobs to the red restaurant, which brought some energy to the otherwise dull restaurant."
-End
+    $JB.bio = "Sexy hot girls are quite popular.Original night essence NestCLUBThe characteristic bartender, but for some reasons he changed jobs to the red restaurant, which brought some energy to the otherwise dull restaurant."
+	$JB.pic = "冰堂梨梨愛(酒保)"
+end
 
-if $RQ.available=0:
+if $RQ.available = 0:
     $RQ.name = "Nao Jinguji (Wife)"
     $RQ.love = 0
     $RQ.bad = 0
-    $RQ.bio ="She has no lofty ideals and pursuits, but the thought of being with her beloved one With a small home of her own in this city, she took steps."
-End
+    $RQ.bio = "She has no lofty ideals and pursuits, but the thought of being with her beloved one With a small home of her own in this city, she took steps."
+	$RQ.pic = "神宫寺奈绪(人妻)"
+end
 
-if $MMS.available=0:
+if $MMS.available = 0:
     $MMS.name = "Yuzuriha Karen (Succubus)"
     $MMS.love = 0
     $MMS.bad = 0
-    $MMS.bio ="The mysterious woman who appeared after touching the strange magic array often said something about the second form.Because he is good at hypnosis, he was the first generationInceptionThe research object of the insomnia treatment instrument.She claimed to be a guide to a different world, but compared to the different world in her mouth, she wanted to stay here more."
-End
+    $MMS.bio = "The mysterious woman who appeared after touching the strange magic array often said something about the second form.Because he is good at hypnosis, he was the first generationInceptionThe research object of the insomnia treatment instrument.She claimed to be a guide to a different world, but compared to the different world in her mouth, she wanted to stay here more."
+	$MMS.pic = "楪可怜(魅魔使)"
+end
 
-if $CH.available=0:
+if $CH.available = 0:
     $CH.name = "Sakura Momo (Car Dealer`s Daughter)"
     $CH.love = 0
     $CH.bad = 0
-    $CH.bio ="A rich second generation with a gentle and sweet appearance and full of self-motivated, his father will4SShe is solely responsible for the business of the store.She also has an older brother, the proud son of Heaven who is active in the celebrity society, and is currently the hottest stockbroker.Because his brother is handsome and charming, young and promising, he exudes a dazzling light wherever he is.This made her not taken seriously when she was growing up, and she often secretly competed with her brother."
-End
+    $CH.bio = "A rich second generation with a gentle and sweet appearance and full of self-motivated, his father will4SShe is solely responsible for the business of the store.She also has an older brother, the proud son of Heaven who is active in the celebrity society, and is currently the hottest stockbroker.Because his brother is handsome and charming, young and promising, he exudes a dazzling light wherever he is.This made her not taken seriously when she was growing up, and she often secretly competed with her brother."
+	$CH.pic = "樱空桃(车行千金)"
+end
 
-$FP.name="Sumeragi Yuzu (Rich woman)"
+$FP.name = "Sumeragi Yuzu (Rich woman)"
 
-if $BGH.available=0:
+if $BGH.available = 0:
     $BGH.name = "Yatsugake Umi (Neighborhood Housewife)"
     $BGH.love = 0
     $BGH.bad = 0
-    $BGH.bio ="Due to her husband`s job transfer, the young woman who followed her husband to this strange city, because of her husband`s busy work, has no children yet, and has gradually become impatient with the dull life, longing to be able to rekindle enthusiasm for life. Enthusiasm.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
-End
+    $BGH.bio = "Due to her husband`s job transfer, the young woman who followed her husband to this strange city, because of her husband`s busy work, has no children yet, and has gradually become impatient with the dull life, longing to be able to rekindle enthusiasm for life. Enthusiasm.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
+	$BGH.pic = "八挂海(邻家少妇)"
+end
 
-if $SZ.available=0:
+if $SZ.available = 0:
     $SZ.name = "Tanaka Hitomi (Mayor)"
     $SZ.love = 0
     $SZ.bad = 0
-    $SZ.bio ="She was originally an inconspicuous senator and participated in the election inconspicuously.Few people have high expectations of her, and even some people are skeptical of her abilities and qualifications.Unexpectedly, however, she was successfully elected with an overwhelming number of votes.Some people think that her election success has become a story worth exploring and thinking about, and it has also made people re-examine the potential and opportunities of those who have been ignored and questioned.And a few people think that she is just a sounder with the strongest female characteristics, a symbol to be represented, she can no longer truly represent her beliefs and values, and even she will ignore the actual situation in order to protect her status and reputation, and make moral and ethical concessions."
-End
+    $SZ.bio = "She was originally an inconspicuous senator and participated in the election inconspicuously.Few people have high expectations of her, and even some people are skeptical of her abilities and qualifications.Unexpectedly, however, she was successfully elected with an overwhelming number of votes.Some people think that her election success has become a story worth exploring and thinking about, and it has also made people re-examine the potential and opportunities of those who have been ignored and questioned.And a few people think that she is just a sounder with the strongest female characteristics, a symbol to be represented, she can no longer truly represent her beliefs and values, and even she will ignore the actual situation in order to protect her status and reputation, and make moral and ethical concessions."
+	$SZ.pic = "田中瞳(市长)"
+end
 
-if $JYB.available=0:
+if $JYB.available = 0:
     $JYB.name = "Hatano Yui (Minister of Education)"
     $JYB.love = 0
     $JYB.bad = 0
-    $JYB.bio ="As the Minister of Education, she needs to be responsible for participating in and formulating education policies that meet the characteristics of the city, including education reform, characteristic curricula, teaching quality standards, allocation of educational resources, appointment and promotion of principals and a series of resolutions.The rights she holds make teachers in major colleges and universities want to establish a strong connection with her.She must do what she says and has a wide range of contacts. No matter where she goes, she will have her “friends”, so she is also known as the “godmother of education.”She has done an excellent job of protecting the privacy of her personal family, and the outside world only knows that she has a daughter."
-End
+    $JYB.bio = "As the Minister of Education, she needs to be responsible for participating in and formulating education policies that meet the characteristics of the city, including education reform, characteristic curricula, teaching quality standards, allocation of educational resources, appointment and promotion of principals and a series of resolutions.The rights she holds make teachers in major colleges and universities want to establish a strong connection with her.She must do what she says and has a wide range of contacts. No matter where she goes, she will have her “friends”, so she is also known as the “godmother of education.”She has done an excellent job of protecting the privacy of her personal family, and the outside world only knows that she has a daughter."
+	$JYB.pic = "波多野结衣(教育部长)"
+end
 
-if $LB.available=0:
+if $LB.available = 0:
     $LB.name = "Niimura Akari (Club Boss)"
     $LB.love = 0
     $LB.bad = 0
-    $LB.bio ="She is the queen of the night nest, full of principles, ambitious to dominate the prosperity of the night and the hot hormones.Her eyes were as hot and wild as a flame, and she was dismissive of the man`s nasty eyes.According to the customers, her brother is her weakness, and she often has no reason to protect him. She may have an unknown side."
-End
+    $LB.bio = "She is the queen of the night nest, full of principles, ambitious to dominate the prosperity of the night and the hot hormones.Her eyes were as hot and wild as a flame, and she was dismissive of the man`s nasty eyes.According to the customers, her brother is her weakness, and she often has no reason to protect him. She may have an unknown side."
+	$LB.pic = "新村明里(Club老板)"
+end
 
-if $CT.available=0:
+if $CT.available = 0:
     $CT.name = "Okita Anri (Empire President)"
     $CT.love = 0
     $CT.bad = 0
-    $CT.bio ="As the president of the Empire Group, she leads the entire giant business empire.At the same time, she is good at observing and insight into the needs and interests of others, and uses her own resources to help others achieve their goals.Her social skills allow her to find partners, negotiate cooperation and facilitate transactions in various fields.Although she has a cold and unsmiling attitude in front of the media, people who come into close contact with her will find that she is actually very kind and caring for others, especially her favorite subordinates."
-End
+    $CT.bio = "As the president of the Empire Group, she leads the entire giant business empire.At the same time, she is good at observing and insight into the needs and interests of others, and uses her own resources to help others achieve their goals.Her social skills allow her to find partners, negotiate cooperation and facilitate transactions in various fields.Although she has a cold and unsmiling attitude in front of the media, people who come into close contact with her will find that she is actually very kind and caring for others, especially her favorite subordinates."
+	$CT.pic = "沖田杏梨(帝国总裁)"
+end
 
-if $CJ.available=0:
+if $CJ.available = 0:
     $CJ.name = "Maihara Hijiri (Minister of Urban Development)"
     $CJ.love = 0
     $CJ.bad = 0
-    $CJ.bio ="With the smooth implementation of the Measures for the Administration of Free Trade Autonomy for Kabukicho, the invisible darkness was blocked from the sun.Soon she replaced the position of Minister of Foreign Affairs and attended the New Five-party meeting. Her career has been smooth sailing and she has never faced a real crisis.This kind of smoothness and success also caused her to gradually lose her sense of crisis, and began to become blindly arrogant, partial to listening and believing, and believed that her success would never be threatened.Non-working days will show people with blond hair. Some people think this is a kind of disguised concealment, and others think it`s just that she simply likes this sense of contrast."
-End
+    $CJ.bio = "With the smooth implementation of the Measures for the Administration of Free Trade Autonomy for Kabukicho, the invisible darkness was blocked from the sun.Soon she replaced the position of Minister of Foreign Affairs and attended the New Five-party meeting. Her career has been smooth sailing and she has never faced a real crisis.This kind of smoothness and success also caused her to gradually lose her sense of crisis, and began to become blindly arrogant, partial to listening and believing, and believed that her success would never be threatened.Non-working days will show people with blond hair. Some people think this is a kind of disguised concealment, and others think it`s just that she simply likes this sense of contrast."
+	$CJ.pic = "舞原聖(城建部长)"
+end
 
 
-if $SB.available=0:
+if $SB.available = 0:
 	$SB.name = "Matsumoto Ichika (Minister`s daughter)"
 	$SB.love = 0
 	$SB.bad = 0
-	$SB.bio ="The leader of this class.Due to her special status, no one, whether it is a teacher or a classmate, dares to accuse or challenge her, because everyone knows that disobeying her will cause unbearable weight."
+	$SB.bio = "The leader of this class.Due to her special status, no one, whether it is a teacher or a classmate, dares to accuse or challenge her, because everyone knows that disobeying her will cause unbearable weight."
 	$SB.study = 3
 	$SB.baby = 1
-End
+	$SB.pic = "松本一香(部长千金)"
+end
 
-if $FZL.available=0:
+if $FZL.available = 0:
 	$FZL.name = "Nagisa Mitsuki (Gyaru)"
 	$FZL.love = 0
 	$FZL.bad = 0
-	$FZL.bio ="She vividly showed her non-mainstream style with exaggerated hair color, making people recognize her appearance at a glance.Although she is different in terms of personality expression, her academic performance is unfortunately poor.She always said that her grades don`t matter, her dream is to be a hairdresser."
+	$FZL.bio = "She vividly showed her non-mainstream style with exaggerated hair color, making people recognize her appearance at a glance.Although she is different in terms of personality expression, her academic performance is unfortunately poor.She always said that her grades don`t matter, her dream is to be a hairdresser."
 	$FZL.study = 10
 	$FZL.baby = 1
-End
+	$FZL.pic = "渚光希(非主流)"
+end
 
-if $BTH.available=0:
+if $BTH.available = 0:
 	$BTH.name = "Shirato Hana (Class Flower)"
 	$BTH.love = 0
 	$BTH.bad = 0
-	$BTH.bio ="The classmates in the class called her the flower of the class, in fact, the reason was that there was a flower in her name."
+	$BTH.bio = "The classmates in the class called her the flower of the class, in fact, the reason was that there was a flower in her name."
 	$BTH.study = 40
 	$BTH.baby = 1
-End
+	$BTH.pic = "白桃花(班花)"
+end
 
-if $HSW.available=0:
+if $HSW.available = 0:
 	$HSW.name = "Kagari Mai (Single Mom)"
 	$HSW.love = 0
 	$HSW.bad = 0
-	$HSW.bio ="She is the only student in the class who has passed the grade. The truth is that she was exempted from pregnancy and passed all the final exams from freshman to junior year because of her pregnancy.Raising children independently is hard work, so she still works in many places."
+	$HSW.bio = "She is the only student in the class who has passed the grade. The truth is that she was exempted from pregnancy and passed all the final exams from freshman to junior year because of her pregnancy.Raising children independently is hard work, so she still works in many places."
 	$HSW.study = 60
 	$HSW.baby = 1
-End
+	$HSW.pic = "花狩舞(单身妈妈)"
+end
 
-if $CBJ.available=0:
+if $CBJ.available = 0:
 	$CBJ.name = "Kuramoto Sumire"
 	$CBJ.love = 0
 	$CBJ.bad = 0
-	$CBJ.bio ="unwitNot filled in"
+	$CBJ.bio = "unwitNot filled in"
 	$CBJ.study = 40
 	$CBJ.baby = 1
-End
+	$CBJ.pic = "倉本菫"
+end
 
-if $HME.available=0:
+if $HME.available = 0:
 	$HME.name = "Kuruki Rei (Black Fungus)"
 	$HME.love = 0
 	$HME.bad = 0
-	$HME.bio ="I have tasted the forbidden fruit for the first time since junior high school, and now I have been through a lot of battles.After completing the thousand-person slash, she immediately decided to joinAVcareer."
+	$HME.bio = "I have tasted the forbidden fruit for the first time since junior high school, and now I have been through a lot of battles.After completing the thousand-person slash, she immediately decided to joinAVcareer."
 	$HME.study = 12
 	$HME.baby = 1
-End
+	$HME.pic = "久留木玲(黑木耳)"
+end
 
-if $TMW.available=0:
+if $TMW.available = 0:
 	$TMW.name = "Tenma Yui"
 	$TMW.love = 0
 	$TMW.bad = 0
-	$TMW.bio ="unwrite"
+	$TMW.bio = "unwrite"
 	$TMW.study = 38
 	$TMW.baby = 1
-End
+	$TMW.pic = "天馬唯"
+end
 
-if $YLW.available=0:
+if $YLW.available = 0:
 	$YLW.name = "Nagase Yui"
 	$YLW.love = 0
 	$YLW.bad = 0
-	$YLW.bio ="unwrite"
+	$YLW.bio = "unwrite"
 	$YLW.study = 11
 	$YLW.baby = 1
-End
+	$YLW.pic = "永濑唯"
+end
 
-if $XMK.available=0:
+if $XMK.available = 0:
 	$XMK.name = "Kururugi Aoi"
 	$XMK.love = 0
 	$XMK.bad = 0
-	$XMK.bio ="unwrite"
+	$XMK.bio = "unwrite"
 	$XMK.study = 15
 	$XMK.baby = 1
-End
+	$XMK.pic = "枢木葵"
+end
 
-if $SYYY.available=0:
+if $SYYY.available = 0:
 	$SYYY.name = "Satuski Mei (Amateur Cosplayer)"
 	$SYYY.love = 0
 	$SYYY.bad = 0
-	$SYYY.bio ="Little-known amateurcoser。"
+	$SYYY.bio = "Little-known amateurcoser。"
 	$SYYY.study = 23
 	$SYYY.baby = 1
-End
+	$SYYY.pic = "沙月芽衣(小coser)"
+end
 
-if $LXS.available=0:
+if $LXS.available = 0:
     $LXS.name = "Melody Marks (International Student)"
     $LXS.love = 0
     $LXS.bad = 0
-    $LXS.bio ="International students from foreign countries thousands of miles away have this novel attitude towards everything in this city.She has put everything she experienced on the plane behind her and is preparing for a new life."
-End
+    $LXS.bio = "International students from foreign countries thousands of miles away have this novel attitude towards everything in this city.She has put everything she experienced on the plane behind her and is preparing for a new life."
+	$LXS.pic = "Melody Marks(留学生)"
+end
 
-if $QJ.available=0:
+if $QJ.available = 0:
     $QJ.name = "Kinoshita Azumi (Imperial Daughter)"
     $QJ.love = 0
     $QJ.bad = 0
-    $QJ.bio ="She just20Early in her life, but because of her special status, as the daughter of the Imperial Group, she carried a huge family responsibility.She had just returned from abroad and inherited many advantages from her mother.She not only has an enviable appearance and majestic twin peaks, but also has the wisdom and leadership skills of her mother.She is familiar with business administration and has keen business insight.She will become the pride of the family inheritance with her talents and hard work, and become the future leader of the Imperial Group."
-End
+    $QJ.bio = "She just20Early in her life, but because of her special status, as the daughter of the Imperial Group, she carried a huge family responsibility.She had just returned from abroad and inherited many advantages from her mother.She not only has an enviable appearance and majestic twin peaks, but also has the wisdom and leadership skills of her mother.She is familiar with business administration and has keen business insight.She will become the pride of the family inheritance with her talents and hard work, and become the future leader of the Imperial Group."
+	$QJ.pic = "赤城碧(帝国千金)"
+end
 
-if $YY.available=0:
+if $YY.available = 0:
     $YY.name = "Natsuki Eru (Swimming Coach)"
     $YY.love = 0
     $YY.bad = 0
-    $YY.bio ="She is a private swimming female coach from the Empire Group.She has a wealth of experience and professional knowledge in the field of swimming, as well as a love and passion for swimming.Recently, she has faced a problem, that is, her husband has lost his job. Can she still firmly play the role of a wife and strive to balance work and family life?[This character was contributed by a group of friends, and after being shelved for a long time, he finally has a chance to appear!If you have a passion for creation, you can add group contributions]"
-End
+    $YY.bio = "She is a private swimming female coach from the Empire Group.She has a wealth of experience and professional knowledge in the field of swimming, as well as a love and passion for swimming.Recently, she has faced a problem, that is, her husband has lost his job. Can she still firmly play the role of a wife and strive to balance work and family life?[This character was contributed by a group of friends, and after being shelved for a long time, he finally has a chance to appear!If you have a passion for creation, you can add group contributions]"
+	$YY.pic = "夏希栗(游泳教练)"
+end
 
-if $XN.available=0:
+if $XN.available = 0:
     $XN.name = "Yoshine Yuria (Nun)"
     $XN.love = 0
     $XN.bad = 0
-    $XN.bio ="She is the adopted daughter of the bishop. According to the bishop`s oral statement, she has been blind since she was a child and was raised by the bishop.She is currently a nun in the church serving the statue of Shimolos. Because of her huge breasts that cannot be ignored, she has an uncontrollable desire for believers, so these believers regard her as the incarnation of Shimolos"
-End
+    $XN.bio = "She is the adopted daughter of the bishop. According to the bishop`s oral statement, she has been blind since she was a child and was raised by the bishop.She is currently a nun in the church serving the statue of Shimolos. Because of her huge breasts that cannot be ignored, she has an uncontrollable desire for believers, so these believers regard her as the incarnation of Shimolos"
+	$XN.pic = "吉根柚莉愛(大修女)"
+end
 
-if $LEI.available=0:
+if $LEI.available = 0:
     $LEI.name = "Rae (Trainee Nun)"
     $LEI.love = 0
     $LEI.bad = 0
-    $LEI.bio ="She is a kind and optimistic young girl in life, and her boyfriend, a person addicted to gambling, used to be a part of her life, but it brought endless pain and uneasiness.She watched him sink in the whirlpool of gambling, gradually losing her direction and hope, so she longed for a kind of relief, a way to change her life.In her pursuit of inner peace and sanctity, she found the church, the place that provided her with peace and guidance.The church became her refuge, where she found faith and hope.Over time, her dedication and piety were recognized, and she gained the status of a trainee nun.This identity is not only a profession for her, but also an honor.She is proud of her service in the church and regards it as a mission, a way to connect with God."
-End
+    $LEI.bio = "She is a kind and optimistic young girl in life, and her boyfriend, a person addicted to gambling, used to be a part of her life, but it brought endless pain and uneasiness.She watched him sink in the whirlpool of gambling, gradually losing her direction and hope, so she longed for a kind of relief, a way to change her life.In her pursuit of inner peace and sanctity, she found the church, the place that provided her with peace and guidance.The church became her refuge, where she found faith and hope.Over time, her dedication and piety were recognized, and she gained the status of a trainee nun.This identity is not only a profession for her, but also an honor.She is proud of her service in the church and regards it as a mission, a way to connect with God."
+	$LEI.pic = "蕾(见习修女)"
+end
  
-if $HB.available=0:
+if $HB.available = 0:
     $HB.name = "Hinako Mori (18+ Streamer)"
     $HB.love = 0
     $HB.bad = 0
-    $HB.bio ="She owns170Her tall figure, when she put on black stockings, immediately became charming.The delicate silk fits her slender legs and outlines the perfect curve, making it impossible to look away.With this advantage, she once served as a professional model and a member of the [Ferris Girl Group] group.But later, she was exposed to an affair with a rapper. Although she once denied it, she was eventually hacked out of the sex video.In the face of hard evidence, she couldn`t refute it, and she was depressed several times after the dissolution of the women`s group.But under the guidance of her best friend, she simply broke the jar and broke it. Since her reputation was already rotten, she simply became an online porn anchor."
-End
+    $HB.bio = "She owns170Her tall figure, when she put on black stockings, immediately became charming.The delicate silk fits her slender legs and outlines the perfect curve, making it impossible to look away.With this advantage, she once served as a professional model and a member of the [Ferris Girl Group] group.But later, she was exposed to an affair with a rapper. Although she once denied it, she was eventually hacked out of the sex video.In the face of hard evidence, she couldn`t refute it, and she was depressed several times after the dissolution of the women`s group.But under the guidance of her best friend, she simply broke the jar and broke it. Since her reputation was already rotten, she simply became an online porn anchor."
+	$HB.pic = "森日向子(黄播女BJ)"
+end
  
-if $YA_dAPc.available=0:
-     $YA_dAPc.name = "Kinoshita Himari"
-     $YA_dAPc.love = 0
-     $YA_dAPc.bad = 0
-     $YA_dAPc.bio ="???"
-End
+if $YA_dAPc.available = 0:
+    $YA_dAPc.name = "Kinoshita Himari"
+    $YA_dAPc.love = 0
+    $YA_dAPc.bad = 0
+    $YA_dAPc.bio = "???"
+	$YA.pic = "木下日葵"
+end
 
-if $SJ.available=0:
-     $SJ.name = "Satsuki Ena (Stupid Secretary)"
-     $SJ.love = 0
-     $SJ.bad = 0
-     $SJ.bio ="Secretary of the Student Association."
+if $SJ.available = 0:
+    $SJ.name = "Satsuki Ena (Stupid Secretary)"
+    $SJ.love = 0
+    $SJ.bad = 0
+    $SJ.bio = "Secretary of the Student Association."
  	$SJ.study = 2
  	$SJ.baby = 1
-End
+	$SJ.pic = "沙月恵奈(笨蛋书记)"
+end
 
-if $SWD.available=0:
+if $SWD.available = 0:
     $SWD.name = "Mitani Akari (Stockings Shopkeeper)"
     $SWD.love = 0
     $SWD.bad = 0
-    $SWD.bio ="After several years of part-time work, she decided to use her savings to open a women`s stockings store.She had hoped to make more money through this business, but she did not expect that it would not be easy to open a shop. In addition to facing fierce market competition, she also needed to face various business problems.Now, her stockings store has encountered difficulties and is facing an economic crisis.She urgently needs support and help to get her business back on its feet."
-End
+    $SWD.bio = "After several years of part-time work, she decided to use her savings to open a women`s stockings store.She had hoped to make more money through this business, but she did not expect that it would not be easy to open a shop. In addition to facing fierce market competition, she also needed to face various business problems.Now, her stockings store has encountered difficulties and is facing an economic crisis.She urgently needs support and help to get her business back on its feet."
+	$SWD.pic = "美谷朱里(丝袜店主)"
+end
 
-if $DY.available=0:
+if $DY.available = 0:
     $DY.name = "Nonoura Non (Rookie Clerk)"
     $DY.love = 0
     $DY.bad = 0
-    $DY.bio ="The rookie clerk who came to work in the convenience store after the fire in the convenience store, she was clumsy and she needed my personal guidance from the store manager ❤ Her wish is to save a sum of money to see the sea."
-End
+    $DY.bio = "The rookie clerk who came to work in the convenience store after the fire in the convenience store, she was clumsy and she needed my personal guidance from the store manager ❤ Her wish is to save a sum of money to see the sea."
+	$DY.pic = "野野浦暖(菜鸟店员)"
+end
 
-if $YH.available=0:
+if $YH.available = 0:
     $YH.name = "Hoshimiya Ichika (Fund Manager)"
     $YH.love = 0
     $YH.bad = 0
-    $YH.bio ="She is a newly appointed bank manager. In the fund department, she is responsible for evaluating the credit status of customers, formulating loan plans, approving loans, and supervising loan recovery.If the customer defaults or fails to repay on time, bad debts will arise.Banks will write off bad debts and count them as losses, which usually leads to an adverse impact on the bank`s profits and financial situation.However, it is very unfortunate that this is happening to her…"
-End
+    $YH.bio = "She is a newly appointed bank manager. In the fund department, she is responsible for evaluating the credit status of customers, formulating loan plans, approving loans, and supervising loan recovery.If the customer defaults or fails to repay on time, bad debts will arise.Banks will write off bad debts and count them as losses, which usually leads to an adverse impact on the bank`s profits and financial situation.However, it is very unfortunate that this is happening to her…"
+	$YH.pic = "星宫一花(基金部经理)"
+end
 
+! Not really sure if this section is needed with the names & bio being defined above.
 if $JJ.name = "Hatsukawa Minami (Big Sister)":
 	$JJ.name = "Hatsukawa Minami (Big Sister)"
 else
 	$JM.name = "Kaede Karen (Stepmother)"
-	$JM.bio ="My father`s new love is only older than me, but he is already an executive director of a pharmaceutical company. When she was young, she broke into my life as a [family] with her two children.
+	$JM.bio = "My father`s new love is only older than me, but he is already an executive director of a pharmaceutical company. When she was young, she broke into my life as a [family] with her two children.
 				With my father in a coma and unconscious for several years.Her attitude towards me has gradually changed.....Out of courtesy, I still call her mom."
 	
 	$JJ.name = "Hatsukawa Minami (Big Sister)"
-	$JJ.bio ="My stepsister.He loves natural sciences and is very smart. He has studied abroad since he was a child. He has only returned to China in recent years due to the impact of the epidemic. He is now doing research and development work in a pharmaceutical company in his hometown.There is a magic power beyond ordinary people for scientific research."
+	$JJ.bio = "My stepsister.He loves natural sciences and is very smart. He has studied abroad since he was a child. He has only returned to China in recent years due to the impact of the epidemic. He is now doing research and development work in a pharmaceutical company in his hometown.There is a magic power beyond ordinary people for scientific research."
 	
 	$MM.name = "Hatsukawa Miru (Little Sister)"
-	$MM.bio ="My stepsister is only a few years younger than me.He has a lively personality and is in adolescence.Very rebellious.The dream is to become an outstanding idol."
+	$MM.bio = "My stepsister is only a few years younger than me.He has a lively personality and is in adolescence.Very rebellious.The dream is to become an outstanding idol."
 	
 	$DZ.name = "Minami Kojima (Geologist)"
-	$DZ.bio ="My sister`s colleague and best friend.I have been competing with my sister since I was a child. I am competitive and have a desire to win or lose.As an iceberg beauty, she hates the harassment of licking dogs, and blindly pursuing it will be counterproductive.I heard that there will be an unknown side after getting drunk."
+	$DZ.bio = "My sister`s colleague and best friend.I have been competing with my sister since I was a child. I am competitive and have a desire to win or lose.As an iceberg beauty, she hates the harassment of licking dogs, and blindly pursuing it will be counterproductive.I heard that there will be an unknown side after getting drunk."
 	
 	$XZ.name = "Mio Kimijima (Principal)"
-	$XZ.bio ="He looks very strong on the outside, but at the same time his methods are very cold.However, she also has an ulterior secret, which makes her heart full of contradictions and tension. If this secret is revealed, it may make her power disappear."
+	$XZ.bio = "He looks very strong on the outside, but at the same time his methods are very cold.However, she also has an ulterior secret, which makes her heart full of contradictions and tension. If this secret is revealed, it may make her power disappear."
 
 	$FXZ.name = "Shinoda Yu (Vice Principal)"
-	$FXZ.bio ="This female vice principal is not a perfect person. Although she is very ambitious and eager to become the principal, her family life is not going well.The relationship between her and her daughter is not good. It may be because she is too busy with work and ignores the family, or it may be because she has too high expectations of her daughter, which makes her feel a lot of pressure.Nevertheless, she is still firmly pursuing her dream, hoping to become the president of the university, and is willing to give everything."
+	$FXZ.bio = "This female vice principal is not a perfect person. Although she is very ambitious and eager to become the principal, her family life is not going well.The relationship between her and her daughter is not good. It may be because she is too busy with work and ignores the family, or it may be because she has too high expectations of her daughter, which makes her feel a lot of pressure.Nevertheless, she is still firmly pursuing her dream, hoping to become the president of the university, and is willing to give everything."
 
 	$XY.name = "Kurea Hasumi (Spanish Teacher)"
-	$XY.bio ="She is a Spanish teacher in the university, quite beautiful and very charming.She is obsessed with luxury goods and is a gold worshipper.She values money very much, and she can even be said to be greedy.She likes a luxurious lifestyle and uses all means to pursue her goals.She once said that only by experiencing sad things can people become mature."
+	$XY.bio = "She is a Spanish teacher in the university, quite beautiful and very charming.She is obsessed with luxury goods and is a gold worshipper.She values money very much, and she can even be said to be greedy.She likes a luxurious lifestyle and uses all means to pursue her goals.She once said that only by experiencing sad things can people become mature."
 
 	$SW.name = "Osawa Yuka (Biology Teacher)"
-	$SW.bio ="In addition to teaching biology in school, she also does door-to-door “cooking class” tutoring in private.Her hobbies are dating and sleeping with men.She values masculinity very much, and has abnormal expectations for sexual behavior, often making her desires unsatisfactory.She may be a person with a strong sexual desire and likes to try various novel ways of sex.However, she may also have fallen into an unhealthy sex life because she was too indulgent in her libido, resulting in physical and mental harm."
+	$SW.bio = "In addition to teaching biology in school, she also does door-to-door “cooking class” tutoring in private.Her hobbies are dating and sleeping with men.She values masculinity very much, and has abnormal expectations for sexual behavior, often making her desires unsatisfactory.She may be a person with a strong sexual desire and likes to try various novel ways of sex.However, she may also have fallen into an unhealthy sex life because she was too indulgent in her libido, resulting in physical and mental harm."
 
 	$RION.name = "Rion (Immigration Officer)"
-	$RION.bio ="<<$DZ.name>>My cousin is doing immigration review work at the Entry-exit Administration.Usually, the auditor will check the purpose and length of stay of the passenger, and conduct a physical examination of the passenger to ensure his or her good health."
+	$RION.bio = "<<$DZ.name>>My cousin is doing immigration review work at the Entry-exit Administration.Usually, the auditor will check the purpose and length of stay of the passenger, and conduct a physical examination of the passenger to ensure his or her good health."
 
 	$TS.name = "Meng Tianshi (Empire Entertainment COO)"
-	$TS.bio ="Once a second-generation trainee of Empire Entertainment, in a state of non-appointment, he still cooperated with the release of the album and the promotion of his solo concert as scheduled, and survived batch after batch of trainees.He is now the youngest chief operating officer of Empire Entertainment."
+	$TS.bio = "Once a second-generation trainee of Empire Entertainment, in a state of non-appointment, he still cooperated with the release of the album and the promotion of his solo concert as scheduled, and survived batch after batch of trainees.He is now the youngest chief operating officer of Empire Entertainment."
 
 	$YZ.name = "Takigawa Eri (Hospital Director)"
-	$YZ.bio ="Within three years of taking office, the transformation of the hospital was completed, from a national excellent model hospital to an independent female plastic surgery hospital.Proficient in multiple languages and good at multi-use."
+	$YZ.bio = "Within three years of taking office, the transformation of the hospital was completed, from a national excellent model hospital to an independent female plastic surgery hospital.Proficient in multiple languages and good at multi-use."
 
 	$HS.name = "Akari Tsumugi (Nurse)"
-	$HS.bio ="The hospital is responsible for secondary patients/Special drug test experiment24Hour exclusive oral sex nurse!"
+	$HS.bio = "The hospital is responsible for secondary patients/Special drug test experiment24Hour exclusive oral sex nurse!"
 	
 	$NK.name = "Mizuna Rei (Gynecologist)"
-	$NK.bio ="The andrology doctor in the hospital published three blockbuster research papers in one breath,So that we can transcend inherent concepts,Have a new understanding of male erectile dysfunction."
+	$NK.bio = "The andrology doctor in the hospital published three blockbuster research papers in one breath,So that we can transcend inherent concepts,Have a new understanding of male erectile dysfunction."
 
 	$ZX.name = "Fukada Eimi (Plastic Surgeon)"
-	$ZX.bio ="Known as the “strongest artificial human”<<$ZX.name>>It has supported the core business of private hospitals.Her surgical skills are very superb and she can perform various complex plastic surgeries, but some people criticize her breasts for being too hard."
+	$ZX.bio = "Known as the “strongest artificial human”<<$ZX.name>>It has supported the core business of private hospitals.Her surgical skills are very superb and she can perform various complex plastic surgeries, but some people criticize her breasts for being too hard."
 
 	$SF.name = "Shunka Ayami(Gangster Wife)"
-	$SF.bio ="She once lived a luxurious life on the power and money of her boyfriend.But now, everything may disappear, and she doesn`t know what to do."
+	$SF.bio = "She once lived a luxurious life on the power and money of her boyfriend.But now, everything may disappear, and she doesn`t know what to do."
 
 	$YS.name = "Shinoda Ayumi (Gangster Widow)"
-	$YS.bio ="She lost her husband and felt lonely and helpless.She may feel angry and vengeful, and will do everything she can to achieve her goal-to monopolize the inheritance."
+	$YS.bio = "She lost her husband and felt lonely and helpless.She may feel angry and vengeful, and will do everything she can to achieve her goal-to monopolize the inheritance."
 
 	$ZL.name = "Shuri Atomi (Prostitute)"
-	$ZL.bio ="She had always thought that her brother was a reliable person, but now she found that he was an irresponsible person, putting her in a very dangerous situation.She may feel scared, scared and helpless, because she has to join the work of helping friends now, she doesn`t know what kind of treatment she will receive, and she doesn`t know what will happen in the future."
+	$ZL.bio = "She had always thought that her brother was a reliable person, but now she found that he was an irresponsible person, putting her in a very dangerous situation.She may feel scared, scared and helpless, because she has to join the work of helping friends now, she doesn`t know what kind of treatment she will receive, and she doesn`t know what will happen in the future."
 
 	$LJ.name = "Abe Mikako (Repeat Student)"
-	$LJ.bio ="She was unable to concentrate on her studies due to family reasons. Her parents` lack of educational support or other family problems caused this situation."
+	$LJ.bio = "She was unable to concentrate on her studies due to family reasons. Her parents` lack of educational support or other family problems caused this situation."
 
 	$SY.name = "Uehara Ai (Slutty Wife)"
-	$SY.bio ="<<$LJ.name>>The mother, whose husband was assigned to work in a quarry because of the new policy, gradually became addicted to a depraved and wandering life."
+	$SY.bio = "<<$LJ.name>>The mother, whose husband was assigned to work in a quarry because of the new policy, gradually became addicted to a depraved and wandering life."
 
 	$ZJ.name = "Sazanami Aya (Writer)"
-	$ZJ.bio ="<<$FXZ.name>>My daughter, for some reason, couldn`t go out behind closed doors all day."
+	$ZJ.bio = "<<$FXZ.name>>My daughter, for some reason, couldn`t go out behind closed doors all day."
 
 	$WQ.name = "Ito Mayuki (Hot Spring Owner)"
-	$WQ.bio ="The owner of the hot spring shop.The hot spring shop is a place that specializes in relaxation and physical and mental relaxation, so the owner may be very enthusiastic and can make guests feel comfortable and welcome."
+	$WQ.bio = "The owner of the hot spring shop.The hot spring shop is a place that specializes in relaxation and physical and mental relaxation, so the owner may be very enthusiastic and can make guests feel comfortable and welcome."
 
 	$HZ.name = "Hazuki Reira (Student Council President)"
-	$HZ.bio ="Student president.Full of hostility to men, no matter what the specific reason is, this kind of hatred is irrational, and it may have a serious impact on her interpersonal relationships."
+	$HZ.bio = "Student president.Full of hostility to men, no matter what the specific reason is, this kind of hatred is irrational, and it may have a serious impact on her interpersonal relationships."
 
 	$DYZ.name = "Nagai Maria (Prison Warden)"
-	$DYZ.bio ="Warden of the prison.She is responsible for supervising all prisoners, ensuring safety, and maintaining order in the prison.As the warden, she may organize and manage staff and supervise day-to-day operations.She is also responsible for coordinating cooperation with other agencies, including the police and prosecutors.She may review the files of prisoners and decide on their detention time and sentence."
+	$DYZ.bio = "Warden of the prison.She is responsible for supervising all prisoners, ensuring safety, and maintaining order in the prison.As the warden, she may organize and manage staff and supervise day-to-day operations.She is also responsible for coordinating cooperation with other agencies, including the police and prosecutors.She may review the files of prisoners and decide on their detention time and sentence."
 
 	$YJ.name = "Sato Eru (Prison Guard)"
-	$YJ.bio ="She is responsible for maintaining order in the prison and ensuring the safety of prisoners.As a prison guard, she may perform some daily tasks, including patrolling prisons, searching cells, supervising prisoners` activities and taking action if necessary."
+	$YJ.bio = "She is responsible for maintaining order in the prison and ensuring the safety of prisoners.As a prison guard, she may perform some daily tasks, including patrolling prisons, searching cells, supervising prisoners` activities and taking action if necessary."
 
 	$ZXG.name = "Suzumori Remu (Ejaculation Officer)"
-	$JZ.bio ="The chief of police, she may do evil or corrupt things in private to satisfy her desires, rather than really helping the people.He is considered by the outside world to be a person who only cares about his own interests and power."
+	$JZ.bio = "The chief of police, she may do evil or corrupt things in private to satisfy her desires, rather than really helping the people.He is considered by the outside world to be a person who only cares about his own interests and power."
 
 	$JY.name = "Momonogi Kana (Police officer)"
-	$JY.bio ="A police officer who has not been in office for a long time has experienced something that made her sad in the past.She hopes to use other things to forget about it."
+	$JY.bio = "A police officer who has not been in office for a long time has experienced something that made her sad in the past.She hopes to use other things to forget about it."
 
 	$SS.name = "Tia"
-	$SS.bio ="Witnesses in need of protection?Despite her beautiful appearance, “the more beautiful a woman is, the more she will lie.”"
+	$SS.bio = "Witnesses in need of protection?Despite her beautiful appearance, “the more beautiful a woman is, the more she will lie.”"
 	
 	$OX.name = "Kizuna Sakura (Former Gravure Idol)"
-	$OX.bio ="A popular photo idol a while ago, it was a Japanese female photo idol.PSA member of the first phase of リート, he used to work in a maid-themed cafe in Akihabara, Japan.Age, height and weight are confidential."
+	$OX.bio = "A popular photo idol a while ago, it was a Japanese female photo idol.PSA member of the first phase of リート, he used to work in a maid-themed cafe in Akihabara, Japan.Age, height and weight are confidential."
 
 	$JK.name = "Saeki Yumika (Empire Health CMO)"
-	$JK.bio ="The chief marketing director of Imperial Health is responsible for keeping in touch with potential customers and promoting the company`s “fine cattle service” to them.This service aims to provide customers with the highest quality health care and health management services to help them improve their quality of life.The chief marketing director is also responsible for formulating and implementing marketing strategies to improve the company`s sales performance."
+	$JK.bio = "The chief marketing director of Imperial Health is responsible for keeping in touch with potential customers and promoting the company`s “fine cattle service” to them.This service aims to provide customers with the highest quality health care and health management services to help them improve their quality of life.The chief marketing director is also responsible for formulating and implementing marketing strategies to improve the company`s sales performance."
 
 	$DL.name = "Dilly (Local Representative)"
-	$DL.bio ="Resident representative of a foreign mission.Responsible for establishing contacts with local women`s leadership organizations and institutions to promote mutual cooperation and exchanges."
+	$DL.bio = "Resident representative of a foreign mission.Responsible for establishing contacts with local women`s leadership organizations and institutions to promote mutual cooperation and exchanges."
 
 	$LY.name = "Aiga Mizuki (Amateur Streamer)"
-	$LY.bio ="Once an amateur anchor, she always had a vision for life in a big city.However, after coming here, she realized that her imagination was not so beautiful.The gorgeous high-rise buildings and brightly lit streets made her feel lonely and at a loss.The dream she had was far from reality, making her feel helpless and disappointed."
+	$LY.bio = "Once an amateur anchor, she always had a vision for life in a big city.However, after coming here, she realized that her imagination was not so beautiful.The gorgeous high-rise buildings and brightly lit streets made her feel lonely and at a loss.The dream she had was far from reality, making her feel helpless and disappointed."
 
 	$WN.name = "Hamasaki Mao (Stripper)"
-	$WN.bio ="She is an excellent stripper, glamorous, beautiful dancing, and loved by the audience.As a cadre of the Hot Girl Gang, she has an optimistic and cheerful personality and is an absolute supporter of hedonism."
+	$WN.bio = "She is an excellent stripper, glamorous, beautiful dancing, and loved by the audience.As a cadre of the Hot Girl Gang, she has an optimistic and cheerful personality and is an absolute supporter of hedonism."
 
 	$EDM.name = "AIKA (Second generation Leader)"
-	$EDM.bio ="The second-generation leader of the Hot Girl Gang, with a strong personality, obsessed with challenges, has a passionate heart, and is very charming."
+	$EDM.bio = "The second-generation leader of the Hot Girl Gang, with a strong personality, obsessed with challenges, has a passionate heart, and is very charming."
 
 	$YDM.name = "Kirishima Rino (First Generation Leader)"
-	$YDM.bio ="The leader of the Hot girl Gang, the leader of a generation, was imprisoned for committing certain crimes.She has some background and connections, and even in prison she still stands proudly and indomitable."
+	$YDM.bio = "The leader of the Hot girl Gang, the leader of a generation, was imprisoned for committing certain crimes.She has some background and connections, and even in prison she still stands proudly and indomitable."
 
 	$NY.name = "Yoshizawa Akiho (Imperial Energy CTO)"
-	$NY.bio ="She is the chief technology officer of Imperial Energy and claims to be an excellent technology leader.In the past few years, she has been committed to promoting the technological development of Imperial energy and has achieved remarkable achievements.She firmly believes that only continuous innovation can make her invincible in the highly competitive energy industry."
+	$NY.bio = "She is the chief technology officer of Imperial Energy and claims to be an excellent technology leader.In the past few years, she has been committed to promoting the technological development of Imperial energy and has achieved remarkable achievements.She firmly believes that only continuous innovation can make her invincible in the highly competitive energy industry."
 
 	$MS.name = "Kiriyama Yuuha (Secretary)"
-	$MS.bio ="Life in the big city is not satisfactory. In order to make a living, she offered to work for me for free.This is an offer that is difficult for me to refuse.I once saw her crying alone in the middle of the night, but after a full night`s sleep, as soon as the sun rises the next day, she can still continue to work with full energy."
+	$MS.bio = "Life in the big city is not satisfactory. In order to make a living, she offered to work for me for free.This is an offer that is difficult for me to refuse.I once saw her crying alone in the middle of the night, but after a full night`s sleep, as soon as the sun rises the next day, she can still continue to work with full energy."
 
 	$WH.name = "Nanasawa Mia (Internet Celebrity)"
-	$WH.bio ="A female Internet celebrity with a sweet appearance and a certain fan base.There is no lack of money, and even a certain economic strength.She likes to let fans do ridiculous things in order to get her attention, which makes her feel very excited and fulfilled."
+	$WH.bio = "A female Internet celebrity with a sweet appearance and a certain fan base.There is no lack of money, and even a certain economic strength.She likes to let fans do ridiculous things in order to get her attention, which makes her feel very excited and fulfilled."
 
 	$TZ.name = "Yamagishi Aika (TV Station Director)"
-	$TZ.bio ="As the director of the TV station, ratings are her most important data. She actively listens to opinions and hopes that the TV station can reproduce its glory under her leadership."
+	$TZ.bio = "As the director of the TV station, ratings are her most important data. She actively listens to opinions and hopes that the TV station can reproduce its glory under her leadership."
 
 	$XS.name = "Saito Amiri (Sales)"
-	$XS.bio ="She is a female luxury car salesman. She knows her strengths very well. She does not believe that knowledge can change her destiny. She believes that her decisions and actions are the key factors in determining her destiny."
+	$XS.bio = "She is a female luxury car salesman. She knows her strengths very well. She does not believe that knowledge can change her destiny. She believes that her decisions and actions are the key factors in determining her destiny."
 
 	$QT.name = "Aizawa Minami (Front Desk)"
-	$QT.bio ="Although she performed well in the front desk job of the city hall, her dream was to become an announcer.She has participated in interviews with announcers many times, but failed each time, which made her very frustrated.The daily front desk work caused her to cough, and her vocal cords had problems and her voice became hoarse and not smooth.She couldn`t give up this job, but this was another obstacle to her becoming an announcer."
+	$QT.bio = "Although she performed well in the front desk job of the city hall, her dream was to become an announcer.She has participated in interviews with announcers many times, but failed each time, which made her very frustrated.The daily front desk work caused her to cough, and her vocal cords had problems and her voice became hoarse and not smooth.She couldn`t give up this job, but this was another obstacle to her becoming an announcer."
 
 	$QB.name = "Hashimoto Arina (Intern)"
-	$QB.bio ="As an ignorant student who just graduated from university, she chose to come to the TV station for an internship. During the internship period, she was faced with a tricky decision: to become an idol star or to become a host.This is a very challenging decision because both are very different occupations and both require different skills and experience.[Although the appearance is not outstanding now, the future can be expected as long as it is fine-tuned.】"
+	$QB.bio = "As an ignorant student who just graduated from university, she chose to come to the TV station for an internship. During the internship period, she was faced with a tricky decision: to become an idol star or to become a host.This is a very challenging decision because both are very different occupations and both require different skills and experience.[Although the appearance is not outstanding now, the future can be expected as long as it is fine-tuned.】"
 
 	$BD.name = "Misaki Nanami (Editor-in-chief)"
-	$BD.bio ="As the chief editor-in-chief of a television station, she needs to face various complex issues, such as editing programs, arranging filming, controlling the quality of programs, etc. These tasks require her to spend a lot of energy and time, so she hopes that someone can stand up and share some pressure for her, and she is eager for the release of pressure."
+	$BD.bio = "As the chief editor-in-chief of a television station, she needs to face various complex issues, such as editing programs, arranging filming, controlling the quality of programs, etc. These tasks require her to spend a lot of energy and time, so she hopes that someone can stand up and share some pressure for her, and she is eager for the release of pressure."
 
 	$GJ.name = "Hirose Riona(Previous Year's Champion)"
-	$GJ.bio ="In the final of the last draft, because of strong competitors<<$SSYY.NAME>>She withdrew from the competition and became the champion, which made the outside world full of doubts about her, and she was very eager to prove herself."
+	$GJ.bio = "In the final of the last draft, because of strong competitors<<$SSYY.NAME>>She withdrew from the competition and became the champion, which made the outside world full of doubts about her, and she was very eager to prove herself."
 
 	$GS.name = "Honjo Suzu (Singer)"
-	$GS.bio ="She aspires to become a successful singer. In order to realize her dream, she keeps working hard to create music and perform on various occasions.She firmly believes in her talents and abilities, and keeps moving forward on the road of chasing her dreams."
+	$GS.bio = "She aspires to become a successful singer. In order to realize her dream, she keeps working hard to create music and perform on various occasions.She firmly believes in her talents and abilities, and keeps moving forward on the road of chasing her dreams."
 
 	$XM.name = "Aozora Hikari (School Girl)"
-	$XM.bio ="The school girl in the lower grade group is an unruly and pungent image in the eyes of others, but under her cold and savage appearance is curiosity and desire for sex.Her family is in a normal situation, and she hopes to find a high-paying job to subsidize her family.She cares more about whether the subject`s Physical strength is excellent than her appearance.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
+	$XM.bio = "The school girl in the lower grade group is an unruly and pungent image in the eyes of others, but under her cold and savage appearance is curiosity and desire for sex.Her family is in a normal situation, and she hopes to find a high-paying job to subsidize her family.She cares more about whether the subject`s Physical strength is excellent than her appearance.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
 
 	$PW.name = "Asuka Kirara (Judge)"
-	$PW.bio ="Famous actors, singers, and models with deep qualifications. In addition to the popularity of the film, the peripheral products released by the film company for her are also quite special and popular, such as the “nipple top card” with clear nipple prints... This has accumulated a super high popularity for her."
+	$PW.bio = "Famous actors, singers, and models with deep qualifications. In addition to the popularity of the film, the peripheral products released by the film company for her are also quite special and popular, such as the “nipple top card” with clear nipple prints... This has accumulated a super high popularity for her."
 
 	$SSYY.name = "Kito Momona (Popular Idol)"
-	$SSYY.bio ="He used to be a well-known photo idol, but he was downgraded to a trainee due to the leakage of indecent photos.After the sutra <<$PW.name>> After some operation support, public opinion was reversed and defeated<<$OX.name>>, Has become the most popular and highest-selling photo idol in contemporary times, and is currently active in many fields such as film and television, variety shows, and movies."
+	$SSYY.bio = "He used to be a well-known photo idol, but he was downgraded to a trainee due to the leakage of indecent photos.After the sutra <<$PW.name>> After some operation support, public opinion was reversed and defeated<<$OX.name>>, Has become the most popular and highest-selling photo idol in contemporary times, and is currently active in many fields such as film and television, variety shows, and movies."
 
 	$SX.name = "Momotani Erika (Lost Girl)"
-	$SX.bio ="It is said that the girl who came to this city from sinful Gotham had nothing, hoping to find a place to live in this city.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
+	$SX.bio = "It is said that the girl who came to this city from sinful Gotham had nothing, hoping to find a place to live in this city.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
 
 	$DD.name = "Sonoda Mion (Ejaculation Supervisor)"
-	$DD.bio ="She has an outstanding temperament and a tall figure. She has been deeply engaged in special departments for many years and has served as an administrative supervisor.However, during a supervision process, she had a personal relationship with a criminal and concealed the fact that he was “infertile”, which seriously violated the regulations."
+	$DD.bio = "She has an outstanding temperament and a tall figure. She has been deeply engaged in special departments for many years and has served as an administrative supervisor.However, during a supervision process, she had a personal relationship with a criminal and concealed the fact that he was “infertile”, which seriously violated the regulations."
 
 	$TJ.name = "Nagase Minamo (Chief Statistician)"
-	$TJ.bio ="She changed her career from the women`s fighting industry and is mainly responsible for ejaculation statistics.This was originally a casual job, but she was more keen to enforce the law in person. In repeated involuntary law enforcement, several men were in a dangerous situation of shock and rescue due to violent law enforcement.There is also a rumor that she discovered an abnormal situation in the statistics and was framed."
+	$TJ.bio = "She changed her career from the women`s fighting industry and is mainly responsible for ejaculation statistics.This was originally a casual job, but she was more keen to enforce the law in person. In repeated involuntary law enforcement, several men were in a dangerous situation of shock and rescue due to violent law enforcement.There is also a rumor that she discovered an abnormal situation in the statistics and was framed."
 
 	$DC.name = "Mizuki Miri (Senior Inspector)"
-	$DC.bio ="She is one of the few senior inspectors, known as the Empire`s first beautiful agent, with a capable personality, fair and selfless work, and absolute rationality, but there will also be an unknown side to people with good intentions.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
+	$DC.bio = "She is one of the few senior inspectors, known as the Empire`s first beautiful agent, with a capable personality, fair and selfless work, and absolute rationality, but there will also be an unknown side to people with good intentions.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
 
 	$XZDZ.name = "Kizaki Jessica (Chief Detective)"
-	$XZDZ.bio ="After the mysterious disappearance of the former captain, she took on this position after some twists and turns.Although she is very capable in front of the camera, she actually does not have the ability to handle cases independently.Her position is not firm, and sometimes she is swayed by chaebol forces and even compromises with them.This makes some team members dissatisfied, thinking that she sometimes abandons principles and bottom lines and makes decisions that are not conducive to the entire team for her own personal gain."
+	$XZDZ.bio = "After the mysterious disappearance of the former captain, she took on this position after some twists and turns.Although she is very capable in front of the camera, she actually does not have the ability to handle cases independently.Her position is not firm, and sometimes she is swayed by chaebol forces and even compromises with them.This makes some team members dissatisfied, thinking that she sometimes abandons principles and bottom lines and makes decisions that are not conducive to the entire team for her own personal gain."
 
 	$JB.name = "Tsujimiya Sara (Bartender)"
-	$JB.bio ="Sexy hot girls are quite popular.Original night essence NestCLUBThe characteristic bartender, but for some reasons he changed jobs to the red restaurant, which brought some energy to the otherwise dull restaurant."
+	$JB.bio = "Sexy hot girls are quite popular.Original night essence NestCLUBThe characteristic bartender, but for some reasons he changed jobs to the red restaurant, which brought some energy to the otherwise dull restaurant."
 
 	$RQ.name = "Nao Jinguji (Wife)"
-	$RQ.bio ="She has no lofty ideals and pursuits, but the thought of being with her beloved one With a small home of her own in this city, she took steps."
+	$RQ.bio = "She has no lofty ideals and pursuits, but the thought of being with her beloved one With a small home of her own in this city, she took steps."
 
 	$MMS.name = "Yuzuriha Karen (Succubus)"
-	$MMS.bio ="The mysterious woman who appeared after touching the strange magic array often said something about the second form.Because he is good at hypnosis, he was the first generationInceptionThe research object of the insomnia treatment instrument.She claimed to be a guide to a different world, but compared to the different world in her mouth, she wanted to stay here more."
+	$MMS.bio = "The mysterious woman who appeared after touching the strange magic array often said something about the second form.Because he is good at hypnosis, he was the first generationInceptionThe research object of the insomnia treatment instrument.She claimed to be a guide to a different world, but compared to the different world in her mouth, she wanted to stay here more."
 
 	$CH.name = "Sakura Momo (Car Dealer`s Daughter)"
-	$CH.bio ="A rich second generation with a gentle and sweet appearance and full of self-motivated, his father will4SShe is solely responsible for the business of the store.She also has an older brother, the proud son of Heaven who is active in the celebrity society, and is currently the hottest stockbroker.Because his brother is handsome and charming, young and promising, he exudes a dazzling light wherever he is.This made her not taken seriously when she was growing up, and she often secretly competed with her brother."
+	$CH.bio = "A rich second generation with a gentle and sweet appearance and full of self-motivated, his father will4SShe is solely responsible for the business of the store.She also has an older brother, the proud son of Heaven who is active in the celebrity society, and is currently the hottest stockbroker.Because his brother is handsome and charming, young and promising, he exudes a dazzling light wherever he is.This made her not taken seriously when she was growing up, and she often secretly competed with her brother."
 
-	$FP.name="Sumeragi Yuzu (Rich woman)"
+	$FP.name = "Sumeragi Yuzu (Rich woman)"
 	
 	$BGH.name = "Yatsugake Umi (Neighborhood Housewife)"
-	$BGH.bio ="Due to her husband`s job transfer, the young woman who followed her husband to this strange city, because of her husband`s busy work, has no children yet, and has gradually become impatient with the dull life, longing to be able to rekindle enthusiasm for life. Enthusiasm.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
+	$BGH.bio = "Due to her husband`s job transfer, the young woman who followed her husband to this strange city, because of her husband`s busy work, has no children yet, and has gradually become impatient with the dull life, longing to be able to rekindle enthusiasm for life. Enthusiasm.[This role is contributed by group friends. If you have a passion for creation, you can add group contributions]"
 
 	$SZ.name = "Tanaka Hitomi (Mayor)"
-	$SZ.bio ="She was originally an inconspicuous senator and participated in the election inconspicuously.Few people have high expectations of her, and even some people are skeptical of her abilities and qualifications.Unexpectedly, however, she was successfully elected with an overwhelming number of votes.Some people think that her election success has become a story worth exploring and thinking about, and it has also made people re-examine the potential and opportunities of those who have been ignored and questioned.And a few people think that she is just a sounder with the strongest female characteristics, a symbol to be represented, she can no longer truly represent her beliefs and values, and even she will ignore the actual situation in order to protect her status and reputation, and make moral and ethical concessions."
+	$SZ.bio = "She was originally an inconspicuous senator and participated in the election inconspicuously.Few people have high expectations of her, and even some people are skeptical of her abilities and qualifications.Unexpectedly, however, she was successfully elected with an overwhelming number of votes.Some people think that her election success has become a story worth exploring and thinking about, and it has also made people re-examine the potential and opportunities of those who have been ignored and questioned.And a few people think that she is just a sounder with the strongest female characteristics, a symbol to be represented, she can no longer truly represent her beliefs and values, and even she will ignore the actual situation in order to protect her status and reputation, and make moral and ethical concessions."
 
 	$JYB.name = "Hatano Yui (Minister of Education)"
-	$JYB.bio ="As the Minister of Education, she needs to be responsible for participating in and formulating education policies that meet the characteristics of the city, including education reform, characteristic curricula, teaching quality standards, allocation of educational resources, appointment and promotion of principals and a series of resolutions.The rights she holds make teachers in major colleges and universities want to establish a strong connection with her.She must do what she says and has a wide range of contacts. No matter where she goes, she will have her “friends”, so she is also known as the “godmother of education.”She has done an excellent job of protecting the privacy of her personal family, and the outside world only knows that she has a daughter."
+	$JYB.bio = "As the Minister of Education, she needs to be responsible for participating in and formulating education policies that meet the characteristics of the city, including education reform, characteristic curricula, teaching quality standards, allocation of educational resources, appointment and promotion of principals and a series of resolutions.The rights she holds make teachers in major colleges and universities want to establish a strong connection with her.She must do what she says and has a wide range of contacts. No matter where she goes, she will have her “friends”, so she is also known as the “godmother of education.”She has done an excellent job of protecting the privacy of her personal family, and the outside world only knows that she has a daughter."
 
 	$LB.name = "Niimura Akari (Club Boss)"
-	$LB.bio ="She is the queen of the night nest, full of principles, ambitious to dominate the prosperity of the night and the hot hormones.Her eyes were as hot and wild as a flame, and she was dismissive of the man`s nasty eyes.According to the customers, her brother is her weakness, and she often has no reason to protect him. She may have an unknown side."
+	$LB.bio = "She is the queen of the night nest, full of principles, ambitious to dominate the prosperity of the night and the hot hormones.Her eyes were as hot and wild as a flame, and she was dismissive of the man`s nasty eyes.According to the customers, her brother is her weakness, and she often has no reason to protect him. She may have an unknown side."
 
 	$CT.name = "Okita Anri (Empire President)"
-	$CT.bio ="As the president of the Empire Group, she leads the entire giant business empire.At the same time, she is good at observing and insight into the needs and interests of others, and uses her own resources to help others achieve their goals.Her social skills allow her to find partners, negotiate cooperation and facilitate transactions in various fields.Although she has a cold and unsmiling attitude in front of the media, people who come into close contact with her will find that she is actually very kind and caring for others, especially her favorite subordinates."
+	$CT.bio = "As the president of the Empire Group, she leads the entire giant business empire.At the same time, she is good at observing and insight into the needs and interests of others, and uses her own resources to help others achieve their goals.Her social skills allow her to find partners, negotiate cooperation and facilitate transactions in various fields.Although she has a cold and unsmiling attitude in front of the media, people who come into close contact with her will find that she is actually very kind and caring for others, especially her favorite subordinates."
 
 	$CJ.name = "Maihara Hijiri (Minister of Urban Development)"
-	$CJ.bio ="With the smooth implementation of the Measures for the Administration of Free Trade Autonomy for Kabukicho, the invisible darkness was blocked from the sun.Soon she replaced the position of Minister of Foreign Affairs and attended the New Five-party meeting. Her career has been smooth sailing and she has never faced a real crisis.This kind of smoothness and success also caused her to gradually lose her sense of crisis, and began to become blindly arrogant, partial to listening and believing, and believed that her success would never be threatened.Non-working days will show people with blond hair. Some people think this is a kind of disguised concealment, and others think it`s just that she simply likes this sense of contrast."
+	$CJ.bio = "With the smooth implementation of the Measures for the Administration of Free Trade Autonomy for Kabukicho, the invisible darkness was blocked from the sun.Soon she replaced the position of Minister of Foreign Affairs and attended the New Five-party meeting. Her career has been smooth sailing and she has never faced a real crisis.This kind of smoothness and success also caused her to gradually lose her sense of crisis, and began to become blindly arrogant, partial to listening and believing, and believed that her success would never be threatened.Non-working days will show people with blond hair. Some people think this is a kind of disguised concealment, and others think it`s just that she simply likes this sense of contrast."
 
 	$SB.name = "Matsumoto Ichika (Minister`s daughter)"
-	$SB.bio ="The leader of this class.Due to her special status, no one, whether it is a teacher or a classmate, dares to accuse or challenge her, because everyone knows that disobeying her will cause unbearable weight."
+	$SB.bio = "The leader of this class.Due to her special status, no one, whether it is a teacher or a classmate, dares to accuse or challenge her, because everyone knows that disobeying her will cause unbearable weight."
 
 	$FZL.name = "Nagisa Mitsuki (Gyaru)"
-	$FZL.bio ="She vividly showed her non-mainstream style with exaggerated hair color, making people recognize her appearance at a glance.Although she is different in terms of personality expression, her academic performance is unfortunately poor.She always said that her grades don`t matter, her dream is to be a hairdresser."
+	$FZL.bio = "She vividly showed her non-mainstream style with exaggerated hair color, making people recognize her appearance at a glance.Although she is different in terms of personality expression, her academic performance is unfortunately poor.She always said that her grades don`t matter, her dream is to be a hairdresser."
 	
 	$BTH.name = "Shirato Hana (Class Flower)"
-	$BTH.bio ="The classmates in the class called her the flower of the class, in fact, the reason was that there was a flower in her name."
+	$BTH.bio = "The classmates in the class called her the flower of the class, in fact, the reason was that there was a flower in her name."
 	
 	$HSW.name = "Kagari Mai (Single Mom)"
-	$HSW.bio ="She is the only student in the class who has passed the grade. The truth is that she was exempted from pregnancy and passed all the final exams from freshman to junior year because of her pregnancy.Raising children independently is hard work, so she still works in many places."
+	$HSW.bio = "She is the only student in the class who has passed the grade. The truth is that she was exempted from pregnancy and passed all the final exams from freshman to junior year because of her pregnancy.Raising children independently is hard work, so she still works in many places."
 	
 	$CBJ.name = "Kuramoto Sumire"
-	$CBJ.bio ="unwitNot filled in"
+	$CBJ.bio = "unwitNot filled in"
 	
 	$HME.name = "Kuruki Rei (Black Fungus)"
-	$HME.bio ="I have tasted the forbidden fruit for the first time since junior high school, and now I have been through a lot of battles.After completing the thousand-person slash, she immediately decided to joinAVcareer."
+	$HME.bio = "I have tasted the forbidden fruit for the first time since junior high school, and now I have been through a lot of battles.After completing the thousand-person slash, she immediately decided to joinAVcareer."
 	
 	$TMW.name = "Tenma Yui"
-	$TMW.bio ="unwrite"
+	$TMW.bio = "unwrite"
 	
 	$YLW.name = "Nagase Yui"
-	$YLW.bio ="unwrite"
+	$YLW.bio = "unwrite"
 	
 	$XMK.name = "Kururugi Aoi"
-	$XMK.bio ="unwrite"
+	$XMK.bio = "unwrite"
 	
 	$SYYY.name = "Satuski Mei (Amateur Cosplayer)"
-	$SYYY.bio ="Little-known amateurcoser。"
+	$SYYY.bio = "Little-known amateurcoser。"
 	
 	$LXS.name = "Melody Marks (International Student)"
-	$LXS.bio ="International students from foreign countries thousands of miles away have this novel attitude towards everything in this city.She has put everything she experienced on the plane behind her and is preparing for a new life."
+	$LXS.bio = "International students from foreign countries thousands of miles away have this novel attitude towards everything in this city.She has put everything she experienced on the plane behind her and is preparing for a new life."
 
 	$QJ.name = "Kinoshita Azumi (Imperial Daughter)"
-	$QJ.bio ="She just20Early in her life, but because of her special status, as the daughter of the Imperial Group, she carried a huge family responsibility.She had just returned from abroad and inherited many advantages from her mother.She not only has an enviable appearance and majestic twin peaks, but also has the wisdom and leadership skills of her mother.She is familiar with business administration and has keen business insight.She will become the pride of the family inheritance with her talents and hard work, and become the future leader of the Imperial Group."
+	$QJ.bio = "She just20Early in her life, but because of her special status, as the daughter of the Imperial Group, she carried a huge family responsibility.She had just returned from abroad and inherited many advantages from her mother.She not only has an enviable appearance and majestic twin peaks, but also has the wisdom and leadership skills of her mother.She is familiar with business administration and has keen business insight.She will become the pride of the family inheritance with her talents and hard work, and become the future leader of the Imperial Group."
 
 	$YY.name = "Natsuki Eru (Swimming Coach)"
-	$YY.bio ="She is a private swimming female coach from the Empire Group.She has a wealth of experience and professional knowledge in the field of swimming, as well as a love and passion for swimming.Recently, she has faced a problem, that is, her husband has lost his job. Can she still firmly play the role of a wife and strive to balance work and family life?[This character was contributed by a group of friends, and after being shelved for a long time, he finally has a chance to appear!If you have a passion for creation, you can add group contributions]"
+	$YY.bio = "She is a private swimming female coach from the Empire Group.She has a wealth of experience and professional knowledge in the field of swimming, as well as a love and passion for swimming.Recently, she has faced a problem, that is, her husband has lost his job. Can she still firmly play the role of a wife and strive to balance work and family life?[This character was contributed by a group of friends, and after being shelved for a long time, he finally has a chance to appear!If you have a passion for creation, you can add group contributions]"
 
 	$XN.name = "Yoshine Yuria (Nun)"
-	$XN.bio ="She is the adopted daughter of the bishop. According to the bishop`s oral statement, she has been blind since she was a child and was raised by the bishop.She is currently a nun in the church serving the statue of Shimolos. Because of her huge breasts that cannot be ignored, she has an uncontrollable desire for believers, so these believers regard her as the incarnation of Shimolos"
+	$XN.bio = "She is the adopted daughter of the bishop. According to the bishop`s oral statement, she has been blind since she was a child and was raised by the bishop.She is currently a nun in the church serving the statue of Shimolos. Because of her huge breasts that cannot be ignored, she has an uncontrollable desire for believers, so these believers regard her as the incarnation of Shimolos"
 
 	$LEI.name = "Rae (Trainee Nun)"
-	$LEI.bio ="She is a kind and optimistic young girl in life, and her boyfriend, a person addicted to gambling, used to be a part of her life, but it brought endless pain and uneasiness.She watched him sink in the whirlpool of gambling, gradually losing her direction and hope, so she longed for a kind of relief, a way to change her life.In her pursuit of inner peace and sanctity, she found the church, the place that provided her with peace and guidance.The church became her refuge, where she found faith and hope.Over time, her dedication and piety were recognized, and she gained the status of a trainee nun.This identity is not only a profession for her, but also an honor.She is proud of her service in the church and regards it as a mission, a way to connect with God."
+	$LEI.bio = "She is a kind and optimistic young girl in life, and her boyfriend, a person addicted to gambling, used to be a part of her life, but it brought endless pain and uneasiness.She watched him sink in the whirlpool of gambling, gradually losing her direction and hope, so she longed for a kind of relief, a way to change her life.In her pursuit of inner peace and sanctity, she found the church, the place that provided her with peace and guidance.The church became her refuge, where she found faith and hope.Over time, her dedication and piety were recognized, and she gained the status of a trainee nun.This identity is not only a profession for her, but also an honor.She is proud of her service in the church and regards it as a mission, a way to connect with God."
 
 	$HB.name = "Hinako Mori (18+ Streamer)"
-	$HB.bio ="She owns170Her tall figure, when she put on black stockings, immediately became charming.The delicate silk fits her slender legs and outlines the perfect curve, making it impossible to look away.With this advantage, she once served as a professional model and a member of the [Ferris Girl Group] group.But later, she was exposed to an affair with a rapper. Although she once denied it, she was eventually hacked out of the sex video.In the face of hard evidence, she couldn`t refute it, and she was depressed several times after the dissolution of the women`s group.But under the guidance of her best friend, she simply broke the jar and broke it. Since her reputation was already rotten, she simply became an online porn anchor."
+	$HB.bio = "She owns170Her tall figure, when she put on black stockings, immediately became charming.The delicate silk fits her slender legs and outlines the perfect curve, making it impossible to look away.With this advantage, she once served as a professional model and a member of the [Ferris Girl Group] group.But later, she was exposed to an affair with a rapper. Although she once denied it, she was eventually hacked out of the sex video.In the face of hard evidence, she couldn`t refute it, and she was depressed several times after the dissolution of the women`s group.But under the guidance of her best friend, she simply broke the jar and broke it. Since her reputation was already rotten, she simply became an online porn anchor."
 
 	$YA_dAPc.name = "Kinoshita Himari"
-	$YA_dAPc.bio ="???"
+	$YA_dAPc.bio = "???"
 
 	$SJ.name = "Satsuki Ena (Stupid Secretary)"
-	$SJ.bio ="Secretary of the Student Association."
+	$SJ.bio = "Secretary of the Student Association."
 end
 
 --- NPCattribute ---------------------------------

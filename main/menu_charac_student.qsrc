@@ -16,37 +16,37 @@ gs'menu_time_calc'
 	'<div class="charac_npc_list">'
 
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$SB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SB.name>>'',''<<$SB.love>>'',''<<$SB.bad>>'',''<<$SB.bio>>'',0,0,''<<$SB.study>>'',''<<$SB.baby>>''"><img class="img_stretch" src="images\npc_l\<<$SB.name>>.png"></a>'
+                <a class="photo" data-title="<<$SB.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SB.name>>'',''<<$SB.love>>'',''<<$SB.bad>>'',''<<$SB.bio>>'',0,0,''<<$SB.study>>'',''<<$SB.baby>>'',''<<$SB.pic>>''"><img class="img_stretch" src="images\npc_l\<<$SB.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$FZL.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$FZL.name>>'',''<<$FZL.love>>'',''<<$FZL.bad>>'',''<<$FZL.bio>>'',0,0,''<<$FZL.study>>'',''<<$FZL.baby>>''"><img class="img_stretch" src="images\npc_l\<<$FZL.name>>.png"></a>'
+                <a class="photo" data-title="<<$FZL.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$FZL.name>>'',''<<$FZL.love>>'',''<<$FZL.bad>>'',''<<$FZL.bio>>'',0,0,''<<$FZL.study>>'',''<<$FZL.baby>>'',''<<$FZL.pic>>''"><img class="img_stretch" src="images\npc_l\<<$FZL.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$BTH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$BTH.name>>'',''<<$BTH.love>>'',''<<$BTH.bad>>'',''<<$BTH.bio>>'',0,0,''<<$BTH.study>>'',''<<$BTH.baby>>''"><img class="img_stretch" src="images\npc_l\<<$BTH.name>>.png"></a>'
+                <a class="photo" data-title="<<$BTH.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$BTH.name>>'',''<<$BTH.love>>'',''<<$BTH.bad>>'',''<<$BTH.bio>>'',0,0,''<<$BTH.study>>'',''<<$BTH.baby>>'',''<<$BTH.pic>>''"><img class="img_stretch" src="images\npc_l\<<$BTH.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$HSW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HSW.name>>'',''<<$HSW.love>>'',''<<$HSW.bad>>'',''<<$HSW.bio>>'',0,0,''<<$HSW.study>>'',''<<$HSW.baby>>''"><img class="img_stretch" src="images\npc_l\<<$HSW.name>>.png"></a>'
+                <a class="photo" data-title="<<$HSW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HSW.name>>'',''<<$HSW.love>>'',''<<$HSW.bad>>'',''<<$HSW.bio>>'',0,0,''<<$HSW.study>>'',''<<$HSW.baby>>'',''<<$HSW.pic>>''"><img class="img_stretch" src="images\npc_l\<<$HSW.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$CBJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CBJ.name>>'',''<<$CBJ.love>>'',''<<$CBJ.bad>>'',''<<$CBJ.bio>>'',0,0,''<<$CBJ.study>>'',''<<$CBJ.baby>>''"><img class="img_stretch" src="images\npc_l\<<$CBJ.name>>.png"></a>'
+                <a class="photo" data-title="<<$CBJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$CBJ.name>>'',''<<$CBJ.love>>'',''<<$CBJ.bad>>'',''<<$CBJ.bio>>'',0,0,''<<$CBJ.study>>'',''<<$CBJ.baby>>'',''<<$CBJ.pic>>''"><img class="img_stretch" src="images\npc_l\<<$CBJ.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$HME.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HME.name>>'',''<<$HME.love>>'',''<<$HME.bad>>'',''<<$HME.bio>>'',0,0,''<<$HME.study>>'',''<<$HME.baby>>''"><img class="img_stretch" src="images\npc_l\<<$HME.name>>.png"></a>'
+                <a class="photo" data-title="<<$HME.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$HME.name>>'',''<<$HME.love>>'',''<<$HME.bad>>'',''<<$HME.bio>>'',0,0,''<<$HME.study>>'',''<<$HME.baby>>'',''<<$HME.pic>>''"><img class="img_stretch" src="images\npc_l\<<$HME.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$TMW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$TMW.name>>'',''<<$TMW.love>>'',''<<$TMW.bad>>'',''<<$TMW.bio>>'',0,0,''<<$TMW.study>>'',''<<$TMW.baby>>''"><img class="img_stretch" src="images\npc_l\<<$TMW.name>>.png"></a>'
+                <a class="photo" data-title="<<$TMW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$TMW.name>>'',''<<$TMW.love>>'',''<<$TMW.bad>>'',''<<$TMW.bio>>'',0,0,''<<$TMW.study>>'',''<<$TMW.baby>>'',''<<$TMW.pic>>''"><img class="img_stretch" src="images\npc_l\<<$TMW.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$YLW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YLW.name>>'',''<<$YLW.love>>'',''<<$YLW.bad>>'',''<<$YLW.bio>>'',0,0,''<<$YLW.study>>'',''<<$YLW.baby>>''"><img class="img_stretch" src="images\npc_l\<<$YLW.name>>.png"></a>'
+                <a class="photo" data-title="<<$YLW.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$YLW.name>>'',''<<$YLW.love>>'',''<<$YLW.bad>>'',''<<$YLW.bio>>'',0,0,''<<$YLW.study>>'',''<<$YLW.baby>>'',''<<$YLW.pic>>''"><img class="img_stretch" src="images\npc_l\<<$YLW.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$XMK.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XMK.name>>'',''<<$XMK.love>>'',''<<$XMK.bad>>'',''<<$XMK.bio>>'',0,0,''<<$XMK.study>>'',''<<$XMK.baby>>''"><img class="img_stretch" src="images\npc_l\<<$XMK.name>>.png"></a>'
+                <a class="photo" data-title="<<$XMK.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$XMK.name>>'',''<<$XMK.love>>'',''<<$XMK.bad>>'',''<<$XMK.bio>>'',0,0,''<<$XMK.study>>'',''<<$XMK.baby>>'',''<<$XMK.pic>>''"><img class="img_stretch" src="images\npc_l\<<$XMK.pic>>.png"></a>'
             '</div>'
             '<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$SYYY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SYYY.name>>'',''<<$SYYY.love>>'',''<<$SYYY.bad>>'',''<<$SYYY.bio>>'',0,0,''<<$SYYY.study>>'',''<<$SYYY.baby>>''"><img class="img_stretch" src="images\npc_l\<<$SYYY.name>>.png"></a>'
+                <a class="photo" data-title="<<$SYYY.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SYYY.name>>'',''<<$SYYY.love>>'',''<<$SYYY.bad>>'',''<<$SYYY.bio>>'',0,0,''<<$SYYY.study>>'',''<<$SYYY.baby>>'',''<<$SYYY.pic>>''"><img class="img_stretch" src="images\npc_l\<<$SYYY.pic>>.png"></a>'
             '</div>'
 			'<div class="charac_nps_list_foto">
-                <a class="photo" data-title="<<$SJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SJ.name>>'',''<<$SJ.love>>'',''<<$SJ.bad>>'',''<<$SJ.bio>>'',0,0,''<<$SJ.study>>'',''<<$SJ.baby>>''"><img class="img_stretch" src="images\npc_l\<<$SJ.name>>.png"></a>'
+                <a class="photo" data-title="<<$SJ.name>>" href="exec:gt ''UniversalNPCmenu'',''<<$SJ.name>>'',''<<$SJ.love>>'',''<<$SJ.bad>>'',''<<$SJ.bio>>'',0,0,''<<$SJ.study>>'',''<<$SJ.baby>>'',''<<$SJ.pic>>''"><img class="img_stretch" src="images\npc_l\<<$SJ.pic>>.png"></a>'
             '</div>'
             
 '</div>'
