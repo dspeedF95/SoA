@@ -67,6 +67,7 @@ if Nightshift.enthusiasm>=$FW.Upperlimitofenthusiasm:Nightshift.enthusiasm=$FW.U
 	gs'menu_time'
 	gs'menu_status_show'
 	gs'menu_option_show'
+
 if hour>=22 or hour <=5:
 	$times_of_Conveniencestore='night'
 	Nightshift.enthusiasm+=rand(-5,0)
@@ -247,7 +248,7 @@ if $args[0]="":
 	'<div class="button_menu">'
 	 if BDadvertising>0:'<div class="buttonGn"><a href="exec:BDadvertising-=1 & gt ''Group_performation_event'',''Convenience store_Fuck_BD1''">Shooting advertising<<BDadvertising>>times</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Talent_Apartment''">leave</a></div>'
-	'</div>'
+	
 	if $CTtest2>=1 and $DY.available=0:'<div class="buttonP"><a href="exec:gt ''Convenience_store'',''First acquaintance with the clerk''">Hello ❤</a></div>'
 	if $DY.available>0:'<div class="buttonP"><a href="exec:gt ''Clerk_event'',''Clumsy''"><<$DY.name>></a></div>'
 	
@@ -256,6 +257,8 @@ if $args[0]="":
         if $JY.love>=200 and week_day=6:'<div class="buttonR3"><a href="exec:$m=''JY'' & $ma=$JY.name & gt ''Group_performation_event'',''Convenience store_Fuck_exclusive''">Acquaintances visit</a></div>'
         if $QT.love>=200 and week_day=5:'<div class="buttonB3"><a href="exec:$m=''QT'' & $ma=$QT.name & gt ''Group_performation_event'',''Convenience store_Fuck_exclusive''">Acquaintances visit</a></div>'
 	 end
+
+	'</div>'
 
 	'<div class="dialog_menu">'
 		'<p>·According to<<$CT.name>>The monthly net profit must exceed the requirements of one million.</p>'
@@ -358,10 +361,6 @@ if $args[0]="Normal night shift":
 	'</div>'
 	
 end
-
-
-
-
 
 
 --- Convenience_store ---------------------------------
