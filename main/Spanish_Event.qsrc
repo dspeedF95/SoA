@@ -14,6 +14,11 @@ minutes+=15
 	gs "BUGProlapse"
 '</div>'
 
+
+
+
+
+
 if $args[0]="Frowning":
 	'<div class="show_menu">'
 		 '<video preload="metadata" autoplay loop height="480">
@@ -98,7 +103,7 @@ if $args[0]="XY_Fuck_Take advantage":
 		else
 		a=8
 		end
-	if a!8:
+	if  a!8:
 		'<div class="button_menu">'
 			if a=1:
 			'<div class="button"><a href="exec:a=2 & gt ''Spanish_Event'',''XY_Fuck_Take advantage''">Touch your face</a></div>'
