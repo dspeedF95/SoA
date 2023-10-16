@@ -8,20 +8,20 @@ set -Eexo pipefail
 #DESTDIR=../SOB
 
 # The file that will be generated or open
-QSPFILE=SOA_EE.qsp
+QSPFILE=SOA_466.qsp
 
 #######################################################################
 
-./txtmerge.py main SOA_EE.txt
+./txtmerge.py main soa466.txt
 if [[ "$OSTYPE" == "linux-gnu" ]] || [[ "$OSTYPE" == "linux-musl" ]]; then
-	./txt2gam.linux SOA_EE.txt "${QSPFILE}" 1> /dev/null
+	./txt2gam.linux soa466.txt "${QSPFILE}" 1> /dev/null
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-	./txt2gam.mac SOA_EE.txt "${QSPFILE}" 1> /dev/null
+	./txt2gam.mac soa466.txt "${QSPFILE}" 1> /dev/null
 elif [[ "$OSTYPE" == "msys" ]]; then
 	if [[ "$MSYSTEM_CARCH" == "x86_64" ]]; then
-		./txt2gam64.exe SOA_EE.txt "${QSPFILE}" 1> /dev/null
+		./txt2gam64.exe soa466.txt "${QSPFILE}" 1> /dev/null
 	else
-		./txt2gam.exe SOA_EE.txt "${QSPFILE}" 1> /dev/null
+		./txt2gam.exe soa466.txt "${QSPFILE}" 1> /dev/null
 	fi
 else
 	echo "Unsupported Operating System"

@@ -107,7 +107,7 @@ echo.
 echo Creating .qproj file ...
 
 @ECHO ON
-python qprojgen.py main SOA_466.qproj
+py qprojgen.py main SOA_466.qproj
 @ECHO OFF
 
 goto menu
@@ -117,7 +117,7 @@ echo.
 echo Creating .qsrc files ...
 
 @ECHO ON
-python txtsplit_fromtxt.py soa466.txt main
+py txtsplit_fromtxt.py soa466.txt main
 @ECHO OFF
 
 goto menu
