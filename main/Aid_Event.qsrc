@@ -726,7 +726,7 @@ if $args[0]="classroomSEX":
 			'<div class="button"><a href="exec:a=10 & gt ''Aid_Event'',''classroomSEX''">Lick clean</a></div>'
 			end
 			if a=10:
-			'<div class="button"><a href="exec:a=11 & gt ''Aid_Event'',''classroomSEX''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=11 & gt ''Aid_Event'',''classroomSEX''">Talk</a></div>'
 			end
 
 		'</div>'

@@ -599,7 +599,7 @@ if $args[0]="SS_Fuck_hotel":
 			end
 			
 			if a=1:
-			'<div class="button"><a href="exec:a=2 & gt ''Killer_Event'',''SS_Fuck_hotel''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=2 & gt ''Killer_Event'',''SS_Fuck_hotel''">Talk</a></div>'
 			end
 
 			if a=2:
@@ -671,7 +671,7 @@ if $args[0]="SS_Event_love":
 			'<div class="buttonS"><a href="exec:a=6 & gt ''Killer_Event'',''SS_Event_love''">Ejaculation</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 &gt ''Killer_Event'',''SS_Event_love''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 &gt ''Killer_Event'',''SS_Event_love''">Talk</a></div>'
 			end
 		'</div>'
 		else

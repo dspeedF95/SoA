@@ -985,7 +985,7 @@ if $args[0]="FXZ_SW_Hot springA":
 			'<div class="button"><a href="exec:a=4 & gt ''Vice_Principal_Event'',''FXZ_SW_Hot springA''">Ejaculation</a></div>'
 			end
 			if a=4:
-			'<div class="button"><a href="exec:a=5 & gt ''Vice_Principal_Event'',''FXZ_SW_Hot springA''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=5 & gt ''Vice_Principal_Event'',''FXZ_SW_Hot springA''">Talk</a></div>'
 			end
 		'</div>'
 		else

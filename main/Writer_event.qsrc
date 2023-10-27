@@ -646,7 +646,7 @@ if $args[0]="ZJ_Fuck_hotel":
 			'<div class="button"><a href="exec:a=9 & gt ''Writer_event'',''ZJ_Fuck_hotel''">Back in</a></div>'
 			end
 			if a=9:
-			'<div class="button"><a href="exec:a=10 & gt ''Writer_event'',''ZJ_Fuck_hotel''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=10 & gt ''Writer_event'',''ZJ_Fuck_hotel''">Talk</a></div>'
 			end
 			if a<=9 and q>=7: 
 			'<div class="button"><a href="exec:a=6 & gt ''Writer_event'',''ZJ_Fuck_hotel''">sprint</a></div>'

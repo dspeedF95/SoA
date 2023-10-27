@@ -49,7 +49,7 @@ if $ARGS[0]="":
 	
 	'<div class="button_menu">'
 		if 20>hour and hour>=8 and $QT.job!2:
-		'<div class="button"><a href="exec:gt ''City_hall'',''Front desk vertical painting''">dialogue</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall'',''Front desk vertical painting''">Talk</a></div>'
 		end
 		if $Sister_Hua_Event_Chain=2:'<div class="button"><a href="exec:gt ''Judges_Event'',''PW_Fuck_Catwalk''">Secret meeting room</a></div>'
 		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
@@ -155,7 +155,7 @@ if $ARGS[0]="In the top class":
 	end
 	'<div class="button_menu">'
 		if 20>hour and hour>=8:
-		'<div class="button"><a href="exec:gt ''City_hall'',''Standing painting of the top shift at the front desk''">dialogue</a></div>'
+		'<div class="button"><a href="exec:gt ''City_hall'',''Standing painting of the top shift at the front desk''">Talk</a></div>'
 		end
 		'<div class="button"><a href="exec:minutes+=20 & gt ''subway''">leave</a></div>'
 	'</div>'

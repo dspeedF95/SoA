@@ -232,7 +232,7 @@ if $args[0]="Stockings shop_Fuck_office":
             if a>=10:'<div class="buttonR3"><a href="exec:a=11 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_office''">Can`t help it</a></div>'
             if a>=11:'<div class="buttonR5"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_office''">Internal injection</a></div>'
             end
-            if a=12:'<div class="buttonS1"><a href="exec:a=13 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_office''">dialogue</a></div>'
+            if a=12:'<div class="buttonS1"><a href="exec:a=13 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_office''">Talk</a></div>'
 
         '</div>'
         else
@@ -430,7 +430,7 @@ if $args[0]="Stockings shop_Fuck_Go out":
             '<div class="buttonR"><a href="exec:a=6 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">Mouth explosion</a></div>'
             end
             if a=6:
-            '<div class="buttonB4"><a href="exec:a=7 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">dialogue</a></div>'
+            '<div class="buttonB4"><a href="exec:a=7 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_Go out''">Talk</a></div>'
             end
         '</div>'
         else
@@ -498,7 +498,7 @@ if $args[0]="Stockings shop_Fuck_visitXY":
             '<div class="buttonS5"><a href="exec:a+=1 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitXY''">Internal injection filling</a></div>'
             end
             if q=7:
-            '<div class="buttonS1"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitXY''">dialogue</a></div>'
+            '<div class="buttonS1"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_visitXY''">Talk</a></div>'
             end
         '</div>'
         else
@@ -646,7 +646,7 @@ if $args[0]="Stockings shop_Fuck_KFC":
             '<div class="buttonR4"><a href="exec:a=11 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_KFC''">Ejaculation</a></div>'
             end
             if a=11:
-            '<div class="buttonB4"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_KFC''">dialogue</a></div>'
+            '<div class="buttonB4"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_KFC''">Talk</a></div>'
             end
 
         '</div>'
@@ -764,7 +764,7 @@ if $args[0]="Stockings shop_Fuck_home":
             if a>=10:'<div class="buttonR"><a href="exec:a=11 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_home''">Ejaculation</a></div>'
             end
 
-            if a=11:'<div class="buttonS1"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_home''">dialogue</a></div>'
+            if a=11:'<div class="buttonS1"><a href="exec:a=12 & gt ''Stockings_shop_event'',''Stockings shop_Fuck_home''">Talk</a></div>'
 
         '</div>'
         else:

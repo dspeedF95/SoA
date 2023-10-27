@@ -19,7 +19,7 @@ if $ARGS[0] ="":
 
 
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''dialogue''">dialogue</a></div>'
+		'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''dialogue''">Talk</a></div>'
 		if Porsche=1:'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''VIP lounge''">VIP lounge</a></div>'
 		if $CH.booth=1:'<div class="button"><a href="exec:minutes+=5 & gt ''4Sshop'',''Motorcycle booth''">Motorcycle booth</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
@@ -183,7 +183,7 @@ if $ARGS[0] ="VIP lounge":
 		'<div class="button_menu">'
 			if $Caraudio=0 and money>=50000:'<div class="buttonG"><a href="exec:$Caraudio=1 & money-=50000 & gt ''Driving''">Upgrade the sound system￥50,000</a></div>'
 			if $CH.available=0:'<div class="button"><a href="exec:$CH.available=1 & gt ''4Sshop'',''VIP lounge''">Say hello</a></div>'
-			if ($CH.available=1 and  $CHEvent_chain<=2) or $CH.rice>=1:'<div class="buttonP"><a href="exec: gt ''4Sshop'',''Dealer dialogue''">dialogue</a></div>'
+			if ($CH.available=1 and  $CHEvent_chain<=2) or $CH.rice>=1:'<div class="buttonP"><a href="exec: gt ''4Sshop'',''Dealer dialogue''">Talk</a></div>'
 			if $CHEvent_chain>=3 and $CH.rice=0:'<div class="buttonG1"><a href="exec: gt ''Dealer_Event'',''Marketing''">Marketing</a></div>'
 			
 			if $CHEvent_chain>=3 and $CH.rice>=1:'<div class="buttonS2"><a href="exec: gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Marketing</a></div>'

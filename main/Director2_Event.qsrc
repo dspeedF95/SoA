@@ -435,7 +435,7 @@ if $args[0]="Inside the house":
             '<div class="button"><a href="exec:a=6 & gt ''Director2_Event'',''Inside the house''">Internal injection</a></div>'
             end
             if a=6:
-            '<div class="button"><a href="exec:a=7 & gt ''Director2_Event'',''Inside the house''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=7 & gt ''Director2_Event'',''Inside the house''">Talk</a></div>'
             end
         '</div>'
         else
@@ -625,7 +625,7 @@ if $args[0]="JZ_Fuck_aunt":
             '<div class="buttonS5"><a href="exec:a=7 & gt ''Director2_Event'',''JZ_Fuck_aunt''">Ejaculation</a></div>'
             end
             if a=7:
-            '<div class="button"><a href="exec:a=8 & gt ''Director2_Event'',''JZ_Fuck_aunt''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=8 & gt ''Director2_Event'',''JZ_Fuck_aunt''">Talk</a></div>'
             end
         '</div>'
         else
@@ -687,7 +687,7 @@ if $args[0]="JZ_Fuck_3P":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Director2_Event'',''JZ_Fuck_3P''">Shoot by yourself</a></div>'
             end
             if a=5:
-            '<div class="buttonS4"><a href="exec:a=6 & gt ''Director2_Event'',''JZ_Fuck_3P''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Director2_Event'',''JZ_Fuck_3P''">Talk</a></div>'
             end
 
         '</div>'
@@ -1255,7 +1255,7 @@ if $args[0]="JZ_Fuck_Cooperate with the investigation":
             '<div class="buttonS4"><a href="exec:a=8 & gt ''Director2_Event'',''JZ_Fuck_Cooperate with the investigation''">Ejaculation</a></div>'
             end
             if a=8:
-            '<div class="buttonS5"><a href="exec:a=9 & gt ''Director2_Event'',''JZ_Fuck_Cooperate with the investigation''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=9 & gt ''Director2_Event'',''JZ_Fuck_Cooperate with the investigation''">Talk</a></div>'
             end
 
 
@@ -1328,7 +1328,7 @@ if $args[0]="JZ_Fuck_Suspension of investigation":
             '<div class="buttonS4"><a href="exec:a=8 & gt ''Director2_Event'',''JZ_Fuck_Suspension of investigation''">Ejaculation</a></div>'
             end
             if a=8:
-            '<div class="buttonS5"><a href="exec:a=9 & gt ''Director2_Event'',''JZ_Fuck_Suspension of investigation''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=9 & gt ''Director2_Event'',''JZ_Fuck_Suspension of investigation''">Talk</a></div>'
             end
 
 
@@ -1390,7 +1390,7 @@ if $args[0]="JZ_Fuck_Special rewards":
             '<div class="buttonS3"><a href="exec:a=4 & gt ''Director2_Event'',''JZ_Fuck_Special rewards''">Mouth explosion</a></div>'
             end
             if a!5 and 4<=q and q<=7:
-            '<div class="buttonS4"><a href="exec:a=5 & gt ''Director2_Event'',''JZ_Fuck_Special rewards''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Director2_Event'',''JZ_Fuck_Special rewards''">Talk</a></div>'
             end
         '</div>'
         else

@@ -600,7 +600,7 @@ if $args[0]="YH_Fuck_secretaryD":
             if a=2:'<div class="buttonS3"><a href="exec:a=3 & gt ''Bank_event'',''YH_Fuck_secretaryD''">Playing with tongue</a></div>'
             if a>=3:'<div class="buttonS4"><a href="exec:a=4 & gt ''Bank_event'',''YH_Fuck_secretaryD''">Continuous burst plug</a></div>'
             if a>=4:'<div class="buttonS5"><a href="exec:a=5 & gt ''Bank_event'',''YH_Fuck_secretaryD''">Inward shot out</a></div>'
-            if a>=5:'<div class="buttonPu5"><a href="exec:a=6 & gt ''Bank_event'',''YH_Fuck_secretaryD''">dialogue</a></div>'
+            if a>=5:'<div class="buttonPu5"><a href="exec:a=6 & gt ''Bank_event'',''YH_Fuck_secretaryD''">Talk</a></div>'
         '</div>'
         else
             '<div class="button_menu">'
@@ -695,7 +695,7 @@ if $args[0]="YH_Fuck_B5":
             if a>=7:'<div class="buttonS5"><a href="exec:a=8 & gt ''Bank_event'',''YH_Fuck_B5''">Continuous pumping</a></div>'
             if a>=8:'<div class="buttonR"><a href="exec:a=9 & gt ''Bank_event'',''YH_Fuck_B5''">Shot on stockings</a></div>'
             end
-            if a=9:'<div class="buttonS"><a href="exec:a=10 & gt ''Bank_event'',''YH_Fuck_B5''">dialogue</a></div>'
+            if a=9:'<div class="buttonS"><a href="exec:a=10 & gt ''Bank_event'',''YH_Fuck_B5''">Talk</a></div>'
         '</div>'
         else
             '<div class="button_menu">'
@@ -814,7 +814,7 @@ if $args[0]="YH_Fuck_B7":
             if a>=8:'<div class="buttonR"><a href="exec:a=9 & gt ''Bank_event'',''YH_Fuck_B7''">Vigorous thrusting</a></div>'
             end
             if a=9:'<div class="buttonS"><a href="exec:a=10 & gt ''Bank_event'',''YH_Fuck_B7''">Shot on cotton socks</a></div>'
-            if a=10:'<div class="button"><a href="exec:a=11 & gt ''Bank_event'',''YH_Fuck_B7''">dialogue</a></div>'
+            if a=10:'<div class="button"><a href="exec:a=11 & gt ''Bank_event'',''YH_Fuck_B7''">Talk</a></div>'
         '</div>'
         else
             '<div class="button_menu">'

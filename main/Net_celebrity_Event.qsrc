@@ -69,7 +69,7 @@ if $args[0]="WH_Fuck_Cinema":
             '<div class="buttonS"><a href="exec:a=7 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Ejaculation</a></div>'
             end
             if a=7:
-            '<div class="buttonGn3"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">dialogue</a></div>'
+            '<div class="buttonGn3"><a href="exec:a=8 & gt ''Net_celebrity_Event'',''WH_Fuck_Cinema''">Talk</a></div>'
             end
         '</div>'
         else
@@ -336,7 +336,7 @@ if $args[0]="WH_Fuck_dinner":
             '<div class="buttonG4"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Raise a glass</a></div>'
             end
             if a=1:
-            '<div class="buttonS1"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">dialogue</a></div>'
+            '<div class="buttonS1"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Talk</a></div>'
             end
             if a=2:
             '<div class="buttonS2"><a href="exec:a=3 & gt ''Net_celebrity_Event'',''WH_Fuck_dinner''">Keep talking to me</a></div>'
@@ -555,7 +555,7 @@ if $args[0]="WH_Fuck_wash":
             '<div class="button"><a href="exec:a=1 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Help her take off her bra</a></div>'
             end
             if a=1:
-            '<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=2 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Talk</a></div>'
             end
             if a=2:
             '<div class="buttonG"><a href="exec:a=3 & money-=money/4 & gt ''Net_celebrity_Event'',''WH_Fuck_wash''">Cleaning fee￥<<money/4>></a></div>'
@@ -683,7 +683,7 @@ if $args[0]="WH_Fuck_Hot spring game":
             '<div class="buttonR5"><a href="exec:a=11 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Ejaculation</a></div>'
             end
             if a=11:
-            '<div class="buttonB4"><a href="exec:a=12 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">dialogue</a></div>'
+            '<div class="buttonB4"><a href="exec:a=12 & gt ''Net_celebrity_Event'',''WH_Fuck_Hot spring game''">Talk</a></div>'
             end
 
         '</div>'
@@ -1128,7 +1128,7 @@ if $args[0]="WH_Fuck_hun":
             '<div class="buttonR4"><a href="exec:a=9 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Ejaculation oath</a></div>'
             end
             if a=9:
-            '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">dialogue</a></div>'
+            '<div class="buttonB4"><a href="exec:a=10 & gt ''Net_celebrity_Event'',''WH_Fuck_hun''">Talk</a></div>'
             end
         '</div>'
         else

@@ -685,7 +685,7 @@ if $args[0]="SF_Fuck_Night attack":
             '<div class="buttonS4"><a href="exec:a=8 & gt ''Young_woman_event'',''SF_Fuck_Night attack''">♂ejaculation</a></div>'
             end
             if a=8:
-            '<div class="buttonS5"><a href="exec:a=9 & gt ''Young_woman_event'',''SF_Fuck_Night attack''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=9 & gt ''Young_woman_event'',''SF_Fuck_Night attack''">Talk</a></div>'
             end
         '</div>'
         else
@@ -752,7 +752,7 @@ if $args[0]="SF_Fuck_Have a shot":
             '<div class="buttonPu5"><a href="exec:a=6 & gt ''Young_woman_event'',''SF_Fuck_Have a shot''">Bukkake</a></div>'
             end
             if a=6:
-            '<div class="buttonP"><a href="exec:a=7 & gt ''Young_woman_event'',''SF_Fuck_Have a shot''">dialogue</a></div>'
+            '<div class="buttonP"><a href="exec:a=7 & gt ''Young_woman_event'',''SF_Fuck_Have a shot''">Talk</a></div>'
             end
         '</div>'
         else
@@ -817,7 +817,7 @@ if $args[0]="SF_Fuck_Uninvited guest":
             '<div class="buttonS4"><a href="exec:a=8 & gt ''Young_woman_event'',''SF_Fuck_Uninvited guest''">♂ejaculation</a></div>'
             end
             if a=8:
-            '<div class="button"><a href="exec:a=9 & gt ''Young_woman_event'',''SF_Fuck_Uninvited guest''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=9 & gt ''Young_woman_event'',''SF_Fuck_Uninvited guest''">Talk</a></div>'
             end
         '</div>'
         else
@@ -917,7 +917,7 @@ if $args[0]="SF_Fuck_seaside":
             '<div class="buttonS5"><a href="exec:a=9 & gt ''Young_woman_event'',''SF_Fuck_seaside''">♂ejaculation</a></div>'
             end
             if a=9:
-            '<div class="buttonS5"><a href="exec:a=10 & gt ''Young_woman_event'',''SF_Fuck_seaside''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=10 & gt ''Young_woman_event'',''SF_Fuck_seaside''">Talk</a></div>'
             end
 
         '</div>'

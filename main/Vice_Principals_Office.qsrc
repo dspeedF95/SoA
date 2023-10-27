@@ -25,7 +25,7 @@ if $args[0]="":
 	'</div>'
 
 	'<div class="button_menu">'
-		if  $XZ_Event_3t=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Vice_Principals_Office'',''dialogue''">dialogue</a></div>'
+		if  $XZ_Event_3t=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Vice_Principals_Office'',''dialogue''">Talk</a></div>'
 		if $FXZ_Event_counseling=1:'<div class="button"><a href="exec:minutes+=50 & gt ''Vice_Principals_Office'',''Competition counseling''">Competition counseling</a></div>'
 		if $FXZ_Event_counseling=2 and  $FXZ_Event_daughter<=1:'<div class="button"><a href="exec:minutes+=15 & gt ''Vice_Principals_Office'',''What`s on her mind''">What`s on her mind</a></div>'
 		if $FXZ_Event_counseling<2:'<div class="buttonGr"><a href="exec:">Not yet gained trust</a></div>'

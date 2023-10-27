@@ -548,7 +548,7 @@ if $args[0]="XY_Fuck_home":
 			'<div class="button"><a href="exec:a=6 & gt ''Spanish_Event'',''XY_Fuck_home''">Internal injection</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 & gt ''Spanish_Event'',''XY_Fuck_home''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 & gt ''Spanish_Event'',''XY_Fuck_home''">Talk</a></div>'
 			end
 
 		'</div>'
@@ -887,13 +887,13 @@ if $args[0]="FXZ_Fuck_Afternoon tea":
 	if a!5:
 		'<div class="button_menu">'
 			if a<=2:
-			'<div class="button"><a href="exec:a+=1 & gt ''Spanish_Event'',''FXZ_Fuck_Afternoon tea''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a+=1 & gt ''Spanish_Event'',''FXZ_Fuck_Afternoon tea''">Talk</a></div>'
 			end
 			if a=3:
 			'<div class="button"><a href="exec:a=4 & gt ''Spanish_Event'',''FXZ_Fuck_Afternoon tea''">Ejaculation</a></div>'
 			end
 			if a=4:
-			'<div class="button"><a href="exec:a=5 & gt ''Spanish_Event'',''FXZ_Fuck_Afternoon tea''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=5 & gt ''Spanish_Event'',''FXZ_Fuck_Afternoon tea''">Talk</a></div>'
 			end
 		'</div>'
 		else

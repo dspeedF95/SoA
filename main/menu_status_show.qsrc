@@ -17,9 +17,9 @@ if $Succubus_Contract=1:
 end
 
 	if money>0:
-		'<p>$cash:<span class ="green"><<money>></span> '
+		'<p>Cash:<span class ="green"><<money>></span> '
 	else
-		'<p>$cash:<span class ="red"><<money>></span> '
+		'<p>Cash:<span class ="red"><<money>></span> '
 	end
 		
 	if Cmoney>0:

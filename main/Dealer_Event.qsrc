@@ -545,7 +545,7 @@ if $args[0]="Car dealer_Fuck_meal4":
             '<div class="buttonS3"><a href="exec:a=4 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">Ejaculation</a></div>'
             end
             if a=4:
-            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_meal4''">Talk</a></div>'
             end
 
 
@@ -737,7 +737,7 @@ if $args[0]="Car dealer_Fuck_office1":
             '<div class="buttonS3"><a href="exec:a=13 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Internal injection</a></div>'
             end
             if a=13:
-            '<div class="buttonS4"><a href="exec:a=14 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=14 & gt ''Dealer_Event'',''Car dealer_Fuck_office1''">Talk</a></div>'
             end
             end
             '<div class="buttonGn"><a href="exec:minutes+=30 & gt ''Residential_area''">That`s it</a></div>'
@@ -839,7 +839,7 @@ if $args[0]="Car dealer_Fuck_oil1":
             '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Ejaculation</a></div>'
             end
             if a=6:
-            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">dialogue</a></div>'
+            '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_oil1''">Talk</a></div>'
             end
 
         '</div>'
@@ -889,7 +889,7 @@ if $args[0]="Car dealer_Fuck_Night return1":
     if a<9:
         '<div class="button_menu">'
             if a!1 and 0<=q and q<=3:
-            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">dialogue</a></div>'
+            '<div class="buttonP"><a href="exec:a=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Talk</a></div>'
             end
             if a!2 and 1<=q and q<=5:
             '<div class="buttonS1"><a href="exec:a=2 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Ask for a kiss</a></div>'
@@ -915,7 +915,7 @@ if $args[0]="Car dealer_Fuck_Night return1":
             '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Internal injection</a></div>'
             end
             if a=8:
-            '<div class="buttonS1"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">dialogue</a></div>'
+            '<div class="buttonS1"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Night return1''">Talk</a></div>'
             end
             end
         '</div>'
@@ -1055,7 +1055,7 @@ if $args[0]="Car dealer_Fuck_training1":
             '<div class="buttonS4"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Ejaculation</a></div>'
             end
             if a=7:
-            '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_training1''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1125,7 +1125,7 @@ if $args[0]="Car dealer_Fuck_photography1":
             '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Bukkake</a></div>'
             end
             if a=8:
-            '<div class="buttonS1"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">dialogue</a></div>'
+            '<div class="buttonS1"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_photography1''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1199,7 +1199,7 @@ if $args[0]="Car dealer_Fuck_overnight1":
             '<div class="buttonB1"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Wake up the next day</a></div>'
             end
             if a=8:
-            '<div class="buttonB2"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">dialogue</a></div>'
+            '<div class="buttonB2"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Talk</a></div>'
             end
             if a=9:
             '<div class="buttonS5"><a href="exec:a=10 & gt ''Dealer_Event'',''Car dealer_Fuck_overnight1''">Ejaculation</a></div>'
@@ -1281,7 +1281,7 @@ if $args[0]="Car dealer_Fuck_hotel1":
             '<div class="buttonS1"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Internal injection</a></div>'
             end
             if a=7:
-            '<div class="buttonS2"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_hotel1''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1349,7 +1349,7 @@ if $args[0]="Car dealer_Fuck_colleague1":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Ejaculation</a></div>'
             end
             if a=5:
-            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_colleague1''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1485,7 +1485,7 @@ if $args[0]="Car dealer_Fuck_Interview carB1":
             '<div class="buttonS3"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Ejaculation</a></div>'
             end
             if a=8:
-            '<div class="buttonS4"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_Interview carB1''">Talk</a></div>'
             end
 
 
@@ -1553,7 +1553,7 @@ if $args[0]="Car dealer_Fuck_Near carB1":
             '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Bukkake</a></div>'
             end
             if a!7 and 6<=q and q<=9:
-            '<div class="buttonS2"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Dealer_Event'',''Car dealer_Fuck_Near carB1''">Talk</a></div>'
             end
 
 
@@ -1627,7 +1627,7 @@ if $args[0]="Car dealer_Fuck_carAM1":
             '<div class="buttonS5"><a href="exec:a=8 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Bukkake</a></div>'
             end
             if a=8:
-            '<div class="buttonS2"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=9 & gt ''Dealer_Event'',''Car dealer_Fuck_carAM1''">Talk</a></div>'
             end
 
         '</div>'
@@ -1691,7 +1691,7 @@ if $args[0]="Car dealer_Fuck_Shop carA1":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">Mouth explosion</a></div>'
             end
             if a=5:
-            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carA1''">Talk</a></div>'
             end
 
 
@@ -1755,7 +1755,7 @@ if $args[0]="Car dealer_Fuck_Shop carB1":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">Bukkake</a></div>'
             end
             if a=5:
-            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">dialogue</a></div>'
+            '<div class="buttonS5"><a href="exec:a=6 & gt ''Dealer_Event'',''Car dealer_Fuck_Shop carB1''">Talk</a></div>'
             end
 
 
@@ -1820,7 +1820,7 @@ if $args[0]="Car dealer_Fuck_Home visit1":
             '<div class="buttonS3"><a href="exec:a+=1 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Lick clean</a></div>'
             end
             if q=4:
-            '<div class="buttonS1"><a href="exec:a=15 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">dialogue</a></div>'
+            '<div class="buttonS1"><a href="exec:a=15 & gt ''Dealer_Event'',''Car dealer_Fuck_Home visit1''">Talk</a></div>'
             end
 
         '</div>'

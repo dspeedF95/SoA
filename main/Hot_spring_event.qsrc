@@ -692,7 +692,7 @@ if $args[0]="WQ_Fuck_WSPA":
             '<div class="buttonS2"><a href="exec:a=2 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA''">Shiatsu chest</a></div>'
             end
             if a!3 and 2<=q and q<=5:
-            '<div class="buttonS2"><a href="exec:a=3 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=3 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA''">Talk</a></div>'
             end
             if a=3:
             '<div class="buttonS3"><a href="exec:a=4 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA''">Private service</a></div>'
@@ -722,7 +722,7 @@ if $args[0]="WQ_Fuck_WSPA":
             '<div class="buttonS5"><a href="exec:a=12 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA''">Shoot her inside</a></div>'
             end
             if a=12:
-            '<div class="buttonS2"><a href="exec:a=13 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=13 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA''">Talk</a></div>'
             end
 
         '</div>'
@@ -869,7 +869,7 @@ if $args[0]="WQ_Fuck_room3":
             '<div class="buttonS5"><a href="exec:a=9 & gt ''Hot_spring_event'',''WQ_Fuck_room3''">Ejaculation</a></div>'
             end
             if a=9:
-            '<div class="button"><a href="exec:a=10 & gt ''Hot_spring_event'',''WQ_Fuck_room3''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=10 & gt ''Hot_spring_event'',''WQ_Fuck_room3''">Talk</a></div>'
             end
 
         '</div>'
@@ -918,7 +918,7 @@ if $args[0]="WQ_Fuck_room4":
     if a<7:
         '<div class="button_menu">'
             if a!1 and 0<=q and q<=3:
-            '<div class="buttonS1"><a href="exec:a=1 & gt ''Hot_spring_event'',''WQ_Fuck_room4''">dialogue</a></div>'
+            '<div class="buttonS1"><a href="exec:a=1 & gt ''Hot_spring_event'',''WQ_Fuck_room4''">Talk</a></div>'
             end
             if a!2 and 1<=q and q<=4:
             '<div class="buttonS2"><a href="exec:a=2 & gt ''Hot_spring_event'',''WQ_Fuck_room4''">Jingle bell</a></div>'
@@ -936,7 +936,7 @@ if $args[0]="WQ_Fuck_room4":
             '<div class="buttonS5"><a href="exec:a=6 & gt ''Hot_spring_event'',''WQ_Fuck_room4''">Ejaculation</a></div>'
             end
             if a=6:
-            '<div class="buttonS2"><a href="exec:a=7 & gt ''Hot_spring_event'',''WQ_Fuck_room4''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=7 & gt ''Hot_spring_event'',''WQ_Fuck_room4''">Talk</a></div>'
             end
 
 
@@ -1136,7 +1136,7 @@ if $args[0]="WQ_Fuck_WSPA1":
             '<div class="buttonS5"><a href="exec:a=10 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA1''">Ejaculation</a></div>'
             end
             if a=10:
-            '<div class="buttonS2"><a href="exec:a=11 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA1''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=11 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA1''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1209,7 +1209,7 @@ if $args[0]="WQ_Fuck_WSPA2":
             '<div class="buttonS5"><a href="exec:a=8 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA2''">Lick clean</a></div>'
             end
             if a=8:
-            '<div class="buttonS2"><a href="exec:a=9 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA2''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=9 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA2''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1281,7 +1281,7 @@ if $args[0]="WQ_Fuck_WSPA3":
             '<div class="buttonS2"><a href="exec:a=9 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA3''">Lick clean</a></div>'
             end
             if a=9:
-            '<div class="buttonS2"><a href="exec:a=10 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA3''">dialogue</a></div>'
+            '<div class="buttonS2"><a href="exec:a=10 & gt ''Hot_spring_event'',''WQ_Fuck_WSPA3''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1545,7 +1545,7 @@ if $args[0]="201room":
 
 		
             '<div class="button_menu">'
-					if $SY.bad>=100:'<div class="buttonS"><a href="exec: gt ''Uehara_Event'',''SY_Fuck_WQ''">dialogue</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
+					if $SY.bad>=100:'<div class="buttonS"><a href="exec: gt ''Uehara_Event'',''SY_Fuck_WQ''">Talk</a></div>'else'<div class="buttonGr"><a href="exec:">???</a></div>'
                     '<div class="button"><a href="exec:gt ''Hot_spring_corridor''">leave</a></div>'
             '</div>'
 

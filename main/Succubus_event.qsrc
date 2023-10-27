@@ -81,7 +81,7 @@ if $args[0]="Succubus_Fuck_nightclub":
             '<div class="buttonR5"><a href="exec:a=7 & gt ''Succubus_event'',''Succubus_Fuck_nightclub''">Ejaculation</a></div>'
             end
             if q=5:
-            '<div class="button"><a href="exec:a=8 & gt ''Succubus_event'',''Succubus_Fuck_nightclub''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=8 & gt ''Succubus_event'',''Succubus_Fuck_nightclub''">Talk</a></div>'
             end
         '</div>'
         else
@@ -349,7 +349,7 @@ if $args[0]="Succubus_Fuck_daily":
             '<div class="buttonR5"><a href="exec:a=8 & gt ''Succubus_event'',''Succubus_Fuck_daily''">Inward shot out</a></div>'
             end
             if a=8:
-            '<div class="button"><a href="exec:a=9 & gt ''Succubus_event'',''Succubus_Fuck_daily''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=9 & gt ''Succubus_event'',''Succubus_Fuck_daily''">Talk</a></div>'
             end
         '</div>'
         else
@@ -655,7 +655,7 @@ if $args[0]="Succubus_Fuck_CHWQ":
             '<div class="buttonS5"><a href="exec:a+=1 & gt ''Succubus_event'',''Succubus_Fuck_CHWQ''">Ejaculation</a></div>'
             end
             if q=7:
-            '<div class="button"><a href="exec:a=14 & gt ''Succubus_event'',''Succubus_Fuck_CHWQ''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=14 & gt ''Succubus_event'',''Succubus_Fuck_CHWQ''">Talk</a></div>'
             end
 
         '</div>'
@@ -945,7 +945,7 @@ if $args[0]="Succubus_Fuck_Qing Do":
             '<div class="button"><a href="exec:a=15 & gt ''Succubus_event'',''Succubus_Fuck_Qing Do''">Lick clean</a></div>'
             end
             if q=9:
-            '<div class="button"><a href="exec:a=16 & gt ''Succubus_event'',''Succubus_Fuck_Qing Do''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=16 & gt ''Succubus_event'',''Succubus_Fuck_Qing Do''">Talk</a></div>'
             end
             if q=10:
             '<div class="button"><a href="exec:a=0 & q=0 & gt ''Succubus_event'',''Succubus_Fuck_CHWQ''">Go with them</a></div>'
@@ -1098,7 +1098,7 @@ if $args[0]="Succubus_Fuck_Car dealer":
             '<div class="buttonR5"><a href="exec:a=8 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''">Inward shot out</a></div>'
             end
             if a=8:
-            '<div class="buttonB3"><a href="exec:a=9 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''">dialogue</a></div>'
+            '<div class="buttonB3"><a href="exec:a=9 & gt ''Succubus_event'',''Succubus_Fuck_Car dealer''">Talk</a></div>'
             end
         '</div>'
         else

@@ -20,7 +20,7 @@ if $ARGS[0] ="":
 	'<div class ="show_menu"><img src="images\place\丝袜店.jpg" width="854"></div>'
 
 	'<div class="button_menu">'
-		'<div class="buttonP"><a href="exec:Stockingsshopdialogue=0 & gt ''Stockings_shop'',''dialogue''">dialogue</a></div>'
+		'<div class="buttonP"><a href="exec:Stockingsshopdialogue=0 & gt ''Stockings_shop'',''dialogue''">Talk</a></div>'
 		'<div class="button"><a href="exec:minutes+=5 & gt ''Shopping_mall''">leave</a></div>'
 	'</div>'
 

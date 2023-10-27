@@ -780,7 +780,7 @@ if $args[0]="JJ_Fuck_senior3P":
 	if  a!13:
 		'<div class="button_menu">'
 			if a=0:
-			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_senior3P''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=1 & gt ''Sister_event'',''JJ_Fuck_senior3P''">Talk</a></div>'
 			end
 			if a>=1:
 			'<div class="button"><a href="exec:a+=1 & gt ''Sister_event'',''JJ_Fuck_senior3P''">Do it</a></div>'

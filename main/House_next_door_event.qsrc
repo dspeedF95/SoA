@@ -605,7 +605,7 @@ if $args[0]="Next door_Fuck_Hot spring1":
             '<div class="buttonS3"><a href="exec:a=4 & gt ''House_next_door_event'',''Next door_Fuck_Hot spring1''">Mouth explosion</a></div>'
             end
             if a=4:
-            '<div class="buttonS4"><a href="exec:a=5 & gt ''House_next_door_event'',''Next door_Fuck_Hot spring1''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''House_next_door_event'',''Next door_Fuck_Hot spring1''">Talk</a></div>'
             end
 
 
@@ -1069,7 +1069,7 @@ if $args[0]="Next door_Fuck_tune1":
             '<div class="buttonS3"><a href="exec:a=7 & gt ''House_next_door_event'',''Next door_Fuck_tune1''">Ejaculation</a></div>'
             end
             if a=7:
-            '<div class="buttonS4"><a href="exec:a=8 & gt ''House_next_door_event'',''Next door_Fuck_tune1''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=8 & gt ''House_next_door_event'',''Next door_Fuck_tune1''">Talk</a></div>'
             end
 
         '</div>'

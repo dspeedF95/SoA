@@ -28,7 +28,7 @@ if $args[0]="":
 	'</div>'
 
 	'<div class="button_menu">'
-		if  $XZ_Event_3t=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Spanish_office'',''dialogue''">dialogue</a></div>'
+		if  $XZ_Event_3t=1:'<div class="button"><a href="exec:minutes+=5 & gt ''Spanish_office'',''dialogue''">Talk</a></div>'
 		if  $XY_Event_bag=0:'<div class="button"><a href="exec:minutes+=5 & gt ''Spanish_Event'',''Frowning''">Frowning</a></div>'
 		if $XY.bad>=150-$XY.love:'<div class="buttonS1"><a href="exec:minutes+=5 & gt ''Spanish_Event'',''XY_Fuck_Office dry''">Strong kiss</a></div>'else'<div class="buttonGr"><a href="exec:">strong??</a></div>'
 		if $XY.love>=100 and hour>=15:'<div class="buttonS2"><a href="exec:minutes+=5 & a=2 &  gt ''Spanish_Event'',''XY_Fuck_Afterschoolcounseling''">After-school counseling</a></div>'else'<div class="buttonGr"><a href="exec:">After class??</a></div>'

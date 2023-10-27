@@ -238,7 +238,7 @@ if $args[0]="SW_Fuck_hotel":
 			'<div class="button"><a href="exec:a=7 & gt ''Biology_event'',''SW_Fuck_hotel''">Internal injection</a></div>'
 			end
 			if a=7:
-			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_hotel''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=8 & gt ''Biology_event'',''SW_Fuck_hotel''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -563,7 +563,7 @@ if $args[0]="SW_Fuck_XZ3P":
 	if a!10:
 		'<div class="button_menu">'
 			if a=0:
-			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_XZ3P''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=1 & gt ''Biology_event'',''SW_Fuck_XZ3P''">Talk</a></div>'
 			end
 			if a=1:
 			'<div class="buttonB"><a href="exec:a=2 & gt ''Biology_event'',''SW_Fuck_XZ3P''">let<<$SW.name>>Oral sex</a></div>'

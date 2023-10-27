@@ -373,7 +373,7 @@ if $args[0]="XZ_Fuck_Empty_classroomA":
 			'<div class="button"><a href="exec:a=8 & gt ''Principal_Event'',''XZ_Fuck_Empty_classroomA''">Ejaculation</a></div>'
 			end
 			if a=8:
-			'<div class="button"><a href="exec:a=9 & gt ''Principal_Event'',''XZ_Fuck_Empty_classroomA''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=9 & gt ''Principal_Event'',''XZ_Fuck_Empty_classroomA''">Talk</a></div>'
 			end
 
 		'</div>'
@@ -475,7 +475,7 @@ if $args[0]="XZ_Fuck_Empty classroomB":
 			'<div class="button"><a href="exec:a=9 & gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">Pull it out</a></div>'
 			end
 			if a=9:
-			'<div class="button"><a href="exec:a=10 & gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=10 & gt ''Principal_Event'',''XZ_Fuck_Empty classroomB''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -627,7 +627,7 @@ if $args[0]="XZ_Fuck_officeB":
 			'<div class="button"><a href="exec:a=6 & gt ''Principal_Event'',''XZ_Fuck_officeB''">Mouth explosion</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 & gt ''Principal_Event'',''XZ_Fuck_officeB''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 & gt ''Principal_Event'',''XZ_Fuck_officeB''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -793,7 +793,7 @@ if $args[0]="XZ_Fuck_FXZ":
 			'<div class="button"><a href="exec:a=1 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">Get out of the car</a></div>'
 			end
 			if a=1:
-			'<div class="button"><a href="exec:a=2 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">and<<$FXZ.name>>dialogue</a></div>'
+			'<div class="button"><a href="exec:a=2 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">and<<$FXZ.name>>Talk</a></div>'
 			end
 			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Principal_Event'',''XZ_Fuck_FXZ''">Look at<<$XZ.name>></a></div>'

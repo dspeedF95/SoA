@@ -47,7 +47,7 @@ if $ARGS[0]="Director`s Office":
 	 	 <source src="images\NPC\JZ\vids\警局局长开场~1.webm" type=''video/webm;''></video></div>'
 	'</div>'
 	'<div class="button_menu">'
-		'<div class="button"><a href="exec:Directordialogue=0 & gt ''Police_station'',''Director Liyi''">dialogue</a></div>'
+		'<div class="button"><a href="exec:Directordialogue=0 & gt ''Police_station'',''Director Liyi''">Talk</a></div>'
 		'<div class="buttonG1"><a href="exec:gt ''Police_station'',''Part-time vigilante''">Part-time vigilante</a></div>'
 		'<div class="buttonG2"><a href="exec:gt ''Police_station'',''Pro bono assistance''">Pro bono assistance</a></div>'
 		

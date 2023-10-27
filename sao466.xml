@@ -2291,7 +2291,7 @@
     <entry original="我上了车，开车去了她在南区的家" translated="I got in the car and drove to her home in the Southern District"/>
     <entry original="大厅_事件" translated="Hall_event"/>
     <entry original="精力-" translated="energy-"/>
-    <entry original="精力判定" translated="Energy judgment"/>
+    <entry original="精力判定" translated="Energy_judgment"/>
     <entry original="家_地图" translated="Home_map"/>
     <entry original="继母_大厅外出" translated="Stepmom_going out in the hall"/>
     <entry original="扔垃圾" translated="Throw garbage"/>
@@ -2320,7 +2320,7 @@
     <entry original="：你是哪一栋的？" translated=": Which building do you belong to?"/>
     <entry original="？？？：呃…我们是住在人才公寓的…" translated="？？？: Uh... we live in a talent apartment…"/>
     <entry original="：这样啊…（人才公寓的人，没有什么社交价值）" translated=": That`s it... (People in the talent apartment have no social value)"/>
-    <entry original="居民区" translated="Residential area"/>
+    <entry original="居民区" translated="Residential_area"/>
     <entry original="知道了 " translated="Got it "/>
     <entry original="：她本来和我约好下午四点带她去商店挑家具，但我的工作会议重要多了，所以这个人情你替我去还了吧。" translated=": She originally made an appointment with me to take her to the store to pick up furniture at four o`clock in the afternoon, but my work meeting is much more important, so you can return this favor for me."/>
     <entry original="我：呃…下午四点吗 ？" translated="Me: Uh...is it four o`clock in the afternoon?"/>
@@ -2381,7 +2381,7 @@
     <entry original="偷听" translated="Eavesdropping"/>
     <entry original="偷看" translated="Peek"/>
     <entry original="房门紧闭" translated="The door is closed"/>
-    <entry original="随机数" translated="Random number"/>
+    <entry original="随机数" translated="Random_number"/>
     <entry original="电话时" translated="On the phone"/>
     <entry original="卧室内" translated="In the bedroom"/>
     <entry original="偷窥" translated="Peeping"/>
@@ -3010,10 +3010,10 @@
     <entry original="轮：" translated="wheel："/>
     <entry original="奖励挑战 ---------------------------------" translated="Reward_challenge ---------------------------------"/>
     <entry original="地铁_地图" translated="Subway_Map"/>
-    <entry original="电车随机数" translated="Tram random number"/>
-    <entry original="电车角色" translated="Tram role"/>
+    <entry original="电车随机数" translated="Tram_random_number"/>
+    <entry original="电车角色" translated="Tram_role"/>
     <entry original="电车" translated="tram"/>
-    <entry original="电车随机数 " translated="Tram random number "/>
+    <entry original="电车随机数 " translated="Tram_random_number "/>
     <entry original="地铁_事件" translated="Subway_Event"/>
     <entry original="地铁骚扰" translated="Subway harassment"/>
     <entry original="地铁_选项" translated="Subway_Options"/>
@@ -3022,16 +3022,16 @@
     <entry original="地铁 ---------------------------------" translated="subway ---------------------------------"/>
     <entry original="回家_小图" translated="Go home_small picture"/>
     <entry original="大学_" translated="university_"/>
-    <entry original="帝国集团" translated="Empire Group"/>
-    <entry original="姆苟制药" translated="Mugou Pharmaceutical"/>
-    <entry original="我的公司" translated="My company"/>
+    <entry original="帝国集团" translated="Empire_Group"/>
+    <entry original="姆苟制药" translated="Mugou_Pharmaceutical"/>
+    <entry original="我的公司" translated="My_company"/>
     <entry original="市政厅" translated="City hall"/>
     <entry original="郊外" translated="suburbs"/>
     <entry original="郊外_" translated="suburbs_"/>
     <entry original="地铁_地图 ---------------------------------" translated="Subway_Map ---------------------------------"/>
     <entry original="电车前置" translated="Front of the tram"/>
     <entry original="熟悉的身影" translated="Familiar figure"/>
-    <entry original="集印编号" translated="Set printing number"/>
+    <entry original="集印编号" translated="Set_printing_number"/>
     <entry original="泛用_" translated="Universal_"/>
     <entry original="集印" translated="Set seal"/>
     <entry original="❤搭讪辣妹们❤" translated="❤Strike up a conversation with hot girls❤"/>
@@ -4172,15 +4172,15 @@
     <entry original="我精疲力尽了" translated="I`m exhausted"/>
     <entry original="我需要" translated="I need"/>
     <entry original="充能电池" translated="Rechargeable battery"/>
-    <entry original="强制休息 ---------------------------------" translated="Compulsory rest ---------------------------------"/>
-    <entry original="监狱图" translated="Prison map"/>
+    <entry original="强制休息 ---------------------------------" translated="Compulsory_rest ---------------------------------"/>
+    <entry original="监狱图" translated="Prison_map"/>
     <entry original="监狱守则" translated="Prison code"/>
     <entry original="精疲力尽" translated="Exhausted"/>
     <entry original="就是他" translated="It`s him"/>
     <entry original="把他抓回去" translated="Take him back"/>
     <entry original="千万不能让他踏进这里一步！" translated="Don`t let him step in here!"/>
     <entry original="你彻底瘫倒在了监狱冰冷的地板上" translated="You completely collapsed on the cold floor of the prison"/>
-    <entry original="监狱_强制休息 ---------------------------------" translated="Prison_Compulsory rest ---------------------------------"/>
+    <entry original="监狱_强制休息 ---------------------------------" translated="Prison_Compulsory_rest ---------------------------------"/>
     <entry original="试药_强制休息" translated="Drug test_forced rest"/>
     <entry original="我精疲力竭了，被医生和护士们抬到了病床上。" translated="I was exhausted and was carried to the hospital bed by the doctors and nurses."/>
     <entry original="试药_强制休息 ---------------------------------" translated="Drug_test_forced rest ---------------------------------"/>
@@ -4192,9 +4192,9 @@
     <entry original="研发室！严禁一切关于" translated="R&amp;D room!Everything about"/>
     <entry original="的后续研究，一经发现直接开除。————" translated="The follow-up research was directly expelled once it was discovered.————"/>
     <entry original="姆苟制药 ---------------------------------" translated="Mugou_Pharmaceutical ---------------------------------"/>
-    <entry original="继母办公室" translated="Stepmother`s office"/>
+    <entry original="继母办公室" translated="Stepmothers_office"/>
     <entry original="人在" translated="People are here"/>
-    <entry original="姐姐办公室" translated="Sister`s office"/>
+    <entry original="姐姐办公室" translated="Sisters_office"/>
     <entry original="姐姐办公室对话" translated="Sister`s office conversation"/>
     <entry original="地质办公室" translated="Geological Office"/>
     <entry original="地质办公室对话" translated="Dialogue with the Geological Office"/>
@@ -4333,7 +4333,7 @@
     <entry original="召唤母女丼" translated="Summon mother and daughter Donburi"/>
     <entry original="姐姐，异色植物的成分研究进度怎么样了？" translated="Sister, how is the progress of the research on the composition of heterochromatic plants?"/>
     <entry original="我还需要更多的植物样本，再多带点叶子过来。" translated="I still need more plant samples and bring more leaves."/>
-    <entry original="姐姐办公室 ---------------------------------" translated="Sister`s_office ---------------------------------"/>
+    <entry original="姐姐办公室 ---------------------------------" translated="Sisters_office ---------------------------------"/>
     <entry original="地质办公室，随处可见大量的精密仪器和土壤样本。" translated="In the geological office, a large number of precision instruments and soil samples can be seen everywhere."/>
     <entry original="处理" translated="Deal with"/>
     <entry original="普通土壤检测" translated="Ordinary soil testing"/>
@@ -4508,8 +4508,8 @@
     <entry original="我：我看你是被他奸得上瘾了吧。" translated="Me: I think you are addicted to being raped by him."/>
     <entry original="如果你同意留下他的话" translated="If you agree to keep him"/>
     <entry original="我们可以" translated="We can"/>
-    <entry original="继母办公室 ---------------------------------" translated="Stepmother`s_office ---------------------------------"/>
-    <entry original="陋室" translated="Bad room"/>
+    <entry original="继母办公室 ---------------------------------" translated="Stepmothers_office ---------------------------------"/>
+    <entry original="陋室" translated="Bad_room"/>
     <entry original="出租房" translated="Rental room"/>
     <entry original="抽屉" translated="drawer"/>
     <entry original="搜索抽屉" translated="Search drawer"/>
@@ -4569,16 +4569,16 @@
     <entry original="入夜的学校" translated="School at night"/>
     <entry original="总有那么一丝恐怖" translated="There is always a trace of horror"/>
     <entry original="大学 ---------------------------------" translated="university ---------------------------------"/>
-    <entry original="校长室" translated="Principal`s Office"/>
-    <entry original="副校长室" translated="Vice Principal`s Office"/>
-    <entry original="西语办公室" translated="Spanish office"/>
-    <entry original="生物办公室" translated="Biological office"/>
-    <entry original="学生会" translated="Student Union"/>
-    <entry original="普通教室" translated="Ordinary classroom"/>
+    <entry original="校长室" translated="Principals_Office"/>
+    <entry original="副校长室" translated="Vice_Principals_Office"/>
+    <entry original="西语办公室" translated="Spanish_office"/>
+    <entry original="生物办公室" translated="Biological_office"/>
+    <entry original="学生会" translated="Student_Union"/>
+    <entry original="普通教室" translated="Ordinary_classroom"/>
     <entry original="无听课权限" translated="No permission to attend class"/>
-    <entry original="学校走廊" translated="School corridor"/>
-    <entry original="午夜走廊" translated="Midnight Corridor"/>
-    <entry original="三年二班" translated="Second shift in three years"/>
+    <entry original="学校走廊" translated="School_corridor"/>
+    <entry original="午夜走廊" translated="Midnight_Corridor"/>
+    <entry original="三年二班" translated="Second_shift_in_three_years"/>
     <entry original="暂不开放的教室" translated="Temporarily closed classrooms"/>
     <entry original="无权限" translated="No permission"/>
     <entry original="大学正门" translated="University main entrance"/>
@@ -5028,7 +5028,7 @@
     <entry original="呃……" translated="uh……"/>
     <entry original="别担心…我在学生会里帮你问问。对了，辣妹帮的成员应该会有兴趣参加的，你去问问看二代目吧。" translated="Don`t worry... I`ll ask for you in the student union.By the way, the members of the Hot Girls Gang should be interested in participating. Go and ask to see the second generation."/>
     <entry original="学生会 ---------------------------------" translated="Student_Union ---------------------------------"/>
-    <entry original="校园随机数" translated="Campus random number"/>
+    <entry original="校园随机数" translated="Campusrandomnumber"/>
     <entry original="穿过走廊" translated="Through the corridor"/>
     <entry original="杂物室调查" translated="Utility room investigation"/>
     <entry original="询问教师" translated="Ask the teacher"/>
@@ -22202,14 +22202,14 @@
     <entry original="我正打算洗澡…要一起洗吗……" translated="I`m going to take a shower... do you want to take a shower together?……"/>
     <entry original="辣妹帮 ---------------------------------" translated="Hot_girl_Gang ---------------------------------"/>
     <entry original="一层" translated="First floor"/>
-    <entry original="辣妹帮走廊" translated="Hot girl gang corridor"/>
-    <entry original="辣妹帮二楼" translated="Hot Girl Gang second Floor"/>
-    <entry original="辣妹帮顶楼" translated="Hot girl gang top floor"/>
+    <entry original="辣妹帮走廊" translated="Hot_girl_gang_corridor"/>
+    <entry original="辣妹帮二楼" translated="Hot_Girl_Gang_second_Floor"/>
+    <entry original="辣妹帮顶楼" translated="Hot_girl_gang_top_floor"/>
     <entry original="辣妹帮_地图 ---------------------------------" translated="Hot_Girl_Gang_map ---------------------------------"/>
-    <entry original="监狱随机数" translated="Prison random number"/>
+    <entry original="监狱随机数" translated="Prisonrandomnumber"/>
     <entry original="出狱" translated="Get out of jail"/>
     <entry original="刑满释放了" translated="Released after serving his sentence"/>
-    <entry original="典狱长办公室" translated="Warden`s Office"/>
+    <entry original="典狱长办公室" translated="Wardens_Office"/>
     <entry original="朗读监狱守则" translated="Read the prison code aloud"/>
     <entry original="劳改项目" translated="Labor reform project"/>
     <entry original="劳动改造" translated="Labor reform"/>

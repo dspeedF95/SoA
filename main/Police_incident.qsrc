@@ -213,7 +213,7 @@ if $args[0]="JY_Fuck_barber":
             '<div class="buttonS4"><a href="exec:a=7 & gt ''Police_incident'',''JY_Fuck_barber''">Ejaculation</a></div>'
             end
             if a=7:
-            '<div class="button"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_barber''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_barber''">Talk</a></div>'
             end
         '</div>'
         else
@@ -285,7 +285,7 @@ if $args[0]="JY_Fuck_Fitness person":
             '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_Fitness person''">Ejaculation</a></div>'
             end
             if a=9:
-            '<div class="button"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Fitness person''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Fitness person''">Talk</a></div>'
             end
 
         '</div>'
@@ -361,7 +361,7 @@ if $args[0]="JY_Fuck_Teacher encounter":
             '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">Ejaculation</a></div>'
             end
             if a=9:
-            '<div class="button"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Teacher encounter''">Talk</a></div>'
             end
 
         '</div>'
@@ -461,7 +461,7 @@ if $args[0]="JY_Fuck_badminton":
             '<div class="buttonS4"><a href="exec:a=7 & gt ''Police_incident'',''JY_Fuck_badminton''">Ejaculation</a></div>'
             end
             if a=7:
-            '<div class="buttonS4"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_badminton''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_badminton''">Talk</a></div>'
             end
 
         '</div>'
@@ -535,7 +535,7 @@ if $args[0]="JY_Fuck_Psychological room":
             '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_Psychological room''">Ejaculation</a></div>'
             end
             if a=9:
-            '<div class="button"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Psychological room''">dialogue</a></div>'
+            '<div class="button"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_Psychological room''">Talk</a></div>'
             end
 
         '</div>'
@@ -599,7 +599,7 @@ if $args[0]="JY_Fuck_Utility room":
             '<div class="buttonS4"><a href="exec:a=5 & gt ''Police_incident'',''JY_Fuck_Utility room''">Ejaculation</a></div>'
             end
             if a=5:
-            '<div class="buttonS4"><a href="exec:a=6 & gt ''Police_incident'',''JY_Fuck_Utility room''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=6 & gt ''Police_incident'',''JY_Fuck_Utility room''">Talk</a></div>'
             end
 
 
@@ -1054,7 +1054,7 @@ if $args[0]="JY_Fuck_After the date2":
             '<div class="buttonS3"><a href="exec:a=4 & gt ''Police_incident'',''JY_Fuck_After the date2''">Oral ejaculation</a></div>'
             end
             if a=4:
-            '<div class="buttonS4"><a href="exec:a=5 & gt ''Police_incident'',''JY_Fuck_After the date2''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=5 & gt ''Police_incident'',''JY_Fuck_After the date2''">Talk</a></div>'
             end
             if a=5:
 
@@ -1068,7 +1068,7 @@ if $args[0]="JY_Fuck_After the date2":
             '<div class="buttonS4"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_After the date2''">Ejaculation</a></div>'
             end
             if a=8:
-            '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_After the date2''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=9 & gt ''Police_incident'',''JY_Fuck_After the date2''">Talk</a></div>'
             end
         '</div>'
         else
@@ -1501,7 +1501,7 @@ if $args[0]="JY_Fuck_WC":
             '<div class="buttonS4"><a href="exec:a=7 & gt ''Police_incident'',''JY_Fuck_WC''">Ejaculation</a></div>'
             end
             if a=7:
-            '<div class="buttonS4"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_WC''">dialogue</a></div>'
+            '<div class="buttonS4"><a href="exec:a=8 & gt ''Police_incident'',''JY_Fuck_WC''">Talk</a></div>'
             end
 
         '</div>'
@@ -1944,7 +1944,7 @@ if $args[0]="JY_Fuck_basement":
 			end
 
 			if a=9:
-			'<div class="buttonP"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_basement''">dialogue</a></div>'
+			'<div class="buttonP"><a href="exec:a=10 & gt ''Police_incident'',''JY_Fuck_basement''">Talk</a></div>'
 			end
 		'</div>'
 		else

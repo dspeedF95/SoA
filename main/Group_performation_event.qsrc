@@ -20,7 +20,7 @@ if $args[0]="Underground idol_Fuck":
 	 elseif piaozi <15000: gn=rand(1,2)
 	 elseif piaozi <25000: gn=rand(1,3)
 	 elseif piaozi <50000: gn=rand(1,4)
-	 elsegn=rand(1,5)
+	else gn=rand(1,5)
 	end
 	
 	if gn=1: $ga="A" & $gname="Abe Noomi"
@@ -2165,7 +2165,7 @@ if $args[0]="SPA_Fuck_Light luxury massage":
 			'<div class="buttonS5"><a href="exec:a=6 & spa+=1 & gt ''Group_performation_event'',''SPA_Fuck_Light luxury massage''">Internal injection</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 & gt ''Group_performation_event'',''SPA_Fuck_Light luxury massage''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 & gt ''Group_performation_event'',''SPA_Fuck_Light luxury massage''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -3056,7 +3056,7 @@ if $args[0]="Group_performance_Fuck_hopeA":
 			'<div class="buttonR"><a href="exec:a=4 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeA''">Anal creampie</a></div>'
 			end
 			if a=4:
-			'<div class="button"><a href="exec:a=5 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeA''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=5 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeA''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -3161,7 +3161,7 @@ if $args[0]="Group_performance_Fuck_hopeB":
 			'<div class="buttonGn"><a href="exec:a=11 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeB''">The inspection is complete</a></div>'
 			end
 			if a=11:
-			'<div class="button"><a href="exec:a=12 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeB''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=12 & gt ''Group_performation_event'',''Group_performance_Fuck_hopeB''">Talk</a></div>'
 			end
 
 		'</div>'
@@ -5332,7 +5332,7 @@ if $args[0]="random_Fuck_Trash girl":
 			if a>=12:'<div class="buttonR"><a href="exec:a=13 & gt ''Group_performation_event'',''random_Fuck_Trash girl''">Inward shot out</a></div>'
 			end
 			
-			if a=13:'<div class="buttonB2"><a href="exec:a=14 & gt ''Group_performation_event'',''random_Fuck_Trash girl''">dialogue</a></div>'
+			if a=13:'<div class="buttonB2"><a href="exec:a=14 & gt ''Group_performation_event'',''random_Fuck_Trash girl''">Talk</a></div>'
 		'</div>'
 		else
 			'<div class="button_menu">'

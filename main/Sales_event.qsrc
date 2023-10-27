@@ -202,7 +202,7 @@ if $args[0]="Sales_payment":
 			'<div class="button"><a href="exec:a=9 & gt ''Sales_event'',''Sales_payment''">Ejaculation</a></div>'
 			end
 			if a=9:
-			'<div class="button"><a href="exec:a=10 & gt ''Sales_event'',''Sales_payment''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=10 & gt ''Sales_event'',''Sales_payment''">Talk</a></div>'
 			end
 
 
@@ -284,7 +284,7 @@ if $args[0]="Sales_carting":
 			'<div class="button"><a href="exec:a=5 & gt ''Sales_event'',''Sales_carting''">Ejaculation</a></div>'
 			end
 			if a=5:
-			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''Sales_carting''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''Sales_carting''">Talk</a></div>'
 			end
 
 		'</div>'
@@ -359,7 +359,7 @@ if $args[0]="sales_Fuck_Her house":
 			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''sales_Fuck_Her house''">Swallow sperm</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_Her house''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_Her house''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -434,7 +434,7 @@ if $args[0]="sales_Fuck_Her house2":
 			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''sales_Fuck_Her house2''">Ejaculation</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_Her house2''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_Her house2''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -503,7 +503,7 @@ if $args[0]="sales_Fuck_Inside the car":
 			'<div class="buttonS"><a href="exec:a=5 & gt ''Sales_event'',''sales_Fuck_Inside the car''">Mouth explosion</a></div>'
 			end
 			if a=5:
-			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''sales_Fuck_Inside the car''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''sales_Fuck_Inside the car''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -572,7 +572,7 @@ if $args[0]="sales_Fuck_hotel":
 			'<div class="button"><a href="exec:a=6 & gt ''Sales_event'',''sales_Fuck_hotel''">Ejaculation</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_hotel''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 & gt ''Sales_event'',''sales_Fuck_hotel''">Talk</a></div>'
 			end
 		'</div>'
 		else

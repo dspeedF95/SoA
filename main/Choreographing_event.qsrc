@@ -207,7 +207,7 @@ if $args[0]="Choreographer_Fuck_Exercise after a meal":
 			'<div class="buttonR4"><a href="exec:a=9 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">Internal injection</a></div>'
 			end
 			if a=9:
-			'<div class="button"><a href="exec:a=10 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=10 & gt ''Choreographing_event'',''Choreographer_Fuck_Exercise after a meal''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -309,7 +309,7 @@ if $args[0]="Choreographer_Fuck_Bathroom door":
 			'<div class="buttonR"><a href="exec:a=9 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">Internal injection</a></div>'
 			end
 			if a=9:
-			'<div class="button"><a href="exec:a=10 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=10 & gt ''Choreographing_event'',''Choreographer_Fuck_Bathroom door''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -607,7 +607,7 @@ if $args[0]="Parking":
 			'<div class="button"><a href="exec:a=7 & gt ''Choreographing_event'',''Parking''">Shoot her inside</a></div>'
 			end
 			if a=7:
-			'<div class="button"><a href="exec:a=8 & gt ''Choreographing_event'',''Parking''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=8 & gt ''Choreographing_event'',''Parking''">Talk</a></div>'
 			end
 		'</div>'
 		else
@@ -685,7 +685,7 @@ if $args[0]="hotel":
 			'<div class="button"><a href="exec:a=6 & gt ''Choreographing_event'',''hotel''">Internal injection</a></div>'
 			end
 			if a=6:
-			'<div class="button"><a href="exec:a=7 & gt ''Choreographing_event'',''hotel''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=7 & gt ''Choreographing_event'',''hotel''">Talk</a></div>'
 			end
 
 		'</div>'
@@ -826,7 +826,7 @@ if $args[0]="Office white":
 			'<div class="button"><a href="exec:a=3 & gt ''Choreographing_event'',''Office white''">Mouth explosion</a></div>'
 			end
 			if a=3:
-			'<div class="button"><a href="exec:a=4 & gt ''Choreographing_event'',''Office white''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=4 & gt ''Choreographing_event'',''Office white''">Talk</a></div>'
 			end
 
 
@@ -1164,7 +1164,7 @@ if $args[0]="overnight":
 			'<div class="button"><a href="exec:a=1 & gt ''Choreographing_event'',''overnight''">Close</a></div>'
 			end
 			if a=1:
-			'<div class="button"><a href="exec:a=2 & gt ''Choreographing_event'',''overnight''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=2 & gt ''Choreographing_event'',''overnight''">Talk</a></div>'
 			end
 			if a=2:
 			'<div class="button"><a href="exec:a=3 & gt ''Choreographing_event'',''overnight''">tease</a></div>'

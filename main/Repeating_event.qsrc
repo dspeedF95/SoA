@@ -294,7 +294,7 @@ if $args[0]="LJ_Fuck_3P":
 			'<div class="button"><a href="exec:a=7 & gt ''Repeating_event'',''LJ_Fuck_3P''">Ejaculation</a></div>'
 			end
 			if a=7:
-			'<div class="button"><a href="exec:a=8 &  gt ''Repeating_event'',''LJ_Fuck_3P''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=8 &  gt ''Repeating_event'',''LJ_Fuck_3P''">Talk</a></div>'
 			end
 		'</div>'
 		else

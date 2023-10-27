@@ -489,7 +489,7 @@ if $args[0]="HZ_Fuck_On the bed":
 			'<div class="button"><a href="exec:a=1 & gt ''President_Event'',''HZ_Fuck_On the bed''">kiss</a></div>'
 			end
 			if a!2 and 1<=q and q<=4: 
-			'<div class="button"><a href="exec:a=2 & gt ''President_Event'',''HZ_Fuck_On the bed''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=2 & gt ''President_Event'',''HZ_Fuck_On the bed''">Talk</a></div>'
 			end
 			if a!3 and 2<=q and q<=5: 
 			'<div class="button"><a href="exec:a=3 & gt ''President_Event'',''HZ_Fuck_On the bed''">Oral sex</a></div>'
@@ -706,7 +706,7 @@ if $args[0]="HZ_Fuck_Music festival":
 			'<div class="button"><a href="exec:a=7 & gt ''President_Event'',''HZ_Fuck_Music festival''">Internal injection</a></div>'
 			end
 			if a=7:
-			'<div class="button"><a href="exec:a=8 & gt ''President_Event'',''HZ_Fuck_Music festival''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=8 & gt ''President_Event'',''HZ_Fuck_Music festival''">Talk</a></div>'
 			end
 			if a=8:
 			'<div class="button"><a href="exec:a=9 & gt ''President_Event'',''HZ_Fuck_Music festival''">hug</a></div>'
@@ -803,7 +803,7 @@ if $args[0]="HZ_Fuck_toys":
 			'<div class="button"><a href="exec:a=12 & gt ''President_Event'',''HZ_Fuck_toys''">Bukkake</a></div>'
 			end
 			if a=12:
-			'<div class="button"><a href="exec:a=13 & gt ''President_Event'',''HZ_Fuck_toys''">dialogue</a></div>'
+			'<div class="button"><a href="exec:a=13 & gt ''President_Event'',''HZ_Fuck_toys''">Talk</a></div>'
 			end
 		'</div>'
 
